@@ -29,7 +29,11 @@ const offerings = [
 function SiteHeader({ page }) {
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
+  const navigationRef = useRef(null);
   const closeMenu = () => { setOpen(false); menuRef.current?.focus(); };
+  React.useEffect(() => {
+    if (open) navigationRef.current?.querySelector('a')?.focus();
+  }, [open]);
   React.useEffect(() => {
     const desktop = window.matchMedia('(min-width: 66rem)');
     const resetMenu = () => { if (desktop.matches) setOpen(false); };
@@ -37,7 +41,7 @@ function SiteHeader({ page }) {
     return () => desktop.removeEventListener('change', resetMenu);
   }, []);
   return <>
-    <Header aria-label="Med Mission Supplies" className="site-header">
+    <Header aria-label="Med Mission Supplies" className="site-header" onKeyDown={event => { if (event.key === 'Escape' && open) { event.preventDefault(); closeMenu(); } }}>
       <SkipToContent href="#main-content" />
       <HeaderMenuButton ref={menuRef} aria-label={open ? 'Close navigation' : 'Open navigation'} aria-controls="mobile-navigation" aria-expanded={open} isActive={open} onClick={() => setOpen(!open)} />
       <HeaderName href="index.html" prefix="" className="brand">
@@ -48,7 +52,7 @@ function SiteHeader({ page }) {
         {navigation.map(([id, label]) => <HeaderMenuItem key={id} href={`${id}.html`} isCurrentPage={page === id} aria-current={page === id ? 'page' : undefined}>{label}</HeaderMenuItem>)}
       </HeaderNavigation>
       <div className="header-purpose">Equipment with purpose.</div>
-      <SideNav id="mobile-navigation" aria-label="Mobile navigation" expanded={open} isPersistent={false} addFocusListeners={false} addMouseListeners={false} onOverlayClick={closeMenu} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget) && event.relatedTarget !== menuRef.current) setOpen(false); }} onKeyDown={event => { if (event.key === 'Escape') closeMenu(); }}>
+      <SideNav ref={navigationRef} id="mobile-navigation" aria-label="Mobile navigation" aria-hidden={!open} expanded={open} isPersistent={false} addFocusListeners={false} addMouseListeners={false} onOverlayClick={closeMenu} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget) && event.relatedTarget !== menuRef.current) setOpen(false); }}>
         <SideNavItems>{navigation.map(([id, label]) => <SideNavLink key={id} href={`${id}.html`} isActive={page === id} aria-current={page === id ? 'page' : undefined}>{label}</SideNavLink>)}</SideNavItems>
       </SideNav>
     </Header>
@@ -135,11 +139,11 @@ function About() {
   return <>
     <PageHero page="about" eyebrow="ABOUT MED MISSION SUPPLIES" title={<>The mission is care.<br /><span>Our role is support.</span></>} description="We help clinics and mission hospitals access essential medical tools, with the practical expertise to put them to work." />
     <section className="about-story section-space"><Grid className="site-grid"><Column sm={4} md={3} lg={6}><Eyebrow>OUR PURPOSE</Eyebrow><h2>So you can focus<br />on patient care.</h2></Column><Column sm={4} md={5} lg={10} className="reading-copy"><p>Med Mission Supplies was founded with a mission-driven spirit: to serve clinics and mission hospitals in underserved regions. Our team brings hands-on experience in medical equipment and shipping support.</p><p>We work to reduce the burden of high costs and complicated logistics. By minimizing overhead and making thoughtful use of refurbished, portable equipment, we help our partners access durable tools for the realities of remote care.</p><p>Our commitment continues beyond delivery. Hands-on training and ongoing remote support help local teams operate and maintain equipment independently, strengthening healthcare capacity for the long term.</p></Column></Grid></section>
-    <section className="values-section" aria-label="Our approach"><Grid className="site-grid">{[
+    <section className="values-section" aria-label="Our approach"><div className="values-grid site-width">{[
       [Delivery, 'Practical equipment', 'Portable tools, straightforward setup, and manageable maintenance for clinics working with limited resources.'],
       [Education, 'Knowledge that stays', 'Hands-on training that helps local teams operate and maintain their equipment with confidence.'],
       [Partnership, 'Lasting partnerships', 'Ongoing remote support and sustainable relationships built around your community’s needs.'],
-    ].map(([Icon, title, text]) => <Column sm={4} md={8} lg={5} key={title}><div className="value-item"><Icon size={32} /><h3>{title}</h3><p>{text}</p></div></Column>)}</Grid></section>
+    ].map(([Icon, title, text]) => <article className="value-item" key={title}><Icon size={32} /><h3>{title}</h3><p>{text}</p></article>)}</div></section>
     <section className="team-section section-space" aria-labelledby="team-heading"><Grid className="site-grid section-heading"><Column sm={4} md={4} lg={8}><Eyebrow>THE PEOPLE BEHIND THE MISSION</Eyebrow><h2 id="team-heading">Meet our team.</h2></Column><Column sm={4} md={4} lg={8} className="section-intro"><p>A shared commitment to making essential medical equipment more accessible.</p></Column></Grid>
       <div className="team-grid site-width">{[
         ['LH', 'Lynette Hwang', 'Founder & CEO'], ['VL', 'Vincent Larkin', 'Director of Operations'], ['JL', 'John Landman', 'Assistant Programmer'],
@@ -205,7 +209,7 @@ function ContactForm() {
 function Contact() {
   return <>
     <PageHero page="contact" eyebrow="LET’S START A CONVERSATION" title={<>Your mission.<br /><span>Our shared purpose.</span></>} description="Whether you’re equipping a remote clinic or planning a mission project, we’re ready to listen." />
-    <section className="contact-section section-space"><Grid className="site-grid"><Column sm={4} md={3} lg={6} className="contact-information"><Eyebrow>CONTACT MED MISSION SUPPLIES</Eyebrow><h2>We’re here<br />to help you care.</h2><p>Tell us what you need, where you serve, and the challenges you’re working through. We’ll help you explore the right equipment and support.</p><div className="contact-detail"><Time size={24} /><div><h3>A thoughtful response</h3><p>We aim to respond within 48 hours.</p></div></div><div className="contact-detail"><Chat size={24} /><div><h3>A helpful conversation</h3><p>Equipment questions, logistics, training, or ongoing support — we’re happy to talk.</p></div></div><a className="text-link" href="https://www.linkedin.com/company/med-mission-supplies" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <ArrowUpRight size={20} /><span className="sr-only"> (opens in a new tab)</span></a></Column><Column sm={4} md={5} lg={{ span: 8, offset: 2 }}><ContactForm /></Column></Grid></section>
+    <section className="contact-section section-space"><Grid className="site-grid"><Column sm={4} md={5} lg={8}><ContactForm /></Column><Column sm={4} md={3} lg={{ span: 6, start: 11 }} className="contact-information"><Eyebrow>CONTACT MED MISSION SUPPLIES</Eyebrow><h2>We’re here<br />to help you care.</h2><p>Tell us what you need, where you serve, and the challenges you’re working through. We’ll help you explore the right equipment and support.</p><div className="contact-detail"><Time size={24} /><div><h3>A thoughtful response</h3><p>We aim to respond within 48 hours.</p></div></div><div className="contact-detail"><Chat size={24} /><div><h3>A helpful conversation</h3><p>Equipment questions, logistics, training, or ongoing support — we’re happy to talk.</p></div></div><a className="text-link" href="https://www.linkedin.com/company/med-mission-supplies" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <ArrowUpRight size={20} /><span className="sr-only"> (opens in a new tab)</span></a></Column></Grid></section>
   </>;
 }
 

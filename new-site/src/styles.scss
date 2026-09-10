@@ -2,6 +2,7 @@
 @use '@carbon/react/scss/reset';
 @use '@carbon/react/scss/grid';
 @use '@carbon/react/scss/layer';
+@use '@carbon/react/scss/layout';
 @use '@carbon/react/scss/zone';
 @use '@carbon/react/scss/components/ui-shell';
 @use '@carbon/react/scss/components/button';
@@ -45,6 +46,7 @@ body { margin: 0; }
   --cds-button-tertiary: #092b45;
   --cds-button-tertiary-hover: #164767;
   --cds-focus: #17597e;
+  --cds-border-interactive: #092b45;
   --cds-layer-01: #f2f5f7;
   color: var(--mms-navy);
   background: white;
@@ -57,10 +59,12 @@ img { max-width: 100%; height: auto; }
 button, a { -webkit-tap-highlight-color: transparent; }
 a:focus-visible, main:focus-visible { outline: 2px solid var(--cds-focus); outline-offset: 4px; }
 .site-width { width: calc(100% - 4rem); max-width: 92rem; margin-inline: auto; }
-.site-grid { max-width: 96rem; }
+.site-grid { max-width: 96rem; padding-inline: 1rem; }
 .site-header.cds--header { height: 5rem; background: #fff; border-bottom: 1px solid #dbe1e5; }
 .brand.cds--header__name { height: 5rem; padding-inline: 1.5rem 2rem; color: var(--mms-navy); font-size: 1.125rem; font-weight: 600; letter-spacing: -.025em; line-height: 1.2; }
-.brand img { width: 3.5rem; margin-right: .75rem; }
+.brand > span { display: flex; align-items: center; gap: .75rem; }
+.brand img { width: 3.5rem; height: 3.5rem; flex-shrink: 0; }
+.brand > span > span { white-space: nowrap; }
 .brand-second { display: block; font-weight: 400; }
 .cds--header__nav { padding-left: 0; }
 .cds--header__menu-item { height: 5rem; padding-inline: 1rem; }
@@ -70,7 +74,9 @@ a.cds--header__menu-item[aria-current=page] { background: #f2f5f7; color: var(--
 .header-purpose { margin-left: auto; padding-inline: 2rem; font-size: .875rem; color: #62707a; }
 .site-header .cds--header__action { height: 5rem; color: var(--mms-navy); }
 .site-header .cds--side-nav { top: 5rem; height: calc(100% - 5rem); }
+.site-header .cds--side-nav[aria-hidden='true'] { visibility: hidden; }
 .site-header .cds--side-nav__overlay { top: 5rem; }
+.site-header .cds--side-nav__link { min-block-size: 3rem; }
 main { padding-top: 5rem; }
 .eyebrow { @include type.type-style('label-02'); font-size: .75rem; font-weight: 500; letter-spacing: .09em; margin-bottom: 1.5rem; color: #536775; }
 .eyebrow-light { color: #b9ccd8; }
@@ -158,12 +164,13 @@ h2 { @include type.type-style('fluid-heading-04', true); font-weight: 300; lette
 }
 @media (max-width: 41.98rem) {
   .site-width { width: calc(100% - 2rem); }
+  .site-grid { padding-inline: 0; }
   .brand.cds--header__name { padding-inline: .25rem 1rem; }
   .hero-grid { padding-top: 2.5rem; padding-bottom: 2rem; }
   .hero-copy h1 { font-size: clamp(2.375rem, 8.5vw, 3.75rem); line-height: 1.12; }
   .hero-description { margin-top: 1.5rem; font-size: 1rem; }
   .eyebrow { font-size: .75rem; line-height: 1.5; margin-bottom: 1rem; }
-  .hero-seal { margin-top: 2rem; }
+  .hero-seal { display: none; }
   .seal-frame { max-width: 16rem; }
   .hero-principles { grid-template-columns: 1fr; gap: 1.25rem; }
   .hero-principles span + span { padding-left: 0; border: 0; }
@@ -189,6 +196,7 @@ h2 { @include type.type-style('fluid-heading-04', true); font-weight: 300; lette
 .page-hero { padding-block: 1.5rem 3.5rem; border-bottom: 4px solid var(--mms-gold); }
 .page-hero > .site-grid { align-items: center; }
 .page-breadcrumb { margin-bottom: 3rem; }
+.page-breadcrumb .cds--breadcrumb { display: flex; flex-wrap: wrap; align-items: center; }
 .page-breadcrumb .cds--link, .page-breadcrumb .cds--breadcrumb-item { color: #b9ccd8; font-size: .875rem; }
 .page-breadcrumb .cds--breadcrumb-item::after { color: #91aabb; }
 .page-hero-copy h1 { @include type.type-style('fluid-heading-05', true); font-weight: 300; letter-spacing: -.03em; }
@@ -216,7 +224,8 @@ h2 { @include type.type-style('fluid-heading-04', true); font-weight: 300; lette
 .reading-copy p { max-width: 47rem; font-size: 1.125rem; line-height: 1.65; color: #465968; margin-bottom: 1.5rem; }
 .reading-copy p:last-child { margin-bottom: 0; }
 .values-section { padding-block: 3rem; background: #f2f5f7; }
-.values-section > .site-grid { column-gap: 3rem; grid-template-columns: repeat(15, minmax(0,1fr)); }
+.values-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 2rem; }
+.value-item + .value-item { padding-left: 2rem; border-left: 1px solid #cbd6dc; }
 .value-item > svg { color: #337698; margin-bottom: 2rem; }
 .value-item h3 { font-size: 1.5rem; font-weight: 400; margin-bottom: 1rem; }
 .value-item p { color: #465968; }
@@ -265,7 +274,8 @@ h2 { @include type.type-style('fluid-heading-04', true); font-weight: 300; lette
   .equipment-detail { grid-template-columns: 4rem 1fr; }
   .model-panel { grid-column: 2; min-height: 0; }
   .model-panel h3 { margin-top: 1rem; }
-  .values-section > .site-grid { grid-template-columns: repeat(8,minmax(0,1fr)); row-gap: 2rem; }
+  .values-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .value-item + .value-item { padding: 2rem 0 0; border-left: 0; border-top: 1px solid #cbd6dc; }
   .value-item { display: grid; grid-template-columns: 3rem 1fr; gap: .5rem 1rem; }
   .value-item > svg { grid-row: span 2; margin: 0; }
   .value-item h3 { margin-bottom: .25rem; }
@@ -290,12 +300,13 @@ h2 { @include type.type-style('fluid-heading-04', true); font-weight: 300; lette
   .support-note { padding: 1.5rem; gap: 1rem; margin-bottom: 3rem; }
   .reading-copy { margin-top: 1.5rem; }
   .reading-copy p { font-size: 1rem; }
-  .values-section > .site-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
   .team-grid { grid-template-columns: 1fr; }
   .team-member { padding: 1.5rem 0; flex-direction: row; align-items: center; }
   .team-member + .team-member { border-left: 0; border-top: 1px solid #cbd6dc; }
   .careers-description { font-size: 1rem; }
   .careers-aside { padding-left: 0; margin-top: 2rem; }
-  .contact-form, .form-success { margin-top: 2.5rem; }
+  .contact-section .contact-information { margin-top: 2.5rem; }
+  .contact-form, .form-success { margin-top: 0; }
+  .footer-bottom nav a { padding-block: .5rem; }
   .not-found h1 { font-size: 2.25rem; }
 }

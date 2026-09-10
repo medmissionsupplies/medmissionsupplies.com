@@ -42,7 +42,11 @@ Delivery continues to depend on the existing Formspree account configuration and
 
 ## Validation
 
-`npm run build` verifies rendered pages, heading and landmark presence, local asset paths including fonts, internal links and anchors, retained staff, and the original form endpoint. `npm test` verifies the form transport. A read-only source review also covered content fidelity, navigation focus, responsive styles, and text contrast. Interactive browser testing and a live submission were not performed.
+`npm run build` verifies rendered pages, heading and landmark presence, local asset paths including fonts, internal links and anchors, retained staff, and the original form endpoint. `npm test` verifies the form transport. A source review also covered content fidelity, navigation focus, responsive styles, and text contrast.
+
+Browser review covered all five pages at 320, 768, 1056, and 1600 CSS pixels, with additional visual checks at 390 and 1440 pixels. The pages have no horizontal overflow at these sizes, primary buttons retain their 48-pixel height, and no broken images or browser console errors were observed. Interactive checks verified menu opening and focus, Escape dismissal, focus-exit dismissal, desktop keyboard order, equipment inquiry prefilling, and required-field validation. No live messages were sent.
+
+The layout corrections include Carbon's required layout styles, logo alignment, consistent content gutters, the contact form's column placement and mobile reading order, About-page spacing, compact mobile heroes and breadcrumbs, and hidden-menu visibility.
 
 ## Main files
 
