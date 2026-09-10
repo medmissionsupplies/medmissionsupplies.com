@@ -34,6 +34,39 @@
 }
 html { scroll-behavior: smooth; scroll-padding-top: 7rem; }
 body { margin: 0; }
+
+// Keep native links, history, and anchor navigation; animate only when supported.
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+
+  .site-header { view-transition-name: mms-header; }
+
+  ::view-transition-old(root) {
+    animation: mms-page-out 240ms cubic-bezier(.4, 0, 1, 1) both;
+    mix-blend-mode: normal;
+  }
+  ::view-transition-new(root) {
+    animation: mms-page-in 320ms cubic-bezier(.2, 0, 0, 1) both;
+    mix-blend-mode: normal;
+  }
+  ::view-transition-group(mms-header),
+  ::view-transition-new(mms-header) { animation: none; }
+  ::view-transition-group(mms-header) { z-index: 1; }
+  ::view-transition-old(mms-header) { display: none; }
+}
+
+@keyframes mms-page-out {
+  to { opacity: 0; transform: translateX(-2rem); }
+}
+@keyframes mms-page-in {
+  from { opacity: 0; transform: translateX(2.5rem); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition { navigation: none; }
+}
+
 .mms-site {
   --cds-background: #fff;
   --cds-text-primary: #092b45;
@@ -237,7 +270,6 @@ h2 { @include type.type-style('fluid-heading-04', true); font-weight: 300; lette
 .team-member h3 { font-size: 1.125rem; font-weight: 500; margin-bottom: .5rem; }
 .team-member p { color: #536775; font-size: .875rem; }
 .careers-description { max-width: 34rem; color: #465968; margin-top: 1.5rem; font-size: 1.125rem; line-height: 1.6; }
-.careers-banner { display: block; width: 100%; max-width: 34rem; aspect-ratio: 2/1; object-fit: cover; object-position: bottom; margin-top: 2.5rem; }
 .careers-aside { padding-left: 3rem; }
 .opportunity-panel { padding: 2.5rem; background: #f2f5f7; border-top: 3px solid #337698; }
 .opportunity-panel > svg { margin-bottom: 2rem; color: #337698; }
