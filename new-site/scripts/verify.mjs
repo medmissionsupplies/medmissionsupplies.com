@@ -7,6 +7,11 @@ const pages = ['index', 'offerings', 'about', 'employment', 'contact', '404'];
 let links = 0;
 const rendered = new Map();
 for (const page of pages) rendered.set(`${page}.html`, await readFile(resolve(root, `${page}.html`), 'utf8'));
+for (const page of pages.filter(page => page !== 'index' && page !== '404')) {
+  const html = await readFile(resolve(root, page, 'index.html'), 'utf8');
+  assert.equal(html, rendered.get(`${page}.html`), `${page}: short URL differs from the original page`);
+  rendered.set(`${page}/index.html`, html);
+}
 for (const [file, html] of rendered) {
   assert.equal((html.match(/<h1\b/g) || []).length, 1, `${file}: expected exactly one h1`);
   assert.ok(html.includes('id="main-content"'), `${file}: missing main landmark`);
@@ -16,13 +21,13 @@ for (const [file, html] of rendered) {
   for (const match of html.matchAll(/(?:href|src)="([^"#]+)(?:#[^"]*)?"/g)) {
     const url = match[1].replace(/&amp;/g, '&');
     if (/^(https?:|data:|mailto:|tel:)/.test(url)) continue;
-    const target = url.split(/[?#]/)[0].replace(/^\.\//, '').replace(/^\//, '');
+    const target = new URL(url, `https://mms.invalid/${file}`).pathname.slice(1);
     if (!target) continue;
     await access(resolve(root, target));
     links++;
   }
   for (const match of html.matchAll(/href="([^"#?]*)#([^"]+)"/g)) {
-    const destination = match[1] || file;
+    const destination = match[1] ? new URL(match[1], `https://mms.invalid/${file}`).pathname.slice(1) : file;
     const targetHtml = rendered.get(destination);
     assert.ok(targetHtml?.includes(`id="${match[2]}"`), `${file}: broken anchor ${match[0]}`);
   }
@@ -41,8 +46,12 @@ for (const file of await readdir(resolve(root, 'assets'))) {
   assert.ok(!css.includes('~@ibm'), 'Unresolved font paths');
   for (const match of css.matchAll(/url\(["']?([^"')]+)["']?\)/g)) {
     if (/^(data:|https?:)/.test(match[1])) continue;
-    await access(resolve(root, 'assets', decodeURIComponent(match[1])));
+    const path = new URL(match[1], `https://mms.invalid/assets/${file}`).pathname.slice(1);
+    await access(resolve(root, decodeURIComponent(path)));
   }
 }
-assert.ok(rendered.get('404.html').includes('<base href="/"'), '404 needs root-aware asset paths');
-console.log(`Verified ${pages.length} rendered pages, ${links} local references, fonts, page anchors, team content, and contact integration.`);
+for (const match of rendered.get('404.html').matchAll(/(?:href|src)="([^"#]+)"/g)) {
+  assert.ok(/^(\/|https?:|data:|mailto:|tel:)/.test(match[1]), `404 needs root-aware paths: ${match[1]}`);
+}
+for (const license of ['Carbon-Apache-2.0.txt', 'IBM-Plex-OFL.txt']) await access(resolve(root, 'licenses', license));
+console.log(`Verified ${rendered.size} rendered pages, ${links} local references, fonts, page anchors, team content, contact integration, and licenses.`);

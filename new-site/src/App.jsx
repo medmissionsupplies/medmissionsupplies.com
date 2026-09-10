@@ -44,16 +44,16 @@ function SiteHeader({ page }) {
     <Header aria-label="Med Mission Supplies" className="site-header" onKeyDown={event => { if (event.key === 'Escape' && open) { event.preventDefault(); closeMenu(); } }}>
       <SkipToContent href="#main-content" />
       <HeaderMenuButton ref={menuRef} aria-label={open ? 'Close navigation' : 'Open navigation'} aria-controls="mobile-navigation" aria-expanded={open} isActive={open} onClick={() => setOpen(!open)} />
-      <HeaderName href="index.html" prefix="" className="brand">
-        <img src="assets/mms-logo.png" alt="" width="56" height="56" />
+      <HeaderName href="/index.html" prefix="" className="brand">
+        <img src="/assets/mms-logo.png" alt="" width="56" height="56" />
         <span>Med Mission<span className="brand-second">Supplies</span></span>
       </HeaderName>
       <HeaderNavigation aria-label="Main navigation">
-        {navigation.map(([id, label]) => <HeaderMenuItem key={id} href={`${id}.html`} isCurrentPage={page === id} aria-current={page === id ? 'page' : undefined}>{label}</HeaderMenuItem>)}
+        {navigation.map(([id, label]) => <HeaderMenuItem key={id} href={`/${id}.html`} isCurrentPage={page === id} aria-current={page === id ? 'page' : undefined}>{label}</HeaderMenuItem>)}
       </HeaderNavigation>
       <div className="header-purpose">Equipment with purpose.</div>
       <SideNav ref={navigationRef} id="mobile-navigation" aria-label="Mobile navigation" aria-hidden={!open} expanded={open} isPersistent={false} addFocusListeners={false} addMouseListeners={false} onOverlayClick={closeMenu} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget) && event.relatedTarget !== menuRef.current) setOpen(false); }}>
-        <SideNavItems>{navigation.map(([id, label]) => <SideNavLink key={id} href={`${id}.html`} isActive={page === id} aria-current={page === id ? 'page' : undefined}>{label}</SideNavLink>)}</SideNavItems>
+        <SideNavItems>{navigation.map(([id, label]) => <SideNavLink key={id} href={`/${id}.html`} isActive={page === id} aria-current={page === id ? 'page' : undefined}>{label}</SideNavLink>)}</SideNavItems>
       </SideNav>
     </Header>
   </>;
@@ -65,7 +65,7 @@ function ContactBand() {
   return <Theme theme="g100" className="contact-band dark-region">
     <Grid className="site-grid">
       <Column sm={4} md={5} lg={11}><Eyebrow light>LET’S TALK ABOUT YOUR MISSION</Eyebrow><h2>Good care starts with<br />the right support.</h2></Column>
-      <Column sm={4} md={3} lg={5} className="contact-band-action"><p>Tell us what your clinic needs.<br />We’re here to help you find a way forward.</p><Button href="contact.html" renderIcon={ArrowRight} className="gold-button">Start a conversation</Button></Column>
+      <Column sm={4} md={3} lg={5} className="contact-band-action"><p>Tell us what your clinic needs.<br />We’re here to help you find a way forward.</p><Button href="/contact.html" renderIcon={ArrowRight} className="gold-button">Start a conversation</Button></Column>
     </Grid>
   </Theme>;
 }
@@ -73,10 +73,10 @@ function ContactBand() {
 function SiteFooter() {
   return <footer className="site-footer">
     <div className="footer-top site-width">
-      <a className="footer-brand" href="index.html"><img src="assets/mms-logo-white.png" alt="" width="88" height="59" /><span>Med Mission Supplies<span>Supporting care. Expanding possibilities.</span></span></a>
+      <a className="footer-brand" href="/index.html"><img src="/assets/mms-logo-white.png" alt="" width="88" height="59" /><span>Med Mission Supplies<span>Supporting care. Expanding possibilities.</span></span></a>
       <a className="footer-social" href="https://www.linkedin.com/company/med-mission-supplies" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <LogoLinkedin size={20} /><span className="sr-only"> (opens in a new tab)</span></a>
     </div>
-    <div className="footer-bottom site-width"><p>© {new Date().getFullYear()} Med Mission Supplies</p><nav aria-label="Footer navigation">{navigation.slice(1).map(([id, label]) => <a key={id} href={`${id}.html`}>{label}</a>)}</nav></div>
+    <div className="footer-bottom site-width"><p>© {new Date().getFullYear()} Med Mission Supplies</p><nav aria-label="Footer navigation">{navigation.slice(1).map(([id, label]) => <a key={id} href={`/${id}.html`}>{label}</a>)}</nav></div>
   </footer>;
 }
 
@@ -88,24 +88,24 @@ function Home() {
           <Eyebrow light>FOR MISSION HOSPITALS & REMOTE CLINICS</Eyebrow>
           <h1>Better equipment.<br /><span>Greater reach.</span></h1>
           <p className="hero-description">Reliable medical tools for the places that need them most. We help you navigate equipment and logistics, so you can focus on caring for your community.</p>
-          <div className="button-row"><Button href="offerings.html" renderIcon={ArrowRight} className="gold-button">Explore our offerings</Button><Button kind="ghost" href="about.html" className="light-ghost">Our mission</Button></div>
+          <div className="button-row"><Button href="/offerings.html" renderIcon={ArrowRight} className="gold-button">Explore our offerings</Button><Button kind="ghost" href="/about.html" className="light-ghost">Our mission</Button></div>
         </Column>
         <Column sm={4} md={3} lg={7} className="hero-seal">
-          <div className="seal-frame"><img src="assets/mms-logo.png" alt="Med Mission Supplies — medical care with a global mission" width="1024" height="1024" fetchPriority="high" /></div>
+          <div className="seal-frame"><img src="/assets/mms-logo.png" alt="Med Mission Supplies — medical care with a global mission" width="1024" height="1024" fetchPriority="high" /></div>
           <p>Supporting care, wherever you serve.</p>
         </Column>
       </Grid>
       <div className="hero-principles site-width"><span><Delivery size={24} />Portable equipment</span><span><Earth size={24} />A mission that reaches further</span><span><Partnership size={24} />Support beyond delivery</span></div>
     </Theme>
     <section className="offerings-overview section-space" aria-labelledby="offerings-heading">
-      <Grid className="site-grid section-heading"><Column sm={4} md={4} lg={8}><Eyebrow>01 / OUR OFFERINGS</Eyebrow><h2 id="offerings-heading">Essential tools.<br />Extraordinary purpose.</h2></Column><Column sm={4} md={4} lg={8} className="section-intro"><p>Durable, portable equipment. Straightforward setup. Every recommendation starts with the realities of your clinic.</p><a className="text-link" href="offerings.html">View all equipment <ArrowRight size={20} /></a></Column></Grid>
+      <Grid className="site-grid section-heading"><Column sm={4} md={4} lg={8}><Eyebrow>01 / OUR OFFERINGS</Eyebrow><h2 id="offerings-heading">Essential tools.<br />Extraordinary purpose.</h2></Column><Column sm={4} md={4} lg={8} className="section-intro"><p>Durable, portable equipment. Straightforward setup. Every recommendation starts with the realities of your clinic.</p><a className="text-link" href="/offerings.html">View all equipment <ArrowRight size={20} /></a></Column></Grid>
       <Grid className="site-grid equipment-grid">{offerings.map(({ id, title, model, icon: Icon, summary }, i) => <Column sm={4} md={4} lg={4} key={id}>
-        <ClickableTile href={`offerings.html#${id}`} className="equipment-tile"><div className="tile-top"><Icon size={32} /><span>0{i + 1}</span></div><h3>{title}</h3><p>{summary}</p><div className="tile-bottom"><span>{model}</span><ArrowRight size={24} /></div></ClickableTile>
+        <ClickableTile href={`/offerings.html#${id}`} className="equipment-tile"><div className="tile-top"><Icon size={32} /><span>0{i + 1}</span></div><h3>{title}</h3><p>{summary}</p><div className="tile-bottom"><span>{model}</span><ArrowRight size={24} /></div></ClickableTile>
       </Column>)}</Grid>
     </section>
     <section className="mission-section" aria-labelledby="mission-heading"><Grid className="site-grid">
-      <Column sm={4} md={3} lg={7} className="mission-image"><img src="assets/mms-banner-center.png" alt="The Med Mission Supplies seal on our blue and gold banner" width="1536" height="1024" loading="lazy" /></Column>
-      <Column sm={4} md={5} lg={9} className="mission-copy"><Eyebrow>02 / WHY WE’RE HERE</Eyebrow><h2 id="mission-heading">More than equipment.<br />A partner in your mission.</h2><p>We’re founded by people with hands-on experience in medical equipment and shipping support for mission hospitals and remote clinics.</p><p>By keeping overhead low and making thoughtful use of refurbished, portable equipment, we help caregivers access the tools they need. Hands-on training and ongoing remote support help local teams build lasting independence.</p><a className="text-link" href="about.html">Get to know Med Mission Supplies <ArrowRight size={20} /></a></Column>
+      <Column sm={4} md={3} lg={7} className="mission-image"><img src="/assets/mms-banner-center.png" alt="The Med Mission Supplies seal on our blue and gold banner" width="1536" height="1024" loading="lazy" /></Column>
+      <Column sm={4} md={5} lg={9} className="mission-copy"><Eyebrow>02 / WHY WE’RE HERE</Eyebrow><h2 id="mission-heading">More than equipment.<br />A partner in your mission.</h2><p>We’re founded by people with hands-on experience in medical equipment and shipping support for mission hospitals and remote clinics.</p><p>By keeping overhead low and making thoughtful use of refurbished, portable equipment, we help caregivers access the tools they need. Hands-on training and ongoing remote support help local teams build lasting independence.</p><a className="text-link" href="/about.html">Get to know Med Mission Supplies <ArrowRight size={20} /></a></Column>
     </Grid></section>
     <ContactBand />
   </>;
@@ -113,9 +113,9 @@ function Home() {
 
 function PageHero({ page, eyebrow, title, description, children }) {
   return <Theme theme="g100" className="page-hero dark-region"><Grid className="site-grid">
-    <Column sm={4} md={8} lg={16}><Breadcrumb noTrailingSlash className="page-breadcrumb"><BreadcrumbItem href="index.html">Home</BreadcrumbItem><BreadcrumbItem isCurrentPage>{navigation.find(([id]) => id === page)?.[1]}</BreadcrumbItem></Breadcrumb></Column>
+    <Column sm={4} md={8} lg={16}><Breadcrumb noTrailingSlash className="page-breadcrumb"><BreadcrumbItem href="/index.html">Home</BreadcrumbItem><BreadcrumbItem isCurrentPage>{navigation.find(([id]) => id === page)?.[1]}</BreadcrumbItem></Breadcrumb></Column>
     <Column sm={4} md={5} lg={10} className="page-hero-copy"><Eyebrow light>{eyebrow}</Eyebrow><h1>{title}</h1><p>{description}</p></Column>
-    <Column sm={4} md={3} lg={6} className="page-hero-aside">{children || <img className="page-seal" src="assets/mms-logo-white.png" alt="" width="1500" height="1000" />}</Column>
+    <Column sm={4} md={3} lg={6} className="page-hero-aside">{children || <img className="page-seal" src="/assets/mms-logo-white.png" alt="" width="1500" height="1000" />}</Column>
   </Grid></Theme>;
 }
 
@@ -126,7 +126,7 @@ function Offerings() {
       <div className="site-width equipment-intro"><p>Explore our core equipment categories.</p><p>Models below are examples of our offerings. Contact us to discuss availability and the right fit for your clinic.</p></div>
       {offerings.map(({ id, title, model, icon: Icon, description }, i) => <article className="equipment-detail site-width" id={id} key={id}>
         <div className="equipment-identity"><span className="detail-number">0{i + 1}</span><Icon size={56} /></div>
-        <div className="equipment-description"><h2>{title}</h2><p>{description}</p><a className="text-link" href={`contact.html?equipment=${encodeURIComponent(title)}`}>Discuss {id === 'xray' ? 'X-ray' : id === 'ekg' ? 'EKG' : id} needs <ArrowRight size={20} /></a></div>
+        <div className="equipment-description"><h2>{title}</h2><p>{description}</p><a className="text-link" href={`/contact.html?equipment=${encodeURIComponent(title)}`}>Discuss {id === 'xray' ? 'X-ray' : id === 'ekg' ? 'EKG' : id} needs <ArrowRight size={20} /></a></div>
         <div className="model-panel"><span>FEATURED SYSTEM</span><h3>{model}</h3><p>{id === 'ultrasound' ? 'Portable ultrasound' : id === 'endoscopy' ? 'Systems & interchangeable scopes' : id === 'ekg' ? 'Cardiac assessment equipment' : 'Portable digital imaging'}</p></div>
       </article>)}
     </section>
@@ -156,7 +156,7 @@ function About() {
 function Employment() {
   return <>
     <PageHero page="employment" eyebrow="WORK WITH PURPOSE" title={<>Bring your skills.<br /><span>Support a mission.</span></>} description="We’re building a team that’s passionate about helping caregivers serve communities in need." />
-    <section className="careers-section section-space"><Grid className="site-grid"><Column sm={4} md={4} lg={8}><Eyebrow>CAREER OPPORTUNITIES</Eyebrow><h2>Your next chapter<br />could help someone else’s.</h2><p className="careers-description">Our work connects medical equipment, practical support, and a commitment to better access to care. If that purpose speaks to you, explore opportunities with Med Mission Supplies.</p><img className="careers-banner" src="assets/mms-banner-center.png" alt="Med Mission Supplies blue and gold banner" width="1536" height="1024" loading="lazy" /></Column><Column sm={4} md={4} lg={8} className="careers-aside"><div className="opportunity-panel"><LogoLinkedin size={40} /><Eyebrow>STAY CONNECTED</Eyebrow><h3>Find us on LinkedIn.</h3><p>Visit our company page for updates, current opportunities, and application details. You can also check back here as our team grows.</p><Button href="https://www.linkedin.com/company/med-mission-supplies" target="_blank" rel="noopener noreferrer" renderIcon={ArrowUpRight}>Visit our LinkedIn page<span className="sr-only"> (opens in a new tab)</span></Button></div><div className="careers-question"><h3>A question about our team?</h3><p>We’re happy to hear from people who share our mission.</p><a href="contact.html" className="text-link">Get in touch <ArrowRight size={20} /></a></div></Column></Grid></section>
+    <section className="careers-section section-space"><Grid className="site-grid"><Column sm={4} md={4} lg={8}><Eyebrow>CAREER OPPORTUNITIES</Eyebrow><h2>Your next chapter<br />could help someone else’s.</h2><p className="careers-description">Our work connects medical equipment, practical support, and a commitment to better access to care. If that purpose speaks to you, explore opportunities with Med Mission Supplies.</p><img className="careers-banner" src="/assets/mms-banner-center.png" alt="Med Mission Supplies blue and gold banner" width="1536" height="1024" loading="lazy" /></Column><Column sm={4} md={4} lg={8} className="careers-aside"><div className="opportunity-panel"><LogoLinkedin size={40} /><Eyebrow>STAY CONNECTED</Eyebrow><h3>Find us on LinkedIn.</h3><p>Visit our company page for updates, current opportunities, and application details. You can also check back here as our team grows.</p><Button href="https://www.linkedin.com/company/med-mission-supplies" target="_blank" rel="noopener noreferrer" renderIcon={ArrowUpRight}>Visit our LinkedIn page<span className="sr-only"> (opens in a new tab)</span></Button></div><div className="careers-question"><h3>A question about our team?</h3><p>We’re happy to hear from people who share our mission.</p><a href="/contact.html" className="text-link">Get in touch <ArrowRight size={20} /></a></div></Column></Grid></section>
   </>;
 }
 
@@ -214,7 +214,7 @@ function Contact() {
 }
 
 function NotFound() {
-  return <section className="not-found section-space site-width"><Eyebrow>PAGE NOT FOUND</Eyebrow><h1>Let’s get you back on track.</h1><p>The page you’re looking for isn’t here.</p><Button href="index.html" renderIcon={ArrowRight}>Go to the homepage</Button></section>;
+  return <section className="not-found section-space site-width"><Eyebrow>PAGE NOT FOUND</Eyebrow><h1>Let’s get you back on track.</h1><p>The page you’re looking for isn’t here.</p><Button href="/index.html" renderIcon={ArrowRight}>Go to the homepage</Button></section>;
 }
 
 export function App({ page = 'index' }) {

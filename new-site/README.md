@@ -19,9 +19,11 @@ npm run build
 npm run preview
 ```
 
-The build creates a portable static website in `dist/`, with pre-rendered HTML for all five pages and a 404 page. Upload the contents of `dist/` to the selected web host when ready to replace the original. No server runtime is required. The original website has not been replaced or deployed over.
+The build creates a portable static website in `dist/`, with pre-rendered HTML for all five pages, four short-URL aliases, a 404 page, and third-party licenses. No application runtime is required.
 
-The normal page URLs remain `index.html`, `offerings.html`, `about.html`, `employment.html`, and `contact.html`. Static hosting at the domain root is supported, including nested missing URLs via `404.html`. For deployment under a subdirectory, adjust the generated 404 base URL in `scripts/prerender.jsx` to that subdirectory.
+The normal page URLs remain `index.html`, `offerings.html`, `about.html`, `employment.html`, and `contact.html`. Directory index copies also serve `/offerings/`, `/about/`, `/employment/`, and `/contact/`; the web server can redirect the corresponding paths without a trailing slash. Assets and internal links use paths from the domain root so every entry point loads the correct page. Configure the host to return `404.html` with HTTP 404 for missing URLs; do not use a fallback to `index.html`.
+
+See [NAS deployment](deploy/README.md) and the accompanying NGINX configuration for hosting and rollback details.
 
 ## Design and implementation
 
