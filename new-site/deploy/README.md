@@ -10,6 +10,16 @@ For a new release, build and validate locally, upload to a new release folder, c
 
 Cloudflare's existing NAS tunnel connects the domain to the web app. No router port forwarding is required. Email and unrelated subdomain DNS records must remain unchanged.
 
+## Intermittent Cloudflare error investigation — September 11, 2026
+
+Error 1034 was reproduced when the local network resolved `www.medmissionsupplies.com` through the former Wix CNAME to `162.159.143.12`. The same hostname returned the correct site with HTTP 200 through both current Cloudflare IPv4 addresses and both IPv6 addresses. The base domain passed the same checks.
+
+Both authoritative nameservers (`amit.ns.cloudflare.com` and `sureena.ns.cloudflare.com`) and Cloudflare, Google, and Quad9 public resolvers returned the current records. The local router's IPv4 and IPv6 DNS endpoints still returned the former Wix addresses. Registry data showed a domain update on September 10 at 18:35 UTC; the parent nameserver delegation TTL was 48 hours. These observations are consistent with old DNS caches remaining after the nameserver migration. An authoritative DNS edit or website cache purge cannot expire a record already cached by another resolver.
+
+The Cloudflare dashboard showed one healthy NAS connector with four edge connections and the expected routes. Since the site was first deployed, the NAS web container had no restarts, no out-of-memory events, no NGINX errors, and no HTTP 5xx responses; the relevant tunnel had no warning or error entries during that period. The NGINX configuration passed validation. No conflicting website DNS records or DNSSEC delegation mismatch was found.
+
+For an affected device, resolving through `1.1.1.1`/`1.0.0.1` can avoid the stale resolver while its cache expires. DNS changes to devices or routers should be deliberate; the investigation did not change them. If errors persist after propagation, record the exact Cloudflare code, time, hostname, network, and resolved address before changing the tunnel. Cloudflare documents [error 1034](https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1034/) and [DNS TTL behavior](https://developers.cloudflare.com/dns/manage-dns-records/reference/ttl/).
+
 ## Previous website DNS (before NAS cutover)
 
 These records were DNS-only with automatic TTL:

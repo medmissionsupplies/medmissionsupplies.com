@@ -53,7 +53,7 @@ function SiteHeader({ page }) {
       </HeaderNavigation>
       <div className="header-purpose">Equipment with purpose.</div>
       <SideNav ref={navigationRef} id="mobile-navigation" aria-label="Mobile navigation" aria-hidden={!open} expanded={open} isPersistent={false} addFocusListeners={false} addMouseListeners={false} onOverlayClick={closeMenu} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget) && event.relatedTarget !== menuRef.current) setOpen(false); }}>
-        <SideNavItems>{navigation.map(([id, label]) => <SideNavLink key={id} href={`/${id}.html`} isActive={page === id} aria-current={page === id ? 'page' : undefined}>{label}</SideNavLink>)}</SideNavItems>
+        <SideNavItems>{navigation.map(([id, label]) => <SideNavLink key={id} href={`/${id}.html`} isActive={page === id} aria-current={page === id ? 'page' : undefined} onClick={closeMenu}>{label}</SideNavLink>)}</SideNavItems>
       </SideNav>
     </Header>
   </>;
