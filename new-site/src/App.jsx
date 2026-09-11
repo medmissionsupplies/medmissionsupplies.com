@@ -20,9 +20,9 @@ export const pageFromPath = path => {
 };
 
 const offerings = [
-  { id: 'ultrasound', title: 'Ultrasound equipment', model: 'SonoSite mTurbo', icon: Scan, summary: 'Portable imaging for care beyond the hospital.', description: 'Portable ultrasound systems selected for durability and clear imaging, supporting maternal health, emergency diagnostics, and routine screenings in remote locations.' },
+  { id: 'ultrasound', title: 'Ultrasound equipment', model: 'SonoSite M-Turbo', icon: Scan, summary: 'Portable imaging for care beyond the hospital.', description: 'Portable ultrasound systems selected for durability and clear imaging, supporting maternal health, emergency diagnostics, and routine screenings in remote locations.' },
   { id: 'endoscopy', title: 'Endoscopy systems', model: 'Olympus GIF-160', icon: View, summary: 'A clearer view. A more confident next step.', description: 'Endoscopy systems and interchangeable scopes for gastrointestinal and ENT procedures. Compact equipment helps mission clinics access essential visualization tools without excessive bulk.' },
-  { id: 'ekg', title: 'EKG machines', model: 'Zoll M Series', icon: Favorite, summary: 'Practical tools for essential cardiac assessment.', description: 'Easy-to-use EKG equipment, pre-tested and calibrated, with straightforward operation and minimal maintenance requirements for the places you serve.' },
+  { id: 'ekg', title: 'EKG machines', model: 'ZOLL M Series', icon: Favorite, summary: 'Practical tools for essential cardiac assessment.', description: 'Easy-to-use EKG equipment, pre-tested and calibrated, with straightforward operation and minimal maintenance requirements for the places you serve.' },
   { id: 'xray', title: 'Portable X-ray units', model: 'MinXray HF100/200', icon: ImageMedical, summary: 'Essential radiography. Wherever care happens.', description: 'Portable X-ray units with digital imaging panels, selected for low-power operation and simple setup in field hospitals and rural clinics without fixed imaging infrastructure.' },
 ];
 
@@ -169,7 +169,10 @@ function ContactForm() {
   // Read optional equipment context after hydration so static HTML stays consistent.
   React.useEffect(() => {
     const requested = new URLSearchParams(window.location.search).get('equipment');
-    if (offerings.some(item => item.title === requested)) setInquiry(`I’d like to discuss ${requested.toLowerCase()} for our clinic.\n\n`);
+    if (offerings.some(item => item.title === requested)) {
+      const subject = requested.replace(/^[A-Z][a-z]+/, word => word.toLowerCase());
+      setInquiry(`I’d like to discuss ${subject} for our clinic.\n\n`);
+    }
   }, []);
   React.useEffect(() => {
     if (state === 'success' || state === 'error') notificationRef.current?.focus();

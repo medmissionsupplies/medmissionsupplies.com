@@ -33,7 +33,7 @@ See [NAS deployment](deploy/README.md) and the accompanying NGINX configuration 
 - Supplied logo, white logo, and centered banner are copied without altering the originals. Team members use initials because no current staff portraits were provided.
 - Five original pages are preserved. William Grayson is absent from the rebuilt team page. Equipment models are examples, not a live inventory feed.
 - Responsive breakpoints follow Carbon. Navigation includes skip links, current-page states, mobile expansion state, Escape dismissal, and focus-exit dismissal. Reduced motion preferences are honored.
-- Internal page navigation uses a short slide and fade in browsers supporting cross-document View Transitions. The header stays stationary; reduced-motion mode and unsupported browsers use normal native navigation. The Employment page omits the decorative banner.
+- Incoming page content slides and fades in over 200ms while the header remains live and clickable. Native links and browser history work without waiting for the animation. Reduced-motion mode skips the animation. The Employment page omits the decorative banner.
 
 See [Carbon research](docs/carbon-research.md) for the 25 official documentation references and [content audit](docs/content-audit.md) for source material.
 
