@@ -35,15 +35,51 @@
 html { scroll-behavior: smooth; scroll-padding-top: 7rem; }
 body { margin: 0; }
 
-// Animate the incoming content itself so the header remains clickable throughout.
-// Avoid cross-document snapshots, which temporarily disable navigation hit testing.
+// Capture each page separately so different heights and scroll positions do not morph.
+// The header stays outside every snapshot and remains available for the next click.
+html { view-transition-name: none; }
+.page-content { min-height: 100vh; background: white; }
+
 @media (prefers-reduced-motion: no-preference) {
-  main { animation: mms-page-in 200ms cubic-bezier(.2, 0, 0, 1); }
+  @view-transition { navigation: auto; }
+
+  ::view-transition {
+    pointer-events: none;
+    clip-path: inset(5rem 0 0);
+  }
+  ::view-transition-group(*) { animation: none; }
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    mix-blend-mode: normal;
+    inline-size: 100%;
+    block-size: auto;
+    pointer-events: none;
+  }
+  ::view-transition-old(*) {
+    animation: mms-page-out 520ms cubic-bezier(.65, 0, .35, 1) both;
+  }
+  ::view-transition-new(*) {
+    animation: mms-page-in 520ms cubic-bezier(.65, 0, .35, 1) both;
+  }
+
+  // Reveal an opened mobile menu immediately instead of covering it with a snapshot.
+  html:has(.cds--side-nav--expanded)::view-transition-old(*),
+  html:has(.cds--side-nav--expanded)::view-transition-new(*) {
+    animation-duration: 1ms;
+  }
 }
 
+@keyframes mms-page-out {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
 @keyframes mms-page-in {
-  from { opacity: .45; transform: translateX(1.5rem); }
-  to { opacity: 1; transform: translateX(0); }
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition { navigation: none; }
 }
 
 .mms-site {
