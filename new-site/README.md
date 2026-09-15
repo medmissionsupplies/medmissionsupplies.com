@@ -35,7 +35,7 @@ See [NAS deployment](deploy/README.md) and the accompanying NGINX configuration 
 - Supplied logo, white logo, and centered banner are copied without altering the originals. Team members use initials because no current staff portraits were provided.
 - Five original pages are preserved. William Grayson is absent from the rebuilt team page. Equipment models are examples, not a live inventory feed.
 - Responsive breakpoints follow Carbon. Navigation includes skip links, current-page states, mobile expansion state, Escape dismissal, and focus-exit dismissal. Reduced motion preferences are honored.
-- Outgoing and incoming page content, including the footer, slide across the full width over 520ms using cross-document View Transitions. Each page has its own snapshot name to preserve its dimensions and scroll position; the header remains live outside the snapshots. Firefox and other browsers without this API use a 520ms slide on arrival after internal links, without delaying native navigation. A small script in the HTML head selects the fallback before the first paint. Reloads and restored browser history stay still, reduced motion disables both effects, and opening the mobile menu finishes the slide immediately. The Employment page omits the decorative banner.
+- Outgoing and incoming page content, including the footer, slide across the full width over 520ms using cross-document View Transitions. Each page has its own snapshot name to preserve its dimensions and scroll position; the header remains live outside the snapshots. Firefox uses same-document View Transitions: the existing React app switches pages inside the snapshot callback, keeping the outgoing page visible until the incoming page is ready. The header remains mounted. Back/Forward restore scroll and unsent contact fields in memory; titles, descriptions, anchors, and equipment queries update with the page. Reduced motion skips the animation, and opening the mobile menu finishes it immediately. Browsers without either transition API keep ordinary page navigation. The Employment page omits the decorative banner.
 - Clicking a link to the current page keeps the document and its state in place, including equivalent short URLs. Selecting the current page in the mobile menu closes the menu. Links to a different section or query, modified clicks, and browser history retain their native behavior.
 
 See [Carbon research](docs/carbon-research.md) for the 25 official documentation references and [content audit](docs/content-audit.md) for source material.
@@ -59,7 +59,7 @@ The layout corrections include Carbon's required layout styles, logo alignment, 
 - `src/App.jsx`: shared shell and all five page components.
 - `src/styles.scss`: Carbon styles, MMS tokens, page composition, and responsive styles.
 - `src/contact-service.mjs`: contact form delivery.
-- `src/page-navigation.js`: current-page link guard and Firefox arrival transition.
+- `src/page-navigation.mjs`: current-page link guard, Firefox same-document transitions, and history restoration.
 - `scripts/prerender.jsx`: static page generation.
 - `.openai/hosting.json`: identity for the separate owner-private Sites review copy.
 

@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { version } from '../package.json';
 import { CONTACT_ENDPOINT, sendInquiry } from './contact-service.mjs';
+import { pageKey } from './page-navigation.mjs';
 import {
   Button, Grid, Column, ClickableTile, Header, HeaderName, HeaderNavigation,
   HeaderMenuItem, HeaderMenuButton, SideNav, SideNavItems, SideNavLink,
@@ -15,10 +16,7 @@ const navigation = [
   ['index', 'Home'], ['offerings', 'Our Offerings'], ['about', 'About & Team'],
   ['employment', 'Employment'], ['contact', 'Contact Us'],
 ];
-export const pageFromPath = path => {
-  const part = path.split('/').filter(Boolean).pop()?.replace(/\.html$/, '') || 'index';
-  return navigation.some(([id]) => id === part) ? part : 'not-found';
-};
+export const pageFromPath = path => pageKey(path) || 'not-found';
 
 const offerings = [
   { id: 'ultrasound', title: 'Ultrasound equipment', model: 'SonoSite M-Turbo', icon: Scan, summary: 'Portable imaging for care beyond the hospital.', description: 'Portable ultrasound systems selected for durability and clear imaging, supporting maternal health, emergency diagnostics, and routine screenings in remote locations.' },
@@ -32,6 +30,7 @@ function SiteHeader({ page }) {
   const menuRef = useRef(null);
   const navigationRef = useRef(null);
   const closeMenu = () => { setOpen(false); menuRef.current?.focus(); };
+  React.useEffect(() => { setOpen(false); }, [page]);
   React.useEffect(() => {
     if (open) navigationRef.current?.querySelector('a')?.focus();
   }, [open]);
@@ -161,19 +160,22 @@ function Employment() {
   </>;
 }
 
-function ContactForm() {
+function inquiryFromSearch(search = '') {
+  const requested = new URLSearchParams(search).get('equipment');
+  if (!offerings.some(item => item.title === requested)) return '';
+  const subject = requested.replace(/^[A-Z][a-z]+/, word => word.toLowerCase());
+  return `I’d like to discuss ${subject} for our clinic.\n\n`;
+}
+
+function ContactForm({ search, draft }) {
   const [state, setState] = useState('idle');
   const [fieldErrors, setFieldErrors] = useState({});
-  const [inquiry, setInquiry] = useState('');
+  const [inquiry, setInquiry] = useState(() => draft?.message ?? inquiryFromSearch(search));
   const notificationRef = useRef(null);
   const submitting = useRef(false);
-  // Read optional equipment context after hydration so static HTML stays consistent.
+  // Direct visits hydrate static HTML first; client navigation already has its query.
   React.useEffect(() => {
-    const requested = new URLSearchParams(window.location.search).get('equipment');
-    if (offerings.some(item => item.title === requested)) {
-      const subject = requested.replace(/^[A-Z][a-z]+/, word => word.toLowerCase());
-      setInquiry(`I’d like to discuss ${subject} for our clinic.\n\n`);
-    }
+    if (search === undefined && !draft) setInquiry(inquiryFromSearch(window.location.search));
   }, []);
   React.useEffect(() => {
     if (state === 'success' || state === 'error') notificationRef.current?.focus();
@@ -202,18 +204,18 @@ function ContactForm() {
   if (state === 'success') return <div className="form-success" ref={notificationRef} tabIndex={-1} role="status"><div className="success-mark"><Checkmark size={32} /></div><h2>Thank you for reaching out.</h2><p>Your message has been sent to Med Mission Supplies. We aim to respond within 48 hours.</p><Button kind="tertiary" onClick={() => setState('idle')}>Send another message</Button></div>;
   return <form className="contact-form" action={CONTACT_ENDPOINT} method="POST" onSubmit={submit} aria-busy={state === 'submitting'}>
     <h2>Tell us how we can help.</h2><p className="form-intro">All fields are required.</p>
-    <TextInput id="name" name="name" labelText="Your name" autoComplete="name" required maxLength={160} invalid={!!fieldErrors.name} invalidText={fieldErrors.name} onChange={() => setFieldErrors(errors => ({ ...errors, name: undefined }))} />
-    <TextInput id="email" name="email" type="email" labelText="Email address" autoComplete="email" required maxLength={254} />
+    <TextInput id="name" name="name" labelText="Your name" autoComplete="name" defaultValue={draft?.name ?? ''} required maxLength={160} invalid={!!fieldErrors.name} invalidText={fieldErrors.name} onChange={() => setFieldErrors(errors => ({ ...errors, name: undefined }))} />
+    <TextInput id="email" name="email" type="email" labelText="Email address" autoComplete="email" defaultValue={draft?.email ?? ''} required maxLength={254} />
     <TextArea id="message" name="message" labelText="Your message" helperText="Tell us about your clinic, equipment needs, or the support you’re looking for." rows={6} required maxLength={6000} value={inquiry} onChange={event => { setInquiry(event.target.value); setFieldErrors(errors => ({ ...errors, message: undefined })); }} invalid={!!fieldErrors.message} invalidText={fieldErrors.message} />
     {state === 'error' && <div ref={notificationRef} tabIndex={-1}><InlineNotification kind="error" title="We couldn’t confirm delivery." subtitle="Your message is still here. Check your connection and try again, or contact us through LinkedIn." hideCloseButton lowContrast /><a className="text-link form-fallback" href="https://www.linkedin.com/company/med-mission-supplies" target="_blank" rel="noopener noreferrer">Open our LinkedIn page <ArrowUpRight size={16} /><span className="sr-only"> (opens in a new tab)</span></a></div>}
     <Button type="submit" renderIcon={ArrowRight} disabled={state === 'submitting'}>{state === 'submitting' ? 'Sending message…' : 'Send message'}</Button>
   </form>;
 }
 
-function Contact() {
+function Contact({ search, draft }) {
   return <>
     <PageHero page="contact" eyebrow="LET’S START A CONVERSATION" title={<>Your mission.<br /><span>Our shared purpose.</span></>} description="Whether you’re equipping a remote clinic or planning a mission project, we’re ready to listen." />
-    <section className="contact-section section-space"><Grid className="site-grid"><Column sm={4} md={5} lg={8}><ContactForm /></Column><Column sm={4} md={3} lg={{ span: 6, start: 11 }} className="contact-information"><Eyebrow>CONTACT MED MISSION SUPPLIES</Eyebrow><h2>We’re here<br />to help you care.</h2><p>Tell us what you need, where you serve, and the challenges you’re working through. We’ll help you explore the right equipment and support.</p><div className="contact-detail"><Time size={24} /><div><h3>A thoughtful response</h3><p>We aim to respond within 48 hours.</p></div></div><div className="contact-detail"><Chat size={24} /><div><h3>A helpful conversation</h3><p>Equipment questions, logistics, setup guidance, or ongoing support — we’re happy to talk.</p></div></div><a className="text-link" href="https://www.linkedin.com/company/med-mission-supplies" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <ArrowUpRight size={20} /><span className="sr-only"> (opens in a new tab)</span></a></Column></Grid></section>
+    <section className="contact-section section-space"><Grid className="site-grid"><Column sm={4} md={5} lg={8}><ContactForm search={search} draft={draft} /></Column><Column sm={4} md={3} lg={{ span: 6, start: 11 }} className="contact-information"><Eyebrow>CONTACT MED MISSION SUPPLIES</Eyebrow><h2>We’re here<br />to help you care.</h2><p>Tell us what you need, where you serve, and the challenges you’re working through. We’ll help you explore the right equipment and support.</p><div className="contact-detail"><Time size={24} /><div><h3>A thoughtful response</h3><p>We aim to respond within 48 hours.</p></div></div><div className="contact-detail"><Chat size={24} /><div><h3>A helpful conversation</h3><p>Equipment questions, logistics, setup guidance, or ongoing support — we’re happy to talk.</p></div></div><a className="text-link" href="https://www.linkedin.com/company/med-mission-supplies" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <ArrowUpRight size={20} /><span className="sr-only"> (opens in a new tab)</span></a></Column></Grid></section>
   </>;
 }
 
@@ -221,7 +223,7 @@ function NotFound() {
   return <section className="not-found section-space site-width"><Eyebrow>PAGE NOT FOUND</Eyebrow><h1>Let’s get you back on track.</h1><p>The page you’re looking for isn’t here.</p><Button href="/index.html" renderIcon={ArrowRight}>Go to the homepage</Button></section>;
 }
 
-export function App({ page = 'index' }) {
+export function App({ page = 'index', search, entry = 'initial', contactDraft }) {
   const Page = { index: Home, offerings: Offerings, about: About, employment: Employment, contact: Contact }[page] || NotFound;
-  return <Theme theme="white" className="mms-site"><SiteHeader page={page} /><div className="page-content" style={{ viewTransitionName: `mms-${page}` }}><main id="main-content" tabIndex={-1}><Page /></main><SiteFooter /></div></Theme>;
+  return <Theme theme="white" className="mms-site"><SiteHeader page={page} /><div key={entry} className="page-content" style={{ viewTransitionName: `mms-${page}` }}><main id="main-content" tabIndex={-1}><Page search={search} draft={contactDraft} /></main><SiteFooter /></div></Theme>;
 }

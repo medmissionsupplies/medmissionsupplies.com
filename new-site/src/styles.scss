@@ -43,15 +43,6 @@ html { view-transition-name: none; }
 @media (prefers-reduced-motion: no-preference) {
   @view-transition { navigation: auto; }
 
-  // Firefox and other browsers without cross-document View Transitions.
-  // Start on arrival; never delay navigation or leave the outgoing page blank.
-  html[data-page-entry='slide'] .page-content {
-    animation: mms-page-in 520ms cubic-bezier(.65, 0, .35, 1) backwards;
-  }
-  html[data-page-entry='slide']:has(.cds--side-nav--expanded) .page-content {
-    animation-duration: 1ms;
-  }
-
   ::view-transition {
     pointer-events: none;
     clip-path: inset(5rem 0 0);
