@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { version } from '../package.json';
 import { CONTACT_ENDPOINT, sendInquiry } from './contact-service.mjs';
 import {
   Button, Grid, Column, ClickableTile, Header, HeaderName, HeaderNavigation,
@@ -76,7 +77,7 @@ function SiteFooter() {
       <a className="footer-brand" href="/index.html"><img src="/assets/mms-logo-white.png" alt="" width="88" height="59" /><span>Med Mission Supplies<span>Supporting care. Expanding possibilities.</span></span></a>
       <a className="footer-social" href="https://www.linkedin.com/company/med-mission-supplies" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <LogoLinkedin size={20} /><span className="sr-only"> (opens in a new tab)</span></a>
     </div>
-    <div className="footer-bottom site-width"><p>© {new Date().getFullYear()} Med Mission Supplies</p><nav aria-label="Footer navigation">{navigation.slice(1).map(([id, label]) => <a key={id} href={`/${id}.html`}>{label}</a>)}</nav></div>
+    <div className="footer-bottom site-width"><p>© {new Date().getFullYear()} Med Mission Supplies <span className="site-version" aria-label={`Website version ${version}`}>v{version}</span></p><nav aria-label="Footer navigation">{navigation.slice(1).map(([id, label]) => <a key={id} href={`/${id}.html`}>{label}</a>)}</nav></div>
   </footer>;
 }
 

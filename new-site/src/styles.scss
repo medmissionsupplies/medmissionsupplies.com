@@ -192,6 +192,7 @@ h2 { @include type.type-style('fluid-heading-04', true); font-weight: 300; lette
 .footer-social:hover { text-decoration: underline; }
 .footer-bottom { border-top: 1px solid #2e4659; padding-block: 1.5rem; display: flex; justify-content: space-between; gap: 2rem; }
 .footer-bottom p, .footer-bottom a { font-size: .875rem; }
+.site-version { display: inline-block; margin-left: .5rem; color: #a8bfce; font-size: .75rem; white-space: nowrap; }
 .footer-bottom nav { display: flex; flex-wrap: wrap; gap: 1.5rem; }
 .footer-bottom a { text-decoration: none; }
 .footer-bottom a:hover { text-decoration: underline; }
