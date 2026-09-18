@@ -1,0 +1,41 @@
+name: Build and deploy MedMissionSupplies
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: production
+  cancel-in-progress: false
+jobs:
+  production:
+    if: github.repository == 'medmissionsupplies/medmissionsupplies.com' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: new-site/package-lock.json
+      - run: npm ci --no-audit --no-fund
+        working-directory: new-site
+      - run: npm test && npm run build
+        working-directory: new-site
+      - name: Package the verified static site
+        run: |
+          mkdir -p new-site/dist/.well-known
+          printf '{"commit":"%s"}\n' "$GITHUB_SHA" > new-site/dist/.well-known/deployment.json
+          tar -czf release.tar -C new-site/dist .
+      - name: Deploy and verify the server receipt
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_KNOWN_HOSTS: ${{ vars.DEPLOY_KNOWN_HOSTS }}
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: bash deploy/ci-client.sh release.tar
