@@ -46,6 +46,7 @@ for (const article of articles) {
   const html = rendered.get(`resources/${article.id}.html`);
   for (let i = 1; i <= article.sections.length; i++) assert.ok(html.includes(`id="section-${i}"`), `Missing article section ${article.id}/${i}`);
   for (const entry of article.entries || []) {
+    assert.ok(entry.explanation?.length > 40 && html.includes('The basics'), `Missing equipment explanation ${article.id}/${entry.id}`);
     assert.ok(html.includes(`id="${entry.id}"`), `Missing buying guide item ${article.id}/${entry.id}`);
     assert.ok(html.includes('Technical references'), `Missing buying guide citations ${article.id}`);
   }

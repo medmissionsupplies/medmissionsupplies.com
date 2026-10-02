@@ -37,7 +37,7 @@ import { routes } from "./routes.mjs";
 const navigation = [
   ["offerings", "Equipment"],
   ["services", "Services"],
-  ["articles", "Buying guides"],
+  ["articles", "Learn"],
   ["about", "About us"],
   ["contact", "Contact"],
 ];
@@ -112,7 +112,7 @@ function SiteHeader({ page }) {
             ))}
         </HeaderNavigation>
         <a className="header-quote" href="/contact.html">
-          Get in touch <ArrowUpRight size={18} />
+          Let’s talk <ArrowUpRight size={18} />
         </a>
         <SideNav
           ref={navigationRef}
@@ -163,7 +163,7 @@ function SiteFooter() {
           <nav aria-label="Footer">
             <a href="/about.html">About us</a>
             <a href="/employment.html">Careers</a>
-            <a href="/articles.html">Buying guides</a>
+            <a href="/articles.html">Learn</a>
             <a href="/contact.html">Contact</a>
             <a
               href="https://www.linkedin.com/company/med-mission-supplies"
@@ -191,8 +191,8 @@ function About() {
   return (
     <>
       <ExploreHero
-        title="Good equipment. Greater access to care."
-        description="We help hospitals and clinics source capital equipment at wholesale and charitable prices."
+        title="Better equipped to make a difference."
+        description="We help hospitals and clinics put quality equipment within reach—with wholesale and charitable pricing."
         image="operating-room"
       />
       <section className="about-story content-width">
@@ -363,7 +363,7 @@ function ContactForm({ search, draft }) {
       onSubmit={submit}
       aria-busy={state === "submitting"}
     >
-      <p className="form-intro">All fields are required.</p>
+      <p className="form-intro">A question or a full equipment list—start with what you know.</p>
       <TextInput
         id="name"
         name="name"
@@ -391,8 +391,8 @@ function ContactForm({ search, draft }) {
       <TextArea
         id="message"
         name="message"
-        labelText="Your message"
-        helperText="Include equipment, location, and budget if you know them."
+        labelText="What can we help you with?"
+        helperText="Tell us the equipment and where it’s needed. A budget or model is helpful, but optional."
         rows={6}
         required
         maxLength={6000}
@@ -439,8 +439,8 @@ function Contact({ search, draft }) {
   return (
     <>
       <ExploreHero
-        title="Let’s find what you need."
-        description="Equipment, advice, or service. Start a conversation with our team."
+        title="Your next step starts here."
+        description="Need a quote, a second opinion, or help with equipment? Tell us what you’re working on."
         image="ultrasound"
         compact
       />

@@ -1,5 +1,25 @@
 # Website review — October 2, 2026
 
+## Version 1.3 follow-up
+
+The user found the previous navy/white design sterile and clarified that the educational content should be a permanent website reference rather than an article feed. The new direction uses warm ivory, deep plum, coral, peach, and soft yellow, with stronger typography, shaped photo banners, illustrated department links, and clear inquiry actions throughout.
+
+The navigation now says **Learn**. The collection has six direct equipment choices and four practical planning links, with no search field, topic dropdown, results count, or article-style date header. The existing URLs continue to work.
+
+All 35 equipment topics now begin with a plain-language explanation of what the equipment does. Expanded sections then introduce the options, purchasing checks, ownership costs, references, and inquiry links. Imaging explanations include NIH educational references. Review dates remain in a small note at the end of each page.
+
+Homepage, equipment, service, about, and contact copy now states the visitor's next step more directly. The contact form invites either a question or an equipment list and clarifies that model and budget information are optional.
+
+Validation for this version:
+
+- All 40 pages checked at 320px, 768px, and 1440px: one main heading, no horizontal overflow, no failed loaded images.
+- All 35 expanded explanations checked at 320px without overflow.
+- Verified direct Learn navigation, mobile menu closing, All equipment after reload, equipment-specific quote prefilling, and required-field validation. No live messages were submitted.
+- Checked key palette contrast pairs; darkened the accent so small links on peach meet 4.5:1.
+- 22 tests passed; the build verified 80 HTML files and 2,797 local references, including the presence of each equipment explanation.
+
+The earlier findings below describe the preceding streamlining pass; the 1.3 visual direction and Learn navigation supersede its library presentation.
+
 ## Findings and changes
 
 The procurement, support, and service message is clear. The main obstacle was repetition: several headings and calls to action restated the same request, while large article cards and related-item photos added unnecessary scrolling.

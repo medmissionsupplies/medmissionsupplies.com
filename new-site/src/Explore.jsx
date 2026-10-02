@@ -21,9 +21,7 @@ import {
 } from "./catalog.mjs";
 import {
   articles,
-  articleCategories,
   articleUrl,
-  filterArticles,
 } from "./articles.mjs";
 import approvedComments from "./approved-comments.json";
 import { commentFormData, validateComment } from "./comments.mjs";
@@ -128,6 +126,16 @@ export function EquipmentCard({ item }) {
 }
 
 export function ArticleCard({ item }) {
+  const invitations = {
+    imaging: ["Imaging", "Which imaging system fits your hospital?", "Explore imaging"],
+    surgical: ["Surgery", "Build a theatre that works together.", "Explore surgical equipment"],
+    "critical-care": ["Patient care", "What does your bedside setup need?", "Explore patient care"],
+    diagnostics: ["Diagnostics", "Look beyond the analyzer’s price.", "Explore diagnostics"],
+    hospital: ["Hospital essentials", "Plan the systems behind the care.", "Explore the essentials"],
+  };
+  const [label, title, action] = invitations[item.department] ?? [
+    "Mission clinics", "What belongs in your clinic?", "Plan your clinic",
+  ];
   return (
     <article className="resource-card">
       <a href={articleUrl(item)}>
@@ -135,12 +143,10 @@ export function ArticleCard({ item }) {
           <Photo name={item.image} />
         </div>
         <div className="resource-copy">
-          <div className="article-meta">
-            {!item.entries && <span>{item.category}</span>}
-            <span>{item.entries ? `${item.entries.length} equipment topics` : `${item.minutes} min read`}</span>
-          </div>
-          <h3>{item.entries ? (item.department ? item.category : "Mission clinics") : item.title}</h3>
+          <div className="article-meta"><span>{label}</span></div>
+          <h3>{title}</h3>
           <p>{item.summary}</p>
+          <span className="card-invitation">{action}<ArrowUpRight size={20} /></span>
         </div>
       </a>
     </article>
@@ -153,18 +159,18 @@ export function NewHome() {
       <section className="home-intro content-width">
         <div className="home-intro-copy">
           <h1>
-            Quality equipment.
+            More care.
             <br />
             <span>Within reach.</span>
           </h1>
           <p>
-            We procure, support, and service hospital equipment across almost
-            every department—with wholesale and charitable pricing.
+            Quality equipment for almost every hospital department, at wholesale
+            and charitable prices. We procure it, support it, and service it.
           </p>
           <div className="action-row">
-            <Action href="/offerings.html">Browse equipment</Action>
+            <Action href="/offerings.html">Find equipment</Action>
             <Action href="/contact.html" secondary>
-              Ask for a quote
+              Let’s talk
             </Action>
           </div>
         </div>
@@ -185,14 +191,20 @@ export function NewHome() {
         </div>
         <div className="category-grid">
           {categories.map((category) => {
-            const Icon = icons[category.id];
+            const photo = {
+              imaging: "reference/ultrasound-portable",
+              surgical: "reference/anesthesia-workstation",
+              "critical-care": "reference/patient-monitor",
+              diagnostics: "reference/chemistry",
+              hospital: "reference/autoclave",
+            }[category.id];
             return (
               <a
                 key={category.id}
                 className="category-tile"
                 href={"/offerings.html?category=" + category.id}
               >
-                <Icon size={32} />
+                <div className="category-photo"><Photo name={photo} /></div>
                 <h3>{category.name}</h3>
                 <ArrowUpRight size={20} />
               </a>
@@ -207,19 +219,19 @@ export function NewHome() {
         <a className="help-card" href="/articles.html">
           <Photo name="ultrasound" />
           <div>
-            <h2>Buying guides</h2>
-            <p>Compare equipment, accessories, and ownership costs.</p>
+            <h2>Make your next purchase count.</h2>
+            <p>Find out what matters before you choose a system.</p>
             <span>
-              Explore buying guides <ArrowRight size={20} />
+              Explore equipment advice <ArrowRight size={20} />
             </span>
           </div>
         </a>
         <a className="help-card help-card-service" href="/services.html">
           <div>
-            <h2>Service & support</h2>
-            <p>Equipment questions, parts, and service support.</p>
+            <h2>Keep care moving.</h2>
+            <p>Need parts, repairs, or a little direction? Start here.</p>
             <span>
-              See how we can help <ArrowRight size={20} />
+              Get equipment support <ArrowRight size={20} />
             </span>
           </div>
           <Tools size={54} />
@@ -236,6 +248,7 @@ export function ExploreHero({
   backLabel,
   image = "equipment-detail",
   compact = false,
+  action,
 }) {
   return (
     <header
@@ -250,6 +263,7 @@ export function ExploreHero({
         )}
         <h1>{title}</h1>
         {description && <p>{description}</p>}
+        {action && <Action href={action[1]}>{action[0]}</Action>}
       </div>
       <div className="page-banner-media">
         <Photo name={image} eager />
@@ -258,16 +272,8 @@ export function ExploreHero({
   );
 }
 
-function useFilters(search, type) {
-  const parse = (value) => {
-    if (type === "equipment") return catalogState(value);
-    const params = new URLSearchParams(value),
-      category = params.get("category");
-    return {
-      category: articleCategories.includes(category) ? category : "all",
-      query: (params.get("q") || "").slice(0, 160),
-    };
-  };
+function useFilters(search) {
+  const parse = catalogState;
   const [filters, setFilters] = useState(() => parse(search));
   useEffect(() => {
     const sync = () => setFilters(parse(window.location.search));
@@ -275,14 +281,12 @@ function useFilters(search, type) {
     else setFilters(parse(search));
     window.addEventListener("popstate", sync);
     return () => window.removeEventListener("popstate", sync);
-  }, [search, type]);
+  }, [search]);
   function update(next) {
     const value = { ...filters, ...next };
     setFilters(value);
     const url = new URL(window.location.href);
-    value.category === "all" && type !== "equipment"
-      ? url.searchParams.delete("category")
-      : url.searchParams.set("category", value.category);
+    url.searchParams.set("category", value.category);
     value.query
       ? url.searchParams.set("q", value.query)
       : url.searchParams.delete("q");
@@ -292,7 +296,7 @@ function useFilters(search, type) {
   return [filters, update];
 }
 export function EquipmentCatalog({ search }) {
-  const [filters, update] = useFilters(search, "equipment");
+  const [filters, update] = useFilters(search);
   const results = filterEquipment(filters);
   const buyingGuide = buyingGuides.find(
     (guide) => guide.department === filters.category,
@@ -300,8 +304,8 @@ export function EquipmentCatalog({ search }) {
   return (
     <>
       <ExploreHero
-        title="Find your equipment."
-        description="Single systems or complete departments, sourced to your requirements."
+        title="What will you equip next?"
+        description="One replacement or a whole department. Explore the options, then tell us what you need."
         image="anesthesia"
       />
       <section className="content-width catalog-section">
@@ -334,7 +338,7 @@ export function EquipmentCatalog({ search }) {
           </p>
           {buyingGuide && (
             <a className="text-link" href={articleUrl(buyingGuide)}>
-              Read the buying guide <ArrowUpRight size={18} />
+              What to know before you buy <ArrowUpRight size={18} />
             </a>
           )}
         </div>
@@ -424,7 +428,7 @@ export function EquipmentDetail({ item }) {
             <Action
               href={"/contact.html?equipment=" + encodeURIComponent(item.title)}
             >
-              Ask for a quote
+              Get a quote
             </Action>
             <a
               className="text-link"
@@ -453,7 +457,7 @@ export function EquipmentDetail({ item }) {
             className="text-link"
             href={`${articleUrl(guideLink.guide)}#${guideLink.entry.id}`}
           >
-            Read the buying guide <ArrowUpRight size={20} />
+            What to know before you buy <ArrowUpRight size={20} />
           </a>
         </div>
       )}
@@ -730,82 +734,31 @@ function ListingComments({ item }) {
   );
 }
 
-export function Articles({ search }) {
-  const [filters, update] = useFilters(search, "articles");
-  const results = filterArticles(filters);
+export function Articles() {
   return (
     <>
       <ExploreHero
-        title="Medical equipment buying guides."
-        description="What to compare, what to include, and what ownership really costs."
+        title="Know your equipment."
+        description="Choose an area to explore. Learn what the equipment does, how the options differ, and what to check."
         image="ultrasound"
+        action={["Ask our team", "/contact.html"]}
       />
       <section className="content-width articles-section">
-        <div className="catalog-toolbar guide-toolbar">
-          <label className="search-field">
-            <Search size={20} />
-            <span className="sr-only">Search articles</span>
-            <input
-              type="search"
-              placeholder="Find a buying guide…"
-              value={filters.query}
-              maxLength={160}
-              onChange={(e) => update({ query: e.target.value })}
-            />
-          </label>
-          <label className="guide-category">
-            <span className="sr-only">Guide category</span>
-            <select
-              value={filters.category}
-              onChange={(e) => update({ category: e.target.value })}
-            >
-              {["all", ...articleCategories].map((category) => (
-                <option key={category} value={category}>
-                  {category === "all" ? "All topics" : category}
-                </option>
-              ))}
-            </select>
-          </label>
-        </div>
-        <p className="results-count" role="status">
-          {results.length} {results.length === 1 ? "guide" : "guides"}
-        </p>
-        <noscript>
-          <p>
-            All articles are shown. Enable JavaScript to use search and category
-            filters.
-          </p>
-        </noscript>
         <div className="resource-grid">
-          {results.filter((item) => item.kind === "buying-guide").map((item) => (
+          {articles.filter((item) => item.kind === "buying-guide").map((item) => (
             <ArticleCard item={item} key={item.id} />
           ))}
         </div>
-        {results.some((item) => item.kind !== "buying-guide") && (
-          <section className="planning-guides" aria-labelledby="planning-guides-title">
-            <h2 id="planning-guides-title">Planning & service</h2>
-            <div className="planning-guide-links">
-              {results.filter((item) => item.kind !== "buying-guide").map((item) => (
-                <a key={item.id} href={articleUrl(item)}>
-                  <span>{item.title}</span><ArrowUpRight size={18} />
-                </a>
-              ))}
-            </div>
-          </section>
-        )}
-        {!results.length && (
-          <div className="empty-results">
-            <h2>No matching articles.</h2>
-            <p>Try another topic or clear your filters.</p>
-            <button
-              type="button"
-              className="plain-button"
-              onClick={() => update({ category: "all", query: "" })}
-            >
-              Clear filters
-            </button>
+        <section className="planning-guides" aria-labelledby="planning-guides-title">
+          <h2 id="planning-guides-title">Make your next step easier.</h2>
+          <div className="planning-guide-links">
+            {articles.filter((item) => item.kind !== "buying-guide").map((item) => (
+              <a key={item.id} href={articleUrl(item)}>
+                <span>{item.title}</span><ArrowUpRight size={18} />
+              </a>
+            ))}
           </div>
-        )}
+        </section>
       </section>
     </>
   );
@@ -819,7 +772,7 @@ export function ArticleDetail({ item }) {
         title={item.title}
         description={item.summary}
         back="/articles.html"
-        backLabel="Resources"
+        backLabel="Explore & learn"
         image={item.image}
       />
       <article className="content-width article-layout">
@@ -847,7 +800,7 @@ export function ArticleDetail({ item }) {
           </div>
         </div>
         <aside className="article-aside">
-          <h2>In this guide</h2>
+          <h2>On this page</h2>
           <nav aria-label="Article contents">
             {item.sections.map(([title], i) => (
               <a key={title} href={`#section-${i + 1}`}>
@@ -873,9 +826,9 @@ export function ArticleDetail({ item }) {
           </div>
           <a
             className="text-link"
-            href={`/articles.html?category=${encodeURIComponent(item.category)}`}
+            href="/articles.html"
           >
-            More in {item.category}
+            Explore more advice
             <ArrowRight size={18} />
           </a>
         </aside>
@@ -886,7 +839,7 @@ export function ArticleDetail({ item }) {
 
 function GuideContents({ item }) {
   return (
-    <nav aria-label="Equipment in this guide">
+    <nav aria-label="Equipment on this page">
       {item.entries.map((entry) => (
         <a key={entry.id} href={`#${entry.id}`}>
           {entry.title}
@@ -904,16 +857,10 @@ export function BuyingGuide({ item }) {
         title={item.title}
         image={item.image}
         back="/articles.html"
-        backLabel="All buying guides"
+        backLabel="Explore & learn"
       />
       <div className="guide-introduction content-width">
         <div>
-          <p className="guide-meta">
-            {item.entries.length} equipment topics <span>·</span> Sources
-            checked {new Date(`${item.reviewed}T12:00:00Z`).toLocaleDateString("en-US", {
-              month: "long", day: "numeric", year: "numeric", timeZone: "UTC",
-            })}
-          </p>
           <p>{item.intro}</p>
         </div>
         <p className="guide-scope">
@@ -947,9 +894,13 @@ export function BuyingGuide({ item }) {
                 </div>
                 <details className="guide-item-details">
                   <summary>
-                    Compare options & buying checklist <span aria-hidden="true">+</span>
+                    How it works & what to compare <span aria-hidden="true">+</span>
                   </summary>
                   <div className="guide-item-body">
+                    <div className="equipment-explanation">
+                      <h3>The basics</h3>
+                      <p>{entry.explanation}</p>
+                    </div>
                     <div className="guide-options">
                       {entry.options.map(([title, text]) => (
                         <div key={title}>
@@ -1003,7 +954,7 @@ export function BuyingGuide({ item }) {
           </section>
         </article>
         <aside className="guide-sidebar">
-          <h2>In this guide</h2>
+          <h2>On this page</h2>
           <GuideContents item={item} />
           <div>
             <a className="text-link" href="/contact.html">
@@ -1013,7 +964,10 @@ export function BuyingGuide({ item }) {
         </aside>
       </div>
       <div className="guide-return content-width">
-        <a className="text-link" href="/articles.html">All buying guides<ArrowRight size={18} /></a>
+        <a className="text-link" href="/articles.html">More equipment advice<ArrowRight size={18} /></a>
+        <p className="small-note">References reviewed {new Date(`${item.reviewed}T12:00:00Z`).toLocaleDateString("en-US", {
+          month: "long", day: "numeric", year: "numeric", timeZone: "UTC",
+        })}.</p>
       </div>
     </>
   );
@@ -1023,23 +977,23 @@ export function Services() {
   return (
     <>
       <ExploreHero
-        title="Procure. Support. Service."
-        description="Help with hospital equipment, from sourcing to ongoing care."
+        title="From your first question to your next repair."
+        description="Equipment sourcing, practical support, and service—all start with the same conversation."
         image="equipment-detail"
       />
       <div className="content-width services-grid">
         {[
           [
             "procure",
-            "Find equipment",
-            "Source a single system or a whole department around your requirements and budget.",
+            "Find the right equipment",
+            "Share your equipment list, budget, and destination. We’ll help you explore the options.",
             "Browse equipment",
             "/offerings.html",
             "ultrasound",
           ],
           [
             "support",
-            "Get equipment support",
+            "Get answers",
             "Ask about accessories, compatibility, delivery, or setup. We’ll help you find the next step.",
             "Ask a question",
             "/contact.html?topic=support",
@@ -1047,9 +1001,9 @@ export function Services() {
           ],
           [
             "service",
-            "Arrange a service",
+            "Get it working again",
             "Tell us your equipment model and the issue. We’ll discuss parts, repairs, and service options.",
-            "Request service help",
+            "Tell us what’s happening",
             "/contact.html?topic=service",
             "anesthesia",
           ],
@@ -1069,7 +1023,7 @@ export function Services() {
       </div>
       <section className="pricing-panel content-width" id="pricing">
         <div>
-          <h2>Wholesale & charitable pricing</h2>
+          <h2>Put your budget to work.</h2>
           <p>
             Wholesale pricing for hospitals and clinics. Charitable pricing for
             mission-driven projects.

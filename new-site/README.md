@@ -18,23 +18,23 @@ The build produces a portable static site in `dist/`: 40 pages, 39 directory ali
 
 The footer displays the package version. Bump it before preparing a release.
 
-## Version 1.2 design playground
+## Version 1.3 design playground
 
-MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Deep navy, vivid blue, and MMS gold sit alongside photo banners, a softly tinted background, and white reading cards. The homepage stays compact; detailed advice is available through department guides and expandable checklists.
+MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Warm ivory, deep plum, coral, peach, and soft yellow create a more inviting identity. Larger headlines, shaped photo banners, illustrated department cards, and clear inquiry links carry that identity across every page. Longer explanations use quiet reading surfaces.
 
 - 23 illustrated equipment areas across 5 departments, with detail pages, related equipment, and quote/service links. Department browsing replaces equipment search. Imaging is shown initially; visitors can select another department or all equipment. A no-JavaScript directory links every listing.
 - Photo banners on equipment, services, about, careers, contact, and reading pages. The contact form stays prominent. Longer listing details and comments use native disclosures.
-- 10 categorized guides: 6 illustrated department/mission guides covering 35 equipment topics, plus 4 planning articles. Item-specific content includes configuration comparisons, purchase checks, ownership costs, official sources, and inquiry links. Library search includes detailed buying considerations.
-- Every listing links directly to relevant buying advice. Guides have desktop contents links and a mobile jump menu.
+- Learn is a permanent equipment reference, not an article feed. Six illustrated department/mission collections cover 35 equipment topics; four planning pages support project and service inquiries. There is no search box, topic dropdown, count, or publication-date header.
+- Every equipment topic explains the basics before presenting options, purchase checks, ownership costs, official references, and inquiry links. Every listing links directly to relevant explanations. Desktop contents links and a mobile jump menu help visitors reach the equipment they need.
 - Moderated comments use the existing Formspree service. Staff publish approved public text with a later release; see [the moderation workflow](docs/listing-comments.md).
 
-Version 1.2.1 streamlines the library into six illustrated department cards and four compact planning links, shortens all 35 equipment summaries, and removes repeated inquiry copy and oversized related-content sections. It also fixes the All equipment filter after reload, improves photo selection, and tightens source references. See the [whole-site review](docs/website-review.md) for findings and validation.
+The prior streamlining remains: compact planning/related links, short summaries, one contact form, and the All equipment filter fix. See the [whole-site review](docs/website-review.md) for findings and validation, including the revised learning structure and visual direction.
 
 Photographs illustrate categories or example models, not MMS stock or facilities. Local photos have descriptive alternative text and [individual credits](licenses/Photography.txt), linked from each footer. The catalog does not invent prices, inventory, warranties, rankings, hands-on reviews, or testimonials.
 
 ## Buying guide content
 
-The supplied review documents informed the item-by-item structure and example photography. Older prices, rankings, and first-person experience claims were not carried over. Purchasing considerations were researched against manufacturer documentation and WHO, FDA, and CDC resources on October 2, 2026; linked references appear within each item's expanded details.
+The supplied review documents informed the item-by-item structure and example photography. Older prices, rankings, and first-person experience claims were not carried over. Equipment explanations and purchasing considerations use manufacturer documentation and NIH, WHO, FDA, and CDC resources checked on October 2, 2026; linked references appear within each item's expanded details.
 
 Guides are procurement guidance for MMS review. Clinical and technical teams must approve the actual specification. Sources describe particular products or workflows and do not certify every model pictured. Examples can be older; current support, condition, compatibility, availability, and the quoted package require verification for each purchase.
 
@@ -51,7 +51,8 @@ No real messages or comments were sent during development. Browser form tests in
 ## Content maintenance
 
 - `src/catalog.mjs` and `src/additional-equipment.mjs`: equipment categories, descriptions, photos, and relationships.
-- `src/articles.mjs`: planning articles, library categories, and search.
+- `src/articles.mjs`: planning pages and the combined content registry. Legacy filtering helpers remain available to callers; Learn presents all sections directly.
+- `src/equipment-basics.mjs`: plain-language introductions for all 35 equipment topics.
 - `src/buying-guides.mjs`: department guides, item comparisons, checklists, source IDs, and review dates.
 - `src/guide-sources.mjs`: official reference labels and URLs.
 - `src/reference-photos.mjs`: supplied photo descriptions and original filenames.
@@ -65,7 +66,7 @@ No real messages or comments were sent during development. Browser form tests in
 
 ## Validation and release
 
-Unit tests cover contact transport, comments/moderation, catalog and guide relationships, searchable buying advice, routes, and page/history navigation. The build checks all 80 HTML outputs and local references. Browser QA covers responsive layouts, categories, guide disclosures, navigation, and inquiry prefilling; earlier tests also checked form error recovery and mobile navigation.
+Unit tests cover contact transport, comments/moderation, catalog and guide relationships, legacy filtering helpers, routes, and page/history navigation. The build checks all 80 HTML outputs, local references, and equipment explanations. Browser QA covers all 40 pages at 320px, 768px, and 1440px, the direct learning links, equipment categories, expanded explanations, and inquiry prefilling. Earlier tests also checked form error recovery and mobile navigation.
 
 Work on feature branches. **The current `.github/workflows/deploy.yml` deploys pushes to `main`.** Older notes predate that automation; do not push to `main` to share a preview. This playground changes neither production configuration nor DNS, mail, Cloudflare, or the NAS. Follow deployment documentation only for an authorized release.
 

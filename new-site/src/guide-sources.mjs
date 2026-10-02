@@ -1,4 +1,20 @@
 export const guideSources = {
+  ultrasoundBasics: [
+    "NIH · how ultrasound works",
+    "https://www.nibib.nih.gov/science-education/science-topics/ultrasound",
+  ],
+  xrayBasics: [
+    "NIH · how X-ray imaging works",
+    "https://www.nibib.nih.gov/science-education/science-topics/medical-x-rays",
+  ],
+  ctBasics: [
+    "NIH · how CT works",
+    "https://www.nibib.nih.gov/science-education/science-topics/computed-tomography-ct",
+  ],
+  mriBasics: [
+    "NIH · how MRI works",
+    "https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri",
+  ],
   probes: [
     "Sonosite · transducers, exams, and compatible systems",
     "https://www.sonosite.com/products/ultrasound-transducers",

@@ -1,3 +1,5 @@
+import { equipmentBasics } from "./equipment-basics.mjs";
+
 // Purchasing considerations are editorial synthesis; sources are linked per item.
 // Reference images illustrate equipment families, not current stock or endorsements.
 const item = (
@@ -10,7 +12,7 @@ const item = (
   checks,
   cost,
   sources,
-) => ({ id, title, image, listing, summary, options, checks, cost, sources });
+) => ({ id, title, image, listing, summary, explanation: equipmentBasics[id], options, checks, cost, sources });
 const guide = (
   id,
   title,
@@ -41,7 +43,7 @@ const guide = (
 export const buyingGuides = [
   guide(
     "imaging-equipment-buying-guide",
-    "Buying imaging equipment",
+    "Imaging, explained.",
     "Imaging & radiology",
     "imaging",
     "reference/ultrasound-portable",
@@ -70,7 +72,7 @@ export const buyingGuides = [
           "Check battery condition, image export, DICOM options, and approved cleaning products. For a handheld, verify account transfer and ongoing membership terms.",
         ],
         "Price the machine, every probe, software, cart, battery replacement, and reprocessing supplies together. Compare three-year ownership cost using the same examination requirements.",
-        ["probes", "probeCare", "handheld"],
+        ["ultrasoundBasics", "probes", "probeCare", "handheld"],
       ),
       item(
         "xray",
@@ -94,7 +96,7 @@ export const buyingGuides = [
           "Have the installation team review electrical supply, shielding, delivery access, networking, and local acceptance requirements before freight is booked.",
         ],
         "Separate detector and tube coverage from the general warranty. Include PACS connections, software rights, image storage, installation, and training in the written scope.",
-        ["imagingSite", "refurbished"],
+        ["xrayBasics", "imagingSite", "refurbished"],
       ),
       item(
         "c-arm",
@@ -142,7 +144,7 @@ export const buyingGuides = [
           "Assign responsibility for deinstallation, rigging, freight, reinstallation, commissioning, acceptance, and training. Establish who supports the site after handover.",
         ],
         "Compare the complete installed project and ongoing service cost. Manufacturer refurbishment programs illustrate how coverage can be bundled; their terms do not automatically apply to an independent seller’s unit.",
-        ["imagingSite", "refurbished"],
+        ["ctBasics", "mriBasics", "imagingSite", "refurbished"],
       ),
     ],
     [
@@ -155,7 +157,7 @@ export const buyingGuides = [
 
   guide(
     "surgical-equipment-buying-guide",
-    "Buying operating room equipment",
+    "Surgery & anesthesia, explained.",
     "Surgery & anesthesia",
     "surgical",
     "reference/anesthesia-workstation",
@@ -317,7 +319,7 @@ export const buyingGuides = [
 
   guide(
     "critical-care-buying-guide",
-    "Buying critical care equipment",
+    "Patient care, explained.",
     "Critical & patient care",
     "critical-care",
     "reference/patient-monitor",
@@ -550,7 +552,7 @@ export const buyingGuides = [
   ),
   guide(
     "diagnostic-equipment-buying-guide",
-    "Buying laboratory and diagnostic equipment",
+    "Laboratory & diagnostics, explained.",
     "Laboratory & diagnostics",
     "diagnostics",
     "reference/chemistry",
@@ -712,7 +714,7 @@ export const buyingGuides = [
 
   guide(
     "hospital-essentials-buying-guide",
-    "Buying hospital essentials",
+    "Hospital essentials, explained.",
     "Hospital essentials",
     "hospital",
     "reference/autoclave",
@@ -826,7 +828,7 @@ export const buyingGuides = [
 
   guide(
     "mission-clinic-equipment-guide",
-    "Equipping a mission clinic",
+    "Plan a mission clinic.",
     "Mission planning",
     null,
     "reference/otoscope",
