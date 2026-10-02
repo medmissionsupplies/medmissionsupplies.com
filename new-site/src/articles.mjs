@@ -1,4 +1,11 @@
+import { buyingGuides } from "./buying-guides.mjs";
+
 export const articleCategories = [
+  "Imaging & radiology",
+  "Surgery & anesthesia",
+  "Critical & patient care",
+  "Laboratory & diagnostics",
+  "Hospital essentials",
   "Procurement",
   "Service & support",
   "Mission planning",
@@ -152,6 +159,8 @@ export const articles = [
     related: ["beds", "ultrasound", "sterilization"],
   },
 ];
+articles.unshift(...buyingGuides);
+
 export const articleUrl = (article) => `/resources/${article.id}.html`;
 export function filterArticles({ category = "all", query = "" } = {}) {
   const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -159,7 +168,12 @@ export function filterArticles({ category = "all", query = "" } = {}) {
     (item) =>
       (category === "all" || category === item.category) &&
       terms.every((term) =>
-        `${item.title} ${item.summary} ${item.category}`
+        [item.title, item.summary, item.category,
+          ...(item.entries ?? []).flatMap((entry) => [
+            entry.title, entry.summary, ...entry.options.flat(),
+            ...entry.checks, entry.cost,
+          ]),
+        ].join(" ")
           .toLowerCase()
           .includes(term),
       ),

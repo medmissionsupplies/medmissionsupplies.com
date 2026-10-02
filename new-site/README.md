@@ -1,6 +1,6 @@
 # Med Mission Supplies website
 
-The active React/Carbon website lives in `new-site/`. The original HTML and marketing files in the parent directory are preserved.
+The active React/Carbon website lives in `new-site/`. Original HTML and marketing files in the parent directory are preserved.
 
 ## Run and verify
 
@@ -14,48 +14,57 @@ npm run build
 npm run preview
 ```
 
-The build produces a portable static website in `dist/`: 23 pages, 22 directory aliases, a 404 page, a sitemap, and third-party licenses. The normal original `.html` URLs still work. New detail pages live under `/equipment/` and `/resources/`. No application server is required. The existing Nginx configuration serves the generated files and returns a real 404 for missing paths.
+The build produces a portable static site in `dist/`: 40 pages, 39 directory aliases, a 404 page, sitemap, and third-party licenses. Original `.html` URLs still work. Detail pages live under `/equipment/` and `/resources/`. No application server is required. Existing Nginx configuration serves these files and returns a real 404 for missing paths.
 
-The footer displays the package version. Bump it before preparing a new release.
+The footer displays the package version. Bump it before preparing a release.
 
-## Version 1.1 design playground
+## Version 1.2 design playground
 
-The site centers MMS's hospital-wide procurement, support, and service offering, with wholesale and charitable pricing. Version 1.1.3 uses deep navy, vivid blue, and the MMS logo's gold, with white reading surfaces, consistent sans-serif typography, rounded photography, and short, direct copy. The homepage's navy panel and gold inquiry buttons give MMS a more recognizable identity. Repeated labels, slogans, and contact banners have been removed. The homepage introduces the offering, five equipment categories, and paths to buying advice or service help.
+MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Deep navy, vivid blue, and MMS gold sit alongside photo banners, a softly tinted background, and white reading cards. The homepage stays compact; detailed advice is available through department guides and expandable checklists.
 
-Equipment pages place quote and service links beside the main image, with longer equipment details and the comment form in accessible native disclosures. The contact form is visible immediately. Guides retain their full content and related equipment links. Carbon navigation, contact transport, team information, reduced-motion support, and page/history navigation remain in place.
+- 23 illustrated equipment areas across 5 departments, with detail pages, related equipment, and quote/service links. Department browsing replaces equipment search. Imaging is shown initially; visitors can select another department or all equipment. A no-JavaScript directory links every listing.
+- Photo banners on equipment, services, about, careers, contact, and reading pages. The contact form stays prominent. Longer listing details and comments use native disclosures.
+- 10 categorized guides: 6 illustrated department/mission guides covering 35 equipment topics, plus 4 planning articles. Item-specific content includes configuration comparisons, purchase checks, ownership costs, official sources, and inquiry links. Library search includes detailed buying considerations.
+- Every listing links directly to relevant buying advice. Guides have desktop contents links and a mobile jump menu.
+- Moderated comments use the existing Formspree service. Staff publish approved public text with a later release; see [the moderation workflow](docs/listing-comments.md).
 
-- 12 equipment areas across 5 categories, with individual pages, related equipment, search, URL-backed filters, and contextual quote/service links.
-- A dedicated Procure / Support / Service page and charitable-pricing paths.
-- 4 complete equipment planning articles, with category/search filters, contents links, related listings, and individual metadata.
-- Moderated questions and comments on each equipment page. Submissions go to the existing Formspree service. Staff review and publish approved public text with a subsequent site release. This is not automatic real-time publication; see [the moderation workflow](docs/listing-comments.md).
-- All 12 equipment listings have relevant photographs on their cards and detail pages, with descriptive alternative text and local image files. Photos illustrate categories rather than MMS inventory or facilities. Credits and individual license links are in [Photography.txt](licenses/Photography.txt), also linked from every page footer. The catalogue does not invent prices, stock levels, service warranties, or customer testimonials.
+Photographs illustrate categories or example models, not MMS stock or facilities. Local photos have descriptive alternative text and [individual credits](licenses/Photography.txt), linked from each footer. The catalog does not invent prices, inventory, warranties, rankings, hands-on reviews, or testimonials.
+
+## Buying guide content
+
+The supplied review documents informed the item-by-item structure and example photography. Older prices, rankings, and first-person experience claims were not carried over. Purchasing considerations were researched against manufacturer documentation and WHO, FDA, and CDC resources on October 2, 2026; linked references appear within each item's expanded details.
+
+Guides are procurement guidance for MMS review. Clinical and technical teams must approve the actual specification. Sources describe particular products or workflows and do not certify every model pictured. Examples can be older; current support, condition, compatibility, availability, and the quoted package require verification for each purchase.
+
+Before public release, MMS should review the editorial guidance and confirm publication rights for supplied reference images. Original filenames are recorded in `src/reference-photos.mjs` and `licenses/Photography.txt`. Keep source links and per-guide review dates current when revising advice.
 
 ## Contact and comment delivery
 
-Both forms use the established endpoint `https://formspree.io/f/xkgrvweb`. Delivery and spam filtering depend on the existing Formspree account configuration and limits. A success state requires an accepted HTTP response; errors retain visitor input, duplicate clicks are guarded, and stalled submissions time out.
+Both forms use the established endpoint `https://formspree.io/f/xkgrvweb`. Delivery and spam filtering depend on the account configuration and limits. Success requires an accepted HTTP response; errors retain input, duplicate clicks are guarded, and stalled submissions time out.
 
-Quote and service links prefill the contact form using an allowlisted equipment category or topic. Both forms also have native HTML actions for visitors without JavaScript; interactive catalogue and article filters require JavaScript. Static article, equipment, and contact content remains readable without it.
+Quote and service links prefill contact using allowlisted equipment or topics. Forms have native HTML actions for visitors without JavaScript. Interactive filters require JavaScript; static content and guide disclosures remain usable without it.
 
-No real contact messages or comments were sent during development. Browser form tests intercepted requests and simulated service responses. Live Formspree delivery and a staffed moderation process must be verified before the comment feature is relied on in production.
+No real messages or comments were sent during development. Browser form tests intercepted requests and simulated responses. Live Formspree delivery and staffed moderation must be verified before relying on comments in production.
 
 ## Content maintenance
 
-- `src/catalog.mjs`: equipment categories, descriptions, and listing relationships.
-- `src/articles.mjs`: article text, categories, and related equipment.
-- `src/routes.mjs`: shared page registry, metadata, and route resolution.
-- `src/Explore.jsx`: home, equipment, services, articles, and moderated comment UI.
+- `src/catalog.mjs` and `src/additional-equipment.mjs`: equipment categories, descriptions, photos, and relationships.
+- `src/articles.mjs`: planning articles, library categories, and search.
+- `src/buying-guides.mjs`: department guides, item comparisons, checklists, source IDs, and review dates.
+- `src/guide-sources.mjs`: official reference labels and URLs.
+- `src/reference-photos.mjs`: supplied photo descriptions and original filenames.
+- `src/routes.mjs`: page registry, metadata, and route resolution.
+- `src/Explore.jsx`: home, equipment, services, guides, and comments.
 - `src/App.jsx`: shared shell, original pages, and contact form.
-- `src/editorial.css`: the shared responsive design for every page; `src/styles.scss` loads Carbon foundations and the local IBM Plex font.
-- `src/approved-comments.json`: approved public comments only; never add email addresses or raw form exports.
-- `scripts/prerender.jsx`: static HTML generation from the shared route registry.
-- `scripts/verify.mjs`: local links, anchors, assets, all content pages, team, and form checks.
-
-Article text is original planning guidance for review by MMS, not manufacturer instructions or a promise of equipment availability. Any equipment configuration, charitable pricing, or service commitment should be confirmed for the individual request.
+- `src/editorial.css`: responsive design; `src/styles.scss` loads Carbon and local IBM Plex fonts.
+- `src/approved-comments.json`: approved public comments only, never email addresses or raw form exports.
+- `scripts/prerender.jsx`: static generation from the route registry.
+- `scripts/verify.mjs`: local links, guide anchors, assets, content, team, and form checks.
 
 ## Validation and release
 
-Unit tests cover contact transport, comments/moderation, catalogue and article relationships, route resolution, and page navigation/history. The production build checks all 46 generated HTML files and local references. Browser QA includes desktop and mobile layouts, category/search behavior, article navigation, contact prefilling, comment success/failure recovery, and mobile menu dismissal.
+Unit tests cover contact transport, comments/moderation, catalog and guide relationships, searchable buying advice, routes, and page/history navigation. The build checks all 80 HTML outputs and local references. Browser QA covers responsive layouts, categories, guide disclosures, navigation, and inquiry prefilling; earlier tests also checked form error recovery and mobile navigation.
 
-Work on feature branches. **The current `.github/workflows/deploy.yml` deploys pushes to `main`.** Some older deployment notes predate that automation; do not push to `main` merely to share a preview. This playground changes neither production configuration nor DNS, mail, Cloudflare, or the NAS. See the existing deployment documentation before any authorized release.
+Work on feature branches. **The current `.github/workflows/deploy.yml` deploys pushes to `main`.** Older notes predate that automation; do not push to `main` to share a preview. This playground changes neither production configuration nor DNS, mail, Cloudflare, or the NAS. Follow deployment documentation only for an authorized release.
 
 IBM Carbon/icons use Apache-2.0; IBM Plex uses the SIL Open Font License. Licenses are included in the built site.

@@ -45,7 +45,12 @@ for (const item of equipment) {
 for (const article of articles) {
   const html = rendered.get(`resources/${article.id}.html`);
   for (let i = 1; i <= article.sections.length; i++) assert.ok(html.includes(`id="section-${i}"`), `Missing article section ${article.id}/${i}`);
+  for (const entry of article.entries || []) {
+    assert.ok(html.includes(`id="${entry.id}"`), `Missing buying guide item ${article.id}/${entry.id}`);
+    assert.ok(html.includes('Technical references'), `Missing buying guide citations ${article.id}`);
+  }
 }
+assert.ok(!rendered.get('offerings.html').includes('Search equipment'), 'Broad equipment search was restored');
 for (const name of ['Lynette Hwang', 'Vincent Larkin', 'John Landman']) assert.ok(team.includes(name), `Missing team member ${name}`);
 const form = rendered.get('contact.html');
 assert.ok(form.includes('action="https://formspree.io/f/xkgrvweb"'), 'Contact integration changed');

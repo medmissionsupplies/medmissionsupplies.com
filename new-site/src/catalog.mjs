@@ -1,3 +1,5 @@
+import { additionalEquipment } from "./additional-equipment.mjs";
+
 export const categories = [
   {
     id: "imaging",
@@ -263,10 +265,13 @@ export const equipment = [
   },
 ];
 
+equipment.push(...additionalEquipment);
+
 export const categoryFor = (id) =>
   categories.find((category) => category.id === id);
 export const equipmentUrl = (item) => `/equipment/${item.id}.html`;
-export const photoUrl = (name) => `/assets/photos/${name}.jpg`;
+export const photoUrl = (name) =>
+  `/assets/photos/${name}.${name.startsWith("reference/") ? "webp" : "jpg"}`;
 export function filterEquipment({ category = "all", query = "" } = {}) {
   const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   return equipment.filter(
@@ -283,9 +288,10 @@ export function catalogState(search = "") {
   const params = new URLSearchParams(search);
   const category = params.get("category");
   return {
-    category: categories.some((item) => item.id === category)
-      ? category
-      : "all",
-    query: (params.get("q") || "").slice(0, 160),
+    category:
+      category === "all" || categories.some((item) => item.id === category)
+        ? category
+        : "imaging",
+    query: "",
   };
 }

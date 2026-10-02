@@ -76,3 +76,59 @@ Blogotron — Hospital Bed 2011.JPG
 Source: https://commons.wikimedia.org/wiki/File:Hospital_Bed_2011.JPG
 License: CC0
 http://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+
+MMS-SUPPLIED REFERENCE IMAGES
+Source folder provided by MMS: sample review website. Used as model illustrations in this design draft, not as proof of stock or manufacturer endorsement.
+Original filenames are retained below for provenance. Third-party ownership and publication permissions should be confirmed by MMS before a public release.
+
+reference/ultrasound-portable.webp — Main Equipment WEBP/Sonosite M-Turbo Micromaxx Ultrasound.webp
+reference/ultrasound-handheld.webp — Main Equipment WEBP/Butterfly IQ Ultrasounds Plus.webp
+reference/digital-xray.webp — Main Equipment WEBP/LCP Digital Wireless Xray.webp
+reference/c-arm.webp — Main Equipment WEBP/GE OEC 9600 carm xray.webp
+reference/anesthesia-workstation.webp — Main Equipment WEBP/Drager Fabius Tiro M Anesthesia.webp
+reference/electrosurgery.webp — Main Equipment WEBP/Valley Force FX ESU Surgery.webp
+reference/surgical-microscope.webp — Main Equipment WEBP/Leica Wild M590 Surgical Microscope.webp
+reference/airway.webp — Main Equipment WEBP/King Vision Intubation Scope.webp
+reference/endoscopy-system.webp — Main Equipment WEBP/Evis Exera Olympus CV190 Processor Endoscopy.webp
+reference/patient-monitor.webp — Main Equipment WEBP/Phillips Intellivue MX Patient Monitor.webp
+reference/ecg.webp — Main Equipment WEBP/Midmark IQECG EKG.webp
+reference/defibrillator.webp — Main Equipment WEBP/Zoll M Debrillator AED.webp
+reference/icu-ventilator.webp — Main Equipment WEBP/Viasys Avea Patient Ventilator.webp
+reference/portable-ventilator.webp — Main Equipment WEBP/LTV 1200 1000 Portable Ventilator.webp
+reference/oxygen.webp — Main Equipment WEBP/Everflow Oxygen Concentrator.webp
+reference/high-flow.webp — Main Equipment WEBP/Vapotherm High flow nasal cannula.webp
+reference/infusion.webp — Main Equipment WEBP/Alaris IV Pump.webp
+reference/suction.webp — Main Equipment WEBP/Devilbiss Vacu-aide Suction.webp
+reference/chemistry.webp — Main Equipment WEBP/Mindray Chemistry Analyzer.webp
+reference/point-of-care.webp — Main Equipment WEBP/ISTAT Abbott Point of Care.webp
+reference/retinal-camera.webp — Main Equipment WEBP/Topcon Retinal Camera Fundus.webp
+reference/tonometry.webp — Main Equipment WEBP/Icare IC100 Tonometer.webp
+reference/autoclave.webp — Main Equipment WEBP/Midmark M11 Ultraclave Autoclave.webp
+reference/stethoscope.webp — Mission Essential Pics WEBP/Stethoscope EKO Core Duo ECG.webp
+reference/otoscope.webp — Mission Essential Pics WEBP/Welch Allyn Macroview Otoscope.webp
+reference/dermatoscope.webp — Mission Essential Pics WEBP/Dermlite Pro HR2 Dermatoscope.webp
+reference/spirometry.webp — Mission Essential Pics WEBP/MIR Spirobank Spirometry.webp
+reference/audiometer.webp — Mission Essential Pics WEBP/Maico Audiometer.webp
+reference/hemoglobin.webp — Mission Essential Pics WEBP/Hemocue Hemoglobin 201.webp
+reference/glucometer.webp — Mission Essential Pics WEBP/Accucheck Glucometer.webp
+reference/urinalysis.webp — Mission Essential Pics WEBP/Mckesson Consult Urinalysis Analyzer.webp
+reference/instruments.webp — Mission Essential Pics WEBP/Surgical Tray Instruments.webp
+reference/slit-lamp.webp — Mission Essential Pics WEBP/Portable Slitlamp Keeler PSL.webp
+reference/blood-pressure.webp — Mission Essential Pics WEBP/Omron Blood Pressure Cuff.webp
+reference/lab-microscope.webp — Mission Essential Pics WEBP/OMAX Microscope.webp
+reference/pulse-oximeter.webp — Mission Essential Pics WEBP/Pulse Ox.webp
+
+dialysis.jpg
+Jonas@sodratornet.se — File:Dialog-dialysis-machine-b-braun.jpg
+Source: https://commons.wikimedia.org/wiki/File:Dialog-dialysis-machine-b-braun.jpg
+License: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0
+Resized Wikimedia thumbnail; displayed with CSS cropping.
+
+refrigeration.jpg
+National Institute of Standards and Technology — File:Vaccine; Temperature; Refrigerator (5941076542).jpg
+Source: https://commons.wikimedia.org/wiki/File:Vaccine;_Temperature;_Refrigerator_(5941076542).jpg
+License: Public domain
+https://commons.wikimedia.org/wiki/File:Vaccine;_Temperature;_Refrigerator_(5941076542).jpg
+Resized Wikimedia thumbnail; displayed with CSS cropping.

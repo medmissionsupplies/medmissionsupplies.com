@@ -191,25 +191,18 @@ function SiteFooter() {
 function About() {
   return (
     <>
-      <section className="about-intro content-width">
-        <div>
-          <h1>
-            Good equipment.
-            <br />
-            <span>Greater access to care.</span>
-          </h1>
-          <p>
-            Med Mission Supplies helps hospitals and clinics source capital
-            equipment at wholesale and charitable prices.
-          </p>
-          <p>
-            Founded to serve clinics and mission hospitals in underserved
-            regions, we bring experience in medical equipment, shipping, and
-            ongoing support.
-          </p>
-          <Action href="/contact.html">Meet your equipment partner</Action>
-        </div>
-        <Photo name="operating-room" eager />
+      <ExploreHero
+        title="Good equipment. Greater access to care."
+        description="We help hospitals and clinics source capital equipment at wholesale and charitable prices."
+        image="operating-room"
+      />
+      <section className="about-story content-width">
+        <p>
+          Founded to serve clinics and mission hospitals in underserved regions,
+          we bring experience in medical equipment, shipping, and ongoing
+          support.
+        </p>
+        <Action href="/contact.html">Meet your equipment partner</Action>
       </section>
       <section
         className="team-section content-width"
@@ -244,9 +237,10 @@ function Employment() {
       <ExploreHero
         title="Make your work matter."
         description="Help hospitals and clinics get the equipment and support they need."
+        image="laboratory"
       />
       <section className="careers-layout content-width">
-        <Photo name="laboratory" eager />
+        <Photo name="operating-room" />
         <div>
           <h2>Join Med Mission Supplies.</h2>
           <p>
@@ -445,49 +439,54 @@ function ContactForm({ search, draft }) {
 
 function Contact({ search, draft }) {
   return (
-    <section className="contact-layout content-width">
-      <div className="contact-copy">
-        <h1>
-          Let’s find what <br />
-          you need.
-        </h1>
-        <p>
-          Looking for equipment, comparing options, or needing service? Send us
-          a message.
-        </p>
-        <div className="contact-options">
-          <span>
-            <Checkmark size={20} />
-            Equipment & pricing
-          </span>
-          <span>
-            <Checkmark size={20} />
-            Service & support
-          </span>
-          <span>
-            <Checkmark size={20} />
-            Charitable projects
-          </span>
+    <>
+      <ExploreHero
+        title="Let’s find what you need."
+        description="Equipment, advice, or service. Start a conversation with our team."
+        image="ultrasound"
+        compact
+      />
+      <section className="contact-layout content-width">
+        <div className="contact-copy">
+          <h2>How can we help?</h2>
+          <p>
+            Looking for equipment, comparing options, or needing service? Send
+            us a message.
+          </p>
+          <div className="contact-options">
+            <span>
+              <Checkmark size={20} />
+              Equipment & pricing
+            </span>
+            <span>
+              <Checkmark size={20} />
+              Service & support
+            </span>
+            <span>
+              <Checkmark size={20} />
+              Charitable projects
+            </span>
+          </div>
+          <p className="response-time">
+            <Time size={20} />
+            We aim to reply within 48 hours.
+          </p>
+          <a
+            className="text-link"
+            href="https://www.linkedin.com/company/med-mission-supplies"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Connect on LinkedIn
+            <ArrowUpRight size={18} />
+            <span className="sr-only"> (opens in a new tab)</span>
+          </a>
         </div>
-        <p className="response-time">
-          <Time size={20} />
-          We aim to reply within 48 hours.
-        </p>
-        <a
-          className="text-link"
-          href="https://www.linkedin.com/company/med-mission-supplies"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Connect on LinkedIn
-          <ArrowUpRight size={18} />
-          <span className="sr-only"> (opens in a new tab)</span>
-        </a>
-      </div>
-      <div className="contact-form-panel">
-        <ContactForm search={search} draft={draft} />
-      </div>
-    </section>
+        <div className="contact-form-panel">
+          <ContactForm search={search} draft={draft} />
+        </div>
+      </section>
+    </>
   );
 }
 
