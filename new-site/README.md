@@ -20,7 +20,7 @@ The footer displays the package version. Bump it before preparing a new release.
 
 ## Version 1.1 design playground
 
-The site centers MMS's hospital-wide procurement, support, and service offering, with wholesale and charitable pricing. Version 1.1.2 restarts the design across every page with white backgrounds, navy and teal, consistent sans-serif typography, rounded photography, and short, direct copy. Repeated labels, slogans, and contact banners have been removed. The homepage introduces the offering, five equipment categories, and paths to buying advice or service help.
+The site centers MMS's hospital-wide procurement, support, and service offering, with wholesale and charitable pricing. Version 1.1.3 uses deep navy, vivid blue, and the MMS logo's gold, with white reading surfaces, consistent sans-serif typography, rounded photography, and short, direct copy. The homepage's navy panel and gold inquiry buttons give MMS a more recognizable identity. Repeated labels, slogans, and contact banners have been removed. The homepage introduces the offering, five equipment categories, and paths to buying advice or service help.
 
 Equipment pages place quote and service links beside the main image, with longer equipment details and the comment form in accessible native disclosures. The contact form is visible immediately. Guides retain their full content and related equipment links. Carbon navigation, contact transport, team information, reduced-motion support, and page/history navigation remain in place.
 
@@ -28,7 +28,7 @@ Equipment pages place quote and service links beside the main image, with longer
 - A dedicated Procure / Support / Service page and charitable-pricing paths.
 - 4 complete equipment planning articles, with category/search filters, contents links, related listings, and individual metadata.
 - Moderated questions and comments on each equipment page. Submissions go to the existing Formspree service. Staff review and publish approved public text with a subsequent site release. This is not automatic real-time publication; see [the moderation workflow](docs/listing-comments.md).
-- Real stock photographs, clearly presented as category illustrations rather than MMS inventory or facilities. Credits and license links are in [Photography.txt](licenses/Photography.txt). The catalogue does not invent prices, stock levels, service warranties, or customer testimonials.
+- All 12 equipment listings have relevant photographs on their cards and detail pages, with descriptive alternative text and local image files. Photos illustrate categories rather than MMS inventory or facilities. Credits and individual license links are in [Photography.txt](licenses/Photography.txt), also linked from every page footer. The catalogue does not invent prices, stock levels, service warranties, or customer testimonials.
 
 ## Contact and comment delivery
 

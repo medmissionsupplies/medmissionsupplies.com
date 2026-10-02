@@ -1,10 +1,11 @@
 :root {
-  --ink: #173d50;
-  --muted: #536771;
-  --accent: #216d69;
-  --soft: #edf4f2;
-  --line: #dde5e6;
+  --ink: #102f4c;
+  --muted: #526477;
+  --accent: #2959c7;
+  --soft: #edf2fc;
+  --line: #dce3ef;
   --gold: #fbba27;
+  --warm: #fff3d6;
 }
 html {
   scroll-behavior: smooth;
@@ -18,18 +19,18 @@ body {
 }
 .mms-site {
   --cds-background: #fff;
-  --cds-text-primary: #173d50;
-  --cds-text-secondary: #536771;
-  --cds-link-primary: #216d69;
-  --cds-link-primary-hover: #173d50;
-  --cds-button-primary: #173d50;
-  --cds-button-primary-hover: #216d69;
-  --cds-button-primary-active: #123344;
-  --cds-button-tertiary: #173d50;
-  --cds-button-tertiary-hover: #216d69;
-  --cds-focus: #216d69;
-  --cds-border-interactive: #216d69;
-  --cds-layer-01: #f5f8f7;
+  --cds-text-primary: #102f4c;
+  --cds-text-secondary: #526477;
+  --cds-link-primary: #2959c7;
+  --cds-link-primary-hover: #102f4c;
+  --cds-button-primary: #102f4c;
+  --cds-button-primary-hover: #2959c7;
+  --cds-button-primary-active: #0a233a;
+  --cds-button-tertiary: #102f4c;
+  --cds-button-tertiary-hover: #2959c7;
+  --cds-focus: #2959c7;
+  --cds-border-interactive: #2959c7;
+  --cds-layer-01: #f2f5fc;
   background: #fff;
   color: var(--ink);
   font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
@@ -165,7 +166,7 @@ a.cds--header__menu-item {
   padding-inline: 16px;
 }
 a.cds--header__menu-item:hover {
-  background: #f5f8f7;
+  background: #f2f5fc;
   color: var(--ink);
 }
 a.cds--header__menu-item[aria-current="page"] {
@@ -177,8 +178,8 @@ a.cds--header__menu-item[aria-current="page"] {
   display: inline-flex;
   align-items: center;
   gap: 22px;
-  background: var(--ink);
-  color: #fff;
+  background: var(--gold);
+  color: var(--ink);
   font-weight: 500;
   font-size: 14px;
   border-radius: 7px;
@@ -189,7 +190,7 @@ a.cds--header__menu-item[aria-current="page"] {
   white-space: nowrap;
 }
 .header-quote:hover {
-  background: var(--accent);
+  background: #f0aa13;
 }
 .site-header .cds--header__action {
   height: 80px;
@@ -269,19 +270,48 @@ a.cds--header__menu-item[aria-current="page"] {
   grid-template-columns: 1.12fr 1fr;
   gap: 64px;
   align-items: center;
-  padding-block: 48px;
+  padding: 40px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  border-radius: 24px;
+  background: var(--ink);
+  color: #fff;
 }
 .mms-site .home-intro h1 {
-  font-size: clamp(44px, 4.6vw, 66px);
+  font-size: clamp(44px, 4.25vw, 60px);
 }
-.home-intro h1 span,
+.home-intro h1 span {
+  color: var(--gold);
+}
+.home-intro .mms-action {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--ink);
+}
+.home-intro .mms-action:hover {
+  background: #ffd16b;
+  border-color: #ffd16b;
+}
+.home-intro .mms-action.secondary {
+  background: transparent;
+  border-color: #69839b;
+  color: #fff;
+}
+.home-intro .mms-action.secondary:hover {
+  background: #214663;
+  border-color: #b8cee3;
+}
+.home-intro a:focus-visible,
+.clean-footer a:focus-visible {
+  outline-color: var(--gold);
+}
 .about-intro h1 span {
   color: var(--accent);
 }
 .home-intro-copy > p {
   font-size: 18px;
   max-width: 480px;
-  color: var(--muted);
+  color: #d4e2ee;
   margin-top: 24px;
 }
 .home-intro-image {
@@ -318,14 +348,14 @@ a.cds--header__menu-item[aria-current="page"] {
   align-items: center;
   padding: 24px 20px;
   border-radius: 12px;
-  background: #f3f7f6;
+  background: #edf2fc;
   text-decoration: none;
   transition:
     background 0.16s,
     transform 0.16s;
 }
 .category-tile:hover {
-  background: #e4efeb;
+  background: #dce7fc;
   transform: translateY(-3px);
 }
 .category-tile > svg:first-child {
@@ -349,7 +379,8 @@ a.cds--header__menu-item[aria-current="page"] {
   display: flex;
   align-items: center;
   gap: 26px;
-  background: #f5f7f8;
+  background: var(--accent);
+  color: #fff;
   border-radius: 14px;
   padding: 26px;
   text-decoration: none;
@@ -365,7 +396,7 @@ a.cds--header__menu-item[aria-current="page"] {
 }
 .help-card p {
   font-size: 14px;
-  color: var(--muted);
+  color: #e5edff;
   margin-top: 10px;
 }
 .help-card span {
@@ -382,7 +413,11 @@ a.cds--header__menu-item[aria-current="page"] {
 }
 .help-card-service {
   justify-content: space-between;
-  background: var(--soft);
+  background: var(--warm);
+  color: var(--ink);
+}
+.help-card-service p {
+  color: var(--muted);
 }
 .help-card-service > svg {
   color: var(--accent);
@@ -519,14 +554,14 @@ a.cds--header__menu-item[aria-current="page"] {
   transform: scale(1.035);
 }
 .catalog-card:hover {
-  border-color: #83aaa5;
+  border-color: #85a3e3;
 }
 .equipment-illustration {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(145deg, #edf4f2, #deeceb);
-  color: #4b8480;
+  background: linear-gradient(145deg, #edf2fc, #dce7fc);
+  color: #2959c7;
 }
 .card-copy {
   position: relative;
@@ -562,7 +597,7 @@ a.cds--header__menu-item[aria-current="page"] {
 .empty-results {
   padding: 48px 24px;
   text-align: center;
-  background: #f5f8f7;
+  background: #f2f5fc;
   border-radius: 12px;
   margin-top: 24px;
 }
@@ -615,7 +650,21 @@ a.cds--header__menu-item[aria-current="page"] {
   padding: 30px 18px 15px;
   color: #fff;
   font-size: 11px;
-  background: linear-gradient(transparent, #173d50e6);
+  background: linear-gradient(transparent, #102f4ce6);
+}
+.card-image img[data-photo="neonatal"],
+.detail-photo img[data-photo="neonatal"] {
+  object-position: center 35%;
+}
+.card-image img[data-photo="sterilization"],
+.detail-photo img[data-photo="sterilization"] {
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
+  transform: scale(1.3);
+}
+.catalog-card:hover .card-image img[data-photo="sterilization"] {
+  transform: scale(1.33);
 }
 .equipment-summary h1 {
   font-size: 43px;
@@ -942,7 +991,7 @@ details[open] > summary > span {
 .article-checklist {
   padding: 26px;
   border-radius: 12px;
-  background: var(--soft);
+  background: var(--warm);
   margin-top: 32px;
 }
 .article-checklist h2 {
@@ -1055,7 +1104,7 @@ details[open] > summary > span {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  background: var(--soft);
+  background: var(--warm);
   border-radius: 14px;
   padding: 32px;
   margin-bottom: 48px;
@@ -1109,7 +1158,7 @@ details[open] > summary > span {
   align-items: center;
   gap: 18px;
   padding: 23px;
-  background: #f5f8f7;
+  background: #f2f5fc;
   border-radius: 12px;
 }
 .team-initials {
@@ -1117,7 +1166,7 @@ details[open] > summary > span {
   place-items: center;
   width: 56px;
   height: 56px;
-  background: #e2eeeb;
+  background: #dce7fc;
   border-radius: 50%;
   color: var(--accent);
   font-size: 16px;
@@ -1189,7 +1238,7 @@ details[open] > summary > span {
   margin-top: 22px;
 }
 .contact-form-panel {
-  background: #f5f8f7;
+  background: #f2f5fc;
   padding: 32px;
   border-radius: 16px;
 }
@@ -1250,7 +1299,8 @@ details[open] > summary > span {
 .clean-footer {
   border-top: 1px solid var(--line);
   padding-block: 25px;
-  background: #fff;
+  background: var(--ink);
+  color: #fff;
 }
 .footer-topline {
   display: flex;
@@ -1281,19 +1331,25 @@ details[open] > summary > span {
   gap: 6px;
   text-decoration: none;
   font-size: 13px;
-  color: var(--muted);
+  color: #d4e2ee;
 }
 .clean-footer nav a:hover {
   text-decoration: underline;
 }
 .clean-footer .content-width > p {
   font-size: 11px;
-  color: var(--muted);
+  color: #b5c9db;
   margin-top: 17px;
 }
 .site-version {
   margin-left: 8px;
-  color: var(--muted);
+  color: inherit;
+}
+.photo-credits {
+  display: inline-block;
+  margin-left: 16px;
+  color: inherit;
+  text-underline-offset: 3px;
 }
 @media (max-width: 1055px) {
   .content-width,
@@ -1301,8 +1357,8 @@ details[open] > summary > span {
     width: calc(100% - 56px);
   }
   .home-intro {
-    gap: 32px;
-    padding-block: 36px;
+    gap: 28px;
+    padding: 28px;
   }
   .home-intro-image {
     height: 375px;
@@ -1440,10 +1496,13 @@ details[open] > summary > span {
   .home-intro {
     grid-template-columns: 1fr;
     gap: 26px;
-    padding-block: 32px 28px;
+    padding: 28px 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    border-radius: 18px;
   }
   .mms-site .home-intro h1 {
-    font-size: clamp(37px, 8.5vw, 53px);
+    font-size: clamp(32px, 8vw, 48px);
   }
   .home-intro-copy > p {
     font-size: 16px;
@@ -1635,7 +1694,7 @@ details[open] > summary > span {
   }
   .article-aside {
     position: static;
-    background: #f5f8f7;
+    background: #f2f5fc;
     padding: 24px;
     border-radius: 12px;
   }

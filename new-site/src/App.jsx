@@ -179,6 +179,9 @@ function SiteFooter() {
         <p>
           © {new Date().getFullYear()} Med Mission Supplies{" "}
           <span className="site-version">v{version}</span>
+          <a className="photo-credits" href="/licenses/Photography.txt">
+            Photo credits
+          </a>
         </p>
       </div>
     </footer>
@@ -445,8 +448,7 @@ function Contact({ search, draft }) {
     <section className="contact-layout content-width">
       <div className="contact-copy">
         <h1>
-          Let’s find what{" "}
-          <br />
+          Let’s find what <br />
           you need.
         </h1>
         <p>

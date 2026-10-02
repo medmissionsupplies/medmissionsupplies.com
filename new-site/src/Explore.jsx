@@ -51,14 +51,35 @@ export function Photo({ name, className = "", eager = false, alt }) {
     "operating-room": "Procedure room with an examination table and lighting",
     laboratory: "Laboratory instruments and a technician’s gloved hand",
     "equipment-detail": "Controls and keyboard of an ultrasound system",
+    xray: "C-arm X-ray system beside a radiolucent operating table",
+    "ct-mri": "MRI scanner and patient table in an imaging room",
+    endoscopy: "Endoscopy tower and examination equipment in a procedure room",
+    ventilators: "Hospital ventilator with screen and breathing circuit",
+    ekg: "Patient monitor with display and controls",
+    neonatal: "Empty infant incubator on a wheeled stand",
+    sterilization: "Stainless steel hospital autoclave",
+    beds: "Adjustable hospital bed with side rails and controls",
   };
+  const dimensions = {
+    xray: [3872, 2592],
+    "ct-mri": [2254, 2056],
+    endoscopy: [2978, 2036],
+    ventilators: [1129, 1096],
+    ekg: [3264, 2448],
+    neonatal: [4363, 3823],
+    sterilization: [1811, 2717],
+    beds: [3264, 2448],
+  };
+  const [width, height] =
+    dimensions[name] ?? (name === "ultrasound" ? [1000, 667] : [1100, 1650]);
   return (
     <img
       className={className}
+      data-photo={name}
       src={photoUrl(name)}
       alt={alt ?? descriptions[name]}
-      width={name === "ultrasound" ? 1000 : 1100}
-      height={name === "ultrasound" ? 667 : 1650}
+      width={width}
+      height={height}
       loading={eager ? "eager" : "lazy"}
       fetchPriority={eager ? "high" : undefined}
     />

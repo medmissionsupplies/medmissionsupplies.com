@@ -17,7 +17,7 @@ export const categories = [
     id: "critical-care",
     name: "Critical & patient care",
     description: "Support for the bedside, ICU, and beyond.",
-    image: null,
+    image: "ekg",
     icon: "heart",
   },
   {
@@ -60,7 +60,7 @@ export const equipment = [
     id: "xray",
     title: "X-ray & C-arm systems",
     category: "imaging",
-    image: null,
+    image: "xray",
     summary:
       "Mobile and fixed radiography, digital imaging, and C-arm sourcing.",
     includes: [
@@ -79,7 +79,7 @@ export const equipment = [
     id: "ct-mri",
     title: "CT & MRI equipment",
     category: "imaging",
-    image: null,
+    image: "ct-mri",
     summary:
       "Capital imaging projects with sourcing and lifecycle support in view.",
     includes: [
@@ -136,7 +136,7 @@ export const equipment = [
     id: "endoscopy",
     title: "Endoscopy systems",
     category: "surgical",
-    image: null,
+    image: "endoscopy",
     summary: "Scopes, processors, and complete system sourcing.",
     includes: [
       "Video processors and light sources",
@@ -154,7 +154,7 @@ export const equipment = [
     id: "ventilators",
     title: "Ventilators & respiratory equipment",
     category: "critical-care",
-    image: null,
+    image: "ventilators",
     summary:
       "Respiratory equipment sourcing for hospital and critical care settings.",
     includes: [
@@ -173,7 +173,7 @@ export const equipment = [
     id: "ekg",
     title: "Monitors, ECG & defibrillators",
     category: "critical-care",
-    image: null,
+    image: "ekg",
     summary:
       "Patient monitoring and cardiac equipment across hospital departments.",
     includes: [
@@ -192,7 +192,7 @@ export const equipment = [
     id: "neonatal",
     title: "Maternal & neonatal equipment",
     category: "critical-care",
-    image: null,
+    image: "neonatal",
     summary: "Sourcing support for maternity and neonatal departments.",
     includes: [
       "Infant incubators and warmers",
@@ -229,7 +229,7 @@ export const equipment = [
     id: "sterilization",
     title: "Sterilization equipment",
     category: "hospital",
-    image: null,
+    image: "sterilization",
     summary: "Sterilizer and autoclave sourcing for your facility’s workflow.",
     includes: [
       "Autoclave and sterilizer sourcing",
@@ -247,7 +247,7 @@ export const equipment = [
     id: "beds",
     title: "Hospital beds & patient furniture",
     category: "hospital",
-    image: null,
+    image: "beds",
     summary: "Beds, stretchers, and equipment for patient care spaces.",
     includes: [
       "Hospital and examination beds",
