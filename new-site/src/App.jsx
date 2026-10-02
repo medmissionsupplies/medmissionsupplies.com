@@ -18,7 +18,7 @@ import {
   TextArea,
   InlineNotification,
 } from "@carbon/react";
-import { ArrowRight, ArrowUpRight, Time, Checkmark } from "@carbon/icons-react";
+import { ArrowRight, ArrowUpRight, Checkmark } from "@carbon/icons-react";
 
 import {
   Action,
@@ -29,7 +29,6 @@ import {
   Articles,
   ArticleDetail,
   Services,
-  Photo,
 } from "./Explore.jsx";
 import { equipment } from "./catalog.mjs";
 import { articles } from "./articles.mjs";
@@ -202,13 +201,13 @@ function About() {
           we bring experience in medical equipment, shipping, and ongoing
           support.
         </p>
-        <Action href="/contact.html">Meet your equipment partner</Action>
+        <Action href="/contact.html">Talk to our team</Action>
       </section>
       <section
         className="team-section content-width"
         aria-labelledby="team-heading"
       >
-        <h2 id="team-heading">The people here to help.</h2>
+        <h2 id="team-heading">Our team</h2>
         <div className="team-grid">
           {[
             ["LH", "Lynette Hwang", "Founder & CEO"],
@@ -240,15 +239,14 @@ function Employment() {
         image="laboratory"
       />
       <section className="careers-layout content-width">
-        <Photo name="operating-room" />
         <div>
           <h2>Join Med Mission Supplies.</h2>
           <p>
-            Explore current opportunities and application details on our
-            LinkedIn page.
+            Visit our LinkedIn page for company updates, or contact us about
+            working with the team.
           </p>
           <Action href="https://www.linkedin.com/company/med-mission-supplies">
-            View opportunities
+            Visit MMS on LinkedIn
           </Action>
           <a className="text-link" href="/contact.html">
             Ask about our team
@@ -349,8 +347,8 @@ function ContactForm({ search, draft }) {
         </div>
         <h2>Thank you for reaching out.</h2>
         <p>
-          Your message has been sent to Med Mission Supplies. We aim to respond
-          within 48 hours.
+          Your message has been sent to Med Mission Supplies. Our team will
+          follow up by email.
         </p>
         <Button kind="tertiary" onClick={() => setState("idle")}>
           Send another message
@@ -447,41 +445,6 @@ function Contact({ search, draft }) {
         compact
       />
       <section className="contact-layout content-width">
-        <div className="contact-copy">
-          <h2>How can we help?</h2>
-          <p>
-            Looking for equipment, comparing options, or needing service? Send
-            us a message.
-          </p>
-          <div className="contact-options">
-            <span>
-              <Checkmark size={20} />
-              Equipment & pricing
-            </span>
-            <span>
-              <Checkmark size={20} />
-              Service & support
-            </span>
-            <span>
-              <Checkmark size={20} />
-              Charitable projects
-            </span>
-          </div>
-          <p className="response-time">
-            <Time size={20} />
-            We aim to reply within 48 hours.
-          </p>
-          <a
-            className="text-link"
-            href="https://www.linkedin.com/company/med-mission-supplies"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Connect on LinkedIn
-            <ArrowUpRight size={18} />
-            <span className="sr-only"> (opens in a new tab)</span>
-          </a>
-        </div>
         <div className="contact-form-panel">
           <ContactForm search={search} draft={draft} />
         </div>

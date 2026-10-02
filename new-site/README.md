@@ -28,6 +28,8 @@ MMS's hospital-wide procurement, support, and service offering is central, with 
 - Every listing links directly to relevant buying advice. Guides have desktop contents links and a mobile jump menu.
 - Moderated comments use the existing Formspree service. Staff publish approved public text with a later release; see [the moderation workflow](docs/listing-comments.md).
 
+Version 1.2.1 streamlines the library into six illustrated department cards and four compact planning links, shortens all 35 equipment summaries, and removes repeated inquiry copy and oversized related-content sections. It also fixes the All equipment filter after reload, improves photo selection, and tightens source references. See the [whole-site review](docs/website-review.md) for findings and validation.
+
 Photographs illustrate categories or example models, not MMS stock or facilities. Local photos have descriptive alternative text and [individual credits](licenses/Photography.txt), linked from each footer. The catalog does not invent prices, inventory, warranties, rankings, hands-on reviews, or testimonials.
 
 ## Buying guide content

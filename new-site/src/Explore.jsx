@@ -64,6 +64,7 @@ export function Photo({ name, className = "", eager = false, alt }) {
     beds: "Adjustable hospital bed with side rails and controls",
     dialysis: "Dialysis machine with display and fluid-handling components",
     refrigeration: "Refrigerator used in vaccine-temperature research",
+    histology: "Leica rotary microtome for specimen sectioning",
   };
   const dimensions = {
     xray: [3872, 2592],
@@ -135,10 +136,10 @@ export function ArticleCard({ item }) {
         </div>
         <div className="resource-copy">
           <div className="article-meta">
-            <span>{item.category}</span>
-            <span>{item.minutes} min read</span>
+            {!item.entries && <span>{item.category}</span>}
+            <span>{item.entries ? `${item.entries.length} equipment topics` : `${item.minutes} min read`}</span>
           </div>
-          <h3>{item.title}</h3>
+          <h3>{item.entries ? (item.department ? item.category : "Mission clinics") : item.title}</h3>
           <p>{item.summary}</p>
         </div>
       </a>
@@ -177,7 +178,7 @@ export function NewHome() {
       >
         <div className="section-heading-row">
           <h2 id="home-equipment-heading">What do you need?</h2>
-          <a className="text-link" href="/offerings.html">
+          <a className="text-link" href="/offerings.html?category=all">
             View all equipment
             <ArrowRight size={20} />
           </a>
@@ -206,8 +207,8 @@ export function NewHome() {
         <a className="help-card" href="/articles.html">
           <Photo name="ultrasound" />
           <div>
-            <h2>Make a confident choice.</h2>
-            <p>Simple guides to buying medical equipment.</p>
+            <h2>Buying guides</h2>
+            <p>Compare equipment, accessories, and ownership costs.</p>
             <span>
               Explore buying guides <ArrowRight size={20} />
             </span>
@@ -215,7 +216,7 @@ export function NewHome() {
         </a>
         <a className="help-card help-card-service" href="/services.html">
           <div>
-            <h2>Help beyond the purchase.</h2>
+            <h2>Service & support</h2>
             <p>Equipment questions, parts, and service support.</p>
             <span>
               See how we can help <ArrowRight size={20} />
@@ -225,15 +226,6 @@ export function NewHome() {
         </a>
       </section>
     </>
-  );
-}
-
-export function NewContactBand() {
-  return (
-    <section className="contact-invitation content-width">
-      <h2>Let’s find what you need.</h2>
-      <Action href="/contact.html">Talk to our team</Action>
-    </section>
   );
 }
 
@@ -288,7 +280,7 @@ function useFilters(search, type) {
     const value = { ...filters, ...next };
     setFilters(value);
     const url = new URL(window.location.href);
-    value.category === "all"
+    value.category === "all" && type !== "equipment"
       ? url.searchParams.delete("category")
       : url.searchParams.set("category", value.category);
     value.query
@@ -309,7 +301,7 @@ export function EquipmentCatalog({ search }) {
     <>
       <ExploreHero
         title="Find your equipment."
-        description="From one replacement to a whole department. Explore equipment, compare your options, and ask us for a quote."
+        description="Single systems or complete departments, sourced to your requirements."
         image="anesthesia"
       />
       <section className="content-width catalog-section">
@@ -455,8 +447,7 @@ export function EquipmentDetail({ item }) {
       {guideLink && (
         <div className="equipment-guide-link content-width">
           <div>
-            <strong>Know what to look for.</strong>
-            <p>Compare options, ownership costs, and questions to ask.</p>
+            <strong>Compare options and ownership costs.</strong>
           </div>
           <a
             className="text-link"
@@ -472,7 +463,6 @@ export function EquipmentDetail({ item }) {
             Equipment details <span>+</span>
           </summary>
           <div className="disclosure-content">
-            <p>{item.text}</p>
             <div className="equipment-facts">
               <div>
                 <h2>Options to discuss</h2>
@@ -504,9 +494,9 @@ export function EquipmentDetail({ item }) {
       {!!related.length && (
         <section className="content-width related-equipment">
           <SectionHead title="Related equipment" />
-          <div className="catalog-grid">
+          <div className="related-equipment-links">
             {related.map((other) => (
-              <EquipmentCard key={other.id} item={other} />
+              <a key={other.id} href={equipmentUrl(other)}>{other.title}<ArrowUpRight size={18} /></a>
             ))}
           </div>
         </section>
@@ -559,12 +549,12 @@ function ListingComments({ item }) {
       id="comments"
       aria-labelledby="comments-title"
     >
-      <div className="comments-heading">
+      {!!comments.length && <div className="comments-heading">
         <h2 id="comments-title">
           Questions & comments
           {comments.length > 0 && <span> ({comments.length})</span>}
         </h2>
-      </div>
+      </div>}
       {comments.length ? (
         <ol className="approved-comments">
           {comments.map((comment) => (
@@ -595,8 +585,8 @@ function ListingComments({ item }) {
         </ol>
       ) : null}
       <details className="comment-disclosure">
-        <summary>
-          Write a question or comment <span>+</span>
+        <summary id={comments.length ? undefined : "comments-title"}>
+          {comments.length ? "Write a question or comment" : "Questions & comments"} <span>+</span>
         </summary>
         <p className="comment-review-note">
           MMS reviews comments before publication. For pricing or private
@@ -746,8 +736,8 @@ export function Articles({ search }) {
   return (
     <>
       <ExploreHero
-        title="Buy with a clearer picture."
-        description="Equipment-by-equipment advice. Compare options, spot hidden costs, and know what to ask before you buy."
+        title="Medical equipment buying guides."
+        description="What to compare, what to include, and what ownership really costs."
         image="ultrasound"
       />
       <section className="content-width articles-section">
@@ -787,10 +777,22 @@ export function Articles({ search }) {
           </p>
         </noscript>
         <div className="resource-grid">
-          {results.map((item) => (
+          {results.filter((item) => item.kind === "buying-guide").map((item) => (
             <ArticleCard item={item} key={item.id} />
           ))}
         </div>
+        {results.some((item) => item.kind !== "buying-guide") && (
+          <section className="planning-guides" aria-labelledby="planning-guides-title">
+            <h2 id="planning-guides-title">Planning & service</h2>
+            <div className="planning-guide-links">
+              {results.filter((item) => item.kind !== "buying-guide").map((item) => (
+                <a key={item.id} href={articleUrl(item)}>
+                  <span>{item.title}</span><ArrowUpRight size={18} />
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
         {!results.length && (
           <div className="empty-results">
             <h2>No matching articles.</h2>
@@ -805,7 +807,6 @@ export function Articles({ search }) {
           </div>
         )}
       </section>
-      <NewContactBand />
     </>
   );
 }
@@ -823,10 +824,6 @@ export function ArticleDetail({ item }) {
       />
       <article className="content-width article-layout">
         <div className="article-body">
-          <div className="article-byline">
-            <span>Med Mission Supplies</span>
-            <span>{item.minutes} min read</span>
-          </div>
           <p className="article-intro">{item.intro}</p>
           {item.sections.map(([title, text], i) => (
             <section id={`section-${i + 1}`} key={title}>
@@ -846,7 +843,6 @@ export function ArticleDetail({ item }) {
             </ul>
           </div>
           <div className="article-next">
-            <h2>Ready to ask a question?</h2>
             <Action href="/contact.html">Talk to our team</Action>
           </div>
         </div>
@@ -884,18 +880,6 @@ export function ArticleDetail({ item }) {
           </a>
         </aside>
       </article>
-      <section className="more-guides content-width">
-        <h2>Keep reading</h2>
-        {articles
-          .filter((other) => other.id !== item.id)
-          .slice(0, 3)
-          .map((other) => (
-            <a key={other.id} href={articleUrl(other)}>
-              {other.title}
-              <ArrowUpRight size={20} />
-            </a>
-          ))}
-      </section>
     </>
   );
 }
@@ -933,8 +917,8 @@ export function BuyingGuide({ item }) {
           <p>{item.intro}</p>
         </div>
         <p className="guide-scope">
-          Illustrative models may be older. Confirm the specification, condition,
-          and ongoing support with your clinical and technical teams.
+          Photos show example models. Your clinical and technical teams should
+          approve the exact equipment and its current support.
         </p>
       </div>
       <details className="guide-mobile-contents content-width">
@@ -948,32 +932,22 @@ export function BuyingGuide({ item }) {
           className="guide-items"
           aria-label="Equipment buying considerations"
         >
-          {item.entries.map((entry, i) => {
+          {item.entries.map((entry) => {
             const listing = equipment.find((e) => e.id === entry.listing);
             return (
               <section className="guide-item" id={entry.id} key={entry.id}>
                 <div className="guide-item-top">
                   <figure>
                     <Photo name={entry.image} />
-                    <figcaption>
-                      {referencePhotos[entry.image]?.alt ??
-                        "Category photograph"}
-                    </figcaption>
                   </figure>
                   <div>
-                    <span className="guide-number">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
                     <h2>{entry.title}</h2>
                     <p>{entry.summary}</p>
-                    <a className="text-link" href={equipmentUrl(listing)}>
-                      Explore equipment <ArrowUpRight size={17} />
-                    </a>
                   </div>
                 </div>
                 <details className="guide-item-details">
                   <summary>
-                    Compare options & buying checklist <span>+</span>
+                    Compare options & buying checklist <span aria-hidden="true">+</span>
                   </summary>
                   <div className="guide-item-body">
                     <div className="guide-options">
@@ -1002,20 +976,19 @@ export function BuyingGuide({ item }) {
                         </a>
                       ))}
                     </div>
-                    <a
-                      className="text-link"
-                      href={`/contact.html?equipment=${encodeURIComponent(listing.title)}`}
-                    >
-                      Ask us about {entry.title.toLowerCase()}{" "}
-                      <ArrowRight size={18} />
-                    </a>
+                    <div className="guide-item-actions">
+                      <a className="text-link" href={`/contact.html?equipment=${encodeURIComponent(listing.title)}`}>
+                        Ask about {entry.title.toLowerCase()}<ArrowRight size={18} />
+                      </a>
+                      <a href={equipmentUrl(listing)}>Equipment & service options</a>
+                    </div>
                   </div>
                 </details>
               </section>
             );
           })}
           <section className="guide-purchase-checklist" id="purchase-checklist">
-            <h2>Get a quote you can compare.</h2>
+            <h2>Your quote checklist</h2>
             <ul>
               {item.checklist.map((text) => (
                 <li key={text}>
@@ -1033,25 +1006,15 @@ export function BuyingGuide({ item }) {
           <h2>In this guide</h2>
           <GuideContents item={item} />
           <div>
-            <strong>Need help choosing?</strong>
-            <p>Tell us what you need, where it is going, and your budget.</p>
             <a className="text-link" href="/contact.html">
               Talk to MMS <ArrowUpRight size={17} />
             </a>
           </div>
         </aside>
       </div>
-      <section className="more-guides content-width">
-        <h2>Explore another department.</h2>
-        {buyingGuides
-          .filter((guide) => guide.id !== item.id)
-          .map((guide) => (
-            <a key={guide.id} href={articleUrl(guide)}>
-              {guide.title}
-              <ArrowUpRight size={20} />
-            </a>
-          ))}
-      </section>
+      <div className="guide-return content-width">
+        <a className="text-link" href="/articles.html">All buying guides<ArrowRight size={18} /></a>
+      </div>
     </>
   );
 }
@@ -1060,8 +1023,8 @@ export function Services() {
   return (
     <>
       <ExploreHero
-        title="The right equipment. The right support."
-        description="From finding a system to keeping it working, start with the help you need."
+        title="Procure. Support. Service."
+        description="Help with hospital equipment, from sourcing to ongoing care."
         image="equipment-detail"
       />
       <div className="content-width services-grid">
@@ -1106,7 +1069,7 @@ export function Services() {
       </div>
       <section className="pricing-panel content-width" id="pricing">
         <div>
-          <h2>More room in your budget.</h2>
+          <h2>Wholesale & charitable pricing</h2>
           <p>
             Wholesale pricing for hospitals and clinics. Charitable pricing for
             mission-driven projects.

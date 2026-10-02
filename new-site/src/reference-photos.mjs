@@ -8,7 +8,7 @@ export const referencePhotos = {
     source: "Main Equipment WEBP/Butterfly IQ Ultrasounds Plus.webp",
   },
   "reference/digital-xray": {
-    alt: "Portable digital X-ray equipment",
+    alt: "Portable display for a digital radiography system",
     source: "Main Equipment WEBP/LCP Digital Wireless Xray.webp",
   },
   "reference/c-arm": {
@@ -16,8 +16,8 @@ export const referencePhotos = {
     source: "Main Equipment WEBP/GE OEC 9600 carm xray.webp",
   },
   "reference/anesthesia-workstation": {
-    alt: "Dräger Fabius anesthesia workstation",
-    source: "Main Equipment WEBP/Drager Fabius Tiro M Anesthesia.webp",
+    alt: "GE anesthesia workstation with patient monitoring",
+    source: "Main Equipment WEBP/GE Aspire Anesthesia Machine.webp",
   },
   "reference/electrosurgery": {
     alt: "Valleylab electrosurgical generator",

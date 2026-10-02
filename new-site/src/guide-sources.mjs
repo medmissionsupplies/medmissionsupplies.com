@@ -1,15 +1,15 @@
 export const guideSources = {
   probes: [
-    "Sonosite · transducer selection",
-    "https://secure.sonosite.com/sonosite-transducers",
+    "Sonosite · transducers, exams, and compatible systems",
+    "https://www.sonosite.com/products/ultrasound-transducers",
   ],
   probeCare: [
     "Sonosite · compatible cleaning products",
     "https://www.sonosite.com/ca/support/cleaners-and-disinfectants",
   ],
   handheld: [
-    "Butterfly · device and membership information",
-    "https://manual.butterflynetwork.com/",
+    "Butterfly · device activation and mobile compatibility",
+    "https://support.butterflynetwork.com/s/article/16907148281499-First-Time-Use?language=en_US",
   ],
   imagingSite: [
     "Siemens Healthineers · imaging site planning",
@@ -29,7 +29,7 @@ export const guideSources = {
   ],
   tables: [
     "Baxter · surgical table configurations",
-    "https://www.hillrom.com/content/dam/hillrom-aem/us/en/marketing/products/pst-500-precision-surgical-table/documents/APR53802-EN-r1_PST-500_Brochure-HR.pdf",
+    "https://www.hillrom.com/content/dam/hillrom-aem/us/en/marketing/products/pst-500-precision-surgical-table/documents/PST500PrecisionSurgicalTable-Brochure.pdf",
   ],
   lights: [
     "Baxter · operating room equipment",
@@ -93,11 +93,15 @@ export const guideSources = {
   ],
   suction: [
     "Drive DeVilbiss · suction unit specifications",
-    "https://www.drivemedical.com/hubfs/Drive%20Medical/Brochures%20and%20Catalogs/Respiratory/Vacu-Aide_7325_SS_rev_09_24_2021.pdf",
+    "https://shop.drivemedical.com/ca/en/products/respiratory/suction-therapy/suction-machines/vacu-aide-suction-machine/p/7325D-D",
   ],
   neonatal: [
     "GE HealthCare · incubator configuration",
     "https://www.gehealthcare.com/-/jssmedia/global/products/files/maternal-infant-care/giraffe-omnibed-carestation/giraffe-incubator-carestation-brochure.pdf",
+  ],
+  phototherapy: [
+    "GE HealthCare · phototherapy equipment and irradiance measurement",
+    "https://www.gehealthcare.com/middle-east/products/maternal-infant-care/phototherapy/bilisoft-phototherapy-system",
   ],
   laboratory: [
     "WHO · laboratory equipment procurement",
@@ -109,7 +113,7 @@ export const guideSources = {
   ],
   pointOfCare: [
     "Abbott · i-STAT cartridge information",
-    "https://www.globalpointofcare.abbott/content/dam/ardx/globalpointofcare/apoc/support/i-stat-alinity/i-stat-alinity-operations-manuals/746980-01%20Ver%2026%20Rev.%20A%20English.pdf",
+    "https://www.globalpointofcare.abbott/ca/en/support/istat-system-customers/cartridge-instructions-for-use.html",
   ],
   centrifuge: [
     "Thermo Fisher · centrifuge buying guide",
@@ -172,8 +176,8 @@ export const guideSources = {
     "https://hemocue.com/africa/products/hematology/hemocue-hb-201plus-system/",
   ],
   spirometry: [
-    "MIR · product manuals and consumables",
-    "https://spirometry.com/en/download-pdf/",
+    "MIR · Spirobank II user manual",
+    "https://spirometry.com/media/spirometry-wp-content/uploads/2020/04/spirobank_II_Manual_EN_REV.1.5_V.pdf",
   ],
   audiometry: [
     "MAICO · audiometry and ambient noise",

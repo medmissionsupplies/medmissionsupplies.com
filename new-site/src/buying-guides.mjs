@@ -44,7 +44,7 @@ export const buyingGuides = [
     "Buying imaging equipment",
     "Imaging & radiology",
     "imaging",
-    "ct-mri",
+    "reference/ultrasound-portable",
     "Ultrasound, digital X-ray, C-arms, CT, and MRI: compare the complete system.",
     "Start with the examinations your team needs, then compare image quality, the room, and the support package. A low equipment price can change quickly when a detector, probe, software license, or installation is missing.",
     [
@@ -53,7 +53,7 @@ export const buyingGuides = [
         "Ultrasound systems",
         "reference/ultrasound-portable",
         "ultrasound",
-        "Choose the probes and clinical applications before choosing the machine. A portable system with the right transducers can be more useful than a larger system with an incomplete package.",
+        "Choose probes for your examinations first. Probe condition, software compatibility, and replacement cost can change which system offers better value.",
         [
           [
             "Handheld",
@@ -77,7 +77,7 @@ export const buyingGuides = [
         "Digital X-ray systems",
         "reference/digital-xray",
         "xray",
-        "A digital X-ray system is a generator, detector, workstation, software, and installation package. Confirm what the quote actually includes.",
+        "Compare the complete installed system: generator, detector, workstation, software, and room preparation. A detector-only price is not a complete X-ray quote.",
         [
           [
             "Mobile",
@@ -101,7 +101,7 @@ export const buyingGuides = [
         "Full-size and mini C-arms",
         "reference/c-arm",
         "xray",
-        "Choose around the anatomy, procedures, and room. A mini C-arm and a full-size system are different purchasing decisions; neither is a universal substitute for the other.",
+        "Start with procedure coverage and positioning clearance. Compare the detector, licensed imaging functions, and service package on the exact unit.",
         [
           [
             "Image intensifier",
@@ -125,7 +125,7 @@ export const buyingGuides = [
         "CT and MRI projects",
         "ct-mri",
         "ct-mri",
-        "Treat CT or MRI as a facility project. Site readiness and an enforceable service arrangement can matter as much as the scanner purchase price.",
+        "Price the installed scanner and ongoing service together. Tube history, MRI coils, software rights, and site work can change the comparison.",
         [
           [
             "CT",
@@ -158,7 +158,7 @@ export const buyingGuides = [
     "Buying operating room equipment",
     "Surgery & anesthesia",
     "surgical",
-    "anesthesia",
+    "reference/anesthesia-workstation",
     "Anesthesia, tables, endoscopy, electrosurgery, microscopes, and airway equipment.",
     "Build an operating room around the team’s procedures and the facility’s infrastructure. Compare compatible systems, reusable accessories, and the ongoing supply and reprocessing work behind each purchase.",
     [
@@ -167,7 +167,7 @@ export const buyingGuides = [
         "Anesthesia workstations",
         "reference/anesthesia-workstation",
         "anesthesia",
-        "Start with the anesthesia team’s specification and your facility’s gas and power supplies. The machine, monitoring, vaporizers, and breathing system need to be assessed as one package.",
+        "Compare the machine, monitoring, vaporizers, and breathing system as one package, matched to your facility’s gas and power supplies.",
         [
           [
             "Established cart platform",
@@ -189,9 +189,9 @@ export const buyingGuides = [
       item(
         "surgical-tables",
         "Surgical tables and lights",
-        "operating-room",
+        "xray",
         "surgical-tables",
-        "Match the table to the positions and imaging access your procedures require. Match lighting to the room and mounting structure, not simply to a brightness claim.",
+        "Match positioning, working load, and imaging access to your procedures. Include the attachments and installation work in the price.",
         [
           [
             "General-purpose table",
@@ -215,7 +215,7 @@ export const buyingGuides = [
         "Endoscopy systems",
         "reference/endoscopy-system",
         "endoscopy",
-        "The processor is only part of the purchase. Scope compatibility, documented condition, and a workable reprocessing pathway determine whether the system can support your service.",
+        "Choose the scope family and reprocessing pathway first. Scope repairs, compatibility, and turnaround can matter more than the processor’s price.",
         [
           [
             "Existing platform expansion",
@@ -239,7 +239,7 @@ export const buyingGuides = [
         "Electrosurgical generators",
         "reference/electrosurgery",
         "electrosurgery",
-        "Buy the energy functions your procedures require. A basic office cautery device, a general electrosurgical generator, and a vessel-sealing platform are different packages.",
+        "Choose the required energy functions and compatible instruments together. Include the recurring instrument and accessory costs in your comparison.",
         [
           [
             "General electrosurgery",
@@ -263,7 +263,7 @@ export const buyingGuides = [
         "Surgical microscopes",
         "reference/surgical-microscope",
         "surgical-microscopes",
-        "Choose the optics and ergonomics around the specialty. A microscope should be demonstrated with the intended working distance, positioning, and accessories.",
+        "Prioritize clear optics, comfortable positioning, and the right working distance. Camera and teaching accessories should be priced separately when optional.",
         [
           [
             "Established optical system",
@@ -287,7 +287,7 @@ export const buyingGuides = [
         "Video laryngoscopes and airway scopes",
         "reference/airway",
         "airway",
-        "Choose the device with the clinicians who will use it. Blade type, patient-size range, monitor compatibility, and cleaning requirements are purchasing essentials.",
+        "Compare the complete monitor, cable, and blade combination. Reusable and disposable systems carry different processing and supply costs.",
         [
           [
             "Reusable components",
@@ -320,7 +320,7 @@ export const buyingGuides = [
     "Buying critical care equipment",
     "Critical & patient care",
     "critical-care",
-    "ekg",
+    "reference/patient-monitor",
     "Ventilation, oxygen, monitoring, defibrillation, infusion, suction, and neonatal care.",
     "Match each device to the intended patient group and care setting. Look closely at batteries, optional modules, compatible consumables, alarm functionality, and the people who will maintain the equipment.",
     [
@@ -329,7 +329,7 @@ export const buyingGuides = [
         "Ventilators and respiratory support",
         "reference/icu-ventilator",
         "ventilators",
-        "Begin with the clinical team’s required modes and patient population. A transport ventilator, ICU ventilator, noninvasive device, and sleep-therapy device should not be treated as interchangeable.",
+        "Match patient groups and ventilation modes first, then verify gas supply, batteries, sensors, and enabled options on the offered unit.",
         [
           [
             "ICU platform",
@@ -353,7 +353,7 @@ export const buyingGuides = [
         "Oxygen concentrators and supply",
         "reference/oxygen",
         "oxygen",
-        "Plan oxygen as a supply system. Flow, delivered concentration, pressure, environmental conditions, and continuity of supply need to match the intended devices and setting.",
+        "Match oxygen flow, concentration, and pressure to the intended equipment. Plan power, backup supply, and maintenance alongside the concentrator.",
         [
           [
             "Bedside concentrator",
@@ -377,7 +377,7 @@ export const buyingGuides = [
         "High-flow and noninvasive systems",
         "reference/high-flow",
         "oxygen",
-        "Humidified high-flow systems and noninvasive ventilators support different clinical workflows. Let the clinical team define the therapy, then price the complete approved configuration.",
+        "Price the flow source, humidifier, compatible circuit, interface, and oxygen supply together. The unit alone does not establish a complete service.",
         [
           [
             "Humidified high-flow",
@@ -401,7 +401,7 @@ export const buyingGuides = [
         "Patient monitors",
         "reference/patient-monitor",
         "ekg",
-        "Compare the parameters actually enabled on the offered unit. A screen shown with many values is not proof that the required modules, sensors, or licenses are included.",
+        "Compare enabled measurements and included modules, cuffs, and sensors. A feature shown on a display may require an extra accessory or license.",
         [
           [
             "Basic bedside monitoring",
@@ -425,7 +425,7 @@ export const buyingGuides = [
         "Diagnostic ECG systems",
         "reference/ecg",
         "ekg",
-        "A diagnostic ECG system is a different purchase from a bedside rhythm monitor. Specify the recording, reporting, and clinical-review workflow your team requires.",
+        "Decide how recordings will be reviewed, saved, and shared. Include patient leads, reporting software, computer requirements, and ongoing support.",
         [
           [
             "Standalone recorder",
@@ -449,7 +449,7 @@ export const buyingGuides = [
         "Defibrillators and AEDs",
         "reference/defibrillator",
         "ekg",
-        "Choose the required functions with the resuscitation team. An AED and a manual monitor-defibrillator differ in training, configuration, and accessories.",
+        "Match AED or manual functions to the intended users. Check battery condition, pad expiry, testing records, and service availability before comparing price.",
         [
           [
             "AED",
@@ -473,7 +473,7 @@ export const buyingGuides = [
         "Infusion and syringe pumps",
         "reference/infusion",
         "infusion",
-        "Start with compatible tubing and syringes, not the pump price. Standardizing a manageable set of supported devices can make supplies, training, and maintenance easier.",
+        "Check the supply of approved tubing or syringes before choosing a pump. Dedicated consumables can determine the long-term cost.",
         [
           [
             "Volumetric pump",
@@ -497,7 +497,7 @@ export const buyingGuides = [
         "Portable and ward suction",
         "reference/suction",
         "suction",
-        "Select around the intended procedure and operating pattern. Portable battery suction and a mains-powered unit may have different capabilities and duty-cycle limits.",
+        "Match vacuum, flow, duty cycle, and collection capacity to the work. Verify battery operation on the exact variant being offered.",
         [
           [
             "Portable",
@@ -521,7 +521,7 @@ export const buyingGuides = [
         "Maternal and neonatal equipment",
         "neonatal",
         "neonatal",
-        "Have the maternity and neonatal teams define the needed functions. An incubator, radiant warmer, phototherapy unit, and fetal monitor solve different equipment needs.",
+        "Specify incubators, warmers, phototherapy, and fetal monitoring separately. Each needs its own accessories, performance checks, and service plan.",
         [
           [
             "Incubator or warmer",
@@ -538,7 +538,7 @@ export const buyingGuides = [
           "Ask the receiving team to define acceptance and cleaning requirements. For phototherapy, request output verification appropriate to the exact model, not just confirmation that its lights turn on.",
         ],
         "Include model-specific sensors, cleaning supplies, service, and replacement parts. Avoid mixing accessories from different generations without documented compatibility.",
-        ["neonatal"],
+        ["neonatal", "phototherapy"],
       ),
     ],
     [
@@ -553,7 +553,7 @@ export const buyingGuides = [
     "Buying laboratory and diagnostic equipment",
     "Laboratory & diagnostics",
     "diagnostics",
-    "laboratory",
+    "reference/chemistry",
     "Analyzers, point-of-care testing, microscopy, and ophthalmic diagnostics.",
     "Buy a sustainable testing workflow. Test volume, consumable supply, quality control, staff capability, and the service environment should drive the shortlist before a model or headline throughput does.",
     [
@@ -562,7 +562,7 @@ export const buyingGuides = [
         "Chemistry and hematology analyzers",
         "reference/chemistry",
         "laboratory",
-        "These are different analyzer families. Start with the test menu and realistic daily volume, then compare the staffing, reagent, and maintenance requirements of each proposed system.",
+        "Start with the test menu and daily volume. Compare cost per reportable result, including reagent waste, controls, calibration, and maintenance.",
         [
           [
             "Lower-volume laboratory",
@@ -586,7 +586,7 @@ export const buyingGuides = [
         "Cartridge and point-of-care analyzers",
         "reference/point-of-care",
         "point-of-care",
-        "A compact analyzer can simplify the hardware while shifting cost and logistics into the cartridges. Assess the complete testing program, not just the handheld device.",
+        "Compare cartridge supply, expiry, and cost per usable panel. A compact analyzer still needs a sustainable testing and quality-control program.",
         [
           [
             "Cartridge system",
@@ -610,7 +610,7 @@ export const buyingGuides = [
         "Hemoglobin, glucose, and urine testing",
         "reference/hemoglobin",
         "point-of-care",
-        "Small instruments still need a reliable supply chain. The recurring cuvettes, strips, controls, and sampling supplies should be selected alongside the device.",
+        "Choose the device and its consumables together. Pack sizes, opened-container life, and local resupply can determine whether a low-cost reader is practical.",
         [
           [
             "Single-purpose reader",
@@ -634,7 +634,7 @@ export const buyingGuides = [
         "Microscopes and centrifuges",
         "reference/lab-microscope",
         "laboratory",
-        "Choose the microscope around the techniques your laboratory performs. Choose a centrifuge around the tubes, rotor, relative centrifugal force, and temperature requirements of the workflow.",
+        "Match microscope optics to your methods. For centrifuges, specify tubes, rotor, required centrifugal force, and temperature—not RPM alone.",
         [
           [
             "Microscope",
@@ -656,9 +656,9 @@ export const buyingGuides = [
       item(
         "histology",
         "Histology and specimen preparation",
-        "reference/lab-microscope",
+        "histology",
         "laboratory",
-        "A microtome alone does not create a histology service. Plan specimen preparation, processing, embedding, sectioning, staining, and review with the laboratory lead.",
+        "Plan the complete specimen workflow, from preparation to review. Processing, sectioning, staining, ventilation, and consumables all belong in the budget.",
         [
           [
             "Individual replacement",
@@ -682,7 +682,7 @@ export const buyingGuides = [
         "Retinal cameras, slit lamps, and tonometers",
         "reference/retinal-camera",
         "ophthalmology",
-        "Choose these as complementary instruments around your eye-care service. Imaging, examination, and pressure measurement have different requirements and consumables.",
+        "Build a complete examination package. Retinal imaging, slit-lamp examination, and pressure measurement require different accessories and support.",
         [
           [
             "Retinal camera",
@@ -715,7 +715,7 @@ export const buyingGuides = [
     "Buying hospital essentials",
     "Hospital essentials",
     "hospital",
-    "operating-room",
+    "reference/autoclave",
     "Sterilization, beds, refrigeration, dialysis, and the infrastructure behind them.",
     "Some of the most expensive purchasing mistakes happen outside the headline equipment. Check processing capacity, compatible furniture, cold-chain monitoring, utilities, and specialist support early in the project.",
     [
@@ -724,7 +724,7 @@ export const buyingGuides = [
         "Autoclaves and sterile processing",
         "reference/autoclave",
         "sterilization",
-        "Choose a sterilizer around the instruments, packaging, load sizes, and turnaround your facility requires. Manual versus digital controls alone do not determine suitability.",
+        "Choose around permitted loads, chamber size, drying, and turnaround. Include cleaning, packaging, utilities, monitoring, and maintenance.",
         [
           [
             "Tabletop sterilizer",
@@ -748,7 +748,7 @@ export const buyingGuides = [
         "Hospital beds and patient transport",
         "beds",
         "beds",
-        "Buy the bed frame, mattress, rails, and accessories as a compatible system. Dimensions, handling, and maintainability are as important as powered movement.",
+        "Buy the frame, mattress, rails, and accessories as a compatible system. Check door clearance, brakes, working load, and freight costs.",
         [
           [
             "Manual or basic powered bed",
@@ -772,7 +772,7 @@ export const buyingGuides = [
         "Medical refrigeration and cold chain",
         "refrigeration",
         "refrigeration",
-        "Specify what will be stored before selecting the refrigerator. Vaccines, reagents, and blood products have different storage and oversight requirements.",
+        "Specify the stored product first. Compare suitable temperature control, usable capacity, monitoring, alarms, and power-failure arrangements.",
         [
           [
             "Purpose-built refrigerator",
@@ -793,10 +793,10 @@ export const buyingGuides = [
       ),
       item(
         "dialysis",
-        "Dialysis equipment and water systems",
+        "Hemodialysis equipment and water systems",
         "dialysis",
         "dialysis",
-        "A dialysis machine needs a supporting service, water system, supplies, trained staff, and ongoing quality assurance. Buying the machine is only one part of establishing the service.",
+        "For conventional hemodialysis, scope the machine, water treatment, utilities, consumables, and specialist support as one project.",
         [
           [
             "Replacement machine",
@@ -829,7 +829,7 @@ export const buyingGuides = [
     "Equipping a mission clinic",
     "Mission planning",
     null,
-    "reference/instruments",
+    "reference/otoscope",
     "A practical equipment checklist for smaller clinics and mobile teams.",
     "Build the kit around the services your clinicians are equipped to provide. The useful purchase is a complete, maintainable setup with consumables, training, and a referral pathway—not the longest possible equipment list.",
     [
@@ -838,7 +838,7 @@ export const buyingGuides = [
         "Examination and vital-sign equipment",
         "reference/otoscope",
         "clinical-essentials",
-        "Start with dependable examination tools and appropriately sized accessories. Standardize charging and consumables where practical, while keeping each device’s intended use clear.",
+        "Buy complete examination kits with the right cuffs, chargers, specula, and replacement supplies for the patients you serve.",
         [
           [
             "Core examination kit",
@@ -862,7 +862,7 @@ export const buyingGuides = [
         "Small-clinic testing",
         "reference/glucometer",
         "point-of-care",
-        "Choose tests that the team can collect, run, quality-control, interpret, and act on. A device that cannot be resupplied will quickly become unused equipment.",
+        "Choose tests your team can run, quality-control, interpret, and resupply. Include storage conditions and expiry in the purchasing decision.",
         [
           [
             "Glucose, hemoglobin, or urine tests",
@@ -886,7 +886,7 @@ export const buyingGuides = [
         "Spirometry and hearing assessment",
         "reference/spirometry",
         "clinical-essentials",
-        "Portable equipment still depends on technique and environment. Decide whether the service is screening or diagnostic and have trained staff approve the specification.",
+        "Define screening or diagnostic needs first. Portable spirometers and audiometers still require trained operators, suitable surroundings, and ongoing performance checks.",
         [
           [
             "Spirometer",
@@ -910,7 +910,7 @@ export const buyingGuides = [
         "Portable eye-care equipment",
         "reference/slit-lamp",
         "ophthalmology",
-        "Plan the eye-care pathway with the clinicians: examination, pressure measurement, imaging where needed, documentation, and referral. Portability is useful only if the required examination remains practical.",
+        "Balance portability with the examination your clinicians need. Include compatible probes, tips, charging, protective cases, and a repair route.",
         [
           [
             "Portable slit lamp",
@@ -934,7 +934,7 @@ export const buyingGuides = [
         "Procedure instruments and emergency readiness",
         "reference/instruments",
         "clinical-essentials",
-        "Equipment should follow the services and procedures the facility can safely support. Ask the clinical lead to define complete sets, backup needs, and the supporting cleaning and storage workflow.",
+        "Build complete sets around approved services. Include reprocessing, storage, consumables, and the emergency equipment your clinical team specifies.",
         [
           [
             "Reusable instrument sets",
@@ -958,7 +958,7 @@ export const buyingGuides = [
         "Donations, power, logistics, and records",
         "reference/blood-pressure",
         "clinical-essentials",
-        "A useful donation meets a recipient’s documented need and arrives with a viable ownership plan. The same test applies to a bargain purchase.",
+        "Agree the recipient’s needs, utilities, supplies, and maintenance plan before sourcing. A useful donation must remain usable after delivery.",
         [
           [
             "Permanent facility",

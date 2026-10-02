@@ -43,9 +43,9 @@ export const equipment = [
     id: "ultrasound",
     title: "Ultrasound systems",
     category: "imaging",
-    image: "ultrasound",
+    image: "reference/ultrasound-portable",
     summary:
-      "Portable and cart-based systems, selected around your team and clinical requirements.",
+      "Portable and cart-based ultrasound, with compatible probes and accessories.",
     includes: [
       "Portable and cart-based systems",
       "Probes and compatible accessories",
@@ -62,7 +62,7 @@ export const equipment = [
     id: "xray",
     title: "X-ray & C-arm systems",
     category: "imaging",
-    image: "xray",
+    image: "reference/c-arm",
     summary:
       "Mobile and fixed radiography, digital imaging, and C-arm sourcing.",
     includes: [
@@ -83,7 +83,7 @@ export const equipment = [
     category: "imaging",
     image: "ct-mri",
     summary:
-      "Capital imaging projects with sourcing and lifecycle support in view.",
+      "CT and MRI sourcing, site planning, and service coordination.",
     includes: [
       "CT system sourcing",
       "MRI system sourcing",
@@ -100,9 +100,9 @@ export const equipment = [
     id: "anesthesia",
     title: "Anesthesia machines",
     category: "surgical",
-    image: "anesthesia",
+    image: "reference/anesthesia-workstation",
     summary:
-      "Workstations and related equipment for your operating environment.",
+      "Anesthesia workstations, compatible accessories, and service support.",
     includes: [
       "Anesthesia workstation sourcing",
       "Compatible components and accessories",
@@ -119,9 +119,9 @@ export const equipment = [
     id: "surgical-tables",
     title: "Surgical tables & lights",
     category: "surgical",
-    image: "operating-room",
+    image: "xray",
     summary:
-      "Operating room essentials, from procedure tables to surgical lighting.",
+      "Procedure tables, surgical lighting, and positioning accessories.",
     includes: [
       "Operating and procedure tables",
       "Surgical lighting",
@@ -138,7 +138,7 @@ export const equipment = [
     id: "endoscopy",
     title: "Endoscopy systems",
     category: "surgical",
-    image: "endoscopy",
+    image: "reference/endoscopy-system",
     summary: "Scopes, processors, and complete system sourcing.",
     includes: [
       "Video processors and light sources",
@@ -156,9 +156,9 @@ export const equipment = [
     id: "ventilators",
     title: "Ventilators & respiratory equipment",
     category: "critical-care",
-    image: "ventilators",
+    image: "reference/icu-ventilator",
     summary:
-      "Respiratory equipment sourcing for hospital and critical care settings.",
+      "Ventilators and respiratory equipment for wards and critical care.",
     includes: [
       "Ventilator sourcing",
       "Respiratory equipment and accessories",
@@ -175,7 +175,7 @@ export const equipment = [
     id: "ekg",
     title: "Monitors, ECG & defibrillators",
     category: "critical-care",
-    image: "ekg",
+    image: "reference/patient-monitor",
     summary:
       "Patient monitoring and cardiac equipment across hospital departments.",
     includes: [
@@ -195,7 +195,7 @@ export const equipment = [
     title: "Maternal & neonatal equipment",
     category: "critical-care",
     image: "neonatal",
-    summary: "Sourcing support for maternity and neonatal departments.",
+    summary: "Incubators, warmers, phototherapy, and maternal monitors.",
     includes: [
       "Infant incubators and warmers",
       "Phototherapy equipment",
@@ -212,7 +212,7 @@ export const equipment = [
     id: "laboratory",
     title: "Laboratory equipment",
     category: "diagnostics",
-    image: "laboratory",
+    image: "reference/chemistry",
     summary:
       "Analyzers, centrifuges, and laboratory systems for everyday workflows.",
     includes: [
