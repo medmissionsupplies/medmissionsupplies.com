@@ -6,5 +6,5 @@ export default defineConfig({
   base: '/',
   plugins: [react()],
   css: { preprocessorOptions: { scss: { quietDeps: true } } },
-  build: { rolldownOptions: { input: Object.fromEntries(['index', 'offerings', 'about', 'employment', 'contact'].map(name => [name, resolve(import.meta.dirname, `${name}.html`)])) } },
+  build: { rolldownOptions: { input: Object.fromEntries(['index', 'offerings', 'services', 'articles', 'about', 'employment', 'contact'].map(name => [name, resolve(import.meta.dirname, `${name}.html`)])) } },
 });

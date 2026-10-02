@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { installPageNavigation, pageKey } from '../src/page-navigation.mjs';
+import { metadata as routeMetadata } from '../src/routes.mjs';
 
 const tick = () => new Promise(resolve => setImmediate(resolve));
 function browser({ url = 'https://mms.test/', native = false, supported = true, reduced = false, deferred = false, failRender = false } = {}) {
@@ -40,7 +41,7 @@ function browser({ url = 'https://mms.test/', native = false, supported = true, 
     if (!deferred) queueMicrotask(run);
     return transition;
   };
-  const metadata = Object.fromEntries(['index', 'about', 'offerings', 'contact', 'employment'].map(page => [page, { title: page, description: `${page} description` }]));
+  const metadata = Object.fromEntries(Object.keys(routeMetadata).map(page => [page, { title: page, description: `${page} description` }]));
   installPageNavigation({ win, doc, metadata, render: route => { if (failRender) throw Error('render failed'); renders.push(route); draft = route.draft; } });
   return { win, doc, entries, transitions, renders, redirects, scrolls, motion, emit,
     setDraft(value) { draft = value; },
@@ -71,6 +72,20 @@ test('Firefox changes page and metadata within one transition and preserves unre
   assert.equal(page.entries.length, 2);
   assert.equal(page.win.history.state.unrelated, true);
   assert.equal(page.scrolls.at(-1).anchor, 'ultrasound');
+});
+
+test('nested equipment and article pages keep transitions, metadata, anchors, and history connected', async () => {
+  const page = browser();
+  await page.click('/equipment/ultrasound.html#comments');
+  assert.equal(page.renders.at(-1).page, 'equipment-ultrasound');
+  assert.equal(page.doc.title, 'equipment-ultrasound');
+  assert.equal(page.scrolls.at(-1).anchor, 'comments');
+  await page.click('/resources/prepare-service-request.html');
+  assert.equal(page.renders.at(-1).page, 'article-prepare-service-request');
+  await page.back();
+  assert.equal(page.renders.at(-1).page, 'equipment-ultrasound');
+  await page.forward();
+  assert.equal(page.renders.at(-1).page, 'article-prepare-service-request');
 });
 
 test('native transitions and unsupported browsers keep ordinary navigation; reduced motion skips animation', async () => {

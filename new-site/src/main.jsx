@@ -4,13 +4,9 @@ import { flushSync } from 'react-dom';
 import { App, pageFromPath } from './App.jsx';
 import { installPageNavigation } from './page-navigation.mjs';
 import './styles.scss';
+import './editorial.css';
 
-// Derive metadata from the same HTML files served to direct visits and crawlers.
-const metadata = Object.fromEntries(Object.entries(import.meta.glob('../*.html', { query: '?raw', import: 'default', eager: true })).map(([path, html]) => {
-  const page = path.split('/').pop().replace('.html', '');
-  const doc = new DOMParser().parseFromString(html, 'text/html');
-  return [page, { title: doc.title, description: doc.querySelector('meta[name="description"]')?.content ?? '' }];
-}));
+import { metadata } from './routes.mjs';
 function ClientApp() {
   const [route, setRoute] = useState(() => ({ page: document.documentElement.dataset.page || pageFromPath(window.location.pathname), search: undefined, entry: 'initial' }));
   useEffect(() => installPageNavigation({

@@ -1,7 +1,5 @@
-export const pageKey = pathname => {
-  if (pathname === '/' || pathname === '/index.html') return 'index';
-  return pathname.match(/^\/(offerings|about|employment|contact)(?:\.html|\/(?:index\.html)?)?$/)?.[1] ?? null;
-};
+import { resolvePage } from './routes.mjs';
+export const pageKey = resolvePage;
 
 // Enhance Firefox with same-document snapshots. Other browsers keep their
 // cross-document transitions, and ordinary links remain the no-JavaScript path.
