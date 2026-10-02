@@ -741,7 +741,7 @@ export function App({
       <SiteHeader page={page} />
       <div
         key={entry}
-        className="page-content"
+        className={`page-content${page === "index" ? " home-page" : ""}`}
         style={{ viewTransitionName: `mms-${page}` }}
       >
         <main id="main-content" tabIndex={-1}>

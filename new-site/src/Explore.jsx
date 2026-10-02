@@ -152,7 +152,7 @@ export function ArticleCard({ item }) {
 
 export function NewHome() {
   return (
-    <>
+    <div className="compact-home">
       <section className="editorial-hero">
         <div className="hero-layout content-width">
           <div className="editorial-hero-copy">
@@ -166,235 +166,111 @@ export function NewHome() {
             </h1>
             <p>
               We procure, support, and service almost every major type of
-              capital equipment in a hospital. The right equipment. A committed
-              partner. More possibilities for care.
+              hospital capital equipment—with wholesale and charitable pricing.
             </p>
             <div className="hero-actions">
               <Action href="/offerings.html">Explore equipment</Action>
-              <a className="text-link" href="/services.html">
-                How we help
+              <a className="text-link" href="/contact.html">
+                Talk to our team
                 <ArrowRight size={20} />
               </a>
-            </div>
-            <div className="hero-pricing">
-              <span className="small-cross">+</span>
-              <span>
-                Wholesale pricing.
-                <br />
-                <strong>Charitable pricing for a greater reach.</strong>
-              </span>
             </div>
           </div>
           <div className="editorial-hero-photo">
             <Photo name="anesthesia" eager />
-            <div className="photo-caption">
-              <span>
-                FROM THE OPERATING ROOM
-                <br />
-                TO THE EVERYDAY ESSENTIALS
-              </span>
-              <ArrowUpRight size={28} />
-            </div>
-            <div className="hero-photo-note">
-              <span>YOUR EQUIPMENT PARTNER</span>
-              <strong>
-                Procure.
-                <br />
-                Support.
-                <br />
-                Service.
-              </strong>
+            <div className="compact-photo-caption">
+              From operating rooms to everyday essentials.
             </div>
           </div>
         </div>
+        <nav
+          className="compact-services content-width"
+          aria-label="How MMS helps"
+        >
+          {[
+            ["procure", "Procure", "Equipment to fit your needs", Delivery],
+            ["support", "Support", "Help beyond the purchase", Partnership],
+            ["service", "Service", "Parts, repairs & coordination", Tools],
+          ].map(([id, title, description, Icon]) => (
+            <a href={"/services.html#" + id} key={id}>
+              <Icon size={24} />
+              <span>
+                <strong>{title}</strong>
+                <span>{description}</span>
+              </span>
+              <ArrowUpRight size={18} />
+            </a>
+          ))}
+        </nav>
       </section>
-      <div className="promise-strip">
-        <div className="content-width">
-          <span>
-            <Hospital size={24} />
-            Across hospital departments
-          </span>
-          <span>
-            <Partnership size={24} />
-            Support beyond the purchase
-          </span>
-          <span>
-            <Favorite size={24} />
-            Your budget. Your mission.
-          </span>
+      <section
+        className="compact-equipment content-width"
+        aria-labelledby="home-equipment-heading"
+      >
+        <div className="compact-heading">
+          <div>
+            <Label>EXPLORE OUR RANGE</Label>
+            <h2 id="home-equipment-heading">What are you looking for?</h2>
+          </div>
+          <a className="text-link" href="/offerings.html">
+            View all equipment
+            <ArrowRight size={20} />
+          </a>
         </div>
-      </div>
-      <section className="editorial-section content-width">
-        <SectionHead
-          eyebrow="01 / A HOSPITAL’S WORTH OF POSSIBILITIES"
-          title={
-            <>
-              Big needs.
-              <br />A broader range.
-            </>
-          }
-          description="One piece of equipment or a whole department. Start with what you need—we’ll help you work through the options."
-          href="/offerings.html"
-          link="Browse all equipment"
-        />
-        <div className="home-category-grid">
-          {categories.slice(0, 4).map((category, i) => {
+        <div className="compact-categories">
+          {categories.map((category) => {
             const Icon = icons[category.id];
+            const count = equipment.filter(
+              (item) => item.category === category.id,
+            ).length;
             return (
               <a
                 key={category.id}
-                className={`category-feature category-${category.id}`}
-                href={`/offerings.html?category=${category.id}`}
+                href={"/offerings.html?category=" + category.id}
+                className="compact-category"
               >
-                <div className="category-photo">
+                <div className="compact-category-image">
                   {category.image ? (
                     <Photo name={category.image} />
                   ) : (
-                    <div className="category-line-art">
-                      <Icon size={100} />
-                      <span>CARE AT EVERY BEDSIDE</span>
-                    </div>
+                    <Icon size={48} />
                   )}
-                  <span className="category-number">0{i + 1}</span>
                 </div>
-                <div className="category-copy">
+                <div>
                   <h3>{category.name}</h3>
-                  <p>{category.description}</p>
-                  <ArrowUpRight size={24} />
+                  <span>
+                    {count} equipment {count === 1 ? "area" : "areas"}
+                  </span>
                 </div>
+                <ArrowUpRight className="category-arrow" size={18} />
               </a>
             );
           })}
         </div>
-        <a className="category-extra" href="/offerings.html?category=hospital">
-          <span>
-            <Hospital size={24} /> And the essentials that bring it all
-            together: beds, sterilization, and more.
-          </span>
-          <span>
-            Explore hospital essentials
-            <ArrowRight size={20} />
-          </span>
-        </a>
-      </section>
-      <section className="service-story">
-        <div className="content-width service-story-layout">
-          <div>
-            <Label>02 / MORE THAN A SUPPLIER</Label>
-            <h2>
-              A partner for
-              <br />
-              <em>the whole journey.</em>
-            </h2>
-            <p>
-              Finding the equipment is only the beginning. We help you think
-              through what comes next, with practical support and service built
-              into the conversation.
-            </p>
-            <Action href="/services.html" secondary>
-              Meet your equipment partner
-            </Action>
-          </div>
-          <div className="service-steps">
-            {[
-              [
-                "01",
-                "Procure",
-                "Tell us what your hospital needs. We’ll explore sourcing options, configurations, and pricing around your requirements.",
-                Delivery,
-              ],
-              [
-                "02",
-                "Support",
-                "Work through equipment questions, accessories, logistics, and next steps with a team that stays in the conversation.",
-                Partnership,
-              ],
-              [
-                "03",
-                "Service",
-                "Talk to us about parts, repairs, and service needs. We’ll help establish the right scope and support for your equipment.",
-                Tools,
-              ],
-            ].map(([number, title, description, Icon]) => (
-              <article key={title}>
-                <span className="step-number">{number}</span>
-                <div>
-                  <h3>
-                    {title}
-                    <Icon size={25} />
-                  </h3>
-                  <p>{description}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-      <section className="mission-editorial content-width editorial-section">
-        <div className="mission-photo">
-          <Photo name="operating-room" />
-          <span className="photo-label">
-            Equipment that serves a bigger purpose.
-          </span>
-        </div>
-        <div className="mission-editorial-copy">
-          <Label>03 / ACCESS IS AT THE HEART OF IT</Label>
-          <h2>
-            More care.
-            <br />
-            <em>Within reach.</em>
-          </h2>
-          <p>
-            Every hospital has a budget. Every community deserves care. We bring
-            those realities together through wholesale equipment sourcing and
-            charitable pricing for mission-driven work.
-          </p>
-          <p>
-            From established hospitals to remote clinics, we start by listening
-            to the people doing the work.
-          </p>
-          <a className="text-link" href="/about.html">
-            The people behind the mission
-            <ArrowRight size={20} />
+        <div className="compact-resources">
+          <span>Planning a purchase or a service request?</span>
+          <a href="/articles.html">
+            Browse our practical guides
+            <ArrowRight size={18} />
           </a>
-          <div className="pricing-note">
-            <Favorite size={25} />
-            <div>
-              <strong>Planning a charitable project?</strong>
-              <p>
-                Tell us about your organization, equipment needs, and budget.
-              </p>
-              <a href="/contact.html?topic=charitable">
-                Let’s explore the possibilities <ArrowUpRight size={18} />
-              </a>
-            </div>
-          </div>
         </div>
       </section>
-      <section className="resources-home editorial-section">
+      <section className="compact-contact">
         <div className="content-width">
-          <SectionHead
-            eyebrow="04 / PRACTICAL KNOWLEDGE"
-            title={
-              <>
-                A little guidance.
-                <br />A better next step.
-              </>
-            }
-            href="/articles.html"
-            link="Explore all resources"
-          />
-          <div className="resource-grid">
-            {articles.slice(0, 3).map((item) => (
-              <ArticleCard item={item} key={item.id} />
-            ))}
+          <div>
+            <h2>One system. A whole hospital.</h2>
+            <p>
+              Send us your equipment list, destination, and budget. We’ll help
+              with the next step.
+            </p>
           </div>
+          <Action href="/contact.html">Tell us what you need</Action>
         </div>
       </section>
-      <NewContactBand />
-    </>
+    </div>
   );
 }
+
 export function NewContactBand() {
   return (
     <section className="new-contact-band">

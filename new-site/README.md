@@ -20,7 +20,7 @@ The footer displays the package version. Bump it before preparing a new release.
 
 ## Version 1.1 design playground
 
-The site now centers MMS's hospital-wide procurement, support, and service offering, with wholesale and charitable pricing. The visual direction uses the existing navy/gold identity, warm paper backgrounds, editorial typography, and locally served equipment photography. The original Carbon navigation, contact form, team information, reduced-motion behavior, and page navigation remain in place.
+The site now centers MMS's hospital-wide procurement, support, and service offering, with wholesale and charitable pricing. The visual direction uses navy, blue, white, and gold accents, editorial typography, and locally served equipment photography. The compact homepage has three sections: the main offering, five equipment categories, and a contact invitation. Services and articles have dedicated pages. The original Carbon navigation, contact form, team information, reduced-motion behavior, and page navigation remain in place.
 
 - 12 equipment areas across 5 categories, with individual pages, related equipment, search, URL-backed filters, and contextual quote/service links.
 - A dedicated Procure / Support / Service page and charitable-pricing paths.
@@ -43,7 +43,7 @@ No real contact messages or comments were sent during development. Browser form 
 - `src/routes.mjs`: shared page registry, metadata, and route resolution.
 - `src/Explore.jsx`: home, equipment, services, articles, and moderated comment UI.
 - `src/App.jsx`: shared shell, original pages, and contact form.
-- `src/editorial.css`: the new responsive design; `src/styles.scss` retains Carbon and original page foundations.
+- `src/editorial.css`: the shared responsive design; `src/compact-home.css` controls the shorter homepage; `src/styles.scss` retains Carbon and original page foundations.
 - `src/approved-comments.json`: approved public comments only; never add email addresses or raw form exports.
 - `scripts/prerender.jsx`: static HTML generation from the shared route registry.
 - `scripts/verify.mjs`: local links, anchors, assets, all content pages, team, and form checks.

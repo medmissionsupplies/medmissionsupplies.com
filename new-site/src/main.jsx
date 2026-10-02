@@ -5,6 +5,7 @@ import { App, pageFromPath } from './App.jsx';
 import { installPageNavigation } from './page-navigation.mjs';
 import './styles.scss';
 import './editorial.css';
+import './compact-home.css';
 
 import { metadata } from './routes.mjs';
 function ClientApp() {
