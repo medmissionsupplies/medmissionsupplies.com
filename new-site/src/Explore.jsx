@@ -8,10 +8,7 @@ import {
   Microscope,
   Hospital,
   Tools,
-  Delivery,
-  Partnership,
   Checkmark,
-  Chat,
 } from "@carbon/icons-react";
 import {
   categories,
@@ -39,9 +36,6 @@ const icons = {
   diagnostics: Microscope,
   hospital: Hospital,
 };
-export function Label({ children }) {
-  return <p className="kicker">{children}</p>;
-}
 export function Action({ children, href, secondary = false }) {
   return (
     <a className={`mms-action${secondary ? " secondary" : ""}`} href={href}>
@@ -70,62 +64,42 @@ export function Photo({ name, className = "", eager = false, alt }) {
     />
   );
 }
-export function SectionHead({ eyebrow, title, description, href, link }) {
+export function SectionHead({ title, href, link }) {
   return (
-    <div className="editorial-heading">
-      <div>
-        <Label>{eyebrow}</Label>
-        <h2>{title}</h2>
-      </div>
-      <div>
-        {description && <p>{description}</p>}
-        {href && (
-          <a className="text-link" href={href}>
-            {link}
-            <ArrowRight size={20} />
-          </a>
-        )}
-      </div>
+    <div className="section-heading-row">
+      <h2>{title}</h2>
+      {href && (
+        <a className="text-link" href={href}>
+          {link}
+          <ArrowRight size={20} />
+        </a>
+      )}
     </div>
   );
 }
 
 export function EquipmentCard({ item }) {
-  const category = categoryFor(item.category),
-    Icon = icons[item.category];
+  const Icon = icons[item.category];
   return (
     <article className="catalog-card" id={item.id}>
-      <a
-        className="card-main"
-        href={equipmentUrl(item)}
-        aria-label={`Explore ${item.title}`}
-      >
+      <a href={equipmentUrl(item)} aria-label={"Explore " + item.title}>
         <div
-          className={`card-image ${!item.image ? "equipment-illustration" : ""}`}
+          className={
+            "card-image" + (!item.image ? " equipment-illustration" : "")
+          }
         >
-          {item.image ? (
-            <Photo name={item.image} />
-          ) : (
-            <>
-              <Icon size={76} />
-              <span>Hospital equipment</span>
-            </>
-          )}
-          <span className="image-tag">Sourced to your needs</span>
+          {item.image ? <Photo name={item.image} /> : <Icon size={64} />}
         </div>
         <div className="card-copy">
-          <span className="card-category">{category.name}</span>
           <h3>{item.title}</h3>
+          <ArrowUpRight size={20} />
           <p>{item.summary}</p>
-          <span className="card-link">
-            Explore equipment
-            <ArrowUpRight size={20} />
-          </span>
         </div>
       </a>
     </article>
   );
 }
+
 export function ArticleCard({ item }) {
   return (
     <article className="resource-card">
@@ -140,10 +114,6 @@ export function ArticleCard({ item }) {
           </div>
           <h3>{item.title}</h3>
           <p>{item.summary}</p>
-          <span className="card-link">
-            Read the guide
-            <ArrowUpRight size={20} />
-          </span>
         </div>
       </a>
     </article>
@@ -152,172 +122,107 @@ export function ArticleCard({ item }) {
 
 export function NewHome() {
   return (
-    <div className="compact-home">
-      <section className="editorial-hero">
-        <div className="hero-layout content-width">
-          <div className="editorial-hero-copy">
-            <Label>
-              <span className="status-dot" /> EQUIPMENT WITH PURPOSE
-            </Label>
-            <h1>
-              Hospital equipment.
-              <br />
-              <em>Human purpose.</em>
-            </h1>
-            <p>
-              We procure, support, and service almost every major type of
-              hospital capital equipment—with wholesale and charitable pricing.
-            </p>
-            <div className="hero-actions">
-              <Action href="/offerings.html">Explore equipment</Action>
-              <a className="text-link" href="/contact.html">
-                Talk to our team
-                <ArrowRight size={20} />
-              </a>
-            </div>
-          </div>
-          <div className="editorial-hero-photo">
-            <Photo name="anesthesia" eager />
-            <div className="compact-photo-caption">
-              From operating rooms to everyday essentials.
-            </div>
+    <>
+      <section className="home-intro content-width">
+        <div className="home-intro-copy">
+          <h1>
+            Quality equipment.
+            <br />
+            <span>Within reach.</span>
+          </h1>
+          <p>
+            We procure, support, and service hospital equipment across almost
+            every department—with wholesale and charitable pricing.
+          </p>
+          <div className="action-row">
+            <Action href="/offerings.html">Browse equipment</Action>
+            <Action href="/contact.html" secondary>
+              Ask for a quote
+            </Action>
           </div>
         </div>
-        <nav
-          className="compact-services content-width"
-          aria-label="How MMS helps"
-        >
-          {[
-            ["procure", "Procure", "Equipment to fit your needs", Delivery],
-            ["support", "Support", "Help beyond the purchase", Partnership],
-            ["service", "Service", "Parts, repairs & coordination", Tools],
-          ].map(([id, title, description, Icon]) => (
-            <a href={"/services.html#" + id} key={id}>
-              <Icon size={24} />
-              <span>
-                <strong>{title}</strong>
-                <span>{description}</span>
-              </span>
-              <ArrowUpRight size={18} />
-            </a>
-          ))}
-        </nav>
+        <div className="home-intro-image">
+          <Photo name="anesthesia" eager />
+        </div>
       </section>
       <section
-        className="compact-equipment content-width"
+        className="home-equipment content-width"
         aria-labelledby="home-equipment-heading"
       >
-        <div className="compact-heading">
-          <div>
-            <Label>EXPLORE OUR RANGE</Label>
-            <h2 id="home-equipment-heading">What are you looking for?</h2>
-          </div>
+        <div className="section-heading-row">
+          <h2 id="home-equipment-heading">What do you need?</h2>
           <a className="text-link" href="/offerings.html">
             View all equipment
             <ArrowRight size={20} />
           </a>
         </div>
-        <div className="compact-categories">
+        <div className="category-grid">
           {categories.map((category) => {
             const Icon = icons[category.id];
-            const count = equipment.filter(
-              (item) => item.category === category.id,
-            ).length;
             return (
               <a
                 key={category.id}
+                className="category-tile"
                 href={"/offerings.html?category=" + category.id}
-                className="compact-category"
               >
-                <div className="compact-category-image">
-                  {category.image ? (
-                    <Photo name={category.image} />
-                  ) : (
-                    <Icon size={48} />
-                  )}
-                </div>
-                <div>
-                  <h3>{category.name}</h3>
-                  <span>
-                    {count} equipment {count === 1 ? "area" : "areas"}
-                  </span>
-                </div>
-                <ArrowUpRight className="category-arrow" size={18} />
+                <Icon size={32} />
+                <h3>{category.name}</h3>
+                <ArrowUpRight size={20} />
               </a>
             );
           })}
         </div>
-        <div className="compact-resources">
-          <span>Planning a purchase or a service request?</span>
-          <a href="/articles.html">
-            Browse our practical guides
-            <ArrowRight size={18} />
-          </a>
-        </div>
       </section>
-      <section className="compact-contact">
-        <div className="content-width">
+      <section
+        className="home-help content-width"
+        aria-label="Advice and support"
+      >
+        <a className="help-card" href="/articles.html">
+          <Photo name="ultrasound" />
           <div>
-            <h2>One system. A whole hospital.</h2>
-            <p>
-              Send us your equipment list, destination, and budget. We’ll help
-              with the next step.
-            </p>
+            <h2>Make a confident choice.</h2>
+            <p>Simple guides to buying medical equipment.</p>
+            <span>
+              Explore buying guides <ArrowRight size={20} />
+            </span>
           </div>
-          <Action href="/contact.html">Tell us what you need</Action>
-        </div>
+        </a>
+        <a className="help-card help-card-service" href="/services.html">
+          <div>
+            <h2>Help beyond the purchase.</h2>
+            <p>Equipment questions, parts, and service support.</p>
+            <span>
+              See how we can help <ArrowRight size={20} />
+            </span>
+          </div>
+          <Tools size={54} />
+        </a>
       </section>
-    </div>
+    </>
   );
 }
 
 export function NewContactBand() {
   return (
-    <section className="new-contact-band">
-      <div className="content-width">
-        <div>
-          <Label>LET’S PUT YOUR PLANS IN MOTION</Label>
-          <h2>
-            What does your
-            <br />
-            hospital need?
-          </h2>
-        </div>
-        <div>
-          <p>
-            A single system. A service question. A whole new department.
-            <br />
-            Start with a conversation.
-          </p>
-          <Action href="/contact.html">Talk to our team</Action>
-        </div>
-      </div>
+    <section className="contact-invitation content-width">
+      <h2>Let’s find what you need.</h2>
+      <Action href="/contact.html">Talk to our team</Action>
     </section>
   );
 }
 
-export function ExploreHero({ eyebrow, title, description, back, backLabel }) {
+export function ExploreHero({ title, description, back, backLabel }) {
   return (
-    <section className="explore-hero">
-      <div className="content-width">
-        <nav className="simple-breadcrumb" aria-label="Breadcrumb">
-          <a href="/index.html">Home</a>
-          <span>/</span>
-          {back ? (
-            <>
-              <a href={back}>{backLabel}</a>
-              <span>/</span>
-              <span aria-current="page">{eyebrow}</span>
-            </>
-          ) : (
-            <span aria-current="page">{eyebrow}</span>
-          )}
-        </nav>
-        <Label>{eyebrow}</Label>
-        <h1>{title}</h1>
-        <p>{description}</p>
-      </div>
-    </section>
+    <header className="page-intro content-width">
+      {back && (
+        <a className="back-link" href={back}>
+          <ArrowRight size={16} />
+          {backLabel}
+        </a>
+      )}
+      <h1>{title}</h1>
+      {description && <p>{description}</p>}
+    </header>
   );
 }
 
@@ -361,23 +266,11 @@ export function EquipmentCatalog({ search }) {
     <>
       <ExploreHero
         eyebrow="OUR EQUIPMENT"
-        title={
-          <>
-            Across departments.
-            <br />
-            <em>Around your needs.</em>
-          </>
-        }
-        description="We procure, support, and service almost every major type of hospital capital equipment. Explore our range, then tell us what you’re looking for."
+        title="Find your equipment."
+        description="Explore our range. Ask us for availability, options, and a price for your facility."
       />
       <section className="content-width catalog-section">
         <div className="catalog-toolbar">
-          <div>
-            <Label>FIND YOUR EQUIPMENT</Label>
-            <p>
-              Wholesale & charitable pricing · Availability confirmed by quote
-            </p>
-          </div>
           <label className="search-field">
             <Search size={20} />
             <span className="sr-only">Search equipment</span>
@@ -446,19 +339,12 @@ export function EquipmentCatalog({ search }) {
           </div>
         )}
         <div className="catalog-note">
-          <Partnership size={32} />
-          <div>
-            <h2>Don’t see what you need?</h2>
-            <p>
-              This is a starting point. Send us your equipment list, preferred
-              specifications, and destination—we’ll explore the possibilities
-              with you.
-            </p>
-          </div>
-          <Action href="/contact.html">Send us your list</Action>
+          <p>Looking for something else?</p>
+          <a className="text-link" href="/contact.html">
+            Send us your equipment list <ArrowRight size={20} />
+          </a>
         </div>
       </section>
-      <NewContactBand />
     </>
   );
 }
@@ -471,99 +357,94 @@ export function EquipmentDetail({ item }) {
     .slice(0, 3);
   return (
     <>
-      <ExploreHero
-        eyebrow={category.name}
-        title={item.title}
-        description={item.summary}
-        back={`/offerings.html?category=${item.category}`}
-        backLabel="Equipment"
-      />
-      <section className="content-width equipment-page">
-        <div className="equipment-page-main">
-          <figure
-            className={`detail-photo ${!item.image ? "equipment-illustration" : ""}`}
-          >
-            {item.image ? (
-              <Photo name={item.image} eager />
-            ) : (
-              <Icon size={130} />
-            )}
-            {item.image && (
-              <figcaption>
-                Category photograph for illustration. The equipment offered will
-                be confirmed in your quote.
-              </figcaption>
-            )}
-          </figure>
-          <Label>BUILT AROUND YOUR REQUIREMENTS</Label>
-          <h2>Let’s find the right fit.</h2>
-          <p>{item.text}</p>
-          <div className="equipment-facts">
-            <div>
-              <h3>What we can discuss</h3>
-              <ul>
-                {item.includes.map((text) => (
-                  <li key={text}>
-                    <Checkmark size={18} />
-                    {text}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h3>Useful details to share</h3>
-              <ul>
-                {item.considerations.map((text) => (
-                  <li key={text}>
-                    <Checkmark size={18} />
-                    {text}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <ListingComments item={item} />
-        </div>
-        <aside className="equipment-sidebar">
-          <Label>LET’S TALK EQUIPMENT</Label>
-          <h2>
-            One request.
-            <br />
-            Real support.
-          </h2>
-          <p>
-            Tell us your specification, destination, and budget. We’ll discuss
-            sourcing, support, and service options.
-          </p>
-          <Action
-            href={`/contact.html?equipment=${encodeURIComponent(item.title)}`}
-          >
-            Request a quote
-          </Action>
-          <a
-            className="text-link"
-            href={`/contact.html?equipment=${encodeURIComponent(item.title)}&topic=service`}
-          >
-            Ask about service
-            <ArrowRight size={18} />
-          </a>
-          <div className="sidebar-note">
-            <Favorite size={22} />
-            <p>
-              <strong>Wholesale & charitable pricing</strong>Discuss pricing for
-              your organization and project.
-            </p>
+      <div className="content-width detail-back">
+        <a
+          className="back-link"
+          href={"/offerings.html?category=" + item.category}
+        >
+          <ArrowRight size={16} />
+          {category.name}
+        </a>
+      </div>
+      <section className="equipment-overview content-width">
+        <figure
+          className={
+            "detail-photo" + (!item.image ? " equipment-illustration" : "")
+          }
+        >
+          {item.image ? <Photo name={item.image} eager /> : <Icon size={120} />}
+          {item.image && (
+            <figcaption>
+              Category image. Your quote confirms the actual equipment.
+            </figcaption>
+          )}
+        </figure>
+        <div className="equipment-summary">
+          <h1>{item.title}</h1>
+          <p>{item.summary}</p>
+          <span className="pricing-label">Wholesale & charitable pricing</span>
+          <div className="action-row">
+            <Action
+              href={"/contact.html?equipment=" + encodeURIComponent(item.title)}
+            >
+              Ask for a quote
+            </Action>
+            <a
+              className="text-link"
+              href={
+                "/contact.html?equipment=" +
+                encodeURIComponent(item.title) +
+                "&topic=service"
+              }
+            >
+              Get service help
+              <ArrowRight size={18} />
+            </a>
           </div>
           <p className="small-note">
-            This is a sourcing category, not a live stock listing. Availability,
-            condition, accessories, service coverage, and pricing are confirmed
-            for each request.
+            Sourced to order. Availability, condition, and service options are
+            confirmed for your request.
           </p>
-        </aside>
+        </div>
       </section>
+      <div className="detail-information content-width">
+        <details className="equipment-disclosure">
+          <summary>
+            Equipment details <span>+</span>
+          </summary>
+          <div className="disclosure-content">
+            <p>{item.text}</p>
+            <div className="equipment-facts">
+              <div>
+                <h2>Options to discuss</h2>
+                <ul>
+                  {item.includes.map((text) => (
+                    <li key={text}>
+                      <Checkmark size={18} />
+                      {text}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h2>What to consider</h2>
+                <ul>
+                  {item.considerations.map((text) => (
+                    <li key={text}>
+                      <Checkmark size={18} />
+                      {text}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </details>
+        <ListingComments item={item} />
+      </div>
       {!!related.length && (
-        <section className="content-width editorial-section">
-          <SectionHead eyebrow="KEEP EXPLORING" title="Related equipment" />
+        <section className="content-width related-equipment">
+          <SectionHead title="Related equipment" />
           <div className="catalog-grid">
             {related.map((other) => (
               <EquipmentCard key={other.id} item={other} />
@@ -571,7 +452,6 @@ export function EquipmentDetail({ item }) {
           </div>
         </section>
       )}
-      <NewContactBand />
     </>
   );
 }
@@ -621,23 +501,11 @@ function ListingComments({ item }) {
       aria-labelledby="comments-title"
     >
       <div className="comments-heading">
-        <Chat size={28} />
-        <div>
-          <Label>EQUIPMENT CONVERSATION</Label>
-          <h2 id="comments-title">
-            Questions & comments <span>({comments.length})</span>
-          </h2>
-        </div>
+        <h2 id="comments-title">
+          Questions & comments
+          {comments.length > 0 && <span> ({comments.length})</span>}
+        </h2>
       </div>
-      <p>
-        Share a question or experience about this equipment. Comments are
-        reviewed by MMS before publication. For a quote or an urgent service
-        request,{" "}
-        <a href={`/contact.html?equipment=${encodeURIComponent(item.title)}`}>
-          contact our team directly
-        </a>
-        .
-      </p>
       {comments.length ? (
         <ol className="approved-comments">
           {comments.map((comment) => (
@@ -666,136 +534,149 @@ function ListingComments({ item }) {
             </li>
           ))}
         </ol>
-      ) : (
-        <div className="no-comments">
-          No published comments yet. Start the conversation below.
-        </div>
-      )}
-      {state === "success" ? (
-        <div
-          className="comment-success"
-          role="status"
-          ref={statusRef}
-          tabIndex={-1}
-        >
-          <Checkmark size={28} />
-          <h3>Comment received for review.</h3>
-          <p>
-            It will appear here if approved and published by MMS. Your email
-            address will stay private.
-          </p>
-          <button
-            type="button"
-            className="plain-button"
-            onClick={() => setState("idle")}
+      ) : null}
+      <details className="comment-disclosure">
+        <summary>
+          Write a question or comment <span>+</span>
+        </summary>
+        <p className="comment-review-note">
+          MMS reviews comments before publication. For pricing or private
+          details,{" "}
+          <a href={"/contact.html?equipment=" + encodeURIComponent(item.title)}>
+            contact our team
+          </a>
+          .
+        </p>
+        {state === "success" ? (
+          <div
+            className="comment-success"
+            role="status"
+            ref={statusRef}
+            tabIndex={-1}
           >
-            Write another comment
-          </button>
-        </div>
-      ) : (
-        <form
-          className="comment-form"
-          action={CONTACT_ENDPOINT}
-          method="post"
-          onSubmit={submit}
-          aria-busy={state === "sending"}
-        >
-          <input type="hidden" name="submission_type" value="listing_comment" />
-          <input type="hidden" name="listing_id" value={item.id} />
-          <input
-            type="hidden"
-            name="_subject"
-            value={`Listing comment for review: ${item.title}`}
-          />
-          <label className="honeypot" aria-hidden="true">
-            Leave this blank
-            <input name="_gotcha" tabIndex={-1} autoComplete="off" />
-          </label>
-          <div className="comment-fields">
-            <label htmlFor="comment-name">
-              Display name <span>(required)</span>
-              <input
-                id="comment-name"
-                name="name"
-                required
-                maxLength={80}
-                autoComplete="nickname"
-                aria-invalid={!!errors.name}
-                aria-describedby={
-                  errors.name ? "comment-name-error" : undefined
-                }
-              />
-              {errors.name && (
-                <span className="field-error" id="comment-name-error">
-                  {errors.name}
-                </span>
-              )}
-            </label>
-            <label htmlFor="comment-email">
-              Email <span>(private, required)</span>
-              <input
-                id="comment-email"
-                name="email"
-                type="email"
-                required
-                maxLength={254}
-                autoComplete="email"
-                aria-invalid={!!errors.email}
-                aria-describedby={
-                  errors.email ? "comment-email-error" : undefined
-                }
-              />
-              {errors.email && (
-                <span className="field-error" id="comment-email-error">
-                  {errors.email}
-                </span>
-              )}
-            </label>
-          </div>
-          <label htmlFor="comment-message">
-            Your comment <span>(required)</span>
-            <textarea
-              id="comment-message"
-              name="message"
-              required
-              maxLength={2000}
-              rows={5}
-              aria-invalid={!!errors.message}
-              aria-describedby="comment-guidance"
-            />
-          </label>
-          <p id="comment-guidance" className="small-note">
-            Up to 2,000 characters. Please leave out patient information, order
-            details, and other private information.
-          </p>
-          {errors.message && <p className="field-error">{errors.message}</p>}
-          <label className="consent-label">
-            <input type="checkbox" name="consent" value="yes" required />I agree
-            that my display name and comment may be published after review. My
-            email will not be published.
-          </label>
-          {errors.consent && <p className="field-error">{errors.consent}</p>}
-          {state === "error" && (
-            <p
-              className="form-error"
-              role="alert"
-              ref={statusRef}
-              tabIndex={-1}
-            >
-              We couldn’t confirm delivery. Your comment is still here. Please
-              try again.
+            <Checkmark size={28} />
+            <h3>Comment received for review.</h3>
+            <p>
+              It will appear here if approved and published by MMS. Your email
+              address will stay private.
             </p>
-          )}
-          <button
-            className="mms-action"
-            type="submit"
-            disabled={state === "sending"}
+            <button
+              type="button"
+              className="plain-button"
+              onClick={() => setState("idle")}
+            >
+              Write another comment
+            </button>
+          </div>
+        ) : (
+          <form
+            className="comment-form"
+            action={CONTACT_ENDPOINT}
+            method="post"
+            onSubmit={submit}
+            aria-busy={state === "sending"}
           >
-            {state === "sending" ? "Submitting…" : "Submit for review"}
-            <ArrowRight size={20} />
-          </button>
-        </form>
-      )}
+            <input
+              type="hidden"
+              name="submission_type"
+              value="listing_comment"
+            />
+            <input type="hidden" name="listing_id" value={item.id} />
+            <input
+              type="hidden"
+              name="_subject"
+              value={`Listing comment for review: ${item.title}`}
+            />
+            <label className="honeypot" aria-hidden="true">
+              Leave this blank
+              <input name="_gotcha" tabIndex={-1} autoComplete="off" />
+            </label>
+            <div className="comment-fields">
+              <label htmlFor="comment-name">
+                Display name <span>(required)</span>
+                <input
+                  id="comment-name"
+                  name="name"
+                  required
+                  maxLength={80}
+                  autoComplete="nickname"
+                  aria-invalid={!!errors.name}
+                  aria-describedby={
+                    errors.name ? "comment-name-error" : undefined
+                  }
+                />
+                {errors.name && (
+                  <span className="field-error" id="comment-name-error">
+                    {errors.name}
+                  </span>
+                )}
+              </label>
+              <label htmlFor="comment-email">
+                Email <span>(private, required)</span>
+                <input
+                  id="comment-email"
+                  name="email"
+                  type="email"
+                  required
+                  maxLength={254}
+                  autoComplete="email"
+                  aria-invalid={!!errors.email}
+                  aria-describedby={
+                    errors.email ? "comment-email-error" : undefined
+                  }
+                />
+                {errors.email && (
+                  <span className="field-error" id="comment-email-error">
+                    {errors.email}
+                  </span>
+                )}
+              </label>
+            </div>
+            <label htmlFor="comment-message">
+              Your comment <span>(required)</span>
+              <textarea
+                id="comment-message"
+                name="message"
+                required
+                maxLength={2000}
+                rows={5}
+                aria-invalid={!!errors.message}
+                aria-describedby="comment-guidance"
+              />
+            </label>
+            <p id="comment-guidance" className="small-note">
+              Up to 2,000 characters. Please leave out patient information,
+              order details, and other private information.
+            </p>
+            {errors.message && <p className="field-error">{errors.message}</p>}
+            <label className="consent-label">
+              <input type="checkbox" name="consent" value="yes" required />I
+              agree that my display name and comment may be published after
+              review. My email will not be published.
+            </label>
+            {errors.consent && <p className="field-error">{errors.consent}</p>}
+            {state === "error" && (
+              <p
+                className="form-error"
+                role="alert"
+                ref={statusRef}
+                tabIndex={-1}
+              >
+                We couldn’t confirm delivery. Your comment is still here. Please
+                try again.
+              </p>
+            )}
+            <button
+              className="mms-action"
+              type="submit"
+              disabled={state === "sending"}
+            >
+              {state === "sending" ? "Submitting…" : "Submit for review"}
+              <ArrowRight size={20} />
+            </button>
+          </form>
+        )}
+      </details>
     </section>
   );
 }
@@ -807,21 +688,11 @@ export function Articles({ search }) {
     <>
       <ExploreHero
         eyebrow="THE RESOURCE LIBRARY"
-        title={
-          <>
-            Knowledge for
-            <br />
-            <em>the next step.</em>
-          </>
-        }
-        description="Practical starting points for equipment sourcing, service conversations, and mission planning. Written to help you ask better questions."
+        title="Medical equipment guides."
+        description="Straightforward guides to buying, planning, and caring for medical equipment."
       />
-      <section className="content-width editorial-section">
+      <section className="content-width articles-section">
         <div className="catalog-toolbar">
-          <div>
-            <Label>BROWSE OUR GUIDES</Label>
-            <p>Procurement, support, and the bigger picture.</p>
-          </div>
           <label className="search-field">
             <Search size={20} />
             <span className="sr-only">Search articles</span>
@@ -891,7 +762,7 @@ export function ArticleDetail({ item }) {
       <article className="content-width article-layout">
         <div className="article-body">
           <div className="article-byline">
-            <span>Med Mission Supplies · Equipment guide</span>
+            <span>Med Mission Supplies</span>
             <span>{item.minutes} min read</span>
           </div>
           <Photo name={item.image} className="article-cover" eager />
@@ -903,8 +774,7 @@ export function ArticleDetail({ item }) {
             </section>
           ))}
           <div className="article-checklist">
-            <Label>TAKE THIS INTO YOUR NEXT CONVERSATION</Label>
-            <h2>Your preparation checklist</h2>
+            <h2>Before you inquire</h2>
             <ul>
               {item.checklist.map((text) => (
                 <li key={text}>
@@ -915,13 +785,12 @@ export function ArticleDetail({ item }) {
             </ul>
           </div>
           <div className="article-next">
-            <h2>Let’s talk about your project.</h2>
-            <p>Share your equipment list or support question with our team.</p>
-            <Action href="/contact.html">Start a conversation</Action>
+            <h2>Ready to ask a question?</h2>
+            <Action href="/contact.html">Talk to our team</Action>
           </div>
         </div>
         <aside className="article-aside">
-          <Label>IN THIS GUIDE</Label>
+          <h2>In this guide</h2>
           <nav aria-label="Article contents">
             {item.sections.map(([title], i) => (
               <a key={title} href={`#section-${i + 1}`}>
@@ -930,7 +799,7 @@ export function ArticleDetail({ item }) {
             ))}
           </nav>
           <div>
-            <Label>RELATED EQUIPMENT</Label>
+            <h2>Related equipment</h2>
             {item.related.map((id) => {
               const listing = equipment.find((e) => e.id === id);
               return (
@@ -954,17 +823,16 @@ export function ArticleDetail({ item }) {
           </a>
         </aside>
       </article>
-      <section className="resources-home editorial-section">
-        <div className="content-width">
-          <SectionHead eyebrow="KEEP READING" title="More practical guidance" />
-          <div className="resource-grid">
-            {articles
-              .filter((other) => other.id !== item.id)
-              .map((other) => (
-                <ArticleCard key={other.id} item={other} />
-              ))}
-          </div>
-        </div>
+      <section className="more-guides content-width">
+        <h2>Keep reading</h2>
+        {articles
+          .filter((other) => other.id !== item.id)
+          .map((other) => (
+            <a key={other.id} href={articleUrl(other)}>
+              {other.title}
+              <ArrowUpRight size={20} />
+            </a>
+          ))}
       </section>
     </>
   );
@@ -974,104 +842,61 @@ export function Services() {
   return (
     <>
       <ExploreHero
-        eyebrow="YOUR EQUIPMENT PARTNER"
-        title={
-          <>
-            Procure. Support.
-            <br />
-            <em>Service.</em>
-          </>
-        }
-        description="Almost every major type of hospital capital equipment. One conversation that considers the purchase and the care that comes after it."
+        title="The right equipment. The right support."
+        description="From finding a system to keeping it working, start with the help you need."
       />
-      <div className="content-width services-page">
+      <div className="content-width services-grid">
         {[
           [
             "procure",
-            "01",
-            "Procure",
-            "The right starting point.",
-            "From a single replacement to a department equipment list, we help explore sourcing options around your specification, budget, and destination.",
-            [
-              "Equipment sourcing and configuration",
-              "Wholesale and charitable pricing discussions",
-              "Accessories, documentation, and logistics planning",
-            ],
+            "Find equipment",
+            "Source a single system or a whole department around your requirements and budget.",
+            "Browse equipment",
+            "/offerings.html",
             "ultrasound",
           ],
           [
             "support",
-            "02",
-            "Support",
-            "A person to work through it with.",
-            "Your questions matter before and after a purchase. Talk with us about equipment details, compatibility, logistics, and the next practical step.",
-            [
-              "Equipment and accessory questions",
-              "Coordination around delivery and setup",
-              "Ongoing communication and support planning",
-            ],
+            "Get equipment support",
+            "Ask about accessories, compatibility, delivery, or setup. We’ll help you find the next step.",
+            "Ask a question",
+            "/contact.html?topic=support",
             "equipment-detail",
           ],
           [
             "service",
-            "03",
-            "Service",
-            "Think beyond the delivery.",
-            "Tell us about the equipment you have and the help you need. We can discuss parts, repairs, and service coordination, with scope and availability confirmed for your request.",
-            [
-              "Parts and repair inquiries",
-              "Service requirements and coordination",
-              "Equipment lifecycle and replacement planning",
-            ],
+            "Arrange a service",
+            "Tell us your equipment model and the issue. We’ll discuss parts, repairs, and service options.",
+            "Request service help",
+            "/contact.html?topic=service",
             "anesthesia",
           ],
-        ].map(([id, number, title, subtitle, description, list, photo]) => (
-          <section className="service-detail" id={id} key={id}>
+        ].map(([id, title, description, label, href, photo]) => (
+          <section className="service-card" id={id} key={id}>
             <Photo name={photo} />
             <div>
-              <Label>
-                {number} / {title.toUpperCase()}
-              </Label>
-              <h2>{subtitle}</h2>
+              <h2>{title}</h2>
               <p>{description}</p>
-              <ul>
-                {list.map((text) => (
-                  <li key={text}>
-                    <Checkmark size={20} />
-                    {text}
-                  </li>
-                ))}
-              </ul>
-              <Action href={`/contact.html?topic=${id}`}>
-                Talk to us about {title.toLowerCase()}
-              </Action>
+              <a className="text-link" href={href}>
+                {label}
+                <ArrowRight size={20} />
+              </a>
             </div>
           </section>
         ))}
-        <section className="pricing-panel" id="pricing">
-          <div>
-            <Label>PRICING WITH PURPOSE</Label>
-            <h2>
-              Wholesale for your budget.
-              <br />
-              <em>Charitable for your mission.</em>
-            </h2>
-          </div>
-          <div>
-            <p>
-              Tell us about your organization, project, and available budget.
-              We’ll explore wholesale options and charitable pricing for
-              mission-driven work. Pricing and availability are confirmed for
-              each request.
-            </p>
-            <a className="text-link" href="/contact.html?topic=charitable">
-              Discuss your project
-              <ArrowRight size={20} />
-            </a>
-          </div>
-        </section>
       </div>
-      <NewContactBand />
+      <section className="pricing-panel content-width" id="pricing">
+        <div>
+          <h2>More room in your budget.</h2>
+          <p>
+            Wholesale pricing for hospitals and clinics. Charitable pricing for
+            mission-driven projects.
+          </p>
+        </div>
+        <Action href="/contact.html?topic=charitable">
+          Discuss your project
+        </Action>
+      </section>
     </>
   );
 }

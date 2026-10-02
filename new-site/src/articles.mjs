@@ -6,7 +6,7 @@ export const articleCategories = [
 export const articles = [
   {
     id: "planning-hospital-equipment",
-    title: "A better starting point for your equipment project",
+    title: "Plan your equipment purchase",
     category: "Procurement",
     image: "operating-room",
     minutes: 4,
@@ -80,7 +80,7 @@ export const articles = [
   },
   {
     id: "prepare-service-request",
-    title: "Help your service request get off to a good start",
+    title: "Prepare for a service request",
     category: "Service & support",
     image: "equipment-detail",
     minutes: 3,
@@ -117,7 +117,7 @@ export const articles = [
   },
   {
     id: "wholesale-charitable-pricing",
-    title: "Make your mission part of the equipment conversation",
+    title: "Ask about wholesale & charitable pricing",
     category: "Mission planning",
     image: "laboratory",
     minutes: 3,

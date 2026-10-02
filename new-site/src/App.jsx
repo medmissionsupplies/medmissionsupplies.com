@@ -4,8 +4,6 @@ import { CONTACT_ENDPOINT, sendInquiry } from "./contact-service.mjs";
 import { pageKey } from "./page-navigation.mjs";
 import {
   Button,
-  Grid,
-  Column,
   Header,
   HeaderName,
   HeaderNavigation,
@@ -19,29 +17,18 @@ import {
   TextInput,
   TextArea,
   InlineNotification,
-  Breadcrumb,
-  BreadcrumbItem,
 } from "@carbon/react";
-import {
-  ArrowRight,
-  ArrowUpRight,
-  Delivery,
-  Partnership,
-  Education,
-  Chat,
-  Time,
-  LogoLinkedin,
-  Checkmark,
-} from "@carbon/icons-react";
+import { ArrowRight, ArrowUpRight, Time, Checkmark } from "@carbon/icons-react";
 
 import {
+  Action,
+  ExploreHero,
   NewHome,
   EquipmentCatalog,
   EquipmentDetail,
   Articles,
   ArticleDetail,
   Services,
-  NewContactBand,
   Photo,
 } from "./Explore.jsx";
 import { equipment } from "./catalog.mjs";
@@ -49,11 +36,10 @@ import { articles } from "./articles.mjs";
 import { routes } from "./routes.mjs";
 
 const navigation = [
-  ["index", "Home"],
   ["offerings", "Equipment"],
-  ["services", "Our Services"],
-  ["articles", "Resources"],
-  ["about", "Our Story"],
+  ["services", "Services"],
+  ["articles", "Buying guides"],
+  ["about", "About us"],
   ["contact", "Contact"],
 ];
 export const pageFromPath = (path) => pageKey(path) || "not-found";
@@ -113,19 +99,21 @@ function SiteHeader({ page }) {
           </span>
         </HeaderName>
         <HeaderNavigation aria-label="Main navigation">
-          {navigation.map(([id, label]) => (
-            <HeaderMenuItem
-              key={id}
-              href={`/${id}.html`}
-              isCurrentPage={activePage === id}
-              aria-current={activePage === id ? "page" : undefined}
-            >
-              {label}
-            </HeaderMenuItem>
-          ))}
+          {navigation
+            .filter(([id]) => id !== "contact")
+            .map(([id, label]) => (
+              <HeaderMenuItem
+                key={id}
+                href={`/${id}.html`}
+                isCurrentPage={activePage === id}
+                aria-current={activePage === id ? "page" : undefined}
+              >
+                {label}
+              </HeaderMenuItem>
+            ))}
         </HeaderNavigation>
         <a className="header-quote" href="/contact.html">
-          Let’s talk equipment <ArrowUpRight size={18} />
+          Get in touch <ArrowUpRight size={18} />
         </a>
         <SideNav
           ref={navigationRef}
@@ -164,203 +152,68 @@ function SiteHeader({ page }) {
   );
 }
 
-function Eyebrow({ children, light = false }) {
-  return (
-    <p className={`eyebrow${light ? " eyebrow-light" : ""}`}>{children}</p>
-  );
-}
-
-function ContactBand() {
-  return <NewContactBand />;
-}
-
 function SiteFooter() {
   return (
-    <footer className="site-footer redesigned-footer">
-      <div className="content-width footer-main">
-        <div className="footer-identity">
-          <a className="footer-brand" href="/index.html">
-            <img
-              src="/assets/mms-logo-white.png"
-              alt=""
-              width="88"
-              height="59"
-            />
-            <span>Med Mission Supplies</span>
+    <footer className="clean-footer">
+      <div className="content-width">
+        <div className="footer-topline">
+          <a className="footer-logo" href="/index.html">
+            <img src="/assets/mms-logo.png" alt="" width="40" height="40" />
+            Med Mission Supplies
           </a>
-          <p>
-            Hospital equipment. Human purpose.
-            <br />
-            Procurement, support, and service
-            <br />
-            for the places that care.
-          </p>
-          <a
-            className="footer-social"
-            href="https://www.linkedin.com/company/med-mission-supplies"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Find us on LinkedIn <LogoLinkedin size={18} />
-            <span className="sr-only"> (opens in a new tab)</span>
-          </a>
+          <nav aria-label="Footer">
+            <a href="/about.html">About us</a>
+            <a href="/employment.html">Careers</a>
+            <a href="/articles.html">Buying guides</a>
+            <a href="/contact.html">Contact</a>
+            <a
+              href="https://www.linkedin.com/company/med-mission-supplies"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn<span className="sr-only"> (opens in a new tab)</span>
+              <ArrowUpRight size={14} />
+            </a>
+          </nav>
         </div>
-        <nav aria-label="Explore">
-          <h2>Explore</h2>
-          <a href="/offerings.html">Equipment</a>
-          <a href="/services.html">Our services</a>
-          <a href="/articles.html">Resources & articles</a>
-        </nav>
-        <nav aria-label="Med Mission Supplies">
-          <h2>Med Mission Supplies</h2>
-          <a href="/about.html">Our story & team</a>
-          <a href="/employment.html">Join our team</a>
-          <a href="/contact.html">Get in touch</a>
-        </nav>
-        <div className="footer-purpose">
-          <span>
-            GOOD EQUIPMENT.
-            <br />
-            GREATER POSSIBILITIES.
-          </span>
-          <a href="/contact.html?topic=charitable">
-            Ask about charitable pricing <ArrowUpRight size={18} />
-          </a>
-        </div>
-      </div>
-      <div className="content-width footer-bottom">
         <p>
           © {new Date().getFullYear()} Med Mission Supplies{" "}
           <span className="site-version">v{version}</span>
         </p>
-        <p>Procure. Support. Service.</p>
       </div>
     </footer>
-  );
-}
-
-function PageHero({ page, eyebrow, title, description, children }) {
-  return (
-    <Theme theme="g100" className="page-hero dark-region">
-      <Grid className="site-grid">
-        <Column sm={4} md={8} lg={16}>
-          <Breadcrumb noTrailingSlash className="page-breadcrumb">
-            <BreadcrumbItem href="/index.html">Home</BreadcrumbItem>
-            <BreadcrumbItem isCurrentPage>
-              {navigation.find(([id]) => id === page)?.[1]}
-            </BreadcrumbItem>
-          </Breadcrumb>
-        </Column>
-        <Column sm={4} md={5} lg={10} className="page-hero-copy">
-          <Eyebrow light>{eyebrow}</Eyebrow>
-          <h1>{title}</h1>
-          <p>{description}</p>
-        </Column>
-        <Column sm={4} md={3} lg={6} className="page-hero-aside">
-          {children || (
-            <Photo
-              name={page === "about" ? "operating-room" : "equipment-detail"}
-              className="page-hero-photo"
-              eager
-            />
-          )}
-        </Column>
-      </Grid>
-    </Theme>
   );
 }
 
 function About() {
   return (
     <>
-      <PageHero
-        page="about"
-        eyebrow="ABOUT MED MISSION SUPPLIES"
-        title={
-          <>
-            The mission is care.
+      <section className="about-intro content-width">
+        <div>
+          <h1>
+            Good equipment.
             <br />
-            <span>Our role is support.</span>
-          </>
-        }
-        description="We help hospitals and clinics access capital equipment, with procurement, support, and service shaped around the people they care for."
-      />
-      <section className="about-story section-space">
-        <Grid className="site-grid">
-          <Column sm={4} md={3} lg={6}>
-            <Eyebrow>OUR PURPOSE</Eyebrow>
-            <h2>
-              So you can focus
-              <br />
-              on patient care.
-            </h2>
-          </Column>
-          <Column sm={4} md={5} lg={10} className="reading-copy">
-            <p>
-              Med Mission Supplies was founded with a mission-driven spirit: to
-              serve clinics and mission hospitals in underserved regions. Our
-              team brings hands-on experience in medical equipment and shipping
-              support.
-            </p>
-            <p>
-              We work to reduce the burden of high costs and complicated
-              logistics. We source across almost every major hospital equipment
-              category, with wholesale pricing and charitable pricing for
-              mission-driven projects. Our conversations consider the equipment,
-              its destination, and the support needed beyond the purchase.
-            </p>
-            <p>
-              Our commitment continues beyond delivery. Practical equipment
-              guidance and ongoing remote support help local teams work through
-              setup questions and plan for everyday use.
-            </p>
-          </Column>
-        </Grid>
-      </section>
-      <section className="values-section" aria-label="Our approach">
-        <div className="values-grid site-width">
-          {[
-            [
-              Delivery,
-              "Hospital-wide sourcing",
-              "Capital equipment across departments, selected around your team’s requirements and your facility’s budget.",
-            ],
-            [
-              Education,
-              "Knowledge that stays",
-              "Practical equipment information and setup guidance for the people who use it.",
-            ],
-            [
-              Partnership,
-              "Lasting partnerships",
-              "Ongoing remote support and sustainable relationships built around your community’s needs.",
-            ],
-          ].map(([Icon, title, text]) => (
-            <article className="value-item" key={title}>
-              <Icon size={32} />
-              <h3>{title}</h3>
-              <p>{text}</p>
-            </article>
-          ))}
+            <span>Greater access to care.</span>
+          </h1>
+          <p>
+            Med Mission Supplies helps hospitals and clinics source capital
+            equipment at wholesale and charitable prices.
+          </p>
+          <p>
+            Founded to serve clinics and mission hospitals in underserved
+            regions, we bring experience in medical equipment, shipping, and
+            ongoing support.
+          </p>
+          <Action href="/contact.html">Meet your equipment partner</Action>
         </div>
+        <Photo name="operating-room" eager />
       </section>
       <section
-        className="team-section section-space"
+        className="team-section content-width"
         aria-labelledby="team-heading"
       >
-        <Grid className="site-grid section-heading">
-          <Column sm={4} md={4} lg={8}>
-            <Eyebrow>THE PEOPLE BEHIND THE MISSION</Eyebrow>
-            <h2 id="team-heading">Meet our team.</h2>
-          </Column>
-          <Column sm={4} md={4} lg={8} className="section-intro">
-            <p>
-              A shared commitment to making essential medical equipment more
-              accessible.
-            </p>
-          </Column>
-        </Grid>
-        <div className="team-grid site-width">
+        <h2 id="team-heading">The people here to help.</h2>
+        <div className="team-grid">
           {[
             ["LH", "Lynette Hwang", "Founder & CEO"],
             ["VL", "Vincent Larkin", "Director of Operations"],
@@ -378,7 +231,6 @@ function About() {
           ))}
         </div>
       </section>
-      <ContactBand />
     </>
   );
 }
@@ -386,62 +238,26 @@ function About() {
 function Employment() {
   return (
     <>
-      <PageHero
-        page="employment"
-        eyebrow="WORK WITH PURPOSE"
-        title={
-          <>
-            Bring your skills.
-            <br />
-            <span>Support a mission.</span>
-          </>
-        }
-        description="We’re building a team that’s passionate about helping caregivers serve communities in need."
+      <ExploreHero
+        title="Make your work matter."
+        description="Help hospitals and clinics get the equipment and support they need."
       />
-      <section className="careers-section section-space">
-        <Grid className="site-grid">
-          <Column sm={4} md={4} lg={8}>
-            <Eyebrow>CAREER OPPORTUNITIES</Eyebrow>
-            <h2>
-              Your next chapter
-              <br />
-              could help someone else’s.
-            </h2>
-            <p className="careers-description">
-              Our work connects medical equipment, practical support, and a
-              commitment to better access to care. If that purpose speaks to
-              you, explore opportunities with Med Mission Supplies.
-            </p>
-          </Column>
-          <Column sm={4} md={4} lg={8} className="careers-aside">
-            <div className="opportunity-panel">
-              <LogoLinkedin size={40} />
-              <Eyebrow>STAY CONNECTED</Eyebrow>
-              <h3>Find us on LinkedIn.</h3>
-              <p>
-                Visit our company page for updates, current opportunities, and
-                application details. You can also check back here as our team
-                grows.
-              </p>
-              <Button
-                href="https://www.linkedin.com/company/med-mission-supplies"
-                target="_blank"
-                rel="noopener noreferrer"
-                renderIcon={ArrowUpRight}
-              >
-                Visit our LinkedIn page
-                <span className="sr-only"> (opens in a new tab)</span>
-              </Button>
-            </div>
-            <div className="careers-question">
-              <h3>A question about our team?</h3>
-              <p>We’re happy to hear from people who share our mission.</p>
-              <a href="/contact.html" className="text-link">
-                Get in touch <ArrowRight size={20} />
-              </a>
-            </div>
-          </Column>
-        </Grid>
+      <section className="careers-layout content-width">
+        <Photo name="laboratory" eager />
+        <div>
+          <h2>Join Med Mission Supplies.</h2>
+          <p>
+            Explore current opportunities and application details on our
+            LinkedIn page.
+          </p>
+          <Action href="https://www.linkedin.com/company/med-mission-supplies">
+            View opportunities
+          </Action>
+          <a className="text-link" href="/contact.html">
+            Ask about our team
+            <ArrowRight size={18} />
+          </a>
+        </div>
       </section>
     </>
   );
@@ -552,7 +368,6 @@ function ContactForm({ search, draft }) {
       onSubmit={submit}
       aria-busy={state === "submitting"}
     >
-      <h2>Tell us how we can help.</h2>
       <p className="form-intro">All fields are required.</p>
       <TextInput
         id="name"
@@ -582,7 +397,7 @@ function ContactForm({ search, draft }) {
         id="message"
         name="message"
         labelText="Your message"
-        helperText="Tell us about your facility, equipment, destination, budget, or service needs."
+        helperText="Include equipment, location, and budget if you know them."
         rows={6}
         required
         maxLength={6000}
@@ -627,79 +442,57 @@ function ContactForm({ search, draft }) {
 
 function Contact({ search, draft }) {
   return (
-    <>
-      <PageHero
-        page="contact"
-        eyebrow="LET’S START A CONVERSATION"
-        title={
-          <>
-            Your mission.
-            <br />
-            <span>Our shared purpose.</span>
-          </>
-        }
-        description="A single system, a hospital department, or an ongoing service need. Tell us what you have in mind."
-      />
-      <section className="contact-section section-space">
-        <Grid className="site-grid">
-          <Column sm={4} md={5} lg={8}>
-            <ContactForm search={search} draft={draft} />
-          </Column>
-          <Column
-            sm={4}
-            md={3}
-            lg={{ span: 6, start: 11 }}
-            className="contact-information"
-          >
-            <Eyebrow>CONTACT MED MISSION SUPPLIES</Eyebrow>
-            <h2>
-              We’re here
-              <br />
-              to help you care.
-            </h2>
-            <p>
-              Tell us what you need, where you serve, and the challenges you’re
-              working through. We’ll help you explore the right equipment and
-              support.
-            </p>
-            <div className="contact-detail">
-              <Time size={24} />
-              <div>
-                <h3>A thoughtful response</h3>
-                <p>We aim to respond within 48 hours.</p>
-              </div>
-            </div>
-            <div className="contact-detail">
-              <Chat size={24} />
-              <div>
-                <h3>A helpful conversation</h3>
-                <p>
-                  Equipment questions, logistics, setup guidance, or ongoing
-                  support — we’re happy to talk.
-                </p>
-              </div>
-            </div>
-            <a
-              className="text-link"
-              href="https://www.linkedin.com/company/med-mission-supplies"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Connect on LinkedIn <ArrowUpRight size={20} />
-              <span className="sr-only"> (opens in a new tab)</span>
-            </a>
-          </Column>
-        </Grid>
-      </section>
-    </>
+    <section className="contact-layout content-width">
+      <div className="contact-copy">
+        <h1>
+          Let’s find what{" "}
+          <br />
+          you need.
+        </h1>
+        <p>
+          Looking for equipment, comparing options, or needing service? Send us
+          a message.
+        </p>
+        <div className="contact-options">
+          <span>
+            <Checkmark size={20} />
+            Equipment & pricing
+          </span>
+          <span>
+            <Checkmark size={20} />
+            Service & support
+          </span>
+          <span>
+            <Checkmark size={20} />
+            Charitable projects
+          </span>
+        </div>
+        <p className="response-time">
+          <Time size={20} />
+          We aim to reply within 48 hours.
+        </p>
+        <a
+          className="text-link"
+          href="https://www.linkedin.com/company/med-mission-supplies"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Connect on LinkedIn
+          <ArrowUpRight size={18} />
+          <span className="sr-only"> (opens in a new tab)</span>
+        </a>
+      </div>
+      <div className="contact-form-panel">
+        <ContactForm search={search} draft={draft} />
+      </div>
+    </section>
   );
 }
 
 function NotFound() {
   return (
     <section className="not-found section-space site-width">
-      <Eyebrow>PAGE NOT FOUND</Eyebrow>
-      <h1>Let’s get you back on track.</h1>
+      <h1>Page not found.</h1>
       <p>The page you’re looking for isn’t here.</p>
       <Button href="/index.html" renderIcon={ArrowRight}>
         Go to the homepage

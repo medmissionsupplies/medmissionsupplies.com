@@ -4,7 +4,7 @@ import { articles, articleUrl } from "./articles.mjs";
 const info = [
   [
     "index",
-    "Hospital equipment. Human purpose.",
+    "Quality hospital equipment. Within reach.",
     "We procure, support, and service almost every major type of hospital capital equipment. Wholesale and charitable pricing from Med Mission Supplies.",
   ],
   [
@@ -19,7 +19,7 @@ const info = [
   ],
   [
     "articles",
-    "Practical equipment resources",
+    "Medical equipment buying guides",
     "Read equipment procurement, service, support, and mission planning guides from Med Mission Supplies.",
   ],
   [
