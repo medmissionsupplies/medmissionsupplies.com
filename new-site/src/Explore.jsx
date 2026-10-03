@@ -102,6 +102,16 @@ export function SectionHead({ title, href, link }) {
 
 export function EquipmentCard({ item, preview = false }) {
   const Icon = icons[item.category];
+  const previewTitles = {
+    ultrasound: "Ultrasound",
+    xray: "X-ray & C-arms",
+    anesthesia: "Anesthesia",
+    ventilators: "Ventilators",
+    ekg: "Patient monitors",
+    laboratory: "Laboratory",
+    sterilization: "Sterilization",
+    beds: "Hospital beds",
+  };
   return (
     <article className={`catalog-card${preview ? " preview-card" : ""}`} id={item.id}>
       <a href={equipmentUrl(item)} aria-label={(preview ? "View details: " : "Equipment details: ") + item.title}>
@@ -113,7 +123,7 @@ export function EquipmentCard({ item, preview = false }) {
           {item.image ? <Photo name={item.image} /> : <Icon size={64} />}
         </div>
         <div className="card-copy">
-          <h3>{item.title}</h3>
+          <h3>{preview ? previewTitles[item.id] ?? item.title : item.title}</h3>
           {!preview && <p>{item.summary}</p>}
           <span className="card-action">{preview ? "View details" : "Equipment details"} <ArrowUpRight size={20} /></span>
         </div>
@@ -184,7 +194,7 @@ export function NewHome() {
           <Action href="/offerings.html">View all {equipment.length} equipment types</Action>
         </div>
         <div className="home-equipment-grid">
-          {["ultrasound", "anesthesia", "ekg", "laboratory", "sterilization", "beds"].map((id) => (
+          {["ultrasound", "xray", "anesthesia", "ventilators", "ekg", "laboratory", "sterilization", "beds"].map((id) => (
             <EquipmentCard key={id} item={equipment.find((item) => item.id === id)} preview />
           ))}
         </div>

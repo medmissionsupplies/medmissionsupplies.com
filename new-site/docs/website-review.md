@@ -1,5 +1,11 @@
 # Website review — October 2, 2026
 
+## Version 1.5.1 release preparation
+
+At the owner's request, expanded the homepage from six to eight equipment types by adding X-ray/C-arm systems and ventilators. Uniform vertical cards form four columns and two rows on desktop, with two columns on smaller screens. Shorter preview names make the equipment range easier to scan; full detail-page titles remain intact. The owner authorized public release of this revision through the existing production deployment workflow.
+
+Pre-release validation: 22 tests passed; the build verified 80 HTML outputs and 2,846 local references. Checked the homepage at 320, 390, 768, 1056, and 1440 pixels: eight cards at every size, uniform card heights, no page overflow or clipped labels, four desktop columns, and two columns at smaller widths. Desktop and mobile layouts were visually reviewed.
+
 ## Version 1.5 clear choices and a complete catalog
 
 Replaced the homepage department shortcuts with six actual equipment types in two desktop rows and a prominent full-catalog button. Removed equipment filtering and its tabs: all 23 cards now appear in static HTML, grouped under five department headings. Old category query strings no longer hide equipment. Detail-page back links lead to the relevant department heading.

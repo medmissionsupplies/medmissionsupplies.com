@@ -18,13 +18,13 @@ The build produces a portable static site in `dist/`: 40 pages, 39 directory ali
 
 The footer displays the package version. Bump it before preparing a release.
 
-## Version 1.5 design playground
+## Version 1.5.1 website
 
 MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Navy, clear blue actions, white reading surfaces, and amber offer buttons create a professional identity. Straight photo banners, simple corners, consistent equipment cards, and clear inquiry links carry that identity across every page.
 
 The homepage and services page offer free physician-to-physician equipment consultation and free materials management support. Each has a dedicated prefilled inquiry path. The owner-provided lowest-quote guarantee appears on the homepage, equipment details, services, and contact page. No additional guarantee conditions or clinical services have been invented.
 
-The homepage shows six actual equipment types in two desktop rows, with direct detail links and a prominent “View all 23 equipment types” button. Free advisory offers sit on dark panels with amber request buttons. Navigation distinguishes the equipment catalog, how MMS helps, and equipment advice. Learning actions explain what visitors will understand or compare; their descriptions remain visible on phones.
+The homepage shows eight actual equipment types in a uniform four-by-two desktop grid, with direct detail links and a prominent “View all 23 equipment types” button. The selection spans imaging, anesthesia, ventilation, monitoring, laboratory, sterilization, and hospital beds. Smaller screens use two columns. Free advisory offers sit on dark panels with amber request buttons. Navigation distinguishes the equipment catalog, how MMS helps, and equipment advice. Learning actions explain what visitors will understand or compare; their descriptions remain visible on phones.
 
 - All 23 illustrated equipment areas are visible together under 5 department headings, with detail pages, related equipment, and quote/service links. No equipment search or filter tabs. Every card is present in static HTML, including visits with older category query strings. Detail-page back links point to the corresponding department heading.
 - Photo banners on equipment, services, about, careers, contact, and reading pages. The contact form stays prominent. Longer listing details and comments use native disclosures.
@@ -72,6 +72,6 @@ No real messages or comments were sent during development. Browser form tests in
 
 Unit tests cover contact transport, comments/moderation, catalog and guide relationships, legacy filtering helpers, routes, and page/history navigation. The build checks all 80 HTML outputs, local references, and equipment explanations. Browser QA covers all 40 pages at 320px, 768px, and 1440px, the direct learning links, equipment categories, expanded explanations, and inquiry prefilling. Earlier tests also checked form error recovery and mobile navigation.
 
-Work on feature branches. **The current `.github/workflows/deploy.yml` deploys pushes to `main`.** Older notes predate that automation; do not push to `main` to share a preview. This playground changes neither production configuration nor DNS, mail, Cloudflare, or the NAS. Follow deployment documentation only for an authorized release.
+Work on feature branches. **The current `.github/workflows/deploy.yml` deploys pushes to `main`.** Older notes predate that automation; do not push to `main` to share a preview. Follow [automatic deployment](../deploy/AUTOMATIC-DEPLOYMENT.md) for authorized releases. Application releases do not change production configuration, DNS, mail, Cloudflare, or other NAS applications.
 
 IBM Carbon/icons use Apache-2.0; IBM Plex uses the SIL Open Font License. Licenses are included in the built site.
