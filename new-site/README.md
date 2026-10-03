@@ -18,7 +18,7 @@ The build produces a portable static site in `dist/`: 40 pages, 39 directory ali
 
 The footer displays the package version. Bump it before preparing a release.
 
-## Version 1.5.2 website
+## Version 1.5.3 website
 
 MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Navy, clear blue actions, white reading surfaces, and amber offer buttons create a professional identity. Straight photo banners, simple corners, consistent equipment cards, and clear inquiry links carry that identity across every page.
 
@@ -75,3 +75,7 @@ Unit tests cover contact transport, comments/moderation, catalog and guide relat
 Work on feature branches. **The current `.github/workflows/deploy.yml` deploys pushes to `main`.** Older notes predate that automation; do not push to `main` to share a preview. Follow [automatic deployment](../deploy/AUTOMATIC-DEPLOYMENT.md) for authorized releases. Application releases do not change production configuration, DNS, mail, Cloudflare, or other NAS applications.
 
 IBM Carbon/icons use Apache-2.0; IBM Plex uses the SIL Open Font License. Licenses are included in the built site.
+
+## SEO release
+
+All 40 canonical pages now include descriptive titles, descriptions, canonical URLs, page-specific Open Graph and Twitter images, and factual Organization/WebSite/page structured data. A generated robots.txt advertises the sitemap. Existing .html URLs, directory aliases, images and form endpoints are retained. Enhanced navigation updates canonical, sharing and structured metadata together, including Back/Forward. No product prices, ratings or availability are invented. The build verifies these fields and their image targets.
