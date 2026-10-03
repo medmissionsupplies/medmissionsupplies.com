@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFile, access, readdir } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { pageSeo } from '../src/seo.mjs';
 import { routes } from '../src/routes.mjs';
 import { equipment } from '../src/catalog.mjs';
 import { articles } from '../src/articles.mjs';
@@ -78,3 +79,16 @@ for (const match of rendered.get('404.html').matchAll(/(?:href|src)="([^"#]+)"/g
 }
 for (const license of ['Carbon-Apache-2.0.txt', 'IBM-Plex-OFL.txt']) await access(resolve(root, 'licenses', license));
 console.log(`Verified ${rendered.size} rendered pages, ${links} local references, fonts, page anchors, team content, contact integration, and licenses.`);
+
+for (const route of routes) {
+  const html = rendered.get(route.path.slice(1));
+  const seo = pageSeo(route.key);
+  assert.equal((html.match(/rel="canonical"/g) || []).length, 1, route.path + ': exactly one canonical');
+  assert.ok(html.includes('href="' + seo.url + '"'), route.path + ': canonical differs');
+  const schema = JSON.parse(html.match(/<script id="page-structured-data" type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+  assert.equal(schema['@graph'][2].url, seo.url);
+  assert.ok(html.includes('content="' + seo.image + '"'), route.path + ': page-specific share image');
+  await access(resolve(root, new URL(seo.image).pathname.slice(1)));
+}
+assert.ok((await readFile(resolve(root, 'robots.txt'), 'utf8')).includes('Sitemap: https://medmissionsupplies.com/sitemap.xml'));
+console.log('Verified canonical URLs, page-specific share images, structured data and robots across all 40 canonical pages.');
