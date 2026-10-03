@@ -18,9 +18,11 @@ The build produces a portable static site in `dist/`: 40 pages, 39 directory ali
 
 The footer displays the package version. Bump it before preparing a release.
 
-## Version 1.3 design playground
+## Version 1.4 design playground
 
-MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Warm ivory, deep plum, coral, peach, and soft yellow create a more inviting identity. Larger headlines, shaped photo banners, illustrated department cards, and clear inquiry links carry that identity across every page. Longer explanations use quiet reading surfaces.
+MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Deep charcoal, warm white, muted teal, and restrained brass accents create a professional identity. Straight photo banners, simple corners, consistent white equipment cards, and clear inquiry links carry that identity across every page. Longer explanations use quiet reading surfaces.
+
+The homepage and services page offer free physician-to-physician equipment consultation and free materials management support. Each has a dedicated prefilled inquiry path. The owner-provided lowest-quote guarantee appears on the homepage, equipment details, services, and contact page. No additional guarantee conditions or clinical services have been invented.
 
 - 23 illustrated equipment areas across 5 departments, with detail pages, related equipment, and quote/service links. Department browsing replaces equipment search. Imaging is shown initially; visitors can select another department or all equipment. A no-JavaScript directory links every listing.
 - Photo banners on equipment, services, about, careers, contact, and reading pages. The contact form stays prominent. Longer listing details and comments use native disclosures.

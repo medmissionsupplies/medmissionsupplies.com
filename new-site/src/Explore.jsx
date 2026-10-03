@@ -167,10 +167,11 @@ export function NewHome() {
             Quality equipment for almost every hospital department, at wholesale
             and charitable prices. We procure it, support it, and service it.
           </p>
+          <div className="quote-assurance"><Checkmark size={18} />Lowest quote guaranteed.</div>
           <div className="action-row">
             <Action href="/offerings.html">Find equipment</Action>
             <Action href="/contact.html" secondary>
-              Let’s talk
+              Get a quote
             </Action>
           </div>
         </div>
@@ -212,32 +213,27 @@ export function NewHome() {
           })}
         </div>
       </section>
-      <section
-        className="home-help content-width"
-        aria-label="Advice and support"
-      >
-        <a className="help-card" href="/articles.html">
-          <Photo name="ultrasound" />
-          <div>
-            <h2>Make your next purchase count.</h2>
-            <p>Find out what matters before you choose a system.</p>
-            <span>
-              Explore equipment advice <ArrowRight size={20} />
-            </span>
-          </div>
-        </a>
-        <a className="help-card help-card-service" href="/services.html">
-          <div>
-            <h2>Keep care moving.</h2>
-            <p>Need parts, repairs, or a little direction? Start here.</p>
-            <span>
-              Get equipment support <ArrowRight size={20} />
-            </span>
-          </div>
-          <Tools size={54} />
-        </a>
-      </section>
+      <AdvisoryOptions />
     </>
+  );
+}
+
+export function AdvisoryOptions() {
+  return (
+    <section className="advisory-options content-width" aria-label="Free equipment advice and purchasing support">
+      <a className="advisory-card" href="/contact.html?topic=physician">
+        <span className="advisory-label">Complimentary consultation</span>
+        <h2>Physician to physician.</h2>
+        <p>Speak directly with a physician about equipment choices and your department’s needs. Free of charge.</p>
+        <span className="text-link">Request a consultation <ArrowUpRight size={18} /></span>
+      </a>
+      <a className="advisory-card" href="/contact.html?topic=materials">
+        <span className="advisory-label">Complimentary support</span>
+        <h2>Materials management.</h2>
+        <p>Get free help with equipment lists, sourcing, and purchasing decisions for your facility.</p>
+        <span className="text-link">Discuss your equipment needs <ArrowUpRight size={18} /></span>
+      </a>
+    </section>
   );
 }
 
@@ -423,7 +419,7 @@ export function EquipmentDetail({ item }) {
         <div className="equipment-summary">
           <h1>{item.title}</h1>
           <p>{item.summary}</p>
-          <span className="pricing-label">Wholesale & charitable pricing</span>
+          <span className="pricing-label">Wholesale & charitable pricing · Lowest quote guaranteed.</span>
           <div className="action-row">
             <Action
               href={"/contact.html?equipment=" + encodeURIComponent(item.title)}
@@ -977,8 +973,8 @@ export function Services() {
   return (
     <>
       <ExploreHero
-        title="From your first question to your next repair."
-        description="Equipment sourcing, practical support, and service—all start with the same conversation."
+        title="Expertise behind every equipment decision."
+        description="Hospital-wide procurement, support, and service. Free advice for physicians and materials management teams."
         image="equipment-detail"
       />
       <div className="content-width services-grid">
@@ -990,14 +986,6 @@ export function Services() {
             "Browse equipment",
             "/offerings.html",
             "ultrasound",
-          ],
-          [
-            "support",
-            "Get answers",
-            "Ask about accessories, compatibility, delivery, or setup. We’ll help you find the next step.",
-            "Ask a question",
-            "/contact.html?topic=support",
-            "equipment-detail",
           ],
           [
             "service",
@@ -1021,16 +1009,17 @@ export function Services() {
           </section>
         ))}
       </div>
+      <AdvisoryOptions />
       <section className="pricing-panel content-width" id="pricing">
         <div>
-          <h2>Put your budget to work.</h2>
+          <h2>Lowest quote. Guaranteed.</h2>
           <p>
             Wholesale pricing for hospitals and clinics. Charitable pricing for
             mission-driven projects.
           </p>
         </div>
-        <Action href="/contact.html?topic=charitable">
-          Discuss your project
+        <Action href="/contact.html?topic=quote">
+          Request a quote
         </Action>
       </section>
     </>

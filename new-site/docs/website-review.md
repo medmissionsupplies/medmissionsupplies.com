@@ -1,5 +1,15 @@
 # Website review — October 2, 2026
 
+## Version 1.4 refinement
+
+The current design uses deep charcoal, warm white, muted teal, and small brass accents. It replaces the previous multicolored cards, italic headline, tilted image, oversized asymmetric corners, and pill buttons with consistent surfaces and simpler shapes. The permanent Learn structure and existing equipment photos remain.
+
+The homepage and services page now present free physician-to-physician equipment consultation and free materials management support, with dedicated inquiry links that prefill the contact form. The lowest-quote guarantee appears alongside pricing and quote requests on the homepage, services, equipment detail pages, and contact page. These business offers were supplied explicitly by MMS; no eligibility conditions, refund policy, matching formula, or patient-care promises were added. Procurement and repair services remain separate from the free advisory offers.
+
+Validation: 22 tests passed; the build verified 80 HTML outputs and 2,796 local references. All 40 routes were checked at 320px, 768px, and 1440px, with one main heading, no horizontal overflow, and no failed loaded images. Desktop home, Learn, services, and mobile services were visually reviewed. The physician, materials management, and guarantee buttons were followed through to their correct prefilled contact messages. No live forms were submitted.
+
+The earlier sections below record prior review passes; this visual direction supersedes the 1.3 palette.
+
 ## Version 1.3 follow-up
 
 The user found the previous navy/white design sterile and clarified that the educational content should be a permanent website reference rather than an article feed. The new direction uses warm ivory, deep plum, coral, peach, and soft yellow, with stronger typography, shaped photo banners, illustrated department links, and clear inquiry actions throughout.

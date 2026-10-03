@@ -5,7 +5,7 @@ const info = [
   [
     "index",
     "More care. Within reach.",
-    "We procure, support, and service almost every major type of hospital capital equipment. Wholesale and charitable pricing from Med Mission Supplies.",
+    "Hospital capital equipment at wholesale and charitable prices. Lowest quote guaranteed, with free physician-to-physician consultation and materials management support.",
   ],
   [
     "offerings",
@@ -15,7 +15,7 @@ const info = [
   [
     "services",
     "Procure. Support. Service.",
-    "One partner for hospital equipment sourcing, practical support, and service coordination, with wholesale and charitable pricing.",
+    "Hospital equipment procurement and service, plus free physician-to-physician equipment consultation and materials management support.",
   ],
   [
     "articles",
@@ -35,7 +35,7 @@ const info = [
   [
     "contact",
     "Start an equipment conversation",
-    "Tell MMS about your hospital equipment, sourcing, service, or charitable pricing needs.",
+    "Request a quote, free physician-to-physician equipment consultation, or free materials management support. MMS guarantees the lowest quote.",
   ],
 ];
 export const routes = [

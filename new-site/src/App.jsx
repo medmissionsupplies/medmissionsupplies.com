@@ -277,6 +277,12 @@ export function inquiryFromSearch(search = "") {
           title +
           ".\n\nFacility and location:\nRequirements and quantity:\nBudget and timing:\n";
   const messages = {
+    physician:
+      "I’d like a free physician-to-physician equipment consultation.\n\nFacility and department:\nEquipment or options I’m considering:\nMy question:\n",
+    materials:
+      "I’d like free materials management support.\n\nFacility and location:\nEquipment list or purchasing question:\nBudget and timing:\n",
+    quote:
+      "I’d like a quote under your lowest-quote guarantee.\n\nEquipment and requirements:\nFacility and location:\nBudget and timing:\n",
     charitable:
       "I’d like to discuss charitable pricing for our project.\n\nOrganization and mission:\nEquipment needed:\nDestination:\nBudget and timing:\n",
     service:
@@ -440,7 +446,7 @@ function Contact({ search, draft }) {
     <>
       <ExploreHero
         title="Your next step starts here."
-        description="Need a quote, a second opinion, or help with equipment? Tell us what you’re working on."
+        description="Lowest quote guaranteed. Free physician-to-physician equipment consultation and materials management support. Tell us how we can help."
         image="ultrasound"
         compact
       />
