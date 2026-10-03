@@ -107,7 +107,7 @@ export function EquipmentCard({ item }) {
   const Icon = icons[item.category];
   return (
     <article className="catalog-card" id={item.id}>
-      <a href={equipmentUrl(item)} aria-label={"Explore " + item.title}>
+      <a href={equipmentUrl(item)} aria-label={"View equipment: " + item.title}>
         <div
           className={
             "card-image" + (!item.image ? " equipment-illustration" : "")
@@ -117,8 +117,8 @@ export function EquipmentCard({ item }) {
         </div>
         <div className="card-copy">
           <h3>{item.title}</h3>
-          <ArrowUpRight size={20} />
           <p>{item.summary}</p>
+          <span className="card-action">View equipment <ArrowUpRight size={20} /></span>
         </div>
       </a>
     </article>
@@ -127,14 +127,14 @@ export function EquipmentCard({ item }) {
 
 export function ArticleCard({ item }) {
   const invitations = {
-    imaging: ["Imaging", "Which imaging system fits your hospital?", "Explore imaging"],
-    surgical: ["Surgery", "Build a theatre that works together.", "Explore surgical equipment"],
-    "critical-care": ["Patient care", "What does your bedside setup need?", "Explore patient care"],
-    diagnostics: ["Diagnostics", "Look beyond the analyzer’s price.", "Explore diagnostics"],
-    hospital: ["Hospital essentials", "Plan the systems behind the care.", "Explore the essentials"],
+    imaging: ["Imaging & radiology", "Explore imaging"],
+    surgical: ["Surgery & anesthesia", "Explore surgery"],
+    "critical-care": ["Critical & patient care", "Explore patient care"],
+    diagnostics: ["Laboratory & diagnostics", "Explore diagnostics"],
+    hospital: ["Hospital essentials", "Explore essentials"],
   };
-  const [label, title, action] = invitations[item.department] ?? [
-    "Mission clinics", "What belongs in your clinic?", "Plan your clinic",
+  const [title, action] = invitations[item.department] ?? [
+    "Mission clinics", "Plan your clinic",
   ];
   return (
     <article className="resource-card">
@@ -143,10 +143,9 @@ export function ArticleCard({ item }) {
           <Photo name={item.image} />
         </div>
         <div className="resource-copy">
-          <div className="article-meta"><span>{label}</span></div>
           <h3>{title}</h3>
           <p>{item.summary}</p>
-          <span className="card-invitation">{action}<ArrowUpRight size={20} /></span>
+          <span className="card-action">{action}<ArrowUpRight size={20} /></span>
         </div>
       </a>
     </article>
@@ -222,16 +221,14 @@ export function AdvisoryOptions() {
   return (
     <section className="advisory-options content-width" aria-label="Free equipment advice and purchasing support">
       <a className="advisory-card" href="/contact.html?topic=physician">
-        <span className="advisory-label">Complimentary consultation</span>
         <h2>Physician to physician.</h2>
-        <p>Speak directly with a physician about equipment choices and your department’s needs. Free of charge.</p>
-        <span className="text-link">Request a consultation <ArrowUpRight size={18} /></span>
+        <p>Free consultation with a physician about equipment choices and your department’s needs.</p>
+        <span className="card-action">Get free advice <ArrowUpRight size={20} /></span>
       </a>
       <a className="advisory-card" href="/contact.html?topic=materials">
-        <span className="advisory-label">Complimentary support</span>
         <h2>Materials management.</h2>
         <p>Get free help with equipment lists, sourcing, and purchasing decisions for your facility.</p>
-        <span className="text-link">Discuss your equipment needs <ArrowUpRight size={18} /></span>
+        <span className="card-action">Get free support <ArrowUpRight size={20} /></span>
       </a>
     </section>
   );
@@ -376,9 +373,7 @@ export function EquipmentCatalog({ search }) {
         )}
         <div className="catalog-note">
           <p>Looking for something else?</p>
-          <a className="text-link" href="/contact.html">
-            Send us your equipment list <ArrowRight size={20} />
-          </a>
+          <Action href="/contact.html?topic=procure">Send your equipment list</Action>
         </div>
       </section>
     </>
@@ -924,7 +919,7 @@ export function BuyingGuide({ item }) {
                       ))}
                     </div>
                     <div className="guide-item-actions">
-                      <a className="text-link" href={`/contact.html?equipment=${encodeURIComponent(listing.title)}`}>
+                      <a className="mms-action" href={`/contact.html?equipment=${encodeURIComponent(listing.title)}`}>
                         Ask about {entry.title.toLowerCase()}<ArrowRight size={18} />
                       </a>
                       <a href={equipmentUrl(listing)}>Equipment & service options</a>
@@ -991,7 +986,7 @@ export function Services() {
             "service",
             "Get it working again",
             "Tell us your equipment model and the issue. We’ll discuss parts, repairs, and service options.",
-            "Tell us what’s happening",
+            "Request service",
             "/contact.html?topic=service",
             "anesthesia",
           ],
@@ -1001,10 +996,7 @@ export function Services() {
             <div>
               <h2>{title}</h2>
               <p>{description}</p>
-              <a className="text-link" href={href}>
-                {label}
-                <ArrowRight size={20} />
-              </a>
+              <Action href={href}>{label}</Action>
             </div>
           </section>
         ))}

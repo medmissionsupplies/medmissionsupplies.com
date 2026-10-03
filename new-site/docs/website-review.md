@@ -1,5 +1,11 @@
 # Website review — October 2, 2026
 
+## Version 1.4.1 equipment and action hierarchy
+
+Enlarged homepage department photos, catalog photos, Learn images, and equipment explanations. Quiet display backgrounds and stronger card edges distinguish equipment from the page. Primary navigation and inquiry actions now use a consistent teal fill; the dark homepage banner uses brass and white buttons. Button text and key descriptions are larger, repeated small labels are removed, and Learn headings name the department directly. Catalog cards explicitly say “View equipment,” and the header says “Get a quote.” Free advice, service, and contextual equipment questions have prominent actions.
+
+Validation: 22 tests passed and the build verified 80 HTML outputs and 2,796 local references. All 40 routes passed 320px, 768px, and 1440px layout checks. All 35 equipment explanations were expanded at 320px without page overflow or clipped inquiry buttons. Desktop home/catalog/Learn and mobile Learn were visually reviewed. Verified the equipment-card-to-quote path preserves the equipment selection. White text on the primary teal has 6.40:1 contrast. No live messages were sent.
+
 ## Version 1.4 refinement
 
 The current design uses deep charcoal, warm white, muted teal, and small brass accents. It replaces the previous multicolored cards, italic headline, tilted image, oversized asymmetric corners, and pill buttons with consistent surfaces and simpler shapes. The permanent Learn structure and existing equipment photos remain.

@@ -112,7 +112,7 @@ function SiteHeader({ page }) {
             ))}
         </HeaderNavigation>
         <a className="header-quote" href="/contact.html">
-          Let’s talk <ArrowUpRight size={18} />
+          Get a quote <ArrowUpRight size={18} />
         </a>
         <SideNav
           ref={navigationRef}
