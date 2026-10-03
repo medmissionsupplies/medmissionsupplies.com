@@ -35,9 +35,9 @@ import { articles } from "./articles.mjs";
 import { routes } from "./routes.mjs";
 
 const navigation = [
-  ["offerings", "Equipment"],
-  ["services", "Services"],
-  ["articles", "Learn"],
+  ["offerings", "Equipment catalog"],
+  ["services", "How we help"],
+  ["articles", "Equipment advice"],
   ["about", "About us"],
   ["contact", "Contact"],
 ];
@@ -163,7 +163,7 @@ function SiteFooter() {
           <nav aria-label="Footer">
             <a href="/about.html">About us</a>
             <a href="/employment.html">Careers</a>
-            <a href="/articles.html">Learn</a>
+            <a href="/articles.html">Equipment advice</a>
             <a href="/contact.html">Contact</a>
             <a
               href="https://www.linkedin.com/company/med-mission-supplies"

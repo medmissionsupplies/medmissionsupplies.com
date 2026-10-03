@@ -18,21 +18,21 @@ The build produces a portable static site in `dist/`: 40 pages, 39 directory ali
 
 The footer displays the package version. Bump it before preparing a release.
 
-## Version 1.4.1 design playground
+## Version 1.5 design playground
 
-MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Deep charcoal, warm white, muted teal, and restrained brass accents create a professional identity. Straight photo banners, simple corners, consistent white equipment cards, and clear inquiry links carry that identity across every page. Longer explanations use quiet reading surfaces.
+MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Navy, clear blue actions, white reading surfaces, and amber offer buttons create a professional identity. Straight photo banners, simple corners, consistent equipment cards, and clear inquiry links carry that identity across every page.
 
 The homepage and services page offer free physician-to-physician equipment consultation and free materials management support. Each has a dedicated prefilled inquiry path. The owner-provided lowest-quote guarantee appears on the homepage, equipment details, services, and contact page. No additional guarantee conditions or clinical services have been invented.
 
-Equipment now has larger photo areas and subtle display backgrounds. A stronger teal identifies primary actions, with filled buttons for equipment, learning, free advice, service, and inquiry paths. Main descriptions and actions use larger text; repeated small labels have been removed. Learn cards use clear department names. Mobile layouts retain readable product photos and compact learning cards.
+The homepage shows six actual equipment types in two desktop rows, with direct detail links and a prominent “View all 23 equipment types” button. Free advisory offers sit on dark panels with amber request buttons. Navigation distinguishes the equipment catalog, how MMS helps, and equipment advice. Learning actions explain what visitors will understand or compare; their descriptions remain visible on phones.
 
-- 23 illustrated equipment areas across 5 departments, with detail pages, related equipment, and quote/service links. Department browsing replaces equipment search. Imaging is shown initially; visitors can select another department or all equipment. A no-JavaScript directory links every listing.
+- All 23 illustrated equipment areas are visible together under 5 department headings, with detail pages, related equipment, and quote/service links. No equipment search or filter tabs. Every card is present in static HTML, including visits with older category query strings. Detail-page back links point to the corresponding department heading.
 - Photo banners on equipment, services, about, careers, contact, and reading pages. The contact form stays prominent. Longer listing details and comments use native disclosures.
-- Learn is a permanent equipment reference, not an article feed. Six illustrated department/mission collections cover 35 equipment topics; four planning pages support project and service inquiries. There is no search box, topic dropdown, count, or publication-date header.
+- Equipment advice is a permanent reference, not an article feed. Six illustrated department/mission collections cover 35 equipment topics; four planning pages support project and service inquiries. There is no search box, topic dropdown, count, or publication-date header.
 - Every equipment topic explains the basics before presenting options, purchase checks, ownership costs, official references, and inquiry links. Every listing links directly to relevant explanations. Desktop contents links and a mobile jump menu help visitors reach the equipment they need.
 - Moderated comments use the existing Formspree service. Staff publish approved public text with a later release; see [the moderation workflow](docs/listing-comments.md).
 
-The prior streamlining remains: compact planning/related links, short summaries, one contact form, and the All equipment filter fix. See the [whole-site review](docs/website-review.md) for findings and validation, including the revised learning structure and visual direction.
+The prior streamlining remains: compact planning/related links, short summaries, and one contact form. See the [whole-site review](docs/website-review.md) for findings and validation.
 
 Photographs illustrate categories or example models, not MMS stock or facilities. Local photos have descriptive alternative text and [individual credits](licenses/Photography.txt), linked from each footer. The catalog does not invent prices, inventory, warranties, rankings, hands-on reviews, or testimonials.
 
@@ -48,7 +48,7 @@ Before public release, MMS should review the editorial guidance and confirm publ
 
 Both forms use the established endpoint `https://formspree.io/f/xkgrvweb`. Delivery and spam filtering depend on the account configuration and limits. Success requires an accepted HTTP response; errors retain input, duplicate clicks are guarded, and stalled submissions time out.
 
-Quote and service links prefill contact using allowlisted equipment or topics. Forms have native HTML actions for visitors without JavaScript. Interactive filters require JavaScript; static content and guide disclosures remain usable without it.
+Quote and service links prefill contact using allowlisted equipment or topics. Forms have native HTML actions for visitors without JavaScript. The complete catalog, static content, and equipment explanations remain readable without it.
 
 No real messages or comments were sent during development. Browser form tests intercepted requests and simulated responses. Live Formspree delivery and staffed moderation must be verified before relying on comments in production.
 

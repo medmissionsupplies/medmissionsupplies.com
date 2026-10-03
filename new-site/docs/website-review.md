@@ -1,5 +1,15 @@
 # Website review — October 2, 2026
 
+## Version 1.5 clear choices and a complete catalog
+
+Replaced the homepage department shortcuts with six actual equipment types in two desktop rows and a prominent full-catalog button. Removed equipment filtering and its tabs: all 23 cards now appear in static HTML, grouped under five department headings. Old category query strings no longer hide equipment. Detail-page back links lead to the relevant department heading.
+
+The current palette uses navy, clear blue actions, white surfaces, and amber offer buttons. The two free advisory offers have dark backgrounds, white headings, and contrasting amber buttons. Navigation now says Equipment catalog, How we help, and Equipment advice. Learning actions name the equipment and explain the purpose of the destination; descriptions stay visible on phones. Body text is darker across equipment and learning cards.
+
+Validation: 22 tests passed; the build checked 80 HTML outputs and 2,842 local references, with new assertions requiring every equipment card and rejecting filter tabs. All 40 routes passed 320px, 768px, and 1440px checks for page overflow, clipped actions, duplicate main headings, and failed loaded images. Confirmed six homepage cards in two desktop rows, the prominent full-catalog link, all 23 cards after reload with a legacy category query, and the physician consultation prefill. Main blue/white buttons have 6.81:1 contrast; navy text on amber is 8.43:1. No live forms were submitted.
+
+This replaces the earlier palette and filtered catalog described below.
+
 ## Version 1.4.1 equipment and action hierarchy
 
 Enlarged homepage department photos, catalog photos, Learn images, and equipment explanations. Quiet display backgrounds and stronger card edges distinguish equipment from the page. Primary navigation and inquiry actions now use a consistent teal fill; the dark homepage banner uses brass and white buttons. Button text and key descriptions are larger, repeated small labels are removed, and Learn headings name the department directly. Catalog cards explicitly say “View equipment,” and the header says “Get a quote.” Free advice, service, and contextual equipment questions have prominent actions.

@@ -52,6 +52,10 @@ for (const article of articles) {
   }
 }
 assert.ok(!rendered.get('offerings.html').includes('Search equipment'), 'Broad equipment search was restored');
+const catalog = rendered.get('offerings.html');
+assert.ok(!catalog.includes('class="filter-tabs"'), 'Equipment must be visible without filter tabs');
+assert.equal((catalog.match(/class="catalog-card"/g) || []).length, equipment.length, 'Catalog must render every equipment card');
+for (const item of equipment) assert.ok(catalog.includes(`id="${item.id}"`), `Catalog hides ${item.id}`);
 for (const name of ['Lynette Hwang', 'Vincent Larkin', 'John Landman']) assert.ok(team.includes(name), `Missing team member ${name}`);
 const form = rendered.get('contact.html');
 assert.ok(form.includes('action="https://formspree.io/f/xkgrvweb"'), 'Contact integration changed');

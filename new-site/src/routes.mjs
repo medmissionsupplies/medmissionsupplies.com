@@ -9,17 +9,17 @@ const info = [
   ],
   [
     "offerings",
-    "Explore hospital equipment",
+    "Hospital equipment catalog",
     "Browse imaging, surgery, anesthesia, critical care, laboratory, and hospital equipment. Discuss sourcing, support, service, and pricing with MMS.",
   ],
   [
     "services",
-    "Procure. Support. Service.",
+    "Equipment sourcing, advice & repairs",
     "Hospital equipment procurement and service, plus free physician-to-physician equipment consultation and materials management support.",
   ],
   [
     "articles",
-    "Explore & learn about hospital equipment",
+    "Equipment advice: how it works and what to compare",
     "Compare hospital equipment, understand ownership costs, and get practical advice for your next purchase or service request.",
   ],
   [
