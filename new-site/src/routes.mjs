@@ -4,7 +4,7 @@ import { articles, articleUrl } from "./articles.mjs";
 const info = [
   [
     "index",
-    "More care. Within reach.",
+    "Hospital Equipment, Sourcing & Support",
     "Hospital capital equipment at wholesale and charitable prices. Lowest quote guaranteed, with free physician-to-physician consultation and materials management support.",
   ],
   [
@@ -29,12 +29,12 @@ const info = [
   ],
   [
     "employment",
-    "Work with purpose",
+    "Medical Equipment Careers",
     "Explore opportunities with Med Mission Supplies.",
   ],
   [
     "contact",
-    "Start an equipment conversation",
+    "Request Hospital Equipment & Support",
     "Request a quote, free physician-to-physician equipment consultation, or free materials management support. MMS guarantees the lowest quote.",
   ],
 ];

@@ -1,3 +1,4 @@
+import { syncPageSeo } from './seo.mjs';
 import { resolvePage } from './routes.mjs';
 export const pageKey = resolvePage;
 
@@ -53,6 +54,7 @@ export function installPageNavigation({ render, metadata, prepare = async () => 
         const info = metadata[page];
         doc.title = info.title;
         doc.querySelector('meta[name="description"]')?.setAttribute('content', info.description);
+        syncPageSeo(doc, page);
         doc.documentElement.dataset.page = page;
         render({ page, search: url.search, entry: key, draft: saved?.draft });
         rendered = url;

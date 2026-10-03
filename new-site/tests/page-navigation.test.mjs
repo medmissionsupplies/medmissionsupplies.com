@@ -26,11 +26,15 @@ function browser({ url = 'https://mms.test/', native = false, supported = true, 
   const motion = { matches: reduced, addEventListener: listen, removeEventListener: unlisten };
   const win = { location, history, Element, scrollX: 0, scrollY: 0, matchMedia: () => motion, addEventListener: listen, removeEventListener: unlisten, scrollTo: options => { scrolls.push(options); win.scrollY = options.top; } };
   if (native) win.CSSViewTransitionRule = class {};
-  const description = { setAttribute: (_, value) => { description.content = value; } };
+  const head = new Map();
+  const headNode = selector => {
+    if (!head.has(selector)) head.set(selector, { setAttribute(name, value) { this[name] = value; } });
+    return head.get(selector);
+  };
   const doc = {
     title: 'Home', visibilityState: 'visible', documentElement: { dataset: {} },
     addEventListener: listen, removeEventListener: unlisten,
-    querySelector: selector => selector === '.contact-form' ? (draft ? { elements: { namedItem: name => ({ value: draft[name] }) } } : null) : description,
+    querySelector: selector => selector === '.contact-form' ? (draft ? { elements: { namedItem: name => ({ value: draft[name] }) } } : null) : headNode(selector),
     getElementById: id => ({ focus() {}, scrollIntoView: options => scrolls.push({ anchor: id, ...options }) }),
   };
   if (supported) doc.startViewTransition = update => {
@@ -68,7 +72,9 @@ test('Firefox changes page and metadata within one transition and preserves unre
   assert.equal(page.transitions.length, 1);
   assert.equal(page.renders[0].page, 'offerings');
   assert.equal(page.doc.title, 'offerings');
-  assert.equal(page.doc.querySelector('meta').content, 'offerings description');
+  assert.equal(page.doc.querySelector('meta[name="description"]').content, 'offerings description');
+  assert.equal(page.doc.querySelector('link[rel="canonical"]').href, 'https://medmissionsupplies.com/offerings.html');
+  assert.equal(page.doc.querySelector('meta[property="og:url"]').content, 'https://medmissionsupplies.com/offerings.html');
   assert.equal(page.entries.length, 2);
   assert.equal(page.win.history.state.unrelated, true);
   assert.equal(page.scrolls.at(-1).anchor, 'ultrasound');
@@ -84,6 +90,8 @@ test('nested equipment and article pages keep transitions, metadata, anchors, an
   assert.equal(page.renders.at(-1).page, 'article-prepare-service-request');
   await page.back();
   assert.equal(page.renders.at(-1).page, 'equipment-ultrasound');
+  assert.equal(page.doc.querySelector('link[rel="canonical"]').href, 'https://medmissionsupplies.com/equipment/ultrasound.html');
+  assert.equal(JSON.parse(page.doc.querySelector('#page-structured-data').textContent)['@graph'][2].url, 'https://medmissionsupplies.com/equipment/ultrasound.html');
   await page.forward();
   assert.equal(page.renders.at(-1).page, 'article-prepare-service-request');
 });

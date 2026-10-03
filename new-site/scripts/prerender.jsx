@@ -5,6 +5,7 @@ import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { App } from "../src/App.jsx";
 import { routes, metadata } from "../src/routes.mjs";
+import { pageSeo } from "../src/seo.mjs";
 import { validateApprovedComments } from "../src/comments.mjs";
 
 validateApprovedComments(
@@ -26,6 +27,7 @@ const escape = (text) =>
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 function render(page, meta, path) {
+  const seo = pageSeo(page);
   const canonical = path ? `https://medmissionsupplies.com${path}` : null;
   return template
     .replace('<html lang="en">', `<html lang="en" data-page="${page}">`)
@@ -36,7 +38,7 @@ function render(page, meta, path) {
     )
     .replace(
       "</head>",
-      `${canonical ? `<link rel="canonical" href="${canonical}" /><meta property="og:title" content="${escape(meta.title)}" /><meta property="og:description" content="${escape(meta.description)}" /><meta property="og:url" content="${canonical}" /><meta property="og:image" content="https://medmissionsupplies.com/assets/photos/anesthesia.jpg" /><meta property="og:type" content="${page.startsWith("article-") ? "article" : "website"}" />` : '<meta name="robots" content="noindex" />'}</head>`,
+      `${canonical ? `<link rel="canonical" href="${canonical}" /><meta property="og:title" content="${escape(meta.title)}" /><meta property="og:description" content="${escape(meta.description)}" /><meta property="og:url" content="${canonical}" /><meta property="og:image" content="${escape(seo.image)}" /><meta property="og:type" content="${page.startsWith("article-") ? "article" : "website"}" />` : '<meta name="robots" content="noindex" />'}${seo ? `<meta property="og:site_name" content="Med Mission Supplies" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="${escape(meta.title)}" /><meta name="twitter:description" content="${escape(meta.description)}" /><meta name="twitter:image" content="${escape(seo.image)}" /><script id="page-structured-data" type="application/ld+json">${JSON.stringify(seo.schema).replace(/</g, "\\u003c")}</script>` : ""}</head>`,
     )
     .replace(
       '<div id="root"></div>',
@@ -77,3 +79,5 @@ await cp(
 console.log(
   `Pre-rendered ${routes.length} pages, ${routes.length - 1} aliases, 404, sitemap, and licenses.`,
 );
+
+await writeFile(new URL("../dist/robots.txt", import.meta.url), "User-agent: *\nAllow: /\n\nSitemap: https://medmissionsupplies.com/sitemap.xml\n");
