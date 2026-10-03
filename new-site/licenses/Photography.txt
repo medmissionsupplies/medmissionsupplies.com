@@ -1,0 +1,141 @@
+Pexels photographs used under the Pexels License: https://www.pexels.com/license/
+Downloaded October 2, 2026. Local copies are used so visitors do not need a third-party image connection.
+These are category illustrations, not photographs of MMS inventory, facilities, or staff. No endorsement is implied.
+
+operating-room.jpg
+Pavel Danilyuk — Operating Room in Hospital
+https://www.pexels.com/photo/operating-room-in-hospital-7108114/
+
+anesthesia.jpg
+Jonathan Borba — Equipment at Hospital
+https://www.pexels.com/photo/equipment-at-hospital-13697732/
+
+ultrasound.jpg
+MART PRODUCTION — Photo Of Ultrasound Scanner
+https://www.pexels.com/photo/photo-of-ultrasound-scanner-7089304/
+
+equipment-detail.jpg
+MART PRODUCTION — Close-Up Photo Of Medical Equipment
+https://www.pexels.com/photo/close-up-photo-of-medical-equipment-7088481/
+
+laboratory.jpg
+Tima Miroshnichenko — Close-up Photo of Laboratory Equipments
+https://www.pexels.com/photo/close-up-photo-of-laboratory-equipments-9574330/
+
+
+WIKIMEDIA COMMONS EQUIPMENT PHOTOGRAPHS
+Downloaded October 2, 2026. The individual licenses below apply to these files.
+Images are resized Wikimedia thumbnails; display crops are applied by CSS.
+ShareAlike photographs and any adaptations retain the stated ShareAlike license.
+These illustrate equipment categories, not MMS inventory. No endorsement is implied.
+
+xray.jpg
+Михаил Митин — С-дуга и операционный стол ALPHAMAQUET 1150 с полностью рентгенпрозрачной столешницей.jpg
+Source: https://commons.wikimedia.org/wiki/File:%D0%A1-%D0%B4%D1%83%D0%B3%D0%B0_%D0%B8_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB_ALPHAMAQUET_1150_%D1%81_%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E_%D1%80%D0%B5%D0%BD%D1%82%D0%B3%D0%B5%D0%BD%D0%BF%D1%80%D0%BE%D0%B7%D1%80%D0%B0%D1%87%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%88%D0%BD%D0%B8%D1%86%D0%B5%D0%B9.jpg
+License: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0
+
+ct-mri.jpg
+Jan Ainali — MRI-Philips.JPG
+Source: https://commons.wikimedia.org/wiki/File:MRI-Philips.JPG
+License: CC BY 3.0
+https://creativecommons.org/licenses/by/3.0
+
+endoscopy.jpg
+Samir — Endo tower.jpg
+Source: https://commons.wikimedia.org/wiki/File:Endo_tower.jpg
+License: CC BY 3.0
+https://creativecommons.org/licenses/by/3.0
+
+ventilators.jpg
+Blogotron — Respirator icu.JPG
+Source: https://commons.wikimedia.org/wiki/File:Respirator_icu.JPG
+License: CC0
+http://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+ekg.jpg
+Tony Webster from San Francisco, California — Hospital Patient Monitor (17239884329).jpg
+Source: https://commons.wikimedia.org/wiki/File:Hospital_Patient_Monitor_(17239884329).jpg
+License: CC BY 2.0
+https://creativecommons.org/licenses/by/2.0
+
+neonatal.jpg
+Amuzujoe — Incubator 04.jpg
+Source: https://commons.wikimedia.org/wiki/File:Incubator_04.jpg
+License: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0
+
+sterilization.jpg
+Fernando A. Rivetti Suelotto — AUTOCLAVE 4210.jpg
+Source: https://commons.wikimedia.org/wiki/File:AUTOCLAVE_4210.jpg
+License: Public domain
+Public-domain dedication/details: https://commons.wikimedia.org/wiki/File:AUTOCLAVE_4210.jpg
+
+beds.jpg
+Blogotron — Hospital Bed 2011.JPG
+Source: https://commons.wikimedia.org/wiki/File:Hospital_Bed_2011.JPG
+License: CC0
+http://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+
+MMS-SUPPLIED REFERENCE IMAGES
+Source folder provided by MMS: sample review website. Used as model illustrations in this design draft, not as proof of stock or manufacturer endorsement.
+Original filenames are retained below for provenance. Third-party ownership and publication permissions should be confirmed by MMS before a public release.
+
+reference/ultrasound-portable.webp — Main Equipment WEBP/Sonosite M-Turbo Micromaxx Ultrasound.webp
+reference/ultrasound-handheld.webp — Main Equipment WEBP/Butterfly IQ Ultrasounds Plus.webp
+reference/digital-xray.webp — Main Equipment WEBP/LCP Digital Wireless Xray.webp
+reference/c-arm.webp — Main Equipment WEBP/GE OEC 9600 carm xray.webp
+reference/anesthesia-workstation.webp — Main Equipment WEBP/GE Aspire Anesthesia Machine.webp
+reference/electrosurgery.webp — Main Equipment WEBP/Valley Force FX ESU Surgery.webp
+reference/surgical-microscope.webp — Main Equipment WEBP/Leica Wild M590 Surgical Microscope.webp
+reference/airway.webp — Main Equipment WEBP/King Vision Intubation Scope.webp
+reference/endoscopy-system.webp — Main Equipment WEBP/Evis Exera Olympus CV190 Processor Endoscopy.webp
+reference/patient-monitor.webp — Main Equipment WEBP/Phillips Intellivue MX Patient Monitor.webp
+reference/ecg.webp — Main Equipment WEBP/Midmark IQECG EKG.webp
+reference/defibrillator.webp — Main Equipment WEBP/Zoll M Debrillator AED.webp
+reference/icu-ventilator.webp — Main Equipment WEBP/Viasys Avea Patient Ventilator.webp
+reference/portable-ventilator.webp — Main Equipment WEBP/LTV 1200 1000 Portable Ventilator.webp
+reference/oxygen.webp — Main Equipment WEBP/Everflow Oxygen Concentrator.webp
+reference/high-flow.webp — Main Equipment WEBP/Vapotherm High flow nasal cannula.webp
+reference/infusion.webp — Main Equipment WEBP/Alaris IV Pump.webp
+reference/suction.webp — Main Equipment WEBP/Devilbiss Vacu-aide Suction.webp
+reference/chemistry.webp — Main Equipment WEBP/Mindray Chemistry Analyzer.webp
+reference/point-of-care.webp — Main Equipment WEBP/ISTAT Abbott Point of Care.webp
+reference/retinal-camera.webp — Main Equipment WEBP/Topcon Retinal Camera Fundus.webp
+reference/tonometry.webp — Main Equipment WEBP/Icare IC100 Tonometer.webp
+reference/autoclave.webp — Main Equipment WEBP/Midmark M11 Ultraclave Autoclave.webp
+reference/stethoscope.webp — Mission Essential Pics WEBP/Stethoscope EKO Core Duo ECG.webp
+reference/otoscope.webp — Mission Essential Pics WEBP/Welch Allyn Macroview Otoscope.webp
+reference/dermatoscope.webp — Mission Essential Pics WEBP/Dermlite Pro HR2 Dermatoscope.webp
+reference/spirometry.webp — Mission Essential Pics WEBP/MIR Spirobank Spirometry.webp
+reference/audiometer.webp — Mission Essential Pics WEBP/Maico Audiometer.webp
+reference/hemoglobin.webp — Mission Essential Pics WEBP/Hemocue Hemoglobin 201.webp
+reference/glucometer.webp — Mission Essential Pics WEBP/Accucheck Glucometer.webp
+reference/urinalysis.webp — Mission Essential Pics WEBP/Mckesson Consult Urinalysis Analyzer.webp
+reference/instruments.webp — Mission Essential Pics WEBP/Surgical Tray Instruments.webp
+reference/slit-lamp.webp — Mission Essential Pics WEBP/Portable Slitlamp Keeler PSL.webp
+reference/blood-pressure.webp — Mission Essential Pics WEBP/Omron Blood Pressure Cuff.webp
+reference/lab-microscope.webp — Mission Essential Pics WEBP/OMAX Microscope.webp
+reference/pulse-oximeter.webp — Mission Essential Pics WEBP/Pulse Ox.webp
+
+dialysis.jpg
+Jonas@sodratornet.se — File:Dialog-dialysis-machine-b-braun.jpg
+Source: https://commons.wikimedia.org/wiki/File:Dialog-dialysis-machine-b-braun.jpg
+License: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0
+Resized Wikimedia thumbnail; displayed with CSS cropping.
+
+refrigeration.jpg
+National Institute of Standards and Technology — File:Vaccine; Temperature; Refrigerator (5941076542).jpg
+Source: https://commons.wikimedia.org/wiki/File:Vaccine;_Temperature;_Refrigerator_(5941076542).jpg
+License: Public domain
+https://commons.wikimedia.org/wiki/File:Vaccine;_Temperature;_Refrigerator_(5941076542).jpg
+Resized Wikimedia thumbnail; displayed with CSS cropping.
+
+histology.jpg
+Rockpocket — File:Leica microtome 2.JPG
+Source: https://commons.wikimedia.org/wiki/File:Leica_microtome_2.JPG
+License: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0
+Resized Wikimedia thumbnail; displayed with CSS cropping.

@@ -1,21 +1,79 @@
-import React from 'react';
-import { renderToString } from 'react-dom/server';
-import { readFile, writeFile, mkdir, cp } from 'node:fs/promises';
-import { App } from '../src/App.jsx';
+import React from "react";
+import { renderToString } from "react-dom/server";
+import { readFile, writeFile, mkdir, cp } from "node:fs/promises";
+import { dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+import { App } from "../src/App.jsx";
+import { routes, metadata } from "../src/routes.mjs";
+import { validateApprovedComments } from "../src/comments.mjs";
 
-for (const page of ['index', 'offerings', 'about', 'employment', 'contact']) {
-  const file = new URL(`../dist/${page}.html`, import.meta.url);
-  const html = await readFile(file, 'utf8');
-  const rendered = html.replace('<html lang="en">', `<html lang="en" data-page="${page}">`).replace('<div id="root"></div>', `<div id="root">${renderToString(<App page={page} />)}</div>`);
-  await writeFile(file, rendered);
-  if (page !== 'index') {
-    const directory = new URL(`../dist/${page}/`, import.meta.url);
+validateApprovedComments(
+  JSON.parse(
+    await readFile(
+      new URL("../src/approved-comments.json", import.meta.url),
+      "utf8",
+    ),
+  ),
+);
+const template = await readFile(
+  new URL("../dist/index.html", import.meta.url),
+  "utf8",
+);
+const escape = (text) =>
+  text
+    .replaceAll("&", "&amp;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+function render(page, meta, path) {
+  const canonical = path ? `https://medmissionsupplies.com${path}` : null;
+  return template
+    .replace('<html lang="en">', `<html lang="en" data-page="${page}">`)
+    .replace(/<title>.*?<\/title>/, `<title>${escape(meta.title)}</title>`)
+    .replace(
+      /<meta name="description" content="[^"]*"\s*\/?\s*>/,
+      `<meta name="description" content="${escape(meta.description)}" />`,
+    )
+    .replace(
+      "</head>",
+      `${canonical ? `<link rel="canonical" href="${canonical}" /><meta property="og:title" content="${escape(meta.title)}" /><meta property="og:description" content="${escape(meta.description)}" /><meta property="og:url" content="${canonical}" /><meta property="og:image" content="https://medmissionsupplies.com/assets/photos/anesthesia.jpg" /><meta property="og:type" content="${page.startsWith("article-") ? "article" : "website"}" />` : '<meta name="robots" content="noindex" />'}</head>`,
+    )
+    .replace(
+      '<div id="root"></div>',
+      `<div id="root">${renderToString(<App page={page} />)}</div>`,
+    );
+}
+for (const route of routes) {
+  const html = render(route.key, metadata[route.key], route.path);
+  const file = new URL(`../dist${route.path}`, import.meta.url);
+  await mkdir(dirname(fileURLToPath(file)), { recursive: true });
+  await writeFile(file, html);
+  if (route.key !== "index") {
+    const directory = new URL(
+      `../dist${route.path.replace(/\.html$/, "/")}`,
+      import.meta.url,
+    );
     await mkdir(directory, { recursive: true });
-    await writeFile(new URL('index.html', directory), rendered);
+    await writeFile(new URL("index.html", directory), html);
   }
 }
-const index = await readFile(new URL('../dist/index.html', import.meta.url), 'utf8');
-const notFound = index.replace('data-page="index"', 'data-page="not-found"').replace(/<title>.*?<\/title>/, '<title>Page not found | Med Mission Supplies</title>').replace(/<div id="root">[\s\S]*<\/div>/, `<div id="root">${renderToString(<App page="not-found" />)}</div>`);
-await writeFile(new URL('../dist/404.html', import.meta.url), notFound);
-await cp(new URL('../licenses/', import.meta.url), new URL('../dist/licenses/', import.meta.url), { recursive: true });
-console.log('Pre-rendered all five pages, four short-URL aliases, and the 404 page; copied licenses.');
+await writeFile(
+  new URL("../dist/404.html", import.meta.url),
+  render("not-found", {
+    title: "Page not found | Med Mission Supplies",
+    description:
+      "Find equipment, resources, and support at Med Mission Supplies.",
+  }),
+);
+await writeFile(
+  new URL("../dist/sitemap.xml", import.meta.url),
+  `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map((route) => `<url><loc>https://medmissionsupplies.com${route.path}</loc></url>`).join("")}</urlset>`,
+);
+await cp(
+  new URL("../licenses/", import.meta.url),
+  new URL("../dist/licenses/", import.meta.url),
+  { recursive: true },
+);
+console.log(
+  `Pre-rendered ${routes.length} pages, ${routes.length - 1} aliases, 404, sitemap, and licenses.`,
+);

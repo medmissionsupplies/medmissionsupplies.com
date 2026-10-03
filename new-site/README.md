@@ -1,66 +1,77 @@
-# Med Mission Supplies — Carbon rebuild
+# Med Mission Supplies website
 
-The replacement website lives entirely in this directory. The original HTML pages, stylesheet, images, and Marketing folder in the parent directory are unchanged.
+The active React/Carbon website lives in `new-site/`. Original HTML and marketing files in the parent directory are preserved.
 
-## Run locally
+## Run and verify
 
-Use Node.js 22.12+ (or a supported newer release), then run these commands from this directory:
+Use Node.js 24 (matching CI):
 
 ```sh
 npm ci
 npm run dev
-```
-
-## Build and verify
-
-```sh
 npm test
 npm run build
 npm run preview
 ```
 
-The build creates a portable static website in `dist/`, with pre-rendered HTML for all five pages, four short-URL aliases, a 404 page, and third-party licenses. No application runtime is required.
+The build produces a portable static site in `dist/`: 40 pages, 39 directory aliases, a 404 page, sitemap, and third-party licenses. Original `.html` URLs still work. Detail pages live under `/equipment/` and `/resources/`. No application server is required. Existing Nginx configuration serves these files and returns a real 404 for missing paths.
 
-The footer displays the version from `package.json`. Bump it with `npm version patch --no-git-tag-version` before building a new release so visitors can identify the deployed version.
+The footer displays the package version. Bump it before preparing a release.
 
-The normal page URLs remain `index.html`, `offerings.html`, `about.html`, `employment.html`, and `contact.html`. Directory index copies also serve `/offerings/`, `/about/`, `/employment/`, and `/contact/`; the web server can redirect the corresponding paths without a trailing slash. Assets and internal links use paths from the domain root so every entry point loads the correct page. Configure the host to return `404.html` with HTTP 404 for missing URLs; do not use a fallback to `index.html`.
+## Version 1.5.1 website
 
-See [NAS deployment](deploy/README.md) and the accompanying NGINX configuration for hosting and rollback details.
+MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Navy, clear blue actions, white reading surfaces, and amber offer buttons create a professional identity. Straight photo banners, simple corners, consistent equipment cards, and clear inquiry links carry that identity across every page.
 
-## Design and implementation
+The homepage and services page offer free physician-to-physician equipment consultation and free materials management support. Each has a dedicated prefilled inquiry path. The owner-provided lowest-quote guarantee appears on the homepage, equipment details, services, and contact page. No additional guarantee conditions or clinical services have been invented.
 
-- Actual IBM Carbon React 1.116.0 components: UI shell, responsive navigation, grid, buttons, clickable tiles, breadcrumbs, text inputs, text area, and inline notification.
-- IBM Plex Sans is bundled and served locally. Only the required Carbon component styles are included.
-- Brand colors sampled from `Marketing/MMS Logo.png`: navy `#092B45`, gold `#FBBA27`, cream `#FEEFC6`, blue `#337698`, and the logo’s red accent `#E34734`.
-- Supplied logo, white logo, and centered banner are copied without altering the originals. Team members use initials because no current staff portraits were provided.
-- Five original pages are preserved. William Grayson is absent from the rebuilt team page. Equipment models are examples, not a live inventory feed.
-- Responsive breakpoints follow Carbon. Navigation includes skip links, current-page states, mobile expansion state, Escape dismissal, and focus-exit dismissal. Reduced motion preferences are honored.
-- Outgoing and incoming page content, including the footer, slide across the full width over 520ms using cross-document View Transitions. Each page has its own snapshot name to preserve its dimensions and scroll position; the header remains live outside the snapshots. Firefox uses same-document View Transitions: the existing React app switches pages inside the snapshot callback, keeping the outgoing page visible until the incoming page is ready. The header remains mounted. Back/Forward restore scroll and unsent contact fields in memory; titles, descriptions, anchors, and equipment queries update with the page. Reduced motion skips the animation, and opening the mobile menu finishes it immediately. Browsers without either transition API keep ordinary page navigation. The Employment page omits the decorative banner.
-- Clicking a link to the current page keeps the document and its state in place, including equivalent short URLs. Selecting the current page in the mobile menu closes the menu. Links to a different section or query, modified clicks, and browser history retain their native behavior.
+The homepage shows eight actual equipment types in a uniform four-by-two desktop grid, with direct detail links and a prominent “View all 23 equipment types” button. The selection spans imaging, anesthesia, ventilation, monitoring, laboratory, sterilization, and hospital beds. Smaller screens use two columns. Free advisory offers sit on dark panels with amber request buttons. Navigation distinguishes the equipment catalog, how MMS helps, and equipment advice. Learning actions explain what visitors will understand or compare; their descriptions remain visible on phones.
 
-See [Carbon research](docs/carbon-research.md) for the 25 official documentation references and [content audit](docs/content-audit.md) for source material.
+- All 23 illustrated equipment areas are visible together under 5 department headings, with detail pages, related equipment, and quote/service links. No equipment search or filter tabs. Every card is present in static HTML, including visits with older category query strings. Detail-page back links point to the corresponding department heading.
+- Photo banners on equipment, services, about, careers, contact, and reading pages. The contact form stays prominent. Longer listing details and comments use native disclosures.
+- Equipment advice is a permanent reference, not an article feed. Six illustrated department/mission collections cover 35 equipment topics; four planning pages support project and service inquiries. There is no search box, topic dropdown, count, or publication-date header.
+- Every equipment topic explains the basics before presenting options, purchase checks, ownership costs, official references, and inquiry links. Every listing links directly to relevant explanations. Desktop contents links and a mobile jump menu help visitors reach the equipment they need.
+- Moderated comments use the existing Formspree service. Staff publish approved public text with a later release; see [the moderation workflow](docs/listing-comments.md).
 
-## Contact form
+The prior streamlining remains: compact planning/related links, short summaries, and one contact form. See the [whole-site review](docs/website-review.md) for findings and validation.
 
-The existing Formspree endpoint is preserved: `https://formspree.io/f/xkgrvweb`. The form collects the same required name, email, and message fields. Equipment inquiry links can prefill the message. Client-side submission provides progress, confirms success only after an accepted response, preserves text on errors, and times out stalled requests. Pre-rendered HTML also supports native form submission without JavaScript.
+Photographs illustrate categories or example models, not MMS stock or facilities. Local photos have descriptive alternative text and [individual credits](licenses/Photography.txt), linked from each footer. The catalog does not invent prices, inventory, warranties, rankings, hands-on reviews, or testimonials.
 
-Delivery continues to depend on the existing Formspree account configuration and limits. No test messages were sent. The transport tests use simulated success, rejection, network failure, and timeout responses.
+## Buying guide content
 
-## Validation
+The supplied review documents informed the item-by-item structure and example photography. Older prices, rankings, and first-person experience claims were not carried over. Equipment explanations and purchasing considerations use manufacturer documentation and NIH, WHO, FDA, and CDC resources checked on October 2, 2026; linked references appear within each item's expanded details.
 
-`npm run build` verifies rendered pages, heading and landmark presence, local asset paths including fonts, internal links and anchors, retained staff, and the original form endpoint. `npm test` verifies the form transport. A source review also covered content fidelity, navigation focus, responsive styles, and text contrast.
+Guides are procurement guidance for MMS review. Clinical and technical teams must approve the actual specification. Sources describe particular products or workflows and do not certify every model pictured. Examples can be older; current support, condition, compatibility, availability, and the quoted package require verification for each purchase.
 
-Browser review covered all five pages at 320, 768, 1056, and 1600 CSS pixels, with additional visual checks at 390 and 1440 pixels. The pages have no horizontal overflow at these sizes, primary buttons retain their 48-pixel height, and no broken images or browser console errors were observed. Interactive checks verified menu opening and focus, Escape dismissal, focus-exit dismissal, desktop keyboard order, equipment inquiry prefilling, and required-field validation. No live messages were sent.
+Before public release, MMS should review the editorial guidance and confirm publication rights for supplied reference images. Original filenames are recorded in `src/reference-photos.mjs` and `licenses/Photography.txt`. Keep source links and per-guide review dates current when revising advice.
 
-The layout corrections include Carbon's required layout styles, logo alignment, consistent content gutters, the contact form's column placement and mobile reading order, About-page spacing, compact mobile heroes and breadcrumbs, and hidden-menu visibility.
+## Contact and comment delivery
 
-## Main files
+Both forms use the established endpoint `https://formspree.io/f/xkgrvweb`. Delivery and spam filtering depend on the account configuration and limits. Success requires an accepted HTTP response; errors retain input, duplicate clicks are guarded, and stalled submissions time out.
 
-- `src/App.jsx`: shared shell and all five page components.
-- `src/styles.scss`: Carbon styles, MMS tokens, page composition, and responsive styles.
-- `src/contact-service.mjs`: contact form delivery.
-- `src/page-navigation.mjs`: current-page link guard, Firefox same-document transitions, and history restoration.
-- `scripts/prerender.jsx`: static page generation.
-- `.openai/hosting.json`: identity for the separate owner-private Sites review copy.
+Quote and service links prefill contact using allowlisted equipment or topics. Forms have native HTML actions for visitors without JavaScript. The complete catalog, static content, and equipment explanations remain readable without it.
 
-IBM Carbon and Carbon icons are Apache-2.0 licensed; IBM Plex uses the SIL Open Font License. Their licenses are included in `licenses/`.
+No real messages or comments were sent during development. Browser form tests intercepted requests and simulated responses. Live Formspree delivery and staffed moderation must be verified before relying on comments in production.
+
+## Content maintenance
+
+- `src/catalog.mjs` and `src/additional-equipment.mjs`: equipment categories, descriptions, photos, and relationships.
+- `src/articles.mjs`: planning pages and the combined content registry. Legacy filtering helpers remain available to callers; Learn presents all sections directly.
+- `src/equipment-basics.mjs`: plain-language introductions for all 35 equipment topics.
+- `src/buying-guides.mjs`: department guides, item comparisons, checklists, source IDs, and review dates.
+- `src/guide-sources.mjs`: official reference labels and URLs.
+- `src/reference-photos.mjs`: supplied photo descriptions and original filenames.
+- `src/routes.mjs`: page registry, metadata, and route resolution.
+- `src/Explore.jsx`: home, equipment, services, guides, and comments.
+- `src/App.jsx`: shared shell, original pages, and contact form.
+- `src/editorial.css`: responsive design; `src/styles.scss` loads Carbon and local IBM Plex fonts.
+- `src/approved-comments.json`: approved public comments only, never email addresses or raw form exports.
+- `scripts/prerender.jsx`: static generation from the route registry.
+- `scripts/verify.mjs`: local links, guide anchors, assets, content, team, and form checks.
+
+## Validation and release
+
+Unit tests cover contact transport, comments/moderation, catalog and guide relationships, legacy filtering helpers, routes, and page/history navigation. The build checks all 80 HTML outputs, local references, and equipment explanations. Browser QA covers all 40 pages at 320px, 768px, and 1440px, the direct learning links, equipment categories, expanded explanations, and inquiry prefilling. Earlier tests also checked form error recovery and mobile navigation.
+
+Work on feature branches. **The current `.github/workflows/deploy.yml` deploys pushes to `main`.** Older notes predate that automation; do not push to `main` to share a preview. Follow [automatic deployment](../deploy/AUTOMATIC-DEPLOYMENT.md) for authorized releases. Application releases do not change production configuration, DNS, mail, Cloudflare, or other NAS applications.
+
+IBM Carbon/icons use Apache-2.0; IBM Plex uses the SIL Open Font License. Licenses are included in the built site.
