@@ -1,4 +1,6 @@
-# NAS deployment
+# Retained NAS deployment layout
+
+Production moved to the Meeting Stone VPS on October 5, 2026. See [current production deployment](../../deploy/AUTOMATIC-DEPLOYMENT.md). The following describes the retained NAS copy and historical DNS troubleshooting, not the current production route.
 
 The site is a static build served at the domain root. Build with `npm run build`, then copy only `dist/` contents into a new release directory under the site's NAS folder. The `current` symlink selects the active release. Keep previous releases for rollback.
 
@@ -8,7 +10,7 @@ The TrueNAS app is named `medmissionsupplies-web`. Its configuration is managed 
 
 For a new release, build and validate locally, upload to a new release folder, check its files, and atomically switch `current` to the new relative target. Because the parent site folder is mounted, changing that symlink updates the served content without recreating the app. To roll back the NAS site, switch `current` to the previous release. If changing the server configuration, validate it with `nginx -t` and reload the app's NGINX process.
 
-Cloudflare's existing NAS tunnel connects the domain to the web app. No router port forwarding is required. Email and unrelated subdomain DNS records must remain unchanged.
+Cloudflare's NAS tunnel previously connected the root domain to this web app; the root and `www` now point to the VPS. The tunnel remains in use for separate NAS subdomains. No router port forwarding is required. Email and unrelated subdomain DNS records must remain unchanged.
 
 ## Intermittent Cloudflare error investigation — September 11, 2026
 

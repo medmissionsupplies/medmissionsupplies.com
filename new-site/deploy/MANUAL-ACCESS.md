@@ -1,4 +1,6 @@
-# Manual deployment from either PC
+# Retained NAS manual deployment procedure
+
+Production moved to the Meeting Stone VPS on October 5, 2026. Use [automatic production deployment](../../deploy/AUTOMATIC-DEPLOYMENT.md) for current releases. The commands below target only the retained NAS copy; they do not update the public website while DNS points to the VPS. Keep this procedure for deliberate NAS recovery.
 
 Both Mac and Windows use GitHub Desktop for authenticated source fetch/push. The existing Windows account is `medmissionsupplies-org`. Each PC uses its own existing private SSH key through `mms-nas-deploy` (`mms-deploy@192.168.1.100`).
 
@@ -31,7 +33,7 @@ Preparation copies the archive into protected staging, rejects unsafe archive en
 ssh mms-nas-deploy 'sudo -n /mnt/MMS/deployment-tools/mms-sites mms deploy COMMIT'
 ```
 
-This creates a new protected release and atomically switches the relative `current` symlink. It checks the NAS HTTP service and restores the previous pointer on failure. It does not restart the container or alter Nginx, DNS, mail or Cloudflare settings. Verify https://medmissionsupplies.com and its core pages/assets afterward.
+This creates a new protected release and atomically switches the relative `current` symlink. It checks the NAS HTTP service and restores the previous pointer on failure. It does not restart the container or alter Nginx, DNS, mail or Cloudflare settings. Verify the NAS origin directly; the public domain now serves the VPS.
 
 To restore the recorded previous site:
 
@@ -39,4 +41,4 @@ To restore the recorded previous site:
 ssh mms-nas-deploy 'sudo -n /mnt/MMS/deployment-tools/mms-sites mms rollback'
 ```
 
-No automatic deployment is installed. September 17 setup staged the current build and checked access without publishing a new live release.
+These commands describe the September 17 manual setup. Automatic production deployment is now installed and targets the VPS; see the linked current procedure.
