@@ -1,6 +1,6 @@
 {
   "name": "med-mission-supplies-carbon",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,10 @@
     "preview": "vite preview --host 127.0.0.1",
     "check": "node scripts/verify.mjs",
     "test": "node --test tests/*.test.mjs",
-    "comments:publish": "node scripts/publish-comment.mjs"
+    "comments:publish": "node scripts/publish-comment.mjs",
+    "images:optimize": "node scripts/optimize-images.mjs",
+    "prebuild": "npm run images:optimize",
+    "predev": "npm run images:optimize"
   },
   "dependencies": {
     "@carbon/icons-react": "11.88.0",
@@ -22,6 +25,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "6.1.1",
     "sass": "1.104.0",
+    "sharp": "0.35.5",
     "tsx": "4.23.13",
     "vite": "8.3.0"
   }

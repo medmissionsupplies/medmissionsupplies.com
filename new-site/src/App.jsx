@@ -1,3 +1,4 @@
+import OptimizedImage from "./OptimizedImage.jsx";
 import React, { useState, useRef } from "react";
 import { version } from "../package.json";
 import { CONTACT_ENDPOINT, sendInquiry } from "./contact-service.mjs";
@@ -92,7 +93,7 @@ function SiteHeader({ page }) {
           onClick={() => setOpen(!open)}
         />
         <HeaderName href="/index.html" prefix="" className="brand">
-          <img src="/assets/mms-logo.png" alt="" width="56" height="56" />
+          <OptimizedImage sizes="56px" loading="eager" src="/assets/mms-logo.png" alt="" width="56" height="56" />
           <span>
             Med Mission<span className="brand-second">Supplies</span>
           </span>
@@ -157,7 +158,7 @@ function SiteFooter() {
       <div className="content-width">
         <div className="footer-topline">
           <a className="footer-logo" href="/index.html">
-            <img src="/assets/mms-logo.png" alt="" width="40" height="40" />
+            <OptimizedImage sizes="40px" src="/assets/mms-logo.png" alt="" width="40" height="40" />
             Med Mission Supplies
           </a>
           <nav aria-label="Footer">
