@@ -92,3 +92,23 @@ for (const route of routes) {
 }
 assert.ok((await readFile(resolve(root, 'robots.txt'), 'utf8')).includes('Sitemap: https://medmissionsupplies.com/sitemap.xml'));
 console.log('Verified canonical URLs, page-specific share images, structured data and robots across all 40 canonical pages.');
+
+// Check every generated source candidate, including ones selected only on phones.
+let webpCandidates = 0;
+for (const [file, html] of rendered) {
+  for (const [tag] of html.matchAll(/<img\b[^>]*>/g)) {
+    const attributes = Object.fromEntries([...tag.matchAll(/([\w:-]+)="([^"]*)"/g)].map(m => [m[1], m[2]]));
+    if (attributes.src?.endsWith('.svg')) continue;
+    assert.match(attributes.src, /^\/media\/optimized\/[^/]+\.webp$/, file + ': unoptimized image');
+    const sourceSet = attributes.srcset ?? attributes.srcSet;
+    assert.ok(sourceSet && attributes.sizes, file + ': missing responsive image sizes');
+    for (const candidate of sourceSet.split(',')) {
+      const url = candidate.trim().split(/\s+/)[0];
+      const bytes = await readFile(resolve(root, url.slice(1)));
+      assert.equal(bytes.toString('ascii', 0, 4), 'RIFF', url);
+      assert.equal(bytes.toString('ascii', 8, 12), 'WEBP', url);
+      webpCandidates++;
+    }
+  }
+}
+console.log(`Verified ${webpCandidates} rendered responsive WebP references.`);

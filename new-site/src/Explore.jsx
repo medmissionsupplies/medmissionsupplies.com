@@ -1,3 +1,4 @@
+import OptimizedImage from "./OptimizedImage.jsx";
 import React, { useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
@@ -42,7 +43,7 @@ export function Action({ children, href, secondary = false }) {
     </a>
   );
 }
-export function Photo({ name, className = "", eager = false, alt }) {
+export function Photo({ name, className = "", eager = false, alt, sizes }) {
   const descriptions = {
     ultrasound: "Ultrasound system in an examination room",
     anesthesia: "Anesthesia workstation and patient monitor in a hospital",
@@ -61,26 +62,12 @@ export function Photo({ name, className = "", eager = false, alt }) {
     refrigeration: "Refrigerator used in vaccine-temperature research",
     histology: "Leica rotary microtome for specimen sectioning",
   };
-  const dimensions = {
-    xray: [3872, 2592],
-    "ct-mri": [2254, 2056],
-    endoscopy: [2978, 2036],
-    ventilators: [1129, 1096],
-    ekg: [3264, 2448],
-    neonatal: [4363, 3823],
-    sterilization: [1811, 2717],
-    beds: [3264, 2448],
-  };
-  const [width, height] =
-    dimensions[name] ?? (name === "ultrasound" ? [1000, 667] : [1100, 1650]);
   return (
-    <img
+    <OptimizedImage sizes={sizes ?? (eager ? "(max-width: 640px) 100vw, 60vw" : "(max-width: 640px) 90vw, (max-width: 1023px) 45vw, 640px")}
       className={className}
       data-photo={name}
       src={photoUrl(name)}
       alt={alt ?? referencePhotos[name]?.alt ?? descriptions[name]}
-      width={width}
-      height={height}
       loading={eager ? "eager" : "lazy"}
       fetchPriority={eager ? "high" : undefined}
     />
@@ -120,7 +107,7 @@ export function EquipmentCard({ item, preview = false }) {
             "card-image" + (!item.image ? " equipment-illustration" : "")
           }
         >
-          {item.image ? <Photo name={item.image} /> : <Icon size={64} />}
+          {item.image ? <Photo name={item.image} sizes={preview ? "(max-width: 599px) 45vw, (max-width: 1199px) 23vw, 150px" : "(max-width: 639px) 90vw, (max-width: 1023px) 45vw, 420px"} /> : <Icon size={64} />}
         </div>
         <div className="card-copy">
           <h3>{preview ? previewTitles[item.id] ?? item.title : item.title}</h3>

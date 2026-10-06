@@ -5,3 +5,6 @@ dist/
 .env.*
 !.env.example
 .DS_Store
+
+/public/media/optimized/
+/src/image-manifest.generated.json
