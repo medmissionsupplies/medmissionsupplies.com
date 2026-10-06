@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import { version } from "../package.json";
 import { CONTACT_ENDPOINT, sendInquiry } from "./contact-service.mjs";
+import { currentCampaign } from "./campaign-reference.mjs";
 import { pageKey } from "./page-navigation.mjs";
 import {
   Button,
@@ -317,6 +318,8 @@ function ContactForm({ search, draft }) {
     if (submitting.current) return;
     const form = event.currentTarget;
     const data = new FormData(form);
+    const campaign = currentCampaign();
+    if (campaign) data.set("campaign_reference", campaign);
     const errors = {};
     if (!String(data.get("name") || "").trim())
       errors.name = "Enter your name.";

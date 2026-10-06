@@ -48,6 +48,8 @@ Before public release, MMS should review the editorial guidance and confirm publ
 
 Both forms use the established endpoint `https://formspree.io/f/xkgrvweb`. Delivery and spam filtering depend on the account configuration and limits. Success requires an accepted HTTP response; errors retain input, duplicate clicks are guarded, and stalled submissions time out.
 
+The authorized Google Search trial can attach the fixed `msd_m01` campaign reference to an inquiry. A matching `google` / `cpc` landing link retains only that allowlisted code and a 30-minute expiry in session storage. Untagged navigation preserves it until expiry; a different tagged source clears it. No click IDs, search terms, raw URLs or visitor identifiers are retained, and no form data is sent to advertising platforms. The code accompanies the inquiry only through the existing Formspree endpoint. Storage blocking and JavaScript-disabled visits still allow inquiries but may leave attribution unknown. A campaign reference indicates the tagged journey, not proof of a qualified customer or incremental advertising effect.
+
 Quote and service links prefill contact using allowlisted equipment or topics. Forms have native HTML actions for visitors without JavaScript. The complete catalog, static content, and equipment explanations remain readable without it.
 
 No real messages or comments were sent during development. Browser form tests intercepted requests and simulated responses. Live Formspree delivery and staffed moderation must be verified before relying on comments in production.

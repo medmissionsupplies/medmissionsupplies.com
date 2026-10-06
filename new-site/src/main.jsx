@@ -3,6 +3,7 @@ import { createRoot, hydrateRoot } from "react-dom/client";
 import { flushSync } from "react-dom";
 import { App, pageFromPath } from "./App.jsx";
 import { installPageNavigation } from "./page-navigation.mjs";
+import { captureCurrentCampaign } from "./campaign-reference.mjs";
 import "./styles.scss";
 import "./editorial.css";
 
@@ -23,6 +24,7 @@ function ClientApp() {
       }),
     [],
   );
+  useEffect(() => { captureCurrentCampaign(); }, [route.search]);
   return (
     <App
       page={route.page}
