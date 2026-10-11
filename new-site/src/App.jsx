@@ -191,44 +191,51 @@ function SiteFooter() {
 
 function About() {
   return (
-    <>
-      <ExploreHero
-        title="Better equipped to make a difference."
-        description="We help hospitals and clinics put quality equipment within reach—with wholesale and charitable pricing."
-        image="operating-room"
-      />
-      <section className="about-story content-width">
-        <p>
-          Founded to serve clinics and mission hospitals in underserved regions,
-          we bring experience in medical equipment, shipping, and ongoing
-          support.
-        </p>
-        <Action href="/contact.html">Talk to our team</Action>
-      </section>
-      <section
-        className="team-section content-width"
-        aria-labelledby="team-heading"
-      >
-        <h2 id="team-heading">Our team</h2>
-        <div className="team-grid">
+    <div className="about-editorial-page content-width">
+      <header className="about-editorial-masthead">
+        <p className="about-eyebrow">About Med Mission Supplies</p>
+        <h1>Equipment that helps<br />care go further.</h1>
+        <p>Serving clinics and mission hospitals with essential medical equipment, practical support and a shared purpose.</p>
+      </header>
+      <div className="about-editorial-story">
+        <figure className="about-editorial-equipment">
+          <OptimizedImage
+            src="/assets/photos/anesthesia.jpg"
+            alt="An anesthesia workstation with a patient monitor"
+            sizes="(max-width: 640px) 90vw, (max-width: 1280px) 45vw, 545px"
+            loading="eager"
+            fetchPriority="high"
+          />
+          <figcaption>Reliable equipment. More room to focus on patients.</figcaption>
+        </figure>
+        <div className="about-editorial-body">
+          <p className="about-eyebrow">Our purpose</p>
+          <h2>You focus on care.<br />We help with the equipment.</h2>
+          <p>Med Mission Supplies began with a simple mission: help clinics and mission hospitals in underserved regions get the medical tools they need, without high costs or complicated logistics.</p>
+          <p>From finding equipment to hands-on training and ongoing remote support, we help local teams build the confidence to operate and maintain their devices.</p>
+          <a className="about-editorial-contact" href="/contact.html">Talk to our team <ArrowUpRight size={18} /></a>
+        </div>
+      </div>
+      <section className="about-editorial-people" aria-labelledby="team-heading">
+        <h2 id="team-heading">The people <br />behind the work.</h2>
+        <div className="about-editorial-roster">
           {[
-            ["LH", "Lynette Hwang", "Founder & CEO"],
-            ["VL", "Vincent Larkin", "Director of Operations"],
-            ["JL", "John Landman", "Assistant Programmer"],
-          ].map(([initials, name, role]) => (
-            <article className="team-member" key={name}>
-              <div className="team-initials" aria-hidden="true">
-                {initials}
-              </div>
-              <div>
-                <h3>{name}</h3>
-                <p>{role}</p>
-              </div>
+            ["Lynette Hwang", "Founder & CEO"],
+            ["Vincent Larkin", "Director of Operations"],
+            ["John Landman", "Assistant Programmer"],
+            ["Jon Hurt", "Mechanical team"],
+            ["Bravin Ratinpal", "Biomed"],
+            ["Keitur Rolando", "Maintenance"],
+            ["Ryan Nguyen", "Digital media"],
+          ].map(([name, role]) => (
+            <article key={name}>
+              <h3>{name}</h3>
+              <p>{role}</p>
             </article>
           ))}
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
