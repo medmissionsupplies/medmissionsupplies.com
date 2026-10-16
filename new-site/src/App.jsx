@@ -381,13 +381,6 @@ function ContactForm({ search, draft }) {
       aria-busy={state === "submitting"}
     >
       <p className="form-intro">A question or a full equipment list—start with what you know.</p>
-      <p className="form-intro">
-        We use Formspree to process your inquiry. When you arrive through one of
-        our marketing links, a general source label may accompany your message so
-        we can understand which channels help. This browser reference is valid for
-        up to 30 minutes. We respect Do Not Track and Global Privacy Control. Your inquiry is not
-        sent to advertising platforms.
-      </p>
       <TextInput
         id="name"
         name="name"
@@ -428,6 +421,16 @@ function ContactForm({ search, draft }) {
         invalid={!!fieldErrors.message}
         invalidText={fieldErrors.message}
       />
+      <details className="form-privacy">
+        <summary>Privacy and inquiry handling</summary>
+        <p>
+          We use Formspree to process your inquiry. When you arrive through one of
+          our marketing links, a general source label may accompany your message so
+          we can understand which channels help. This browser reference is valid for
+          up to 30 minutes. We respect Do Not Track and Global Privacy Control.
+          Your inquiry is not sent to advertising platforms.
+        </p>
+      </details>
       {state === "error" && (
         <div ref={notificationRef} tabIndex={-1}>
           <InlineNotification
