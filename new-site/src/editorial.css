@@ -2864,6 +2864,10 @@ a.cds--header__menu-item[aria-current="page"] { background: transparent; box-sha
 .team-initials { background: var(--soft); color: var(--ink); }
 .contact-form-panel { border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 8px; }
 .contact-form .form-intro { color: var(--ink); font-size: 16px; line-height: 1.5; }
+.contact-form .form-privacy { font-size: 14px; line-height: 1.5; color: var(--ink); }
+.contact-form .form-privacy summary { min-height: 44px; padding: 11px 0; cursor: pointer; }
+.contact-form .form-privacy p { margin: 0 0 12px; }
+.contact-form .form-privacy summary:focus-visible { outline: 2px solid var(--action); outline-offset: 3px; }
 .contact-form .cds--label { color: var(--ink); font-size: 16px; font-weight: 500; }
 .contact-form .cds--btn--primary { background: var(--action); color: white; min-width: 200px; }
 .contact-form .cds--btn--primary:hover { background: var(--ink); }
