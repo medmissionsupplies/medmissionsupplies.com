@@ -14,11 +14,17 @@ npm run build
 npm run preview
 ```
 
-The build produces a portable static site in `dist/`: 40 pages, 39 directory aliases, a 404 page, sitemap, and third-party licenses. Original `.html` URLs still work. Detail pages live under `/equipment/` and `/resources/`. No application server is required. Existing Nginx configuration serves these files and returns a real 404 for missing paths.
+The build produces a portable static site in `dist/`: 45 pages, 44 directory aliases, a 404 page, sitemap, and third-party licenses. Original `.html` URLs still work. Detail pages live under `/equipment/` and `/resources/`. No application server is required. Existing Nginx configuration serves these files and returns a real 404 for missing paths.
 
 The footer displays the package version. Bump it before preparing a release.
 
-## Version 1.5.3 website
+## Version 1.6.0 editorial release
+
+All 23 equipment detail pages include original selection guidance, three decision takeaways, configuration comparisons, a quote checklist, linked primary references and all relevant department learning topics. Five purchasing perspectives join the six department collections and four planning pages. `editorial-guidance.mjs` is the content source; `editorial-sources.mjs` records source checks separately from content edits. This is purchasing guidance, not clinical review or a claim of available stock.
+
+Every equipment and resource page offers clean-link copying, optional native sharing, social share links and a copyable post caption. No social SDK, tracking pixel or automatic posting is added. Static HTML and enhanced navigation use the same OG/X metadata. `npm run images:social` generates 45 branded 1200×630 JPEG previews with measured text bounds and a 220KB per-card limit. These crawler images are separate from responsive WebP webpage photos and excluded from their optimization manifest. Build verification checks every canonical page and preview asset. Regenerate cards whenever titles, photos or social copy change; commit the generated cards and manifest with the release.
+
+## Website presentation
 
 MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Navy, clear blue actions, white reading surfaces, and amber offer buttons create a professional identity. Straight photo banners, simple corners, consistent equipment cards, and clear inquiry links carry that identity across every page.
 
@@ -28,7 +34,7 @@ The homepage shows eight actual equipment types in a compact single row on wide 
 
 - All 23 illustrated equipment areas are visible together under 5 department headings, with detail pages, related equipment, and quote/service links. No equipment search or filter tabs. Every card is present in static HTML, including visits with older category query strings. Detail-page back links point to the corresponding department heading.
 - Photo banners on equipment, services, about, careers, contact, and reading pages. The contact form stays prominent. Longer listing details and comments use native disclosures.
-- Equipment advice is a permanent reference, not an article feed. Six illustrated department/mission collections cover 35 equipment topics; four planning pages support project and service inquiries. There is no search box, topic dropdown, count, or publication-date header.
+- Equipment advice is a permanent reference: six illustrated department/mission collections cover 35 equipment topics, five purchasing perspectives explore selection decisions, and four planning pages support project and service inquiries. Each of the 23 catalog pages also has a complete equipment-specific selection guide.
 - Every equipment topic explains the basics before presenting options, purchase checks, ownership costs, official references, and inquiry links. Every listing links directly to relevant explanations. Desktop contents links and a mobile jump menu help visitors reach the equipment they need.
 - Moderated comments use the existing Formspree service. Staff publish approved public text with a later release; see [the moderation workflow](docs/listing-comments.md).
 

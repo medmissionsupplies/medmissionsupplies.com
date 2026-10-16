@@ -103,21 +103,23 @@ export const buyingGuides = [
         "Full-size and mini C-arms",
         "reference/c-arm",
         "xray",
-        "Start with procedure coverage and positioning clearance. Compare the detector, licensed imaging functions, and service package on the exact unit.",
+        "Have the procedural team approve full-size or mini C-arm suitability first. Then compare positioning clearance, image quality, licensed functions, and support within the required equipment class.",
         [
           [
-            "Image intensifier",
-            "Often encountered on older systems. Request an image-quality demonstration and a realistic support plan for that generation.",
+            "Full-size C-arm",
+            "Confirm the required imaging area, table compatibility, positioning range, and access around the patient for the planned procedures.",
           ],
           [
-            "Flat-panel detector",
-            "Compare usable field of view, positioning clearance, image functions, and detector replacement terms.",
+            "Mini C-arm",
+            "Ask the procedural team to confirm that the exact model's intended applications, imaging area, and positioning clearance meet its requirements before comparing portability or price.",
           ],
         ],
         [
           "Arrange a demonstration with the intended table and representative positioning. Confirm clearance, movement, brakes, and access around the patient area.",
+          "Within the approved equipment class, compare image-intensifier or flat-panel configurations using demonstrated image quality, usable field of view, and replacement coverage. Detector type alone does not establish procedure suitability.",
           "Identify the licensed imaging options, software version, image export, footswitch, and accessories in the offered configuration.",
           "Request documented image-quality and equipment checks, service history, and a plan for specialist installation and local acceptance.",
+          "The linked GE reference illustrates a full-size C-arm. Request the proposed mini C-arm's own manufacturer documentation when evaluating a mini system.",
         ],
         "Compare the supported procedure package and warranty exclusions, not just the model year. Include detector or image-intensifier repairs, tube support, freight, and engineer travel.",
         ["carm"],
@@ -193,7 +195,7 @@ export const buyingGuides = [
         "Surgical tables and lights",
         "xray",
         "surgical-tables",
-        "Match positioning, working load, and imaging access to your procedures. Include the attachments and installation work in the price.",
+        "Match table positioning, working load, and imaging access to your procedures. Specify surgical lighting separately, including its coverage, mounting, and installation work.",
         [
           [
             "General-purpose table",
@@ -203,13 +205,18 @@ export const buyingGuides = [
             "Specialty or imaging table",
             "Verify the intended configuration and any positioning limits with the manufacturer’s documentation.",
           ],
+          [
+            "Surgical lighting",
+            "Compare ceiling, wall, or mobile mounting around the room layout, required positioning coverage, service access, and the team's backup arrangements.",
+          ],
         ],
         [
           "Confirm safe working load in the intended configuration, including accessories. A maximum-load headline may not apply in every position.",
           "Itemize mattresses, clamps, rails, armboards, leg supports, controllers, batteries, and charging equipment. Check brakes and all powered movements.",
-          "For lights, ask for an installation survey covering mounting, ceiling height, electrical work, handle reprocessing, and spare parts.",
+          "For lights, ask for an installation survey covering mounting, ceiling height, electrical work, movement through the required positions, and access for service.",
+          "Itemize the lighting heads, arms or mobile stand, controls, compatible handles, and any specified backup equipment. Confirm handle reprocessing instructions and replacement-parts availability for the exact system.",
         ],
-        "Price the installed table-and-accessory package. Include compatible positioning attachments and any structural work for ceiling-mounted lighting.",
+        "Request separate totals for the complete table package and the installed lighting package. Include positioning attachments, lighting accessories, and any structural work for ceiling-mounted lights so omissions remain visible.",
         ["tables", "lights"],
       ),
       item(
@@ -394,6 +401,7 @@ export const buyingGuides = [
           "Confirm oxygen demand and source compatibility at the planned configuration; total gas flow and oxygen-source flow are not the same specification.",
           "Identify approved patient circuits, chambers, interfaces, water supplies, and cleaning equipment, including recurring local availability.",
           "Ask for model-specific manuals, service records, training, and the receiving team’s backup arrangements.",
+          "The linked Airvo reference illustrates a high-flow platform. For noninvasive ventilation, obtain the offered model's own instructions, supported modes, circuit and interface list, and monitoring specification.",
         ],
         "Include the cost of complete patient kits and their replacement intervals from the manufacturer’s instructions. A bare unit can be inexpensive while its ongoing supplies are difficult to source.",
         ["highFlow"],
@@ -530,14 +538,20 @@ export const buyingGuides = [
             "Compare access, thermal-control features, humidity requirements where relevant, and the complete sensor package.",
           ],
           [
-            "Phototherapy or maternal monitoring",
-            "Request a separate specification and suitable performance verification for each device type.",
+            "Phototherapy",
+            "Compare the complete light-delivery package, required accessories, and the model-specific method for verifying output.",
+          ],
+          [
+            "Maternal or fetal monitoring",
+            "Specify the required measurements, transducers, patient accessories, recording, and connectivity as a separate monitoring package.",
           ],
         ],
         [
           "Itemize temperature probes, mattresses, scales, humidification components, mounts, and any optional features included with the offered unit.",
           "For incubators, request documented checks of temperature control, alarms, access panels, seals, and humidity functions where fitted.",
           "Ask the receiving team to define acceptance and cleaning requirements. For phototherapy, request output verification appropriate to the exact model, not just confirmation that its lights turn on.",
+          "For maternal or fetal monitors, obtain the exact transducer and accessory compatibility list, included measurements, recording supplies or software, and the receiving team's acceptance requirements.",
+          "The linked GE references cover incubator and phototherapy examples. Request separate manufacturer documentation for any proposed warmer or maternal or fetal monitoring system.",
         ],
         "Include model-specific sensors, cleaning supplies, service, and replacement parts. Avoid mixing accessories from different generations without documented compatibility.",
         ["neonatal", "phototherapy"],
@@ -627,6 +641,7 @@ export const buyingGuides = [
           "Request the correct consumable part numbers and current instructions for storage, humidity, opened-container life, and expiry.",
           "Have the laboratory or clinical team confirm suitability for the intended population and specimen. Similar-looking strips or cuvettes are not interchangeable.",
           "Include control materials, sampling supplies, cleaning, batteries or power supplies, and an acceptance demonstration using the approved process.",
+          "The linked HemoCue example covers hemoglobin testing, while the WHO reference addresses laboratory procurement. Obtain separate model-specific instructions for proposed glucose meters and urine analyzers.",
         ],
         "Compare complete testing costs and the smallest practical pack size. Individual packaging may reduce wastage where workload is low or environmental control is difficult.",
         ["hemoglobin", "laboratory"],
@@ -651,6 +666,7 @@ export const buyingGuides = [
           "For microscopes, ask for an optical-condition inspection and a demonstration using the laboratory’s representative material and trained staff.",
           "For centrifuges, identify the exact rotor and adapters. RPM alone does not establish equivalent separation performance between different rotors.",
           "Request rotor condition and service records, lid and safety-interlock checks, and the manufacturer’s applicable service-life limits.",
+          "The linked Thermo Fisher guide covers centrifuges. Obtain the proposed microscope's manufacturer documentation for its optics, accessories, cleaning, and service requirements.",
         ],
         "Include rotors, buckets, adapters, replacement illumination, and service. A low-priced centrifuge without the correct rotor can become the more expensive purchase.",
         ["centrifuge"],
@@ -995,4 +1011,12 @@ export function guideForEquipment(id) {
     if (entry) return { guide, entry };
   }
   return null;
+}
+
+export function guideLinksForEquipment(equipmentId) {
+  return buyingGuides.flatMap((guide) =>
+    guide.entries
+      .filter((entry) => entry.listing === equipmentId)
+      .map((entry) => ({ guide, entry })),
+  );
 }

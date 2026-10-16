@@ -1,4 +1,6 @@
 import { buyingGuides } from "./buying-guides.mjs";
+import { opinionArticles } from "./editorial-guidance.mjs";
+import { equipment } from "./catalog.mjs";
 
 export const articleCategories = [
   "Imaging & radiology",
@@ -9,6 +11,7 @@ export const articleCategories = [
   "Procurement",
   "Service & support",
   "Mission planning",
+  "Procurement & service",
 ];
 export const articles = [
   {
@@ -24,7 +27,7 @@ export const articles = [
     sections: [
       [
         "Start with the department, then the equipment",
-        "Describe where the equipment will be used, who will use it, and the requirements your clinical and technical teams have agreed. Include preferred models when you have them, but also explain which features are essential and which are flexible. This helps us discuss alternatives without losing sight of your original need.",
+        "Send each supplier the same itemized brief. For every item record quantity, essential specification, required accessories, destination, installation responsibility, acceptance requirements, and the date it must be operational. Ask suppliers to mark every exclusion and proposed substitution. Have your clinical and technical teams distinguish essential features from preferences so you can compare suitable alternatives fairly.",
       ],
       [
         "Describe the place it is going",
@@ -61,7 +64,7 @@ export const articles = [
     sections: [
       [
         "Be specific about condition",
-        "Ask how the offered unit’s condition is described, what work has been completed, and which records are available. Terms such as used, refurbished, and inspected should be explained for the particular unit. Request photographs and documentation for the actual equipment before making a purchasing decision.",
+        "Ask how the offered unit’s condition is described, what work has been completed, and which records are available. Terms such as used, refurbished, and inspected should be explained for the particular unit. Request actual-unit photographs, service and corrective-action records, and confirmation of remaining manufacturer or qualified third-party support. A condition label alone does not establish what was done to this unit.",
       ],
       [
         "Check the complete configuration",
@@ -73,7 +76,7 @@ export const articles = [
       ],
       [
         "Agree how the equipment will be received",
-        "Identify the person who will inspect the shipment, reconcile the packing list, and coordinate the facility’s acceptance process. Document any installation or testing responsibilities in the proposal. Your clinical and technical teams should determine the checks required before equipment enters use.",
+        "Before ordering, agree the documents and tests required for acceptance, who performs them, and what happens if the delivered configuration or condition differs from the quote. Record the return process, freight responsibility, warranty start date, and whether labor, parts, and engineer travel are included. Your clinical and technical teams should determine the checks required before equipment enters use.",
       ],
     ],
     checklist: [
@@ -102,7 +105,7 @@ export const articles = [
       ],
       [
         "Describe what was observed",
-        "Write down the issue, when it began, and any displayed error message exactly as it appears. Explain whether the problem is intermittent or continuous and whether anything changed before it started. Share only equipment information; do not include patient records or identifying images.",
+        "Attach the equipment label, exact error text, software version where available, recent service record, and a short timeline of the issue. Explain whether it is intermittent or continuous and describe checks already completed under your facility’s approved procedures. Share only equipment information; do not include patient records or identifying images.",
       ],
       [
         "Explain the operational context",
@@ -110,7 +113,7 @@ export const articles = [
       ],
       [
         "Agree the next step and its owner",
-        "Support may involve clarifying the issue, discussing parts, or coordinating an appropriate service resource. Before proceeding, establish the proposed scope, cost, location, and timing. Equipment operation and technical work should follow your facility’s procedures and the manufacturer’s instructions.",
+        "Before proceeding, establish the proposed scope, cost, location, and timing. Confirm whether the estimate includes diagnosis, travel, parts, return freight, and post-repair testing, and who authorizes additional work. Equipment operation and technical work should follow your facility’s procedures and the manufacturer’s instructions.",
       ],
     ],
     checklist: [
@@ -146,7 +149,7 @@ export const articles = [
       ],
       [
         "Plan for delivery and ongoing care",
-        "Include the destination and the support your organization needs after purchase. Freight, local arrangements, installation, accessories, and maintenance should be considered alongside the equipment itself. We can discuss the scope with you and identify what needs to be confirmed in the proposal.",
+        "Name the receiving facility’s approving contact and the person responsible for maintenance. Separate the equipment budget from packing, freight, destination charges, installation, training, and initial consumables. Confirm who pays each cost and which recurring costs the recipient can sustain. A discounted purchase or donated device still needs a workable plan for delivery and continued use.",
       ],
     ],
     checklist: [
@@ -159,6 +162,13 @@ export const articles = [
     related: ["beds", "ultrasound", "sterilization"],
   },
 ];
+articles.push(...opinionArticles.map(item => ({
+  ...item,
+  image: equipment.find(listing => listing.id === item.related[0])?.image || 'equipment-detail',
+  minutes: Math.max(3, Math.ceil([item.intro, ...item.sections.map(section => section.text)].join(' ').split(/\s+/).length / 200)),
+  sections: item.sections.map(section => [section.title, section.text]),
+  sectionSources: item.sections.map(section => section.sources),
+})));
 articles.unshift(...buyingGuides);
 
 export const articleUrl = (article) => `/resources/${article.id}.html`;

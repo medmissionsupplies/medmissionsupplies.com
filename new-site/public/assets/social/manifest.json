@@ -1,0 +1,368 @@
+{
+  "format": "jpeg",
+  "width": 1200,
+  "height": 630,
+  "type": "image/jpeg",
+  "cards": {
+    "index": {
+      "image": "/assets/social/index.jpg",
+      "source": "/assets/photos/operating-room.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 82471,
+      "fingerprint": "d20f29130c505997a72d2b7b3b693497ed2ed75e5b6674a642a0724de909f954"
+    },
+    "offerings": {
+      "image": "/assets/social/offerings.jpg",
+      "source": "/assets/photos/reference/ultrasound-portable.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 89383,
+      "fingerprint": "c6492c8a88e0055bf98cf20abd35a3eb6378ba6ef471b4f4b1c2ca057d9bf207"
+    },
+    "services": {
+      "image": "/assets/social/services.jpg",
+      "source": "/assets/photos/equipment-detail.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 73783,
+      "fingerprint": "607e54679ec5c148c8dc5fadec5a464bcc02a616107e544ed57b01ebf185d565"
+    },
+    "articles": {
+      "image": "/assets/social/articles.jpg",
+      "source": "/assets/photos/reference/anesthesia-workstation.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 81807,
+      "fingerprint": "713dd671f6a5170719d41e145fd09eb33283670f8e2e436efdb43b6c7d2f0f5b"
+    },
+    "about": {
+      "image": "/assets/social/about.jpg",
+      "source": "/assets/photos/operating-room.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 81000,
+      "fingerprint": "84cb2ad7d313ecea4c274bb6a19a3c1e97771e5b81b9eedf1103872a0a037364"
+    },
+    "employment": {
+      "image": "/assets/social/employment.jpg",
+      "source": "/assets/photos/laboratory.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 86110,
+      "fingerprint": "7a1f533eda7291339ed2e1aacfff67ef7ed28943a391c55f987ffa35c4fce40d"
+    },
+    "contact": {
+      "image": "/assets/social/contact.jpg",
+      "source": "/assets/photos/reference/ultrasound-portable.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 89152,
+      "fingerprint": "e3e1eb48f5c971757d6ff59276867c05e96744e51e548e0e7f9f34432012aa4e"
+    },
+    "equipment-ultrasound": {
+      "image": "/assets/social/equipment-ultrasound.jpg",
+      "source": "/assets/photos/reference/ultrasound-portable.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 76596,
+      "fingerprint": "ad6f6adb9873469472dfe331a14a8499dae29d6593c6ed695425adbe8f59ec7c"
+    },
+    "equipment-xray": {
+      "image": "/assets/social/equipment-xray.jpg",
+      "source": "/assets/photos/reference/c-arm.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 79243,
+      "fingerprint": "f85499212e148b271e4bba7c660b2cc96900f6c8d2ca63912d0a6b2c85fac330"
+    },
+    "equipment-ct-mri": {
+      "image": "/assets/social/equipment-ct-mri.jpg",
+      "source": "/assets/photos/ct-mri.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 86537,
+      "fingerprint": "59e18d2dedc3c1827cabcb790dfd44bc589a92d073f89c00ec751edcac798a22"
+    },
+    "equipment-anesthesia": {
+      "image": "/assets/social/equipment-anesthesia.jpg",
+      "source": "/assets/photos/reference/anesthesia-workstation.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 79507,
+      "fingerprint": "e62bf9a05052385fc4cc3f3dc0d90717aadda736f35889288a1df169f48f44f5"
+    },
+    "equipment-surgical-tables": {
+      "image": "/assets/social/equipment-surgical-tables.jpg",
+      "source": "/assets/photos/xray.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 80919,
+      "fingerprint": "cdd3c5196ad95e8f22f8be4c447bad818707af424eaeb3d642234d92b6472126"
+    },
+    "equipment-endoscopy": {
+      "image": "/assets/social/equipment-endoscopy.jpg",
+      "source": "/assets/photos/reference/endoscopy-system.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 83191,
+      "fingerprint": "0fb1d7d75d004ea3e64d5ad01c32946acff75cd05216ffb3302250ea4fdc8ff4"
+    },
+    "equipment-ventilators": {
+      "image": "/assets/social/equipment-ventilators.jpg",
+      "source": "/assets/photos/reference/icu-ventilator.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 77192,
+      "fingerprint": "355514f0602812f991fba83b5fbe093b5c73e3257c271cab527360dcc741e2fb"
+    },
+    "equipment-ekg": {
+      "image": "/assets/social/equipment-ekg.jpg",
+      "source": "/assets/photos/reference/patient-monitor.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 80569,
+      "fingerprint": "027a4e601e096d4c185f27dbd0b7b71f2c2dcdf3646c409bb0297b49106c659f"
+    },
+    "equipment-neonatal": {
+      "image": "/assets/social/equipment-neonatal.jpg",
+      "source": "/assets/photos/neonatal.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 84109,
+      "fingerprint": "e7f0a832ac3a117b9ed2bb2d188ce329f78a9a676dbda767ebd5b6a3b04257cd"
+    },
+    "equipment-laboratory": {
+      "image": "/assets/social/equipment-laboratory.jpg",
+      "source": "/assets/photos/reference/chemistry.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 78147,
+      "fingerprint": "4aa7b7bb229362df7918bdf2c716f95e5fffbcfa948e965cf6584d281e85b879"
+    },
+    "equipment-sterilization": {
+      "image": "/assets/social/equipment-sterilization.jpg",
+      "source": "/assets/photos/sterilization.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 78481,
+      "fingerprint": "d5c609b107c980c045faa776d6aa1e8f6876b31a5c70f468a5959feb9de6677b"
+    },
+    "equipment-beds": {
+      "image": "/assets/social/equipment-beds.jpg",
+      "source": "/assets/photos/beds.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 87968,
+      "fingerprint": "a69f8153c95460780c3d6227f76588320a4de0d87ccbe04c4fca8469aa94c5df"
+    },
+    "equipment-electrosurgery": {
+      "image": "/assets/social/equipment-electrosurgery.jpg",
+      "source": "/assets/photos/reference/electrosurgery.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 89511,
+      "fingerprint": "c8236a7a422138aa3021bcfa1949c232ca5954786d98b444ea567c60ed241760"
+    },
+    "equipment-surgical-microscopes": {
+      "image": "/assets/social/equipment-surgical-microscopes.jpg",
+      "source": "/assets/photos/reference/surgical-microscope.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 74868,
+      "fingerprint": "898b2dbe02f1c50e941016ef65bf895dba41dc2efb87356182753b7677a4f3d7"
+    },
+    "equipment-airway": {
+      "image": "/assets/social/equipment-airway.jpg",
+      "source": "/assets/photos/reference/airway.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 69013,
+      "fingerprint": "5b1a7686f1329df009d4cb362f1330b8c59c22e9a0b51ba293e5a1f9a2c9320d"
+    },
+    "equipment-oxygen": {
+      "image": "/assets/social/equipment-oxygen.jpg",
+      "source": "/assets/photos/reference/oxygen.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 91893,
+      "fingerprint": "9b26085dd196b181c726d35145f4ce6a8a5aff5c5d35a4f6e188880b3dbedd8b"
+    },
+    "equipment-infusion": {
+      "image": "/assets/social/equipment-infusion.jpg",
+      "source": "/assets/photos/reference/infusion.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 91579,
+      "fingerprint": "991cd1602422b44ed35683ee77d958069036a7a1ecf70eb3349a8e8052e21330"
+    },
+    "equipment-suction": {
+      "image": "/assets/social/equipment-suction.jpg",
+      "source": "/assets/photos/reference/suction.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 75650,
+      "fingerprint": "5526589f1d43186f176ece4b449ee130ad21b942eec3d9d386c6567437af161f"
+    },
+    "equipment-point-of-care": {
+      "image": "/assets/social/equipment-point-of-care.jpg",
+      "source": "/assets/photos/reference/point-of-care.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 72074,
+      "fingerprint": "aed2ab770d2fd647e6f953f1ae453fa7cb6c3ed8f2e06317d64d83c268a6422a"
+    },
+    "equipment-ophthalmology": {
+      "image": "/assets/social/equipment-ophthalmology.jpg",
+      "source": "/assets/photos/reference/retinal-camera.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 82835,
+      "fingerprint": "94454826f8227920a043a0a8870ffb10732ef2116be67ca6fab39e29b6c6666c"
+    },
+    "equipment-clinical-essentials": {
+      "image": "/assets/social/equipment-clinical-essentials.jpg",
+      "source": "/assets/photos/reference/otoscope.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 78473,
+      "fingerprint": "c63445d3684b88007a2827cdf341371fefae170f4a12c8d6460a9d924927db07"
+    },
+    "equipment-refrigeration": {
+      "image": "/assets/social/equipment-refrigeration.jpg",
+      "source": "/assets/photos/refrigeration.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 96121,
+      "fingerprint": "c61d29ac265f7af79b97f913215ed64a3fa4ea528f10b5221dc75868d49f3727"
+    },
+    "equipment-dialysis": {
+      "image": "/assets/social/equipment-dialysis.jpg",
+      "source": "/assets/photos/dialysis.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 85312,
+      "fingerprint": "0a9236dcfc30ccdd79397c3499e870e7d0196eb24857073e72386657080f44c9"
+    },
+    "article-imaging-equipment-buying-guide": {
+      "image": "/assets/social/article-imaging-equipment-buying-guide.jpg",
+      "source": "/assets/photos/reference/ultrasound-portable.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 75960,
+      "fingerprint": "14126b53486138b9e231af080f97a2149c4ed47104e7f4633292fd1c76b9d04e"
+    },
+    "article-surgical-equipment-buying-guide": {
+      "image": "/assets/social/article-surgical-equipment-buying-guide.jpg",
+      "source": "/assets/photos/reference/anesthesia-workstation.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 79574,
+      "fingerprint": "54ae83bbd5ae6215352b877a3c755402f105def3df259e56742b7d4945b197c2"
+    },
+    "article-critical-care-buying-guide": {
+      "image": "/assets/social/article-critical-care-buying-guide.jpg",
+      "source": "/assets/photos/reference/patient-monitor.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 73735,
+      "fingerprint": "ee0dd5c167056781c823c54347066eff2139d7cb54fe994c3fac279987e10913"
+    },
+    "article-diagnostic-equipment-buying-guide": {
+      "image": "/assets/social/article-diagnostic-equipment-buying-guide.jpg",
+      "source": "/assets/photos/reference/chemistry.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 75580,
+      "fingerprint": "1669ed02f8a629e807f60e2c2e7176742587267fcb50854dd443c21399a1f0d0"
+    },
+    "article-hospital-essentials-buying-guide": {
+      "image": "/assets/social/article-hospital-essentials-buying-guide.jpg",
+      "source": "/assets/photos/reference/autoclave.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 71772,
+      "fingerprint": "c66949d313d2c315c9cc71ab8c7a9300ba5634f4dabe69bedbbc49a44cca2af2"
+    },
+    "article-mission-clinic-equipment-guide": {
+      "image": "/assets/social/article-mission-clinic-equipment-guide.jpg",
+      "source": "/assets/photos/reference/otoscope.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 71227,
+      "fingerprint": "6de4d37fc285bfa3501042e680c7097125ecdfba2a610f05efdeb39484bf7ed8"
+    },
+    "article-planning-hospital-equipment": {
+      "image": "/assets/social/article-planning-hospital-equipment.jpg",
+      "source": "/assets/photos/operating-room.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 75314,
+      "fingerprint": "8e66dafcbccc98967926f26d8a1e51300e4c58484859cdcb589cc21397bc55da"
+    },
+    "article-refurbished-equipment-questions": {
+      "image": "/assets/social/article-refurbished-equipment-questions.jpg",
+      "source": "/assets/photos/ultrasound.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 76987,
+      "fingerprint": "dc39e3551640e54c229d235fc4e9cdb4056ea2366fc5130adf840a9efd1cac1d"
+    },
+    "article-prepare-service-request": {
+      "image": "/assets/social/article-prepare-service-request.jpg",
+      "source": "/assets/photos/equipment-detail.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 77447,
+      "fingerprint": "994f16d37e9db89baa268c299c05ff6b309239b5050203c4d3ad97ada7440305"
+    },
+    "article-wholesale-charitable-pricing": {
+      "image": "/assets/social/article-wholesale-charitable-pricing.jpg",
+      "source": "/assets/photos/laboratory.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 94748,
+      "fingerprint": "4c94349e5f52c2ae36a96b47d366b89a5642e2605814209932ee29b1b81f13af"
+    },
+    "article-the-price-of-a-working-service": {
+      "image": "/assets/social/article-the-price-of-a-working-service.jpg",
+      "source": "/assets/photos/reference/ultrasound-portable.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 81376,
+      "fingerprint": "1117926d3383b91b303b61e12f92d6fa9cb656f62ecc8b3289c7ebfdbc756d6c"
+    },
+    "article-refurbished-is-a-question-not-a-verdict": {
+      "image": "/assets/social/article-refurbished-is-a-question-not-a-verdict.jpg",
+      "source": "/assets/photos/reference/patient-monitor.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 70005,
+      "fingerprint": "81ddf77e92e964bacdac6ab0dbe7dc479a269be5c31ac04811f96e6c276f06b8"
+    },
+    "article-a-donation-should-start-with-the-recipient": {
+      "image": "/assets/social/article-a-donation-should-start-with-the-recipient.jpg",
+      "source": "/assets/photos/reference/otoscope.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 73878,
+      "fingerprint": "fd543148401ef4f9e371194c517b94f3680f53203571618b52d69e34b82af292"
+    },
+    "article-standardize-with-an-exit-plan": {
+      "image": "/assets/social/article-standardize-with-an-exit-plan.jpg",
+      "source": "/assets/photos/reference/airway.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 73275,
+      "fingerprint": "b0ab1e91ea637c2702610586da98d406050bbfead6e2e98850a42dc7ad1c75da"
+    },
+    "article-service-starts-before-delivery": {
+      "image": "/assets/social/article-service-starts-before-delivery.jpg",
+      "source": "/assets/photos/reference/anesthesia-workstation.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 78362,
+      "fingerprint": "440c0c55f0b627fc0038ae9485b84de7fafda4671c1e2a2250de82263f485815"
+    }
+  }
+}

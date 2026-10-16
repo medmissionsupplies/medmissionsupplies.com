@@ -25,8 +25,11 @@ import approvedComments from "./approved-comments.json";
 import { commentFormData, validateComment } from "./comments.mjs";
 import { CONTACT_ENDPOINT, sendInquiry } from "./contact-service.mjs";
 import { referencePhotos } from "./reference-photos.mjs";
-import { buyingGuides, guideForEquipment } from "./buying-guides.mjs";
+import { buyingGuides, guideLinksForEquipment } from "./buying-guides.mjs";
 import { guideSources } from "./guide-sources.mjs";
+import { equipmentGuidance } from "./editorial-guidance.mjs";
+import { EquipmentEditorial, Takeaways, SourceLinks, SourceNotes } from "./EditorialContent.jsx";
+import ShareTools from "./ShareTools.jsx";
 
 const icons = {
   imaging: Scan,
@@ -278,7 +281,8 @@ export function EquipmentDetail({ item }) {
   const related = equipment
     .filter((other) => other.category === item.category && other.id !== item.id)
     .slice(0, 3);
-  const guideLink = guideForEquipment(item.id);
+  const guidance = equipmentGuidance.find(guide => guide.id === item.id);
+  const guideLinks = guideLinksForEquipment(item.id);
   return (
     <>
       <div className="content-width detail-back">
@@ -331,19 +335,7 @@ export function EquipmentDetail({ item }) {
           </p>
         </div>
       </section>
-      {guideLink && (
-        <div className="equipment-guide-link content-width">
-          <div>
-            <strong>Compare options and ownership costs.</strong>
-          </div>
-          <a
-            className="text-link"
-            href={`${articleUrl(guideLink.guide)}#${guideLink.entry.id}`}
-          >
-            What to know before you buy <ArrowUpRight size={20} />
-          </a>
-        </div>
-      )}
+      {guidance && <EquipmentEditorial item={guidance} listing={item} guideLinks={guideLinks} />}
       <div className="detail-information content-width">
         <details className="equipment-disclosure">
           <summary>
@@ -618,6 +610,7 @@ function ListingComments({ item }) {
 }
 
 export function Articles() {
+  const opinions = articles.filter(item => item.kind === 'opinion');
   return (
     <>
       <ExploreHero
@@ -627,15 +620,23 @@ export function Articles() {
         action={["Ask our team", "/contact.html"]}
       />
       <section className="content-width articles-section">
+        <div className="editorial-section-heading"><span className="editorial-kicker">Equipment explained</span><h2>Start with your department.</h2><p>35 equipment topics. Clear comparisons, practical checks, and the questions to bring to a quote.</p></div>
         <div className="resource-grid">
           {articles.filter((item) => item.kind === "buying-guide").map((item) => (
             <ArticleCard item={item} key={item.id} />
           ))}
         </div>
+        <section className="editorial-opinions" aria-labelledby="opinion-heading">
+          <div className="editorial-section-heading"><span className="editorial-kicker">The purchasing perspective</span><h2 id="opinion-heading">Better questions. Better decisions.</h2><p>Five perspectives on price, refurbishment, fit, and the support that makes equipment useful.</p></div>
+          <div className="opinion-grid">{opinions.map((item, index) => <a className={`opinion-card${index === 0 ? ' opinion-featured' : ''}`} key={item.id} href={articleUrl(item)}>
+            <div className="opinion-photo"><Photo name={item.image} sizes={index === 0 ? '(max-width: 720px) 90vw, 55vw' : '(max-width: 720px) 90vw, 25vw'} /></div>
+            <div className="opinion-copy"><span className="editorial-kicker">Perspective · {item.minutes} min read</span><h3>{item.title}</h3><p>{item.summary}</p><span className="text-link">Read the perspective <ArrowUpRight size={18} /></span></div>
+          </a>)}</div>
+        </section>
         <section className="planning-guides" aria-labelledby="planning-guides-title">
           <h2 id="planning-guides-title">Make your next step easier.</h2>
           <div className="planning-guide-links">
-            {articles.filter((item) => item.kind !== "buying-guide").map((item) => (
+            {articles.filter((item) => !['buying-guide', 'opinion'].includes(item.kind)).map((item) => (
               <a key={item.id} href={articleUrl(item)}>
                 <span>{item.title}</span><ArrowUpRight size={18} />
               </a>
@@ -658,17 +659,21 @@ export function ArticleDetail({ item }) {
         backLabel="Equipment advice"
         image={item.image}
       />
+      <div className="content-width"><ShareTools path={articleUrl(item)} title={item.socialTitle || item.title} summary={item.socialDescription || item.summary} /></div>
       <article className="content-width article-layout">
         <div className="article-body">
+          {item.kind === 'opinion' && <span className="editorial-kicker">MMS perspective · {item.minutes} min read</span>}
           <p className="article-intro">{item.intro}</p>
+          <Takeaways items={item.takeaways} />
           {item.sections.map(([title, text], i) => (
             <section id={`section-${i + 1}`} key={title}>
               <h2>{title}</h2>
               <p>{text}</p>
+              <SourceLinks ids={item.sectionSources?.[i]} />
             </section>
           ))}
           <div className="article-checklist">
-            <h2>Before you inquire</h2>
+            <h2>Your decision checklist</h2>
             <ul>
               {item.checklist.map((text) => (
                 <li key={text}>
@@ -678,6 +683,7 @@ export function ArticleDetail({ item }) {
               ))}
             </ul>
           </div>
+          <SourceNotes ids={item.sources} />
           <div className="article-next">
             <Action href="/contact.html">Talk to our team</Action>
           </div>
@@ -751,6 +757,7 @@ export function BuyingGuide({ item }) {
           approve the exact equipment and its current support.
         </p>
       </div>
+      <div className="content-width"><ShareTools path={articleUrl(item)} title={item.title} summary={item.summary} /></div>
       <details className="guide-mobile-contents content-width">
         <summary>
           Jump to equipment <span>+</span>

@@ -6,6 +6,7 @@ import { installPageNavigation } from "./page-navigation.mjs";
 import { captureCurrentCampaign } from "./campaign-reference.mjs";
 import "./styles.scss";
 import "./editorial.css";
+import "./editorial-guidance.css";
 
 import { metadata } from "./routes.mjs";
 function ClientApp() {
