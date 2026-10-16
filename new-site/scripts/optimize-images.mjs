@@ -7,12 +7,13 @@ import sharp from 'sharp';
 // remain available for full-size archive links and source/permission records.
 const root = path.resolve('public');
 const output = path.join(root, 'media/optimized');
+const socialOutput = path.join(root, 'assets/social');
 const widths = [96, 192, 384, 640, 960, 1440, 1920];
 const settings = 'webp-v1-quality84-effort5-orient-srgb';
 await mkdir(output, { recursive: true });
 async function files(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
-  return (await Promise.all(entries.filter(e => path.join(dir, e.name) !== output).map(e =>
+  return (await Promise.all(entries.filter(e => ![output, socialOutput].includes(path.join(dir, e.name))).map(e =>
     e.isDirectory() ? files(path.join(dir, e.name)) : path.join(dir, e.name)))).flat();
 }
 const sources = (await files(root)).filter(f => /\.(jpe?g|png|webp|avif)$/i.test(f)).sort();

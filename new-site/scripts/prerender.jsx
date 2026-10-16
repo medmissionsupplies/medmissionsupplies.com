@@ -5,7 +5,7 @@ import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { App } from "../src/App.jsx";
 import { routes, metadata } from "../src/routes.mjs";
-import { pageSeo } from "../src/seo.mjs";
+import { pageSeo, socialMetaEntries } from "../src/seo.mjs";
 import { validateApprovedComments } from "../src/comments.mjs";
 
 validateApprovedComments(
@@ -28,7 +28,10 @@ const escape = (text) =>
     .replaceAll(">", "&gt;");
 function render(page, meta, path) {
   const seo = pageSeo(page);
-  const canonical = path ? `https://medmissionsupplies.com${path}` : null;
+  const canonical = path ? seo.url : null;
+  const socialTags = seo ? socialMetaEntries(seo).map(({ property, name, content }) =>
+    `<meta ${property ? 'property' : 'name'}="${property ?? name}" content="${escape(content)}" />`
+  ).join('') : '';
   return template
     .replace('<html lang="en">', `<html lang="en" data-page="${page}">`)
     .replace(/<title>.*?<\/title>/, `<title>${escape(meta.title)}</title>`)
@@ -38,7 +41,7 @@ function render(page, meta, path) {
     )
     .replace(
       "</head>",
-      `${canonical ? `<link rel="canonical" href="${canonical}" /><meta property="og:title" content="${escape(meta.title)}" /><meta property="og:description" content="${escape(meta.description)}" /><meta property="og:url" content="${canonical}" /><meta property="og:image" content="${escape(seo.image)}" /><meta property="og:type" content="${page.startsWith("article-") ? "article" : "website"}" />` : '<meta name="robots" content="noindex" />'}${seo ? `<meta property="og:site_name" content="Med Mission Supplies" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="${escape(meta.title)}" /><meta name="twitter:description" content="${escape(meta.description)}" /><meta name="twitter:image" content="${escape(seo.image)}" /><script id="page-structured-data" type="application/ld+json">${JSON.stringify(seo.schema).replace(/</g, "\\u003c")}</script>` : ""}</head>`,
+      `${canonical ? `<link rel="canonical" href="${canonical}" />` : '<meta name="robots" content="noindex" />'}${socialTags}${seo ? `<script id="page-structured-data" type="application/ld+json">${JSON.stringify(seo.schema).replace(/</g, "\\u003c")}</script>` : ""}</head>`,
     )
     .replace(
       '<div id="root"></div>',

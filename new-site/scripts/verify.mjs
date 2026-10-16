@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFile, access, readdir } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { pageSeo } from '../src/seo.mjs';
+import { pageSeo, socialMetaEntries } from '../src/seo.mjs';
+import sharp from 'sharp';
 import { routes } from '../src/routes.mjs';
 import { equipment } from '../src/catalog.mjs';
 import { articles } from '../src/articles.mjs';
@@ -87,11 +88,24 @@ for (const route of routes) {
   assert.ok(html.includes('href="' + seo.url + '"'), route.path + ': canonical differs');
   const schema = JSON.parse(html.match(/<script id="page-structured-data" type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
   assert.equal(schema['@graph'][2].url, seo.url);
-  assert.ok(html.includes('content="' + seo.image + '"'), route.path + ': page-specific share image');
-  await access(resolve(root, new URL(seo.image).pathname.slice(1)));
+  assert.ok(!schema['@graph'][2].datePublished, route.path + ': no invented publication date');
+  for (const { property, name, content } of socialMetaEntries(seo)) {
+    const attribute = property ? 'property' : 'name';
+    const key = property ?? name;
+    const matches = [...html.matchAll(new RegExp(`<meta ${attribute}="${key}" content="([^"]*)"`, 'g'))];
+    const escaped = content.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+    assert.equal(matches.length, 1, `${route.path}: exactly one ${key}`);
+    assert.equal(matches[0][1], escaped, `${route.path}: stale ${key}`);
+  }
+  const preview = await readFile(resolve(root, new URL(seo.image).pathname.slice(1)));
+  const image = await sharp(preview).metadata();
+  assert.equal(image.format, 'jpeg', route.path + ': crawler-compatible JPEG');
+  assert.equal(image.width, 1200, route.path + ': share image width');
+  assert.equal(image.height, 630, route.path + ': share image height');
+  assert.ok(preview.length <= 220 * 1024, route.path + ': social preview exceeds 220 KB');
 }
 assert.ok((await readFile(resolve(root, 'robots.txt'), 'utf8')).includes('Sitemap: https://medmissionsupplies.com/sitemap.xml'));
-console.log('Verified canonical URLs, page-specific share images, structured data and robots across all 40 canonical pages.');
+console.log(`Verified canonical URLs, all OG/X fields, optimized 1200×630 share cards, structured data and robots across all ${routes.length} canonical pages.`);
 
 // Check every generated source candidate, including ones selected only on phones.
 let webpCandidates = 0;
