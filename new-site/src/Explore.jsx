@@ -30,6 +30,9 @@ import { guideSources } from "./guide-sources.mjs";
 import { equipmentGuidance } from "./editorial-guidance.mjs";
 import { EquipmentEditorial, Takeaways, SourceLinks, SourceNotes } from "./EditorialContent.jsx";
 import ShareTools from "./ShareTools.jsx";
+import { ResearchLibrary } from "./ResearchLibrary.jsx";
+import ResearchArticleRoute from "./ResearchArticleRoute.jsx";
+import { researchGuides } from "./research-guide-index.generated.mjs";
 
 const icons = {
   imaging: Scan,
@@ -283,6 +286,7 @@ export function EquipmentDetail({ item }) {
     .slice(0, 3);
   const guidance = equipmentGuidance.find(guide => guide.id === item.id);
   const guideLinks = guideLinksForEquipment(item.id);
+  const researchGuide = researchGuides.find(guide => guide.equipmentId === item.id);
   return (
     <>
       <div className="content-width detail-back">
@@ -335,7 +339,10 @@ export function EquipmentDetail({ item }) {
           </p>
         </div>
       </section>
-      {guidance && <EquipmentEditorial item={guidance} listing={item} guideLinks={guideLinks} />}
+      {researchGuide ? <section className="content-width equipment-research-link">
+        <div><span className="editorial-kicker">Before you buy</span><h2>{researchGuide.sheet.title}</h2><p>{researchGuide.sheet.firstChoice}</p></div>
+        <Action href={articleUrl(researchGuide)}>Read the buying guide</Action>
+      </section> : guidance && <EquipmentEditorial item={guidance} listing={item} guideLinks={guideLinks} />}
       <div className="detail-information content-width">
         <details className="equipment-disclosure">
           <summary>
@@ -610,44 +617,10 @@ function ListingComments({ item }) {
 }
 
 export function Articles() {
-  const opinions = articles.filter(item => item.kind === 'opinion');
-  return (
-    <>
-      <ExploreHero
-        title="Understand the equipment before you buy."
-        description="Learn what each system does, compare the options, and see what to check before buying. Choose a department to get started."
-        image="ultrasound"
-        action={["Ask our team", "/contact.html"]}
-      />
-      <section className="content-width articles-section">
-        <div className="editorial-section-heading"><span className="editorial-kicker">Equipment explained</span><h2>Start with your department.</h2><p>35 equipment topics. Clear comparisons, practical checks, and the questions to bring to a quote.</p></div>
-        <div className="resource-grid">
-          {articles.filter((item) => item.kind === "buying-guide").map((item) => (
-            <ArticleCard item={item} key={item.id} />
-          ))}
-        </div>
-        <section className="editorial-opinions" aria-labelledby="opinion-heading">
-          <div className="editorial-section-heading"><span className="editorial-kicker">The purchasing perspective</span><h2 id="opinion-heading">Better questions. Better decisions.</h2><p>Five perspectives on price, refurbishment, fit, and the support that makes equipment useful.</p></div>
-          <div className="opinion-grid">{opinions.map((item, index) => <a className={`opinion-card${index === 0 ? ' opinion-featured' : ''}`} key={item.id} href={articleUrl(item)}>
-            <div className="opinion-photo"><Photo name={item.image} sizes={index === 0 ? '(max-width: 720px) 90vw, 55vw' : '(max-width: 720px) 90vw, 25vw'} /></div>
-            <div className="opinion-copy"><span className="editorial-kicker">Perspective · {item.minutes} min read</span><h3>{item.title}</h3><p>{item.summary}</p><span className="text-link">Read the perspective <ArrowUpRight size={18} /></span></div>
-          </a>)}</div>
-        </section>
-        <section className="planning-guides" aria-labelledby="planning-guides-title">
-          <h2 id="planning-guides-title">Make your next step easier.</h2>
-          <div className="planning-guide-links">
-            {articles.filter((item) => !['buying-guide', 'opinion'].includes(item.kind)).map((item) => (
-              <a key={item.id} href={articleUrl(item)}>
-                <span>{item.title}</span><ArrowUpRight size={18} />
-              </a>
-            ))}
-          </div>
-        </section>
-      </section>
-    </>
-  );
+  return <ResearchLibrary />;
 }
 export function ArticleDetail({ item }) {
+  if (item.kind === "research-guide") return <ResearchArticleRoute item={item} />;
   if (item.kind === "buying-guide") return <BuyingGuide item={item} />;
   return (
     <>
@@ -656,7 +629,7 @@ export function ArticleDetail({ item }) {
         title={item.title}
         description={item.summary}
         back="/articles.html"
-        backLabel="Equipment advice"
+        backLabel="Buying guides"
         image={item.image}
       />
       <div className="content-width"><ShareTools path={articleUrl(item)} title={item.socialTitle || item.title} summary={item.socialDescription || item.summary} /></div>
@@ -717,7 +690,7 @@ export function ArticleDetail({ item }) {
             className="text-link"
             href="/articles.html"
           >
-            More equipment advice
+            More buying guides
             <ArrowRight size={18} />
           </a>
         </aside>
@@ -746,7 +719,7 @@ export function BuyingGuide({ item }) {
         title={item.title}
         image={item.image}
         back="/articles.html"
-        backLabel="Equipment advice"
+        backLabel="Buying guides"
       />
       <div className="guide-introduction content-width">
         <div>
@@ -854,7 +827,7 @@ export function BuyingGuide({ item }) {
         </aside>
       </div>
       <div className="guide-return content-width">
-        <a className="text-link" href="/articles.html">More equipment advice<ArrowRight size={18} /></a>
+        <a className="text-link" href="/articles.html">More buying guides<ArrowRight size={18} /></a>
         <p className="small-note">References reviewed {new Date(`${item.reviewed}T12:00:00Z`).toLocaleDateString("en-US", {
           month: "long", day: "numeric", year: "numeric", timeZone: "UTC",
         })}.</p>

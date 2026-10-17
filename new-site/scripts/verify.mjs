@@ -6,6 +6,7 @@ import sharp from 'sharp';
 import { routes } from '../src/routes.mjs';
 import { equipment } from '../src/catalog.mjs';
 import { articles } from '../src/articles.mjs';
+import { researchGuides } from '../src/research-guides.generated.mjs';
 
 const root = resolve(import.meta.dirname, '../dist');
 const pages = [...routes.map(route => route.path.slice(1, -5)), '404'];
@@ -22,7 +23,9 @@ for (const [file, html] of rendered) {
   assert.ok(html.includes('id="main-content"'), `${file}: missing main landmark`);
   assert.ok(html.includes('Skip to main content'), `${file}: missing skip link`);
   assert.ok(!html.includes('William Grayson'), `${file}: removed employee still present`);
-  assert.ok(!/\bundefined\b/.test(html), `${file}: undefined content`);
+  // Philips' verified FRx product URL literally ends in /undefined; it is not a rendering error.
+  const checkedHtml = html.replaceAll('https://www.philips.com.ph/healthcare/product/HC861304/undefined', 'verified-philips-product');
+  assert.ok(!/\bundefined\b/.test(checkedHtml), `${file}: undefined content`);
   for (const match of html.matchAll(/(?:href|src)="([^"#]+)(?:#[^"]*)?"/g)) {
     const url = match[1].replace(/&amp;/g, '&');
     if (/^(https?:|data:|mailto:|tel:)/.test(url)) continue;
@@ -38,6 +41,14 @@ for (const [file, html] of rendered) {
   }
 }
 const team = rendered.get('about.html');
+const escapedText = value => String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#x27;');
+for (const guide of researchGuides) {
+  const html=rendered.get(`resources/${guide.id}.html`);
+  assert.ok(rendered.get('articles.html').includes(`/resources/${guide.id}.html`), guide.id + ': not discoverable in library');
+  for (const value of [guide.sheet.firstChoice,guide.sheet.upgradeWhen,guide.sheet.budgetWatch,guide.sheet.supportCheck,...guide.sheet.askSupplier]) assert.ok(html.includes(escapedText(value)), guide.id + ': missing buying-sheet content');
+  assert.ok(html.includes(`datetime="${guide.reviewedAt}"`) || html.includes(`dateTime="${guide.reviewedAt}"`), guide.id + ': missing review date');
+  assert.ok(html.includes(`/guidesheets/${guide.id}.pdf`), guide.id + ': missing download');
+}
 for (const item of equipment) {
   const html = rendered.get(`equipment/${item.id}.html`);
   assert.ok(html.includes(item.title.replaceAll('&', '&amp;')), `Missing equipment ${item.id}`);

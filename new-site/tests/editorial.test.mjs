@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { equipment } from '../src/catalog.mjs';
 import { articles } from '../src/articles.mjs';
+import { researchGuides } from '../src/research-guides.generated.mjs';
 import { equipmentGuidance, opinionArticles } from '../src/editorial-guidance.mjs';
 import { editorialSources } from '../src/editorial-sources.mjs';
 import { guideLinksForEquipment } from '../src/buying-guides.mjs';
@@ -24,7 +25,7 @@ test('every equipment category has substantive, sourced selection guidance', () 
 });
 
 test('all five perspectives are integrated without losing existing resources', () => {
-  assert.equal(articles.length, 15);
+  assert.equal(articles.length, 15 + researchGuides.length);
   assert.equal(new Set(articles.map(a => a.id)).size, articles.length);
   for (const opinion of opinionArticles) {
     const article = articles.find(a => a.id === opinion.id);

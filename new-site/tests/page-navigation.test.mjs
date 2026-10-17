@@ -4,7 +4,7 @@ import { installPageNavigation, pageKey } from '../src/page-navigation.mjs';
 import { metadata as routeMetadata } from '../src/routes.mjs';
 
 const tick = () => new Promise(resolve => setImmediate(resolve));
-function browser({ url = 'https://mms.test/', native = false, supported = true, reduced = false, deferred = false, failRender = false } = {}) {
+function browser({ url = 'https://mms.test/', native = false, supported = true, reduced = false, deferred = false, failRender = false, prepare } = {}) {
   const handlers = new Map();
   const listen = (name, fn) => handlers.set(name, [...(handlers.get(name) ?? []), fn]);
   const unlisten = (name, fn) => handlers.set(name, handlers.get(name)?.filter(item => item !== fn));
@@ -46,7 +46,7 @@ function browser({ url = 'https://mms.test/', native = false, supported = true, 
     return transition;
   };
   const metadata = Object.fromEntries(Object.keys(routeMetadata).map(page => [page, { title: page, description: `${page} description` }]));
-  installPageNavigation({ win, doc, metadata, render: route => { if (failRender) throw Error('render failed'); renders.push(route); draft = route.draft; } });
+  installPageNavigation({ win, doc, metadata, prepare, render: route => { if (failRender) throw Error('render failed'); renders.push(route); draft = route.draft; } });
   return { win, doc, entries, transitions, renders, redirects, scrolls, motion, emit,
     setDraft(value) { draft = value; },
     async click(href, options = {}) {
@@ -78,6 +78,21 @@ test('Firefox changes page and metadata within one transition and preserves unre
   assert.equal(page.entries.length, 2);
   assert.equal(page.win.history.state.unrelated, true);
   assert.equal(page.scrolls.at(-1).anchor, 'ultrasound');
+});
+
+test('article navigation waits for lazy content before rendering and following its anchor', async () => {
+  let ready;
+  const loading = new Promise(resolve => { ready = resolve; });
+  const prepared = [];
+  const page = browser({ prepare: async key => { prepared.push(key); await loading; } });
+  await page.click('/resources/ultrasound-buying-guide.html#section-2');
+  assert.deepEqual(prepared, ['article-ultrasound-buying-guide']);
+  assert.equal(page.renders.length, 0);
+  assert.equal(page.scrolls.length, 0);
+  ready();
+  await tick();
+  assert.equal(page.renders.at(-1).page, 'article-ultrasound-buying-guide');
+  assert.equal(page.scrolls.at(-1).anchor, 'section-2');
 });
 
 test('nested equipment and article pages keep transitions, metadata, anchors, and history connected', async () => {

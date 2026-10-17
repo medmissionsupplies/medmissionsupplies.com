@@ -4,6 +4,7 @@ import { readFile, writeFile, mkdir, cp } from "node:fs/promises";
 import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { App } from "../src/App.jsx";
+import { prepareResearchArticle } from "../src/ResearchArticleRoute.jsx";
 import { routes, metadata } from "../src/routes.mjs";
 import { pageSeo, socialMetaEntries } from "../src/seo.mjs";
 import { validateApprovedComments } from "../src/comments.mjs";
@@ -26,7 +27,11 @@ const escape = (text) =>
     .replaceAll('"', "&quot;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
-function render(page, meta, path) {
+async function renderCompleteApp(page) {
+  return renderToString(<App page={page} />);
+}
+async function render(page, meta, path) {
+  const appHtml = await renderCompleteApp(page);
   const seo = pageSeo(page);
   const canonical = path ? seo.url : null;
   const socialTags = seo ? socialMetaEntries(seo).map(({ property, name, content }) =>
@@ -45,11 +50,12 @@ function render(page, meta, path) {
     )
     .replace(
       '<div id="root"></div>',
-      `<div id="root">${renderToString(<App page={page} />)}</div>`,
+      `<div id="root">${appHtml}</div>`,
     );
 }
 for (const route of routes) {
-  const html = render(route.key, metadata[route.key], route.path);
+  if (route.articleId) await prepareResearchArticle(route.articleId);
+  const html = await render(route.key, metadata[route.key], route.path);
   const file = new URL(`../dist${route.path}`, import.meta.url);
   await mkdir(dirname(fileURLToPath(file)), { recursive: true });
   await writeFile(file, html);
@@ -64,7 +70,7 @@ for (const route of routes) {
 }
 await writeFile(
   new URL("../dist/404.html", import.meta.url),
-  render("not-found", {
+  await render("not-found", {
     title: "Page not found | Med Mission Supplies",
     description:
       "Find equipment, resources, and support at Med Mission Supplies.",

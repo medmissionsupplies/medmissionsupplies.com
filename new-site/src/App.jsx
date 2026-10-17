@@ -39,7 +39,7 @@ import { routes } from "./routes.mjs";
 const navigation = [
   ["offerings", "Equipment catalog"],
   ["services", "How we help"],
-  ["articles", "Equipment advice"],
+  ["articles", "Buying guides"],
   ["about", "About us"],
   ["contact", "Contact"],
 ];
@@ -165,7 +165,7 @@ function SiteFooter() {
           <nav aria-label="Footer">
             <a href="/about.html">About us</a>
             <a href="/employment.html">Careers</a>
-            <a href="/articles.html">Equipment advice</a>
+            <a href="/articles.html">Buying guides</a>
             <a href="/contact.html">Contact</a>
             <a
               href="https://www.linkedin.com/company/med-mission-supplies"
@@ -277,6 +277,9 @@ export function inquiryFromSearch(search = "") {
   };
   const title = aliases[requested] || requested;
   const topic = params.get("topic");
+  const guide = articles.find(item => item.id === params.get("guide") && item.kind === "research-guide");
+  if (guide)
+    return "I’d like to discuss your guide: " + guide.title + ".\n\nFacility and location:\nMy question:\nBudget and timing:\n";
   if (equipment.some((item) => item.title === title))
     return topic === "service"
       ? "I’d like to discuss service for " +

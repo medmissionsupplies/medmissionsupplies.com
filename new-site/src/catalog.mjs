@@ -271,7 +271,7 @@ export const categoryFor = (id) =>
   categories.find((category) => category.id === id);
 export const equipmentUrl = (item) => `/equipment/${item.id}.html`;
 export const photoUrl = (name) =>
-  `/assets/photos/${name}.${name.startsWith("reference/") ? "webp" : "jpg"}`;
+  `/assets/photos/${name}.${name.startsWith("reference/") || name.startsWith("guides/") ? "webp" : "jpg"}`;
 export function filterEquipment({ category = "all", query = "" } = {}) {
   const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   return equipment.filter(

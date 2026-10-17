@@ -1,6 +1,7 @@
 import { buyingGuides } from "./buying-guides.mjs";
 import { opinionArticles } from "./editorial-guidance.mjs";
 import { equipment } from "./catalog.mjs";
+import { researchGuides } from "./research-guide-index.generated.mjs";
 
 export const articleCategories = [
   "Imaging & radiology",
@@ -170,6 +171,7 @@ articles.push(...opinionArticles.map(item => ({
   sectionSources: item.sections.map(section => section.sources),
 })));
 articles.unshift(...buyingGuides);
+articles.unshift(...researchGuides);
 
 export const articleUrl = (article) => `/resources/${article.id}.html`;
 export function filterArticles({ category = "all", query = "" } = {}) {

@@ -19,8 +19,8 @@ const info = [
   ],
   [
     "articles",
-    "Equipment advice: how it works and what to compare",
-    "Compare hospital equipment, understand ownership costs, and get practical advice for your next purchase or service request.",
+    "Equipment buying guides and printable guide sheets",
+    "Compare equipment choices, ownership costs and service support. Read practical buying guides and download concise guide sheets from MMS.",
   ],
   [
     "about",
