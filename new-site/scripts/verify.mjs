@@ -23,6 +23,7 @@ for (const [file, html] of rendered) {
   assert.ok(html.includes('id="main-content"'), `${file}: missing main landmark`);
   assert.ok(html.includes('Skip to main content'), `${file}: missing skip link`);
   assert.ok(!html.includes('William Grayson'), `${file}: removed employee still present`);
+  assert.ok(!html.includes('/guidesheets/'), `${file}: guide PDF download was restored`);
   // Philips' verified FRx product URL literally ends in /undefined; it is not a rendering error.
   const checkedHtml = html.replaceAll('https://www.philips.com.ph/healthcare/product/HC861304/undefined', 'verified-philips-product');
   assert.ok(!/\bundefined\b/.test(checkedHtml), `${file}: undefined content`);
@@ -47,8 +48,9 @@ for (const guide of researchGuides) {
   assert.ok(rendered.get('articles.html').includes(`/resources/${guide.id}.html`), guide.id + ': not discoverable in library');
   for (const value of [guide.sheet.firstChoice,guide.sheet.upgradeWhen,guide.sheet.budgetWatch,guide.sheet.supportCheck,...guide.sheet.askSupplier]) assert.ok(html.includes(escapedText(value)), guide.id + ': missing buying-sheet content');
   assert.ok(html.includes(`datetime="${guide.reviewedAt}"`) || html.includes(`dateTime="${guide.reviewedAt}"`), guide.id + ': missing review date');
-  assert.ok(html.includes(`/guidesheets/${guide.id}.pdf`), guide.id + ': missing download');
+  await assert.rejects(access(resolve(root, 'guidesheets', guide.id+'.pdf')), guide.id + ': public PDF must be absent');
 }
+await assert.rejects(access(resolve(root, 'guidesheets/mms-buying-guide-sheets.pdf')), 'Public compendium PDF must be absent');
 for (const item of equipment) {
   const html = rendered.get(`equipment/${item.id}.html`);
   assert.ok(html.includes(item.title.replaceAll('&', '&amp;')), `Missing equipment ${item.id}`);

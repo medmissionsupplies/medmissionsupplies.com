@@ -1,13 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync, existsSync } from 'node:fs';
+import { existsSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { equipment, photoUrl } from '../src/catalog.mjs';
 import { researchGuides } from '../src/research-guides.generated.mjs';
 import { articles } from '../src/articles.mjs';
 
 const publicRoot = resolve(import.meta.dirname, '../public');
-test('every equipment listing has one original, sourced buying guide and printable sheet', () => {
+test('every equipment listing has one original, sourced buying guide and on-page summary', () => {
   assert.equal(researchGuides.length, 46);
   const expected = [...equipment.map(e => e.id+'-buying-guide'), 'free-equipment','quote-gaps','hospital-ready','repair-or-replace','one-or-two','c-arm-detectors','ct-tube-budget','ultrasound-probes','service-contracts','mri-site-readiness','dr-retrofit'];
   expected.push('pacs-image-workflow','equipment-power','replacement-parts','equipment-shipping','end-of-support','rent-or-buy','equipment-handover','maintenance-records','infusion-consumables','sterile-processing-workflow','facility-oxygen','equipment-software-support');
@@ -27,10 +27,9 @@ test('every equipment listing has one original, sourced buying guide and printab
     for (const source of g.research.sources) assert.match(source.url, /^(https:\/\/|archive:historical-equipment-material$)/, g.id);
     assert.ok(existsSync(resolve(publicRoot, photoUrl(g.image).slice(1))), g.id + ': missing photograph');
     assert.ok(g.photo.caption && g.photo.license && g.photo.sourcePage, g.id + ': missing photo attribution');
-    const pdf=readFileSync(resolve(publicRoot, 'guidesheets', g.id+'.pdf'));
-    assert.equal(pdf.subarray(0, 5).toString(), '%PDF-', g.id + ': missing PDF');
   }
-  assert.ok(existsSync(resolve(publicRoot, 'guidesheets/mms-buying-guide-sheets.pdf')));
+  const sheetDir=resolve(publicRoot, 'guidesheets');
+  assert.ok(!existsSync(sheetDir) || readdirSync(sheetDir).length === 0, 'Guide PDFs must remain outside public assets');
 });
 
 test('public research excludes legacy branding, local paths and fabricated availability claims', () => {

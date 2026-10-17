@@ -19,8 +19,8 @@ const info = [
   ],
   [
     "articles",
-    "Equipment buying guides and printable guide sheets",
-    "Compare equipment choices, ownership costs and service support. Read practical buying guides and download concise guide sheets from MMS.",
+    "Equipment buying guides and purchasing advice",
+    "Compare equipment choices, ownership costs and service support. Explore practical buying guides and concise decision summaries from MMS.",
   ],
   [
     "about",
