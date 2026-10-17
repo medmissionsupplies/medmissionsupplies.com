@@ -73,7 +73,7 @@ test("article categories, search, sections, and related equipment remain connect
   );
   assert.ok(filterArticles({ query: "tonometer" }).some(article => article.id === "mission-clinic-equipment-guide"));
   for (const article of articles) {
-    assert.ok(article.kind === "buying-guide" ? article.entries.length >= 4 : article.sections.length >= 4);
+    assert.ok(article.kind === "buying-guide" ? article.entries.length >= 4 : article.sections.length >= (article.kind === "research-guide" ? 3 : 4));
     for (const id of article.related)
       assert.ok(equipment.some((item) => item.id === id));
   }

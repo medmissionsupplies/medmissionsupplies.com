@@ -4,11 +4,13 @@ import { flushSync } from "react-dom";
 import { App, pageFromPath } from "./App.jsx";
 import { installPageNavigation } from "./page-navigation.mjs";
 import { captureCurrentCampaign } from "./campaign-reference.mjs";
+import { prepareResearchArticle } from "./ResearchArticleRoute.jsx";
 import "./styles.scss";
 import "./editorial.css";
 import "./editorial-guidance.css";
+import "./research-guides.css";
 
-import { metadata } from "./routes.mjs";
+import { metadata, routes } from "./routes.mjs";
 function ClientApp() {
   const [route, setRoute] = useState(() => ({
     page:
@@ -21,6 +23,7 @@ function ClientApp() {
     () =>
       installPageNavigation({
         metadata,
+        prepare: (page) => prepareResearchArticle(routes.find(route => route.key === page)?.articleId),
         render: (next) => flushSync(() => setRoute(next)),
       }),
     [],

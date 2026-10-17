@@ -59,7 +59,7 @@ for (const route of routes) {
   const content = socialContentFor(route, item);
   const source = photoUrl(content.image);
   const photoInput = await readFile(path.join(root, 'public', source));
-  const fingerprint = createHash('sha256').update(generatorHash).update(JSON.stringify(content)).update(photoInput).digest('hex');
+  const fingerprint = createHash('sha256').update(generatorHash).update(JSON.stringify(content)).update(JSON.stringify(item?.photo ?? null)).update(photoInput).digest('hex');
   const image = socialImagePath(route.key);
   const target = path.join(root, 'public', image);
   let file;
@@ -80,7 +80,17 @@ for (const route of routes) {
       await textLayer('medmissionsupplies.com', { x: 55, y: 578, width: 650, height: 24, size: 20, color: '#c1d5e3' }),
       await textLayer('ILLUSTRATIVE EQUIPMENT', { x: 789, y: 521, width: 333, height: 22, size: 14, color: '#516776' }),
     ];
-    await sharp(frame).composite(overlays).jpeg({ quality: 88, mozjpeg: true, chromaSubsampling: '4:4:4' }).toFile(target);
+    if (item?.photo) {
+      const credit = `${item.photo.photographer} · ${item.photo.license}`;
+      overlays.push(await textLayer(credit, { x: 789, y: 566, width: 355, height: 38, size: 12, minimum: 10, color: '#d4e5ef' }));
+      if (item.photo.creditNote) overlays.push(await textLayer(item.photo.creditNote, { x: 55, y: 610, width: 1089, height: 16, size: 10, minimum: 9, color: '#c1d5e3' }));
+    }
+    let composed = sharp(frame).composite(overlays);
+    if (item?.photo) composed = composed.withExif({ IFD0: {
+      ImageDescription: `${content.alt} Credit: ${item.photo.photographer}. ${item.photo.license}. ${item.photo.licenseUrl} Source: ${item.photo.sourcePage}. ${item.photo.creditNote || ''}`,
+      Copyright: `${item.photo.photographer}; ${item.photo.license}. ${item.photo.licenseUrl}`,
+    }});
+    await composed.jpeg({ quality: 88, mozjpeg: true, chromaSubsampling: '4:4:4' }).toFile(target);
     file = await stat(target);
     generated++;
   }
