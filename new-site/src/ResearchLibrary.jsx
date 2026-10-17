@@ -1,12 +1,11 @@
 import React, { useMemo, useState } from "react";
-import { ArrowRight, ArrowUpRight, Download, Search, Checkmark } from "@carbon/icons-react";
+import { ArrowRight, ArrowUpRight, Search, Checkmark } from "@carbon/icons-react";
 import OptimizedImage from "./OptimizedImage.jsx";
 import ShareTools from "./ShareTools.jsx";
 import { equipment, equipmentUrl, photoUrl } from "./catalog.mjs";
 import { researchGuides } from "./research-guide-index.generated.mjs";
 
 const resourceUrl = (item) => `/resources/${item.id}.html`;
-const pdfUrl = (item) => `/guidesheets/${item.id}.pdf`;
 const external = (url) => /^https?:\/\//i.test(url || "");
 const sourceAnchor = (id) => `reference-${String(id).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
 const displayDate = (value) => {
@@ -22,13 +21,6 @@ function GuideImage({ item, eager = false, className = "", sizes }) {
     style={{ objectFit: item.photo?.fit === "cover" ? "cover" : "contain" }}
     sizes={sizes || "(max-width: 620px) 92vw, (max-width: 950px) 45vw, 380px"}
     loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : undefined} />;
-}
-
-function PdfLink({ item, all = false, compact = false }) {
-  return <a className={`rg-download${compact ? " rg-download-compact" : ""}`}
-    href={all ? "/guidesheets/mms-buying-guide-sheets.pdf" : pdfUrl(item)} download>
-    <Download size={18} aria-hidden="true" />{all ? "Download the compendium" : "Download guide sheet"}<span>PDF</span>
-  </a>;
 }
 
 function References({ ids, sources }) {
@@ -68,7 +60,6 @@ export function ResearchLibrary() {
     <header className="rg-library-heading">
       <div><span className="rg-kicker">The MMS Equipment Compendium</span><h1>Equipment buying guides.</h1>
         <p>What to choose, where to spend, and what to check before you buy. Start with the equipment your hospital needs.</p></div>
-      <PdfLink all />
     </header>
     <section className="rg-equipment-library" aria-labelledby="rg-equipment-heading">
       <div className="rg-library-controls">
@@ -112,7 +103,7 @@ function AtAGlance({ item, sources }) {
   const alternativeLabel = broadClinicalGroups.has(item.equipmentId || item.research?.id) ? "Consider alternatives when" : "Spend more when";
   const points = [["Start here", sheet.firstChoice], [alternativeLabel, sheet.upgradeWhen], ["Watch the budget", sheet.budgetWatch], ["Check the support", sheet.supportCheck]].filter(([, text]) => text);
   return <section className="rg-at-a-glance" aria-labelledby="rg-glance-heading" id="guide-sheet">
-    <div className="rg-sheet-heading"><div><span className="rg-kicker">Your buying guide sheet</span><h2 id="rg-glance-heading">The decision at a glance.</h2></div><PdfLink item={item} compact /></div>
+    <div className="rg-sheet-heading"><div><span className="rg-kicker">Your buying summary</span><h2 id="rg-glance-heading">The decision at a glance.</h2></div></div>
     <dl className="rg-sheet-points">{points.map(([label, text]) => <div key={label}><dt>{label}</dt><dd>{text}</dd></div>)}</dl>
     {!!sheet.askSupplier?.length && <div className="rg-sheet-questions"><h3>Ask the supplier</h3><ol>{sheet.askSupplier.map((question, index) => <li key={index}>{question}</li>)}</ol></div>}
     <References ids={sheet.sourceIds} sources={sources} />

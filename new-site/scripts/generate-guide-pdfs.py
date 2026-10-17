@@ -1,10 +1,10 @@
-"""Create the reviewed one-page MMS buying sheets and a combined booklet.
+"""Create internal MMS buying sheets and a combined booklet, outside the site.
 
-Run after import-research-guides.py. PDFs are checked in; CI needs no Python.
+Run with --output-dir pointing to a private working directory. Never publish these PDFs.
 """
 from pathlib import Path
 from html import escape
-import json, re
+import argparse, json, re
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import HexColor
 from reportlab.lib.pagesizes import A4
@@ -17,7 +17,12 @@ from pypdf import PdfReader, PdfWriter
 site = Path(__file__).resolve().parents[1]
 raw = (site/'src/research-guides.generated.mjs').read_text(encoding='utf-8')
 guides = json.loads(raw.split('export const researchGuides = ', 1)[1].rstrip().rstrip(';'))
-out = site/'public/guidesheets'
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--output-dir',required=True,help='Private output directory outside the public website')
+out=Path(parser.parse_args().output_dir).resolve()
+for public in [site/'public',site/'dist']:
+    if out == public.resolve() or public.resolve() in out.parents:
+        raise ValueError('PDF downloads are not permitted in the public website')
 out.mkdir(parents=True, exist_ok=True)
 regular, bold = 'Helvetica', 'Helvetica-Bold'
 font = Path('C:/Windows/Fonts')
