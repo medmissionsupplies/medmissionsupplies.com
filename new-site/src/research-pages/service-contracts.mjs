@@ -3,8 +3,8 @@ export default {
   "key": "service-contracts",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "A service contract is only as useful as its coverage",
-  "summary": "Compare full coverage, maintenance-only, parts support and time-and-materials against the hospital's repair capacity and ability to withstand interruption.",
+  "title": "Will the service contract pay for the failure you fear?",
+  "summary": "Compare the major-component exclusions, response promise and repair capacity behind the annual fee. Full service is useful only when its scope fits the hospital.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/surgical-tables",
@@ -35,11 +35,11 @@ export default {
       "WHO's maintenance guidance distinguishes inspection, preventive work and corrective maintenance. These are connected activities, but purchasing one does not automatically purchase the others. A preventive-maintenance plan may establish regular visits while leaving a failed tube or circuit board outside its price. Ask the supplier to identify the tasks and records delivered at each planned visit and the process for defects discovered. Then obtain a separate description of corrective coverage. Avoid accepting a general statement that maintenance is included when the quote leaves frequency, labor, parts and follow-up unresolved."
     ],
     [
-      "Compare actual coverage, one component at a time",
+      "Read the expensive exclusions first",
       "Use an inclusion table for labor, travel, overtime, freight, detectors, tubes, probes, software support and relevant external equipment. Mark limits and conditions as carefully as exclusions. Block Imaging's CT guidance highlights that tube replacement may be outside an agreement even when tube-related maintenance is covered. That is a seller's example, not a universal contract rule. Ask how pre-existing faults, accidental damage and site-related failures are handled. Determine whether the remedy is repair, exchange or another arrangement and whether prior approval is required. A lower fee with an excluded major component can still be sensible, provided the hospital explicitly funds that remaining exposure."
     ],
     [
-      "A response promise needs a finish line",
+      "A response clock is not a restoration clock",
       "Distinguish acknowledgement, remote diagnosis, engineer dispatch, arrival and restoration of the required service. These events are not interchangeable. Record when each clock starts, which working hours count and whether parts availability or customer approvals pause the obligation. Ask where engineers and compatible parts will come from. A replacement or loaner promise also needs detail: exact capability, compatibility, transport and the conditions for availability. Where temporary equipment is impractical, identify the hospital's continuity arrangement. A credit for a missed service target may matter financially, but the operating team still needs a workable plan for the interruption. Test the promise with a concrete example: a fault reported late in the working day, a part held elsewhere and a technician available only after travel. Have the provider explain the sequence and charges so the hospital can see which delays it still owns."
     ],
     [
@@ -48,20 +48,20 @@ export default {
     ],
     [
       "Stress-test the fee and preserve the maintenance record",
-      "Compare each proposal over the same term in several explicit situations: scheduled upkeep only, a repair requiring travel and a major covered or excluded component failure. Use quoted costs without invented probabilities. Show what the hospital pays in each situation and whether it has funds and authority to proceed quickly. Review renewal pricing, cancellation, equipment removal and the consequences of parts or software support ending. Require usable service reports and maintain the hospital's own asset history; WHO's 2025 inventory guidance places maintenance within the device lifecycle. Choose the arrangement that transfers the risks the hospital needs transferred while leaving clearly funded responsibilities."
+      "Stress-test each offer over the same term without pretending to know failure probabilities. In a hypothetical one-year comparison, Plan A costs US$3,000 but excludes an US$8,000 component; Plan B costs US$5,000 and includes that component and its replacement work. With no failure, A costs US$2,000 less. With one covered failure under the stated assumptions, A costs US$11,000 against B’s US$5,000. This is an illustration, not market pricing; travel, deductibles and other differences must be included when they are not equal. Review renewal pricing, cancellation, equipment removal and the consequences of parts or software support ending. Require usable service reports and maintain the hospital's own asset history; WHO's 2025 inventory guidance places maintenance within the device lifecycle. Choose the arrangement that transfers the risks the hospital needs transferred while leaving clearly funded responsibilities."
     ]
   ],
   "related": [
     "surgical-tables"
   ],
-  "socialTitle": "What does your service contract actually cover?",
-  "socialDescription": "A full-service label does not specify tube, probe, detector, travel or after-hours coverage. Compare the schedule before the fee.",
-  "socialHeadline": "Equipment service coverage buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "Will the contract cover the failure that stops your service?",
+  "socialDescription": "Compare tubes, probes, travel, restoration and the work your own team can carry before choosing a service fee.",
+  "socialHeadline": "Will the contract cover the failure that stops your service?",
+  "socialStrapline": "A fast response and a covered repair are different promises.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Equipment service coverage buying sheet",
-    "summary": "Compare who performs and pays for each maintenance and repair obligation. Plan names and annual fees do not define coverage.",
+    "title": "Will the service contract pay for the failure you fear?",
+    "summary": "Compare the major-component exclusions, response promise and repair capacity behind the annual fee. Full service is useful only when its scope fits the hospital.",
     "firstChoice": "Request equal-scope full-service, maintenance-only and separately funded repair alternatives. Start with the failures the hospital cannot afford to carry.",
     "upgradeWhen": "Broader coverage resolves a material expertise, access or financial gap and supplies a credible response at this destination.",
     "budgetWatch": "Price major components, overtime, travel, freight, deductibles, limits and exclusions, along with internal staff time, training and diagnostic tools.",
@@ -90,9 +90,9 @@ export default {
       "response and restoration",
       "renewal and support horizon"
     ],
-    "title": "A service contract is only as useful as its coverage",
-    "dek": "Compare full coverage, maintenance-only, parts support and time-and-materials against the hospital's repair capacity and ability to withstand interruption.",
-    "verdict": "Buy broader coverage when it transfers a material, unaffordable repair exposure and supplies a credible response at the destination. Use maintenance plus separately funded repairs when local capability, available parts and reserves make that practical. Require the same scope and service assumptions in every comparison.",
+    "title": "Will the service contract pay for the failure you fear?",
+    "dek": "Compare the major-component exclusions, response promise and repair capacity behind the annual fee. Full service is useful only when its scope fits the hospital.",
+    "verdict": "Pay for broader coverage when it transfers an unaffordable repair exposure and supplies a credible destination response. Use maintenance plus funded repairs when local capability, parts and reserves support that choice.",
     "decision": {
       "firstMove": "List the equipment and major components, then mark every task and failure included, excluded or capped.",
       "spendMoreWhen": "The additional fee buys necessary expertise, usable response and meaningful protection against costs the facility cannot absorb.",
@@ -100,9 +100,9 @@ export default {
       "walkAwayWhen": "Important exclusions, response definitions, parts access or end-of-support provisions remain unclear."
     },
     "social": {
-      "title": "What does your service contract actually cover?",
-      "description": "A full-service label does not specify tube, probe, detector, travel or after-hours coverage. Compare the schedule before the fee.",
-      "hook": "Ask who pays for the failure that would stop your service."
+      "title": "Will the contract cover the failure that stops your service?",
+      "description": "Compare tubes, probes, travel, restoration and the work your own team can carry before choosing a service fee.",
+      "hook": "A fast response and a covered repair are different promises."
     },
     "choices": [
       {
@@ -201,7 +201,7 @@ export default {
         ]
       },
       {
-        "heading": "Compare actual coverage, one component at a time",
+        "heading": "Read the expensive exclusions first",
         "paragraphs": [
           "Use an inclusion table for labor, travel, overtime, freight, detectors, tubes, probes, software support and relevant external equipment. Mark limits and conditions as carefully as exclusions. Block Imaging's CT guidance highlights that tube replacement may be outside an agreement even when tube-related maintenance is covered. That is a seller's example, not a universal contract rule.",
           "Ask how pre-existing faults, accidental damage and site-related failures are handled. Determine whether the remedy is repair, exchange or another arrangement and whether prior approval is required. A lower fee with an excluded major component can still be sensible, provided the hospital explicitly funds that remaining exposure."
@@ -211,7 +211,7 @@ export default {
         ]
       },
       {
-        "heading": "A response promise needs a finish line",
+        "heading": "A response clock is not a restoration clock",
         "paragraphs": [
           "Distinguish acknowledgement, remote diagnosis, engineer dispatch, arrival and restoration of the required service. These events are not interchangeable. Record when each clock starts, which working hours count and whether parts availability or customer approvals pause the obligation. Ask where engineers and compatible parts will come from.",
           "A replacement or loaner promise also needs detail: exact capability, compatibility, transport and the conditions for availability. Where temporary equipment is impractical, identify the hospital's continuity arrangement. A credit for a missed service target may matter financially, but the operating team still needs a workable plan for the interruption.",
@@ -232,7 +232,7 @@ export default {
       {
         "heading": "Stress-test the fee and preserve the maintenance record",
         "paragraphs": [
-          "Compare each proposal over the same term in several explicit situations: scheduled upkeep only, a repair requiring travel and a major covered or excluded component failure. Use quoted costs without invented probabilities. Show what the hospital pays in each situation and whether it has funds and authority to proceed quickly.",
+          "Stress-test each offer over the same term without pretending to know failure probabilities. In a hypothetical one-year comparison, Plan A costs US$3,000 but excludes an US$8,000 component; Plan B costs US$5,000 and includes that component and its replacement work. With no failure, A costs US$2,000 less. With one covered failure under the stated assumptions, A costs US$11,000 against B’s US$5,000. This is an illustration, not market pricing; travel, deductibles and other differences must be included when they are not equal.",
           "Review renewal pricing, cancellation, equipment removal and the consequences of parts or software support ending. Require usable service reports and maintain the hospital's own asset history; WHO's 2025 inventory guidance places maintenance within the device lifecycle. Choose the arrangement that transfers the risks the hospital needs transferred while leaving clearly funded responsibilities."
         ],
         "sourceIds": [
@@ -324,7 +324,36 @@ export default {
       "ct-tube-budget",
       "ultrasound-probes",
       "c-arm-detectors"
-    ]
+    ],
+    "visual": {
+      "type": "cost-comparison",
+      "title": "The lower annual fee does not always buy the lower bill",
+      "rowHeader": "Plan",
+      "unit": "USD",
+      "columns": [
+        "No failure",
+        "One component failure"
+      ],
+      "rows": [
+        {
+          "label": "Plan A",
+          "values": [
+            3000,
+            11000
+          ]
+        },
+        {
+          "label": "Plan B",
+          "values": [
+            5000,
+            5000
+          ]
+        }
+      ],
+      "insertAfterHeading": "Stress-test the fee and preserve the maintenance record",
+      "caption": "Hypothetical one-year USD example: A excludes an $8,000 component; B includes that component and its replacement work. No failure probability is assumed. Unequal travel, deductibles or other exclusions must be added."
+    }
   },
-  "searchTerms": "full service versus time and materials preventive maintenance parts and in-house support coverage exclusions response and restoration renewal and support horizon Preventive-maintenance-only arrangement Time-and-materials corrective service Parts and specialist support for an in-house team Full-service agreement with named major components"
+  "searchTerms": "full service versus time and materials preventive maintenance parts and in-house support coverage exclusions response and restoration renewal and support horizon Preventive-maintenance-only arrangement Time-and-materials corrective service Parts and specialist support for an in-house team Full-service agreement with named major components",
+  "librarySection": "decisions"
 };

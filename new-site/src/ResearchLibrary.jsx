@@ -4,6 +4,8 @@ import OptimizedImage from "./OptimizedImage.jsx";
 import ShareTools from "./ShareTools.jsx";
 import { equipment, equipmentUrl, photoUrl } from "./catalog.mjs";
 import { researchGuides } from "./research-guide-index.generated.mjs";
+import { articles } from "./articles.mjs";
+import { matchesGuideSearch } from "./guide-search.mjs";
 
 const resourceUrl = (item) => `/resources/${item.id}.html`;
 const external = (url) => /^https?:\/\//i.test(url || "");
@@ -18,7 +20,7 @@ function GuideImage({ item, eager = false, className = "", sizes }) {
   if (!item.image) return null;
   return <OptimizedImage className={className} src={photoUrl(item.image)}
     alt={item.photo?.alt || item.photo?.caption || `${item.sheet?.title || item.title} equipment example`}
-    style={{ objectFit: item.photo?.fit === "cover" ? "cover" : "contain" }}
+    style={{ objectFit: item.photo?.preventUpscaling ? "scale-down" : item.photo?.fit === "cover" ? "cover" : "contain" }}
     sizes={sizes || "(max-width: 620px) 92vw, (max-width: 950px) 45vw, 380px"}
     loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : undefined} />;
 }
@@ -49,11 +51,16 @@ function PhotoCredit({ photo }) {
 export function ResearchLibrary() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
-  const guides = useMemo(() => researchGuides.filter(item => item.equipmentId), []);
-  const decisions = useMemo(() => researchGuides.filter(item => !item.equipmentId), []);
+  const isEquipmentGuide = item => item.librarySection === "equipment" || item.equipmentId;
+  const guides = useMemo(() => researchGuides.filter(isEquipmentGuide), []);
+  const decisions = useMemo(() => [
+    ...researchGuides.filter(item => !isEquipmentGuide(item)),
+    ...articles.filter(item => item.kind !== "research-guide").map(item => ({
+      ...item, categoryId: item.department || "decisions",
+    })),
+  ], []);
   const categories = [...new Map(researchGuides.map(item => [item.categoryId, item.category])).entries()];
-  const matches = item => (category === "all" || item.categoryId === category) &&
-    `${item.sheet?.title || ""} ${item.title} ${item.summary} ${item.searchTerms || ""}`.toLowerCase().includes(query.trim().toLowerCase());
+  const matches = item => (category === "all" || item.categoryId === category) && matchesGuideSearch(item, query);
   const visible = guides.filter(matches);
   const visibleDecisions = decisions.filter(matches);
   return <div className="rg-library content-width">
@@ -75,7 +82,7 @@ export function ResearchLibrary() {
           </label>
         </div>
       </div>
-      <p className="rg-result-count" role="status">{visible.length + visibleDecisions.length} guides{category !== "all" || query ? " found" : " · Equipment, buying decisions & ownership"}</p>
+      <p className="rg-result-count" role="status">{visible.length + visibleDecisions.length} guides & articles{category !== "all" || query ? " found" : " · Equipment, buying decisions & ownership"}</p>
       <div className="rg-guide-grid">{visible.map(item => <article className="rg-guide-card" key={item.id}>
         <a href={resourceUrl(item)}><div className="rg-guide-card-photo"><GuideImage item={item} /></div>
           <div className="rg-guide-card-copy"><span className="rg-card-category">{item.category}</span><h3>{item.sheet?.title || item.title}</h3>
@@ -85,10 +92,10 @@ export function ResearchLibrary() {
       {!visible.length && !visibleDecisions.length && <div className="rg-no-results"><h3>No guides match that search.</h3><p>Try an equipment name, or view all topics.</p><button type="button" onClick={() => { setQuery(""); setCategory("all"); }}>Show all guides</button></div>}
     </section>
     {!!visibleDecisions.length && <section className="rg-decision-library" aria-labelledby="rg-decisions-heading">
-      <div className="rg-section-heading"><span className="rg-kicker">Before you commit</span><h2 id="rg-decisions-heading">Make the whole purchase work.</h2><p>Compare the quote, plan the installation, and ask what happens when something fails.</p></div>
+      <div className="rg-section-heading"><span className="rg-kicker">Go deeper</span><h2 id="rg-decisions-heading">Solve the next buying decision.</h2><p>Compare specific equipment packages, plan the installation, and weigh the costs of keeping a service running.</p></div>
       <div className="rg-decision-grid">{visibleDecisions.map((item, index) => <article className="rg-decision-card" key={item.id}>
         <a href={resourceUrl(item)}><span className="rg-decision-index" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
-          <div><h3>{item.title}</h3><p>{item.sheet?.summary || item.summary}</p><span className="rg-card-link">Read the guide <ArrowRight size={18} aria-hidden="true" /></span></div>
+          <div><h3>{item.title}</h3><p>{item.sheet?.summary || item.summary}</p><span className="rg-card-link">{item.kind === "opinion" ? "Read the perspective" : "Read the guide"} <ArrowRight size={18} aria-hidden="true" /></span></div>
         </a>
       </article>)}</div>
     </section>}
@@ -112,17 +119,38 @@ function AtAGlance({ item, sources }) {
 
 function ModelComparison({ research, sources }) {
   if (!research.quickCompare?.length && !research.choices?.length) return null;
+  const fields = [["Best for", "bestFor"], ["Why consider it", "why"], ["The trade-off", "tradeoff"], ["Price & package", "price"], ["Support", "support"]];
+  const shared = new Map(fields.filter(([, key]) => research.choices?.length > 1 &&
+    research.choices[0][key] && research.choices.every(choice => choice[key] === research.choices[0][key]))
+    .map(([label, key]) => [key, { label, text: research.choices[0][key] }]));
   return <section className="rg-models" id="model-comparison" aria-labelledby="rg-models-heading"><h2 id="rg-models-heading">Compare the options.</h2>
     {!!research.quickCompare?.length && <div className="rg-comparison">{research.quickCompare.map((option, index) => <div className="rg-comparison-row" key={index}>
       <h3>{option.option}</h3><dl><div><dt>Capability</dt><dd>{option.capability}</dd></div><div><dt>Best fit</dt><dd>{option.bestFit}</dd></div><div><dt>Cost to watch</dt><dd>{option.costDriver}</dd></div></dl>
     </div>)}</div>}
     {!!research.choices?.length && <details className="rg-model-details"><summary>{research.kind === "feature" ? "Option notes, costs & support" : "Model notes, pricing & support"} <span>{research.choices.length} options</span></summary>
-      <div>{research.choices.map((choice, index) => <section className="rg-model-note" key={index}><h3>{choice.model}</h3>{choice.position && <p className="rg-model-position">{choice.position}</p>}
-        <dl>{[["Best for", choice.bestFor], ["Why consider it", choice.why], ["The trade-off", choice.tradeoff], ["Price & package", choice.price], ["Support", choice.support]].filter(([, text]) => text).map(([label, text]) => <div key={label}><dt>{label}</dt><dd>{text}</dd></div>)}</dl>
+      <div>{shared.size > 0 && <div className="rg-model-note rg-shared-comparison"><h3>For every option</h3><dl>{[...shared.values()].map(({ label, text }) => <div key={label}><dt>{label}</dt><dd>{text}</dd></div>)}</dl></div>}
+      {research.choices.map((choice, index) => <section className="rg-model-note" key={index}><h3>{choice.model}</h3>{choice.position && <p className="rg-model-position">{choice.position}</p>}
+        <dl>{fields.filter(([, key]) => choice[key] && !shared.has(key)).map(([label, key]) => <div key={key}><dt>{label}</dt><dd>{choice[key]}</dd></div>)}</dl>
         <References ids={choice.sourceIds} sources={sources} />
       </section>)}</div>
     </details>}
   </section>;
+}
+
+function BuyingVisual({ visual }) {
+  if (visual?.type !== "cost-comparison" || !visual.rows?.length || !visual.columns?.length) return null;
+  const maximum = Math.max(...visual.rows.flatMap(row => row.values));
+  const amount = new Intl.NumberFormat("en-US", { style: "currency", currency: visual.unit || "USD", maximumFractionDigits: 0 });
+  return <figure className="rg-buying-visual">
+    <h3>{visual.title}</h3>
+    <div className="rg-visual-scroll" role="region" aria-label={visual.title} tabIndex={0}>
+      <table><thead><tr><th scope="col">{visual.rowHeader || "Package"}</th>{visual.columns.map(column => <th scope="col" key={column}>{column}</th>)}</tr></thead>
+        <tbody>{visual.rows.map(row => <tr key={row.label}><th scope="row">{row.label}</th>{row.values.map((value, index) => <td key={index}>
+          <span className="rg-value-bar" aria-hidden="true" style={{ width: `${maximum ? value / maximum * 100 : 0}%` }} /><strong>{amount.format(value)}</strong>
+        </td>)}</tr>)}</tbody></table>
+    </div>
+    <figcaption>{visual.caption}</figcaption>
+  </figure>;
 }
 
 export function ResearchArticle({ item }) {
@@ -168,7 +196,7 @@ export function ResearchArticle({ item }) {
     <a className="rg-back" href="/articles.html"><ArrowRight size={16} aria-hidden="true" />Equipment buying guides</a>
     <header className={`rg-article-heading${item.image ? " rg-with-photo" : ""}`}>
       <div className="rg-article-title"><span className="rg-kicker">{item.category || "Equipment buying advice"}{item.minutes ? ` · ${item.minutes} min read` : ""}</span><h1>{item.title}</h1><p>{item.summary}</p>
-        {reviewed && <span className="rg-reviewed">Sources reviewed <time dateTime={String(item.reviewedAt).slice(0, 10)}>{reviewed}</time></span>}
+        {reviewed && <span className="rg-reviewed">Editorially reviewed <time dateTime={String(item.reviewedAt).slice(0, 10)}>{reviewed}</time></span>}
       </div>
       {item.image && <figure className="rg-article-photo"><div><GuideImage item={item} eager sizes="(max-width: 760px) 92vw, 470px" /></div><PhotoCredit photo={item.photo} /></figure>}
     </header>
@@ -179,7 +207,8 @@ export function ResearchArticle({ item }) {
         {sections.map(([heading, text], index) => {
           const section = research.sections?.[index];
           const paragraphs = section?.paragraphs || String(text || "").split(/\n\s*\n/).filter(Boolean);
-          return <section className="rg-body-section" id={`section-${index + 1}`} key={`${heading}-${index}`}><h2>{heading}</h2>{paragraphs.map((paragraph, pIndex) => <p key={pIndex}>{paragraph}</p>)}<References ids={section?.sourceIds} sources={sources} /></section>;
+          const showVisual = research.visual?.insertAfterHeading ? heading === research.visual.insertAfterHeading : index === 3;
+          return <React.Fragment key={`${heading}-${index}`}><section className="rg-body-section" id={`section-${index + 1}`}><h2>{heading}</h2>{paragraphs.map((paragraph, pIndex) => <p key={pIndex}>{paragraph}</p>)}<References ids={section?.sourceIds} sources={sources} /></section>{showVisual && <BuyingVisual visual={research.visual} />}</React.Fragment>;
         })}
         <ModelComparison research={research} sources={sources} />
         {research.ownership && <section className="rg-ownership" id="ownership-cost"><span className="rg-kicker">Beyond the purchase price</span><h2>Budget for the complete service.</h2>

@@ -78,7 +78,7 @@ await writeFile(
 );
 await writeFile(
   new URL("../dist/sitemap.xml", import.meta.url),
-  `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map((route) => `<url><loc>https://medmissionsupplies.com${route.path}</loc></url>`).join("")}</urlset>`,
+  `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map((route) => { const modified = pageSeo(route.key).modified; return `<url><loc>https://medmissionsupplies.com${route.path}</loc>${modified ? `<lastmod>${modified}</lastmod>` : ''}</url>`; }).join("")}</urlset>`,
 );
 await cp(
   new URL("../licenses/", import.meta.url),

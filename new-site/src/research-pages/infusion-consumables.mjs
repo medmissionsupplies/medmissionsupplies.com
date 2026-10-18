@@ -3,8 +3,8 @@ export default {
   "key": "infusion-consumables",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Price a year of infusion sets before choosing the pump",
-  "summary": "A pump quotation becomes useful when it includes the approved sets and syringes the hospital will have to keep ordering.",
+  "title": "Infusion sets: a lower unit price can cost the hospital more",
+  "summary": "Use pack sizes, expiry, minimum orders and a common annual basket to expose the real supply cost before committing to a pump fleet.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/infusion",
@@ -24,48 +24,44 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
-      "Start with the consumables the service actually needs",
-      "Ask nursing, pharmacy, engineering and purchasing to define the intended work before comparing pumps. Build a list of required administration sets, extension sets and syringe types for that work. The responsible clinical team approves the requirements; purchasing records the ordering references and quantities. A count of pumps alone cannot describe the annual supply commitment. FDA recommends multidisciplinary evaluation before pump purchase or rental and a plan for introduction and training. Use that team to sign off one comparison basket. Otherwise, one supplier may quote a basic set while another includes the filters, connectors or other features your approved workflow requires."
+      "The cheapest set is not always the cheapest year",
+      "Suppose a hospital expects to use 6,000 units of an approved set in a year. Supplier A offers scheduled deliveries at US$2.40 each: $14,400. Supplier B offers $2.10 each but requires an 8,000-unit minimum order: $16,800. If the extra 2,000 units expire before they can be used and cannot be returned, B costs $2,400 more and effectively charges $2.80 per usable unit. This is a hypothetical purchasing example, with freight and tax assumed equal—not current market pricing. If those extra units remain usable next year, they are inventory rather than an immediate expiry loss. Show the cash commitment now and the future stock separately. This distinction is why price per set, annual cash outlay and cost per usable set should appear side by side. A volume discount earns its saving only when the hospital can use or recover the extra supply."
     ],
     [
-      "Match each reference to the exact configuration",
-      "Record the pump family, module, software version and destination alongside every proposed consumable. B. Braun distinguishes dedicated Infusomat Space and Spaceplus lines from those for Infusomat compactplus. That is a concrete reason to avoid an order described only as compatible B. Braun tubing. Obtain the current manufacturer's compatibility information for the supplied configuration. The BD Alaris version 12.1 manual provides another example: it directs users to compatible set lists and explains that permitted syringe models depend on software version, with country differences in availability. The manual illustrates the purchasing question; it does not establish current suitability of any offered used unit. Ask for the applicable current documentation."
+      "Make the two baskets clinically equivalent",
+      "Have nursing, pharmacy, engineering and purchasing agree the required applications before asking for prices. A basic set and one with the required filters, connectors or light protection are different offers. The responsible clinical team defines the need; purchasing records the approved ordering reference and quantity. Do not invent a replacement interval to make a spreadsheet complete. Match those references to the exact pump, module, software and destination. B. Braun lists separate dedicated line families for Space/Spaceplus and compactplus. The Alaris version 12.1 manual is another configuration-specific example: permitted syringe models depend on software, with country differences. Neither a familiar brand name nor a physically fitting set establishes permission to substitute."
     ],
     [
-      "Give every bidder the same one-year basket",
-      "Use one row per approved stock-keeping unit, or SKU. Include description, manufacturer reference, pack quantity, forecast annual units, opening stock, desired closing stock, quoted price per pack, freight and delivery schedule. Base quantities on the hospital's workload and approved replacement practices, not on a sales estimate or a newly invented clinical schedule. Calculate packs to order from the planned units, allowing for the pack size. Show initial stock separately from recurring annual consumption so it is not counted twice. Ask bidders to identify minimum orders, price-validity periods and any volume commitment. Compare delivered annual totals in the same currency and period, with taxes and exclusions visible."
+      "Round the order, not the expected workload",
+      "Work in individual units first, then convert to cartons. For example, 1,025 required units supplied in packs of 50 require 21 packs, or 1,050 units. Keep the 25-unit balance visible. Apply the same method to every approved reference before adding delivered totals in one currency and period. Minimum orders may apply to a reference, a delivery or the whole contract; those conditions can change the result. Separate expected consumption from opening stock and desired closing stock. Units to purchase equal expected consumption plus desired closing stock minus usable opening stock, with additional losses shown explicitly. Then account for pack rounding. Do not add a full annual basket and a full startup stock twice without showing which stock remains at year end."
     ],
     [
-      "Price the stock the hospital can use in time",
-      "Add shelf life remaining on delivery, storage requirements and realistic replenishment lead times to the basket. A discounted carton that cannot be used before expiry is not equivalent to smaller scheduled deliveries. Agree how damaged, short-dated or incorrect supplies will be handled and identify who receives product notices and recall information. Ask what happens if a required reference becomes unavailable. Request the proposed replacement reference and written compatibility evidence for the actual pump configuration. Any change needs the hospital's established review and training process. Do not let a seller's statement that a set physically fits replace the manufacturer's applicable compatibility information."
+      "A second supplier needs to deliver a usable alternative",
+      "Give replenishment terms financial weight: remaining shelf life on delivery, storage conditions, shipment frequency, short-dated returns and a named shortage escalation route. The useful alternative is a supported replacement reference for the actual configuration, approved through the hospital’s review process. A seller’s promise to find something that fits is not supply resilience. A backup family also needs its own stock and trained users. FDA’s manager guidance calls for access to both a working pump and tubing when failure occurs. Two empty cupboards supplied through the same interruption do not create independent cover. Assess what actually changes under the proposed shortage scenario before paying for duplicated inventory."
     ],
     [
-      "Count the work involved in changing platforms",
-      "Add mounting accessories, batteries where needed, approved startup stock, user training, engineering support and any software configuration work to the hardware price. Record how the hospital will separate old and new consumables during introduction. Identify what stock can still be used, what can be returned and what would become stranded. A second family is not automatically a usable backup. Staff need access to its compatible supplies and the appropriate training. FDA's manager guidance explicitly includes a plan to obtain both a working pump and tubing when a pump fails. Make the proposed continuity arrangement concrete before crediting it as a benefit in the comparison."
-    ],
-    [
-      "Award a replenishable package",
-      "Put three views beside one another: the initial purchase, the recurring one-year basket and a stated supply-interruption scenario. For the last view, ask how service continues if the main set reference is delayed. Use supplier commitments and hospital-approved alternatives; leave unsupported assumptions visibly unresolved. Choose the package that meets the service requirement and can be replenished on acceptable terms. Carry the approved SKU list, order contact, shortage escalation route and review date into the handover record. Revisit the basket when workload or approved products change. The comparison should remain useful long after the capital purchase has disappeared from the purchasing queue."
+      "Compare the transition with keeping a supported fleet",
+      "A new family adds accessories, startup supplies, training, configuration and old stock that may no longer be usable. Keep those one-time costs separate from the recurring basket. Retaining a supported fleet and improving delivery terms may be better value when supply management is the real problem. Standardization is stronger when it removes a demonstrated compatibility, training or support burden. Award the configured equipment and replenishment arrangement together. Carry approved references, pack quantities, price validity, shortage contacts and the review date into routine purchasing. Recalculate when workload or approved products change; the original capital saving should not conceal an increasingly expensive annual commitment."
     ]
   ],
   "related": [
     "infusion"
   ],
-  "socialTitle": "The pump price is only the first line",
-  "socialDescription": "Compare approved set references, annual quantities, expiry and replenishment before standardizing an infusion fleet.",
-  "socialHeadline": "Infusion consumables buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "Infusion sets: a lower unit price can cost the hospital more",
+  "socialDescription": "Use pack sizes, expiry, minimum orders and a common annual basket to expose the real supply cost before committing to a pump fleet.",
+  "socialHeadline": "Infusion sets: a lower unit price can cost the hospital more",
+  "socialStrapline": "Compare usable supply, not the cheapest number on a carton.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Infusion consumables buying sheet",
-    "summary": "Compare pumps with a full year of the approved sets and syringes the hospital needs. A low equipment quote can leave a difficult recurring supply commitment.",
-    "firstChoice": "Build one basket listing exact pump configuration, approved product references, annual quantities, pack sizes and delivered prices. Have the hospital's responsible team approve it.",
-    "upgradeWhen": "A change resolves a demonstrated capability, supply or support problem after training, accessories and transition stock are included.",
+    "title": "Infusion sets: a lower unit price can cost the hospital more",
+    "summary": "Use pack sizes, expiry, minimum orders and a common annual basket to expose the real supply cost before committing to a pump fleet.",
+    "firstChoice": "Have pharmacy, nursing, engineering and purchasing agree the required pump applications and approved consumable references.",
+    "upgradeWhen": "A better supply or support arrangement resolves a documented weakness and its complete cost remains affordable.",
     "budgetWatch": "Check minimum orders, expiry on delivery, freight, price validity and unused old stock. Separate opening inventory from annual consumption.",
-    "supportCheck": "Require current compatibility evidence and a written replenishment and substitution process. A backup pump also needs its compatible supplies and prepared users.",
+    "supportCheck": "The supplier cannot document compatibility for the offered configuration or quote a sustainable replenishment route.",
     "askSupplier": [
       "Which approved references fit this exact pump and software?",
       "What does the complete annual basket cost delivered?",
@@ -80,15 +76,15 @@ export default {
   "research": {
     "kind": "feature",
     "id": "infusion-consumables",
-    "researchedAt": "2026-10-17",
+    "researchedAt": "2026-10-18",
     "coverage": [
       "approved consumable references",
       "one-year purchasing basket",
       "supply continuity and substitutions",
       "fleet transition costs"
     ],
-    "title": "Price a year of infusion sets before choosing the pump",
-    "dek": "A pump quotation becomes useful when it includes the approved sets and syringes the hospital will have to keep ordering.",
+    "title": "Infusion sets: a lower unit price can cost the hospital more",
+    "dek": "Use pack sizes, expiry, minimum orders and a common annual basket to expose the real supply cost before committing to a pump fleet.",
     "verdict": "Compare complete pump packages against the same locally approved annual consumables basket. Prefer a supportable combination of equipment, approved supplies and replenishment terms; a low hardware price does not settle that comparison.",
     "decision": {
       "firstMove": "Have pharmacy, nursing, engineering and purchasing agree the required pump applications and approved consumable references.",
@@ -97,9 +93,9 @@ export default {
       "walkAwayWhen": "The supplier cannot document compatibility for the offered configuration or quote a sustainable replenishment route."
     },
     "social": {
-      "title": "The pump price is only the first line",
-      "description": "Compare approved set references, annual quantities, expiry and replenishment before standardizing an infusion fleet.",
-      "hook": "Ask every supplier to price the same year of work."
+      "title": "Infusion sets: a lower unit price can cost the hospital more",
+      "description": "Use pack sizes, expiry, minimum orders and a common annual basket to expose the real supply cost before committing to a pump fleet.",
+      "hook": "Compare usable supply, not the cheapest number on a carton."
     },
     "choices": [
       {
@@ -159,62 +155,54 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Start with the consumables the service actually needs",
+        "heading": "The cheapest set is not always the cheapest year",
         "paragraphs": [
-          "Ask nursing, pharmacy, engineering and purchasing to define the intended work before comparing pumps. Build a list of required administration sets, extension sets and syringe types for that work. The responsible clinical team approves the requirements; purchasing records the ordering references and quantities. A count of pumps alone cannot describe the annual supply commitment.",
-          "FDA recommends multidisciplinary evaluation before pump purchase or rental and a plan for introduction and training. Use that team to sign off one comparison basket. Otherwise, one supplier may quote a basic set while another includes the filters, connectors or other features your approved workflow requires."
+          "Suppose a hospital expects to use 6,000 units of an approved set in a year. Supplier A offers scheduled deliveries at US$2.40 each: $14,400. Supplier B offers $2.10 each but requires an 8,000-unit minimum order: $16,800. If the extra 2,000 units expire before they can be used and cannot be returned, B costs $2,400 more and effectively charges $2.80 per usable unit. This is a hypothetical purchasing example, with freight and tax assumed equal—not current market pricing.",
+          "If those extra units remain usable next year, they are inventory rather than an immediate expiry loss. Show the cash commitment now and the future stock separately. This distinction is why price per set, annual cash outlay and cost per usable set should appear side by side. A volume discount earns its saving only when the hospital can use or recover the extra supply."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Make the two baskets clinically equivalent",
+        "paragraphs": [
+          "Have nursing, pharmacy, engineering and purchasing agree the required applications before asking for prices. A basic set and one with the required filters, connectors or light protection are different offers. The responsible clinical team defines the need; purchasing records the approved ordering reference and quantity. Do not invent a replacement interval to make a spreadsheet complete.",
+          "Match those references to the exact pump, module, software and destination. B. Braun lists separate dedicated line families for Space/Spaceplus and compactplus. The Alaris version 12.1 manual is another configuration-specific example: permitted syringe models depend on software, with country differences. Neither a familiar brand name nor a physically fitting set establishes permission to substitute."
         ],
         "sourceIds": [
+          "bbraun-disposables",
+          "bd-alaris-manual",
           "fda-pump-managers"
         ]
       },
       {
-        "heading": "Match each reference to the exact configuration",
+        "heading": "Round the order, not the expected workload",
         "paragraphs": [
-          "Record the pump family, module, software version and destination alongside every proposed consumable. B. Braun distinguishes dedicated Infusomat Space and Spaceplus lines from those for Infusomat compactplus. That is a concrete reason to avoid an order described only as compatible B. Braun tubing. Obtain the current manufacturer's compatibility information for the supplied configuration.",
-          "The BD Alaris version 12.1 manual provides another example: it directs users to compatible set lists and explains that permitted syringe models depend on software version, with country differences in availability. The manual illustrates the purchasing question; it does not establish current suitability of any offered used unit. Ask for the applicable current documentation."
+          "Work in individual units first, then convert to cartons. For example, 1,025 required units supplied in packs of 50 require 21 packs, or 1,050 units. Keep the 25-unit balance visible. Apply the same method to every approved reference before adding delivered totals in one currency and period. Minimum orders may apply to a reference, a delivery or the whole contract; those conditions can change the result.",
+          "Separate expected consumption from opening stock and desired closing stock. Units to purchase equal expected consumption plus desired closing stock minus usable opening stock, with additional losses shown explicitly. Then account for pack rounding. Do not add a full annual basket and a full startup stock twice without showing which stock remains at year end."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "A second supplier needs to deliver a usable alternative",
+        "paragraphs": [
+          "Give replenishment terms financial weight: remaining shelf life on delivery, storage conditions, shipment frequency, short-dated returns and a named shortage escalation route. The useful alternative is a supported replacement reference for the actual configuration, approved through the hospital’s review process. A seller’s promise to find something that fits is not supply resilience.",
+          "A backup family also needs its own stock and trained users. FDA’s manager guidance calls for access to both a working pump and tubing when failure occurs. Two empty cupboards supplied through the same interruption do not create independent cover. Assess what actually changes under the proposed shortage scenario before paying for duplicated inventory."
         ],
         "sourceIds": [
+          "fda-pump-managers",
           "bbraun-disposables",
           "bd-alaris-manual"
         ]
       },
       {
-        "heading": "Give every bidder the same one-year basket",
+        "heading": "Compare the transition with keeping a supported fleet",
         "paragraphs": [
-          "Use one row per approved stock-keeping unit, or SKU. Include description, manufacturer reference, pack quantity, forecast annual units, opening stock, desired closing stock, quoted price per pack, freight and delivery schedule. Base quantities on the hospital's workload and approved replacement practices, not on a sales estimate or a newly invented clinical schedule.",
-          "Calculate packs to order from the planned units, allowing for the pack size. Show initial stock separately from recurring annual consumption so it is not counted twice. Ask bidders to identify minimum orders, price-validity periods and any volume commitment. Compare delivered annual totals in the same currency and period, with taxes and exclusions visible."
-        ],
-        "sourceIds": []
-      },
-      {
-        "heading": "Price the stock the hospital can use in time",
-        "paragraphs": [
-          "Add shelf life remaining on delivery, storage requirements and realistic replenishment lead times to the basket. A discounted carton that cannot be used before expiry is not equivalent to smaller scheduled deliveries. Agree how damaged, short-dated or incorrect supplies will be handled and identify who receives product notices and recall information.",
-          "Ask what happens if a required reference becomes unavailable. Request the proposed replacement reference and written compatibility evidence for the actual pump configuration. Any change needs the hospital's established review and training process. Do not let a seller's statement that a set physically fits replace the manufacturer's applicable compatibility information."
-        ],
-        "sourceIds": [
-          "bbraun-disposables",
-          "bd-alaris-manual"
-        ]
-      },
-      {
-        "heading": "Count the work involved in changing platforms",
-        "paragraphs": [
-          "Add mounting accessories, batteries where needed, approved startup stock, user training, engineering support and any software configuration work to the hardware price. Record how the hospital will separate old and new consumables during introduction. Identify what stock can still be used, what can be returned and what would become stranded.",
-          "A second family is not automatically a usable backup. Staff need access to its compatible supplies and the appropriate training. FDA's manager guidance explicitly includes a plan to obtain both a working pump and tubing when a pump fails. Make the proposed continuity arrangement concrete before crediting it as a benefit in the comparison."
+          "A new family adds accessories, startup supplies, training, configuration and old stock that may no longer be usable. Keep those one-time costs separate from the recurring basket. Retaining a supported fleet and improving delivery terms may be better value when supply management is the real problem. Standardization is stronger when it removes a demonstrated compatibility, training or support burden.",
+          "Award the configured equipment and replenishment arrangement together. Carry approved references, pack quantities, price validity, shortage contacts and the review date into routine purchasing. Recalculate when workload or approved products change; the original capital saving should not conceal an increasingly expensive annual commitment."
         ],
         "sourceIds": [
           "fda-pump-managers"
         ]
-      },
-      {
-        "heading": "Award a replenishable package",
-        "paragraphs": [
-          "Put three views beside one another: the initial purchase, the recurring one-year basket and a stated supply-interruption scenario. For the last view, ask how service continues if the main set reference is delayed. Use supplier commitments and hospital-approved alternatives; leave unsupported assumptions visibly unresolved.",
-          "Choose the package that meets the service requirement and can be replenished on acceptable terms. Carry the approved SKU list, order contact, shortage escalation route and review date into the handover record. Revisit the basket when workload or approved products change. The comparison should remain useful long after the capital purchase has disappeared from the purchasing queue."
-        ],
-        "sourceIds": []
       }
     ],
     "checklist": [
@@ -226,7 +214,7 @@ export default {
       "Budget transition stock, accessories and staff preparation."
     ],
     "ownership": {
-      "equation": "First-year infusion package = configured pumps and accessories + implementation and training + delivered approved-SKU basket + stockholding and support.",
+      "equation": "For each approved reference: units to purchase = forecast consumption + desired closing stock − usable opening stock + separately estimated losses. Round up to purchasable packs, apply minimum orders and add freight/tax. Compare initial transition cost and recurring annual baskets separately.",
       "drivers": [
         "Approved set and syringe mix",
         "Annual workload and pack quantities",
@@ -251,7 +239,7 @@ export default {
         "url": "https://www.bbraun.com/en/products-and-solutions/therapies/infusion-therapy/automated-infusion-systems/disposables.html",
         "publisher": "B. Braun",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Identifies separate Infusomat Space/Spaceplus and Infusomat compactplus dedicated line families and Perfusor pump syringes. Product availability and indications can differ by country."
       },
       {
@@ -269,7 +257,7 @@ export default {
         "url": "https://www.fda.gov/medical-devices/infusion-pumps/infusion-pump-risk-reduction-strategies-facility-administrators-and-managers",
         "publisher": "US FDA",
         "kind": "institutional guidance",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Recommends multidisciplinary evaluation before purchase or rental, staged introduction/training, prompt response to recalls and access to a working pump and tubing when a pump fails."
       }
     ],
@@ -279,5 +267,6 @@ export default {
       "quote-gaps"
     ]
   },
-  "searchTerms": "approved consumable references one-year purchasing basket supply continuity and substitutions fleet transition costs Retain the supported fleet and strengthen supply Standardize a defined service on one supported family Maintain two deliberately separated supported families"
+  "searchTerms": "Infusion sets: a lower unit price can cost the hospital more approved consumable references one-year purchasing basket supply continuity and substitutions fleet transition costs Retain the supported fleet and strengthen supply Standardize a defined service on one supported family Maintain two deliberately separated supported families",
+  "librarySection": "decisions"
 };

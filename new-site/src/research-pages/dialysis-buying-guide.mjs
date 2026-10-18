@@ -3,8 +3,8 @@ export default {
   "key": "dialysis",
   "kind": "research-guide",
   "equipmentId": "dialysis",
-  "title": "The dialysis machine is the start of the bill",
-  "summary": "4008S classix, Dialog iQ and Surdial X make sense only inside a funded treatment service. Recurring supplies and water can outweigh the capital deal.",
+  "title": "Buying dialysis machines: fund the next thousand treatments",
+  "summary": "Compare 4008S classix, Dialog iQ and Surdial X as complete treatment services. Water, consumables and repair coverage decide what the capital purchase can deliver.",
   "categoryId": "hospital",
   "category": "Hospital essentials",
   "image": "guides/dialysis",
@@ -23,45 +23,45 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
-      "Buy a treatment service, then count the stations",
-      "A donated machine can have a zero-dollar invoice while the service still needs a water system, testing, power, consumables, clinical staff, waste handling and repairs. If those recurring commitments depend on a donor who has not funded them, the installation is incomplete. Set the weekly treatment volume before deciding how many machines the grant should buy. Separate installation from recurring treatment costs and downtime cover. Assign freight, preventive maintenance, water-system servicing, parts and repair travel to a named budget or supplier. This makes the three platforms comparable even when vendors divide capital and consumable charges differently."
+      "A free console can start an expensive obligation",
+      "Choose the sustainable treatment volume before counting stations. Each operating station depends on trained staff, suitable water, power, supplies, monitoring, waste handling and repair cover. A donation that pays only for machines leaves those commitments with the hospital. Establish who will fund them before accepting more capacity. Separate installation costs from recurring costs and continuity arrangements. Include freight, commissioning, water-system work, training and initial stock, then price the actual treatment basket and support over one common period. This allows a low-capital/high-consumables offer to be compared with a higher-capital/lower-consumables offer without hiding either bill."
     ],
     [
-      "What earns the capability premium?",
-      "4008S classix gives a conventional HD program a focused starting comparison, with online clearance monitoring and dialysis-fluid filtration documented in current regional material. It is not automatically the cheapest installation. A Dialog iQ or Surdial X supply contract may produce a better overall service even when its console has more capability. Dialog iQ's bioLogic Fusion uses systolic blood pressure and relative blood volume to calculate ultrafiltration rate. That is a concrete function for the clinical team to evaluate, rather than a generic 'advanced' label. Its HDF and single-needle capabilities, and Surdial X's documented HD/HDF workflows, are reasons to compare actual configurations when the program needs them. Regional approval and the purchased options still define what is available. If those functions will remain unused, a supported HD-focused system may be better value. If HDF or biofeedback is part of the plan, fund the training, water requirements and consumables needed to use it. The manufacturer evidence establishes capability, not a comparative outcome benefit, lower staffing requirement or failure-rate advantage."
+      "Pay for a modality the service will actually deliver",
+      "Use a locally supported Fresenius 4008S classix as a conventional-HD capability comparison. Its regional documentation identifies clearance monitoring and dialysis-fluid filtration. A focused platform is not automatically the lowest-cost installation; the complete service and supply offer still matters. Dialog iQ adds a concrete biofeedback comparison: bioLogic Fusion uses systolic pressure and relative blood volume in calculating ultrafiltration rate. Its documented HDF and single-needle capabilities, and Surdial X’s HD/HDF workflows, deserve evaluation when the clinical program needs them. Confirm country approval, enabled options and the required water and consumables for the purchased configuration. Those manufacturer descriptions establish functions for clinical review, not superior outcomes, reduced staffing or better field reliability. If the additional functions will remain unused, spend on dependable support for the needed service. If they are required, fund training and supplies alongside the console."
     ],
     [
-      "The water installation is part of the purchase",
-      "CDC guidance makes chemical and microbiological water quality, treatment, storage and distribution part of the dialysis system. A household filter or a reverse-osmosis label is not evidence that the installed supply is adequate. Have the responsible clinical and technical leads specify source-water variation, treatment capacity, distribution, disinfection and monitoring together. Apply current standards and local requirements to that complete installation, with a defined response to outages and unsuitable water. A cheaper machine cannot compensate for an unvalidated supply. A more capable machine does not remove that dependency."
+      "An RO label does not specify the water service",
+      "CDC describes quality assurance for the equipment that treats, stores and distributes dialysis water, including chemical and microbiological quality. Have the responsible technical and clinical leads specify the complete installation against current applicable standards and local requirements. A household filter or a reverse-osmosis label is not a validated installed service. Include source-water variation, system capacity, distribution, monitoring, maintenance and the response to unsuitable supply. A second machine does not solve a water-system outage. Treat shared infrastructure as a separate capacity and continuity decision before expanding the fleet."
     ],
     [
-      "Make the recurring bill comparable",
-      "Build the same treatment basket for each proposal: approved bloodlines, dialyzer, concentrates, filters, disinfectants and other required supplies, plus scheduled parts and technical labor. Dialog iQ's dedicated DiaStream iQ bloodlines should be visible in that basket. Use equivalent treatment volumes and delivery assumptions rather than importing a low online consumable price from another market. Small recurring differences accumulate. A difference of one currency unit over 10,000 treatments becomes 10,000 units; that is arithmetic, not a claimed price difference between these machines. It explains why a capital discount should be assessed against a written multi-year consumables and service proposal. The missing price evidence here does not support naming a universal cost winner."
+      "Use the same years on both sides of the calculation",
+      "For an illustrative three-year comparison, assume $60,000 total installed equipment and water-system capital, plus $90,000 recurring service expense each year, delivering 3,000 treatments annually. Three-year cost is $330,000 for 9,000 treatments, or $36.67 each. These are hypothetical accounting inputs, not a market quote or a proposed clinical service budget. If the same annual expense supported only 2,000 treatments, the result would be $330,000 divided by 6,000, or $55.00. In practice some supplies would fall with activity; recalculate that variable portion while retaining real fixed commitments. Do not divide several years of costs by one year of treatments or combine annualized machines with the full water-plant capital without adjustment. Price equivalent approved bloodlines, dialyzers, concentrates, filters, disinfectants, scheduled parts and labor for the chosen modality. Make Dialog iQ’s dedicated DiaStream iQ bloodlines visible in the basket. An extra $1 per treatment at 3,000 treatments a year adds $9,000 over three years: enough to change the meaning of a capital discount."
     ],
     [
-      "A refurbished unit fits best inside a supported fleet",
-      "A hospital already maintaining a platform may gain useful capacity from a documented refurbishment. Assess its service history, enabled configuration, acceptance tests and parts horizon against that existing system. The same unit is a different proposition for a new program without technicians or consumable stock. Plan how treatment continues when one machine is unavailable. Fewer fully supported stations with dependable water, supplies and repair cover can provide more useful service than a larger row of clearance machines. Expand when the operating commitments can expand with the hardware."
+      "Add refurbished capacity where the support already works",
+      "A documented refurbished unit can be useful inside a fleet that the hospital already maintains. Verify its actual configuration, service history, acceptance and remaining parts route. The same machine is a different purchase for a new program with no familiar technicians or supply stock. Plan for one station being unavailable and for a delayed consumables shipment. More consoles do not automatically create more delivered treatment capacity. Expand the supported service, then buy the hardware that expansion requires."
     ]
   ],
   "related": [
     "dialysis"
   ],
-  "socialTitle": "The dialysis machine is the start of the bill",
-  "socialDescription": "Compare 4008S classix, Dialog iQ and Surdial X through treatment volume, consumables, water, useful capabilities and local support.",
-  "socialHeadline": "Dialysis equipment buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying dialysis machines: fund the next thousand treatments",
+  "socialDescription": "Compare 4008S classix, Dialog iQ and Surdial X as complete treatment services. Water, consumables and repair coverage decide what the capital purchase can deliver.",
+  "socialHeadline": "Buying dialysis machines: fund the next thousand treatments",
+  "socialStrapline": "The grant buys machines. The operating budget keeps them treating.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "dialysis",
-    "title": "Dialysis equipment buying guide",
-    "summary": "Buy a sustainable treatment service before counting stations. Water quality, trained staff, consumables and repair cover determine how much of the installed fleet can work.",
-    "firstChoice": "Use a locally supported Fresenius 4008S classix as the conventional-HD capability benchmark. Compare complete supply and service offers; the focused platform is not automatically the lowest-cost installation.",
-    "upgradeWhen": "Consider Dialog iQ for needed biofeedback, HDF or single-needle capability. Surdial X is an HD/HDF alternative where its configured package and Nipro support fit better. Fund training and required supplies alongside added functions.",
+    "title": "Buying dialysis machines: fund the next thousand treatments",
+    "summary": "Compare 4008S classix, Dialog iQ and Surdial X as complete treatment services. Water, consumables and repair coverage decide what the capital purchase can deliver.",
+    "firstChoice": "Set the intended treatment volume and clinical service, then compare complete 4008S classix, Dialog iQ and Surdial X proposals on that basis.",
+    "upgradeWhen": "The program will use and maintain Dialog iQ biofeedback or configured HDF capability, or a stronger supply/service contract solves a real availability problem.",
     "budgetWatch": "Include water treatment and distribution, chemical and microbiological monitoring, approved bloodlines, concentrates, filters and disinfectants. Price Dialog iQ's dedicated DiaStream iQ lines explicitly at the same treatment volume as competing offers.",
-    "supportCheck": "Obtain service response, parts and consumable replenishment commitments at the hospital. A current regional product page does not establish support for an old donated serial.",
+    "supportCheck": "Reject a machine-only deal when the water system, recurring consumables, qualified staff or local repairs are still unfunded.",
     "askSupplier": [
       "What complete per-treatment basket does this modality require?",
       "Who specifies and maintains the water system and quality monitoring?",
@@ -78,8 +78,8 @@ export default {
   },
   "research": {
     "id": "dialysis",
-    "title": "The dialysis machine is the start of the bill",
-    "dek": "4008S classix, Dialog iQ and Surdial X make sense only inside a funded treatment service. Recurring supplies and water can outweigh the capital deal.",
+    "title": "Buying dialysis machines: fund the next thousand treatments",
+    "dek": "Compare 4008S classix, Dialog iQ and Surdial X as complete treatment services. Water, consumables and repair coverage decide what the capital purchase can deliver.",
     "verdict": "Where local support is confirmed, use Fresenius 4008S classix as the focused capability benchmark for a conventional HD program. Dialog iQ deserves additional spending when its configured biofeedback or HDF functions serve the clinical program; Surdial X is a real HD/HDF alternative where Nipro's consumable and technical support package is stronger. Compare each at the same treatment volume, including water, staffing, consumables, service and downtime cover. A small supported installation can be better value than a larger donated fleet that the hospital cannot keep treating with.",
     "coverage": [
       "dialysis"
@@ -126,19 +126,19 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Buy a treatment service, then count the stations",
+        "heading": "A free console can start an expensive obligation",
         "paragraphs": [
-          "A donated machine can have a zero-dollar invoice while the service still needs a water system, testing, power, consumables, clinical staff, waste handling and repairs. If those recurring commitments depend on a donor who has not funded them, the installation is incomplete. Set the weekly treatment volume before deciding how many machines the grant should buy.",
-          "Separate installation from recurring treatment costs and downtime cover. Assign freight, preventive maintenance, water-system servicing, parts and repair travel to a named budget or supplier. This makes the three platforms comparable even when vendors divide capital and consumable charges differently."
+          "Choose the sustainable treatment volume before counting stations. Each operating station depends on trained staff, suitable water, power, supplies, monitoring, waste handling and repair cover. A donation that pays only for machines leaves those commitments with the hospital. Establish who will fund them before accepting more capacity.",
+          "Separate installation costs from recurring costs and continuity arrangements. Include freight, commissioning, water-system work, training and initial stock, then price the actual treatment basket and support over one common period. This allows a low-capital/high-consumables offer to be compared with a higher-capital/lower-consumables offer without hiding either bill."
         ],
         "sourceIds": []
       },
       {
-        "heading": "What earns the capability premium?",
+        "heading": "Pay for a modality the service will actually deliver",
         "paragraphs": [
-          "4008S classix gives a conventional HD program a focused starting comparison, with online clearance monitoring and dialysis-fluid filtration documented in current regional material. It is not automatically the cheapest installation. A Dialog iQ or Surdial X supply contract may produce a better overall service even when its console has more capability.",
-          "Dialog iQ's bioLogic Fusion uses systolic blood pressure and relative blood volume to calculate ultrafiltration rate. That is a concrete function for the clinical team to evaluate, rather than a generic 'advanced' label. Its HDF and single-needle capabilities, and Surdial X's documented HD/HDF workflows, are reasons to compare actual configurations when the program needs them. Regional approval and the purchased options still define what is available.",
-          "If those functions will remain unused, a supported HD-focused system may be better value. If HDF or biofeedback is part of the plan, fund the training, water requirements and consumables needed to use it. The manufacturer evidence establishes capability, not a comparative outcome benefit, lower staffing requirement or failure-rate advantage."
+          "Use a locally supported Fresenius 4008S classix as a conventional-HD capability comparison. Its regional documentation identifies clearance monitoring and dialysis-fluid filtration. A focused platform is not automatically the lowest-cost installation; the complete service and supply offer still matters.",
+          "Dialog iQ adds a concrete biofeedback comparison: bioLogic Fusion uses systolic pressure and relative blood volume in calculating ultrafiltration rate. Its documented HDF and single-needle capabilities, and Surdial X’s HD/HDF workflows, deserve evaluation when the clinical program needs them. Confirm country approval, enabled options and the required water and consumables for the purchased configuration.",
+          "Those manufacturer descriptions establish functions for clinical review, not superior outcomes, reduced staffing or better field reliability. If the additional functions will remain unused, spend on dependable support for the needed service. If they are required, fund training and supplies alongside the console."
         ],
         "sourceIds": [
           "fresenius",
@@ -149,36 +149,37 @@ export default {
         ]
       },
       {
-        "heading": "The water installation is part of the purchase",
+        "heading": "An RO label does not specify the water service",
         "paragraphs": [
-          "CDC guidance makes chemical and microbiological water quality, treatment, storage and distribution part of the dialysis system. A household filter or a reverse-osmosis label is not evidence that the installed supply is adequate. Have the responsible clinical and technical leads specify source-water variation, treatment capacity, distribution, disinfection and monitoring together.",
-          "Apply current standards and local requirements to that complete installation, with a defined response to outages and unsuitable water. A cheaper machine cannot compensate for an unvalidated supply. A more capable machine does not remove that dependency."
+          "CDC describes quality assurance for the equipment that treats, stores and distributes dialysis water, including chemical and microbiological quality. Have the responsible technical and clinical leads specify the complete installation against current applicable standards and local requirements. A household filter or a reverse-osmosis label is not a validated installed service.",
+          "Include source-water variation, system capacity, distribution, monitoring, maintenance and the response to unsuitable supply. A second machine does not solve a water-system outage. Treat shared infrastructure as a separate capacity and continuity decision before expanding the fleet."
         ],
         "sourceIds": [
           "cdc"
         ]
       },
       {
-        "heading": "Make the recurring bill comparable",
+        "heading": "Use the same years on both sides of the calculation",
         "paragraphs": [
-          "Build the same treatment basket for each proposal: approved bloodlines, dialyzer, concentrates, filters, disinfectants and other required supplies, plus scheduled parts and technical labor. Dialog iQ's dedicated DiaStream iQ bloodlines should be visible in that basket. Use equivalent treatment volumes and delivery assumptions rather than importing a low online consumable price from another market.",
-          "Small recurring differences accumulate. A difference of one currency unit over 10,000 treatments becomes 10,000 units; that is arithmetic, not a claimed price difference between these machines. It explains why a capital discount should be assessed against a written multi-year consumables and service proposal. The missing price evidence here does not support naming a universal cost winner."
+          "For an illustrative three-year comparison, assume $60,000 total installed equipment and water-system capital, plus $90,000 recurring service expense each year, delivering 3,000 treatments annually. Three-year cost is $330,000 for 9,000 treatments, or $36.67 each. These are hypothetical accounting inputs, not a market quote or a proposed clinical service budget.",
+          "If the same annual expense supported only 2,000 treatments, the result would be $330,000 divided by 6,000, or $55.00. In practice some supplies would fall with activity; recalculate that variable portion while retaining real fixed commitments. Do not divide several years of costs by one year of treatments or combine annualized machines with the full water-plant capital without adjustment.",
+          "Price equivalent approved bloodlines, dialyzers, concentrates, filters, disinfectants, scheduled parts and labor for the chosen modality. Make Dialog iQ’s dedicated DiaStream iQ bloodlines visible in the basket. An extra $1 per treatment at 3,000 treatments a year adds $9,000 over three years: enough to change the meaning of a capital discount."
         ],
         "sourceIds": [
           "braun-iq"
         ]
       },
       {
-        "heading": "A refurbished unit fits best inside a supported fleet",
+        "heading": "Add refurbished capacity where the support already works",
         "paragraphs": [
-          "A hospital already maintaining a platform may gain useful capacity from a documented refurbishment. Assess its service history, enabled configuration, acceptance tests and parts horizon against that existing system. The same unit is a different proposition for a new program without technicians or consumable stock.",
-          "Plan how treatment continues when one machine is unavailable. Fewer fully supported stations with dependable water, supplies and repair cover can provide more useful service than a larger row of clearance machines. Expand when the operating commitments can expand with the hardware."
+          "A documented refurbished unit can be useful inside a fleet that the hospital already maintains. Verify its actual configuration, service history, acceptance and remaining parts route. The same machine is a different purchase for a new program with no familiar technicians or supply stock.",
+          "Plan for one station being unavailable and for a delayed consumables shipment. More consoles do not automatically create more delivered treatment capacity. Expand the supported service, then buy the hardware that expansion requires."
         ],
         "sourceIds": []
       }
     ],
     "ownership": {
-      "equation": "Cost per delivered treatment = (annualized machines + water/power installation + service + staffing + testing + consumables + waste + downtime) ÷ treatments actually delivered.",
+      "equation": "Cost per delivered treatment over one stated planning period = (installed machines and water/power capital + all service, staffing, testing, consumables, utilities, waste and continuity costs during that period) / treatments actually delivered during the same period. Alternatively annualize all capital consistently and use annual recurring cost and annual treatments.",
       "drivers": [
         "Treatment volume and utilization",
         "Dedicated lines, concentrates and filters",
@@ -240,7 +241,7 @@ export default {
         "url": "https://www.cdc.gov/dialysis-safety/hcp/recommendations-resources/water-use-in-dialysis.html",
         "publisher": "CDC",
         "kind": "regulator",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Dialysis requires chemical and microbiological water quality assurance and appropriate treatment/distribution equipment."
       },
       {
@@ -249,7 +250,7 @@ export default {
         "url": "https://catalogs.bbraun.com/en-01/p/PRID00009825/dialog-iq-hemodialysis-machine",
         "publisher": "B. Braun",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Catalog updated September 30, 2026 describes bioLogic Fusion inputs, HDF, single-needle therapy and DiaStream iQ bloodlines; country availability and indications vary."
       }
     ],
@@ -280,10 +281,12 @@ export default {
       }
     ],
     "social": {
-      "title": "The dialysis machine is the start of the bill",
-      "description": "Compare 4008S classix, Dialog iQ and Surdial X through treatment volume, consumables, water, useful capabilities and local support.",
-      "hook": "A donated dialysis machine can have a zero-dollar invoice and an unfunded treatment service behind it."
-    }
+      "title": "Buying dialysis machines: fund the next thousand treatments",
+      "description": "Compare 4008S classix, Dialog iQ and Surdial X as complete treatment services. Water, consumables and repair coverage decide what the capital purchase can deliver.",
+      "hook": "The grant buys machines. The operating budget keeps them treating."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "dialysis Fresenius 4008S classix B. Braun Dialog iQ Nipro Surdial X"
+  "searchTerms": "Buying dialysis machines: fund the next thousand treatments dialysis Fresenius 4008S classix B. Braun Dialog iQ Nipro Surdial X",
+  "librarySection": "equipment"
 };

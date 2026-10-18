@@ -1,1 +1,4 @@
 .DS_Store
+
+# Private source research, downloaded references, and editorial working notes.
+/editorial-revision/

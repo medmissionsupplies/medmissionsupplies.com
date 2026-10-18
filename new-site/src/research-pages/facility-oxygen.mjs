@@ -3,8 +3,8 @@ export default {
   "key": "facility-oxygen",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Choose an oxygen service the hospital can keep supplied",
-  "summary": "Compare concentrators, delivered cylinders and a PSA plant using the same demand assessment, backup obligations and operating budget.",
+  "title": "Hospital oxygen: compare the supply bill behind the equipment",
+  "summary": "Cylinders, concentrators and a plant shift costs between delivery, electricity, maintenance and backup. Compare the oxygen service each can sustain.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/oxygen",
@@ -28,49 +28,45 @@ export default {
   "minutes": 4,
   "sections": [
     [
-      "Write the service requirement before choosing a source",
-      "Ask the clinical and engineering teams to define the areas served, expected demand, concurrent use and intended respiratory equipment. Record the inlet requirements of every connected device rather than assuming that all oxygen sources are interchangeable. Add expansion plans separately from today's requirement so the proposal can show what is needed now and what would trigger an upgrade. WHO's 2024 facility oxygen specifications cover sources, storage and distribution. Use that complete boundary for the purchasing exercise. A source quotation should identify how the specified oxygen reaches each required point, who verifies the system and which parts of the route remain the hospital's responsibility."
+      "Choose the supply arrangement the site can sustain",
+      "Start with a choice between operating obligations. Delivered cylinders make replenishment and transport central. Concentrators shift more work to electricity, maintenance and local replacement provision. A PSA plant adds a facility project with operators, distribution and quality assurance. None is automatically the inexpensive option. Retain a functioning arrangement when it meets the assessed need and the alternative merely offers a lower equipment price. Spend on a change when it solves a documented shortage, delivery problem or operating-cost burden without creating an unsupported dependency elsewhere. WHO's 2024 specification framework covers sources, storage and distribution together; compare that whole boundary."
     ],
     [
-      "Use local inputs for a meaningful comparison",
-      "Build a comparison sheet using the same assessed demand, operating period and service requirements for each option. Ask suppliers to show their capacity assumptions and exclusions. Keep the engineering calculation attached to the proposal, with its author and date. Purchasing should be able to trace a quoted capacity to the hospital's requirement without independently designing the system. UNICEF's 2020 planning-tool guide distinguishes daily volume for cylinder-refill planning from instantaneous flow for plant sizing, and considers electricity and proximity to cylinder suppliers. Its age and scope matter: that version excludes liquid oxygen and does not quantify critical-care or operating-room equipment. It can frame questions, but current local inputs and qualified design remain necessary."
+      "Reject the wrong output before comparing prices",
+      "Have qualified staff define simultaneous demand and the inlet conditions required by connected equipment. A daily oxygen volume used for delivery planning is different from the peak flow the source must provide. A proposal should show how oxygen reaches each required point, with its assumptions and responsible designer attached. UNICEF's 2020 planning-tool guide is useful for framing electricity, cylinder access and demand questions. That version excludes liquid oxygen and does not quantify critical-care or operating-room equipment. Use it within that scope, not as a substitute for the current clinical brief or engineering design. Expansion should be a separate scenario so today's purchase is not justified by an unexplained future capacity allowance."
     ],
     [
-      "Make the cylinder offer a delivery commitment",
-      "For a cylinder proposal, request the delivered supply price and the conditions behind it: ownership or rental, deposits, transport, collection of empties, refill turnaround and minimum order. Ask who supplies the compatible regulators, connections and storage arrangements. Specify the documents required to confirm medical-gas quality and cylinder condition under applicable local requirements. Review an interruption scenario with the supplier and hospital team. If a scheduled delivery fails, identify the contact, available alternative route and the hospital's approved reserve arrangement. A quoted refill price without transport and turnaround information leaves a large part of the service unpriced. Confirm the same obligations for any proposed backup-cylinder supply."
+      "Make each offer include its missing bill",
+      "A cylinder comparison needs delivered supply, ownership or rental, deposits, empty-cylinder collection, refill turnaround and the approved reserve arrangement. A low refill price loses its advantage if the hospital must fund frequent long-distance transport. The backup cylinder offer needs the same scrutiny as the primary supply. For on-site generation, include electrical and site works, distribution, operating staff, quality verification, maintenance, spares and backup. UNICEF's Plant-in-a-Box includes installation, planned maintenance and training as part of its package; use that as a scope example, not a promise about another seller. Confirm who pays after initial support ends."
     ],
     [
-      "Give on-site generation an operating owner",
-      "For concentrators or a PSA plant, require the proposed equipment's power, environmental and maintenance requirements. Have facilities staff verify the site against them. Identify who handles routine operating tasks, technical faults, spare parts and replacement provision. Price the support that will exist after initial training and warranty, including travel when an engineer is not locally available. UNICEF's Plant-in-a-Box describes a package including accessories, installation, planned maintenance and staff training. Use it as a scope example, not a promise about any seller's package. Require a commissioning plan, quality-verification responsibilities and documented handover for the specific project, with the required evidence reviewed before authorization for use."
+      "A five-year example can reverse the capital-price decision",
+      "Consider an illustrative comparison, not market pricing. Assume two technically acceptable arrangements serve the same assessed workload and include all site, operating and backup obligations. A delivered-supply route costs $6,000 to establish and $18,000 a year: $96,000 over five years. An on-site route costs $36,000 initially and $10,000 a year: $86,000. The larger initial purchase is $10,000 cheaper over this period. Now reduce use. If the delivered route falls to $12,000 a year and the on-site route to $9,000, their five-year totals become $66,000 and $81,000. Delivered supply is then $15,000 cheaper. These invented, undiscounted amounts demonstrate the deciding variable: how each offer's continuing costs change with workload. Replace them with local inputs; do not use the example to size a source."
     ],
     [
-      "Compare operating costs and a supported service alternative",
-      "Use a common planning period and show acquisition, site works, distribution, electricity, delivery logistics, staffing, maintenance and backup as separate lines. Ask for current destination quotes and identify uncertain inputs. A donated plant still needs an operating budget. An inexpensive source can become difficult to sustain when its essential supporting costs sit outside the project. Also ask whether a qualified provider can deliver oxygen as a continuing service. UNICEF describes such arrangements in Liberia and Uganda. They illustrate a different allocation of operating and maintenance work, not a universal guarantee of availability or savings. Compare the provider's measurable commitments with the obligations and costs the hospital would retain."
-    ],
-    [
-      "Award the plan that survives an interruption",
-      "Before award, review a power outage, source failure and interrupted delivery with the responsible teams. Record the approved continuity response, who initiates it and what support the supplier must provide. Have qualified staff verify that the arrangement meets the required applications. A backup entry on a quotation is incomplete until its role and supporting resources are specified. Close the worksheet with named owners for operations, purchasing, quality assurance, maintenance and escalation. Attach the training and handover requirements and a date to review demand. Choose the source combination and commercial arrangement the hospital can keep operating, with both ordinary costs and unresolved dependencies visible to the decision makers."
+      "Buying a service can change who carries the work",
+      "A qualified provider may operate equipment and sell oxygen as an ongoing service. UNICEF describes such arrangements in Liberia and Uganda. Compare the provider's measurable supply and maintenance commitments with the power, site, payment and oversight obligations the hospital retains. A service fee is not proof that every interruption risk has transferred. Before award, walk through a missed delivery, loss of power and source failure with the responsible teams. Identify the approved continuity response, the person who initiates it and the resources already funded. Choose the feasible arrangement with a supportable five-year bill—not the offer whose essential costs sit outside the quotation."
     ]
   ],
   "related": [
     "oxygen"
   ],
-  "socialTitle": "Buying oxygen equipment is buying a continuing service",
-  "socialDescription": "A source decision needs demand, electricity, refill access, support and backup in one comparison.",
-  "socialHeadline": "Facility oxygen buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "Hospital oxygen: compare the supply bill behind the equipment",
+  "socialDescription": "Cylinders, concentrators and a plant shift costs between delivery, electricity, maintenance and backup. Compare the oxygen service each can sustain.",
+  "socialHeadline": "Hospital oxygen: compare the supply bill behind the equipment",
+  "socialStrapline": "The source price is only the first oxygen bill.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Facility oxygen buying sheet",
-    "summary": "Choose an oxygen service from an assessed requirement, then compare the complete source-to-use arrangement. Concentrators, cylinders and a PSA plant each need accountable support and continuity.",
-    "firstChoice": "Obtain a qualified demand assessment, connected-device inlet requirements and site review. Use those same inputs for every supplier comparison.",
-    "upgradeWhen": "Additional generation or distribution resolves a verified need and the power, personnel, quality assurance, maintenance and backup are funded.",
-    "budgetWatch": "Include delivery logistics, cylinder terms, electricity, site work, distribution, training, spares and ongoing service. Compare a qualified service contract where available.",
-    "supportCheck": "Name the operating and technical owners, required commissioning evidence and approved response to power, source or delivery interruption.",
+    "title": "Hospital oxygen: compare the supply bill behind the equipment",
+    "summary": "Cylinders, concentrators and a plant shift costs between delivery, electricity, maintenance and backup. Compare the oxygen service each can sustain.",
+    "firstChoice": "Compare technically acceptable source arrangements at the same assessed workload, including delivery, power, support and backup.",
+    "upgradeWhen": "Additional production, distribution or a contracted service removes a verified capacity or continuity constraint and its operating costs are funded.",
+    "budgetWatch": "Show the initial payment and five-year operating bill separately. Lower use can reverse the apparent winner.",
+    "supportCheck": "Award only after the operating, quality, maintenance and interruption responsibilities have named, funded owners.",
     "askSupplier": [
-      "Which assessed demand and device requirements does this package meet?",
-      "What supply, quality and maintenance responsibilities do you retain?",
-      "How does service continue when the primary source is unavailable?"
+      "Which assessed demand and device inlets does the proposal meet?",
+      "Which delivery, power, maintenance and backup costs remain with us?",
+      "What changes in the bill when use is lower than forecast?"
     ],
     "sourceIds": [
       "who-oxygen-systems",
@@ -82,26 +78,26 @@ export default {
   "research": {
     "kind": "feature",
     "id": "facility-oxygen",
-    "researchedAt": "2026-10-17",
+    "researchedAt": "2026-10-18",
     "coverage": [
       "facility demand and device requirements",
       "concentrator/cylinder/PSA comparison",
       "complete service scope and backup",
       "operating cost and accountability"
     ],
-    "title": "Choose an oxygen service the hospital can keep supplied",
-    "dek": "Compare concentrators, delivered cylinders and a PSA plant using the same demand assessment, backup obligations and operating budget.",
-    "verdict": "Select the source or combination of sources after qualified staff define demand and connected-device requirements. Award a complete service plan covering supply, storage, distribution, quality assurance, maintenance and backup, with named people and a funded operating budget.",
+    "title": "Hospital oxygen: compare the supply bill behind the equipment",
+    "dek": "Cylinders, concentrators and a plant shift costs between delivery, electricity, maintenance and backup. Compare the oxygen service each can sustain.",
+    "verdict": "Keep a workable supply arrangement until a replacement meets the same assessed demand and improves the full service cost or continuity. Prefer delivered cylinders where replenishment is dependable; consider on-site generation when its power, operating skills, maintenance and backup can be sustained. A plant without those resources is an unfinished project.",
     "decision": {
-      "firstMove": "Commission a facility demand and infrastructure assessment that identifies the required delivery points and device inlet specifications.",
-      "spendMoreWhen": "Added production or distribution capacity meets a verified need and the hospital can sustain power, personnel, maintenance and backup.",
-      "keepExistingWhen": "The current source arrangement meets assessed requirements and its supply and service commitments remain credible.",
-      "walkAwayWhen": "A proposal lacks an accountable quality, maintenance or interruption plan, or its output cannot be matched to the receiving devices."
+      "firstMove": "Define concurrent demand, delivery points and connected-device inlet requirements with the responsible clinical and engineering teams.",
+      "spendMoreWhen": "Additional production, distribution or a contracted service removes a verified capacity or continuity constraint and its operating costs are funded.",
+      "keepExistingWhen": "The current source mix meets the required service and a proposed replacement has not demonstrated a better supported outcome.",
+      "walkAwayWhen": "Output cannot be matched to the receiving devices or quality, maintenance and interruption responsibilities have no funded owner."
     },
     "social": {
-      "title": "Buying oxygen equipment is buying a continuing service",
-      "description": "A source decision needs demand, electricity, refill access, support and backup in one comparison.",
-      "hook": "Who keeps oxygen available after the installation team leaves?"
+      "title": "Hospital oxygen: compare the supply bill behind the equipment",
+      "description": "Cylinders, concentrators and a plant shift costs between delivery, electricity, maintenance and backup. Compare the oxygen service each can sustain.",
+      "hook": "The source price is only the first oxygen bill."
     },
     "choices": [
       {
@@ -181,60 +177,53 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Write the service requirement before choosing a source",
+        "heading": "Choose the supply arrangement the site can sustain",
         "paragraphs": [
-          "Ask the clinical and engineering teams to define the areas served, expected demand, concurrent use and intended respiratory equipment. Record the inlet requirements of every connected device rather than assuming that all oxygen sources are interchangeable. Add expansion plans separately from today's requirement so the proposal can show what is needed now and what would trigger an upgrade.",
-          "WHO's 2024 facility oxygen specifications cover sources, storage and distribution. Use that complete boundary for the purchasing exercise. A source quotation should identify how the specified oxygen reaches each required point, who verifies the system and which parts of the route remain the hospital's responsibility."
+          "Start with a choice between operating obligations. Delivered cylinders make replenishment and transport central. Concentrators shift more work to electricity, maintenance and local replacement provision. A PSA plant adds a facility project with operators, distribution and quality assurance. None is automatically the inexpensive option.",
+          "Retain a functioning arrangement when it meets the assessed need and the alternative merely offers a lower equipment price. Spend on a change when it solves a documented shortage, delivery problem or operating-cost burden without creating an unsupported dependency elsewhere. WHO's 2024 specification framework covers sources, storage and distribution together; compare that whole boundary."
         ],
         "sourceIds": [
           "who-oxygen-systems"
         ]
       },
       {
-        "heading": "Use local inputs for a meaningful comparison",
+        "heading": "Reject the wrong output before comparing prices",
         "paragraphs": [
-          "Build a comparison sheet using the same assessed demand, operating period and service requirements for each option. Ask suppliers to show their capacity assumptions and exclusions. Keep the engineering calculation attached to the proposal, with its author and date. Purchasing should be able to trace a quoted capacity to the hospital's requirement without independently designing the system.",
-          "UNICEF's 2020 planning-tool guide distinguishes daily volume for cylinder-refill planning from instantaneous flow for plant sizing, and considers electricity and proximity to cylinder suppliers. Its age and scope matter: that version excludes liquid oxygen and does not quantify critical-care or operating-room equipment. It can frame questions, but current local inputs and qualified design remain necessary."
+          "Have qualified staff define simultaneous demand and the inlet conditions required by connected equipment. A daily oxygen volume used for delivery planning is different from the peak flow the source must provide. A proposal should show how oxygen reaches each required point, with its assumptions and responsible designer attached.",
+          "UNICEF's 2020 planning-tool guide is useful for framing electricity, cylinder access and demand questions. That version excludes liquid oxygen and does not quantify critical-care or operating-room equipment. Use it within that scope, not as a substitute for the current clinical brief or engineering design. Expansion should be a separate scenario so today's purchase is not justified by an unexplained future capacity allowance."
         ],
         "sourceIds": [
           "unicef-oxygen-planning"
         ]
       },
       {
-        "heading": "Make the cylinder offer a delivery commitment",
+        "heading": "Make each offer include its missing bill",
         "paragraphs": [
-          "For a cylinder proposal, request the delivered supply price and the conditions behind it: ownership or rental, deposits, transport, collection of empties, refill turnaround and minimum order. Ask who supplies the compatible regulators, connections and storage arrangements. Specify the documents required to confirm medical-gas quality and cylinder condition under applicable local requirements.",
-          "Review an interruption scenario with the supplier and hospital team. If a scheduled delivery fails, identify the contact, available alternative route and the hospital's approved reserve arrangement. A quoted refill price without transport and turnaround information leaves a large part of the service unpriced. Confirm the same obligations for any proposed backup-cylinder supply."
-        ],
-        "sourceIds": []
-      },
-      {
-        "heading": "Give on-site generation an operating owner",
-        "paragraphs": [
-          "For concentrators or a PSA plant, require the proposed equipment's power, environmental and maintenance requirements. Have facilities staff verify the site against them. Identify who handles routine operating tasks, technical faults, spare parts and replacement provision. Price the support that will exist after initial training and warranty, including travel when an engineer is not locally available.",
-          "UNICEF's Plant-in-a-Box describes a package including accessories, installation, planned maintenance and staff training. Use it as a scope example, not a promise about any seller's package. Require a commissioning plan, quality-verification responsibilities and documented handover for the specific project, with the required evidence reviewed before authorization for use."
+          "A cylinder comparison needs delivered supply, ownership or rental, deposits, empty-cylinder collection, refill turnaround and the approved reserve arrangement. A low refill price loses its advantage if the hospital must fund frequent long-distance transport. The backup cylinder offer needs the same scrutiny as the primary supply.",
+          "For on-site generation, include electrical and site works, distribution, operating staff, quality verification, maintenance, spares and backup. UNICEF's Plant-in-a-Box includes installation, planned maintenance and training as part of its package; use that as a scope example, not a promise about another seller. Confirm who pays after initial support ends."
         ],
         "sourceIds": [
+          "who-oxygen-systems",
           "unicef-oxygen-plant"
         ]
       },
       {
-        "heading": "Compare operating costs and a supported service alternative",
+        "heading": "A five-year example can reverse the capital-price decision",
         "paragraphs": [
-          "Use a common planning period and show acquisition, site works, distribution, electricity, delivery logistics, staffing, maintenance and backup as separate lines. Ask for current destination quotes and identify uncertain inputs. A donated plant still needs an operating budget. An inexpensive source can become difficult to sustain when its essential supporting costs sit outside the project.",
-          "Also ask whether a qualified provider can deliver oxygen as a continuing service. UNICEF describes such arrangements in Liberia and Uganda. They illustrate a different allocation of operating and maintenance work, not a universal guarantee of availability or savings. Compare the provider's measurable commitments with the obligations and costs the hospital would retain."
+          "Consider an illustrative comparison, not market pricing. Assume two technically acceptable arrangements serve the same assessed workload and include all site, operating and backup obligations. A delivered-supply route costs $6,000 to establish and $18,000 a year: $96,000 over five years. An on-site route costs $36,000 initially and $10,000 a year: $86,000. The larger initial purchase is $10,000 cheaper over this period.",
+          "Now reduce use. If the delivered route falls to $12,000 a year and the on-site route to $9,000, their five-year totals become $66,000 and $81,000. Delivered supply is then $15,000 cheaper. These invented, undiscounted amounts demonstrate the deciding variable: how each offer's continuing costs change with workload. Replace them with local inputs; do not use the example to size a source."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Buying a service can change who carries the work",
+        "paragraphs": [
+          "A qualified provider may operate equipment and sell oxygen as an ongoing service. UNICEF describes such arrangements in Liberia and Uganda. Compare the provider's measurable supply and maintenance commitments with the power, site, payment and oversight obligations the hospital retains. A service fee is not proof that every interruption risk has transferred.",
+          "Before award, walk through a missed delivery, loss of power and source failure with the responsible teams. Identify the approved continuity response, the person who initiates it and the resources already funded. Choose the feasible arrangement with a supportable five-year bill—not the offer whose essential costs sit outside the quotation."
         ],
         "sourceIds": [
           "unicef-oxygen-service"
         ]
-      },
-      {
-        "heading": "Award the plan that survives an interruption",
-        "paragraphs": [
-          "Before award, review a power outage, source failure and interrupted delivery with the responsible teams. Record the approved continuity response, who initiates it and what support the supplier must provide. Have qualified staff verify that the arrangement meets the required applications. A backup entry on a quotation is incomplete until its role and supporting resources are specified.",
-          "Close the worksheet with named owners for operations, purchasing, quality assurance, maintenance and escalation. Attach the training and handover requirements and a date to review demand. Choose the source combination and commercial arrangement the hospital can keep operating, with both ordinary costs and unresolved dependencies visible to the decision makers."
-        ],
-        "sourceIds": []
       }
     ],
     "checklist": [
@@ -246,13 +235,13 @@ export default {
       "Review source, power and delivery interruptions before award."
     ],
     "ownership": {
-      "equation": "Facility oxygen cost = source or service charges + site and distribution works + power and delivery logistics + operation and quality assurance + maintenance + approved continuity provision.",
+      "equation": "Five-year undiscounted oxygen-service cost = initial equipment/site/distribution costs + all operating, delivery, quality, maintenance and continuity costs during the same five years.",
       "drivers": [
-        "Demand and required delivery conditions",
-        "Power and site readiness",
-        "Cylinder refill and transport arrangements",
-        "Operators, spares and technical support",
-        "Backup and distribution scope"
+        "Assessed demand and required delivery conditions",
+        "Delivery frequency and cylinder terms",
+        "Power, operators and maintenance",
+        "Distribution, quality assurance and commissioning",
+        "Backup obligations and service-contract boundaries"
       ]
     },
     "questions": [
@@ -272,9 +261,9 @@ export default {
         "url": "https://www.who.int/publications/i/item/9789240101616",
         "publisher": "WHO",
         "kind": "institutional guidance",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "updated": "2024-12-31",
-        "evidence": "Official overview sets the scope as minimum quality/safety and performance features for oxygen sources, storage and distribution inside health facilities. The public overview establishes scope; exact system requirements need the applicable technical documentation."
+        "evidence": "Official publication overview rechecked: December 2024 specifications encompass quality/safety and performance of source, storage and distribution products. Overview only; full 107-page technical publication not newly read."
       },
       {
         "id": "unicef-oxygen-planning",
@@ -301,8 +290,8 @@ export default {
         "url": "https://www.unicef.org/innovation/public-private-partnerships-reliable-oxygen-supply",
         "publisher": "UNICEF Office of Innovation",
         "kind": "institutional programme",
-        "accessed": "2026-10-17",
-        "evidence": "Describes operating-service arrangements in Liberia and Uganda that assign equipment operation, maintenance and support to contracted providers. Used to illustrate procurement models only; reported outcome statistics are not generalized or repeated."
+        "accessed": "2026-10-18",
+        "evidence": "Full written programme page read. Liberia/Uganda examples allocate oxygen operation, maintenance and delivery responsibilities through contracted service models. Outcome percentages, claimed guarantees and specific programme prices are not generalized."
       }
     ],
     "related": [
@@ -312,5 +301,6 @@ export default {
       "equipment-handover"
     ]
   },
-  "searchTerms": "facility demand and device requirements concentrator/cylinder/PSA comparison complete service scope and backup operating cost and accountability Concentrators with an engineered continuity plan Delivered cylinders Facility PSA plant with complete support Contracted oxygen service"
+  "searchTerms": "Hospital oxygen: compare the supply bill behind the equipment facility demand and device requirements concentrator/cylinder/PSA comparison complete service scope and backup operating cost and accountability Concentrators with an engineered continuity plan Delivered cylinders Facility PSA plant with complete support Contracted oxygen service",
+  "librarySection": "decisions"
 };

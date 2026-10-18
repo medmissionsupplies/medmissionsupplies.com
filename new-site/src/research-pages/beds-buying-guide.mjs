@@ -3,8 +3,8 @@ export default {
   "key": "beds",
   "kind": "research-guide",
   "equipmentId": "beds",
-  "title": "Beds and stretchers: pay for easier patient transfers",
-  "summary": "Manual, electric and refurbished beds change staff work in different ways. Stretchers need a separate test on the route they will travel.",
+  "title": "Buying hospital beds: finish the bed before adding features",
+  "summary": "Compare manual, electric and refurbished beds as complete mattress-and-rail systems. For stretchers, pay for the loaded transfer route the staff actually use.",
   "categoryId": "hospital",
   "category": "Hospital essentials",
   "image": "guides/beds",
@@ -23,41 +23,45 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 3,
+  "minutes": 5,
   "sections": [
     [
-      "Price the daily work of moving the patient",
-      "Manual adjustment saves dependence on powered positioning, but staff do the work instead. That can be a good fit for one ward and a poor fit for another with dependent patients, frequent repositioning or fewer staff. Judge the bed during a realistic transfer and cleaning workflow, rather than comparing frames in an empty-room photograph. Praktika 2's crank height adjustment is a concrete reason to choose it over fixed-height Praktika 1. Its published maximum patient weight is 165 kg, distinct from the 200 kg safe working load; the population must fit both the intended use and the complete configuration. Eleganza 1 earns its electric premium when its positioning removes a repeated handling problem and the hospital can maintain the controls, actuators and battery."
+      "Choose the adjustment the ward will use",
+      "A mechanical bed can be good value when staff can manage its adjustment workload and power is uncertain. It becomes a false economy if frequent repositioning is so difficult that the intended capability is rarely used. Compare that daily work with the cost and repair needs of an electric bed before paying for specialist electronics. LINET Praktika 2 has crank height adjustment; Praktika 1 has fixed height. That distinction affects transfers and working position. The published maximum patient weight is 165 kg, while safe working load is 200 kg. These are different ratings: do not advertise the larger number as the patient limit. For frequent powered positioning, compare Eleganza 1 with its actual battery, controls and service package."
     ],
     [
-      "The surface, rails and brakes are the core package",
-      "Specify the mattress with the bed and rails. Length alone does not establish compatibility: the surface, cover, cleaning method and intended patients also matter. An expensive electric frame paired with a worn or mismatched donated mattress is an incomplete purchase. Compare the delivered system and its replacement surface cost. Give brakes, castors and rail latches priority in acceptance and spare-parts planning. They determine whether the ordinary transfer can happen reliably. Optional displays and other electronics should earn their budget after the basic handling system is complete."
+      "A mattress that fits on top may still be the wrong mattress",
+      "Specify the complete frame, mattress, rails and accessories together. Compatibility affects the gaps around the patient, usable rail height and access. FDA’s hospital-bed guidance treats compatible components and mattress dimensions as part of an overall entrapment-risk assessment; a frame measurement alone does not establish suitability for every patient. Have the responsible clinical and technical teams accept the intended configuration and patient use. An added overlay or substituted surface can change that configuration. A donor’s mattress or an inexpensive replacement should not be accepted solely because it covers the platform. Obtain the manufacturer-supported combination and include its cleanable surface, replacement cover and future supply in the purchase."
     ],
     [
-      "When the USD 3,295 Advanta 2 makes sense",
-      "The Victori offer supplies a specific starting point: USD 3,295 for refurbished SKU P1190 with a mattress and named functions, freight extra, viewed October 16, 2026. The listed 90-day warranty still needs useful geographic coverage. Compare actuator and battery checks, rail condition, fitted-scale verification, electrical safety and the actual mattress description before treating it as an equivalent alternative to a new bed. An existing Advanta service can make the purchase attractive because technicians, staff and spare parts already support that platform. A new remote facility acquires those obligations along with the bed. Baxter describes Advanta 2 for low-to-moderate acuity med-surg use; a dealer's ICU label does not expand that scope. The value comes from a supported, appropriate unit, not a universal claim that refurbished beds are cheaper to own."
+      "A refurbished bed is strongest inside a supported fleet",
+      "An Advanta 2 can be an economical addition where technicians already maintain the platform and have compatible spares. Familiarity has purchasing value, but it does not certify the offered unit’s brakes, rails, controls or surface. Record its identity and condition and demonstrate the required functions before accepting it. Victori Medical’s October 16, 2026 offer listed a refurbished P1190 at US$3,295 with a mattress and named scale, patient-control and bed-exit features, freight extra. Its stated 90-day warranty still needs a usable geographic repair arrangement. Compare that delivered, inspected package with a new bed; a return that requires expensive international freight can erase the saving. Baxter describes Advanta 2 for low-to-moderate acuity med-surg use. A dealer’s broader ICU label does not expand that intended role. Buy for the care the documented configuration supports."
     ],
     [
-      "Put both stretchers on the same route",
-      "Compare ST1 and P8005 on the longest normal route, tight turns, permitted slopes, thresholds and lift entrances with an appropriate simulated load. Add the monitor, oxygen cylinder and other equipment that travels with the patient. A trolley that looks compact without those accessories may become difficult to handle. ST1 supplies a clear basic transport comparison with fifth-wheel steering and central locking. Hillrom P8005 brings hydraulic height controls and a 700 lb (317 kg) safe working load; its Steering Plus system is optional. Match that configuration before comparing maneuverability or price. Also distinguish ST1 from ST1-X imaging equipment and a current P8005 brochure configuration from an older used unit. Fund imaging features or other added functions when they remove a repeated transfer problem. Otherwise, the better use of the budget may be a complete surface, mounting and maintenance package. The reviewed specifications support those differences, not a claim that one stretcher lasts longer."
+      "Walk the transfer route before choosing the stretcher",
+      "Stryker ST1 model 6300 combines fifth-wheel steering and central locking. Hillrom P8005 offers hydraulic height controls, with Steering Plus optional in the cited portfolio. Compare equivalent surfaces and steering packages; otherwise the cheaper quotation may omit the feature being evaluated. Assess the loaded arrangement through doors, lifts, corners and thresholds, including its monitor, oxygen-cylinder holder and other required accessories. Staff access at the head and sides matters alongside steering. Specify which ST1 or ST1-X configuration is offered, and which P8005 generation and width; a family name or stock photograph does not settle those differences."
+    ],
+    [
+      "Price usable bed-days, while keeping staff work visible",
+      "Over one common planning period, include complete beds and surfaces, freight, installation, inspections, replacement mattresses, parts and repairs. Divide by bed-days actually available during that same period. A broken rail or failed actuator can remove a bed from service even when its frame remains intact. Compare staff effort separately where it cannot be measured credibly in money. Electric adjustment may be worthwhile without a proven cash saving; a mechanical design may be maintainable without being more reliable. Local access to castors, brakes, cranks, actuators and controls is evidence of a repair route, not a measured failure-rate ranking."
     ]
   ],
   "related": [
     "beds"
   ],
-  "socialTitle": "Hospital Beds: Pay for Easier Transfers",
-  "socialDescription": "Compare Praktika 2, Eleganza 1, refurbished Advanta 2 and transport stretchers by staff work, surfaces, parts and the actual route.",
-  "socialHeadline": "Hospital bed and stretcher buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying hospital beds: finish the bed before adding features",
+  "socialDescription": "Compare manual, electric and refurbished beds as complete mattress-and-rail systems. For stretchers, pay for the loaded transfer route the staff actually use.",
+  "socialHeadline": "Buying hospital beds: finish the bed before adding features",
+  "socialStrapline": "The frame is only part of the bed you are buying.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "beds",
-    "title": "Hospital bed and stretcher buying guide",
-    "summary": "Spend first on safe positioning and transfers: the mattress, rails, brakes, castors and route through the building determine daily usefulness.",
-    "firstChoice": "Compare crank-adjusted Praktika 2 where mechanical positioning suits patients and staffing. Its maximum patient weight is 165 kg; its 200 kg safe working load is a different limit.",
-    "upgradeWhen": "Eleganza 1's electric positioning can earn its cost with frequent repositioning. A refurbished Advanta 2 fits more naturally into an already supported fleet. For stretchers, compare complete ST1 and P8005 packages.",
+    "title": "Buying hospital beds: finish the bed before adding features",
+    "summary": "Compare manual, electric and refurbished beds as complete mattress-and-rail systems. For stretchers, pay for the loaded transfer route the staff actually use.",
+    "firstChoice": "Match patient weight, positioning and transfer needs to a complete bed, surface and rail configuration; compare Praktika 2 where manual adjustment is workable.",
+    "upgradeWhen": "Frequent repositioning justifies electric adjustment, or the transport route benefits from a specified steering and accessory package.",
     "budgetWatch": "Include the compatible mattress and freight before judging a frame price. P8005's Steering Plus is optional. An Advanta 2 seller's ICU description does not change the manufacturer's med-surg scope.",
-    "supportCheck": "Test loaded maneuverability along actual turns, thresholds and lift entrances. Check rail latches and brakes, then obtain actuator, handset and battery support for powered beds.",
+    "supportCheck": "Reject a load-rating mismatch, an incompatible bed/mattress/rail combination, or a refurbished offer whose condition and included surface cannot be established.",
     "askSupplier": [
       "Does this bed, mattress and rail combination meet the intended patient requirements?",
       "Which steering and equipment mounts are included on the stretcher?",
@@ -74,8 +78,8 @@ export default {
   },
   "research": {
     "id": "beds",
-    "title": "Beds and stretchers: pay for easier patient transfers",
-    "dek": "Manual, electric and refurbished beds change staff work in different ways. Stretchers need a separate test on the route they will travel.",
+    "title": "Buying hospital beds: finish the bed before adding features",
+    "dek": "Compare manual, electric and refurbished beds as complete mattress-and-rail systems. For stretchers, pay for the loaded transfer route the staff actually use.",
     "verdict": "Start with LINET Praktika 2 where mechanical height adjustment suits the patients and staff and power is uncertain. Fund electric adjustment through Eleganza 1 when repeated repositioning makes it useful. A refurbished Advanta 2 becomes more attractive inside an existing supported fleet than as the first unfamiliar bed in a remote ward. For transport, compare Stryker ST1 and Hillrom P8005 with equivalent surfaces and steering arrangements. The mattress, brakes, rails and transfer route belong in the decision before optional electronics.",
     "coverage": [
       "beds",
@@ -146,10 +150,10 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Price the daily work of moving the patient",
+        "heading": "Choose the adjustment the ward will use",
         "paragraphs": [
-          "Manual adjustment saves dependence on powered positioning, but staff do the work instead. That can be a good fit for one ward and a poor fit for another with dependent patients, frequent repositioning or fewer staff. Judge the bed during a realistic transfer and cleaning workflow, rather than comparing frames in an empty-room photograph.",
-          "Praktika 2's crank height adjustment is a concrete reason to choose it over fixed-height Praktika 1. Its published maximum patient weight is 165 kg, distinct from the 200 kg safe working load; the population must fit both the intended use and the complete configuration. Eleganza 1 earns its electric premium when its positioning removes a repeated handling problem and the hospital can maintain the controls, actuators and battery."
+          "A mechanical bed can be good value when staff can manage its adjustment workload and power is uncertain. It becomes a false economy if frequent repositioning is so difficult that the intended capability is rarely used. Compare that daily work with the cost and repair needs of an electric bed before paying for specialist electronics.",
+          "LINET Praktika 2 has crank height adjustment; Praktika 1 has fixed height. That distinction affects transfers and working position. The published maximum patient weight is 165 kg, while safe working load is 200 kg. These are different ratings: do not advertise the larger number as the patient limit. For frequent powered positioning, compare Eleganza 1 with its actual battery, controls and service package."
         ],
         "sourceIds": [
           "praktika",
@@ -157,39 +161,49 @@ export default {
         ]
       },
       {
-        "heading": "The surface, rails and brakes are the core package",
+        "heading": "A mattress that fits on top may still be the wrong mattress",
         "paragraphs": [
-          "Specify the mattress with the bed and rails. Length alone does not establish compatibility: the surface, cover, cleaning method and intended patients also matter. An expensive electric frame paired with a worn or mismatched donated mattress is an incomplete purchase. Compare the delivered system and its replacement surface cost.",
-          "Give brakes, castors and rail latches priority in acceptance and spare-parts planning. They determine whether the ordinary transfer can happen reliably. Optional displays and other electronics should earn their budget after the basic handling system is complete."
-        ],
-        "sourceIds": []
-      },
-      {
-        "heading": "When the USD 3,295 Advanta 2 makes sense",
-        "paragraphs": [
-          "The Victori offer supplies a specific starting point: USD 3,295 for refurbished SKU P1190 with a mattress and named functions, freight extra, viewed October 16, 2026. The listed 90-day warranty still needs useful geographic coverage. Compare actuator and battery checks, rail condition, fitted-scale verification, electrical safety and the actual mattress description before treating it as an equivalent alternative to a new bed.",
-          "An existing Advanta service can make the purchase attractive because technicians, staff and spare parts already support that platform. A new remote facility acquires those obligations along with the bed. Baxter describes Advanta 2 for low-to-moderate acuity med-surg use; a dealer's ICU label does not expand that scope. The value comes from a supported, appropriate unit, not a universal claim that refurbished beds are cheaper to own."
+          "Specify the complete frame, mattress, rails and accessories together. Compatibility affects the gaps around the patient, usable rail height and access. FDA’s hospital-bed guidance treats compatible components and mattress dimensions as part of an overall entrapment-risk assessment; a frame measurement alone does not establish suitability for every patient.",
+          "Have the responsible clinical and technical teams accept the intended configuration and patient use. An added overlay or substituted surface can change that configuration. A donor’s mattress or an inexpensive replacement should not be accepted solely because it covers the platform. Obtain the manufacturer-supported combination and include its cleanable surface, replacement cover and future supply in the purchase."
         ],
         "sourceIds": [
-          "bedoffer",
-          "advanta"
+          "fda-bed"
         ]
       },
       {
-        "heading": "Put both stretchers on the same route",
+        "heading": "A refurbished bed is strongest inside a supported fleet",
         "paragraphs": [
-          "Compare ST1 and P8005 on the longest normal route, tight turns, permitted slopes, thresholds and lift entrances with an appropriate simulated load. Add the monitor, oxygen cylinder and other equipment that travels with the patient. A trolley that looks compact without those accessories may become difficult to handle.",
-          "ST1 supplies a clear basic transport comparison with fifth-wheel steering and central locking. Hillrom P8005 brings hydraulic height controls and a 700 lb (317 kg) safe working load; its Steering Plus system is optional. Match that configuration before comparing maneuverability or price. Also distinguish ST1 from ST1-X imaging equipment and a current P8005 brochure configuration from an older used unit.",
-          "Fund imaging features or other added functions when they remove a repeated transfer problem. Otherwise, the better use of the budget may be a complete surface, mounting and maintenance package. The reviewed specifications support those differences, not a claim that one stretcher lasts longer."
+          "An Advanta 2 can be an economical addition where technicians already maintain the platform and have compatible spares. Familiarity has purchasing value, but it does not certify the offered unit’s brakes, rails, controls or surface. Record its identity and condition and demonstrate the required functions before accepting it.",
+          "Victori Medical’s October 16, 2026 offer listed a refurbished P1190 at US$3,295 with a mattress and named scale, patient-control and bed-exit features, freight extra. Its stated 90-day warranty still needs a usable geographic repair arrangement. Compare that delivered, inspected package with a new bed; a return that requires expensive international freight can erase the saving.",
+          "Baxter describes Advanta 2 for low-to-moderate acuity med-surg use. A dealer’s broader ICU label does not expand that intended role. Buy for the care the documented configuration supports."
+        ],
+        "sourceIds": [
+          "advanta",
+          "bedoffer"
+        ]
+      },
+      {
+        "heading": "Walk the transfer route before choosing the stretcher",
+        "paragraphs": [
+          "Stryker ST1 model 6300 combines fifth-wheel steering and central locking. Hillrom P8005 offers hydraulic height controls, with Steering Plus optional in the cited portfolio. Compare equivalent surfaces and steering packages; otherwise the cheaper quotation may omit the feature being evaluated.",
+          "Assess the loaded arrangement through doors, lifts, corners and thresholds, including its monitor, oxygen-cylinder holder and other required accessories. Staff access at the head and sides matters alongside steering. Specify which ST1 or ST1-X configuration is offered, and which P8005 generation and width; a family name or stock photograph does not settle those differences."
         ],
         "sourceIds": [
           "st1",
           "hillrom-transport"
         ]
+      },
+      {
+        "heading": "Price usable bed-days, while keeping staff work visible",
+        "paragraphs": [
+          "Over one common planning period, include complete beds and surfaces, freight, installation, inspections, replacement mattresses, parts and repairs. Divide by bed-days actually available during that same period. A broken rail or failed actuator can remove a bed from service even when its frame remains intact.",
+          "Compare staff effort separately where it cannot be measured credibly in money. Electric adjustment may be worthwhile without a proven cash saving; a mechanical design may be maintainable without being more reliable. Local access to castors, brakes, cranks, actuators and controls is evidence of a repair route, not a measured failure-rate ranking."
+        ],
+        "sourceIds": []
       }
     ],
     "ownership": {
-      "equation": "Annual cost per available bed-day = (annualized delivered bed and surface cost + inspections + repairs + replacement surfaces + downtime costs) ÷ available bed-days.",
+      "equation": "Cost per available bed-day over one planning period = (complete delivered beds/surfaces + installation + inspections, repairs, replacement surfaces and downtime provision during that period) / available bed-days during the same period. Compare staff workload separately unless it has been measured and costed consistently.",
       "drivers": [
         "Freight volume and last-mile handling",
         "Mattress replacement and cleaning",
@@ -215,7 +229,7 @@ export default {
         "url": "https://www.linet.com/en-AE/products/beds-stretchers-chairs/acute-care/praktika-1-2",
         "publisher": "LINET",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Praktika 1 fixed height; Praktika 2 crank height adjustment. Published maximum patient weight 165 kg and safe working load 200 kg."
       },
       {
@@ -262,6 +276,15 @@ export default {
         "kind": "manufacturer",
         "accessed": "2026-10-16",
         "evidence": "Transport specifications distinguish optional Steering Plus from included hydraulic controls; 700 lb safe working load. P8005 appears in the model and surface tables."
+      },
+      {
+        "id": "fda-bed",
+        "title": "Hospital bed system dimensional and assessment guidance overview",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/hospital-bed-system-dimensional-and-assessment-guidance-reduce-entrapment",
+        "publisher": "US FDA",
+        "kind": "regulator guidance",
+        "accessed": "2026-10-18",
+        "evidence": "March 2006 guidance overview: compatible components/mattress dimensions and individual risk assessment; not a claim that dimensional testing alone establishes safety."
       }
     ],
     "decision": {
@@ -303,10 +326,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Hospital Beds: Pay for Easier Transfers",
-      "description": "Compare Praktika 2, Eleganza 1, refurbished Advanta 2 and transport stretchers by staff work, surfaces, parts and the actual route.",
-      "hook": "A low bed price can become a daily cost in awkward transfers, missing surfaces or unavailable brake parts."
-    }
+      "title": "Buying hospital beds: finish the bed before adding features",
+      "description": "Compare manual, electric and refurbished beds as complete mattress-and-rail systems. For stretchers, pay for the loaded transfer route the staff actually use.",
+      "hook": "The frame is only part of the bed you are buying."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "beds patient stretchers LINET Praktika 2 LINET Eleganza 1 Hillrom Advanta 2, documented refurbished unit Stryker ST1, model 6300 Hillrom Transport Stretcher P8005"
+  "searchTerms": "Buying hospital beds: finish the bed before adding features beds patient stretchers LINET Praktika 2 LINET Eleganza 1 Hillrom Advanta 2, documented refurbished unit Stryker ST1, model 6300 Hillrom Transport Stretcher P8005",
+  "librarySection": "equipment"
 };

@@ -3,8 +3,8 @@ export default {
   "key": "oxygen",
   "kind": "research-guide",
   "equipmentId": "oxygen",
-  "title": "Buying oxygen equipment: the source sets the limit",
-  "summary": "A concentrator's output, a high-flow system's gas flow and a ventilator's support modes are different capabilities. Match them before spending.",
+  "title": "Buying oxygen equipment: pay for the right kind of capacity",
+  "summary": "Compare concentrators, high-flow systems and respiratory support by their actual job, complete supplies and supportable working life.",
   "categoryId": "critical-care",
   "category": "Critical & patient care",
   "image": "guides/oxygen",
@@ -28,67 +28,57 @@ export default {
   "minutes": 5,
   "sections": [
     [
-      "Buy enough oxygen, without paying for unused capacity",
-      "The first comparison is the demand the facility must meet at the same time. A concentrator, cylinder supply and an engineered PSA plant put different burdens on electricity, maintenance and delivery. WHO's facility-system specifications treat source, storage and distribution together. That is why a plant brand cannot be selected usefully from this equipment list alone: the site and its demand determine the installation. For a small service, VisionAire 5 is worth considering when its 1–5 L/min range fully covers the requirement. Its published draw is 290 W, while NewLife Intensity 10 publishes 600 W. Those figures make power use a real budget variable; they do not make the smaller unit a substitute for missing capacity. For a requirement up to 10 L/min, 1025 and Intensity 10 provide an identifiable comparison, including oxygen monitoring, regional electrical variant and the repair route. The opened 1025DS-bundle offer gives a concrete USD 1,399.00 starting point on October 16, 2026, with the contents and exclusions recorded in the model card. It does not price a hospital oxygen network. Add backup and any approved connection to the downstream equipment. The earlier suggestion to join concentrators in series is not carried forward: obtain a manufacturer-approved supply design instead of making a connection that the purchase evidence does not support."
+      "Buy the oxygen source and the treatment device as separate decisions",
+      "A 10 L/min concentrator, a high-flow system and a ventilator do different jobs. The concentrator supplies oxygen; a high-flow system delivers a heated, humidified gas mixture; a ventilator adds its specified breathing-support functions. A large flow number on one machine does not make it a substitute for another. Start with the clinical service’s simultaneous oxygen requirement, pressure and approved source connection. Then choose the downstream equipment and its complete circuit. If a suitable concentrator already meets that requirement and has a supportable service history, replacing it for a newer screen or a higher nominal flow brings little purchasing value."
     ],
     [
-      "Compare complete high-flow stations before their prices",
-      "Airvo 2 needs a configured offer before it can serve as a budget comparison. The opened ILAP Biomed page identifies a new Airvo 2 but leaves the electrical variant, included kit, stock and warranty scope unclear; retain it only as an unconfigured seller lead. Price the required stand, oxygen connection, chambers, heated tubing, interfaces and reprocessing resources with the identified unit. Then compare annual disposable and oxygen costs alongside the complete capital bill. Airvo 3 has an identifiable capability case: its cleared submission describes interface-dependent 2–70 L/min operation and both high- and low-pressure oxygen inputs. HVT 2.0 offers a different integrated-blower and disposable system, with 5–45 L/min in the cited IFU for patients at least 5 kg. The right comparison is the intended population, station workflow and supply chain. Neither a higher flow ceiling nor a lower purchase price proves that one service will work better. The cited labeling excludes field transport and total ventilatory support for both newer platforms. Correction status is part of completing the offer. Airvo 2's reviewed action updates disinfection-kit instructions, including an audible power-out alarm check. Airvo 3's reviewed action concerns specified older PT301US software and high-pressure-oxygen behavior. Keep those records separate: one model's documented correction does not settle the other's."
+      "A smaller concentrator can cost less to run—if it is large enough",
+      "VisionAire 5 and NewLife Intensity 10 make a useful capacity comparison: CAIRE publishes 1–5 L/min and 290 W for the former, versus 2–10 L/min and 600 W for the latter. Specify VisionAire’s oxygen-monitor option. The Drive 1025DS is another identified 2–10 L/min candidate; compare its exact electrical variant and support package. An illustrative electricity calculation shows why unused capacity matters. A 310 W difference over 12 hours a day for 365 days equals 1,357.8 kWh. At an assumed USD 0.20/kWh, that is USD 271.56 a year. These are hypothetical operating hours and tariff applied to published power figures, not measured savings. The comparison is relevant only when the smaller device safely meets the approved requirement."
     ],
     [
-      "A legacy Philips bargain has a support clock",
-      "Philips' portfolio table puts dates on part of the ownership calculation: EverFlo and Millennium M10 have January 2024 sales/shipment milestones and January 2029 service milestones; V60/V60 Plus has an August 2022 sales endpoint and December 2029 service milestone. Region and part number qualify the table, and parts remain subject to availability. An existing serviced machine may still earn its place. Importing another is a new commitment, so use the applicable remaining support period rather than the original purchase price to judge it. BiPAP Vision is a legacy keep-only candidate until exact support and parts can be demonstrated; this review did not establish a current manufacturer pathway. DreamStation is not a generic recommendation: determine the precise BiPAP model, applicable foam-recall history and remediation. A separate 2025 DreamStation recall involved programming errors in certain devices. V60's documented power-circuit/alarm action is a different recall issue, not the DreamStation foam issue. For a new purchase, keep the jobs distinct. Acute hospital NIV brings C1 or a configured Savina 300 into consideration. AirCurve 10 ST-A has respiratory-insufficiency indications and modes/alarms beyond basic sleep CPAP; Astral is a portable ventilation platform, with a double-limb circuit option on Astral 150. AirSense 11 AutoSet and AirMini belong to sleep therapy, with AirMini's dedicated travel accessories part of its cost. An inexpensive donation should meet the service specification rather than silently rewrite it."
+      "High-flow value depends on the whole station",
+      "Airvo 2 can remain a sensible purchase where its complete accessories, reprocessing resources and supply chain are established. Airvo 3 adds identifiable oxygen-input capabilities. Vapotherm HVT 2.0 offers a different interface and disposable ecosystem. Compare those differences against the intended patient population and workflow before paying for extra capacity. Price the oxygen supply, tubes, chambers, interfaces, water provision and power continuity alongside the machine. Airvo 2’s 2025 manual correction and Airvo 3’s 2024 software correction are separate issues. Require applicable correction records and current instructions for the offered unit; a generic claim that a machine has been serviced does not settle them."
     ],
     [
-      "Budget for the interruption most likely to stop the service",
-      "A healthy concentrator still needs electricity. A working high-flow console still needs oxygen, water and compatible disposable supplies. A serviceable legacy unit still needs parts within its remaining support horizon. Count those interruptions alongside hardware repairs when comparing availability. This review found current manuals, lifecycle notices and specific corrective actions, but no comparable field failure rates. Use the evidence to price a complete service, not to label one brand the most durable."
+      "Match respiratory support to its intended role",
+      "Use the options below to separate acute hospital NIV, prescribed bilevel support, portable ventilation and sleep therapy. AirCurve 10 ST-A is not identified merely by the AirCurve family name; Astral 150’s circuit capability can matter; AirMini’s compactness serves a travel requirement. None of those distinctions establishes a universal replacement for another platform. For used Philips equipment, price only the remaining supportable service period. Philips’ January 2024 portfolio table lists EverFlo and Millennium M10 service through January 2029 and V60/V60 Plus through December 2029, with part and regional qualifications. Confirm applicability, parts access and all relevant corrective actions for the exact unit before treating that horizon as available to your hospital."
     ]
   ],
   "related": [
     "oxygen"
   ],
-  "socialTitle": "Buying oxygen equipment: the source sets the limit",
-  "socialDescription": "Compare concentrators, Airvo, Vapotherm and NIV platforms by oxygen demand, power, consumables and the job each device can actually do.",
-  "socialHeadline": "Oxygen and respiratory support buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying oxygen equipment: pay for the right kind of capacity",
+  "socialDescription": "Compare concentrators, high-flow systems and respiratory support by their actual job, complete supplies and supportable working life.",
+  "socialHeadline": "Buying oxygen equipment: pay for the right kind of capacity",
+  "socialStrapline": "The biggest flow number is not the whole answer.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "oxygen",
-    "title": "Oxygen and respiratory support buying guide",
-    "summary": "Size the oxygen source for simultaneous demand before buying downstream equipment. Oxygen generation, high-flow therapy, acute ventilation and sleep therapy are different jobs.",
-    "firstChoice": "Where 1–5 L/min meets the requirement, compare VisionAire 5 with the oxygen-monitor option. For requirements up to 10 L/min, compare the correct DeVilbiss 1025 and NewLife Intensity 10 electrical variants.",
-    "upgradeWhen": "Price Airvo 2, Airvo 3 and HVT 2.0 as complete high-flow stations. For acute NIV, compare configured C1 or Savina. AirCurve ST-A, Astral and sleep CPAP require their own intended-use comparisons.",
-    "budgetWatch": "High-flow devices do not generate oxygen. Include source capacity, backup, chambers, tubing and interfaces. VisionAire's published 290 W and Intensity 10's 600 W make electricity a meaningful operating-cost input.",
-    "supportCheck": "Confirm approved source/device compatibility, concentration at required flow and repair access. Keep Airvo 2 and Airvo 3 correction records distinct; one does not resolve the other.",
+    "title": "Buying oxygen equipment: pay for the right kind of capacity",
+    "summary": "Compare concentrators, high-flow systems and respiratory support by their actual job, complete supplies and supportable working life.",
+    "firstChoice": "Define simultaneous oxygen flow, pressure and backup needs, then match the source and the downstream device as an approved combination.",
+    "upgradeWhen": "The service needs 10 L output, Airvo 3's oxygen-input options, or a ventilator's acute-care modes and alarms rather than sleep-therapy functions.",
+    "budgetWatch": "Use a smaller concentrator only when its approved capacity meets demand. Compare all recurring costs over one period.",
+    "supportCheck": "Reject improvised concentrator combinations, a home-PAP offer presented as generic acute NIV, or a legacy device with unresolved identity or recall status.",
     "askSupplier": [
-      "What oxygen flow and pressure must our source deliver simultaneously?",
-      "Which voltage, oxygen monitoring and backup arrangements are included?",
-      "What is the annual complete consumable basket for this respiratory station?"
+      "Identify the exact model, voltage, enabled functions and included circuit.",
+      "Document applicable corrective actions and destination service eligibility.",
+      "Price the complete station and recurring patient supplies over the same operating period."
     ],
     "sourceIds": [
       "o1",
       "o3",
-      "o4",
       "o5",
-      "o6",
       "o8",
-      "o9",
       "o10",
-      "o11",
-      "o12",
-      "o13",
-      "o14",
-      "o15",
-      "o16",
-      "o17",
-      "o22"
+      "o19"
     ]
   },
   "research": {
     "id": "oxygen",
-    "title": "Buying oxygen equipment: the source sets the limit",
-    "dek": "A concentrator's output, a high-flow system's gas flow and a ventilator's support modes are different capabilities. Match them before spending.",
-    "verdict": "Choose the oxygen source before the downstream device. Where 1–5 L/min meets the defined requirement, VisionAire 5 avoids buying unnecessary 10 L capacity and has a published 290 W draw. Where the requirement reaches 10 L/min, compare DeVilbiss 1025 and NewLife Intensity 10 as complete supported installations. Compare Airvo 2, Airvo 3 and HVT 2.0 as complete high-flow stations, matching accessories, oxygen demand, correction records and useful capabilities before judging value. For acute NIV, start with a configured C1 or Savina platform. Prescribed bilevel support, portable ventilation and sleep CPAP each have their own equipment shortlist.",
+    "title": "Buying oxygen equipment: pay for the right kind of capacity",
+    "dek": "Compare concentrators, high-flow systems and respiratory support by their actual job, complete supplies and supportable working life.",
+    "verdict": "Define the clinical requirement, then match the oxygen source and downstream device as an approved combination. Where 1–5 L/min meets the defined requirement, VisionAire 5 avoids buying unnecessary 10 L capacity and has a published 290 W draw. Where the requirement reaches 10 L/min, compare DeVilbiss 1025 and NewLife Intensity 10 as complete supported installations. Compare Airvo 2, Airvo 3 and HVT 2.0 as complete high-flow stations, matching accessories, oxygen demand, correction records and useful capabilities before judging value. For acute NIV, start with a configured C1 or Savina platform. Prescribed bilevel support, portable ventilation and sleep CPAP each have their own equipment shortlist.",
     "coverage": [
       "5 L and 10 L stationary concentrators",
       "Cylinder, plant and distribution planning",
@@ -103,10 +93,10 @@ export default {
         "model": "Drive DeVilbiss 1025 series, voltage variant specified",
         "position": "Identifiable 10 L concentrator",
         "bestFor": "A continuous-flow requirement within the approved output and environment",
-        "why": "The current 1025 offering specifies 2–10 L/min and a 20 psi outlet. It retains the original review's emphasis on a recognizable serviceable platform without assuming every older unit has the same condition.",
-        "tradeoff": "Electrical variant, oxygen concentration at rated flow and repair access matter more than nominal maximum output. A concentrator is not automatically a suitable source for every downstream device.",
-        "price": "The CPAP Shop displayed USD 1,399.00 for its 1025DS-bundle on October 16, 2026. Box contents include the concentrator, AC cord, installed filters, adapter, manual and five cannulas; an optional intake bacteria filter is USD 33.99. Verify electrical variant and export warranty; tax, overseas freight and import costs are not included in this budget anchor.",
-        "support": "Current Drive product and support program found. Program eligibility and exported-unit service require confirmation.",
+        "why": "Drive specifies 2–10 L/min for the 1025DS. Buy the electrical variant suited to the destination, with its oxygen-sensing configuration identified.",
+        "tradeoff": "Rated output does not establish compatibility with every downstream device.",
+        "price": "Dated retail anchor: The CPAP Shop listed the 1025DS-bundle at USD 1,399 on October 16, 2026, with AC cord, installed filters, adapter, manual and five cannulas. Overseas freight, import charges and export warranty remain separate.",
+        "support": "Confirm service eligibility for the exact unit and destination.",
         "sourceIds": [
           "o1",
           "o2",
@@ -117,10 +107,10 @@ export default {
         "model": "CAIRE AirSep NewLife Intensity 10",
         "position": "Alternative 10 L supply",
         "bestFor": "A facility comparing another identifiable high-flow stationary platform",
-        "why": "Published output up to 10 L/min and 20 psig makes it a meaningful specification comparison with 1025 rather than a smaller machine sold as equivalent.",
-        "tradeoff": "Published 600 W power demand and substantial weight belong in the electrical and shipping budget. Outlet pressure alone does not establish approved compatibility with a ventilator.",
+        "why": "Published 2–10 L/min, 20 psig and 600 W support a concrete capacity and infrastructure comparison.",
+        "tradeoff": "Outlet pressure alone does not establish ventilator compatibility.",
         "price": "Quote required; include correct regional variant and preventive-maintenance supplies.",
-        "support": "Manufacturer publishes current product literature and manual; destination technician and component availability unconfirmed.",
+        "support": "Published documentation is available; local repair acceptance remains to be confirmed.",
         "sourceIds": [
           "o3",
           "o4"
@@ -130,10 +120,10 @@ export default {
         "model": "CAIRE AirSep VisionAire 5 with oxygen-monitor option",
         "position": "Lower-capacity oxygen supply",
         "bestFor": "A defined requirement within 1–5 L/min",
-        "why": "Its published 290 W draw makes it worth comparing when a 10 L unit's extra capacity is unnecessary. Specify the oxygen-monitor-equipped version rather than assuming it is standard.",
-        "tradeoff": "The smaller output cannot be treated as spare capacity for high-demand systems. Manufacturer marketing about low failure rates supplies no comparative field data.",
+        "why": "Published output is 1–5 L/min at 290 W. Oxygen monitoring is an option to specify.",
+        "tradeoff": "Choose it only when the smaller output meets the requirement; there is no comparative field-failure evidence here.",
         "price": "Quote required for the oxygen-monitor version and correct electrical configuration.",
-        "support": "Current product documentation found; warranty geography and repair pathway need confirmation.",
+        "support": "Confirm destination warranty and repair pathway.",
         "sourceIds": [
           "o5"
         ]
@@ -142,10 +132,10 @@ export default {
         "model": "Fisher & Paykel Airvo 2",
         "position": "Established high-flow platform",
         "bestFor": "A service with compatible supplies and a defined mains-powered high-flow station",
-        "why": "The established flow-generator/humidifier platform has an identifiable tube, chamber and interface ecosystem. Its older generation can be reasonable value when the complete package and correction status are satisfactory.",
-        "tradeoff": "It is not an oxygen generator. Oxygen capacity, power continuity, reprocessing resources and single-patient consumables are separate costs.",
-        "price": "Quote required for the exact electrical variant, included accessories and warranty. The ILAP Biomed listing is an explicitly unconfigured seller lead; its asking amount is not a complete-system budget or a like-for-like comparison price.",
-        "support": "MSF lists the platform and accessories; FDA records a 2025 disinfection-manual/alarm-check correction. Obtain serial-specific service and corrective-action evidence.",
+        "why": "An established flow generator and humidifier with a defined tube, chamber and interface ecosystem.",
+        "tradeoff": "Separate oxygen, power continuity, water, reprocessing and patient supplies remain necessary.",
+        "price": "Request a complete station price; an unconfigured seller listing is not a usable-system budget.",
+        "support": "Require evidence addressing the applicable 2025 disinfection-manual correction.",
         "sourceIds": [
           "o6",
           "o7",
@@ -156,10 +146,10 @@ export default {
         "model": "Fisher & Paykel Airvo 3",
         "position": "Newer high-flow capabilities",
         "bestFor": "A service that benefits from the newer interface and oxygen-input configuration",
-        "why": "The FDA-cleared submission documents 2–70 L/min, interface-dependent, plus high- and low-pressure oxygen inputs. Those are concrete reasons to price the newer system.",
-        "tradeoff": "More capability does not eliminate oxygen supply limits. The cleared device is not intended to provide total ventilatory requirements or field transport.",
-        "price": "Quote required for current regional configuration, accessories and applicable battery options.",
-        "support": "Regulatory documentation verified; 2024 software correction affects specified PT301US versions. Current corrected software and local service must be confirmed.",
+        "why": "Its FDA submission describes interface-dependent 2–70 L/min and high- and low-pressure oxygen inputs.",
+        "tradeoff": "Not intended for total ventilatory requirements or field transport.",
+        "price": "Compare a complete regional configuration, including required accessories.",
+        "support": "Specified PT301US software versions have a 2024 correction; obtain applicable completion evidence.",
         "sourceIds": [
           "o9",
           "o10"
@@ -169,10 +159,10 @@ export default {
         "model": "Vapotherm HVT 2.0",
         "position": "Alternative high-flow supply system",
         "bestFor": "A program deliberately choosing Vapotherm interfaces and disposable supply",
-        "why": "The current IFU describes an integrated blower and 5–45 L/min delivery for its specified population. It can be compared as a complete service rather than on maximum flow alone.",
-        "tradeoff": "The cited IFU covers patients at least 5 kg and excludes field transport and total ventilatory support. Proprietary disposables and local stock can outweigh a capital discount.",
-        "price": "Quote required including patient circuits, cannulas, oxygen connection and transfer accessories.",
-        "support": "Current manufacturer IFU verified; destination service and annual disposable expenditure unconfirmed.",
+        "why": "The cited manufacturer IFU specifies an integrated blower, 5–45 L/min and patients at least 5 kg.",
+        "tradeoff": "Not for field transport or total ventilatory support. Its disposable supply is a purchasing commitment.",
+        "price": "Include patient circuits, cannulas and oxygen connection.",
+        "support": "Confirm local service and recurring supply availability.",
         "sourceIds": [
           "o11"
         ]
@@ -181,10 +171,10 @@ export default {
         "model": "HAMILTON-C1 / Dräger Savina 300 NIV configuration",
         "position": "Acute hospital NIV",
         "bestFor": "A hospital requiring a ventilator platform with specified acute-care monitoring and alarms",
-        "why": "Both have documented turbine-based ventilation platforms and NIV capability. Their broader ventilation role can justify cost when the service genuinely needs that capability.",
-        "tradeoff": "The exact patient range, enabled modes, oxygen inlet, battery and humidification package must match the clinical specification. Do not assume a basic Savina 300 includes every NIV/high-flow option.",
-        "price": "Separate complete quotes required; see ventilator comparison for configuration tradeoffs.",
-        "support": "Current manufacturer offerings verified, with local support and serial-specific configuration still open.",
+        "why": "Documented turbine ventilator platforms with NIV capability justify consideration when that broader role is required.",
+        "tradeoff": "Compare enabled modes, patient range, gas inlet, battery and humidification; a base Savina 300 does not establish every option.",
+        "price": "Compare complete configurations in the ventilator guide.",
+        "support": "Verify serial-specific configuration and local support.",
         "sourceIds": [
           "o12",
           "o13"
@@ -194,10 +184,10 @@ export default {
         "model": "ResMed AirCurve 10 ST-A",
         "position": "Prescribed bilevel-support role",
         "bestFor": "A prescribed home or hospital NIV requirement within this model's labeling",
-        "why": "ST-A has respiratory-insufficiency indications and modes/alarms beyond generic sleep CPAP. The exact suffix matters: an AirCurve family label alone does not identify this functionality.",
-        "tradeoff": "Its labeled patient and mode limits and oxygen-connection requirements must be checked. It is not automatically an equivalent replacement for a V60 or a critical-care ventilator.",
-        "price": "Quote required including approved circuit, mask, humidification and any backup-power arrangement.",
-        "support": "Current product and user guide verified; authorized service access at destination unconfirmed.",
+        "why": "ST-A has specified respiratory-insufficiency indications, modes and alarms beyond sleep CPAP; the suffix matters.",
+        "tradeoff": "Not automatically equivalent to a V60 or critical-care ventilator.",
+        "price": "Include the approved circuit, mask, humidification and power arrangement.",
+        "support": "Check labeling and authorized service for the destination.",
         "sourceIds": [
           "o14",
           "o15"
@@ -207,10 +197,10 @@ export default {
         "model": "ResMed Astral 100 / 150",
         "position": "Portable ventilation role",
         "bestFor": "A defined portable invasive or non-invasive ventilation requirement",
-        "why": "Astral is a ventilation platform rather than simply travel CPAP. Astral 150 adds capabilities including a double-limb circuit option, which may decide the comparison.",
-        "tradeoff": "Higher capability brings circuit, sensor, battery and maintenance costs. It should be specified against its intended use, not purchased as a blanket acute-NIV substitute.",
-        "price": "Quote required for exact model, circuit type and accessories.",
-        "support": "Current manufacturer product/support documentation verified; local repair acceptance unconfirmed.",
+        "why": "Astral provides portable invasive or non-invasive ventilation; the 150 includes a double-limb circuit option.",
+        "tradeoff": "Circuit, sensor, battery and maintenance needs follow the selected configuration.",
+        "price": "Quote the exact model and accessories.",
+        "support": "Confirm local repair acceptance.",
         "sourceIds": [
           "o16"
         ]
@@ -219,10 +209,10 @@ export default {
         "model": "ResMed AirSense 11 AutoSet / AirMini",
         "position": "Sleep therapy and travel",
         "bestFor": "A prescribed CPAP/APAP service, with AirMini reserved for a travel requirement",
-        "why": "AirSense 11 is the fuller everyday sleep-therapy platform; AirMini's compactness can justify its dedicated travel ecosystem. This keeps the old AirMini recommendation in its appropriate category.",
-        "tradeoff": "These are not bilevel or acute NIV substitutes. Compact size may mean different mask/tubing and humidification arrangements that reduce interchangeability with an existing fleet.",
-        "price": "Quote required for exact machine and compatible mask/accessory bundle.",
-        "support": "Current ResMed product pages verified; regional accessory supply and warranty remain quote questions.",
+        "why": "AirSense 11 AutoSet suits an everyday prescribed sleep-therapy role; AirMini has a dedicated travel ecosystem.",
+        "tradeoff": "Neither is a bilevel or acute-NIV substitute; mask, tubing and humidification arrangements differ.",
+        "price": "Compare complete compatible bundles.",
+        "support": "Confirm regional supplies and warranty.",
         "sourceIds": [
           "o17",
           "o18"
@@ -231,31 +221,40 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Buy enough oxygen, without paying for unused capacity",
+        "heading": "Buy the oxygen source and the treatment device as separate decisions",
         "paragraphs": [
-          "The first comparison is the demand the facility must meet at the same time. A concentrator, cylinder supply and an engineered PSA plant put different burdens on electricity, maintenance and delivery. WHO's facility-system specifications treat source, storage and distribution together. That is why a plant brand cannot be selected usefully from this equipment list alone: the site and its demand determine the installation.",
-          "For a small service, VisionAire 5 is worth considering when its 1–5 L/min range fully covers the requirement. Its published draw is 290 W, while NewLife Intensity 10 publishes 600 W. Those figures make power use a real budget variable; they do not make the smaller unit a substitute for missing capacity. For a requirement up to 10 L/min, 1025 and Intensity 10 provide an identifiable comparison, including oxygen monitoring, regional electrical variant and the repair route.",
-          "The opened 1025DS-bundle offer gives a concrete USD 1,399.00 starting point on October 16, 2026, with the contents and exclusions recorded in the model card. It does not price a hospital oxygen network. Add backup and any approved connection to the downstream equipment. The earlier suggestion to join concentrators in series is not carried forward: obtain a manufacturer-approved supply design instead of making a connection that the purchase evidence does not support."
+          "A 10 L/min concentrator, a high-flow system and a ventilator do different jobs. The concentrator supplies oxygen; a high-flow system delivers a heated, humidified gas mixture; a ventilator adds its specified breathing-support functions. A large flow number on one machine does not make it a substitute for another.",
+          "Start with the clinical service’s simultaneous oxygen requirement, pressure and approved source connection. Then choose the downstream equipment and its complete circuit. If a suitable concentrator already meets that requirement and has a supportable service history, replacing it for a newer screen or a higher nominal flow brings little purchasing value."
         ],
         "sourceIds": [
           "o1",
           "o3",
-          "o4",
-          "o5",
-          "o22",
-          "o-cpap-1025"
+          "o6",
+          "o9",
+          "o11",
+          "o22"
         ]
       },
       {
-        "heading": "Compare complete high-flow stations before their prices",
+        "heading": "A smaller concentrator can cost less to run—if it is large enough",
         "paragraphs": [
-          "Airvo 2 needs a configured offer before it can serve as a budget comparison. The opened ILAP Biomed page identifies a new Airvo 2 but leaves the electrical variant, included kit, stock and warranty scope unclear; retain it only as an unconfigured seller lead. Price the required stand, oxygen connection, chambers, heated tubing, interfaces and reprocessing resources with the identified unit. Then compare annual disposable and oxygen costs alongside the complete capital bill.",
-          "Airvo 3 has an identifiable capability case: its cleared submission describes interface-dependent 2–70 L/min operation and both high- and low-pressure oxygen inputs. HVT 2.0 offers a different integrated-blower and disposable system, with 5–45 L/min in the cited IFU for patients at least 5 kg. The right comparison is the intended population, station workflow and supply chain. Neither a higher flow ceiling nor a lower purchase price proves that one service will work better. The cited labeling excludes field transport and total ventilatory support for both newer platforms.",
-          "Correction status is part of completing the offer. Airvo 2's reviewed action updates disinfection-kit instructions, including an audible power-out alarm check. Airvo 3's reviewed action concerns specified older PT301US software and high-pressure-oxygen behavior. Keep those records separate: one model's documented correction does not settle the other's."
+          "VisionAire 5 and NewLife Intensity 10 make a useful capacity comparison: CAIRE publishes 1–5 L/min and 290 W for the former, versus 2–10 L/min and 600 W for the latter. Specify VisionAire’s oxygen-monitor option. The Drive 1025DS is another identified 2–10 L/min candidate; compare its exact electrical variant and support package.",
+          "An illustrative electricity calculation shows why unused capacity matters. A 310 W difference over 12 hours a day for 365 days equals 1,357.8 kWh. At an assumed USD 0.20/kWh, that is USD 271.56 a year. These are hypothetical operating hours and tariff applied to published power figures, not measured savings. The comparison is relevant only when the smaller device safely meets the approved requirement."
+        ],
+        "sourceIds": [
+          "o1",
+          "o3",
+          "o5"
+        ]
+      },
+      {
+        "heading": "High-flow value depends on the whole station",
+        "paragraphs": [
+          "Airvo 2 can remain a sensible purchase where its complete accessories, reprocessing resources and supply chain are established. Airvo 3 adds identifiable oxygen-input capabilities. Vapotherm HVT 2.0 offers a different interface and disposable ecosystem. Compare those differences against the intended patient population and workflow before paying for extra capacity.",
+          "Price the oxygen supply, tubes, chambers, interfaces, water provision and power continuity alongside the machine. Airvo 2’s 2025 manual correction and Airvo 3’s 2024 software correction are separate issues. Require applicable correction records and current instructions for the offered unit; a generic claim that a machine has been serviced does not settle them."
         ],
         "sourceIds": [
           "o6",
-          "o7",
           "o8",
           "o9",
           "o10",
@@ -263,11 +262,10 @@ export default {
         ]
       },
       {
-        "heading": "A legacy Philips bargain has a support clock",
+        "heading": "Match respiratory support to its intended role",
         "paragraphs": [
-          "Philips' portfolio table puts dates on part of the ownership calculation: EverFlo and Millennium M10 have January 2024 sales/shipment milestones and January 2029 service milestones; V60/V60 Plus has an August 2022 sales endpoint and December 2029 service milestone. Region and part number qualify the table, and parts remain subject to availability. An existing serviced machine may still earn its place. Importing another is a new commitment, so use the applicable remaining support period rather than the original purchase price to judge it.",
-          "BiPAP Vision is a legacy keep-only candidate until exact support and parts can be demonstrated; this review did not establish a current manufacturer pathway. DreamStation is not a generic recommendation: determine the precise BiPAP model, applicable foam-recall history and remediation. A separate 2025 DreamStation recall involved programming errors in certain devices. V60's documented power-circuit/alarm action is a different recall issue, not the DreamStation foam issue.",
-          "For a new purchase, keep the jobs distinct. Acute hospital NIV brings C1 or a configured Savina 300 into consideration. AirCurve 10 ST-A has respiratory-insufficiency indications and modes/alarms beyond basic sleep CPAP; Astral is a portable ventilation platform, with a double-limb circuit option on Astral 150. AirSense 11 AutoSet and AirMini belong to sleep therapy, with AirMini's dedicated travel accessories part of its cost. An inexpensive donation should meet the service specification rather than silently rewrite it."
+          "Use the options below to separate acute hospital NIV, prescribed bilevel support, portable ventilation and sleep therapy. AirCurve 10 ST-A is not identified merely by the AirCurve family name; Astral 150’s circuit capability can matter; AirMini’s compactness serves a travel requirement. None of those distinctions establishes a universal replacement for another platform.",
+          "For used Philips equipment, price only the remaining supportable service period. Philips’ January 2024 portfolio table lists EverFlo and Millennium M10 service through January 2029 and V60/V60 Plus through December 2029, with part and regional qualifications. Confirm applicability, parts access and all relevant corrective actions for the exact unit before treating that horizon as available to your hospital."
         ],
         "sourceIds": [
           "o12",
@@ -282,26 +280,15 @@ export default {
           "o21",
           "o23"
         ]
-      },
-      {
-        "heading": "Budget for the interruption most likely to stop the service",
-        "paragraphs": [
-          "A healthy concentrator still needs electricity. A working high-flow console still needs oxygen, water and compatible disposable supplies. A serviceable legacy unit still needs parts within its remaining support horizon. Count those interruptions alongside hardware repairs when comparing availability. This review found current manuals, lifecycle notices and specific corrective actions, but no comparable field failure rates. Use the evidence to price a complete service, not to label one brand the most durable."
-        ],
-        "sourceIds": [
-          "o2",
-          "o19"
-        ]
       }
     ],
     "ownership": {
-      "equation": "Cost per available oxygen-supported service-hour = delivered equipment + electrical/backup infrastructure + oxygen generation or cylinder delivery + compatible disposables + water/reprocessing supplies + preventive service and repairs + downtime provision, divided by usable service-hours.",
+      "equation": "Over one agreed period: cost per usable service-hour = (delivered equipment + infrastructure + oxygen + patient supplies + maintenance + continuity provision) ÷ usable service-hours in that same period.",
       "drivers": [
-        "Electricity, power conditioning, backup oxygen and source maintenance",
-        "High-flow tubing, chambers, cannulas, water supply and reprocessing equipment",
-        "Required oxygen flow and pressure at simultaneous demand",
-        "PAP mask/circuit compatibility and batteries",
-        "Remaining support horizon for a used Philips unit"
+        "Capacity actually needed",
+        "Electricity and backup oxygen",
+        "Compatible disposable supply",
+        "Exact-unit correction and support horizon"
       ]
     },
     "questions": [
@@ -312,11 +299,10 @@ export default {
       "Is the required job acute NIV, portable ventilation, prescribed bilevel support or sleep CPAP?"
     ],
     "gaps": [
-      "No independent comparative failure-rate evidence or equivalent delivered quotes were found.",
-      "BiPAP Vision support and the historical Vapotherm model identity remain unresolved.",
-      "Airvo manufacturer web/manual downloads were blocked; Airvo specifications were cross-checked using opened FDA submissions and MSF procurement documentation.",
-      "Plant/cylinder vendor selection requires site demand, destination and delivery economics.",
-      "Published Philips milestones have geographic/part-number qualifications and are not universal service guarantees."
+      "Actual patient eligibility and device/source compatibility require the applicable current instructions and qualified clinical approval.",
+      "Some retained Airvo specifications come from FDA and MSF documentation; current OEM instructions for the offered regional configuration remain necessary.",
+      "The October 16 retail anchor is dated seller evidence, not an October 18 refresh or a delivered export quote.",
+      "No comparative measured failure rates or confirmed destination service agreements support a brand reliability ranking."
     ],
     "sources": [
       {
@@ -325,7 +311,7 @@ export default {
         "url": "https://shop.drivemedical.com/us/en/products/respiratory/oxygen-therapy/oxygen-concentrators/stationary-concentrators/drive-devilbiss-10l-oxygen-concentrator/p/1025DS",
         "publisher": "Drive DeVilbiss",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Current 10 L platform, flow range and outlet pressure."
       },
       {
@@ -343,7 +329,7 @@ export default {
         "url": "https://www.caireinc.com/product/newlife-intensity-clinicians/",
         "publisher": "CAIRE",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "10 L/min, outlet pressure, power and product literature."
       },
       {
@@ -361,7 +347,7 @@ export default {
         "url": "https://www.caireinc.com/product/airsep-visionaire-5-clinicians/",
         "publisher": "CAIRE",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "1–5 L/min, 290 W and oxygen-monitor variant distinction."
       },
       {
@@ -388,7 +374,7 @@ export default {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?id=216013",
         "publisher": "FDA",
         "kind": "regulator",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "2025 disinfection-manual update includes audible alarm check; specifies expected service life."
       },
       {
@@ -406,7 +392,7 @@ export default {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=209671",
         "publisher": "FDA",
         "kind": "regulator",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "2024 action on specified PT301US software versions and high-pressure oxygen behavior."
       },
       {
@@ -487,7 +473,7 @@ export default {
         "url": "https://www.usa.philips.com/sleep-respiratory-care/news/business-updates/src-portfolio-update",
         "publisher": "Philips",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Published EverFlo/Millennium/V60 lifecycle milestones with regional and part-number qualifications."
       },
       {
@@ -514,7 +500,7 @@ export default {
         "url": "https://www.who.int/publications/i/item/9789240101616",
         "publisher": "World Health Organization",
         "kind": "institutional procurement",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Facility oxygen-source, storage and distribution specification framework."
       },
       {
@@ -544,47 +530,43 @@ export default {
     },
     "quickCompare": [
       {
-        "option": "DeVilbiss 1025 / NewLife Intensity 10",
-        "capability": "Stationary concentrators reaching 10 L/min with published 20 psi-class outlets",
-        "costDriver": "Electrical variant, power use, oxygen monitoring, maintenance and backup",
-        "bestFit": "A defined oxygen requirement that exceeds 5 L/min"
+        "option": "VisionAire 5",
+        "capability": "1–5 L/min; 290 W published",
+        "costDriver": "Monitor option and regional configuration",
+        "bestFit": "Approved requirements fully met by the smaller output"
       },
       {
-        "option": "VisionAire 5, oxygen-monitor version",
-        "capability": "1–5 L/min; published 290 W draw",
-        "costDriver": "Correct monitoring/electrical variant and support",
-        "bestFit": "A requirement fully met by the lower output"
+        "option": "1025DS / Intensity 10",
+        "capability": "Identified 2–10 L/min concentrators",
+        "costDriver": "Electrical variant, supply compatibility and service",
+        "bestFit": "A requirement exceeding the smaller unit’s capacity"
       },
       {
-        "option": "Airvo 2",
-        "capability": "Flow generator and humidifier; requires a separate oxygen source",
-        "costDriver": "Heated tubing, chambers, interfaces, reprocessing and source capacity",
-        "bestFit": "A complete mains-powered high-flow station with available supplies"
+        "option": "Airvo 2 / Airvo 3 / HVT 2.0",
+        "capability": "High-flow platforms with different inputs and supplies",
+        "costDriver": "Complete station plus recurring patient supplies",
+        "bestFit": "The exact labeled population and clinical service"
       },
       {
-        "option": "Airvo 3 / Vapotherm HVT 2.0",
-        "capability": "Airvo 3: interface-dependent 2–70 L/min; HVT 2.0: 5–45 L/min in the cited IFU",
-        "costDriver": "Oxygen inputs, configured accessories and proprietary disposables",
-        "bestFit": "A service whose population and workflow fit the exact labeling"
+        "option": "C1 / Savina 300 NIV",
+        "capability": "Specified acute ventilator configurations",
+        "costDriver": "Enabled functions, circuits, batteries and service",
+        "bestFit": "Required acute hospital ventilation capability"
       },
       {
-        "option": "HAMILTON-C1 / Savina 300 with NIV",
-        "capability": "Turbine ventilator platforms with specified acute NIV configurations",
-        "costDriver": "Enabled modes, patient range, sensors, batteries and humidification",
-        "bestFit": "Acute hospital ventilation requirements"
-      },
-      {
-        "option": "AirCurve 10 ST-A / Astral 100–150",
-        "capability": "Defined bilevel support versus portable invasive/non-invasive ventilation",
-        "costDriver": "Labeled configuration, approved circuits, masks and backup power",
-        "bestFit": "The specific prescribed support role; not interchangeable sleep CPAP"
+        "option": "ST-A / Astral / AirSense / AirMini",
+        "capability": "Distinct bilevel, portable ventilation and sleep roles",
+        "costDriver": "Exact model, prescribed circuit and accessories",
+        "bestFit": "The intended role, not a generic respiratory-device substitute"
       }
     ],
     "social": {
-      "title": "Buying oxygen equipment: the source sets the limit",
-      "description": "Compare concentrators, Airvo, Vapotherm and NIV platforms by oxygen demand, power, consumables and the job each device can actually do.",
-      "hook": "A high-flow setting does not increase the oxygen output of the concentrator feeding the system."
-    }
+      "title": "Buying oxygen equipment: pay for the right kind of capacity",
+      "description": "Compare concentrators, high-flow systems and respiratory support by their actual job, complete supplies and supportable working life.",
+      "hook": "The biggest flow number is not the whole answer."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "5 L and 10 L stationary concentrators Cylinder, plant and distribution planning Hospital high flow Acute NIV Home and hospital bilevel support Sleep CPAP and travel CPAP Legacy Philips models and corrections Drive DeVilbiss 1025 series, voltage variant specified CAIRE AirSep NewLife Intensity 10 CAIRE AirSep VisionAire 5 with oxygen-monitor option Fisher & Paykel Airvo 2 Fisher & Paykel Airvo 3 Vapotherm HVT 2.0 HAMILTON-C1 / Dräger Savina 300 NIV configuration ResMed AirCurve 10 ST-A ResMed Astral 100 / 150 ResMed AirSense 11 AutoSet / AirMini"
+  "searchTerms": "Buying oxygen equipment: pay for the right kind of capacity 5 L and 10 L stationary concentrators Cylinder, plant and distribution planning Hospital high flow Acute NIV Home and hospital bilevel support Sleep CPAP and travel CPAP Legacy Philips models and corrections Drive DeVilbiss 1025 series, voltage variant specified CAIRE AirSep NewLife Intensity 10 CAIRE AirSep VisionAire 5 with oxygen-monitor option Fisher & Paykel Airvo 2 Fisher & Paykel Airvo 3 Vapotherm HVT 2.0 HAMILTON-C1 / Dräger Savina 300 NIV configuration ResMed AirCurve 10 ST-A ResMed Astral 100 / 150 ResMed AirSense 11 AutoSet / AirMini",
+  "librarySection": "equipment"
 };

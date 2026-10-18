@@ -3,8 +3,8 @@ export default {
   "key": "sterile-processing-workflow",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Find the bottleneck before buying the next sterilizer",
-  "summary": "Map the route from used instruments to ready sets, then spend on the stage that actually limits the service.",
+  "title": "The sterilizer is faster. Why are instrument sets still late?",
+  "summary": "Find the stage that limits ready sets, then compare extra instruments, workflow improvements and new processing equipment against the same busy-day demand.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/sterilization",
@@ -24,73 +24,69 @@ export default {
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
     "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
-      "Count the sets that must be ready",
-      "Start with the operating schedule and instrument-set requirements agreed by the clinical and sterile-processing teams. Record which set families arrive, when they arrive and when they must be available again. Include the busiest expected periods and the stock of complete usable sets. A daily average can hide the afternoon queue that disrupts the next list. Ask the team to record where sets wait: collection, cleaning, inspection, assembly, packaging, sterilization or return to storage. WHO's reprocessing overview describes this as a sequence requiring infrastructure, equipment and quality control. Use that whole sequence as the purchasing boundary rather than starting with a preferred chamber size."
+      "Follow the missing set, not the machine specification",
+      "When a theatre list waits for instruments, another sterilizer is only one possible answer. The missing capacity may be a cleaning station, inspection and assembly time, an incomplete set awaiting repair, or too few sets to cover the approved turnaround. Start with the set families that delay cases and follow their route from return to authorized release. Record arrivals and deadlines during the busiest period. A daily total of twenty sets says little if twelve return together and all are needed again that afternoon. Count complete usable sets, including those unavailable for repair. Record waiting separately from processing: removing a queue may be more valuable than shortening a machine cycle."
     ],
     [
-      "Draw a capacity map with the people doing the work",
-      "For each stage, list the required workspace, equipment, staffing, hours available and observed capacity under the hospital's approved process. Note any dependence on a shared washer, water supply or technician. Compare the observed workload with the service requirement. Keep uncertain figures identified for measurement instead of turning a brochure's maximum throughput into a hospital promise. Have infection prevention and the facilities team review the physical pathway. CDC's sterilizing-practices guidance describes separating decontamination from clean processing areas and treating facility design as part of the system. Ask qualified designers to determine the applicable layout and environmental requirements; this worksheet does not prescribe room pressures or building dimensions."
+      "Test the purchase against a simple capacity ceiling",
+      "Consider a deliberately simplified example: approved cleaning capacity is four comparable sets per hour, preparation is six and sterilization is eight. Even before allowing for queues, rework and release, the pathway cannot sustain more than four. Replacing the sterilizer with a twelve-set-per-hour option leaves that ceiling unchanged. Raising cleaning capacity to six shifts the constraint to preparation. These invented rates explain the purchasing mechanism; they are not cycle times, a staffing standard or a promised hospital output. For the actual project, use compatible load patterns and observed handling, drying, inspection and release requirements. Test the peak schedule as well as the average. More sets may bridge a turnaround gap; they cannot cure inadequate cleaning capacity indefinitely."
     ],
     [
-      "Match the equipment to the intended loads",
-      "Create a list of the instrument and packaging families the new service must process. Have the responsible specialists reconcile their current instructions with the proposed equipment and process. Request a written compatibility and capacity explanation for the actual configuration. A chamber-volume figure alone does not show how the hospital's sets will fit or move through the workday. STERIS offers different chamber and loading arrangements within its Evolution family. Its published high-capacity claims therefore cannot be applied to every model or every load. Ask the supplier to identify the exact chamber, doors, loading equipment and included accessories. Keep any model-specific demonstration and acceptance evidence with the quotation."
+      "Distinguish more capacity from money saved",
+      "Compare three remedies for the demonstrated constraint: improve the existing pathway, replace worn equipment, or expand the service. If incomplete trays cause delay, targeted instrument repair or additional complete sets may produce more usable capacity than a larger chamber. If cleaning is the limit, compare suitable racks, washer capacity and staff coverage before spending downstream. Freed staff time is a capacity benefit unless it actually reduces paid hours or another expenditure. Similarly, lower water consumption per cycle is not the whole saving if the new load pattern requires more cycles. Calculate annual utilities using the same workload, operating days and usable output; include chemistry, maintenance and installed capital. A supplier’s example can suggest what to measure without proving the hospital’s return."
     ],
     [
-      "Make utilities a priced part of the purchase",
-      "Build a utility table with four columns: manufacturer's requirement, measured site provision, work needed and responsible party. Include applicable electricity, water, steam, drainage, ventilation, clearances and access requirements. Get the technical data for the exact model before contractors price the work. Assign who verifies readiness before the equipment is shipped or an installer travels. STERIS states that Evolution utility requirements vary by configuration and identifies facility-steam and integrated-generator options. Its steam-generation guidance also explains that dedicated generators still need suitable feed water; standalone arrangements add space and power considerations. A built-in generator does not remove the need to assess the receiving utilities and ongoing maintenance."
+      "Specify the load, the room and the utilities together",
+      "A published chamber maximum needs its configuration. For example, STERIS attributes Evolution’s twenty 25 lb tray claim to the 66-inch unit, while the family includes different chamber lengths and loading arrangements. That figure does not establish how many of your instrument sets fit an approved load. Obtain the exact chamber, rack, packaging and instrument compatibility assessment. Price the receiving site at the same time: water treatment, steam provision, power, drainage, access and clearances. Evolution offers facility steam or an integrated generator, with utility requirements varying by unit. An integrated generator still needs suitable feed water and maintenance. Have qualified teams reconcile current instructions and local requirements before an installation commitment."
     ],
     [
-      "Buy the recurring resources and the verification work",
-      "List the approved cleaning products, packaging, monitoring supplies, protective equipment and maintenance parts that the service will need. Obtain current supply references and prices for the planned workload. Add staff preparation, competency arrangements and recordkeeping resources. Ask who manages purchasing when an initially supplied kit runs out. Include installation, commissioning and the required process-verification work in the contract, with qualified responsible people and deliverable reports. CDC describes verification before routine use, including after relevant changes. The hospital's specialists must select the applicable procedures and authorize release; a sales demonstration or completed delivery cannot replace that work."
-    ],
-    [
-      "Compare improvements using the same service target",
-      "Price three practical paths against the required availability of sets: improve the current pathway, replace the existing sterilizer, or expand the complete service. Where a qualified external service is feasible, assess its transport, traceability, turnaround and continuity obligations as well. Include extra instruments if the approved turnaround plan requires them. Fund the option that resolves the demonstrated constraint and can be maintained. Before award, ask what happens during planned service, water interruption or a machine outage. Record the approved continuity arrangement and its cost. A successful purchase gives the hospital a sustainable route to ready sets, with each supporting responsibility assigned."
+      "Protect tomorrow’s list during a breakdown",
+      "Replacing two machines with one can improve routine efficiency while removing an independent route during maintenance. Compare the remaining usable capacity when the largest unit is unavailable. An approved external processing arrangement may help, but its transport, traceability, turnaround and extra-set requirement belong in the price. Keep commissioning and process verification as explicit contract deliverables, with responsible specialists and acceptance records. CDC describes verification before routine use and after relevant changes. The purchasing decision should fund a working route to released sets, routine supplies and an approved interruption plan—not just a delivered chamber."
     ]
   ],
   "related": [
     "sterilization"
   ],
-  "socialTitle": "A larger sterilizer may leave the same queue",
-  "socialDescription": "Compare the whole processing pathway before purchasing chamber capacity.",
-  "socialHeadline": "Sterile-processing project buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "The sterilizer is faster. Why are instrument sets still late?",
+  "socialDescription": "Find the stage that limits ready sets, then compare extra instruments, workflow improvements and new processing equipment against the same busy-day demand.",
+  "socialHeadline": "The sterilizer is faster. Why are instrument sets still late?",
+  "socialStrapline": "Buy the improvement that reaches the operating list.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Sterile-processing project buying sheet",
-    "summary": "Buy capacity across the full route from used instruments to ready sets. First identify where the hospital's actual workload waits.",
-    "firstChoice": "Map set families, arrival times, return deadlines and capacity at collection, cleaning, preparation, sterilization and storage. Have the responsible teams review the complete pathway.",
-    "upgradeWhen": "A verified bottleneck requires added capacity and the supporting room, utilities, staff and quality-assurance resources are funded.",
-    "budgetWatch": "Include water treatment, steam generation, drainage, loading accessories, instruments, approved consumables, training and commissioning. Chamber volume alone cannot define useful output.",
-    "supportCheck": "Obtain exact-model technical data, compatible-load evidence, maintenance provision and an accountable process-verification plan before routine use.",
+    "title": "The sterilizer is faster. Why are instrument sets still late?",
+    "summary": "Find the stage that limits ready sets, then compare extra instruments, workflow improvements and new processing equipment against the same busy-day demand.",
+    "firstChoice": "Map instrument-set demand, return deadlines and capacity at every processing stage with the sterile-processing and infection-prevention leads.",
+    "upgradeWhen": "A demonstrated bottleneck requires added capacity and the complete room, utility, staffing and quality-assurance plan is funded.",
+    "budgetWatch": "Compare cost per usable set over the same period; count repeat processing, extra sets, utilities, service and installation.",
+    "supportCheck": "The offer lacks configuration-specific utility requirements, compatible-load evidence or an accountable commissioning plan.",
     "askSupplier": [
-      "Which demonstrated bottleneck will your proposal resolve?",
-      "What utilities and site work does this configuration need?",
-      "Who provides the commissioning and verification reports?"
+      "Demonstrate the proposed configuration against our actual load families and peak schedule.",
+      "Separate installed cost, recurring expenditure and staff capacity benefits.",
+      "Document the output and continuity route when the largest machine is unavailable."
     ],
     "sourceIds": [
-      "who-reprocessing",
       "cdc-processing",
       "steris-evolution",
-      "steris-steam"
+      "steris-steam",
+      "steris-capital"
     ]
   },
   "research": {
     "kind": "feature",
     "id": "sterile-processing-workflow",
-    "researchedAt": "2026-10-17",
+    "researchedAt": "2026-10-18",
     "coverage": [
       "whole-pathway capacity",
       "site and utility responsibilities",
       "load compatibility and procurement scope",
       "commissioning and ongoing resources"
     ],
-    "title": "Find the bottleneck before buying the next sterilizer",
-    "dek": "Map the route from used instruments to ready sets, then spend on the stage that actually limits the service.",
-    "verdict": "Approve a complete reprocessing capacity and utility plan before ordering another sterilizer. The right first purchase may be cleaning capacity, instruments, site work or staff support; expand sterilization capacity when the mapped workload and validated requirements justify it.",
+    "title": "The sterilizer is faster. Why are instrument sets still late?",
+    "dek": "Find the stage that limits ready sets, then compare extra instruments, workflow improvements and new processing equipment against the same busy-day demand.",
+    "verdict": "Keep a suitable sterilizer when the delay occurs elsewhere. Spend first on the demonstrated constraint, then test the proposed pathway against the busiest schedule and a major outage.",
     "decision": {
       "firstMove": "Map instrument-set demand, return deadlines and capacity at every processing stage with the sterile-processing and infection-prevention leads.",
       "spendMoreWhen": "A demonstrated bottleneck requires added capacity and the complete room, utility, staffing and quality-assurance plan is funded.",
@@ -98,9 +94,9 @@ export default {
       "walkAwayWhen": "The offer lacks configuration-specific utility requirements, compatible-load evidence or an accountable commissioning plan."
     },
     "social": {
-      "title": "A larger sterilizer may leave the same queue",
-      "description": "Compare the whole processing pathway before purchasing chamber capacity.",
-      "hook": "Find where instrument sets wait—and fund that stage first."
+      "title": "The sterilizer is faster. Why are instrument sets still late?",
+      "description": "Find the stage that limits ready sets, then compare extra instruments, workflow improvements and new processing equipment against the same busy-day demand.",
+      "hook": "Buy the improvement that reaches the operating list."
     },
     "choices": [
       {
@@ -154,66 +150,65 @@ export default {
     ],
     "quickCompare": [
       {
-        "option": "Upstream improvement",
-        "capability": "Addresses delays before sterilization.",
-        "costDriver": "Cleaning, preparation, instruments and staff.",
-        "bestFit": "The sterilizer is not the limiting stage."
+        "option": "Repair instruments / add complete sets",
+        "capability": "Restores usable inventory or bridges approved turnaround",
+        "costDriver": "Repair, replacement items and inventory held",
+        "bestFit": "Incomplete sets or a limited stock causes the delay"
       },
       {
-        "option": "Replacement",
-        "capability": "Restores required existing service.",
-        "costDriver": "Changeover, utilities and commissioning.",
-        "bestFit": "Current layout and capacity remain appropriate."
+        "option": "Improve cleaning / preparation",
+        "capability": "Raises upstream throughput",
+        "costDriver": "Compatible racks, workstations, utilities and staff",
+        "bestFit": "Sets wait before the sterilizer"
       },
       {
-        "option": "Coordinated expansion",
-        "capability": "Adds supported processing capacity.",
-        "costDriver": "Building, utilities, machines and staffing.",
-        "bestFit": "A verified demand increase justifies the project."
+        "option": "Replace or expand sterilization",
+        "capability": "Restores or raises the actual limiting stage",
+        "costDriver": "Installed system, qualification and continuity",
+        "bestFit": "Compatible ready loads exceed sustainable sterilizer capacity"
       },
       {
-        "option": "External service",
-        "capability": "Provides agreed processing and turnaround.",
-        "costDriver": "Contract, transport and additional sets.",
-        "bestFit": "A qualified route meets local requirements."
+        "option": "Qualified external processing",
+        "capability": "Adds a defined contracted route",
+        "costDriver": "Processing, transport, turnaround and extra sets",
+        "bestFit": "An approved service can meet the deadlines"
       }
     ],
     "sections": [
       {
-        "heading": "Count the sets that must be ready",
+        "heading": "Follow the missing set, not the machine specification",
         "paragraphs": [
-          "Start with the operating schedule and instrument-set requirements agreed by the clinical and sterile-processing teams. Record which set families arrive, when they arrive and when they must be available again. Include the busiest expected periods and the stock of complete usable sets. A daily average can hide the afternoon queue that disrupts the next list.",
-          "Ask the team to record where sets wait: collection, cleaning, inspection, assembly, packaging, sterilization or return to storage. WHO's reprocessing overview describes this as a sequence requiring infrastructure, equipment and quality control. Use that whole sequence as the purchasing boundary rather than starting with a preferred chamber size."
+          "When a theatre list waits for instruments, another sterilizer is only one possible answer. The missing capacity may be a cleaning station, inspection and assembly time, an incomplete set awaiting repair, or too few sets to cover the approved turnaround. Start with the set families that delay cases and follow their route from return to authorized release.",
+          "Record arrivals and deadlines during the busiest period. A daily total of twenty sets says little if twelve return together and all are needed again that afternoon. Count complete usable sets, including those unavailable for repair. Record waiting separately from processing: removing a queue may be more valuable than shortening a machine cycle."
         ],
         "sourceIds": [
-          "who-reprocessing"
-        ]
-      },
-      {
-        "heading": "Draw a capacity map with the people doing the work",
-        "paragraphs": [
-          "For each stage, list the required workspace, equipment, staffing, hours available and observed capacity under the hospital's approved process. Note any dependence on a shared washer, water supply or technician. Compare the observed workload with the service requirement. Keep uncertain figures identified for measurement instead of turning a brochure's maximum throughput into a hospital promise.",
-          "Have infection prevention and the facilities team review the physical pathway. CDC's sterilizing-practices guidance describes separating decontamination from clean processing areas and treating facility design as part of the system. Ask qualified designers to determine the applicable layout and environmental requirements; this worksheet does not prescribe room pressures or building dimensions."
-        ],
-        "sourceIds": [
+          "who-reprocessing",
           "cdc-processing"
         ]
       },
       {
-        "heading": "Match the equipment to the intended loads",
+        "heading": "Test the purchase against a simple capacity ceiling",
         "paragraphs": [
-          "Create a list of the instrument and packaging families the new service must process. Have the responsible specialists reconcile their current instructions with the proposed equipment and process. Request a written compatibility and capacity explanation for the actual configuration. A chamber-volume figure alone does not show how the hospital's sets will fit or move through the workday.",
-          "STERIS offers different chamber and loading arrangements within its Evolution family. Its published high-capacity claims therefore cannot be applied to every model or every load. Ask the supplier to identify the exact chamber, doors, loading equipment and included accessories. Keep any model-specific demonstration and acceptance evidence with the quotation."
+          "Consider a deliberately simplified example: approved cleaning capacity is four comparable sets per hour, preparation is six and sterilization is eight. Even before allowing for queues, rework and release, the pathway cannot sustain more than four. Replacing the sterilizer with a twelve-set-per-hour option leaves that ceiling unchanged. Raising cleaning capacity to six shifts the constraint to preparation.",
+          "These invented rates explain the purchasing mechanism; they are not cycle times, a staffing standard or a promised hospital output. For the actual project, use compatible load patterns and observed handling, drying, inspection and release requirements. Test the peak schedule as well as the average. More sets may bridge a turnaround gap; they cannot cure inadequate cleaning capacity indefinitely."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Distinguish more capacity from money saved",
+        "paragraphs": [
+          "Compare three remedies for the demonstrated constraint: improve the existing pathway, replace worn equipment, or expand the service. If incomplete trays cause delay, targeted instrument repair or additional complete sets may produce more usable capacity than a larger chamber. If cleaning is the limit, compare suitable racks, washer capacity and staff coverage before spending downstream.",
+          "Freed staff time is a capacity benefit unless it actually reduces paid hours or another expenditure. Similarly, lower water consumption per cycle is not the whole saving if the new load pattern requires more cycles. Calculate annual utilities using the same workload, operating days and usable output; include chemistry, maintenance and installed capital. A supplier’s example can suggest what to measure without proving the hospital’s return."
         ],
         "sourceIds": [
-          "steris-evolution"
+          "steris-capital"
         ]
       },
       {
-        "heading": "Make utilities a priced part of the purchase",
+        "heading": "Specify the load, the room and the utilities together",
         "paragraphs": [
-          "Build a utility table with four columns: manufacturer's requirement, measured site provision, work needed and responsible party. Include applicable electricity, water, steam, drainage, ventilation, clearances and access requirements. Get the technical data for the exact model before contractors price the work. Assign who verifies readiness before the equipment is shipped or an installer travels.",
-          "STERIS states that Evolution utility requirements vary by configuration and identifies facility-steam and integrated-generator options. Its steam-generation guidance also explains that dedicated generators still need suitable feed water; standalone arrangements add space and power considerations. A built-in generator does not remove the need to assess the receiving utilities and ongoing maintenance."
+          "A published chamber maximum needs its configuration. For example, STERIS attributes Evolution’s twenty 25 lb tray claim to the 66-inch unit, while the family includes different chamber lengths and loading arrangements. That figure does not establish how many of your instrument sets fit an approved load. Obtain the exact chamber, rack, packaging and instrument compatibility assessment.",
+          "Price the receiving site at the same time: water treatment, steam provision, power, drainage, access and clearances. Evolution offers facility steam or an integrated generator, with utility requirements varying by unit. An integrated generator still needs suitable feed water and maintenance. Have qualified teams reconcile current instructions and local requirements before an installation commitment."
         ],
         "sourceIds": [
           "steris-evolution",
@@ -221,22 +216,14 @@ export default {
         ]
       },
       {
-        "heading": "Buy the recurring resources and the verification work",
+        "heading": "Protect tomorrow’s list during a breakdown",
         "paragraphs": [
-          "List the approved cleaning products, packaging, monitoring supplies, protective equipment and maintenance parts that the service will need. Obtain current supply references and prices for the planned workload. Add staff preparation, competency arrangements and recordkeeping resources. Ask who manages purchasing when an initially supplied kit runs out.",
-          "Include installation, commissioning and the required process-verification work in the contract, with qualified responsible people and deliverable reports. CDC describes verification before routine use, including after relevant changes. The hospital's specialists must select the applicable procedures and authorize release; a sales demonstration or completed delivery cannot replace that work."
+          "Replacing two machines with one can improve routine efficiency while removing an independent route during maintenance. Compare the remaining usable capacity when the largest unit is unavailable. An approved external processing arrangement may help, but its transport, traceability, turnaround and extra-set requirement belong in the price.",
+          "Keep commissioning and process verification as explicit contract deliverables, with responsible specialists and acceptance records. CDC describes verification before routine use and after relevant changes. The purchasing decision should fund a working route to released sets, routine supplies and an approved interruption plan—not just a delivered chamber."
         ],
         "sourceIds": [
           "cdc-processing"
         ]
-      },
-      {
-        "heading": "Compare improvements using the same service target",
-        "paragraphs": [
-          "Price three practical paths against the required availability of sets: improve the current pathway, replace the existing sterilizer, or expand the complete service. Where a qualified external service is feasible, assess its transport, traceability, turnaround and continuity obligations as well. Include extra instruments if the approved turnaround plan requires them.",
-          "Fund the option that resolves the demonstrated constraint and can be maintained. Before award, ask what happens during planned service, water interruption or a machine outage. Record the approved continuity arrangement and its cost. A successful purchase gives the hospital a sustainable route to ready sets, with each supporting responsibility assigned."
-        ],
-        "sourceIds": []
       }
     ],
     "checklist": [
@@ -248,13 +235,13 @@ export default {
       "Agree a qualified continuity route for maintenance and interruptions."
     ],
     "ownership": {
-      "equation": "Reprocessing project cost = suitable equipment + room and utility work + supporting workflow resources + commissioning and training + recurring supplies + maintenance and continuity.",
+      "equation": "Over the agreed planning period: cost per released usable set = (installed project + staffing + supplies + utilities + maintenance + continuity) ÷ released usable sets in the same period.",
       "drivers": [
-        "Cleaning and preparation capacity",
-        "Water treatment and steam provision",
-        "Instrument and packaging compatibility",
-        "Staffing and quality-assurance resources",
-        "Service interruption and extra instrument sets"
+        "Peak arrivals and deadlines",
+        "Incomplete sets and repair turnaround",
+        "Approved load patterns and repeat processing",
+        "Water, steam and utility works",
+        "Capacity remaining during an outage"
       ]
     },
     "questions": [
@@ -283,7 +270,7 @@ export default {
         "url": "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/sterilizing-practices.html",
         "publisher": "US CDC",
         "kind": "institutional guidance",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "updated": "2023-11-28",
         "evidence": "Web chapter of the 2008 guideline explains that processing depends on facility design and the complete workflow; describes separation of decontamination from clean areas and verification before routine use. No cycle settings or engineering air-change specifications are reproduced."
       },
@@ -293,7 +280,7 @@ export default {
         "url": "https://www.steris.com/healthcare/products/steam-sterilizers/amsco-evolution-steam-sterilizer",
         "publisher": "STERIS",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Provides different chamber and loading configurations, a facility-steam or integrated-generator choice, and explicitly states utility requirements depend on unit specifications. Links model-specific technical data, maintenance manuals and training."
       },
       {
@@ -305,6 +292,16 @@ export default {
         "accessed": "2026-10-17",
         "updated": "2023-04-06",
         "evidence": "Describes central, integrated and standalone steam generation; dedicated generators still require water meeting manufacturer specifications, and standalone installations need space and appropriate power."
+      },
+      {
+        "id": "steris-capital",
+        "title": "Capital Budgeting in Sterile Processing",
+        "url": "https://www.steris.com/healthcare/knowledge-center/sterile-processing/capital-budgeting-in-sterile-processing",
+        "publisher": "STERIS",
+        "kind": "manufacturer education",
+        "accessed": "2026-10-18",
+        "updated": "2024-08-08",
+        "evidence": "Previously completed full archive reading and figure inspection, receipt 6abff4729e14192218ab. Separates cash and capacity benefits; vendor savings examples are not transferable hospital outcomes."
       }
     ],
     "related": [
@@ -314,5 +311,6 @@ export default {
       "maintenance-records"
     ]
   },
-  "searchTerms": "whole-pathway capacity site and utility responsibilities load compatibility and procurement scope commissioning and ongoing resources Improve the upstream pathway Replace within the existing service footprint Expand sterilizer and supporting infrastructure Arrange qualified external capacity"
+  "searchTerms": "The sterilizer is faster. Why are instrument sets still late? whole-pathway capacity site and utility responsibilities load compatibility and procurement scope commissioning and ongoing resources Improve the upstream pathway Replace within the existing service footprint Expand sterilizer and supporting infrastructure Arrange qualified external capacity",
+  "librarySection": "decisions"
 };

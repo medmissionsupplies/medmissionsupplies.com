@@ -14,9 +14,19 @@ npm run build
 npm run preview
 ```
 
-The build produces a portable static site in `dist/`: 45 pages, 44 directory aliases, a 404 page, sitemap, and third-party licenses. Original `.html` URLs still work. Detail pages live under `/equipment/` and `/resources/`. No application server is required. Existing Nginx configuration serves these files and returns a real 404 for missing paths.
+The build produces a portable static site in `dist/`: 134 canonical pages, 133 directory aliases, a 404 page, sitemap, and third-party licenses. Original `.html` URLs still work. Detail pages live under `/equipment/` and `/resources/`. No application server is required. Existing Nginx configuration serves these files and returns a real 404 for missing paths.
 
 The footer displays the package version. Bump it before preparing a release.
+
+## Version 1.8.0 buyer library
+
+The library contains 104 articles: 89 detailed research guides and 15 department, planning and purchasing articles. This release revises the 61 existing articles and adds 43, preserving existing URLs and all 35 department equipment anchors. Readers can search all articles or filter by topic. Short equipment terms such as CT match whole words. Related guides connect equipment selection to installation, supplies, service and ownership costs.
+
+Article bodies are pre-rendered for search and no-JavaScript reading, with separate lazy data modules for enhanced navigation. `research-guide-index.generated.mjs` is the compact registry; `research-pages/` holds full research articles; `legacy-article-revisions.generated.mjs` supplies the remaining 15. Review dates identify content review, not invented original publication dates. Structured data includes MMS organization authorship, article categories, modification dates and breadcrumb trails. The sitemap uses the same modification dates.
+
+Every article has a unique measured 1200×630 OG/X preview, clean-link copying, network share links and a downloadable social image. These JPEG previews stay under 220 KB; on-page photos use responsive WebP. Cleared real equipment photographs are labelled as examples, with archive dates and model differences where relevant. Individual credits appear beside research photos and in the additional equipment photography licence file. Original cost-comparison graphics are explicitly illustrative scenarios, not supplier quotes.
+
+The reference archive, acquisition logs, private editorial drafts and unresolved download queue are not part of the public site. The compendium remains web-only. Source availability is distinct from evidence quality; current quotes, exact-device support, condition and local acceptance still require confirmation before a purchase.
 
 ## Version 1.6.0 editorial release
 

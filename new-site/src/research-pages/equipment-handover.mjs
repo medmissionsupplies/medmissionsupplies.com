@@ -3,8 +3,8 @@ export default {
   "key": "equipment-handover",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "The equipment arrived. Who can release it for use?",
-  "summary": "Build the handover record before shipment so delivery, installation, training and acceptance each have an owner.",
+  "title": "The equipment arrived. What still stands between it and use?",
+  "summary": "Separate receiving, installation and acceptance so missing probes, site work or training do not become surprises after delivery.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/surgical-tables",
@@ -24,11 +24,11 @@ export default {
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
     "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
       "Agree what completion means before shipment",
-      "Create one handover record while the order is still being negotiated. Give it the purchase or donation reference, intended department, exact equipment configuration and a named hospital coordinator. Add five dated stages: receipt, installation, technical acceptance, user preparation and authorization for use. Each stage needs a responsible person and the evidence that person will provide. WHO's donation guidance covers responsibilities before, during and after a donation. UNICEF's contract guidance likewise follows the supplier relationship through confirmation that the contract has been fulfilled. Apply that discipline to the delivery schedule: specify what constitutes completion, which deficiencies prevent acceptance and how disagreements will be escalated."
+      "An ultrasound can arrive with its console intact and its essential probe missing. A sterilizer can reach the right room before the required utilities are ready. In either case, the delivery date tells the hospital little about when the purchased service can begin. Agree receipt, installation, technical acceptance, user preparation and authorization for use as separate stages, each with an owner and evidence. WHO's donation guidance covers responsibilities before, during and after a donation. UNICEF's contract guidance likewise follows the supplier relationship through confirmation that the contract has been fulfilled. Apply that discipline to the delivery schedule: specify what constitutes completion, which deficiencies prevent acceptance and how disagreements will be escalated."
     ],
     [
       "Give stores a receipt task they can actually perform",
@@ -39,29 +39,29 @@ export default {
       "List each prerequisite with an owner and completion date: room access, utilities, network work where needed, mounting, handling equipment and storage conditions. Require the supplier to identify the installation requirements for the actual configuration. Record who has checked that the destination meets them and who pays if another visit becomes necessary. UNICEF's cold-room guidance gives a useful concrete example. It treats site readiness, installer responsibility, monitoring, alarms, spares and training as planning items. The lesson for a wider equipment purchase is to obtain the equivalent model-specific requirements, rather than assume that a fitted plug or an available room settles installation."
     ],
     [
-      "Buy the acceptance evidence",
+      "Agree the acceptance result before the engineer travels",
       "Ask the qualified engineering and clinical leads to define the required acceptance work before ordering. Name who performs it, who reviews the results and who authorizes use under hospital policy. Include required reports and any applicable local approvals in the delivery scope. This guide supplies purchasing records; the responsible specialists select and carry out the tests. For each delivered serial, link the installation report, configuration record, required test results and corrective actions. If a result is unacceptable or a document is missing, assign a hold status and a due date. Closing an action should require the promised evidence, not simply a supplier email saying the issue has been addressed."
     ],
     [
-      "Handover includes the people and the next service visit",
+      "Finish with supplies, staff and support ready",
       "Record the staff trained, the training scope, the manuals supplied and the department responsible for keeping instructions available. Confirm arrangements for other shifts and future staff. For equipment with recurring consumables, identify the approved ordering references and initial stock. For software, hand over authorized accounts and entitlement records through the hospital's approved process. Enter the warranty start event, claim contact, service provider and next required maintenance action. Check these against the agreement rather than assuming the warranty begins on first use. The handover coordinator should know which outstanding commitments belong to the supplier and which now belong to the hospital."
     ],
     [
       "Close the purchase with a usable record",
-      "Use an exception log with four columns: unresolved item, responsible party, due date and closure evidence. Keep financial closeout and authorization for use as separate entries with their own signatories. Any proposed conditional commercial acceptance should describe its limits and receive the hospital's approval; it must not silently clear an unresolved safety requirement. Finish by handing the complete record to the asset owner and maintenance team. The next buyer should be able to find what was ordered, what arrived, what was accepted and which obligations remain. That makes the handover useful after the installation engineer and purchasing project team have moved on."
+      "Keep each unresolved item connected to its responsible party, due date and closure evidence. A missing accessory has a different consequence from a failed safety requirement, and commercial closeout must not silently authorize clinical use. Have the responsible hospital team approve any conditional commercial acceptance and state its limits. Finish by handing the complete record to the asset owner and maintenance team. The next buyer should be able to find what was ordered, what arrived, what was accepted and which obligations remain. That makes the handover useful after the installation engineer and purchasing project team have moved on."
     ]
   ],
   "related": [
     "surgical-tables"
   ],
   "socialTitle": "A delivery signature does not finish the equipment purchase",
-  "socialDescription": "A practical handover record connects the supplied configuration, installation evidence, training and authorization for use.",
-  "socialHeadline": "Equipment handover buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialDescription": "Define who closes the gap between the loading dock and the first working day.",
+  "socialHeadline": "A delivery signature does not finish the equipment purchase",
+  "socialStrapline": "Delivered, installed and accepted are three different milestones.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Equipment handover buying sheet",
-    "summary": "Agree the journey from receipt to authorized use before equipment ships. One record should connect the delivered serial, promised configuration and the people responsible for acceptance.",
+    "title": "The equipment arrived. What still stands between it and use?",
+    "summary": "Separate receiving, installation and acceptance so missing probes, site work or training do not become surprises after delivery.",
     "firstChoice": "Attach a staged handover schedule to the order: receipt, installation, technical acceptance, user preparation and authorization for use. Give every stage an owner and required evidence.",
     "upgradeWhen": "Pay for specialist installation, acceptance support or additional training when the receiving hospital lacks the necessary qualified capacity.",
     "budgetWatch": "Include site work, travel, repeat visits, missing accessories, storage and interim service while any delivery issues are corrected.",
@@ -87,9 +87,9 @@ export default {
       "handover evidence and open actions",
       "training and support transfer"
     ],
-    "title": "The equipment arrived. Who can release it for use?",
-    "dek": "Build the handover record before shipment so delivery, installation, training and acceptance each have an owner.",
-    "verdict": "Order a complete handover package with named hospital and supplier responsibilities. Record receipt separately from technical acceptance and permission to use the equipment; keep unresolved actions visible until the responsible hospital team closes them.",
+    "title": "The equipment arrived. What still stands between it and use?",
+    "dek": "Separate receiving, installation and acceptance so missing probes, site work or training do not become surprises after delivery.",
+    "verdict": "Agree the required evidence and responsible people before shipment. A complete handover connects the exact configuration to installation, technical acceptance, user preparation and the hospital’s authorization for use.",
     "decision": {
       "firstMove": "Attach a receipt-to-release schedule to the purchase or donation agreement.",
       "spendMoreWhen": "Paid installation, technical acceptance support or training fills a verified gap in the receiving team's capacity.",
@@ -98,8 +98,8 @@ export default {
     },
     "social": {
       "title": "A delivery signature does not finish the equipment purchase",
-      "description": "A practical handover record connects the supplied configuration, installation evidence, training and authorization for use.",
-      "hook": "Put a name beside every step between the loading dock and the first working day."
+      "description": "Define who closes the gap between the loading dock and the first working day.",
+      "hook": "Delivered, installed and accepted are three different milestones."
     },
     "choices": [
       {
@@ -161,7 +161,7 @@ export default {
       {
         "heading": "Agree what completion means before shipment",
         "paragraphs": [
-          "Create one handover record while the order is still being negotiated. Give it the purchase or donation reference, intended department, exact equipment configuration and a named hospital coordinator. Add five dated stages: receipt, installation, technical acceptance, user preparation and authorization for use. Each stage needs a responsible person and the evidence that person will provide.",
+          "An ultrasound can arrive with its console intact and its essential probe missing. A sterilizer can reach the right room before the required utilities are ready. In either case, the delivery date tells the hospital little about when the purchased service can begin. Agree receipt, installation, technical acceptance, user preparation and authorization for use as separate stages, each with an owner and evidence.",
           "WHO's donation guidance covers responsibilities before, during and after a donation. UNICEF's contract guidance likewise follows the supplier relationship through confirmation that the contract has been fulfilled. Apply that discipline to the delivery schedule: specify what constitutes completion, which deficiencies prevent acceptance and how disagreements will be escalated."
         ],
         "sourceIds": [
@@ -188,7 +188,7 @@ export default {
         ]
       },
       {
-        "heading": "Buy the acceptance evidence",
+        "heading": "Agree the acceptance result before the engineer travels",
         "paragraphs": [
           "Ask the qualified engineering and clinical leads to define the required acceptance work before ordering. Name who performs it, who reviews the results and who authorizes use under hospital policy. Include required reports and any applicable local approvals in the delivery scope. This guide supplies purchasing records; the responsible specialists select and carry out the tests.",
           "For each delivered serial, link the installation report, configuration record, required test results and corrective actions. If a result is unacceptable or a document is missing, assign a hold status and a due date. Closing an action should require the promised evidence, not simply a supplier email saying the issue has been addressed."
@@ -196,7 +196,7 @@ export default {
         "sourceIds": []
       },
       {
-        "heading": "Handover includes the people and the next service visit",
+        "heading": "Finish with supplies, staff and support ready",
         "paragraphs": [
           "Record the staff trained, the training scope, the manuals supplied and the department responsible for keeping instructions available. Confirm arrangements for other shifts and future staff. For equipment with recurring consumables, identify the approved ordering references and initial stock. For software, hand over authorized accounts and entitlement records through the hospital's approved process.",
           "Enter the warranty start event, claim contact, service provider and next required maintenance action. Check these against the agreement rather than assuming the warranty begins on first use. The handover coordinator should know which outstanding commitments belong to the supplier and which now belong to the hospital."
@@ -208,7 +208,7 @@ export default {
       {
         "heading": "Close the purchase with a usable record",
         "paragraphs": [
-          "Use an exception log with four columns: unresolved item, responsible party, due date and closure evidence. Keep financial closeout and authorization for use as separate entries with their own signatories. Any proposed conditional commercial acceptance should describe its limits and receive the hospital's approval; it must not silently clear an unresolved safety requirement.",
+          "Keep each unresolved item connected to its responsible party, due date and closure evidence. A missing accessory has a different consequence from a failed safety requirement, and commercial closeout must not silently authorize clinical use. Have the responsible hospital team approve any conditional commercial acceptance and state its limits.",
           "Finish by handing the complete record to the asset owner and maintenance team. The next buyer should be able to find what was ordered, what arrived, what was accepted and which obligations remain. That makes the handover useful after the installation engineer and purchasing project team have moved on."
         ],
         "sourceIds": []
@@ -278,5 +278,6 @@ export default {
       "equipment-software-support"
     ]
   },
-  "searchTerms": "receipt and configuration records installation and acceptance ownership handover evidence and open actions training and support transfer Supplier-led installation with hospital acceptance Hospital-led acceptance with contracted specialist tasks Hold pending completion"
+  "searchTerms": "receipt and configuration records installation and acceptance ownership handover evidence and open actions training and support transfer Supplier-led installation with hospital acceptance Hospital-led acceptance with contracted specialist tasks Hold pending completion",
+  "librarySection": "decisions"
 };

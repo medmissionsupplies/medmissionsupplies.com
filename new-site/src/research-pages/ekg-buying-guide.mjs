@@ -3,8 +3,8 @@ export default {
   "key": "ekg",
   "kind": "research-guide",
   "equipmentId": "ekg",
-  "title": "Monitor, ECG or defibrillator? Spend on the right job",
-  "summary": "The useful upgrade may be an invasive-pressure channel, a working ECG computer or fresh defibrillator supplies—not a bigger display.",
+  "title": "Monitors, ECGs and defibrillators: buy the missing function",
+  "summary": "Choose the installed measurements, reporting workflow and resuscitation accessories that make each station useful. Eight named options show where extra spending changes the job.",
   "categoryId": "critical-care",
   "category": "Critical & patient care",
   "image": "guides/ekg",
@@ -24,41 +24,41 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 5,
+  "minutes": 6,
   "sections": [
     [
-      "The X8 bargain ends where invasive pressure begins",
-      "The X8 has a useful place in a ward budget because its basic configuration is identifiable. The opened PartsSource offer is USD 3,358.06 on October 16, 2026 for the stated New OEM Original package. Its price does not buy every channel on EDAN's comparison chart: optional invasive pressure appears on X10/X12, not X8. If IBP belongs in the requirement, changing the model is part of the purchase decision; a promise to add it to X8 later is not a plan. For beds that need only the X8 channels, spend the remaining budget on the right probe sizes, cuffs, ECG leads, temperature probe, battery and mount. Add CO2 only as a defined configured requirement. B105M earns attention when modular expansion or existing GE service arrangements have real value; B125M's larger display alone does not establish better measurements. The earlier TeleView recommendation cannot be renewed until its OEM identity, measurement technology and service documentation are resolved. A known MP50 or DASH can still be worth maintaining when its installed parameters and maintenance history match the bed. Another unknown used unit is a different purchase: it adds a new repair obligation. Compare the cost of completing that particular station with a current complete one, rather than comparing an empty used chassis with a fully equipped new monitor."
+      "Three jobs need three comparisons",
+      "A bedside monitor, a diagnostic 12-lead ECG and a defibrillator can all display a heart rhythm. They solve different purchasing problems. Start with the missing service: continuous observation at a bed, an interpretable and retrievable diagnostic study, or the resuscitation capability required by the trained team. Then compare complete packages within that job. A low console price is useful only after the missing functions and accessories have been costed. For basic ward monitoring, EDAN X8 is a credible starting point. Required invasive pressure changes that shortlist: its manufacturer configuration table places that option on X10/X12, not X8. GE B105M/B125M deserves consideration where modular expansion or an established GE accessory and repair route has value. Buying a larger screen without buying the required parameter does not close the gap."
     ],
     [
-      "The ECG decision starts with the computer",
-      "Midmark Digital ECG is attractive when the clinic already has a supported computer, usable software rights, backups and someone to maintain them. Its USB-powered recorder avoids another console battery and printer. ELI 230 becomes the stronger standalone option when buying and supporting that computer would be a new project. Compare the cost of a completed, retrievable study: software licensing can be as decisive for one system as paper and printer service are for the other. An old CardioPerfect recorder does not become unusable merely because a current Hillrom regional page marks it discontinued. It does become a maintain-existing-system decision rather than an easy new-fleet choice. The 2025 IQecg manual and its repair contacts similarly justify investigating an existing recorder, not assuming every older hardware/computer combination is supported. The unresolved Contec 1000 identity supplies no dependable alternative price or performance claim, and Eko DUO does not replace a complete diagnostic 12-lead service."
+      "The battery option can change the usable package",
+      "Specify the battery as carefully as the patient cables. EDAN lists a standard 2,550 mAh battery and an optional 5,100 mAh battery, with respective operating-time claims of at least four and eight hours. Those figures use a new, fully charged battery at 20–30°C, low screen brightness, continuous SpO2 and NIBP every 15 minutes. They are test conditions, not guaranteed endurance for a worn battery or another configuration. For an existing monitor, complete and assess the station before replacing it: suitable patient-size cuffs, compatible probes, intact leads, a mount and a usable battery may recover more service than another bare chassis. For a new purchase, compare that same basket. Spare accessories can be a better use of a limited budget than expansion slots the ward will never equip."
     ],
     [
-      "Buy the defibrillator's next pads and battery with the first",
-      "The old preference for ZOLL M Series, LIFEPAK 12 and MRx reflected acquisition cost. Today's decision must include the parts that expire while the unit waits. Philips' MRx letter ended US and US-territory pads, batteries and accessories support in February 2021. That notice cannot be generalized to every country, but it makes an unsupported US-origin MRx a poor platform to standardize now. Current service endpoints for every ZOLL M and LIFEPAK 12 variant were not established in this review. For hospital resuscitation, R Series Plus and a documented LIFEPAK 15 make sense when staff need their advanced functions. For an AED station, AED 3 and FRx concentrate the budget on a prompted workflow and maintained readiness. That distinction prevents two costly errors: paying for a monitor-defibrillator that the station will never use fully, or buying an AED where manual defibrillation, pacing or diagnostic ECG is required. For pediatric provision, identify AED 3's child-mode arrangement or include the FRx child key. FDA's device/accessory guidance makes compatible electrodes part of the system, not a generic substitute purchase. A further reason to insist on a complete service record is Stryker's April 2026 correction for identified LIFEPAK units serviced without objective evidence of a completed Performance Inspection Procedure. It includes specific LIFEPAK 15 serials; it is not a finding that all LIFEPAK 15s fail. Verify applicability and corrective-action completion instead of accepting an undocumented 'serviced' sticker."
+      "Buy an ECG result the clinic can retrieve",
+      "Midmark Digital ECG makes financial sense when a supported computer, software rights and a dependable records process already exist. Its USB-powered recorder uses that infrastructure; DICOM integration requires an optional software licence. ELI 230 is the stronger standalone comparison when acquiring and maintaining a computer would be another project. It brings its own paper and printer obligations. Make the demonstration follow a completed study through review, storage and retrieval at the place the clinician will use it. Include any transfer interface or licence in the offer. A successful trace on the seller’s screen does not establish that the hospital can find the record next month. Existing legacy software can remain useful, but an unsupported operating-system dependency belongs in the replacement budget."
     ],
     [
-      "What would change the choice?",
-      "A lower fully configured price can favor X8 on a basic ward. An existing GE parts and service route can favor B105M where expansion is needed. A maintained computer can favor Midmark; unreliable access to that computer can favor ELI 230. For defibrillators, dependable replacement electrodes and batteries can outweigh a cheap console. These are concrete ownership advantages. The reviewed evidence does not establish a comparative field failure rate, and an active product page alone does not establish local repairs."
+      "Fund readiness for the years between emergencies",
+      "Choose R Series Plus or a documented LIFEPAK 15 when the team needs the configured advanced resuscitation functions. Choose AED 3 or FRx for a dedicated AED role. Budget compatible pads, batteries and required pediatric provision from the beginning, including the FRx child key where needed. The cheapest dormant console can become the most expensive station to keep ready. A service sticker needs a supporting record. FDA’s 2026 LIFEPAK correction concerns identified serial numbers serviced without objective evidence that the Performance Inspection Procedure was completed. It does not establish that every LIFEPAK 15 is defective. Check the offered serial and corrective-action record. For an MRx, Philips’ February 2021 US and US-territory accessory-support endpoint is a territory-specific reason to scrutinize continuing supply, not a worldwide service date."
     ]
   ],
   "related": [
     "ekg"
   ],
-  "socialTitle": "Monitor, ECG or Defibrillator? Buy for the Job",
-  "socialDescription": "Compare EDAN X8, GE, Midmark, ELI, ZOLL and LIFEPAK by the channels, software and replacement supplies the service actually needs.",
-  "socialHeadline": "Monitor, ECG and defibrillator buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Monitors, ECGs and defibrillators: buy the missing function",
+  "socialDescription": "Choose the installed measurements, reporting workflow and resuscitation accessories that make each station useful. Eight named options show where extra spending changes the job.",
+  "socialHeadline": "Monitors, ECGs and defibrillators: buy the missing function",
+  "socialStrapline": "A bigger display cannot replace a missing measurement, a usable ECG record or the next set of pads.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "ekg",
-    "title": "Monitor, ECG and defibrillator buying guide",
-    "summary": "These are separate purchases: bedside monitoring, a diagnostic 12-lead ECG and resuscitation capability. Start with the job missing at each station.",
-    "firstChoice": "Use EDAN X8 for a basic ward-monitor comparison. Choose Midmark ECG where a supported computer already works, or ELI 230 for standalone acquisition and printing. Compare AED 3 and FRx for a dedicated AED station.",
-    "upgradeWhen": "Required invasive pressure moves the monitor choice to configured X10/X12 or B105M; X8 cannot supply that expansion. Hospital advanced resuscitation brings R Series Plus and a documented LIFEPAK 15 into consideration.",
+    "title": "Monitors, ECGs and defibrillators: buy the missing function",
+    "summary": "Choose the installed measurements, reporting workflow and resuscitation accessories that make each station useful. Eight named options show where extra spending changes the job.",
+    "firstChoice": "Separate bedside monitoring, diagnostic 12-lead ECG and resuscitation requirements; use X8 only where its basic channels meet the bed's needs.",
+    "upgradeWhen": "Fund invasive-pressure capability, standalone ECG operation or manual defibrillation/pacing when those are required functions, not optional ambitions.",
     "budgetWatch": "Price cuffs, probes, leads, pads and batteries before optional displays or networking. Midmark needs usable software rights; ELI needs paper and printer support. Include the FRx child key when required.",
-    "supportCheck": "Identify LIFEPAK 15 version, enabled functions and serial-specific inspection/correction records. Confirm recurring electrode and battery supply where the device will live.",
+    "supportCheck": "Reject an X8 offer promising an IBP upgrade, a PC ECG recorder without usable software rights, or a defibrillator without a viable electrode/battery supply.",
     "askSupplier": [
       "Which patient sizes and parameters does this monitor package cover?",
       "Does the ECG price include supported software and retrievable records?",
@@ -81,9 +81,9 @@ export default {
   },
   "research": {
     "id": "ekg",
-    "title": "Monitor, ECG or defibrillator? Spend on the right job",
-    "dek": "The useful upgrade may be an invasive-pressure channel, a working ECG computer or fresh defibrillator supplies—not a bigger display.",
-    "verdict": "Use EDAN X8 as the basic ward-monitor benchmark when ECG, SpO2, NIBP and temperature cover the job; it cannot be upgraded to the invasive-pressure capability shown for X10/X12. Move to an appropriately configured GE B105M or EDAN X10/X12 when the service needs that expansion. Choose Midmark Digital ECG where a supported computer already works, and ELI 230 where standalone acquisition and printing are worth funding. Hospital resuscitation brings R Series Plus and documented LIFEPAK 15 into the comparison; a dedicated AED station calls for AED 3 or HeartStart FRx. Each decision has a different recurring bill.",
+    "title": "Monitors, ECGs and defibrillators: buy the missing function",
+    "dek": "Choose the installed measurements, reporting workflow and resuscitation accessories that make each station useful. Eight named options show where extra spending changes the job.",
+    "verdict": "Buy the function missing at the station. X8 is a basic-monitor comparator; required invasive pressure moves the decision to a suitably configured alternative. Midmark rewards an existing supported computer, while ELI 230 offers standalone ECG acquisition and printing. Advanced resuscitation and dedicated AED stations need different equipment and recurring supplies.",
     "coverage": [
       "Multiparameter patient monitors",
       "Diagnostic 12-lead ECG",
@@ -96,8 +96,8 @@ export default {
         "model": "EDAN X8",
         "position": "Basic ward monitoring",
         "bestFor": "A ward needing a defined ECG, SpO2, NIBP and temperature package",
-        "why": "The X8 has a defined basic monitoring package and separately available CO2 options. Buying the required basic channels first can leave money for spare probes and a replacement battery.",
-        "tradeoff": "Specify neonatal accessories, CO2 hardware and the required SpO2 technology. X8 does not have the optional invasive-pressure capability shown for X10/X12 in the manufacturer comparison. If invasive pressure is required, compare an appropriately configured X10/X12 or the GE modular alternative; do not assume X8 can be upgraded.",
+        "why": "A defined basic station can leave more budget for spare leads, probes and batteries.",
+        "tradeoff": "X8 does not provide the optional invasive-pressure expansion shown for X10/X12. Specify CO2, patient accessories and battery configuration separately.",
         "price": "PartsSource displayed USD 3,358.06 each on October 16, 2026 for OEM X8, New OEM Original, with 8-inch touchscreen/Wi-Fi, 3/5-lead ECG, RESP, NIBP, EDAN SpO2 and one temperature channel. Price required CO2/printer options separately and confirm accessories. The item is nonreturnable, with a ship date only after order confirmation; freight, tax, export warranty and commissioning remain additional or unverified.",
         "support": "Current EDAN USA by MDPro product offering found. This establishes an identifiable supply channel, not service coverage at the destination.",
         "sourceIds": [
@@ -110,8 +110,8 @@ export default {
         "model": "GE B105M / B125M",
         "position": "Modular expansion",
         "bestFor": "A hospital that needs expansion or already maintains GE accessories",
-        "why": "The B1x5M platform allows additional parameter modules. B105M is the compact starting point; B125M buys a larger display rather than automatically better measurements.",
-        "tradeoff": "Modules and compatible sensors can dominate the premium. Do not pay for expansion capacity that the hospital will never equip.",
+        "why": "Modular parameters can make expansion practical where the hospital will actually equip and support them.",
+        "tradeoff": "Price installed modules and compatible sensors. A B125M larger display does not by itself improve measurement capability.",
         "price": "Quote required for exact screen size, modules, battery and probes.",
         "support": "Current manufacturer platform and documentation verified; local service response and spare availability remain unconfirmed.",
         "sourceIds": [
@@ -122,10 +122,10 @@ export default {
         "model": "Midmark Digital ECG",
         "position": "ECG with an existing computer",
         "bestFor": "Clinics storing and reviewing 12-lead ECGs electronically",
-        "why": "USB-powered acquisition avoids a separate console battery and printer. Its value is strongest when the clinic already owns the supported computer and has a workable records process.",
-        "tradeoff": "Computer support, software licenses and optional DICOM integration are real costs. A recorder without usable software rights is incomplete.",
+        "why": "USB-powered acquisition suits a clinic with a supported computer and a workable electronic record process.",
+        "tradeoff": "Include software rights, computer support and any optional DICOM licence. Prove retrieval of a completed study, not just acquisition.",
         "price": "Quote required including workstation software, installation and any integration license.",
-        "support": "Current product page found. Midmark also publishes an IQecg manual, revised in 2025, with repair and certification contacts; that does not guarantee every older recorder remains serviceable.",
+        "support": "The current product page describes the recorder and optional DICOM licence. Exact computer compatibility and the rights supplied with a particular sale still need confirmation.",
         "sourceIds": [
           "e3",
           "e4"
@@ -135,8 +135,8 @@ export default {
         "model": "Welch Allyn ELI 230",
         "position": "Standalone ECG and printing",
         "bestFor": "A clinic wanting acquisition and paper output without depending on a separate PC",
-        "why": "A dedicated 12-lead instrument with a full-size printout can be simpler to deploy when computers are scarce or shared. Its screen permits acquisition review before printing.",
-        "tradeoff": "Paper, printer maintenance and the acquisition module remain recurring costs. The interpretation algorithm supports clinician review; it does not replace it.",
+        "why": "Standalone acquisition and a full-size printout avoid depending on an available clinic PC.",
+        "tradeoff": "Price paper, printer service and the acquisition module. Automated interpretation still requires clinician review.",
         "price": "Quote required; specify wired AM12 or optional wireless acquisition and printer supplies.",
         "support": "Current Hillrom regional product page verified. Destination registration, stock and service commitment require confirmation.",
         "sourceIds": [
@@ -147,8 +147,8 @@ export default {
         "model": "ZOLL R Series Plus",
         "position": "Hospital resuscitation",
         "bestFor": "A resuscitation area needing AED entry and manual advanced functions",
-        "why": "AED operation with access to advanced operation makes one platform useful across trained responders. Readiness checks and CPR feedback are documented capabilities worth pricing where the team will use them.",
-        "tradeoff": "Pacing and monitoring configuration, compatible electrodes, batteries and accessories must be itemized. It is more equipment than a simple public-access AED station needs.",
+        "why": "AED entry with access to advanced operation suits a hospital team trained for the configured functions.",
+        "tradeoff": "Itemize pacing and monitoring options, compatible electrodes and batteries; this exceeds a simple AED-station requirement.",
         "price": "Quote required for the actual monitoring and pacing configuration.",
         "support": "Current manufacturer offering and technical support entry verified; contract coverage is not yet established.",
         "sourceIds": [
@@ -159,10 +159,10 @@ export default {
         "model": "Stryker LIFEPAK 15, exact version specified",
         "position": "Documented refurbished resuscitation platform",
         "bestFor": "Teams familiar with LIFEPAK and needing a monitor-defibrillator with pacing and ECG capability",
-        "why": "Its documented manual/AED operation, synchronized cardioversion and monitoring make it a credible full platform. Stryker publishes version-specific service material, which helps distinguish a supported refurbishment from an unlabeled older unit.",
-        "tradeoff": "It is substantial transport equipment, not a lightweight AED. Battery condition, enabled parameters and exact V1/V2/V4 identity alter value.",
+        "why": "Version-specific documentation helps a buyer specify a complete monitor-defibrillator rather than an unidentified chassis.",
+        "tradeoff": "Distinguish V1/V2/V4, enabled parameters, batteries and service history. Check serial-specific correction applicability.",
         "price": "Quote required with service report, batteries, electrodes, cables and warranty scope.",
-        "support": "Current Stryker TechWeb lists version-specific service resources. Confirm serial acceptance and closure of applicable 2026 service-record correction before buying.",
+        "support": "Stryker publishes version-specific resources. Confirm serial acceptance and completion of any applicable 2026 service-record correction.",
         "sourceIds": [
           "e8",
           "e9",
@@ -173,8 +173,8 @@ export default {
         "model": "ZOLL AED 3",
         "position": "Managed AED station",
         "bestFor": "A dedicated AED station where CPR feedback and a combined adult/child workflow are valuable",
-        "why": "The integrated child mode and CPR feedback avoid turning the purchase into a miniature monitor project. Optional readiness connectivity may help a managed fleet.",
-        "tradeoff": "Electrode and battery replacement costs and the process for checking readiness matter more than unused network features.",
+        "why": "Child mode and CPR feedback provide a defined AED workflow; optional connectivity can help a managed fleet.",
+        "tradeoff": "Fund replacement electrodes and batteries before unused networking. Readiness still needs an accountable owner.",
         "price": "Quote required including initial electrodes, battery and any connectivity service.",
         "support": "Current manufacturer product and accessories documented; local replacement lead times unverified.",
         "sourceIds": [
@@ -185,8 +185,8 @@ export default {
         "model": "Philips HeartStart FRx, model 861304",
         "position": "Prompted AED workflow",
         "bestFor": "A facility prioritizing a familiar prompted AED workflow",
-        "why": "Adult/child SMART Pads II with the optional infant/child key provide a defined accessory system. It is a different purchasing job from an ALS monitor-defibrillator.",
-        "tradeoff": "Include the child key if needed; do not assume it comes with every offer. This does not replace manual cardioversion, pacing or a diagnostic ECG.",
+        "why": "SMART Pads II and the optional infant/child key form an identifiable accessory package.",
+        "tradeoff": "Include the child key where required. An FRx does not supply manual cardioversion, pacing or a diagnostic ECG.",
         "price": "Quote required with pad expiry dates, battery and child key specified.",
         "support": "Current Philips product page found; approved accessories and territory service must be checked.",
         "sourceIds": [
@@ -197,24 +197,33 @@ export default {
     ],
     "sections": [
       {
-        "heading": "The X8 bargain ends where invasive pressure begins",
+        "heading": "Three jobs need three comparisons",
         "paragraphs": [
-          "The X8 has a useful place in a ward budget because its basic configuration is identifiable. The opened PartsSource offer is USD 3,358.06 on October 16, 2026 for the stated New OEM Original package. Its price does not buy every channel on EDAN's comparison chart: optional invasive pressure appears on X10/X12, not X8. If IBP belongs in the requirement, changing the model is part of the purchase decision; a promise to add it to X8 later is not a plan.",
-          "For beds that need only the X8 channels, spend the remaining budget on the right probe sizes, cuffs, ECG leads, temperature probe, battery and mount. Add CO2 only as a defined configured requirement. B105M earns attention when modular expansion or existing GE service arrangements have real value; B125M's larger display alone does not establish better measurements. The earlier TeleView recommendation cannot be renewed until its OEM identity, measurement technology and service documentation are resolved.",
-          "A known MP50 or DASH can still be worth maintaining when its installed parameters and maintenance history match the bed. Another unknown used unit is a different purchase: it adds a new repair obligation. Compare the cost of completing that particular station with a current complete one, rather than comparing an empty used chassis with a fully equipped new monitor."
+          "A bedside monitor, a diagnostic 12-lead ECG and a defibrillator can all display a heart rhythm. They solve different purchasing problems. Start with the missing service: continuous observation at a bed, an interpretable and retrievable diagnostic study, or the resuscitation capability required by the trained team. Then compare complete packages within that job. A low console price is useful only after the missing functions and accessories have been costed.",
+          "For basic ward monitoring, EDAN X8 is a credible starting point. Required invasive pressure changes that shortlist: its manufacturer configuration table places that option on X10/X12, not X8. GE B105M/B125M deserves consideration where modular expansion or an established GE accessory and repair route has value. Buying a larger screen without buying the required parameter does not close the gap."
         ],
         "sourceIds": [
-          "e1",
-          "e2",
-          "e-partssource-x8",
-          "e-edan-configuration"
+          "e-edan-configuration",
+          "e2"
         ]
       },
       {
-        "heading": "The ECG decision starts with the computer",
+        "heading": "The battery option can change the usable package",
         "paragraphs": [
-          "Midmark Digital ECG is attractive when the clinic already has a supported computer, usable software rights, backups and someone to maintain them. Its USB-powered recorder avoids another console battery and printer. ELI 230 becomes the stronger standalone option when buying and supporting that computer would be a new project. Compare the cost of a completed, retrievable study: software licensing can be as decisive for one system as paper and printer service are for the other.",
-          "An old CardioPerfect recorder does not become unusable merely because a current Hillrom regional page marks it discontinued. It does become a maintain-existing-system decision rather than an easy new-fleet choice. The 2025 IQecg manual and its repair contacts similarly justify investigating an existing recorder, not assuming every older hardware/computer combination is supported. The unresolved Contec 1000 identity supplies no dependable alternative price or performance claim, and Eko DUO does not replace a complete diagnostic 12-lead service."
+          "Specify the battery as carefully as the patient cables. EDAN lists a standard 2,550 mAh battery and an optional 5,100 mAh battery, with respective operating-time claims of at least four and eight hours. Those figures use a new, fully charged battery at 20–30°C, low screen brightness, continuous SpO2 and NIBP every 15 minutes. They are test conditions, not guaranteed endurance for a worn battery or another configuration.",
+          "For an existing monitor, complete and assess the station before replacing it: suitable patient-size cuffs, compatible probes, intact leads, a mount and a usable battery may recover more service than another bare chassis. For a new purchase, compare that same basket. Spare accessories can be a better use of a limited budget than expansion slots the ward will never equip."
+        ],
+        "sourceIds": [
+          "e-edan-configuration",
+          "e1",
+          "e2"
+        ]
+      },
+      {
+        "heading": "Buy an ECG result the clinic can retrieve",
+        "paragraphs": [
+          "Midmark Digital ECG makes financial sense when a supported computer, software rights and a dependable records process already exist. Its USB-powered recorder uses that infrastructure; DICOM integration requires an optional software licence. ELI 230 is the stronger standalone comparison when acquiring and maintaining a computer would be another project. It brings its own paper and printer obligations.",
+          "Make the demonstration follow a completed study through review, storage and retrieval at the place the clinician will use it. Include any transfer interface or licence in the offer. A successful trace on the seller’s screen does not establish that the hospital can find the record next month. Existing legacy software can remain useful, but an unsupported operating-system dependency belongs in the replacement budget."
         ],
         "sourceIds": [
           "e3",
@@ -224,45 +233,30 @@ export default {
         ]
       },
       {
-        "heading": "Buy the defibrillator's next pads and battery with the first",
+        "heading": "Fund readiness for the years between emergencies",
         "paragraphs": [
-          "The old preference for ZOLL M Series, LIFEPAK 12 and MRx reflected acquisition cost. Today's decision must include the parts that expire while the unit waits. Philips' MRx letter ended US and US-territory pads, batteries and accessories support in February 2021. That notice cannot be generalized to every country, but it makes an unsupported US-origin MRx a poor platform to standardize now. Current service endpoints for every ZOLL M and LIFEPAK 12 variant were not established in this review.",
-          "For hospital resuscitation, R Series Plus and a documented LIFEPAK 15 make sense when staff need their advanced functions. For an AED station, AED 3 and FRx concentrate the budget on a prompted workflow and maintained readiness. That distinction prevents two costly errors: paying for a monitor-defibrillator that the station will never use fully, or buying an AED where manual defibrillation, pacing or diagnostic ECG is required. For pediatric provision, identify AED 3's child-mode arrangement or include the FRx child key. FDA's device/accessory guidance makes compatible electrodes part of the system, not a generic substitute purchase.",
-          "A further reason to insist on a complete service record is Stryker's April 2026 correction for identified LIFEPAK units serviced without objective evidence of a completed Performance Inspection Procedure. It includes specific LIFEPAK 15 serials; it is not a finding that all LIFEPAK 15s fail. Verify applicability and corrective-action completion instead of accepting an undocumented 'serviced' sticker."
+          "Choose R Series Plus or a documented LIFEPAK 15 when the team needs the configured advanced resuscitation functions. Choose AED 3 or FRx for a dedicated AED role. Budget compatible pads, batteries and required pediatric provision from the beginning, including the FRx child key where needed. The cheapest dormant console can become the most expensive station to keep ready.",
+          "A service sticker needs a supporting record. FDA’s 2026 LIFEPAK correction concerns identified serial numbers serviced without objective evidence that the Performance Inspection Procedure was completed. It does not establish that every LIFEPAK 15 is defective. Check the offered serial and corrective-action record. For an MRx, Philips’ February 2021 US and US-territory accessory-support endpoint is a territory-specific reason to scrutinize continuing supply, not a worldwide service date."
         ],
         "sourceIds": [
           "e7",
           "e8",
-          "e9",
           "e10",
           "e11",
-          "e12",
           "e13",
-          "e14"
-        ]
-      },
-      {
-        "heading": "What would change the choice?",
-        "paragraphs": [
-          "A lower fully configured price can favor X8 on a basic ward. An existing GE parts and service route can favor B105M where expansion is needed. A maintained computer can favor Midmark; unreliable access to that computer can favor ELI 230. For defibrillators, dependable replacement electrodes and batteries can outweigh a cheap console. These are concrete ownership advantages. The reviewed evidence does not establish a comparative field failure rate, and an active product page alone does not establish local repairs."
-        ],
-        "sourceIds": [
-          "e1",
-          "e2",
-          "e3",
-          "e5",
-          "e9",
-          "e13"
+          "e14",
+          "e12"
         ]
       }
     ],
     "ownership": {
-      "equation": "Cost per usable service = delivered complete system + accessories + software/computer or paper costs + scheduled service + battery/pad replacements + downtime provision, divided by completed monitoring-days, ECG studies or maintained resuscitation-station years.",
+      "equation": "Compare all acquisition, accessories, software, service and replacement-supply costs over the same planned period. Divide monitor costs by supported bed-days, ECG-service costs by completed retrievable studies, and readiness-station costs by covered station-years; do not compare these unlike denominators as one ranking.",
       "drivers": [
-        "Monitor probes and cuff sizes; optional CO2 modules and sampling supplies",
-        "PC/software compatibility and integration licenses versus standalone ECG paper and printer service",
-        "Defibrillator battery health, compatible pads and expiry wastage",
-        "Version-specific service acceptance and a spare device while repairs travel"
+        "Installed parameters and patient-size accessories",
+        "Battery condition and replacement",
+        "Computer, software and record-transfer costs",
+        "Printer supplies and service",
+        "Compatible pads, batteries and pediatric accessories"
       ]
     },
     "questions": [
@@ -272,9 +266,9 @@ export default {
       "Who will supply compatible electrodes and batteries in the destination country for the intended ownership period?"
     ],
     "gaps": [
-      "TeleView, GE MX Series and Contec 1000 identities are unresolved in the historical notes.",
-      "No equivalent delivered quotes or comparative failure-rate evidence were verified.",
-      "Current factory support for particular DASH, MP, Passport, ZOLL M, LIFEPAK 12 and MRx serials was not confirmed."
+      "No comparative field failure-rate evidence establishes a reliability winner.",
+      "Exact destination service, supplied software rights, current complete-package prices and serial-specific corrective-action closure require purchase-specific confirmation.",
+      "Manufacturer runtime claims do not establish the endurance of an offered used battery."
     ],
     "sources": [
       {
@@ -301,7 +295,7 @@ export default {
         "url": "https://www.midmark.com/medical/products/diagnostics/detail/midmarkdigitalecg",
         "publisher": "Midmark",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "USB-powered diagnostic ECG and optional DICOM integration."
       },
       {
@@ -400,7 +394,7 @@ export default {
         "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=218656",
         "publisher": "FDA",
         "kind": "regulator",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Specified serviced LIFEPAK serials lacked objective evidence of completed performance inspection; corrective action required."
       },
       {
@@ -410,7 +404,7 @@ export default {
         "publisher": "PartsSource",
         "kind": "seller listing",
         "accessed": "2026-10-16",
-        "evidence": "Opened page body identifies OEM X8, standard parameters, new condition, $3,358.06, nonreturnable status and a ship date only after order confirmation. Page title metadata is inconsistent; the price is tied to the model named in the body."
+        "evidence": "Product page body identifies OEM X8, standard parameters, new condition, $3,358.06, nonreturnable status and a ship date only after order confirmation. Page title metadata is inconsistent; the price is tied to the model named in the body."
       },
       {
         "id": "e-edan-configuration",
@@ -418,7 +412,7 @@ export default {
         "url": "https://edanusa.com/wp-content/uploads/sites/12/2020/11/x8-x12-PM-spec-sheet.pdf",
         "publisher": "EDAN USA",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "The visual configuration table assigns optional invasive blood pressure to X10/X12, not X8. X8 includes optional CO2, ECG configuration, Wi-Fi and recorder choices."
       }
     ],
@@ -467,10 +461,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Monitor, ECG or Defibrillator? Buy for the Job",
-      "description": "Compare EDAN X8, GE, Midmark, ELI, ZOLL and LIFEPAK by the channels, software and replacement supplies the service actually needs.",
-      "hook": "A larger screen cannot add an invasive-pressure channel that the monitor does not support."
-    }
+      "title": "Monitors, ECGs and defibrillators: buy the missing function",
+      "description": "Choose the installed measurements, reporting workflow and resuscitation accessories that make each station useful. Eight named options show where extra spending changes the job.",
+      "hook": "A bigger display cannot replace a missing measurement, a usable ECG record or the next set of pads."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Multiparameter patient monitors Diagnostic 12-lead ECG Manual monitor-defibrillators AEDs Legacy software, pads, batteries and service EDAN X8 GE B105M / B125M Midmark Digital ECG Welch Allyn ELI 230 ZOLL R Series Plus Stryker LIFEPAK 15, exact version specified ZOLL AED 3 Philips HeartStart FRx, model 861304"
+  "searchTerms": "Monitors, ECGs and defibrillators: buy the missing function Multiparameter patient monitors Diagnostic 12-lead ECG Manual monitor-defibrillators AEDs Legacy software, pads, batteries and service EDAN X8 GE B105M / B125M Midmark Digital ECG Welch Allyn ELI 230 ZOLL R Series Plus Stryker LIFEPAK 15, exact version specified ZOLL AED 3 Philips HeartStart FRx, model 861304",
+  "librarySection": "equipment"
 };

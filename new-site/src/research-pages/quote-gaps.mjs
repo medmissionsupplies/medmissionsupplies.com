@@ -3,8 +3,8 @@ export default {
   "key": "quote-gaps",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "The quote is cheap. What did they leave out?",
-  "summary": "A useful comparison starts with identical capability, complete packages and a common workload. Small omissions can reverse the price ranking.",
+  "title": "When the cheaper equipment quote costs more",
+  "summary": "Match the capability, finish the package, then count the recurring bill. A worked example turns a US$3,000 console discount into a more expensive three-year choice.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/anesthesia",
@@ -24,53 +24,53 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
-      "Make the equipment do the same job on paper",
-      "Two offers are comparable only after their required capability matches. A model-family name or “fully loaded” description is insufficient. Write down the channels, modes, accessories, patient sizes, software and workflow the service needs. Have the seller identify the exact configuration against that list. The EDAN X8 comparison shows why this matters. The manufacturer's configuration table assigns optional invasive blood pressure to X10/X12, not X8. If that channel is required, a lower X8 price does not establish a bargain. Similarly, the Tuttnauer T-Top range includes Class S and Class B configurations: an upgradeable machine is not evidence that the required cycle capability is supplied."
+      "Make both offers do the same job",
+      "A lower price matters only after the required capability matches. Start with the work the service needs: patient sizes, channels, modes, accessories, software and the result it must save or report. “Fully loaded” and a model-family name are not configurations. Separate a required function from an attractive extra before deciding what the cheaper offer is missing. EDAN and Tuttnauer show why configuration changes the comparison. EDAN’s X8–X12 configuration table assigns optional invasive blood pressure to X10/X12, not X8. A lower X8 price cannot satisfy a requirement for that channel. Tuttnauer’s T-Top line includes different Class S and Class B configurations: a machine that can be upgraded is not necessarily supplied with the cycle capability being compared. These source checks date to October 16, 2026; the offered unit still needs its exact configuration identified."
     ],
     [
-      "Expose the costs between the box and the first use",
-      "Use separate lines for accessories, software, freight, tax or import costs, installation, acceptance, training and initial supplies. A line marked included should identify what is included. A line marked unpriced should remain visible in the total-cost discussion until it is resolved. Actual seller data provide useful anchors when their limits stay attached. On October 16, 2026, MFI's current M11 listing displayed US$7,562.82 plus US$495 shipping: US$8,057.82 by simple addition. The offer identifies medical M11-050/M11-051 configurations and voltage variants; it is not a dental configuration or a destination-specific landed total. Those details matter as much as the displayed number."
+      "Add the spending between delivery and first use",
+      "Give accessories, software, freight, tax or import costs, installation, acceptance, training and initial supplies their own lines. “Included” should describe the item and quantity. “Unpriced” is an unresolved exposure, not zero. If one essential item has no credible cost or delivery route, keep that uncertainty visible instead of presenting a precise but incomplete total. A dated public offer can anchor part of the comparison. On October 16, 2026, MFI’s M11 listing displayed US$7,562.82 plus US$495 shipping, totaling US$8,057.82 by addition. It identified medical M11-050/M11-051 configurations and voltage variants, not a dental configuration. That snapshot was not a destination-specific landed quotation and is not a promise of today’s price. The model, voltage, delivery scope and date belong beside the amount."
     ],
     [
-      "Work through an explicitly hypothetical comparison",
-      "The following amounts are invented solely to demonstrate the method. Assume two offers provide the same accepted capability. Offer A lists an US$8,000 machine, then needs US$1,500 of accessories, US$800 freight, US$1,200 installation/acceptance and US$500 initial stock. Its completed starting cost is US$12,000. Offer B lists US$11,000 including the same accessories and installation/acceptance. Add US$600 freight and US$500 initial stock: US$12,100. The apparent US$3,000 machine-price saving has become a US$100 completed-package saving. Neither total includes tax, import charges or items outside this hypothetical scope. This is not a market estimate or a report of actual hospital purchases."
+      "Watch a US$3,000 saving almost disappear",
+      "The following amounts are entirely hypothetical; they demonstrate the method, not market prices. Assume two packages provide the same accepted capability. Offer A starts with an US$8,000 machine. Add US$1,500 of accessories, US$800 freight, US$1,200 installation and acceptance, and US$500 initial stock. The completed starting package costs US$12,000. Offer B starts at US$11,000 with the same accessories, installation and acceptance included. Add US$600 freight and US$500 initial stock: US$12,100. The apparent US$3,000 console saving is now only US$100. Neither hypothetical total includes tax, import charges or costs outside the stated scope. A single unresolved essential item could outweigh that remaining difference."
     ],
     [
-      "Then add the bill that arrives every year",
-      "Continue the same invented example at an identical workload. Assume annual replenishment and scheduled service, in addition to the initial stock, cost US$1,800 for A and US$1,200 for B. Over three years, A totals US$17,400 and B totals US$15,700. B is US$1,700 lower on these assumptions. No discounting, unscheduled repairs, taxes or downtime costs have been included. The example's result changes when its inputs change. Replace every invented amount with the buyer's actual offers, test a quieter workload, and add known exclusions. Do not reuse the calculated saving as a fact about a brand. The useful result is learning which inputs can reverse the decision."
+      "Now compare the same three years",
+      "Continue the invented example at identical workload. Suppose replenishment and scheduled service, additional to the initial stock, cost US$1,800 a year for A and US$1,200 for B. Over three years, A costs US$12,000 + US$5,400 = US$17,400. B costs US$12,100 + US$3,600 = US$15,700. On those assumptions B is US$1,700 lower, despite its higher machine price. That result excludes discounting, unscheduled repair, tax and downtime. It is not evidence that a particular brand saves money. Its value is showing the deciding variable: B’s assumed annual US$600 advantage outweighs the US$100 starting difference. Change the workload, supplies or service scope and recalculate. Where a repair cost is unknown, show a separate scenario rather than conceal it inside a made-up failure rate."
     ],
     [
-      "Turn the consumable quote into usable output",
-      "Request pack sizes, delivered expiry, storage requirements, control consumption and minimum order quantities. A low price per consumable can be expensive when a small service cannot use the pack. A larger pack may reduce freight while increasing expiry exposure; the intended workload decides which effect matters. The Piccolo example in the point-of-care guide uses a verified US$139 ten-disc offer with a US$30 fee per item. US$169 divided by ten usable results is US$16.90; divided by eight in an illustrative scenario it is US$21.13. The lower denominator is hypothetical, not measured wastage. Keep controls, tax and other costs additional, and compare assay-equivalent workflows before drawing a purchasing conclusion."
+      "Buy usable output, not an attractive pack price",
+      "Pack size, usable expiry, storage, control consumption and minimum orders determine how much of a consumable purchase becomes useful work. A larger pack can reduce freight yet increase unused stock at a quiet service. Compare equivalent tasks or assays, and separate routine patient use from controls and other consumption. A CLIAwaived offer checked on October 16, 2026 provides a specific example: US$139 for ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08), plus a US$30 fee per item. If all ten discs produced usable patient panels, US$169 divided by ten would be US$16.90 per panel. If only eight did so in an illustrative scenario, it would be US$21.13 per usable patient panel, rounded to cents. These are assumed yields, not observed wastage or prices per individual analyte. Control use, repeats, discarded discs, tax and other costs must be included in a real comparison. The seller’s CLIA-license requirement and other ordering conditions still apply."
     ],
     [
-      "Finish with exclusions a buyer can act on",
-      "Ask who repairs the offered serial after export, what shipping the warranty requires, and how long key supplies are available. For ultrasound, name each required probe and enabled application instead of accepting a console price. For a PC-based instrument, include the compatible computer and usable software rights. A complete offer may still leave uncertain repair risk. State that uncertainty and seek a priced support or continuity option where possible. The aim is a comparison the receiving team can understand and challenge, with every essential dependency assigned a cost or an explicit unresolved decision."
+      "Close the omissions that can still change the winner",
+      "The package must remain usable after arrival. An ultrasound offer needs the named probes and enabled applications. A PC-based instrument needs a compatible computer and usable software rights. For either, a warranty that requires an expensive overseas return can have a different practical value from a local repair route. These are differences in what the buyer receives, not reasons to invent a reliability ranking. Finish with three decisions: whether the packages do the same required work, which unresolved item could reverse the ranking, and whether the preference survives a quieter workload or longer interruption. Keep a working, supported system in that comparison when a targeted addition supplies the missing capability. The best comparison is one the receiving team can follow, challenge and fund."
     ]
   ],
   "related": [
     "anesthesia"
   ],
-  "socialTitle": "The quote is cheap. What did they leave out?",
-  "socialDescription": "Compare the full package, then the running costs. A worked example shows how a $3,000 headline saving can turn into the more expensive choice.",
-  "socialHeadline": "Equipment quote comparison guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "When the cheaper equipment quote costs more",
+  "socialDescription": "A US$3,000 headline saving shrinks to US$100 after missing items, then reverses over three years in a clearly labelled example.",
+  "socialHeadline": "When the cheaper equipment quote costs more",
+  "socialStrapline": "Compare the usable package—not just the machine price.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "quote-gaps",
-    "title": "Equipment quote comparison guide",
-    "summary": "Make competing offers cover the same work before comparing totals. Model-family names, upgrade promises and a low console price can conceal different purchases.",
-    "firstChoice": "Write one required configuration and have each supplier price it: patient sizes, functions, accessories, software, delivery, installation, acceptance and initial supplies. Mark every omission as included, priced separately or unresolved.",
-    "upgradeWhen": "Accept a higher equipment price when it lowers the complete cost or supplies a needed capability. X8 lacks the invasive-pressure option of X10/X12; T-Top Class B must actually be supplied.",
-    "budgetWatch": "Extend the comparison through a common operating period. Add consumable pack sizes, controls, usable expiry and scheduled service. Test quieter activity: unused stock can reverse an apparent per-item saving.",
-    "supportCheck": "Attach usable software rights and named repair coverage to each offer. Ultrasound needs named probes and enabled applications; a PC-based ECG needs a supported computer/software arrangement.",
+    "title": "When the cheaper equipment quote costs more",
+    "summary": "Match required capability before ranking prices. Then finish the starting package and compare recurring costs at one workload and over one period.",
+    "firstChoice": "Build one comparable configuration and mark every required item included, separately priced or unresolved. An absent essential function disqualifies an offer before arithmetic can make it attractive.",
+    "upgradeWhen": "A higher starting price buys required capability or demonstrably lowers the cost of equivalent service. The worked example shows how US$100 more initially can be outweighed by recurring costs.",
+    "budgetWatch": "Count usable output, pack size and expiry—not just unit price. Keep initial stock separate from later replenishment and leave unknown costs visible.",
+    "supportCheck": "Match software rights, installation/acceptance and repair geography as well as accessories. A console price does not establish a working ultrasound or PC-based ECG package.",
     "askSupplier": [
-      "Which required function or accessory is excluded from this total?",
-      "What changes in the recurring bill at half our expected workload?",
-      "Which unpriced delivery, installation or support item could reverse the comparison?"
+      "Does this exact configuration perform every required task?",
+      "Which essential item is still unpriced?",
+      "What changes in the recurring bill at a quieter workload?"
     ],
     "sourceIds": [
       "edan-config",
@@ -89,26 +89,26 @@ export default {
     "choices": [],
     "quickCompare": [],
     "id": "quote-gaps",
-    "title": "The quote is cheap. What did they leave out?",
-    "dek": "A useful comparison starts with identical capability, complete packages and a common workload. Small omissions can reverse the price ranking.",
-    "verdict": "Choose the lowest credible cost for the same required service. Match configurations, expose omissions and compare recurring costs. Keep verified offers separate from illustrative arithmetic.",
+    "title": "When the cheaper equipment quote costs more",
+    "dek": "Match the capability, finish the package, then count the recurring bill. A worked example turns a US$3,000 console discount into a more expensive three-year choice.",
+    "verdict": "Choose the lowest credible cost for the same required work. An essential function or unpriced dependency can disqualify an apparently cheaper offer before any cost comparison begins.",
     "decision": {
-      "firstMove": "Give every offer the same bill of materials; mark items included, excluded or unpriced.",
-      "spendMoreWhen": "Required capability or verified continuing savings justify the difference.",
-      "keepExistingWhen": "Completing the supported installed system provides equivalent capability at lower cost.",
-      "walkAwayWhen": "Exact options, essential omissions or continuing supply terms remain unexplained."
+      "firstMove": "Make the required capability identical, then complete each starting package.",
+      "spendMoreWhen": "Needed capability or a supported lower continuing cost outweighs the higher starting price.",
+      "keepExistingWhen": "A targeted supported addition delivers the same required work for less.",
+      "walkAwayWhen": "An essential capability, right or supply remains absent or unexplained."
     },
     "social": {
-      "title": "The quote is cheap. What did they leave out?",
-      "description": "Compare the full package, then the running costs. A worked example shows how a $3,000 headline saving can turn into the more expensive choice.",
-      "hook": "Put included, excluded or unpriced beside every item before ranking the offers."
+      "title": "When the cheaper equipment quote costs more",
+      "description": "A US$3,000 headline saving shrinks to US$100 after missing items, then reverses over three years in a clearly labelled example.",
+      "hook": "Compare the usable package—not just the machine price."
     },
     "sections": [
       {
-        "heading": "Make the equipment do the same job on paper",
+        "heading": "Make both offers do the same job",
         "paragraphs": [
-          "Two offers are comparable only after their required capability matches. A model-family name or “fully loaded” description is insufficient. Write down the channels, modes, accessories, patient sizes, software and workflow the service needs. Have the seller identify the exact configuration against that list.",
-          "The EDAN X8 comparison shows why this matters. The manufacturer's configuration table assigns optional invasive blood pressure to X10/X12, not X8. If that channel is required, a lower X8 price does not establish a bargain. Similarly, the Tuttnauer T-Top range includes Class S and Class B configurations: an upgradeable machine is not evidence that the required cycle capability is supplied."
+          "A lower price matters only after the required capability matches. Start with the work the service needs: patient sizes, channels, modes, accessories, software and the result it must save or report. “Fully loaded” and a model-family name are not configurations. Separate a required function from an attractive extra before deciding what the cheaper offer is missing.",
+          "EDAN and Tuttnauer show why configuration changes the comparison. EDAN’s X8–X12 configuration table assigns optional invasive blood pressure to X10/X12, not X8. A lower X8 price cannot satisfy a requirement for that channel. Tuttnauer’s T-Top line includes different Class S and Class B configurations: a machine that can be upgraded is not necessarily supplied with the cycle capability being compared. These source checks date to October 16, 2026; the offered unit still needs its exact configuration identified."
         ],
         "sourceIds": [
           "edan-config",
@@ -116,46 +116,46 @@ export default {
         ]
       },
       {
-        "heading": "Expose the costs between the box and the first use",
+        "heading": "Add the spending between delivery and first use",
         "paragraphs": [
-          "Use separate lines for accessories, software, freight, tax or import costs, installation, acceptance, training and initial supplies. A line marked included should identify what is included. A line marked unpriced should remain visible in the total-cost discussion until it is resolved.",
-          "Actual seller data provide useful anchors when their limits stay attached. On October 16, 2026, MFI's current M11 listing displayed US$7,562.82 plus US$495 shipping: US$8,057.82 by simple addition. The offer identifies medical M11-050/M11-051 configurations and voltage variants; it is not a dental configuration or a destination-specific landed total. Those details matter as much as the displayed number."
+          "Give accessories, software, freight, tax or import costs, installation, acceptance, training and initial supplies their own lines. “Included” should describe the item and quantity. “Unpriced” is an unresolved exposure, not zero. If one essential item has no credible cost or delivery route, keep that uncertainty visible instead of presenting a precise but incomplete total.",
+          "A dated public offer can anchor part of the comparison. On October 16, 2026, MFI’s M11 listing displayed US$7,562.82 plus US$495 shipping, totaling US$8,057.82 by addition. It identified medical M11-050/M11-051 configurations and voltage variants, not a dental configuration. That snapshot was not a destination-specific landed quotation and is not a promise of today’s price. The model, voltage, delivery scope and date belong beside the amount."
         ],
         "sourceIds": [
           "m11-offer"
         ]
       },
       {
-        "heading": "Work through an explicitly hypothetical comparison",
+        "heading": "Watch a US$3,000 saving almost disappear",
         "paragraphs": [
-          "The following amounts are invented solely to demonstrate the method. Assume two offers provide the same accepted capability. Offer A lists an US$8,000 machine, then needs US$1,500 of accessories, US$800 freight, US$1,200 installation/acceptance and US$500 initial stock. Its completed starting cost is US$12,000.",
-          "Offer B lists US$11,000 including the same accessories and installation/acceptance. Add US$600 freight and US$500 initial stock: US$12,100. The apparent US$3,000 machine-price saving has become a US$100 completed-package saving. Neither total includes tax, import charges or items outside this hypothetical scope. This is not a market estimate or a report of actual hospital purchases."
+          "The following amounts are entirely hypothetical; they demonstrate the method, not market prices. Assume two packages provide the same accepted capability. Offer A starts with an US$8,000 machine. Add US$1,500 of accessories, US$800 freight, US$1,200 installation and acceptance, and US$500 initial stock. The completed starting package costs US$12,000.",
+          "Offer B starts at US$11,000 with the same accessories, installation and acceptance included. Add US$600 freight and US$500 initial stock: US$12,100. The apparent US$3,000 console saving is now only US$100. Neither hypothetical total includes tax, import charges or costs outside the stated scope. A single unresolved essential item could outweigh that remaining difference."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Then add the bill that arrives every year",
+        "heading": "Now compare the same three years",
         "paragraphs": [
-          "Continue the same invented example at an identical workload. Assume annual replenishment and scheduled service, in addition to the initial stock, cost US$1,800 for A and US$1,200 for B. Over three years, A totals US$17,400 and B totals US$15,700. B is US$1,700 lower on these assumptions. No discounting, unscheduled repairs, taxes or downtime costs have been included.",
-          "The example's result changes when its inputs change. Replace every invented amount with the buyer's actual offers, test a quieter workload, and add known exclusions. Do not reuse the calculated saving as a fact about a brand. The useful result is learning which inputs can reverse the decision."
+          "Continue the invented example at identical workload. Suppose replenishment and scheduled service, additional to the initial stock, cost US$1,800 a year for A and US$1,200 for B. Over three years, A costs US$12,000 + US$5,400 = US$17,400. B costs US$12,100 + US$3,600 = US$15,700. On those assumptions B is US$1,700 lower, despite its higher machine price.",
+          "That result excludes discounting, unscheduled repair, tax and downtime. It is not evidence that a particular brand saves money. Its value is showing the deciding variable: B’s assumed annual US$600 advantage outweighs the US$100 starting difference. Change the workload, supplies or service scope and recalculate. Where a repair cost is unknown, show a separate scenario rather than conceal it inside a made-up failure rate."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Turn the consumable quote into usable output",
+        "heading": "Buy usable output, not an attractive pack price",
         "paragraphs": [
-          "Request pack sizes, delivered expiry, storage requirements, control consumption and minimum order quantities. A low price per consumable can be expensive when a small service cannot use the pack. A larger pack may reduce freight while increasing expiry exposure; the intended workload decides which effect matters.",
-          "The Piccolo example in the point-of-care guide uses a verified US$139 ten-disc offer with a US$30 fee per item. US$169 divided by ten usable results is US$16.90; divided by eight in an illustrative scenario it is US$21.13. The lower denominator is hypothetical, not measured wastage. Keep controls, tax and other costs additional, and compare assay-equivalent workflows before drawing a purchasing conclusion."
+          "Pack size, usable expiry, storage, control consumption and minimum orders determine how much of a consumable purchase becomes useful work. A larger pack can reduce freight yet increase unused stock at a quiet service. Compare equivalent tasks or assays, and separate routine patient use from controls and other consumption.",
+          "A CLIAwaived offer checked on October 16, 2026 provides a specific example: US$139 for ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08), plus a US$30 fee per item. If all ten discs produced usable patient panels, US$169 divided by ten would be US$16.90 per panel. If only eight did so in an illustrative scenario, it would be US$21.13 per usable patient panel, rounded to cents. These are assumed yields, not observed wastage or prices per individual analyte. Control use, repeats, discarded discs, tax and other costs must be included in a real comparison. The seller’s CLIA-license requirement and other ordering conditions still apply."
         ],
         "sourceIds": [
           "piccolo-offer"
         ]
       },
       {
-        "heading": "Finish with exclusions a buyer can act on",
+        "heading": "Close the omissions that can still change the winner",
         "paragraphs": [
-          "Ask who repairs the offered serial after export, what shipping the warranty requires, and how long key supplies are available. For ultrasound, name each required probe and enabled application instead of accepting a console price. For a PC-based instrument, include the compatible computer and usable software rights.",
-          "A complete offer may still leave uncertain repair risk. State that uncertainty and seek a priced support or continuity option where possible. The aim is a comparison the receiving team can understand and challenge, with every essential dependency assigned a cost or an explicit unresolved decision."
+          "The package must remain usable after arrival. An ultrasound offer needs the named probes and enabled applications. A PC-based instrument needs a compatible computer and usable software rights. For either, a warranty that requires an expensive overseas return can have a different practical value from a local repair route. These are differences in what the buyer receives, not reasons to invent a reliability ranking.",
+          "Finish with three decisions: whether the packages do the same required work, which unresolved item could reverse the ranking, and whether the preference survives a quieter workload or longer interruption. Keep a working, supported system in that comparison when a targeted addition supplies the missing capability. The best comparison is one the receiving team can follow, challenge and fund."
         ],
         "sourceIds": [
           "ultrasound-config",
@@ -253,7 +253,38 @@ export default {
       "ultrasound",
       "point-of-care",
       "infusion"
-    ]
+    ],
+    "visual": {
+      "type": "cost-comparison",
+      "title": "A lower machine price can become a higher three-year cost",
+      "caption": "Hypothetical USD example over three years; excludes tax, unplanned repairs, financing, discounting and downtime. Complete starting costs and annual costs are assumptions, not supplier offers.",
+      "unit": "USD",
+      "columns": [
+        "Machine",
+        "Complete starting",
+        "Three-year"
+      ],
+      "rows": [
+        {
+          "label": "Offer A",
+          "values": [
+            8000,
+            12000,
+            17400
+          ]
+        },
+        {
+          "label": "Offer B",
+          "values": [
+            11000,
+            12100,
+            15700
+          ]
+        }
+      ],
+      "sourceIds": []
+    }
   },
-  "searchTerms": "buying decisions"
+  "searchTerms": "buying decisions",
+  "librarySection": "decisions"
 };

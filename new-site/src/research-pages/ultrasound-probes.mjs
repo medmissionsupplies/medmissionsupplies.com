@@ -3,35 +3,37 @@ export default {
   "key": "ultrasound-probes",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Buy the ultrasound probe package, not the cheap console",
-  "summary": "The required probes, their condition and the route through cleaning and repair often decide whether an ultrasound offer is useful value.",
+  "title": "A cheap ultrasound is expensive without the right probes",
+  "summary": "Compare the exact probe bundle, condition and replacement route before choosing a scanner. A repair can be the better purchase when the installed console still does the job.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
-  "image": "guides/ultrasound",
+  "image": "guides/us-linear-probe",
   "photo": {
-    "id": "ultrasound",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:3rd_Medical_Battalion_Mass_Casualty_Training_(9634378).jpg",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/3rd_Medical_Battalion_Mass_Casualty_Training_%289634378%29.jpg",
-    "photographer": "U.S. Marine Corps photo by Cpl. Jonathan Rodriguez Pastrana",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "caption": "A SonoSite M-Turbo during medical training in Okinawa, Japan, April 2026. Equipment example.",
-    "captionContext": "Illustrative equipment photograph: A SonoSite M-Turbo during medical training in Okinawa, Japan, April 2026. Equipment example.",
-    "alt": "A SonoSite M-Turbo portable ultrasound with its screen and controls visible during a medical training exercise.",
-    "fit": "cover",
+    "id": "us-linear-probe",
+    "photographer": "Daniel W. Rickey (Drickey)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "caption": "A linear-array ultrasound probe photographed in February 2006. Archive probe example; exact frequency, system compatibility and licensed applications must be established separately.",
+    "sourceImageNote": "Observed 330-pixel thumbnail used following server instruction after original returned 429. Original photograph is itself only 400 pixels wide.",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:UltrasoundProbe2006a.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/UltrasoundProbe2006a.jpg/330px-UltrasoundProbe2006a.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "captionContext": "A linear-array ultrasound probe photographed in February 2006. Archive probe example; exact frequency, system compatibility and licensed applications must be established separately. Illustrative photograph; the exact configuration discussed may differ.",
+    "alt": "A hand holding a flat linear-array ultrasound transducer.",
+    "fit": "contain",
     "modelMatch": "category",
-    "verifiedAt": "2026-10-17",
-    "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
-    "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
+    "modelMatchNote": "Not evidence of MMS stock, recommended options, current support, performance or endorsement.",
+    "verifiedAt": "2026-10-18",
+    "changes": "Resized and converted to WebP; photographic content retained. The stated licence remains applicable.",
+    "preventUpscaling": true
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
       "Start with a list of work, then a list of probes",
-      "A console-only price is an incomplete ultrasound quotation. Ask the receiving team to identify the examinations it intends to perform, the probes that support them and the required imaging modes. Match each item to an exact probe model and the offered console's software version. “Three probes included” means little if one is incompatible or none supplies a required capability. Give each probe its own line for condition, serial number, accessories and price. Separate essential coverage from attractive additions. A smaller complete package can be more useful than a higher-specification console whose remaining budget cannot purchase the probes needed for ordinary work."
+      "A quote for a console and “three probes” can still leave the hospital unable to perform its everyday work. Identify the examinations the team needs, then match each to an exact transducer and enabled mode on the offered software version. Probe count is a poor substitute for that match: an incompatible or unsuitable third probe adds no useful coverage. Give each probe its own line for condition, serial number, accessories and price. Separate essential coverage from attractive additions. A smaller complete package can be more useful than a higher-specification console whose remaining budget cannot purchase the probes needed for ordinary work."
     ],
     [
-      "Treat probe condition as a separate acceptance decision",
+      "The console certificate does not certify every probe",
       "Request inspection and performance evidence for every included probe, with the intended console where possible. A photograph can show external damage but cannot establish the performance of all elements or the entire signal path. Document cable, connector, lens and housing concerns for qualified assessment. Do not assume a console's refurbishment certificate describes work performed on its probes. GE's diagnostic service explicitly distinguishes repair from replacement through evaluation and testing. That supports a practical first step when the installed system develops an image problem: identify the fault before replacing the whole scanner. Ask what the evaluation covers and what evidence will accompany the repaired or replacement probe."
     ],
     [
@@ -39,29 +41,29 @@ export default {
       "Establish the manufacturer-approved care process for each probe and intended use with the receiving infection-prevention team. Philips' public resources emphasize inspection, proper handling and compatible cleaning or disinfection products, with probe-specific documentation where needed. The procurement question is whether the facility can carry out that process consistently. Price the required supplies, equipment, protective accessories, transport and storage before adding a specialist probe. Check local replenishment and usable shelf life rather than counting only the first supplied pack. A donated probe that cannot be processed appropriately is not a complete service addition. Keep the actual procedures in the current manufacturer instructions and the facility's approved process."
     ],
     [
-      "Read a repair quote from diagnosis to return",
+      "Compare the repair bill that gets the probe home",
       "Obtain a complete repair pathway: assessment charge, approval deadline, repair or exchange price, shipping in both directions and temporary replacement. GE's published US on-demand probe terms show why this matters: evaluation and loaner fees can be separate, shipping is the customer's responsibility and exchange pricing incorporates the returned probe's value. Compare that total with a suitable replacement, then examine the remedy if the repair is unsuccessful. Clarify whether the warranty covers the repaired work or the entire device, when it starts and what damage is excluded. Keep freight and customs time in the interruption estimate. A low workshop price is not necessarily the lowest usable repair cost."
     ],
     [
-      "Make the backup promise specific",
+      "A loaner promise needs a compatible probe behind it",
       "A loaner is useful only when the correct model can reach the hospital and work with its console and required modes. GE's diagnostic page states that its loaner service depends on inventory and does not cover every probe model. Ask for the proposed substitute, compatibility, delivery arrangements, charges and return deadline. Review probe coverage separately from the console contract. Block Imaging's published terms provide a concrete seller example in which ultrasound transducers require specific endorsement. That document does not determine another provider's coverage. It does demonstrate why the actual probe list and applicable conditions belong in the agreement rather than in a verbal assurance that the scanner is covered."
     ],
     [
       "Choose a package that stays useful after one failure",
-      "Handheld options need the same discipline. GE identifies Vscan Air CL as curved/linear and SL as sector/linear; those are different combinations. Demonstrate the required work on the exact package and include the compatible display, charging, chosen software and replacement route in the comparison. For a conventional scanner, compare restoring its probe bundle with buying another complete platform. Consider whether a compatible spare is worthwhile for the work most vulnerable to interruption. The best value is the package whose required capability, care supplies and repair response remain affordable after the first purchase."
+      "Handheld options need the same discipline. GE identifies Vscan Air CL as curved/linear and SL as sector/linear; those are different combinations. Demonstrate the required work on the exact package and include the compatible display, charging, chosen software and replacement route in the comparison. Consider a hospital whose accepted scanner has one failed everyday probe. A compatible, tested repair or replacement may restore the missing work while preserving the other probes, training and accessories. A new console becomes a different investment if the old probes cannot move with it. Compare both complete routes, including temporary cover; do not compare a probe-repair charge with an attractive bare-console price."
     ]
   ],
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "The ultrasound bargain may be missing its most important parts",
-  "socialDescription": "Compare named probes, processing supplies, repair charges and loaner terms before choosing the console.",
-  "socialHeadline": "Ultrasound probe package buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "Is the ultrasound bargain missing its essential probe?",
+  "socialDescription": "The probe bundle, cleaning route and repair terms can overturn a low console price.",
+  "socialHeadline": "Is the ultrasound bargain missing its essential probe?",
+  "socialStrapline": "Count the examinations the package can complete, not the probes in the photograph.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Ultrasound probe package buying sheet",
-    "summary": "Price the probes that make the required examinations possible, together with their care and a workable repair route.",
+    "title": "A cheap ultrasound is expensive without the right probes",
+    "summary": "Compare the exact probe bundle, condition and replacement route before choosing a scanner. A repair can be the better purchase when the installed console still does the job.",
     "firstChoice": "Start with the smallest complete compatible probe bundle. Compare restoring a supported installed console before buying another platform.",
     "upgradeWhen": "Required examinations, software support or complete package economics justify changing systems. Demonstrate the exact probes and enabled modes in the offer.",
     "budgetWatch": "Allow for probe condition, processing supplies, storage, diagnosis, exchange charges, freight, loaners and a compatible backup where justified.",
@@ -89,9 +91,9 @@ export default {
       "reprocessing and recurring supplies",
       "loaners and service-contract exclusions"
     ],
-    "title": "Buy the ultrasound probe package, not the cheap console",
-    "dek": "The required probes, their condition and the route through cleaning and repair often decide whether an ultrasound offer is useful value.",
-    "verdict": "First quote the smallest complete probe package that supports the team's approved work. Repair or replace a compatible probe before replacing an otherwise satisfactory console; change platforms when required capability, support or whole-package economics justify it.",
+    "title": "A cheap ultrasound is expensive without the right probes",
+    "dek": "Compare the exact probe bundle, condition and replacement route before choosing a scanner. A repair can be the better purchase when the installed console still does the job.",
+    "verdict": "Buy the smallest complete compatible probe bundle for the approved workload. First compare restoring a satisfactory installed system; change platforms when the required capability or complete service cost makes the difference.",
     "decision": {
       "firstMove": "List the examinations, named compatible probes and enabled modes required on day one.",
       "spendMoreWhen": "A better probe package, documented condition or dependable replacement route resolves a service gap.",
@@ -99,9 +101,9 @@ export default {
       "walkAwayWhen": "Probe identity, compatibility, condition or the required processing method cannot be established."
     },
     "social": {
-      "title": "The ultrasound bargain may be missing its most important parts",
-      "description": "Compare named probes, processing supplies, repair charges and loaner terms before choosing the console.",
-      "hook": "Price the examinations you need, one compatible probe at a time."
+      "title": "Is the ultrasound bargain missing its essential probe?",
+      "description": "The probe bundle, cleaning route and repair terms can overturn a low console price.",
+      "hook": "Count the examinations the package can complete, not the probes in the photograph."
     },
     "choices": [
       {
@@ -183,13 +185,13 @@ export default {
       {
         "heading": "Start with a list of work, then a list of probes",
         "paragraphs": [
-          "A console-only price is an incomplete ultrasound quotation. Ask the receiving team to identify the examinations it intends to perform, the probes that support them and the required imaging modes. Match each item to an exact probe model and the offered console's software version. “Three probes included” means little if one is incompatible or none supplies a required capability.",
+          "A quote for a console and “three probes” can still leave the hospital unable to perform its everyday work. Identify the examinations the team needs, then match each to an exact transducer and enabled mode on the offered software version. Probe count is a poor substitute for that match: an incompatible or unsuitable third probe adds no useful coverage.",
           "Give each probe its own line for condition, serial number, accessories and price. Separate essential coverage from attractive additions. A smaller complete package can be more useful than a higher-specification console whose remaining budget cannot purchase the probes needed for ordinary work."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Treat probe condition as a separate acceptance decision",
+        "heading": "The console certificate does not certify every probe",
         "paragraphs": [
           "Request inspection and performance evidence for every included probe, with the intended console where possible. A photograph can show external damage but cannot establish the performance of all elements or the entire signal path. Document cable, connector, lens and housing concerns for qualified assessment. Do not assume a console's refurbishment certificate describes work performed on its probes.",
           "GE's diagnostic service explicitly distinguishes repair from replacement through evaluation and testing. That supports a practical first step when the installed system develops an image problem: identify the fault before replacing the whole scanner. Ask what the evaluation covers and what evidence will accompany the repaired or replacement probe."
@@ -209,7 +211,7 @@ export default {
         ]
       },
       {
-        "heading": "Read a repair quote from diagnosis to return",
+        "heading": "Compare the repair bill that gets the probe home",
         "paragraphs": [
           "Obtain a complete repair pathway: assessment charge, approval deadline, repair or exchange price, shipping in both directions and temporary replacement. GE's published US on-demand probe terms show why this matters: evaluation and loaner fees can be separate, shipping is the customer's responsibility and exchange pricing incorporates the returned probe's value.",
           "Compare that total with a suitable replacement, then examine the remedy if the repair is unsuccessful. Clarify whether the warranty covers the repaired work or the entire device, when it starts and what damage is excluded. Keep freight and customs time in the interruption estimate. A low workshop price is not necessarily the lowest usable repair cost."
@@ -219,7 +221,7 @@ export default {
         ]
       },
       {
-        "heading": "Make the backup promise specific",
+        "heading": "A loaner promise needs a compatible probe behind it",
         "paragraphs": [
           "A loaner is useful only when the correct model can reach the hospital and work with its console and required modes. GE's diagnostic page states that its loaner service depends on inventory and does not cover every probe model. Ask for the proposed substitute, compatibility, delivery arrangements, charges and return deadline.",
           "Review probe coverage separately from the console contract. Block Imaging's published terms provide a concrete seller example in which ultrasound transducers require specific endorsement. That document does not determine another provider's coverage. It does demonstrate why the actual probe list and applicable conditions belong in the agreement rather than in a verbal assurance that the scanner is covered."
@@ -233,7 +235,7 @@ export default {
         "heading": "Choose a package that stays useful after one failure",
         "paragraphs": [
           "Handheld options need the same discipline. GE identifies Vscan Air CL as curved/linear and SL as sector/linear; those are different combinations. Demonstrate the required work on the exact package and include the compatible display, charging, chosen software and replacement route in the comparison.",
-          "For a conventional scanner, compare restoring its probe bundle with buying another complete platform. Consider whether a compatible spare is worthwhile for the work most vulnerable to interruption. The best value is the package whose required capability, care supplies and repair response remain affordable after the first purchase."
+          "Consider a hospital whose accepted scanner has one failed everyday probe. A compatible, tested repair or replacement may restore the missing work while preserving the other probes, training and accessories. A new console becomes a different investment if the old probes cannot move with it. Compare both complete routes, including temporary cover; do not compare a probe-repair charge with an attractive bare-console price."
         ],
         "sourceIds": [
           "ge-vscan"
@@ -322,5 +324,6 @@ export default {
       "quote-gaps"
     ]
   },
-  "searchTerms": "required transducer bundle used probe inspection and compatibility repair versus exchange reprocessing and recurring supplies loaners and service-contract exclusions Existing cart or laptop with a compatible repaired/replacement probe GE Vscan Air CL GE Vscan Air SL A separately budgeted specialist-probe package"
+  "searchTerms": "required transducer bundle used probe inspection and compatibility repair versus exchange reprocessing and recurring supplies loaners and service-contract exclusions Existing cart or laptop with a compatible repaired/replacement probe GE Vscan Air CL GE Vscan Air SL A separately budgeted specialist-probe package",
+  "librarySection": "decisions"
 };

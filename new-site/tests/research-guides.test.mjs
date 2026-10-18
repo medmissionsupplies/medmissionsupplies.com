@@ -8,10 +8,10 @@ import { articles } from '../src/articles.mjs';
 
 const publicRoot = resolve(import.meta.dirname, '../public');
 test('every equipment listing has one original, sourced buying guide and on-page summary', () => {
-  assert.equal(researchGuides.length, 46);
+  assert.ok(researchGuides.length >= 46, 'Existing guides must not disappear as focused guides are added');
   const expected = [...equipment.map(e => e.id+'-buying-guide'), 'free-equipment','quote-gaps','hospital-ready','repair-or-replace','one-or-two','c-arm-detectors','ct-tube-budget','ultrasound-probes','service-contracts','mri-site-readiness','dr-retrofit'];
   expected.push('pacs-image-workflow','equipment-power','replacement-parts','equipment-shipping','end-of-support','rent-or-buy','equipment-handover','maintenance-records','infusion-consumables','sterile-processing-workflow','facility-oxygen','equipment-software-support');
-  assert.deepEqual(researchGuides.map(g => g.id).sort(), expected.sort());
+  for (const id of expected) assert.ok(researchGuides.some(g => g.id === id), id + ': original URL was removed');
   assert.deepEqual(researchGuides.filter(g => g.equipmentId).map(g => g.equipmentId).sort(), equipment.map(e => e.id).sort());
   assert.equal(new Set(researchGuides.map(g => g.id)).size, researchGuides.length);
   for (const g of researchGuides) {
@@ -37,7 +37,8 @@ test('public research excludes legacy branding, local paths and fabricated avail
   assert.doesNotMatch(content, /giving\s*tree|C:\\|C:\/Users|localhost|127\.0\.0\.1/i);
   for(const g of researchGuides) {
     assert.ok(g.research.sections.length >= 3, g.id);
-    assert.ok((g.research.checklist ?? g.research.questions)?.length >= 3, g.id);
-    assert.match(g.reviewedAt, /^2026-10-1[67]$/);
+    assert.ok(Math.max(g.research.checklist?.length || 0, g.research.questions?.length || 0) >= 3, g.id);
+    assert.match(g.reviewedAt, /^\d{4}-\d{2}-\d{2}$/);
+    assert.equal(new Date(g.reviewedAt + 'T12:00:00Z').toISOString().slice(0, 10), g.reviewedAt, g.id + ': invalid editorial review date');
   }
 });

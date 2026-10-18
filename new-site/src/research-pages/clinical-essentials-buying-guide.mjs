@@ -3,8 +3,8 @@ export default {
   "key": "clinical-essentials",
   "kind": "research-guide",
   "equipmentId": "clinical-essentials",
-  "title": "The clinic kit: buy what gets used every day",
-  "summary": "Fund the daily examination first. Add digital tools, spirometry, skin imaging and hearing screening when they complete a service the team can sustain.",
+  "title": "Buying the clinic kit: spend on the tools that finish the visit",
+  "summary": "Choose examination tools and selected additions individually. Patient fit, replenishable supplies, supported software and a usable referral pathway matter more than the number of devices in the bag.",
   "categoryId": "diagnostics",
   "category": "Laboratory & diagnostics",
   "image": "guides/clinical-essentials",
@@ -23,57 +23,61 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 6,
+  "minutes": 9,
   "sections": [
     [
-      "Start with the everyday examination",
-      "The earlier backpack list mixed ordinary examination tools with equipment that creates a new clinical service. That is a useful inventory of possibilities but a poor spending order. Fund the measurements and examinations the team performs repeatedly, then identify which missing device would actually change a service. The core includes an acoustic stethoscope, appropriate ear and eye instruments, BP equipment with the required cuff sizes, temperature and oximetry tools matched to the patients, and basic measurements. Add suitable weight and height/length equipment, reflex hammer, tuning forks and examination light where used. Buy the right accessories and replacement parts with them; a bundled case is not evidence that every component fits the clinical population."
+      "Fund the everyday examination first",
+      "Build from the work the clinic already performs: listening, ear and eye examination, blood pressure, temperature, oximetry and appropriate basic measurements. Match cuff, probe and tip sizes to the patients. A tidy bundled case can still omit the part needed for the next visit. Assess each proposed addition on its own. A digital stethoscope, spirometer, dermatoscope and audiometer create different obligations. Rank them by the specific service gap, usable results and ability to maintain supplies. Keep weight and height/length equipment, examination lights and other frequently used basic tools in that same spending discussion."
     ],
     [
-      "Keep the acoustic instrument; justify the digital one",
-      "A serviceable Cardiology III does not need replacement simply because Classic III and Cardiology IV are current models. For a new acoustic purchase, let the clinician compare comfort and listening performance, and include genuine replacement parts. A premium finish contributes little to that decision. CORE 500 has a clearer upgrade case when amplification, teaching or a planned recording workflow matters. Its three-lead ECG does not replace a diagnostic 12-lead service. Establish which functions the device and subscription actually provide and how the task works when charging or phone access is unavailable. Pay for the useful workflow rather than the word 'digital'."
+      "Keep useful acoustics; buy digital sound for a defined job",
+      "A working Littmann Cardiology III does not need replacement merely because Classic III and Cardiology IV are current acoustic options. Let the clinician assess listening, comfort and genuine replacement parts. An acoustic primary instrument avoids charging and software dependencies. Eko CORE 500 deserves a separate decision for amplification, recording or teaching. Its three-lead ECG capability does not replace diagnostic 12-lead ECG. Price the required membership and confirm the chosen functions at the destination. A useful digital workflow can justify spending; a feature unavailable under the purchased entitlement cannot."
     ],
     [
-      "Build on the handles the clinic already owns",
-      "HEINE mini 3000 is a compact medical otoscope option; the opened EUR 283.22 manufacturer-shop price applies to the specified blue hard-case package, with VAT included and shipping extra. Compare that complete kit with MacroView Plus and the handles, tips, power and phone accessories it needs. A fixed clinic already using compatible Welch Allyn handles may only need the right replacement head. PanOptic Plus may earn its place in a trained eye-examination workflow, but a broader view does not make it a dedicated retinal camera. Likewise, the unidentified Scopearound 2019 camera is not a priced clinical equivalent to either purpose-built kit. Exact model, intended use, contact materials and reprocessing evidence must resolve that case; its individual review below records what remains unknown."
+      "Buy the optical head and the supplies it needs",
+      "HEINE mini 3000 LED F.O. is a compact medical otoscope candidate. Its October 16, 2026 manufacturer-shop offer of EUR 283.22 applied to blue hard-case configuration D-885.20.021, including VAT and excluding shipping. Compare that package with MacroView Plus and compatible handles the clinic already owns. Replacing one head may be better value than buying another complete handle system. Treat a ScopeAround phone camera as its own identification and clinical-suitability case. The identified SA39W listing does not establish the intended use, contact safety or approved processing of every similarly branded camera. Do not buy an unspecified USB or Wi-Fi camera as a clinically equivalent otoscope on resolution alone."
     ],
     [
-      "Cuffs, covers and patient fit come first",
-      "HBP-1320 and DuraShock DS58 offer a concrete automatic-versus-manual BP choice. HBP-1320 includes automatic and auscultatory modes and is specified for age three and above; it is not a neonatal solution. Its two included adult cuff sizes do not cover every mixed clinic. The DS58-11 price is for the stated adult cuff and case. Fund the required additional sizes, with battery or calibration support appropriate to the chosen instrument. Nonin 9590 has an attended spot-check role, not a substitute for neonatal or prolonged unattended monitoring. The older low-cost Contec comparison does not establish equivalent performance across patients or conditions. SureTemp Plus 690 also has a continuing supply requirement: covers and replacement probes belong in the initial purchase plan. Protect these everyday uses before buying a feature that will be used only occasionally."
+      "Patient fit can decide the vital-sign purchase",
+      "Omron HBP-1320 provides automatic and auscultatory BP modes for its specified age-three-and-over population. DuraShock DS58-11 offers a manual alternative; the dated US$565 manufacturer listing covered an adult cuff and case. Add required sizes and the chosen device’s battery, verification or calibration support before comparing complete prices. Nonin Onyx Vantage 9590 serves attended spot checks within its labeled patient fit. It does not replace neonatal or prolonged unattended monitoring. SureTemp Plus 690 brings a continuing probe-cover and replacement-probe requirement. A low device price cannot compensate for an everyday measurement being unavailable when supplies run out."
     ],
     [
-      "Spirometry follows the computer workflow",
-      "Spirobank II Basic is attractive for mobile use because testing does not require a PC at every encounter. Easy on-PC can make more sense where a maintained clinic computer already supports reporting and storage. Compare these operating arrangements before comparing the handheld device with the sensor alone. Use the same annual test volume and include interfaces, infection-prevention supplies, quality control, training and software. Have staff complete and retrieve an example test record in the proposed system. Older SpiroPerfect deserves retention only when compatible software, consumables and service remain usable; an old laptop booting is not enough."
+      "Choose spirometry by the computer workflow",
+      "MIR Spirobank II Basic supports standalone testing and USB use; NDD Easy on-PC depends on its PC workflow. The latter’s sensor connects by USB to EasyOne Connect, which supplies reporting and quality-feedback features. Choose between a portable standalone arrangement and an existing maintained workstation before comparing the sensor price with a complete handheld package. Include appropriate breathing interfaces, infection prevention, quality control, training and record retrieval at the same annual test volume. Demonstrate the intended workflow from test to retrieved report. Retain SpiroPerfect only with usable software, supplies and support; a laptop that starts is not proof that the whole testing service works."
     ],
     [
-      "Buy a screening pathway",
-      "The opened manufacturer prices put DL100 at USD 395 and DL200 Hybrid at USD 1,050. The additional polarized/non-polarized and contact/non-contact choices give the premium a specific purpose. Buy them when the clinician will use them within a skin-examination, documentation and referral workflow. Phone adapters and secure image handling are separate costs. The HÜD and VisualDx findings below distinguish their roles without claiming that a camera or app substitutes for diagnostic training. For hearing screening, MA27 and AMBCO 650AB provide conventional options; easyTone's guided tablet workflow and room-noise monitoring may earn more spending when records and repeatable screening are a real constraint. Calibration, matched transducers and a suitable test environment still decide whether the service can operate. Establish the referral route as well. Beltone 119 remains a conditional legacy case, with its unresolved support documented below."
+      "Dermoscopy and hearing screening have separate upgrade cases",
+      "DermLite DL100’s dated $395 offer gives a polarized handheld starting point. DL200 Hybrid at $1,050 adds optical/contact modes that can justify the premium when the trained clinician uses them. HÜD 2 has its own smartphone visualization workflow. DermLite explicitly lists II Pro among unsupported discontinued models, so a cheap used II Pro needs a different support assumption from a current instrument. VisualDx AI image analysis requires an active subscription and the appropriate feature entitlement. Evaluate it as clinician decision support with an image-handling and privacy workflow, not as a replacement for examination skill or referral. A free trial is not an ongoing licence. For hearing screening, compare MAICO MA27 and AMBCO 650AB as conventional options. easyTone adds a guided tablet workflow and room-noise monitoring when those features solve an actual recording or screening problem. Include matched transducers, calibration and a suitable environment. Beltone 119 remains conditional on exact-model service and transducer support; absence from a general support page does not prove formal discontinuation."
     ],
     [
-      "Compare procedure packages by their actual contents",
-      "Sklar's named reusable tray and sterile disposable kit make contents visible, but they are different packages. Fill in the missing items before comparing cost per completed procedure. A steady clinic with validated reprocessing may benefit from reusable instruments; an episodic service without that pathway may find an appropriate sterile pack more workable. Instrument count alone settles neither case. Leatherman's Raptor Rescue page showed USD 79.95 and unavailable status during this review. Its rescue functions need a relevant job to justify the spend; ordinary cutting tasks do not automatically need them. Rescue shears and utility penlights are not interchangeable with every surgical instrument or examination light. Apply the same contents check to specula, splints, IV-start supplies and dressings. Favor the sizes and formats the host team uses and can replenish, including storage, expiry and waste handling. A donated assortment that cannot be resupplied may add variation without completing the intended procedures."
+      "Compare procedure kits by completed work",
+      "Sklar 98-1637 and sterile disposable 96-1710A have different contents. Fill the missing items into each proposed procedure package before comparing cost. A reusable set needs its approved processing and turnaround; a disposable pack needs replenishment, expiry management and waste handling. Instrument count alone does not settle value. Apply that same item-by-item approach to specula, splints, IV-start supplies and dressings. Raptor Rescue’s specialist rescue functions need a relevant use case; rescue shears are not interchangeable with every surgical instrument. Favor the sizes and formats the host team can continue to obtain."
     ],
     [
-      "Make the handover part of the kit",
-      "Use the separate category articles for point-of-care analyzers, ultrasound, airway tools, suction, ECG, defibrillation, microscopes and eye-care systems. Adding one creates training, consumable and recordkeeping work that a backpack list can hide. Treat reference apps, calculators and EMRs as separate purchases with different offline, licensing and data requirements. The individual reviews below retain the specific findings and identity limits for each earlier recommendation. Verify the selected workflow on the actual devices rather than assuming an installed app works without connectivity. Before shipment, agree with the host team on power, import requirements, replenishment, maintenance and handover. WHO's current donation guidance supports making those responsibilities explicit. The equipment plan is complete when the local team has a credible way to keep using it after the visiting team leaves."
+      "Reference apps, calculators and records are different purchases",
+      "UpToDate MobileComplete offers offline content only with the relevant entitlement and prior downloads; its initial download and full updates need Wi-Fi. Expert AI requires internet. Epocrates’ FAQ requires active internet and states a US-IP restriction for mobile and web access. An older contradictory free-web sentence remains on that page, so do not budget Epocrates as a dependable overseas offline reference. MDCalc’s publisher advertises offline app functions, but the actual selected calculators and installed version should be checked before travel. BiliBuddy uses measured bilirubin inputs for a defined guideline-support task and explicitly is not an electronic health record. Confirm its supported scope and source guideline; do not assume a similarly named app has the same identity or capabilities. BackpackEMR describes offline capture and local device sharing with later cloud synchronization. Its web portal is a different, connected workflow. Before adopting it, establish administrator access, export, recovery and who maintains records after the visiting team leaves. A product called PEARL EMR needs an exact developer and licence before any free-software comparison is credible."
+    ],
+    [
+      "Leave a service the host team can sustain",
+      "Use the dedicated equipment guides for analyzers, ultrasound, airway tools, suction, ECG, defibrillation and eye-care systems. Each deserves its own complete-package decision. Agree replenishment, maintenance, training and handover responsibilities with the recipient team before shipment. The equipment earns its place when the team can keep completing the intended work."
     ]
   ],
   "related": [
     "clinical-essentials"
   ],
-  "socialTitle": "The clinic kit: buy what gets used every day",
-  "socialDescription": "Choose examination tools, spirometry, dermoscopy and hearing equipment by daily use, complete accessories and the service the host team can sustain.",
-  "socialHeadline": "Clinic essentials buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying the clinic kit: spend on the tools that finish the visit",
+  "socialDescription": "Choose examination tools and selected additions individually. Patient fit, replenishable supplies, supported software and a usable referral pathway matter more than the number of devices in the bag.",
+  "socialHeadline": "Buying the clinic kit: spend on the tools that finish the visit",
+  "socialStrapline": "The missing cuff or supply pack may be the most useful upgrade.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "clinical-essentials",
-    "title": "Clinic essentials buying guide",
-    "summary": "Complete the examinations performed every day before adding equipment that creates a new service. Patient sizes and replacement supplies matter more than a large bundled kit.",
-    "firstChoice": "Start with a dependable acoustic stethoscope, purpose-built ear/eye optics, suitable BP cuffs, thermometer and patient-appropriate oximeter. Keep a working Cardiology III; compare HEINE mini 3000 or compatible Welch Allyn additions for optics.",
-    "upgradeWhen": "Add digital sound, spirometry, dermoscopy or audiometry for a defined task with trained users and follow-up. Spirobank II Basic supports standalone work; Easy on-PC needs a maintained computer.",
+    "title": "Buying the clinic kit: spend on the tools that finish the visit",
+    "summary": "Choose examination tools and selected additions individually. Patient fit, replenishable supplies, supported software and a usable referral pathway matter more than the number of devices in the bag.",
+    "firstChoice": "Complete the everyday examination kit, including patient-size accessories and replenishable supplies, before adding a new testing service.",
+    "upgradeWhen": "A digital stethoscope, better optical workflow or guided testing system removes a specific teaching, documentation or screening bottleneck.",
     "budgetWatch": "Budget tips, cuffs, probe covers, breathing interfaces and calibration. HBP-1320 is for age three and above; Nonin 9590 does not cover neonatal or prolonged unattended monitoring. CORE 500's three-lead ECG does not replace diagnostic 12-lead ECG.",
-    "supportCheck": "Match reusable instruments to an established processing route and inspect disposable-kit contents separately. Verify software entitlement and actual offline workflow for connected additions.",
+    "supportCheck": "Reject an unidentified camera presented as a clinical ENT equivalent, an unsupported old device sold as a supported bargain, or equipment without a workable follow-up and supply pathway.",
     "askSupplier": [
       "Which patient sizes do the included cuffs, probes and tips cover?",
       "Which compatible handles and supplies can we keep using?",
@@ -96,8 +100,8 @@ export default {
   },
   "research": {
     "id": "clinical-essentials",
-    "title": "The clinic kit: buy what gets used every day",
-    "dek": "Fund the daily examination first. Add digital tools, spirometry, skin imaging and hearing screening when they complete a service the team can sustain.",
+    "title": "Buying the clinic kit: spend on the tools that finish the visit",
+    "dek": "Choose examination tools and selected additions individually. Patient fit, replenishable supplies, supported software and a usable referral pathway matter more than the number of devices in the bag.",
     "verdict": "Start with a dependable acoustic stethoscope, purpose-built examination optics and vital-sign instruments with the right cuffs, tips, probes and covers. Keep a working Cardiology III rather than replacing it for a model-name upgrade. For new optics, choose HEINE mini 3000 for a compact kit or build on compatible Welch Allyn equipment already owned. Add spirometry, dermoscopy or audiometry when trained staff can act on the results and maintain the supplies. Digital features earn their place by improving a defined task—not by making the kit look more advanced.",
     "coverage": [
       "clinical-essentials",
@@ -112,7 +116,7 @@ export default {
         "bestFor": "General examinations; compare the higher-tier option where the clinician’s listening needs justify it.",
         "why": "Both appear in the manufacturer’s current acoustic comparison. An acoustic primary instrument does not add charging or software dependence.",
         "tradeoff": "Do not replace a working Cardiology III simply to update a model name. A premium acoustic claim is not proof of better diagnosis by every user.",
-        "price": "Current local authorized-dealer quote required; no historical owner prices carried forward.",
+        "price": "Obtain a dated local authorized-dealer price for the exact model and replacement parts.",
         "support": "Current OEM range and support information exist; verify authenticity and local replacement tubing/diaphragms.",
         "sourceIds": [
           "littmann"
@@ -124,7 +128,7 @@ export default {
         "bestFor": "A clinician with a defined amplification, recording or teaching use case.",
         "why": "Digital sound and three-lead ECG create a distinct workflow to assess, rather than a cosmetic upgrade.",
         "tradeoff": "Charging, app features, subscription scope and regional availability matter. Three-lead ECG is not a substitute for a diagnostic 12-lead system.",
-        "price": "Requote device and any required membership; promotional bundles and the opened page configuration did not support a stable like-for-like price here.",
+        "price": "Quote the device and required membership for the selected functions; promotional bundles are not equivalent packages.",
         "support": "Current manufacturer product/support routes exist. Confirm local app and feature availability before shipment.",
         "sourceIds": [
           "eko"
@@ -162,7 +166,7 @@ export default {
         "bestFor": "Attended spot checks with correct patient fit and a reliable supply of temperature probe covers.",
         "why": "These provide specific intended-use documentation rather than relying on a very low online price for an unidentified device.",
         "tradeoff": "9590 is not the substitute for neonatal or prolonged unattended monitoring. SureTemp cover and probe costs continue after the device purchase.",
-        "price": "Obtain exact local device-and-consumables quotes; no invented current price ranges.",
+        "price": "Quote the exact regional device, patient accessories and initial supply of covers.",
         "support": "Both publish manuals and support resources. Local repair turnaround and replenishment remain to be confirmed.",
         "sourceIds": [
           "nonin",
@@ -187,7 +191,7 @@ export default {
         "position": "Entry polarized option versus dual-mode upgrade",
         "bestFor": "A trained clinician with a defined dermatology and referral workflow.",
         "why": "DL100 is a lower-price polarized option; DL200 Hybrid adds polarized/non-polarized and contact/non-contact choices.",
-        "tradeoff": "A better image does not substitute for diagnostic skill. A phone-dependent HÜD/HÜD 2 dermatoscope is not assumed equivalent to these handheld instruments; HÜD 2’s medical intended use does not establish an equivalent examination workflow.",
+        "tradeoff": "Optical modes need a trained user and referral pathway. HÜD 2 is a smartphone-based visualization tool with its own intended use; it is not an automatic substitute for the complete handheld examination workflow.",
         "price": "Manufacturer prices viewed Oct 16, 2026: DL100 USD 395; DL200 Hybrid USD 1,050. Shipping, tax and phone accessories extra.",
         "support": "Current product pages and IFUs exist. Confirm battery, replacement parts and phone-adapter availability.",
         "sourceIds": [
@@ -225,18 +229,18 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Start with the everyday examination",
+        "heading": "Fund the everyday examination first",
         "paragraphs": [
-          "The earlier backpack list mixed ordinary examination tools with equipment that creates a new clinical service. That is a useful inventory of possibilities but a poor spending order. Fund the measurements and examinations the team performs repeatedly, then identify which missing device would actually change a service.",
-          "The core includes an acoustic stethoscope, appropriate ear and eye instruments, BP equipment with the required cuff sizes, temperature and oximetry tools matched to the patients, and basic measurements. Add suitable weight and height/length equipment, reflex hammer, tuning forks and examination light where used. Buy the right accessories and replacement parts with them; a bundled case is not evidence that every component fits the clinical population."
+          "Build from the work the clinic already performs: listening, ear and eye examination, blood pressure, temperature, oximetry and appropriate basic measurements. Match cuff, probe and tip sizes to the patients. A tidy bundled case can still omit the part needed for the next visit.",
+          "Assess each proposed addition on its own. A digital stethoscope, spirometer, dermatoscope and audiometer create different obligations. Rank them by the specific service gap, usable results and ability to maintain supplies. Keep weight and height/length equipment, examination lights and other frequently used basic tools in that same spending discussion."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Keep the acoustic instrument; justify the digital one",
+        "heading": "Keep useful acoustics; buy digital sound for a defined job",
         "paragraphs": [
-          "A serviceable Cardiology III does not need replacement simply because Classic III and Cardiology IV are current models. For a new acoustic purchase, let the clinician compare comfort and listening performance, and include genuine replacement parts. A premium finish contributes little to that decision.",
-          "CORE 500 has a clearer upgrade case when amplification, teaching or a planned recording workflow matters. Its three-lead ECG does not replace a diagnostic 12-lead service. Establish which functions the device and subscription actually provide and how the task works when charging or phone access is unavailable. Pay for the useful workflow rather than the word 'digital'."
+          "A working Littmann Cardiology III does not need replacement merely because Classic III and Cardiology IV are current acoustic options. Let the clinician assess listening, comfort and genuine replacement parts. An acoustic primary instrument avoids charging and software dependencies.",
+          "Eko CORE 500 deserves a separate decision for amplification, recording or teaching. Its three-lead ECG capability does not replace diagnostic 12-lead ECG. Price the required membership and confirm the chosen functions at the destination. A useful digital workflow can justify spending; a feature unavailable under the purchased entitlement cannot."
         ],
         "sourceIds": [
           "littmann",
@@ -244,10 +248,10 @@ export default {
         ]
       },
       {
-        "heading": "Build on the handles the clinic already owns",
+        "heading": "Buy the optical head and the supplies it needs",
         "paragraphs": [
-          "HEINE mini 3000 is a compact medical otoscope option; the opened EUR 283.22 manufacturer-shop price applies to the specified blue hard-case package, with VAT included and shipping extra. Compare that complete kit with MacroView Plus and the handles, tips, power and phone accessories it needs. A fixed clinic already using compatible Welch Allyn handles may only need the right replacement head.",
-          "PanOptic Plus may earn its place in a trained eye-examination workflow, but a broader view does not make it a dedicated retinal camera. Likewise, the unidentified Scopearound 2019 camera is not a priced clinical equivalent to either purpose-built kit. Exact model, intended use, contact materials and reprocessing evidence must resolve that case; its individual review below records what remains unknown."
+          "HEINE mini 3000 LED F.O. is a compact medical otoscope candidate. Its October 16, 2026 manufacturer-shop offer of EUR 283.22 applied to blue hard-case configuration D-885.20.021, including VAT and excluding shipping. Compare that package with MacroView Plus and compatible handles the clinic already owns. Replacing one head may be better value than buying another complete handle system.",
+          "Treat a ScopeAround phone camera as its own identification and clinical-suitability case. The identified SA39W listing does not establish the intended use, contact safety or approved processing of every similarly branded camera. Do not buy an unspecified USB or Wi-Fi camera as a clinically equivalent otoscope on resolution alone."
         ],
         "sourceIds": [
           "heine",
@@ -256,10 +260,10 @@ export default {
         ]
       },
       {
-        "heading": "Cuffs, covers and patient fit come first",
+        "heading": "Patient fit can decide the vital-sign purchase",
         "paragraphs": [
-          "HBP-1320 and DuraShock DS58 offer a concrete automatic-versus-manual BP choice. HBP-1320 includes automatic and auscultatory modes and is specified for age three and above; it is not a neonatal solution. Its two included adult cuff sizes do not cover every mixed clinic. The DS58-11 price is for the stated adult cuff and case. Fund the required additional sizes, with battery or calibration support appropriate to the chosen instrument.",
-          "Nonin 9590 has an attended spot-check role, not a substitute for neonatal or prolonged unattended monitoring. The older low-cost Contec comparison does not establish equivalent performance across patients or conditions. SureTemp Plus 690 also has a continuing supply requirement: covers and replacement probes belong in the initial purchase plan. Protect these everyday uses before buying a feature that will be used only occasionally."
+          "Omron HBP-1320 provides automatic and auscultatory BP modes for its specified age-three-and-over population. DuraShock DS58-11 offers a manual alternative; the dated US$565 manufacturer listing covered an adult cuff and case. Add required sizes and the chosen device’s battery, verification or calibration support before comparing complete prices.",
+          "Nonin Onyx Vantage 9590 serves attended spot checks within its labeled patient fit. It does not replace neonatal or prolonged unattended monitoring. SureTemp Plus 690 brings a continuing probe-cover and replacement-probe requirement. A low device price cannot compensate for an everyday measurement being unavailable when supplies run out."
         ],
         "sourceIds": [
           "omron",
@@ -269,10 +273,10 @@ export default {
         ]
       },
       {
-        "heading": "Spirometry follows the computer workflow",
+        "heading": "Choose spirometry by the computer workflow",
         "paragraphs": [
-          "Spirobank II Basic is attractive for mobile use because testing does not require a PC at every encounter. Easy on-PC can make more sense where a maintained clinic computer already supports reporting and storage. Compare these operating arrangements before comparing the handheld device with the sensor alone.",
-          "Use the same annual test volume and include interfaces, infection-prevention supplies, quality control, training and software. Have staff complete and retrieve an example test record in the proposed system. Older SpiroPerfect deserves retention only when compatible software, consumables and service remain usable; an old laptop booting is not enough."
+          "MIR Spirobank II Basic supports standalone testing and USB use; NDD Easy on-PC depends on its PC workflow. The latter’s sensor connects by USB to EasyOne Connect, which supplies reporting and quality-feedback features. Choose between a portable standalone arrangement and an existing maintained workstation before comparing the sensor price with a complete handheld package.",
+          "Include appropriate breathing interfaces, infection prevention, quality control, training and record retrieval at the same annual test volume. Demonstrate the intended workflow from test to retrieved report. Retain SpiroPerfect only with usable software, supplies and support; a laptop that starts is not proof that the whole testing service works."
         ],
         "sourceIds": [
           "mir",
@@ -280,14 +284,19 @@ export default {
         ]
       },
       {
-        "heading": "Buy a screening pathway",
+        "heading": "Dermoscopy and hearing screening have separate upgrade cases",
         "paragraphs": [
-          "The opened manufacturer prices put DL100 at USD 395 and DL200 Hybrid at USD 1,050. The additional polarized/non-polarized and contact/non-contact choices give the premium a specific purpose. Buy them when the clinician will use them within a skin-examination, documentation and referral workflow. Phone adapters and secure image handling are separate costs. The HÜD and VisualDx findings below distinguish their roles without claiming that a camera or app substitutes for diagnostic training.",
-          "For hearing screening, MA27 and AMBCO 650AB provide conventional options; easyTone's guided tablet workflow and room-noise monitoring may earn more spending when records and repeatable screening are a real constraint. Calibration, matched transducers and a suitable test environment still decide whether the service can operate. Establish the referral route as well. Beltone 119 remains a conditional legacy case, with its unresolved support documented below."
+          "DermLite DL100’s dated $395 offer gives a polarized handheld starting point. DL200 Hybrid at $1,050 adds optical/contact modes that can justify the premium when the trained clinician uses them. HÜD 2 has its own smartphone visualization workflow. DermLite explicitly lists II Pro among unsupported discontinued models, so a cheap used II Pro needs a different support assumption from a current instrument.",
+          "VisualDx AI image analysis requires an active subscription and the appropriate feature entitlement. Evaluate it as clinician decision support with an image-handling and privacy workflow, not as a replacement for examination skill or referral. A free trial is not an ongoing licence.",
+          "For hearing screening, compare MAICO MA27 and AMBCO 650AB as conventional options. easyTone adds a guided tablet workflow and room-noise monitoring when those features solve an actual recording or screening problem. Include matched transducers, calibration and a suitable environment. Beltone 119 remains conditional on exact-model service and transducer support; absence from a general support page does not prove formal discontinuation."
         ],
         "sourceIds": [
           "dl100",
           "dl200",
+          "legacy-hud2-ifu",
+          "legacy-dermlite-support",
+          "legacy-visualdx-entitlement",
+          "legacy-visualdx-workflow",
           "ma27",
           "easytone",
           "legacy-ambco",
@@ -296,11 +305,10 @@ export default {
         ]
       },
       {
-        "heading": "Compare procedure packages by their actual contents",
+        "heading": "Compare procedure kits by completed work",
         "paragraphs": [
-          "Sklar's named reusable tray and sterile disposable kit make contents visible, but they are different packages. Fill in the missing items before comparing cost per completed procedure. A steady clinic with validated reprocessing may benefit from reusable instruments; an episodic service without that pathway may find an appropriate sterile pack more workable. Instrument count alone settles neither case.",
-          "Leatherman's Raptor Rescue page showed USD 79.95 and unavailable status during this review. Its rescue functions need a relevant job to justify the spend; ordinary cutting tasks do not automatically need them. Rescue shears and utility penlights are not interchangeable with every surgical instrument or examination light.",
-          "Apply the same contents check to specula, splints, IV-start supplies and dressings. Favor the sizes and formats the host team uses and can replenish, including storage, expiry and waste handling. A donated assortment that cannot be resupplied may add variation without completing the intended procedures."
+          "Sklar 98-1637 and sterile disposable 96-1710A have different contents. Fill the missing items into each proposed procedure package before comparing cost. A reusable set needs its approved processing and turnaround; a disposable pack needs replenishment, expiry management and waste handling. Instrument count alone does not settle value.",
+          "Apply that same item-by-item approach to specula, splints, IV-start supplies and dressings. Raptor Rescue’s specialist rescue functions need a relevant use case; rescue shears are not interchangeable with every surgical instrument. Favor the sizes and formats the host team can continue to obtain."
         ],
         "sourceIds": [
           "sklar",
@@ -309,21 +317,33 @@ export default {
         ]
       },
       {
-        "heading": "Make the handover part of the kit",
+        "heading": "Reference apps, calculators and records are different purchases",
         "paragraphs": [
-          "Use the separate category articles for point-of-care analyzers, ultrasound, airway tools, suction, ECG, defibrillation, microscopes and eye-care systems. Adding one creates training, consumable and recordkeeping work that a backpack list can hide.",
-          "Treat reference apps, calculators and EMRs as separate purchases with different offline, licensing and data requirements. The individual reviews below retain the specific findings and identity limits for each earlier recommendation. Verify the selected workflow on the actual devices rather than assuming an installed app works without connectivity.",
-          "Before shipment, agree with the host team on power, import requirements, replenishment, maintenance and handover. WHO's current donation guidance supports making those responsibilities explicit. The equipment plan is complete when the local team has a credible way to keep using it after the visiting team leaves."
+          "UpToDate MobileComplete offers offline content only with the relevant entitlement and prior downloads; its initial download and full updates need Wi-Fi. Expert AI requires internet. Epocrates’ FAQ requires active internet and states a US-IP restriction for mobile and web access. An older contradictory free-web sentence remains on that page, so do not budget Epocrates as a dependable overseas offline reference.",
+          "MDCalc’s publisher advertises offline app functions, but the actual selected calculators and installed version should be checked before travel. BiliBuddy uses measured bilirubin inputs for a defined guideline-support task and explicitly is not an electronic health record. Confirm its supported scope and source guideline; do not assume a similarly named app has the same identity or capabilities.",
+          "BackpackEMR describes offline capture and local device sharing with later cloud synchronization. Its web portal is a different, connected workflow. Before adopting it, establish administrator access, export, recovery and who maintains records after the visiting team leaves. A product called PEARL EMR needs an exact developer and licence before any free-software comparison is credible."
         ],
         "sourceIds": [
-          "uptodate",
-          "who",
+          "legacy-uptodate",
+          "legacy-epocrates",
+          "legacy-mdcalc",
+          "legacy-mdcalc-android",
+          "legacy-bilibuddy-developer",
           "legacy-backpack"
+        ]
+      },
+      {
+        "heading": "Leave a service the host team can sustain",
+        "paragraphs": [
+          "Use the dedicated equipment guides for analyzers, ultrasound, airway tools, suction, ECG, defibrillation and eye-care systems. Each deserves its own complete-package decision. Agree replenishment, maintenance, training and handover responsibilities with the recipient team before shipment. The equipment earns its place when the team can keep completing the intended work."
+        ],
+        "sourceIds": [
+          "who"
         ]
       }
     ],
     "ownership": {
-      "equation": "Cost per usable clinic encounter or test = (equipment + required accessories + consumables + software + training + maintenance + loss/downtime) ÷ encounters or tests the service can actually support.",
+      "equation": "For each distinct service, cost per usable encounter or test over one planning period = (equipment/accessories + supplies/software + training + maintenance and continuity costs during that period) / usable encounters or tests supported during the same period. Do not combine unrelated tests into a misleading single cost per result.",
       "drivers": [
         "Correct patient sizes and intended use",
         "Locally available tips, cuffs, covers, filters and test consumables",
@@ -338,15 +358,10 @@ export default {
       "What exact software, country availability and support terms apply to connected equipment?"
     ],
     "gaps": [
-      "No claim of new hands-on testing or a universal reliability ranking.",
-      "Many exact prices depend on regional configuration and quotes.",
-      "Clinical suitability, commissioning and local requirements remain the responsible clinical team’s decisions.",
-      "Exact ScopeAround 2019 label and validated clinical/reprocessing scope.",
-      "Beltone 119 manufacturer lifecycle, compatible transducers and current service acceptance.",
-      "Exact PEARL EMR developer/URL and purported free licence.",
-      "Original BiliBaby app identity; BiliBuddy match is probable, not conclusive.",
-      "Current installed-version VisualDx offline/privacy behavior and destination licence terms.",
-      "No head-to-head field failure rates or clinical-equivalence findings were established."
+      "No new hands-on testing, clinical equivalence or comparative field reliability established.",
+      "Regional configured prices and local support require confirmation; dated examples retain their stated scope.",
+      "Unspecified ScopeAround cameras, Beltone 119 service and PEARL EMR identity/licence remain unresolved individually.",
+      "Installed app features, offline access, data handling and destination entitlements need acceptance on the chosen devices."
     ],
     "sources": [
       {
@@ -436,7 +451,7 @@ export default {
         "url": "https://nddmed.com/products/spirometers/easy-on-pc/",
         "publisher": "NDD",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "PC-based spirometry; computer not included; patient-interface consumables and software resources."
       },
       {
@@ -535,7 +550,7 @@ export default {
         "url": "https://dermlite.com/pages/warranty",
         "publisher": "DermLite",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "II Pro explicitly long-discontinued and unsupported; in-warranty defective HÜD replaced with HÜD 2."
       },
       {
@@ -562,7 +577,7 @@ export default {
         "url": "https://www.visualdx.com/faq/how-do-i-purchase-dermexpert/",
         "publisher": "VisualDx",
         "kind": "developer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Current AI image-analysis feature requires active individual or organizational VisualDx subscription."
       },
       {
@@ -634,7 +649,7 @@ export default {
         "url": "https://discover.epocrates.com/faq",
         "publisher": "Epocrates",
         "kind": "developer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Requires active internet; current international-access answer limits mobile/web to US IP addresses. Older free-web sentence remains on same page; metered access described."
       },
       {
@@ -643,7 +658,7 @@ export default {
         "url": "https://www.wolterskluwer.com/en/solutions/uptodate/about/mobile-apps/uptodate",
         "publisher": "Wolters Kluwer",
         "kind": "developer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "MobileComplete offline entitlement and initial/update Wi-Fi requirement; Expert AI requires internet."
       },
       {
@@ -679,7 +694,7 @@ export default {
         "url": "https://rizzomichaelg.github.io/BiliBuddy/",
         "publisher": "Covenant Data Systems LLC",
         "kind": "developer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Measured serum bilirubin input, 35-week-and-later scope, AAP 2022/legacy 2004 pathways, device-local records and explicit not-an-EHR statement."
       },
       {
@@ -688,26 +703,8 @@ export default {
         "url": "https://www.backpackemr.com/",
         "publisher": "Binary Bridge",
         "kind": "developer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Offline capture/local sharing, subsequent cloud synchronization, web portal, access/device management; no numeric current package quote established."
-      },
-      {
-        "id": "legacy-owner-review",
-        "title": "Earlier equipment material retained in the research archive",
-        "url": "archive:historical-equipment-material",
-        "publisher": "Historical equipment notes",
-        "kind": "historical owner notes",
-        "accessed": "2026-10-16",
-        "evidence": "Original Beltone 119, Amboco650AB, Scopearound, DermLite/HÜD, named apps and Backpack EMR recommendations; not current procurement evidence."
-      },
-      {
-        "id": "legacy-owner-essentials",
-        "title": "Earlier equipment material retained in the research archive",
-        "url": "archive:historical-equipment-material",
-        "publisher": "Historical equipment notes",
-        "kind": "historical owner notes",
-        "accessed": "2026-10-16",
-        "evidence": "Names Scopearound 2019, VisualDx/DermExpert and PEARL EMR as free without model/developer identifiers sufficient to resolve those identities."
       }
     ],
     "decision": {
@@ -744,7 +741,7 @@ export default {
       {
         "option": "DermLite DL100 / DL200 Hybrid",
         "capability": "Entry polarized examination versus additional optical/contact modes",
-        "costDriver": "USD 395 versus USD 1,050 opened manufacturer prices; adapters extra",
+        "costDriver": "Dated October 16, 2026 manufacturer offers: USD 395 versus USD 1,050, with adapters extra.",
         "bestFit": "A trained skin-examination service with a reason to use the added modes"
       },
       {
@@ -755,10 +752,12 @@ export default {
       }
     ],
     "social": {
-      "title": "The clinic kit: buy what gets used every day",
-      "description": "Choose examination tools, spirometry, dermoscopy and hearing equipment by daily use, complete accessories and the service the host team can sustain.",
-      "hook": "The most useful upgrade may be the missing cuff or probe cover supply, not another device in the bag."
-    }
+      "title": "Buying the clinic kit: spend on the tools that finish the visit",
+      "description": "Choose examination tools and selected additions individually. Patient fit, replenishable supplies, supported software and a usable referral pathway matter more than the number of devices in the bag.",
+      "hook": "The missing cuff or supply pack may be the most useful upgrade."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "clinical-essentials spirometry procedure-kits mission-planning Littmann Classic III / Cardiology IV Eko CORE 500 HEINE mini 3000 LED F.O. otoscope / Welch Allyn MacroView Plus Omron HBP-1320 / Welch Allyn DuraShock DS58-11 Nonin Onyx Vantage 9590 / Welch Allyn SureTemp Plus 690 MIR Spirobank II Basic / NDD Easy on-PC DermLite DL100 / DL200 Hybrid MAICO MA27 / easyTone Sklar 98-1637 instrument tray / Sklar Sterile 96-1710A disposable kit"
+  "searchTerms": "Buying the clinic kit: spend on the tools that finish the visit clinical-essentials spirometry procedure-kits mission-planning Littmann Classic III / Cardiology IV Eko CORE 500 HEINE mini 3000 LED F.O. otoscope / Welch Allyn MacroView Plus Omron HBP-1320 / Welch Allyn DuraShock DS58-11 Nonin Onyx Vantage 9590 / Welch Allyn SureTemp Plus 690 MIR Spirobank II Basic / NDD Easy on-PC DermLite DL100 / DL200 Hybrid MAICO MA27 / easyTone Sklar 98-1637 instrument tray / Sklar Sterile 96-1710A disposable kit",
+  "librarySection": "equipment"
 };

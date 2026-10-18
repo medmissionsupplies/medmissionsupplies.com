@@ -11,12 +11,20 @@ export function pageSeo(page) {
   const url = siteUrl + route.path;
   const social = socialContentFor(route, item);
   const image = new URL(socialImagePath(route.key), siteUrl).href;
+  // Editorial review is a modification, never a made-up publication date.
+  const reviewed = item?.updated ?? item?.reviewedAt;
+  const modified = route.articleId && /^\d{4}-\d{2}-\d{2}$/.test(reviewed ?? '') ? reviewed : null;
+  const breadcrumbs = [{ name: 'Home', item: siteUrl + '/index.html' }];
+  if (route.articleId) breadcrumbs.push({ name: 'Buying guides', item: siteUrl + '/articles.html' });
+  if (route.equipmentId) breadcrumbs.push({ name: 'Equipment', item: siteUrl + '/offerings.html' });
+  if (route.key !== 'index') breadcrumbs.push({ name: route.title, item: url });
   const graph = [
     { '@type': 'Organization', '@id': siteUrl + '/#organization', name: 'Med Mission Supplies', url: siteUrl },
     { '@type': 'WebSite', '@id': siteUrl + '/#website', name: 'Med Mission Supplies', url: siteUrl, publisher: { '@id': siteUrl + '/#organization' } },
-    { '@type': route.articleId ? 'Article' : route.key === 'offerings' || route.equipmentId ? 'CollectionPage' : 'WebPage', '@id': url + '#page', url, name: route.title, ...(route.articleId ? { headline: route.title } : {}), description: route.description, image, isPartOf: { '@id': siteUrl + '/#website' }, publisher: { '@id': siteUrl + '/#organization' } },
+    { '@type': route.articleId ? 'Article' : ['offerings', 'articles'].includes(route.key) || route.equipmentId ? 'CollectionPage' : 'WebPage', '@id': url + '#page', url, name: route.title, ...(route.articleId ? { headline: route.title, author: { '@id': siteUrl + '/#organization' }, mainEntityOfPage: url, articleSection: item.category, ...(modified ? { dateModified: modified } : {}) } : {}), description: route.description, image, inLanguage: 'en-US', isPartOf: { '@id': siteUrl + '/#website' }, publisher: { '@id': siteUrl + '/#organization' }, ...(!route.articleId ? { breadcrumb: { '@id': url + '#breadcrumbs' } } : {}) },
+    { '@type': 'BreadcrumbList', '@id': url + '#breadcrumbs', itemListElement: breadcrumbs.map((entry, index) => ({ '@type': 'ListItem', position: index + 1, ...entry })) },
   ];
-  return { ...metadata[page], url, image, imageWidth: socialImageSize.width, imageHeight: socialImageSize.height, imageType: socialImageSize.type, imageAlt: social.alt, socialTitle: social.title, socialDescription: social.description, type: route.articleId ? 'article' : 'website', schema: { '@context': 'https://schema.org', '@graph': graph } };
+  return { ...metadata[page], url, modified, image, imageWidth: socialImageSize.width, imageHeight: socialImageSize.height, imageType: socialImageSize.type, imageAlt: social.alt, socialTitle: social.title, socialDescription: social.description, type: route.articleId ? 'article' : 'website', schema: { '@context': 'https://schema.org', '@graph': graph } };
 }
 
 // Static HTML and enhanced navigation use exactly the same metadata contract.

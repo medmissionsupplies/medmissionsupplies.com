@@ -3,8 +3,8 @@ export default {
   "key": "c-arm-detectors",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "A flat-panel C-arm must earn its place in the budget",
-  "summary": "Compare the image, positioning, software and repair arrangements your team will actually use before paying for a detector upgrade.",
+  "title": "Flat-panel C-arm: what does the upgrade actually buy?",
+  "summary": "Compare usable images, recording, room access and repair exposure before paying for a different detector.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "image": "guides/xray",
@@ -24,43 +24,43 @@ export default {
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
     "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
   },
-  "minutes": 4,
+  "minutes": 3,
   "sections": [
     [
-      "Describe the problem before choosing the detector",
-      "A C-arm purchase should begin with the work the existing service cannot do reliably or conveniently. The difficulty might be positioning around the table, seeing required detail, exporting images or completing a demanding list without interruptions. Those are different problems. Buying a flat panel because it is newer can leave the original bottleneck untouched. Ask the operating team to describe the required views, patient-size range, table access and image destination. Then have each supplier demonstrate the proposed configuration against the same requirements. A supported image-intensifier unit can remain a candidate when it meets that brief. The decision should turn on the complete system that will arrive, not an assumption that every older detector is inadequate."
+      "Find the limitation worth paying to remove",
+      "A flat-panel upgrade earns its premium when it solves a problem that matters in your theatre. That might be obtaining the required view, recording the necessary sequence or moving around the table. If the supported image-intensifier system already meets the agreed requirements, keeping it remains a serious option. A newer detector is a poor answer to a table obstruction or missing export licence. Give each supplier the same brief: procedures, patient-size range, required views, recording needs and image destination. Compare the offered configurations against that brief. This makes the extra spending accountable to a useful result, rather than to the age of the technology."
     ],
     [
-      "The model name is only the beginning",
-      "Siemens illustrates a purchasing trap: its US Cios Select page specifies an image intensifier, while its India page describes image-intensifier and flat-detector versions. A quotation saying only “Cios Select” therefore leaves a major component unidentified. Record the region, detector, software version, licensed functions and serial number for a used offer. GE's current OEC One CFD page also offers detector-size and software choices. A photograph of the display cannot establish the available vascular functions, export workflow or field coverage. Separate required functions from optional ones, and require the seller to demonstrate that the licensed configuration matches the written offer."
+      "A model name can hide a different machine",
+      "Siemens' US Cios Select page identifies an image-intensifier configuration; its India page describes image-intensifier and flat-detector versions. The name alone therefore leaves a major component unresolved. Record the region, detector, software version and enabled functions, and match a used offer to its serial number. GE's OEC One CFD page separately lists two detector sizes, four software configurations and a 27-inch 4K display. Those are separate buying choices. A prominent screen specification does not tell you which acquisition or vascular functions are supplied, and a current product page cannot identify the options in an older used unit."
     ],
     [
-      "Compare useful images, not isolated specifications",
-      "Use a supervised demonstration planned by the clinical team and medical physicist, with appropriate test objects and consistent conditions. Compare usable image detail, artifacts, visibility across the field, recorded exposure information and workflow together. An impressive image at an undisclosed setting is weak purchasing evidence. A display's pixel count alone cannot establish the performance of the imaging chain. Agree the acceptance criteria before ordering and identify who will test the delivered system. IAEA guidance distinguishes acceptance from commissioning and ongoing quality control, including for significantly refurbished equipment. Include the report and resolution of unacceptable results in the handover. A seller's successful power-on test does not settle those questions."
+      "Follow the image from acquisition to replay",
+      "Distinguish four things in the demonstration: the image acquired, the sequence recorded, what the local display shows and what the receiving workstation can replay. Ask the supplier to demonstrate the required task through the whole chain. A display replacement may improve viewing or positioning, but it is not evidence that acquisition or recording capability has changed. An approved display retrofit may be a sensible smaller investment when viewing is the actual limitation. It is a poor substitute when the required imaging function is absent. Keep the retrofit in the comparison only with documented compatibility and support for the proposed installation."
     ],
     [
-      "Rehearse a real movement through the room",
-      "Have users move the C-arm through the actual doorway and around the intended table, where a demonstration is feasible. Check cables, footswitch placement, brakes, display visibility and parking. A compact all-in-one arrangement may remove a separate-cart obstruction; it can also change where the operator and display must stand. The useful layout is the one that works in the receiving room. Include the image-export destination in that rehearsal. Confirm installed DICOM options, network setup, identifiers and a successful transfer rather than treating “digital” as a complete connectivity specification. Assign the work of connecting the system to the receiving team and include its cost."
+      "Make the demonstration comparable",
+      "Have the clinical team and medical physicist set appropriate test conditions and acceptance criteria. Compare usable detail, artifacts, field coverage, recorded exposure information and workflow together. A striking image without its conditions is weak evidence for buying one system over another. Agree who will test the delivered equipment and correct unacceptable results. IAEA guidance distinguishes acceptance, commissioning and ongoing quality control, including for significantly refurbished equipment. Warehouse power-on testing does not replace those steps at the receiving hospital."
     ],
     [
-      "Give both detector choices a replacement plan",
-      "Request a separate replacement quotation for the detector or image intensifier, including diagnosis, installation, calibration, freight and warranty. Add the X-ray tube, which remains an ownership exposure whichever detector is selected. Establish whether the service agreement covers these components, whether used replacements are acceptable and what happens when a compatible part is unavailable. Block Imaging's detector article usefully raises service-cost questions, but its seller perspective cannot establish today's price ratio, a guaranteed lifespan or suitability for every hospital. Obtain current quotes for the actual systems. Keep the remaining uncertainty visible instead of inserting a broad market estimate into a supposedly precise comparison."
+      "Buy the C-arm and room as a workable pair",
+      "Rehearse the intended table positions, doorway access, cable routes, brakes, footswitch location and display sightlines. A one-piece design can remove a separate-cart obstruction but changes where the display can stand. Check the actual arrangement instead of assuming that compact means easier for every room. Include image export in the rehearsal. Identify the installed DICOM functions, configure the destination and transfer a correctly identified study. Assign the integration work and its cost before treating the system as ready for use."
     ],
     [
-      "Spend for a benefit the hospital can retain",
-      "Compare complete acquisition and changeover costs over the same planning period. Allow for training, acceptance, connectivity, scheduled maintenance and an affordable response to a major component failure. Evaluate a normal operating year and a repair scenario without assigning invented probabilities. The flat-panel premium is justified when a demonstrated benefit matters enough to fund both the upgrade and its upkeep. If the accepted image-intensifier system already meets the service's requirements, maintaining it may preserve money for a spare, training or another missing capability. Choose the proposal that the receiving team can keep useful."
+      "Compare the repair exposure on both sides",
+      "Both offers need a credible major-component plan. Price detector or intensifier replacement with diagnosis, freight, installation and calibration, then add the tube exposure. Establish what the contract covers, which replacement condition is acceptable and what happens if the compatible component cannot be obtained. Seller lifespan and price comparisons can suggest questions, but they cannot establish a failure rate or the cost of repairing this unit in your country. Compare a normal operating year and an early major-repair scenario without inventing probabilities. Choose the flat panel when its demonstrated gain and support justify the premium; retain accepted equipment when the upgrade leaves the important limitation unchanged."
     ]
   ],
   "related": [
     "xray"
   ],
-  "socialTitle": "Does your next C-arm need a flat panel?",
-  "socialDescription": "A useful C-arm comparison includes image quality, room access, enabled software and the cost of replacing the detector.",
-  "socialHeadline": "C-arm detector buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "Flat-panel C-arm: what does the upgrade actually buy?",
+  "socialDescription": "Compare usable images, recording, room access and repair exposure before paying for a different detector.",
+  "socialHeadline": "Flat-panel C-arm: what does the upgrade actually buy?",
+  "socialStrapline": "Pay for a demonstrated benefit your team can keep using.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "C-arm detector buying sheet",
+    "title": "Flat-panel C-arm: what does the upgrade actually buy?",
     "summary": "Compare complete supported C-arm configurations against the same imaging and room requirements. A detector label alone cannot decide the purchase.",
     "firstChoice": "Request an image-intensifier baseline and a specified flat-panel alternative, identifying detector size, software and required image-export functions.",
     "upgradeWhen": "A witnessed comparison demonstrates a useful imaging or positioning improvement, and the hospital can afford the resulting purchase and repair exposure.",
@@ -81,15 +81,17 @@ export default {
   "research": {
     "kind": "feature",
     "id": "c-arm-detectors",
-    "researchedAt": "2026-10-17",
+    "researchedAt": "2026-10-18",
     "coverage": [
       "image intensifier versus flat panel",
       "exact detector and software configuration",
       "acceptance and image-quality evidence",
-      "replacement components and ownership cost"
+      "replacement components and ownership cost",
+      "acquisition recording display and replay",
+      "approved display retrofit versus acquisition change"
     ],
-    "title": "A flat-panel C-arm must earn its place in the budget",
-    "dek": "Compare the image, positioning, software and repair arrangements your team will actually use before paying for a detector upgrade.",
+    "title": "Flat-panel C-arm: what does the upgrade actually buy?",
+    "dek": "Compare usable images, recording, room access and repair exposure before paying for a different detector.",
     "verdict": "Shortlist a supported image-intensifier configuration and a correctly specified flat-panel alternative. Choose the flat panel when a witnessed comparison establishes useful gains and its replacement exposure is affordable; keep a satisfactory supported system when the upgrade solves no material problem.",
     "decision": {
       "firstMove": "Specify the procedures, positioning constraints, field of view and image-export workflow before choosing a detector.",
@@ -98,9 +100,9 @@ export default {
       "walkAwayWhen": "Detector identity, enabled software, acceptance results or replacement support cannot be verified."
     },
     "social": {
-      "title": "Does your next C-arm need a flat panel?",
-      "description": "A useful C-arm comparison includes image quality, room access, enabled software and the cost of replacing the detector.",
-      "hook": "Ask what the flat panel improves in your room—and who repairs it."
+      "title": "Flat-panel C-arm: what does the upgrade actually buy?",
+      "description": "Compare usable images, recording, room access and repair exposure before paying for a different detector.",
+      "hook": "Pay for a demonstrated benefit your team can keep using."
     },
     "choices": [
       {
@@ -148,6 +150,12 @@ export default {
         "bestFit": "Approved requirements already met with a sustainable package."
       },
       {
+        "option": "Approved display retrofit",
+        "capability": "Changes the documented viewing arrangement; acquisition change must be separately established.",
+        "costDriver": "Compatibility, installation and retained-system support.",
+        "bestFit": "The demonstrated bottleneck is viewing and the imaging chain remains acceptable."
+      },
+      {
         "option": "Flat-panel C-arm",
         "capability": "Compare exact detector, image processing and enabled functions.",
         "costDriver": "Detector replacement, software, support and complete purchase premium.",
@@ -162,18 +170,18 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Describe the problem before choosing the detector",
+        "heading": "Find the limitation worth paying to remove",
         "paragraphs": [
-          "A C-arm purchase should begin with the work the existing service cannot do reliably or conveniently. The difficulty might be positioning around the table, seeing required detail, exporting images or completing a demanding list without interruptions. Those are different problems. Buying a flat panel because it is newer can leave the original bottleneck untouched.",
-          "Ask the operating team to describe the required views, patient-size range, table access and image destination. Then have each supplier demonstrate the proposed configuration against the same requirements. A supported image-intensifier unit can remain a candidate when it meets that brief. The decision should turn on the complete system that will arrive, not an assumption that every older detector is inadequate."
+          "A flat-panel upgrade earns its premium when it solves a problem that matters in your theatre. That might be obtaining the required view, recording the necessary sequence or moving around the table. If the supported image-intensifier system already meets the agreed requirements, keeping it remains a serious option. A newer detector is a poor answer to a table obstruction or missing export licence.",
+          "Give each supplier the same brief: procedures, patient-size range, required views, recording needs and image destination. Compare the offered configurations against that brief. This makes the extra spending accountable to a useful result, rather than to the age of the technology."
         ],
         "sourceIds": []
       },
       {
-        "heading": "The model name is only the beginning",
+        "heading": "A model name can hide a different machine",
         "paragraphs": [
-          "Siemens illustrates a purchasing trap: its US Cios Select page specifies an image intensifier, while its India page describes image-intensifier and flat-detector versions. A quotation saying only “Cios Select” therefore leaves a major component unidentified. Record the region, detector, software version, licensed functions and serial number for a used offer.",
-          "GE's current OEC One CFD page also offers detector-size and software choices. A photograph of the display cannot establish the available vascular functions, export workflow or field coverage. Separate required functions from optional ones, and require the seller to demonstrate that the licensed configuration matches the written offer."
+          "Siemens' US Cios Select page identifies an image-intensifier configuration; its India page describes image-intensifier and flat-detector versions. The name alone therefore leaves a major component unresolved. Record the region, detector, software version and enabled functions, and match a used offer to its serial number.",
+          "GE's OEC One CFD page separately lists two detector sizes, four software configurations and a 27-inch 4K display. Those are separate buying choices. A prominent screen specification does not tell you which acquisition or vascular functions are supplied, and a current product page cannot identify the options in an older used unit."
         ],
         "sourceIds": [
           "cios-us",
@@ -182,40 +190,42 @@ export default {
         ]
       },
       {
-        "heading": "Compare useful images, not isolated specifications",
+        "heading": "Follow the image from acquisition to replay",
         "paragraphs": [
-          "Use a supervised demonstration planned by the clinical team and medical physicist, with appropriate test objects and consistent conditions. Compare usable image detail, artifacts, visibility across the field, recorded exposure information and workflow together. An impressive image at an undisclosed setting is weak purchasing evidence. A display's pixel count alone cannot establish the performance of the imaging chain.",
-          "Agree the acceptance criteria before ordering and identify who will test the delivered system. IAEA guidance distinguishes acceptance from commissioning and ongoing quality control, including for significantly refurbished equipment. Include the report and resolution of unacceptable results in the handover. A seller's successful power-on test does not settle those questions."
+          "Distinguish four things in the demonstration: the image acquired, the sequence recorded, what the local display shows and what the receiving workstation can replay. Ask the supplier to demonstrate the required task through the whole chain. A display replacement may improve viewing or positioning, but it is not evidence that acquisition or recording capability has changed.",
+          "An approved display retrofit may be a sensible smaller investment when viewing is the actual limitation. It is a poor substitute when the required imaging function is absent. Keep the retrofit in the comparison only with documented compatibility and support for the proposed installation."
+        ],
+        "sourceIds": [
+          "oec-cfd"
+        ]
+      },
+      {
+        "heading": "Make the demonstration comparable",
+        "paragraphs": [
+          "Have the clinical team and medical physicist set appropriate test conditions and acceptance criteria. Compare usable detail, artifacts, field coverage, recorded exposure information and workflow together. A striking image without its conditions is weak evidence for buying one system over another.",
+          "Agree who will test the delivered equipment and correct unacceptable results. IAEA guidance distinguishes acceptance, commissioning and ongoing quality control, including for significantly refurbished equipment. Warehouse power-on testing does not replace those steps at the receiving hospital."
         ],
         "sourceIds": [
           "iaea-acceptance"
         ]
       },
       {
-        "heading": "Rehearse a real movement through the room",
+        "heading": "Buy the C-arm and room as a workable pair",
         "paragraphs": [
-          "Have users move the C-arm through the actual doorway and around the intended table, where a demonstration is feasible. Check cables, footswitch placement, brakes, display visibility and parking. A compact all-in-one arrangement may remove a separate-cart obstruction; it can also change where the operator and display must stand. The useful layout is the one that works in the receiving room.",
-          "Include the image-export destination in that rehearsal. Confirm installed DICOM options, network setup, identifiers and a successful transfer rather than treating “digital” as a complete connectivity specification. Assign the work of connecting the system to the receiving team and include its cost."
+          "Rehearse the intended table positions, doorway access, cable routes, brakes, footswitch location and display sightlines. A one-piece design can remove a separate-cart obstruction but changes where the display can stand. Check the actual arrangement instead of assuming that compact means easier for every room.",
+          "Include image export in the rehearsal. Identify the installed DICOM functions, configure the destination and transfer a correctly identified study. Assign the integration work and its cost before treating the system as ready for use."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Give both detector choices a replacement plan",
+        "heading": "Compare the repair exposure on both sides",
         "paragraphs": [
-          "Request a separate replacement quotation for the detector or image intensifier, including diagnosis, installation, calibration, freight and warranty. Add the X-ray tube, which remains an ownership exposure whichever detector is selected. Establish whether the service agreement covers these components, whether used replacements are acceptable and what happens when a compatible part is unavailable.",
-          "Block Imaging's detector article usefully raises service-cost questions, but its seller perspective cannot establish today's price ratio, a guaranteed lifespan or suitability for every hospital. Obtain current quotes for the actual systems. Keep the remaining uncertainty visible instead of inserting a broad market estimate into a supposedly precise comparison."
+          "Both offers need a credible major-component plan. Price detector or intensifier replacement with diagnosis, freight, installation and calibration, then add the tube exposure. Establish what the contract covers, which replacement condition is acceptable and what happens if the compatible component cannot be obtained.",
+          "Seller lifespan and price comparisons can suggest questions, but they cannot establish a failure rate or the cost of repairing this unit in your country. Compare a normal operating year and an early major-repair scenario without inventing probabilities. Choose the flat panel when its demonstrated gain and support justify the premium; retain accepted equipment when the upgrade leaves the important limitation unchanged."
         ],
         "sourceIds": [
           "block-detectors"
         ]
-      },
-      {
-        "heading": "Spend for a benefit the hospital can retain",
-        "paragraphs": [
-          "Compare complete acquisition and changeover costs over the same planning period. Allow for training, acceptance, connectivity, scheduled maintenance and an affordable response to a major component failure. Evaluate a normal operating year and a repair scenario without assigning invented probabilities.",
-          "The flat-panel premium is justified when a demonstrated benefit matters enough to fund both the upgrade and its upkeep. If the accepted image-intensifier system already meets the service's requirements, maintaining it may preserve money for a spare, training or another missing capability. Choose the proposal that the receiving team can keep useful."
-        ],
-        "sourceIds": []
       }
     ],
     "checklist": [
@@ -280,8 +290,8 @@ export default {
         "url": "https://www.gehealthcare.com/en-us/products/surgical-imaging/oec-one-cfd",
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
-        "evidence": "Current US page describes a one-piece system, 27-inch 4K display, two CMOS detector sizes, four software configurations and five-minute standby transport power."
+        "accessed": "2026-10-18",
+        "evidence": "Written US page rechecked: separate two CMOS detector sizes, four software configurations, 27-inch 4K display and one-piece arrangement. No video, dose superiority or serial support verification."
       },
       {
         "id": "iaea-acceptance",
@@ -299,5 +309,6 @@ export default {
       "ct-tube-budget"
     ]
   },
-  "searchTerms": "image intensifier versus flat panel exact detector and software configuration acceptance and image-quality evidence replacement components and ownership cost Siemens Cios Select, US image-intensifier configuration Siemens Cios Select with flat detector, regional configuration GE OEC One CFD"
+  "searchTerms": "image intensifier versus flat panel exact detector and software configuration acceptance and image-quality evidence replacement components and ownership cost acquisition recording display and replay approved display retrofit versus acquisition change Siemens Cios Select, US image-intensifier configuration Siemens Cios Select with flat detector, regional configuration GE OEC One CFD",
+  "librarySection": "decisions"
 };

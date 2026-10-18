@@ -3,8 +3,8 @@ export default {
   "key": "suction",
   "kind": "research-guide",
   "equipmentId": "suction",
-  "title": "Buying suction: the battery and canister decide the fit",
-  "summary": "The useful comparison starts with the complete portable kit or surgical station—not the vacuum number on the pump.",
+  "title": "Buying suction: the missing filter can idle the whole pump",
+  "summary": "Compare complete portable kits and surgical stations, including batteries, mounts, canisters and filters. Higher vacuum alone does not prove usable suction at the point of care.",
   "categoryId": "critical-care",
   "category": "Critical & patient care",
   "image": "guides/suction",
@@ -24,41 +24,41 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 4,
+  "minutes": 5,
   "sections": [
     [
-      "The USD 398 portable option—and the suffix that matters",
-      "Walton Medical's opened October 16, 2026 price is USD 398.00 for 7325P-D, the battery model with carrying case. That gives the portable comparison a concrete starting point, while the model card keeps the unconfirmed contents and delivery terms visible. The similar 7325D-D has no battery. A small suffix error can therefore remove the very function that makes the purchase useful. VX-2 presents a different power trap: its AC charger charges the battery but does not directly run the pump. A failed battery is not resolved by including the cord. Select the back and mount before buying as well; FlatBack is not a promise of a later bracket upgrade. These are better reasons to inspect an offer closely than a small difference in advertised vacuum. LSU becomes worth considering when its tool-less battery access, chosen canister system and actual service arrangement solve transport work. Compare the complete kit against VX-2 and 7325P-D. For acceptance, qualified personnel should use the manufacturer's procedure with the delivered container, filter and tubing. A pump reaching a high blocked vacuum does not establish the required flow through the working system, and a motor turning briefly does not establish battery endurance."
+      "Start with the power source the job requires",
+      "Vacu-Aide 7325P-D provides a compact battery-equipped comparison; Walton Medical’s October 16, 2026 offer was US$398 with a carrying case. The similar 7325D-D lacks the battery. Confirm the suffix and complete collection package before comparing the number on the invoice. SSCOR VX-2 has another important distinction: its supplied AC charger cannot power the pump. The documented vehicle-power and charging/retention-bracket arrangement is a separate operating route. An AC cord therefore does not establish that a unit with a failed battery is ready for portable service. Select the back, mount and power accessories as one configuration. Laerdal LSU deserves comparison when tool-less battery access, a suitable mount and its particular collection system improve the transport service. Have qualified personnel verify the delivered system using the manufacturer’s procedure. A motor that runs briefly does not establish battery endurance; maximum blocked vacuum does not establish flow through the working tubing and filter."
     ],
     [
-      "Count the canister families before accepting a mixed donation",
-      "Every incompatible container, lid and filter adds another item that must be stocked. That can make a mixed donation harder to keep ready than a smaller fleet of complete identical kits. Drive's published collection-system compatibility across 7325, 7305 and 7314 can preserve an existing supply arrangement, provided the exact listed parts are used. The saving comes from a workable parts list, not from assuming every canister fits. LSU's collection-system versions and Medela's surgical accessories create their own purchasing choices. Compare disposable liners with a reusable system that the facility can reprocess according to instructions. Reusable jars carry cleaning, seal-replacement and turnaround costs; disposable liners carry replenishment and storage costs. Choose the system that can be sustained in the actual workflow. A missing filter or incomplete overflow-protection system can make a working pump unavailable. Include the appropriate initial supplies and reserve stock in the purchase. Makeshift overflow arrangements or reuse of single-use items are not substitutes for a complete supported collection system."
+      "Standardize the collection kit before accumulating pumps",
+      "Each incompatible canister, lid, liner, filter and connector adds a stock line. A smaller fleet of complete supported kits can be easier to keep ready than a donation of mixed pumps with missing containers. Drive lists collection-system parts across 7325, 7305 and 7314 families; use those exact documented parts rather than assuming all similar-looking containers fit. Compare a disposable system’s replenishment and storage with a reusable system’s approved processing, seal replacement and turnaround. Neither is automatically cheaper. A reusable jar with no processing route and a disposable liner with no resupply route both leave the pump idle. For an illustrative clinic needing 1,200 collection setups a year, a $2 difference per setup becomes $2,400 annually or $7,200 over three years. These hypothetical figures do not price a particular canister or establish that one setup equals one patient encounter. They show why the correct local supply basket can outweigh a small pump discount."
     ],
     [
-      "Pay for 60 L/min only when the surgical requirement needs it",
-      "Medela Basic and Dominant Flex separate the surgical choice clearly. Basic's published 30 L/min free-airflow class is enough to begin a comparison for a requirement within that specification. Dominant Flex's selectable 40/50/60 L/min is the capability to fund when the service has defined a need for it. Compare the pump with the same collection capacity, filters and mounting arrangement; a bare high-flow unit and a completed Basic station are different offers. Both platforms remain mains powered. A portable version with a handle is not battery backup for an outage. Include electrical continuity or a separately appropriate backup in the station budget. If the actual requirement is a central vacuum installation, it needs its own engineering assessment; the portable equipment comparison does not establish that system's capacity."
+      "Match surgical flow without paying for an unused maximum",
+      "Medela Basic’s published 30 L/min free-airflow class is a focused starting comparison when it meets the defined surgical requirement. Dominant Flex provides selectable 40/50/60 L/min for a higher-flow requirement. Compare equivalent collection capacity, filters, mounting and controls; a bare high-flow pump is not an equivalent offer to a complete lower-flow station. These Medela systems remain mains powered. A handle or portable mounting option makes them movable, not battery-backed transport devices. Budget the appropriate electrical continuity or separately suitable backup. A central vacuum installation is a different engineering purchase; this comparison does not size its capacity."
     ],
     [
-      "An older pump can stay if its next repair is plausible",
-      "A maintained S-SCORT II/III or Gomco G180 may still be useful when the exact unit has verified performance and compatible supplies. Before paying to ship another, identify its model and serial and the source for the next service part. This review did not establish current manufacturer acceptance or component stock for those legacy models. That makes a known working unit a conditional retention choice and an unsupported donation a much less attractive way to standardize. For the current shortlist, accessible batteries, public parts lists and service documents make ownership easier to evaluate. They do not measure which pump will last longest. No directly comparable independent failure-rate evidence was found, so the buying judgment rests on complete functionality, supply continuity and repairability rather than a durability ranking."
+      "Inspect the complete system, including the next repair",
+      "Keep a useful older S-SCORT or Gomco when qualified performance verification, compatible collection supplies and an actual repair route support it. For an offered S-SCORT II/III or Gomco G180, obtain the exact identity and service acceptance before spending on freight. Current product-family pages do not establish support for every older serial. Include filters and overflow-protection components in the initial package and reserve stock. Missing protection is not cured by improvised plumbing. Price the complete station, consumables, batteries, verification, repairs and backup over the same period. Accessible parts and service documents improve the ownership case; they are not measured evidence that one pump lasts longer."
     ]
   ],
   "related": [
     "suction"
   ],
-  "socialTitle": "Buying suction: the battery and canister decide the fit",
-  "socialDescription": "Compare Vacu-Aide, VX-2, LSU and Medela by complete kits, usable power, collection supplies and the flow the service actually requires.",
-  "socialHeadline": "Suction equipment buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying suction: the missing filter can idle the whole pump",
+  "socialDescription": "Compare complete portable kits and surgical stations, including batteries, mounts, canisters and filters. Higher vacuum alone does not prove usable suction at the point of care.",
+  "socialHeadline": "Buying suction: the missing filter can idle the whole pump",
+  "socialStrapline": "A running motor is not a ready suction station.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "suction",
-    "title": "Suction equipment buying guide",
-    "summary": "Choose portable airway, bedside or surgical suction first. The collection system and power arrangement can decide suitability before maximum vacuum enters the comparison.",
-    "firstChoice": "Use battery-equipped Vacu-Aide 7325P-D as a compact portable benchmark. For mains surgical suction, start with Medela Basic when its 30 L/min free-airflow class meets the defined requirement.",
-    "upgradeWhen": "Compare VX-2 for a suitable transport mount and parts arrangement, or LSU for its battery access and canister/service options. Dominant Flex adds selectable 40/50/60 L/min for a defined higher-flow need.",
+    "title": "Buying suction: the missing filter can idle the whole pump",
+    "summary": "Compare complete portable kits and surgical stations, including batteries, mounts, canisters and filters. Higher vacuum alone does not prove usable suction at the point of care.",
+    "firstChoice": "Separate portable airway suction from mains surgical suction, then compare complete kits with the correct battery and collection system.",
+    "upgradeWhen": "VX-2/LSU mounting or maintenance arrangements solve transport needs, or the surgical specification calls for Dominant Flex's selectable higher flow.",
     "budgetWatch": "7325D-D lacks the battery supplied in 7325P-D. VX-2's AC charger cannot run the pump through a failed battery. Medela's movable units remain mains powered. Include jars, lids, filters and tubing.",
-    "supportCheck": "Verify flow, vacuum and battery performance with the delivered collection system under the manufacturer's procedure. Choose canister parts the hospital can replenish or reprocess appropriately.",
+    "supportCheck": "Reject a batteryless 7325D-D sold as a battery unit, a VX-2 whose failed battery is excused by its charger, or an incomplete collection system.",
     "askSupplier": [
       "Does this exact suffix include a battery and our required mount?",
       "Can it operate from mains directly, or only charge from mains?",
@@ -77,8 +77,8 @@ export default {
   },
   "research": {
     "id": "suction",
-    "title": "Buying suction: the battery and canister decide the fit",
-    "dek": "The useful comparison starts with the complete portable kit or surgical station—not the vacuum number on the pump.",
+    "title": "Buying suction: the missing filter can idle the whole pump",
+    "dek": "Compare complete portable kits and surgical stations, including batteries, mounts, canisters and filters. Higher vacuum alone does not prove usable suction at the point of care.",
     "verdict": "For compact portable suction, Vacu-Aide 7325P-D supplies a concrete USD 398 retail benchmark for the battery model. Move toward S-SCORT VX-2 when its selected mounting and parts arrangement suit transport, or LSU when battery access, canister choice and service support earn the difference. VX-2's charger cannot run the pump through a failed battery. For mains surgical suction, Basic's 30 L/min class is the starting point when sufficient; Dominant Flex adds selectable 40/50/60 L/min for a defined higher-flow need. Buy the canister, filters, tubing and power arrangement as part of each station.",
     "coverage": [
       "Portable airway suction",
@@ -108,7 +108,7 @@ export default {
         "position": "Mounted transport option",
         "bestFor": "A service prioritizing vehicle mounting and a documented replacement-parts route",
         "why": "SSCOR publishes replacement batteries and components for the identified current platform. The mounting version can be selected before purchase rather than improvised afterward.",
-        "tradeoff": "Its AC charger charges the battery but does not directly run the pump. A failed battery therefore cannot be dismissed because an AC cord is included. FlatBack is not a later bracket-upgrade promise.",
+        "tradeoff": "The supplied AC charger charges the battery but cannot run the pump. The specified vehicle-power/bracket arrangement is different. Choose the correct back and mount before buying; FlatBack is not a later bracket-upgrade promise.",
         "price": "Quote required with selected back, mount, power accessories, battery and collection supplies.",
         "support": "Current manufacturer product and own-store parts listings verified; export repair turnaround unconfirmed.",
         "sourceIds": [
@@ -157,40 +157,39 @@ export default {
     ],
     "sections": [
       {
-        "heading": "The USD 398 portable option—and the suffix that matters",
+        "heading": "Start with the power source the job requires",
         "paragraphs": [
-          "Walton Medical's opened October 16, 2026 price is USD 398.00 for 7325P-D, the battery model with carrying case. That gives the portable comparison a concrete starting point, while the model card keeps the unconfirmed contents and delivery terms visible. The similar 7325D-D has no battery. A small suffix error can therefore remove the very function that makes the purchase useful.",
-          "VX-2 presents a different power trap: its AC charger charges the battery but does not directly run the pump. A failed battery is not resolved by including the cord. Select the back and mount before buying as well; FlatBack is not a promise of a later bracket upgrade. These are better reasons to inspect an offer closely than a small difference in advertised vacuum.",
-          "LSU becomes worth considering when its tool-less battery access, chosen canister system and actual service arrangement solve transport work. Compare the complete kit against VX-2 and 7325P-D. For acceptance, qualified personnel should use the manufacturer's procedure with the delivered container, filter and tubing. A pump reaching a high blocked vacuum does not establish the required flow through the working system, and a motor turning briefly does not establish battery endurance."
+          "Vacu-Aide 7325P-D provides a compact battery-equipped comparison; Walton Medical’s October 16, 2026 offer was US$398 with a carrying case. The similar 7325D-D lacks the battery. Confirm the suffix and complete collection package before comparing the number on the invoice.",
+          "SSCOR VX-2 has another important distinction: its supplied AC charger cannot power the pump. The documented vehicle-power and charging/retention-bracket arrangement is a separate operating route. An AC cord therefore does not establish that a unit with a failed battery is ready for portable service. Select the back, mount and power accessories as one configuration.",
+          "Laerdal LSU deserves comparison when tool-less battery access, a suitable mount and its particular collection system improve the transport service. Have qualified personnel verify the delivered system using the manufacturer’s procedure. A motor that runs briefly does not establish battery endurance; maximum blocked vacuum does not establish flow through the working tubing and filter."
         ],
         "sourceIds": [
           "s1",
           "s2",
+          "s-walton-7325",
           "s3",
           "s4",
-          "s5",
-          "s-walton-7325"
+          "s5"
         ]
       },
       {
-        "heading": "Count the canister families before accepting a mixed donation",
+        "heading": "Standardize the collection kit before accumulating pumps",
         "paragraphs": [
-          "Every incompatible container, lid and filter adds another item that must be stocked. That can make a mixed donation harder to keep ready than a smaller fleet of complete identical kits. Drive's published collection-system compatibility across 7325, 7305 and 7314 can preserve an existing supply arrangement, provided the exact listed parts are used. The saving comes from a workable parts list, not from assuming every canister fits.",
-          "LSU's collection-system versions and Medela's surgical accessories create their own purchasing choices. Compare disposable liners with a reusable system that the facility can reprocess according to instructions. Reusable jars carry cleaning, seal-replacement and turnaround costs; disposable liners carry replenishment and storage costs. Choose the system that can be sustained in the actual workflow.",
-          "A missing filter or incomplete overflow-protection system can make a working pump unavailable. Include the appropriate initial supplies and reserve stock in the purchase. Makeshift overflow arrangements or reuse of single-use items are not substitutes for a complete supported collection system."
+          "Each incompatible canister, lid, liner, filter and connector adds a stock line. A smaller fleet of complete supported kits can be easier to keep ready than a donation of mixed pumps with missing containers. Drive lists collection-system parts across 7325, 7305 and 7314 families; use those exact documented parts rather than assuming all similar-looking containers fit.",
+          "Compare a disposable system’s replenishment and storage with a reusable system’s approved processing, seal replacement and turnaround. Neither is automatically cheaper. A reusable jar with no processing route and a disposable liner with no resupply route both leave the pump idle.",
+          "For an illustrative clinic needing 1,200 collection setups a year, a $2 difference per setup becomes $2,400 annually or $7,200 over three years. These hypothetical figures do not price a particular canister or establish that one setup equals one patient encounter. They show why the correct local supply basket can outweigh a small pump discount."
         ],
         "sourceIds": [
           "s1",
           "s5",
-          "s6",
-          "s8"
+          "s6"
         ]
       },
       {
-        "heading": "Pay for 60 L/min only when the surgical requirement needs it",
+        "heading": "Match surgical flow without paying for an unused maximum",
         "paragraphs": [
-          "Medela Basic and Dominant Flex separate the surgical choice clearly. Basic's published 30 L/min free-airflow class is enough to begin a comparison for a requirement within that specification. Dominant Flex's selectable 40/50/60 L/min is the capability to fund when the service has defined a need for it. Compare the pump with the same collection capacity, filters and mounting arrangement; a bare high-flow unit and a completed Basic station are different offers.",
-          "Both platforms remain mains powered. A portable version with a handle is not battery backup for an outage. Include electrical continuity or a separately appropriate backup in the station budget. If the actual requirement is a central vacuum installation, it needs its own engineering assessment; the portable equipment comparison does not establish that system's capacity."
+          "Medela Basic’s published 30 L/min free-airflow class is a focused starting comparison when it meets the defined surgical requirement. Dominant Flex provides selectable 40/50/60 L/min for a higher-flow requirement. Compare equivalent collection capacity, filters, mounting and controls; a bare high-flow pump is not an equivalent offer to a complete lower-flow station.",
+          "These Medela systems remain mains powered. A handle or portable mounting option makes them movable, not battery-backed transport devices. Budget the appropriate electrical continuity or separately suitable backup. A central vacuum installation is a different engineering purchase; this comparison does not size its capacity."
         ],
         "sourceIds": [
           "s6",
@@ -199,10 +198,10 @@ export default {
         ]
       },
       {
-        "heading": "An older pump can stay if its next repair is plausible",
+        "heading": "Inspect the complete system, including the next repair",
         "paragraphs": [
-          "A maintained S-SCORT II/III or Gomco G180 may still be useful when the exact unit has verified performance and compatible supplies. Before paying to ship another, identify its model and serial and the source for the next service part. This review did not establish current manufacturer acceptance or component stock for those legacy models. That makes a known working unit a conditional retention choice and an unsupported donation a much less attractive way to standardize.",
-          "For the current shortlist, accessible batteries, public parts lists and service documents make ownership easier to evaluate. They do not measure which pump will last longest. No directly comparable independent failure-rate evidence was found, so the buying judgment rests on complete functionality, supply continuity and repairability rather than a durability ranking."
+          "Keep a useful older S-SCORT or Gomco when qualified performance verification, compatible collection supplies and an actual repair route support it. For an offered S-SCORT II/III or Gomco G180, obtain the exact identity and service acceptance before spending on freight. Current product-family pages do not establish support for every older serial.",
+          "Include filters and overflow-protection components in the initial package and reserve stock. Missing protection is not cured by improvised plumbing. Price the complete station, consumables, batteries, verification, repairs and backup over the same period. Accessible parts and service documents improve the ownership case; they are not measured evidence that one pump lasts longer."
         ],
         "sourceIds": [
           "s1",
@@ -213,7 +212,7 @@ export default {
       }
     ],
     "ownership": {
-      "equation": "Cost per available suction-station year = complete pump and mount + containers/liners, tubing and filters + batteries and charging equipment + approved reprocessing resources + service verification and repairs + backup provision.",
+      "equation": "Cost per available suction-station year = (complete pumps/mounts + collection supplies + batteries/power accessories + approved processing + verification/repairs + backup costs over the planning period) / available station-years over that same period.",
       "drivers": [
         "Exact battery versus mains-only variant",
         "Container, liner, lid and filter compatibility",
@@ -258,8 +257,8 @@ export default {
         "url": "https://www.sscor.com/s-scort_vx2_suction_unit",
         "publisher": "SSCOR",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "Current unit and critical AC-charger-versus-operating-power distinction."
+        "accessed": "2026-10-18",
+        "evidence": "Supplied AC charger is charging-only. Defined charging/retention bracket connects to vehicle charging and operating power; exact mounting/canister configuration matters."
       },
       {
         "id": "s4",
@@ -355,10 +354,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Buying suction: the battery and canister decide the fit",
-      "description": "Compare Vacu-Aide, VX-2, LSU and Medela by complete kits, usable power, collection supplies and the flow the service actually requires.",
-      "hook": "An AC charger does not necessarily keep a suction pump running when its battery fails."
-    }
+      "title": "Buying suction: the missing filter can idle the whole pump",
+      "description": "Compare complete portable kits and surgical stations, including batteries, mounts, canisters and filters. Higher vacuum alone does not prove usable suction at the point of care.",
+      "hook": "A running motor is not a ready suction station."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Portable airway suction Transport mounting and power Bedside suction Mains-powered surgical suction Collection canisters, filters and overflow protection Legacy S-SCORT and Gomco support Drive DeVilbiss Vacu-Aide 7325P-D SSCOR S-SCORT VX-2, correct back/mount version Laerdal Suction Unit (LSU), collection system specified Medela Basic Medela Dominant Flex"
+  "searchTerms": "Buying suction: the missing filter can idle the whole pump Portable airway suction Transport mounting and power Bedside suction Mains-powered surgical suction Collection canisters, filters and overflow protection Legacy S-SCORT and Gomco support Drive DeVilbiss Vacu-Aide 7325P-D SSCOR S-SCORT VX-2, correct back/mount version Laerdal Suction Unit (LSU), collection system specified Medela Basic Medela Dominant Flex",
+  "librarySection": "equipment"
 };

@@ -619,6 +619,14 @@ function ListingComments({ item }) {
 export function Articles() {
   return <ResearchLibrary />;
 }
+function RelatedReading({ item }) {
+  const related = (item.relatedArticles || []).map(id => articles.find(article => article.id === id)).filter(Boolean);
+  if (!related.length) return null;
+  return <section className="editorial-further article-further" aria-label="Related buying guides">
+    <h2>Take the next decision further</h2>
+    {related.map(article => <a className="related-link" key={article.id} href={articleUrl(article)}>{article.title}<ArrowUpRight size={18} /></a>)}
+  </section>;
+}
 export function ArticleDetail({ item }) {
   if (item.kind === "research-guide") return <ResearchArticleRoute item={item} />;
   if (item.kind === "buying-guide") return <BuyingGuide item={item} />;
@@ -657,6 +665,7 @@ export function ArticleDetail({ item }) {
             </ul>
           </div>
           <SourceNotes ids={item.sources} />
+          <RelatedReading item={item} />
           <div className="article-next">
             <Action href="/contact.html">Talk to our team</Action>
           </div>
@@ -796,6 +805,7 @@ export function BuyingGuide({ item }) {
                       </a>
                       <a href={equipmentUrl(listing)}>Equipment & service options</a>
                     </div>
+                    {researchGuides.filter(guide => guide.equipmentId === entry.listing).map(guide => <a className="related-link" key={guide.id} href={articleUrl(guide)}>{guide.title}<ArrowUpRight size={18} /></a>)}
                   </div>
                 </details>
               </section>
@@ -815,6 +825,7 @@ export function BuyingGuide({ item }) {
               Discuss your equipment list
             </Action>
           </section>
+          <RelatedReading item={item} />
         </article>
         <aside className="guide-sidebar">
           <h2>On this page</h2>

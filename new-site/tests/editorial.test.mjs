@@ -30,9 +30,21 @@ test('all five perspectives are integrated without losing existing resources', (
   for (const opinion of opinionArticles) {
     const article = articles.find(a => a.id === opinion.id);
     assert.ok(article.image && article.kind === 'opinion');
-    assert.equal(article.sections.length, opinion.sections.length);
-    assert.deepEqual(article.sectionSources, opinion.sections.map(s => s.sources));
+    assert.ok(article.sections.length >= 4, article.id);
+    assert.equal(article.sectionSources.length, article.sections.length, article.id);
+    for (const [index, [heading, text]] of article.sections.entries()) {
+      assert.ok(heading && text.split(/\s+/).length >= 45, `${article.id}: ${heading}`);
+      for (const source of article.sectionSources[index]) assert.ok(editorialSources[source], source);
+    }
     for (const id of article.related) assert.ok(equipment.some(e => e.id === id));
+  }
+});
+
+test('revised resource pages retain resolvable references and further reading', () => {
+  for (const article of articles.filter(article => article.kind !== 'research-guide')) {
+    for (const source of [...(article.sources || []), ...(article.sectionSources || []).flat()]) assert.ok(editorialSources[source], `${article.id}: ${source}`);
+    for (const entry of article.entries || []) for (const source of entry.sources) assert.ok(editorialSources[source], `${article.id}/${entry.id}: ${source}`);
+    for (const id of article.relatedArticles || []) assert.ok(articles.some(other => other.id === id && other.id !== article.id), `${article.id}: ${id}`);
   }
 });
 

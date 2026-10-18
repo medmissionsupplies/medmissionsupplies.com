@@ -3,8 +3,8 @@ export default {
   "key": "point-of-care",
   "kind": "research-guide",
   "equipmentId": "point-of-care",
-  "title": "Point-of-care testing: what a $139 box really buys",
-  "summary": "Shipping, controls, expiry and unused tests change the cost of a result. Match each analyzer to the question the clinic needs answered.",
+  "title": "Point-of-care testing: buy a result, not a box of tests",
+  "summary": "Compare urgent chemistry, hemoglobin, glucose and clinic tests by useful results, complete kits and replenishment. Pack size and storage can matter more than the reader price.",
   "categoryId": "diagnostics",
   "category": "Laboratory & diagnostics",
   "image": "guides/point-of-care",
@@ -26,45 +26,41 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 6,
+  "minutes": 10,
   "sections": [
     [
-      "Follow the $139 box through the budget",
-      "The opened CLIAwaived offer for ten Piccolo Comprehensive Metabolic discs is US$139 plus US$30 shipping/handling per item, checked October 16, 2026. That makes the listed pack US$169, or US$16.90 per disc if all ten produce usable patient results, before tax, controls and other costs. The offer requires a valid CLIA number; it is a US price anchor, not an export supply commitment. Now change only the denominator. In an illustrative scenario where eight of those discs produce usable patient results, the same US$169 becomes US$21.13 per result. This is arithmetic, not an observed waste or failure rate. It shows why a small clinic should compare delivered packs and realistically usable quantities. MedicalRite's US$537.99 offer for 25 i-STAT CHEM8+ cartridges gives approximately US$21.52 each before additions, but the panels and seller terms differ and the page's availability statements conflict. These are separate budget examples, not evidence that one assay platform is cheaper for equivalent care."
+      "Put the required result before the analyzer",
+      "An urgent blood-gas service, a routine chemistry clinic and an intermittent diabetes clinic have different purchasing jobs. Select the required analytes, intended patient population and acceptable turnaround first. A broader panel adds value only when the results are needed and the staff can maintain its quality program. Compare epoc for an urgent service whose menu fits its combined card; compare i-STAT 1 when particular supported cartridges supply needed assays. Epoc card storage is 15–30°C, not unrestricted tropical storage, and calibration precedes sample analysis. Piccolo Xpress belongs in routine chemistry with 2–8°C disc storage. A short published analysis time does not include every preparation, calibration or reporting step."
     ],
     [
-      "Choose the result the service needs",
-      "An urgent blood-gas requirement points toward epoc or appropriate i-STAT cartridges. Routine chemistry panels point toward a different comparison that includes Piccolo. Start with analytes, sample types, intended patients and acceptable turnaround. Buying a broad analyzer to repeat work a nearby reliable laboratory already supplies may consume funds without closing a service gap. epoc's room-temperature cards are useful when refrigeration is the obstacle, but their 15–30°C storage limit still requires control. A hot vehicle is not suitable merely because the cards are described as room-temperature products. Piccolo discs require 2–8°C storage. Account for those conditions during delivery and storage as well as on the testing day. For epoc, card calibration also precedes sample analysis, so post-sample timing does not describe the whole workflow."
+      "A $13.90 disc can cost $21.13 per usable panel",
+      "A US CLIAwaived offer dated October 16, 2026 listed ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08) for $139, plus $30 shipping/handling per item. One such pack therefore costs $169 before other expenses: $16.90 per purchased disc. If only eight discs produce accepted patient panels, that same purchase costs $21.13 per usable patient panel before controls, collection supplies and instrument expense. Eight usable panels is an illustration, not an observed waste rate; this is not a price per individual analyte. MedicalRite’s dated CHEM8+ offer was $537.99 for 25 cartridges, about $21.52 each before other charges. Different menus and uses prevent a price-only winner between these products. The seller also displayed conflicting availability text. The Piccolo offer required a US CLIA number; neither listing establishes destination-country supply. Build the annual basket from delivered packs and expected accepted results, including the quiet months. Count all purchased packs once: reagent used for controls, repeats or lost to expiry is already inside that expenditure. Add separate controls and other costs where genuinely additional, then divide by results from the same period."
     ],
     [
-      "Start a small clinic with the tests it can sustain",
-      "Treat hemoglobin, glucose and urine as distinct services with their own supplies and quality control. Hb 301's stated 10–40°C operation and cuvette-storage range gives it a tangible reason to lead a warm-site comparison. Hb 201+ can remain the economical choice where its 15–30°C limits fit and replenishment already works. Its stated three-month opened-vial stability also matters when use is intermittent. For glucose, specify the professional multipatient setting and intended patient population before comparing meters. Xpress 2 offers simpler data handling; Inform II supports a more connected professional workflow. Include strips, controls, approved cleaning, identification and any base or network costs. A low retail-meter price does not establish an equivalent clinic setup. Keep the October 5, 2026 Nova notice attached to the exact affected Gen 2.0 hospital-meter models: it describes a wrong-patient-result risk, shipment hold and a software remedy still being developed in that notice. Do not assume the remedy is complete or extend the action to every StatStrip variant. Model and software identification are buying facts, not administrative details."
+      "Small dedicated tests can be the better first investment",
+      "For hemoglobin, Hb 301’s published 10–40°C operating and cuvette-storage range provides a concrete warm-site comparison with Hb 201+ at 15–30°C. Keep an accepted Hb 201+ where its conditions, opened-vial limits and supply work. A new reader is poor value if its cuvettes are harder to replenish. For professional glucose testing, compare the simpler StatStrip Xpress 2 configuration with a connected Accu-Chek Inform II package according to the actual identification and reporting workload. Include base units, batteries, strips, controls and administration. A familiar brand name does not make a retail meter an equivalent multipatient system. Nova’s October 5, 2026 correction concerns specified Gen 2.0 StatStrip hospital-meter models and a wrong-patient result-association risk. Its notice reports a shipment hold and a planned November software rollout; a plan is not completed remediation. Verify the exact part number, generation and current action before purchase. Do not apply that notice indiscriminately to every StatStrip product."
     ],
     [
-      "Buy a reader when its workflow earns the hardware",
-      "CLINITEK Status+ is a defined new urine-reader option with specified Siemens strips and CLINITEST hCG compatibility. A functioning McKesson Consult 120 may deserve retention when its exact strips, controls and support remain available. Confirm the actual reader identity: the 121-120 guide and current reagent listings do not prove indefinite new-analyzer production or universal compatibility with U120 accessories. A reader is not required for every added test. QuickVue hCG Urine provides a specific standalone option with regional kit numbers, 25-test packaging and 15–30°C storage; external controls are a separate supply item. Compare that complete workflow with reader-based testing at actual demand. For HbA1c, compare how quickly a clinic can use an A1CNow+ professional pack with the continuing demand needed to justify DCA Vantage. A1CNow+'s 18–28°C operating limit can be decisive at a warm site. DCA's additional albumin/creatinine capability deserves funding when the service will use it, alongside the required assay-specific controls."
-    ],
-    [
-      "Fund the complete test pathway",
-      "Stool-test purchasing illustrates the final trap: Hemoccult ICT collection cards need matching test devices/buffer and controls, while SENSA uses a different slides-and-developer method. A cheap box of collection cards is not a complete testing system. The responsible program must choose the method and fund sample return, result review and follow-up. Use the same discipline across the clinic: order enough usable stock to cover demand and planned controls, monitor expiry and temperature, and record repeats so the next purchase uses the service's own data. No comparative field-failure evidence establishes a universal best analyzer. The strongest budget choice is the supported workflow that produces the required results at a sustainable recurring cost."
+      "Buy the complete testing method",
+      "CLINITEK Status+ requires its specified compatible strips and hCG consumables. A working McKesson Consult 120 may merit retention with verified 121-120 supplies and support; do not substitute a similarly named reader’s accessories. QuickVue hCG’s 25-test package and separately identified external controls should be costed as a complete service. A1CNow+ offers a matched-kit HbA1c workflow for comparison at intermittent demand. DCA Vantage adds a dedicated platform with HbA1c and urine albumin/creatinine assays. Pay for that broader service when sustained demand uses it, including separate assay supplies and QC. Hemoccult ICT collection cards alone do not finish an immunochemical testing service: matching test devices, buffer and controls are also required. SENSA uses a different slides-and-developer method. Budget the return and follow-up pathway as well as the box. A cheap kit with no dependable reporting or referral route is an unfinished purchase."
     ]
   ],
   "related": [
     "point-of-care"
   ],
-  "socialTitle": "What does a $139 box of tests really buy?",
-  "socialDescription": "A worked Piccolo example shows why price per disc differs from cost per usable result—and how that changes a small clinic's analyzer choice.",
-  "socialHeadline": "Point-of-care testing buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Point-of-care testing: buy a result, not a box of tests",
+  "socialDescription": "Compare urgent chemistry, hemoglobin, glucose and clinic tests by useful results, complete kits and replenishment. Pack size and storage can matter more than the reader price.",
+  "socialHeadline": "Point-of-care testing: buy a result, not a box of tests",
+  "socialStrapline": "Ten tests in the box do not guarantee ten patient results.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "point-of-care",
-    "title": "Point-of-care testing buying guide",
-    "summary": "Buy a result the clinic needs soon enough to change its work. Test menus, temperature limits and usable pack quantities decide the recurring cost.",
-    "firstChoice": "For a small clinic, first fund sustainable hemoglobin, professional glucose and urine workflows. Hb 301 deserves a warm-site comparison because its stated operating and cuvette-storage range is 10–40°C.",
-    "upgradeWhen": "For urgent blood gases/basic chemistry, compare epoc with the required i-STAT cartridges. Piccolo fits routine chemistry with refrigerated discs. Add DCA Vantage when sustained demand justifies its assay and control program.",
+    "title": "Point-of-care testing: buy a result, not a box of tests",
+    "summary": "Compare urgent chemistry, hemoglobin, glucose and clinic tests by useful results, complete kits and replenishment. Pack size and storage can matter more than the reader price.",
+    "firstChoice": "List the required analytes, patient population and acceptable turnaround, then count monthly usable results. Choose the test workflow before comparing analyzer prices.",
+    "upgradeWhen": "A needed timely assay is otherwise unavailable, wider labeled temperature limits solve a real storage problem, or identification/reporting features support the actual multipatient workload.",
     "budgetWatch": "epoc cards require 15–30°C storage; Piccolo discs require 2–8°C. Include delivery conditions, expiry, controls and repeats. A low pack price means little if quiet weeks leave much of it unused.",
-    "supportCheck": "Verify exact reader, reagent and software compatibility. The reviewed October 2026 Nova action concerned specified Gen 2.0 models and an unresolved remedy, not every StatStrip device.",
+    "supportCheck": "Required storage cannot be maintained, packs will exceed affordable usable demand, or an affected model's corrective action is unresolved. An analyzer without controls and replenishment is an unfunded service.",
     "askSupplier": [
       "Which exact assays, sample types and patients does this package cover?",
       "What pack sizes, arrival expiry and control consumption should we budget?",
@@ -85,8 +81,8 @@ export default {
   },
   "research": {
     "id": "point-of-care",
-    "title": "Point-of-care testing: what a $139 box really buys",
-    "dek": "Shipping, controls, expiry and unused tests change the cost of a result. Match each analyzer to the question the clinic needs answered.",
+    "title": "Point-of-care testing: buy a result, not a box of tests",
+    "dek": "Compare urgent chemistry, hemoglobin, glucose and clinic tests by useful results, complete kits and replenishment. Pack size and storage can matter more than the reader price.",
     "verdict": "For urgent blood gases/basic chemistry, favor epoc when its menu fits and 15–30°C card storage is sustainable; choose i-STAT 1 when its specific cartridges provide the required assays. Piccolo Xpress belongs in routine chemistry with dependable 2–8°C disc storage. A small clinic may gain more usable testing from separate hemoglobin, professional glucose and urine workflows first. Hb 301 is the stronger warm-environment comparison; retain Hb 201+ where its narrower limits and existing supply chain work.",
     "coverage": [
       "Cartridge blood gas and chemistry analyzers",
@@ -107,7 +103,7 @@ export default {
         "why": "The system combines blood gases, basic metabolic analytes, hematocrit and lactate on one card. Room-temperature card storage can simplify procurement where refrigeration is the main barrier.",
         "tradeoff": "The manual's card storage range is 15–30°C; a hot room or vehicle is not automatically suitable. Card calibration precedes sample analysis, so advertised post-sample time is not the whole workflow.",
         "price": "Quote required as of 2026-10-16 for reader/host, test cards, controls, connectivity, support and delivered stock. No verified public complete offer.",
-        "support": "Current manufacturer system page and manual opened. Country availability, service response and card supply remain unconfirmed.",
+        "support": "Current manufacturer system page and manual available. Country availability, service response and card supply remain unconfirmed.",
         "sourceIds": [
           "epoc",
           "epoc-manual"
@@ -118,8 +114,8 @@ export default {
         "position": "Menu-driven cartridge alternative",
         "bestFor": "A service that specifically needs supported i-STAT cartridge assays and can maintain their individual storage/QC requirements.",
         "why": "Its cartridge families allow selection around the required test menu. This can justify its recurring consumable cost when the result serves a time-sensitive need that another shortlisted platform cannot meet.",
-        "tradeoff": "Each cartridge type has its own conditions and intended use. An old generalized expiry complaint cannot replace current SKU/lot instructions; multiple cartridge families also multiply stock and QC obligations.",
-        "price": "Hardware quote required. MedicalRite's opened page on 2026-10-16 listed CHEM8+ 09P31-26, box of 25, at US$537.99 (about $21.52 each before waste and any additional charges). The page simultaneously said sold out and in stock, so availability is unconfirmed.",
+        "tradeoff": "Each cartridge has its own intended use and storage instructions. Multiple cartridge families create separate stock, expiry and QC obligations; compare the exact assay basket the service needs.",
+        "price": "Hardware quote required. MedicalRite's listing on 2026-10-16 listed CHEM8+ 09P31-26, box of 25, at US$537.99 (about $21.52 each before waste and any additional charges). The page simultaneously said sold out and in stock, so availability is unconfirmed.",
         "support": "Current Abbott product/documentation resources verified. Regional cartridge availability and servicing of a donated or used handheld need confirmation.",
         "sourceIds": [
           "istat",
@@ -133,7 +129,7 @@ export default {
         "bestFor": "A low-volume fixed clinic that benefits from a chemistry panel and can refrigerate discs.",
         "why": "Manufacturer information describes a compact panel-based chemistry workflow using 100 µL samples and approximately 12-minute analysis. It can reduce manual reagent preparation for a small service.",
         "tradeoff": "Discs require 2–8°C storage; the instrument is not a substitute for a blood-gas analyzer. External QC, expired stock and the exact desired panel affect cost.",
-        "price": "Analyzer quote required. CLIAwaived's opened page on 2026-10-16 listed Comprehensive Metabolic discs ABBT-07P02-08 at US$139/10 plus $30 shipping/handling per item, and required a valid CLIA number. This US offer is not a destination-country supply commitment.",
+        "price": "Analyzer quote required. CLIAwaived's listing on 2026-10-16 listed Comprehensive Metabolic discs ABBT-07P02-08 at US$139/10 plus $30 shipping/handling per item, and required a valid CLIA number. This US offer is not a destination-country supply commitment.",
         "support": "Official product FAQ and support information verified. Destination supply, regulatory status, warranty and cold-chain delivery remain unconfirmed.",
         "sourceIds": [
           "piccolo",
@@ -156,7 +152,7 @@ export default {
         "model": "HemoCue Hb 201+ System",
         "position": "Keep where the established workflow fits",
         "bestFor": "An existing service that can meet the product's environmental and supply requirements.",
-        "why": "A current manufacturer page supports continued evaluation of the old recommendation. Existing familiarity and stock may make retention more economical than replacing a functioning unit.",
+        "why": "Existing familiarity and a dependable supply of matching cuvettes can make retention economical when the working unit remains suitable.",
         "tradeoff": "The manufacturer specifies 15–30°C operation and unopened cuvette storage; opened-vial stability is three months under the stated conditions. This matters for hot sites and intermittent clinics.",
         "price": "Quote required as of 2026-10-16; compare cuvette pack sizes and usable quantities, not only instrument acquisition.",
         "support": "Current product information verified; no local repair commitment or comparative failure-rate advantage established.",
@@ -181,7 +177,7 @@ export default {
         "model": "Roche Accu-Chek Inform II System",
         "position": "Connected professional glucose alternative",
         "bestFor": "A multipatient service that values patient/operator identification and can support the related infrastructure.",
-        "why": "This is a professional system with its own test-strip and control ecosystem, providing a concrete alternative to the old generic retail Accu-Chek suggestion.",
+        "why": "A professional multipatient glucose platform with its own strips, controls and connected workflow. The added infrastructure becomes useful when identification and result management justify it.",
         "tradeoff": "Meters, base units, batteries, connectivity and data administration may exceed the needs of a very small clinic. A cheap consumer meter is not an equivalent package.",
         "price": "Quote required as of 2026-10-16 for actual meter/base/connectivity configuration plus strips, controls and maintenance.",
         "support": "Current Roche product information verified; destination-country availability, service and current serial/software field-action status require confirmation.",
@@ -193,7 +189,7 @@ export default {
         "model": "Siemens CLINITEK Status+",
         "position": "Defined new urine-reader option",
         "bestFor": "A clinic seeking a defined supported reader/strip system with consistent documentation.",
-        "why": "The platform supports specified Siemens urine strips and CLINITEST hCG testing. Its strip checks and automated reading provide a concrete capability comparison with the old McKesson option.",
+        "why": "The platform supports specified Siemens urine strips and CLINITEST hCG testing, with automated reading and strip checks.",
         "tradeoff": "Strip compatibility is specific; it is not a universal reader. Controls, pack expiry, printer supplies and suitable room conditions still belong in the budget.",
         "price": "Quote required as of 2026-10-16 for reader, chosen strips/hCG cassettes, controls and power accessories.",
         "support": "Current manufacturer page and product support route verified; local assay availability and servicing unconfirmed.",
@@ -218,8 +214,8 @@ export default {
         "model": "PTS Diagnostics A1CNow+",
         "position": "Intermittent HbA1c comparison",
         "bestFor": "A small clinic offering supported HbA1c monitoring where kit quantities match demand.",
-        "why": "The current PTS product provides a specific successor reference for the old HbA1cNow mention. A kit-based approach deserves comparison before buying a permanent dedicated analyzer.",
-        "tradeoff": "The opened professional insert specifies operation at 18–28°C. Keep matched kit components, expiry and the approved intended use in view; this is not a replacement for immediate glucose or a hemoglobin meter.",
+        "why": "A kit-based HbA1c approach deserves comparison before committing a low-volume clinic to a dedicated analyzer.",
+        "tradeoff": "The professional insert specifies 18–28°C operation and matched kit components. This is a different testing job from immediate glucose or hemoglobin measurement.",
         "price": "Quote required as of 2026-10-16 for the exact professional pack, controls and delivered expiry; no verified public price used.",
         "support": "Current manufacturer page and professional instructions verified; regional supply and suitability for the intended monitoring program need confirmation.",
         "sourceIds": [
@@ -255,7 +251,7 @@ export default {
         "model": "Beckman Coulter Hemoccult ICT or Hemoccult SENSA, exact regional kit",
         "position": "Program-specific stool-testing comparison",
         "bestFor": "An organized service with appropriate test selection, sample return and follow-up arrangements.",
-        "why": "The current US distributor lists both immunochemical ICT and guaiac SENSA families. This turns the old generic cards-and-developer item into an explicit choice of test method.",
+        "why": "The identified ICT and SENSA families provide a choice between immunochemical and guaiac testing methods, each with its own complete supply package.",
         "tradeoff": "ICT collection cards require matching test devices/buffer and controls; SENSA has its own slides/developer. These are not interchangeable, and a box of collection cards alone is not a complete testing system.",
         "price": "Quote required as of 2026-10-16 for the entire selected patient-kit/test-device/control workflow. No verified public delivered price.",
         "support": "Current distributor/manufacturer-family information verified; local authorization, supply and program suitability remain unconfirmed.",
@@ -266,21 +262,10 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Follow the $139 box through the budget",
+        "heading": "Put the required result before the analyzer",
         "paragraphs": [
-          "The opened CLIAwaived offer for ten Piccolo Comprehensive Metabolic discs is US$139 plus US$30 shipping/handling per item, checked October 16, 2026. That makes the listed pack US$169, or US$16.90 per disc if all ten produce usable patient results, before tax, controls and other costs. The offer requires a valid CLIA number; it is a US price anchor, not an export supply commitment.",
-          "Now change only the denominator. In an illustrative scenario where eight of those discs produce usable patient results, the same US$169 becomes US$21.13 per result. This is arithmetic, not an observed waste or failure rate. It shows why a small clinic should compare delivered packs and realistically usable quantities. MedicalRite's US$537.99 offer for 25 i-STAT CHEM8+ cartridges gives approximately US$21.52 each before additions, but the panels and seller terms differ and the page's availability statements conflict. These are separate budget examples, not evidence that one assay platform is cheaper for equivalent care."
-        ],
-        "sourceIds": [
-          "piccolo-price",
-          "istat-price"
-        ]
-      },
-      {
-        "heading": "Choose the result the service needs",
-        "paragraphs": [
-          "An urgent blood-gas requirement points toward epoc or appropriate i-STAT cartridges. Routine chemistry panels point toward a different comparison that includes Piccolo. Start with analytes, sample types, intended patients and acceptable turnaround. Buying a broad analyzer to repeat work a nearby reliable laboratory already supplies may consume funds without closing a service gap.",
-          "epoc's room-temperature cards are useful when refrigeration is the obstacle, but their 15–30°C storage limit still requires control. A hot vehicle is not suitable merely because the cards are described as room-temperature products. Piccolo discs require 2–8°C storage. Account for those conditions during delivery and storage as well as on the testing day. For epoc, card calibration also precedes sample analysis, so post-sample timing does not describe the whole workflow."
+          "An urgent blood-gas service, a routine chemistry clinic and an intermittent diabetes clinic have different purchasing jobs. Select the required analytes, intended patient population and acceptable turnaround first. A broader panel adds value only when the results are needed and the staff can maintain its quality program.",
+          "Compare epoc for an urgent service whose menu fits its combined card; compare i-STAT 1 when particular supported cartridges supply needed assays. Epoc card storage is 15–30°C, not unrestricted tropical storage, and calibration precedes sample analysis. Piccolo Xpress belongs in routine chemistry with 2–8°C disc storage. A short published analysis time does not include every preparation, calibration or reporting step."
         ],
         "sourceIds": [
           "epoc",
@@ -291,26 +276,38 @@ export default {
         ]
       },
       {
-        "heading": "Start a small clinic with the tests it can sustain",
+        "heading": "A $13.90 disc can cost $21.13 per usable panel",
         "paragraphs": [
-          "Treat hemoglobin, glucose and urine as distinct services with their own supplies and quality control. Hb 301's stated 10–40°C operation and cuvette-storage range gives it a tangible reason to lead a warm-site comparison. Hb 201+ can remain the economical choice where its 15–30°C limits fit and replenishment already works. Its stated three-month opened-vial stability also matters when use is intermittent.",
-          "For glucose, specify the professional multipatient setting and intended patient population before comparing meters. Xpress 2 offers simpler data handling; Inform II supports a more connected professional workflow. Include strips, controls, approved cleaning, identification and any base or network costs. A low retail-meter price does not establish an equivalent clinic setup.",
-          "Keep the October 5, 2026 Nova notice attached to the exact affected Gen 2.0 hospital-meter models: it describes a wrong-patient-result risk, shipment hold and a software remedy still being developed in that notice. Do not assume the remedy is complete or extend the action to every StatStrip variant. Model and software identification are buying facts, not administrative details."
+          "A US CLIAwaived offer dated October 16, 2026 listed ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08) for $139, plus $30 shipping/handling per item. One such pack therefore costs $169 before other expenses: $16.90 per purchased disc. If only eight discs produce accepted patient panels, that same purchase costs $21.13 per usable patient panel before controls, collection supplies and instrument expense. Eight usable panels is an illustration, not an observed waste rate; this is not a price per individual analyte.",
+          "MedicalRite’s dated CHEM8+ offer was $537.99 for 25 cartridges, about $21.52 each before other charges. Different menus and uses prevent a price-only winner between these products. The seller also displayed conflicting availability text. The Piccolo offer required a US CLIA number; neither listing establishes destination-country supply.",
+          "Build the annual basket from delivered packs and expected accepted results, including the quiet months. Count all purchased packs once: reagent used for controls, repeats or lost to expiry is already inside that expenditure. Add separate controls and other costs where genuinely additional, then divide by results from the same period."
+        ],
+        "sourceIds": [
+          "piccolo-price",
+          "istat-price"
+        ]
+      },
+      {
+        "heading": "Small dedicated tests can be the better first investment",
+        "paragraphs": [
+          "For hemoglobin, Hb 301’s published 10–40°C operating and cuvette-storage range provides a concrete warm-site comparison with Hb 201+ at 15–30°C. Keep an accepted Hb 201+ where its conditions, opened-vial limits and supply work. A new reader is poor value if its cuvettes are harder to replenish.",
+          "For professional glucose testing, compare the simpler StatStrip Xpress 2 configuration with a connected Accu-Chek Inform II package according to the actual identification and reporting workload. Include base units, batteries, strips, controls and administration. A familiar brand name does not make a retail meter an equivalent multipatient system.",
+          "Nova’s October 5, 2026 correction concerns specified Gen 2.0 StatStrip hospital-meter models and a wrong-patient result-association risk. Its notice reports a shipment hold and a planned November software rollout; a plan is not completed remediation. Verify the exact part number, generation and current action before purchase. Do not apply that notice indiscriminately to every StatStrip product."
         ],
         "sourceIds": [
           "hb301",
           "hb201",
           "nova",
-          "nova-correction",
-          "roche"
+          "roche",
+          "nova-correction"
         ]
       },
       {
-        "heading": "Buy a reader when its workflow earns the hardware",
+        "heading": "Buy the complete testing method",
         "paragraphs": [
-          "CLINITEK Status+ is a defined new urine-reader option with specified Siemens strips and CLINITEST hCG compatibility. A functioning McKesson Consult 120 may deserve retention when its exact strips, controls and support remain available. Confirm the actual reader identity: the 121-120 guide and current reagent listings do not prove indefinite new-analyzer production or universal compatibility with U120 accessories.",
-          "A reader is not required for every added test. QuickVue hCG Urine provides a specific standalone option with regional kit numbers, 25-test packaging and 15–30°C storage; external controls are a separate supply item. Compare that complete workflow with reader-based testing at actual demand.",
-          "For HbA1c, compare how quickly a clinic can use an A1CNow+ professional pack with the continuing demand needed to justify DCA Vantage. A1CNow+'s 18–28°C operating limit can be decisive at a warm site. DCA's additional albumin/creatinine capability deserves funding when the service will use it, alongside the required assay-specific controls."
+          "CLINITEK Status+ requires its specified compatible strips and hCG consumables. A working McKesson Consult 120 may merit retention with verified 121-120 supplies and support; do not substitute a similarly named reader’s accessories. QuickVue hCG’s 25-test package and separately identified external controls should be costed as a complete service.",
+          "A1CNow+ offers a matched-kit HbA1c workflow for comparison at intermittent demand. DCA Vantage adds a dedicated platform with HbA1c and urine albumin/creatinine assays. Pay for that broader service when sustained demand uses it, including separate assay supplies and QC.",
+          "Hemoccult ICT collection cards alone do not finish an immunochemical testing service: matching test devices, buffer and controls are also required. SENSA uses a different slides-and-developer method. Budget the return and follow-up pathway as well as the box. A cheap kit with no dependable reporting or referral route is an unfinished purchase."
         ],
         "sourceIds": [
           "clinitek",
@@ -319,24 +316,13 @@ export default {
           "hcg",
           "a1c",
           "a1c-ifu",
-          "dca"
-        ]
-      },
-      {
-        "heading": "Fund the complete test pathway",
-        "paragraphs": [
-          "Stool-test purchasing illustrates the final trap: Hemoccult ICT collection cards need matching test devices/buffer and controls, while SENSA uses a different slides-and-developer method. A cheap box of collection cards is not a complete testing system. The responsible program must choose the method and fund sample return, result review and follow-up.",
-          "Use the same discipline across the clinic: order enough usable stock to cover demand and planned controls, monitor expiry and temperature, and record repeats so the next purchase uses the service's own data. No comparative field-failure evidence establishes a universal best analyzer. The strongest budget choice is the supported workflow that produces the required results at a sustainable recurring cost."
-        ],
-        "sourceIds": [
-          "occult",
-          "istat-docs",
-          "piccolo"
+          "dca",
+          "occult"
         ]
       }
     ],
     "ownership": {
-      "equation": "Cost per reportable patient result = (instrument allocation + delivered test packs + controls/calibrators + storage/temperature monitoring + collection and cleaning supplies + repeats/expiry + service and reporting) ÷ accepted patient results.",
+      "equation": "Cost per accepted patient result over one stated period = (instrument cost allocated to that period + all delivered test/control/calibrator packs + storage/monitoring + collection/cleaning + service/reporting during the period) / accepted patient results in the same period. Purchased packs already include the consumables lost to QC, repeats and expiry; do not add them twice. Calculate each workflow separately, defining its output as a usable patient panel or an individual assay as appropriate. Do not pool unlike tests or compare different panels as equivalent results.",
       "drivers": [
         "Cold-chain freight and refrigeration for applicable products; specified room-temperature storage is still temperature controlled",
         "Minimum pack sizes, expiry at receipt, open-vial stability and low-volume waste",
@@ -353,11 +339,10 @@ export default {
       "Who owns quality control, result review, referral and follow-up for each added test?"
     ],
     "gaps": [
-      "No current comparative field failure-rate study establishes a universal most-reliable POC platform.",
-      "Most hardware prices and all destination service/consumable commitments remain quote-only.",
-      "Public US reagent offers do not establish export eligibility; MedicalRite availability text is contradictory.",
-      "McKesson 121-120 current new-production/support duration was not confirmed.",
-      "The Nova October 2026 correction remained unresolved in the opened notice; completion of a later software remedy has not been verified."
+      "Destination prices, assay availability and repair coverage require exact regional confirmation.",
+      "No comparative field failure-rate evidence establishes a universally most-reliable platform.",
+      "McKesson 121-120 new production and support duration remain unconfirmed.",
+      "Nova’s October 5 notice does not establish completion of the planned software remedy; affected configurations remain conditional."
     ],
     "sources": [
       {
@@ -403,7 +388,7 @@ export default {
         "publisher": "MedicalRite",
         "kind": "seller listing",
         "accessed": "2026-10-16",
-        "evidence": "Opened body: 09P31-26 at $537.99/25; conflicting sold-out/in-stock statements."
+        "evidence": "Dated seller offer: 09P31-26 at $537.99/25; conflicting sold-out/in-stock statements."
       },
       {
         "id": "piccolo",
@@ -421,7 +406,7 @@ export default {
         "publisher": "CLIAwaived",
         "kind": "seller listing",
         "accessed": "2026-10-16",
-        "evidence": "Opened body: ABBT-07P02-08 at $139/10 plus $30 fee per item and CLIA-license requirement."
+        "evidence": "Dated seller offer: ABBT-07P02-08 at $139/10 plus $30 fee per item and CLIA-license requirement."
       },
       {
         "id": "hb301",
@@ -456,8 +441,8 @@ export default {
         "url": "https://www.novabiomedical.com/blog/2026/10/05/nova-biomedical-announces-global-medical-device-correction-for-statstrip-glucose-hospital-meter/",
         "publisher": "Nova Biomedical",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "Gen 2.0 specified models: patient-ID software risk, shipment hold and planned remedy not yet completed in notice."
+        "accessed": "2026-10-18",
+        "evidence": "October 5 notice identifies Gen 2.0 part numbers, wrong-patient association risk, shipment hold and planned November remedy; no completed remedy established."
       },
       {
         "id": "roche",
@@ -586,10 +571,12 @@ export default {
       }
     ],
     "social": {
-      "title": "What does a $139 box of tests really buy?",
-      "description": "A worked Piccolo example shows why price per disc differs from cost per usable result—and how that changes a small clinic's analyzer choice.",
-      "hook": "Ten discs do not guarantee ten patient results. Put freight, controls and unused stock into the arithmetic."
-    }
+      "title": "Point-of-care testing: buy a result, not a box of tests",
+      "description": "Compare urgent chemistry, hemoglobin, glucose and clinic tests by useful results, complete kits and replenishment. Pack size and storage can matter more than the reader price.",
+      "hook": "Ten tests in the box do not guarantee ten patient results."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Cartridge blood gas and chemistry analyzers Routine chemistry discs and cold chain Hemoglobin meters Professional glucose meters and patient identification Urinalysis readers and strips HbA1c monitoring Urine pregnancy tests Fecal occult blood testing QC, expiry, storage and cost per reportable result Siemens epoc Blood Analysis System Abbott i-STAT 1 Abbott Piccolo Xpress HemoCue Hb 301 System HemoCue Hb 201+ System Nova StatStrip Xpress 2 Glucose Roche Accu-Chek Inform II System Siemens CLINITEK Status+ McKesson Consult 120, 121-120 PTS Diagnostics A1CNow+ Siemens DCA Vantage QuidelOrtho QuickVue hCG Urine, 20109 US / 20109IN international Beckman Coulter Hemoccult ICT or Hemoccult SENSA, exact regional kit"
+  "searchTerms": "Point-of-care testing: buy a result, not a box of tests Cartridge blood gas and chemistry analyzers Routine chemistry discs and cold chain Hemoglobin meters Professional glucose meters and patient identification Urinalysis readers and strips HbA1c monitoring Urine pregnancy tests Fecal occult blood testing QC, expiry, storage and cost per reportable result Siemens epoc Blood Analysis System Abbott i-STAT 1 Abbott Piccolo Xpress HemoCue Hb 301 System HemoCue Hb 201+ System Nova StatStrip Xpress 2 Glucose Roche Accu-Chek Inform II System Siemens CLINITEK Status+ McKesson Consult 120, 121-120 PTS Diagnostics A1CNow+ Siemens DCA Vantage QuidelOrtho QuickVue hCG Urine, 20109 US / 20109IN international Beckman Coulter Hemoccult ICT or Hemoccult SENSA, exact regional kit",
+  "librarySection": "equipment"
 };
