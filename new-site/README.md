@@ -20,6 +20,8 @@ The footer displays the package version. Bump it before preparing a release.
 
 ## Version 1.8.0 buyer library
 
+Version 1.8.1 bundles the original IBM Plex desktop font for share-card rendering on Linux and Windows. Pull requests now regenerate every card and verify the complete production build on Linux before release; the existing main-branch deployment remains unchanged.
+
 The library contains 104 articles: 89 detailed research guides and 15 department, planning and purchasing articles. This release revises the 61 existing articles and adds 43, preserving existing URLs and all 35 department equipment anchors. Readers can search all articles or filter by topic. Short equipment terms such as CT match whole words. Related guides connect equipment selection to installation, supplies, service and ownership costs.
 
 Article bodies are pre-rendered for search and no-JavaScript reading, with separate lazy data modules for enhanced navigation. `research-guide-index.generated.mjs` is the compact registry; `research-pages/` holds full research articles; `legacy-article-revisions.generated.mjs` supplies the remaining 15. Review dates identify content review, not invented original publication dates. Structured data includes MMS organization authorship, article categories, modification dates and breadcrumb trails. The sitemap uses the same modification dates.

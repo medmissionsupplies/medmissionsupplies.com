@@ -12,12 +12,14 @@ import { socialContentFor, socialImagePath, socialImageSize } from '../src/socia
 // Webpage photographs continue through the separate responsive WebP pipeline.
 const root = fileURLToPath(new URL('../', import.meta.url));
 const output = path.join(root, 'public/assets/social');
-const fontRoot = path.join(root, 'node_modules/@ibm/plex/IBM-Plex-Sans/fonts/complete/woff');
-const fontFile = path.join(fontRoot, 'IBMPlexSans-SemiBold.woff');
+// Pango/fontconfig must be able to load the font on both Linux and Windows.
+// Use the bundled desktop TTF, not a web-only WOFF or a machine's fallback font.
+const fontFile = path.join(root, 'scripts/fonts/IBMPlexSans-SemiBold.ttf');
+const force = process.argv.includes('--force');
 const logoInput = await readFile(path.join(root, 'public/assets/mms-logo.png'));
 const logo = await sharp(logoInput).trim().resize(86, 86).png().toBuffer();
 const generatorHash = createHash('sha256')
-  .update(await readFile(fileURLToPath(import.meta.url)))
+  .update((await readFile(fileURLToPath(import.meta.url), 'utf8')).replaceAll('\r\n', '\n'))
   .update(logoInput)
   .update(await readFile(fontFile))
   .digest('hex');
@@ -30,12 +32,12 @@ const xml = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt
 // Pango uses the bundled IBM Plex fonts, and reports actual pixel bounds.
 // Keep type within its own box; do not crop or guess character widths.
 async function textLayer(value, { x, y, width, height, size, color = '#ffffff', minimum = size }) {
-  for (let current = size; current >= minimum; current -= 2) {
+  for (let current = size; current >= minimum; current--) {
     const layer = await sharp({ text: {
       text: `<span foreground="${color}">${xml(value)}</span>`,
       font: `IBM Plex Sans SemiBold ${current}`,
       fontfile: fontFile,
-      width, rgba: true, spacing: 2,
+      width, rgba: true, spacing: 2, dpi: 72,
     } }).png().toBuffer({ resolveWithObject: true });
     if (layer.info.width <= width && layer.info.height <= height) return { input: layer.data, left: x, top: y };
   }
@@ -63,7 +65,7 @@ for (const route of routes) {
   const image = socialImagePath(route.key);
   const target = path.join(root, 'public', image);
   let file;
-  if (previous[route.key]?.fingerprint === fingerprint) {
+  if (!force && previous[route.key]?.fingerprint === fingerprint) {
     try { file = await stat(target); } catch { /* Recreate a missing output. */ }
   }
   if (!file) {
@@ -75,8 +77,8 @@ for (const route of routes) {
       { input: photograph, left: 789, top: 130 },
       await textLayer('MED MISSION\nSUPPLIES', { x: 157, y: 62, width: 540, height: 65, size: 24, bold: true }),
       await textLayer(content.label.toUpperCase(), { x: 55, y: 181, width: 651, height: 31, size: 18, minimum: 16, color: '#ffcf75', bold: true }),
-      await textLayer(content.headline, { x: 51, y: 226, width: 658, height: 230, size: 65, minimum: 47, bold: true }),
-      await textLayer(content.strapline, { x: 55, y: 478, width: 650, height: 58, size: 23, minimum: 21, color: '#d4e5ef' }),
+      await textLayer(content.headline, { x: 51, y: 226, width: 658, height: 230, size: 65, minimum: 43, bold: true }),
+      await textLayer(content.strapline, { x: 55, y: 478, width: 650, height: 58, size: 23, minimum: 17, color: '#d4e5ef' }),
       await textLayer('medmissionsupplies.com', { x: 55, y: 578, width: 650, height: 24, size: 20, color: '#c1d5e3' }),
       await textLayer('ILLUSTRATIVE EQUIPMENT', { x: 789, y: 521, width: 333, height: 22, size: 14, color: '#516776' }),
     ];
