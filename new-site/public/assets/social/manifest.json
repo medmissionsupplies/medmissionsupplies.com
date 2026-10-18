@@ -9,1072 +9,1072 @@
       "source": "/assets/photos/operating-room.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 82471,
-      "fingerprint": "dfb41685807c743f716118215f3f438801b25245e320470b780e36792dabc5d2"
+      "bytes": 86720,
+      "fingerprint": "8726672d81be7015647f8653f1f1c677d6ca86db6fbeb775fd4764856f6b57c1"
     },
     "offerings": {
       "image": "/assets/social/offerings.jpg",
       "source": "/assets/photos/reference/ultrasound-portable.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 89383,
-      "fingerprint": "a2f65df029d0ecbc6ed81ce1bf55aab6a752b8d111b4e641168d0057323d243e"
+      "bytes": 91843,
+      "fingerprint": "58d6420fda2d3bbadccdffff9464e32f2acbd708f427f0b5044064385117d3c3"
     },
     "services": {
       "image": "/assets/social/services.jpg",
       "source": "/assets/photos/equipment-detail.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 73783,
-      "fingerprint": "fa861229bb11482b36f28c1b7948898fc66d9a4efb07df0b7a99e9a05da3cb98"
+      "bytes": 77308,
+      "fingerprint": "8f81a4ac7d3fbc0c9ef13fb9e55fe820b7a7a4bfe0faf3e5927f61208b3830f8"
     },
     "articles": {
       "image": "/assets/social/articles.jpg",
       "source": "/assets/photos/guides/anesthesia.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 94127,
-      "fingerprint": "24b08e9c9f8e5d429c4eb0f5712b74db4870486091c21d0ce75491f60abb7a36"
+      "bytes": 97121,
+      "fingerprint": "d8aea1397a1c75f93a4cf9951693942a2fc9ba984d11d3d0206b6140d03cedd1"
     },
     "about": {
       "image": "/assets/social/about.jpg",
       "source": "/assets/photos/operating-room.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 81000,
-      "fingerprint": "a300ada30f90498a101049ce4488c96a0c1caa567e959c5fc6ead9dd4c1c68ea"
+      "bytes": 84343,
+      "fingerprint": "8118f3e3c52a4085e1b4e710cc8471aef198eb8bc9d308559b38263dba0b0328"
     },
     "employment": {
       "image": "/assets/social/employment.jpg",
       "source": "/assets/photos/laboratory.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 86110,
-      "fingerprint": "573b172cc9d9b7cc8e9006310370c24b771e5cb436bfca79a2827a47cc64d284"
+      "bytes": 88477,
+      "fingerprint": "c9df23218352d28c9d94414f571a7c97e1cdce4d20fb6bbce001f664433a18f0"
     },
     "contact": {
       "image": "/assets/social/contact.jpg",
       "source": "/assets/photos/reference/ultrasound-portable.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 89152,
-      "fingerprint": "1cb45f027afc47b34208cd25aef5dc917811833f474e53375f9e29e2fa57351e"
+      "bytes": 90482,
+      "fingerprint": "fab997270f379f2a07954dd5cfb2b6b2d0ca8e3831f743ef67a7669eb876709f"
     },
     "equipment-ultrasound": {
       "image": "/assets/social/equipment-ultrasound.jpg",
       "source": "/assets/photos/reference/ultrasound-portable.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 76596,
-      "fingerprint": "fc42fb1ee8458a96bb3bd10c576fc929b9cd373b636f39c36854b1548e1c97ad"
+      "bytes": 77873,
+      "fingerprint": "3af5e8dd793b2390ad1306d48cc3280428fb9b830dbbeebe26f07124d6f3b942"
     },
     "equipment-xray": {
       "image": "/assets/social/equipment-xray.jpg",
       "source": "/assets/photos/reference/c-arm.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 79243,
-      "fingerprint": "949ca6aca9cd42b8febccff9ea99413f2c19353a97dd2e657c9cf47134dec91b"
+      "bytes": 81447,
+      "fingerprint": "e74adbba4d862a24cccc74f1fed3adfddc765a45f64fa87a71da737202ba9b9b"
     },
     "equipment-ct-mri": {
       "image": "/assets/social/equipment-ct-mri.jpg",
       "source": "/assets/photos/ct-mri.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 86537,
-      "fingerprint": "a40105f7d3724a60d0458739d2c63a30b836b36fe5c70481a8b5ffa8cdcd99c1"
+      "bytes": 89379,
+      "fingerprint": "131b3a05d5c61154d34818cef47c3588c5d69238c90689aac02ee2c2464a28f1"
     },
     "equipment-anesthesia": {
       "image": "/assets/social/equipment-anesthesia.jpg",
       "source": "/assets/photos/reference/anesthesia-workstation.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 79507,
-      "fingerprint": "7d77e6a88d0001d2976c159d356ab51e58076b15324d662121ae75b3be3f4ddc"
+      "bytes": 82561,
+      "fingerprint": "93e882805523a8f7ef7ae2b62674867a46e9743ca52c5d830567b9d5fe06eb47"
     },
     "equipment-surgical-tables": {
       "image": "/assets/social/equipment-surgical-tables.jpg",
       "source": "/assets/photos/xray.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 80919,
-      "fingerprint": "b509575c916f1f84d2b8056f5889c114caeb6e2e7285776e018784443c1ad67d"
+      "bytes": 82988,
+      "fingerprint": "c08b8deaf7acc0f391ac56d0d17a40784685001d34ea96f9756861b01a3a4e54"
     },
     "equipment-endoscopy": {
       "image": "/assets/social/equipment-endoscopy.jpg",
       "source": "/assets/photos/reference/endoscopy-system.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 83191,
-      "fingerprint": "867f02a93be479a3f4e841100467c5404047653598b5b173ea91864073f3625f"
+      "bytes": 85054,
+      "fingerprint": "df92a38a02133ae75791c52db5a05db3a315ca0da739adfd38df97d4b69655b6"
     },
     "equipment-ventilators": {
       "image": "/assets/social/equipment-ventilators.jpg",
       "source": "/assets/photos/reference/icu-ventilator.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 77192,
-      "fingerprint": "77f2f5a2635c4d1c36bb7d96df5c4f0237e5fe1e797a93371387856692ecb6b0"
+      "bytes": 79602,
+      "fingerprint": "cfee2d644b68cd70ab8aed969099e527512f66264355cf4df2806f7812cbb0f0"
     },
     "equipment-ekg": {
       "image": "/assets/social/equipment-ekg.jpg",
       "source": "/assets/photos/reference/patient-monitor.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 80569,
-      "fingerprint": "1e2512fa0a6f1ea380098a69200711c07793dccbdd24523e2f642014684f96c3"
+      "bytes": 83368,
+      "fingerprint": "303476f4a5e2acacf16089118368ad40fb50cb6e9902384a4de4f8a809ef3960"
     },
     "equipment-neonatal": {
       "image": "/assets/social/equipment-neonatal.jpg",
       "source": "/assets/photos/neonatal.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 84109,
-      "fingerprint": "540fc5a64168a3b1bf0c4d17519ac6ce4d69393d2b0119b9c3b6a9beea2c5c32"
+      "bytes": 86244,
+      "fingerprint": "b6650f004628d7e773f183b2b84d8c8e3ab0445f69476a76a232b37a492e5a8b"
     },
     "equipment-laboratory": {
       "image": "/assets/social/equipment-laboratory.jpg",
       "source": "/assets/photos/reference/chemistry.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 78147,
-      "fingerprint": "143b06f53aa568a9a37483de7ec6f2286257a05bc53df31c4a8c5eef5af84d3f"
+      "bytes": 80341,
+      "fingerprint": "5b21c0880e26a5b0c843a060c79834c926e868c116e28bf0dc1806236747816c"
     },
     "equipment-sterilization": {
       "image": "/assets/social/equipment-sterilization.jpg",
       "source": "/assets/photos/sterilization.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 78481,
-      "fingerprint": "6ee053ff7db0bbb5ef1e1936a9f40f7d3441478be1d7dd182dc32cc5026914d4"
+      "bytes": 81485,
+      "fingerprint": "1476a29135a4033754f527f2e3984e70e511b2d317cc80e127e73b4519442a16"
     },
     "equipment-beds": {
       "image": "/assets/social/equipment-beds.jpg",
       "source": "/assets/photos/beds.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 87968,
-      "fingerprint": "7474d0dbdb1de84cf69e6235a795b959dd50ba97e6f78eb3abe871f584a758fa"
+      "bytes": 90930,
+      "fingerprint": "442c490392fff8295db38c80094407515952efb7b07e71dccbb86abfad43d5ee"
     },
     "equipment-electrosurgery": {
       "image": "/assets/social/equipment-electrosurgery.jpg",
       "source": "/assets/photos/reference/electrosurgery.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 89511,
-      "fingerprint": "2d45fc63bab6bbf8f901efc40132bb9ad750287a4a480a52f138fa3574ec5c3f"
+      "bytes": 92646,
+      "fingerprint": "3124c414c1be7d0ef704e3f1f73c131d2f27ae73bd0f9ee1a83d4c360a337d46"
     },
     "equipment-surgical-microscopes": {
       "image": "/assets/social/equipment-surgical-microscopes.jpg",
       "source": "/assets/photos/reference/surgical-microscope.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 74868,
-      "fingerprint": "c364dcc9feb41539d345eb399b84db1a19aca21988ca1ea0d17129e2201f9e67"
+      "bytes": 77086,
+      "fingerprint": "18947fd468e7da969daaa65b435e8df5385454b72af2c0bde51c77663ea79dcb"
     },
     "equipment-airway": {
       "image": "/assets/social/equipment-airway.jpg",
       "source": "/assets/photos/reference/airway.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 69013,
-      "fingerprint": "c522cd7a176176237d829535d74f7ee19748a67922721e23c8c5caea85c05c19"
+      "bytes": 72341,
+      "fingerprint": "4850481e23c795344c3fd8669785639ae750cd080fecfd79ffcb2a89354e08c5"
     },
     "equipment-oxygen": {
       "image": "/assets/social/equipment-oxygen.jpg",
       "source": "/assets/photos/reference/oxygen.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 91893,
-      "fingerprint": "0e93101b8b33528e9f323efceda5270eb571f05ee0f9ec7392ea4ab28285346e"
+      "bytes": 94545,
+      "fingerprint": "97b2ad6573d140f1722ba92b56a5da53d991ff38690e5109674640c4cfa5c221"
     },
     "equipment-infusion": {
       "image": "/assets/social/equipment-infusion.jpg",
       "source": "/assets/photos/reference/infusion.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 91579,
-      "fingerprint": "fa2a7874ad03e016bc55a5ece6b613c955a79c1666642dc759cfdaa80e1043df"
+      "bytes": 93849,
+      "fingerprint": "4fe5e9f58f9c0f708d536c9cad8428e192220b0cf9ed05cbb8bdaf9d03e4a8f8"
     },
     "equipment-suction": {
       "image": "/assets/social/equipment-suction.jpg",
       "source": "/assets/photos/reference/suction.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 75650,
-      "fingerprint": "cd5e651ca4b423c6f81d82ef230362fd197c22a4a152bce52d64df73f777676e"
+      "bytes": 78244,
+      "fingerprint": "70dd97a2ae3a7d0b3ec1af4f7e2e53ae48b2a2be3396bcfe2a436aecf00b1fa9"
     },
     "equipment-point-of-care": {
       "image": "/assets/social/equipment-point-of-care.jpg",
       "source": "/assets/photos/reference/point-of-care.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 72074,
-      "fingerprint": "e81ce26fab3c2ae9b637699110bcdbf2d599a63b841a80d04219dd6c6b12b437"
+      "bytes": 74938,
+      "fingerprint": "2f3f058ed762b88b06667e1441e6e3c12f4ff798f86e2e5e89756069b345cc8c"
     },
     "equipment-ophthalmology": {
       "image": "/assets/social/equipment-ophthalmology.jpg",
       "source": "/assets/photos/reference/retinal-camera.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 82835,
-      "fingerprint": "ee64441f0cf8e6376c21967ece6a595f44045483799400948e728c666b5f1439"
+      "bytes": 84821,
+      "fingerprint": "9ebd43b17ad5635af0fc65586ae32f1cda7f061a5cb1f3afa2f6f50c373d308d"
     },
     "equipment-clinical-essentials": {
       "image": "/assets/social/equipment-clinical-essentials.jpg",
       "source": "/assets/photos/reference/otoscope.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 78473,
-      "fingerprint": "2558647be476b910807f8d37f8d991885c6a306529b5075ddb2d0da2b4d6a8fe"
+      "bytes": 81111,
+      "fingerprint": "75b428f05f810ac024a44cda047311a42ab41f5b877df25987819892fd3a59be"
     },
     "equipment-refrigeration": {
       "image": "/assets/social/equipment-refrigeration.jpg",
       "source": "/assets/photos/refrigeration.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 96121,
-      "fingerprint": "c3b9756607c89da77878fa9281e61653dafc539192abd72b1ebca8b60aeb258c"
+      "bytes": 98745,
+      "fingerprint": "cf7972724732699db0bfd139b1985febfc872a3177eeb87e5ed1b4bcf80ff670"
     },
     "equipment-dialysis": {
       "image": "/assets/social/equipment-dialysis.jpg",
       "source": "/assets/photos/dialysis.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 85312,
-      "fingerprint": "eccbbf6e20b9fb538ec13529f55a129c2192d38619623798f5fecad530600b6b"
+      "bytes": 87409,
+      "fingerprint": "1a3448b6043a42b18194db4590cae9eda119e5df21e57efd04e98512e9c9f0e6"
     },
     "article-ultrasound-buying-guide": {
       "image": "/assets/social/article-ultrasound-buying-guide.jpg",
       "source": "/assets/photos/guides/ultrasound.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 110718,
-      "fingerprint": "fa9ffceb8b01157f809d97e0949288556ab5848383295023daed5e9bc6ad175f"
+      "bytes": 113038,
+      "fingerprint": "2e7ab33d3bc9620c413a711003aa52407ce168523588be1290dc819f90df73e9"
     },
     "article-xray-buying-guide": {
       "image": "/assets/social/article-xray-buying-guide.jpg",
       "source": "/assets/photos/guides/xray.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 91999,
-      "fingerprint": "fc12c011170618f56976b0e99b5ffa5a04487f1342692e2ba84aff08b40fd399"
+      "bytes": 95608,
+      "fingerprint": "2e7cdeb746a9b84886814e6f56ea0d2b8e3ba531f6113d3dd5ca8e1de73d2cff"
     },
     "article-ct-mri-buying-guide": {
       "image": "/assets/social/article-ct-mri-buying-guide.jpg",
       "source": "/assets/photos/guides/ct-mri.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 104809,
-      "fingerprint": "0f6558bb2dd334ec5a0248fc1e07a85f0166d563ff47671eb02699327f5efa7d"
+      "bytes": 109803,
+      "fingerprint": "f5a0532dc7988bc1ce181af2c85eec8a5f46c281198b48c3192eddb7f471d56a"
     },
     "article-surgical-tables-buying-guide": {
       "image": "/assets/social/article-surgical-tables-buying-guide.jpg",
       "source": "/assets/photos/guides/surgical-tables.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 101252,
-      "fingerprint": "f1f3f6b7e9751ba42a692c6404f33458ee4e705e6e81edd28527689b57f06a31"
+      "bytes": 107153,
+      "fingerprint": "3a480aae8898934444143ac30b9f0bd61a34fa795ea845e96e24e42c04c00c92"
     },
     "article-surgical-microscopes-buying-guide": {
       "image": "/assets/social/article-surgical-microscopes-buying-guide.jpg",
       "source": "/assets/photos/guides/surgical-microscopes.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 117060,
-      "fingerprint": "136e34ff8049939fbcebf6b553375e21680677f1003ed7091f6ae6b5d49c7bbb"
+      "bytes": 122262,
+      "fingerprint": "e72706a451de40c81825c33eb482fdedfc48ac30fa1e52c610aa0cb631394b68"
     },
     "article-ophthalmology-buying-guide": {
       "image": "/assets/social/article-ophthalmology-buying-guide.jpg",
       "source": "/assets/photos/guides/ophthalmology.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 106207,
-      "fingerprint": "fa36a48128dc38bed11771d04de4274989be2504f4af1e7bd2e97f307e05bb2a"
+      "bytes": 107763,
+      "fingerprint": "e6b0f12575e8ee33e090360c84ac44712c83afd6bc29eeb2919f268d0d029db4"
     },
     "article-ventilators-buying-guide": {
       "image": "/assets/social/article-ventilators-buying-guide.jpg",
       "source": "/assets/photos/guides/ventilators.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 91883,
-      "fingerprint": "0d88566b7990f8fe29361028a7a331062adb89c2c7acfe57180d8acf52b53c53"
+      "bytes": 97220,
+      "fingerprint": "131783f3f9d38f6857f3876336f79c0d7edf3165790aff99339a15fa1355d9a6"
     },
     "article-ekg-buying-guide": {
       "image": "/assets/social/article-ekg-buying-guide.jpg",
       "source": "/assets/photos/guides/ekg.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 110167,
-      "fingerprint": "eee90298e332cfc3ca18ca52e168580414aa8fde531cb9cc6de84413812461e1"
+      "bytes": 114889,
+      "fingerprint": "19f558b23a7772d09e9d4246c153dfd7813c952a0726d0d2c81511f4805f0b49"
     },
     "article-neonatal-buying-guide": {
       "image": "/assets/social/article-neonatal-buying-guide.jpg",
       "source": "/assets/photos/guides/neonatal.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 106085,
-      "fingerprint": "e054b8f887007d608821f6b18612d366294211a16e56a626f927520a25b91a48"
+      "bytes": 107701,
+      "fingerprint": "8b095fde7ce2cd4186e0ae21446265d49fb935f8191c4b47ec4b90581fbdd8f8"
     },
     "article-oxygen-buying-guide": {
       "image": "/assets/social/article-oxygen-buying-guide.jpg",
       "source": "/assets/photos/guides/oxygen.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 111976,
-      "fingerprint": "a36612ab9ff8a273a69e4c7710cd7fb0fe7fc4e1a2c360f80c2ec6df52154784"
+      "bytes": 114389,
+      "fingerprint": "f5d2487a2e5d35264eda7ab944d9ec86304a27d3080ee3f06a2ee92f41d2238c"
     },
     "article-infusion-buying-guide": {
       "image": "/assets/social/article-infusion-buying-guide.jpg",
       "source": "/assets/photos/guides/infusion.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 102333,
-      "fingerprint": "6da2a635957ff8448fabf7178d6ab456886860d8c5dd8ffcfdc52ad101c4fc6b"
+      "bytes": 104271,
+      "fingerprint": "d60c631a10198b1ac802d839ca366eae9d7ec7ea64d21f5b210566566bda1d46"
     },
     "article-suction-buying-guide": {
       "image": "/assets/social/article-suction-buying-guide.jpg",
       "source": "/assets/photos/guides/suction.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 120364,
-      "fingerprint": "df099e3275ff15c30146e2a16e6b44f1b661d66cdfea20d3b598bae0ecb687ce"
+      "bytes": 125591,
+      "fingerprint": "1e6ebf52989c4a96e8481733ce2ac6b46a28d68e1d4e0fbb4cfb7604583f9591"
     },
     "article-anesthesia-buying-guide": {
       "image": "/assets/social/article-anesthesia-buying-guide.jpg",
       "source": "/assets/photos/guides/anesthesia.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 110767,
-      "fingerprint": "e7281ac4de8a87634fbeb8da0496cfdc5b8f1fb03f797fed3ba7c31fdcd3f86c"
+      "bytes": 114394,
+      "fingerprint": "a4af8efc972526163e494dbefe6f9dc65404028cd14b64cba6d37e30c3a0f108"
     },
     "article-endoscopy-buying-guide": {
       "image": "/assets/social/article-endoscopy-buying-guide.jpg",
       "source": "/assets/photos/guides/endoscopy.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 100693,
-      "fingerprint": "da5c8fac9b27474c2f8c31fc00ea3421610f7adef487108c80cdfa80f55dc041"
+      "bytes": 105557,
+      "fingerprint": "aeb8194fbaf6c27e3ebf40b20e47586ed906706dbf1fc051b463d2860da22ecb"
     },
     "article-electrosurgery-buying-guide": {
       "image": "/assets/social/article-electrosurgery-buying-guide.jpg",
       "source": "/assets/photos/guides/electrosurgery.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 101240,
-      "fingerprint": "3dd59c524dc915edee109f84e15b05540799759efb9000b7c5ea24501d81bc4d"
+      "bytes": 104699,
+      "fingerprint": "1a7d3b4227d6a68f66e23b46fe5db9ddb467be934ba3080b37c34987158b59dc"
     },
     "article-airway-buying-guide": {
       "image": "/assets/social/article-airway-buying-guide.jpg",
       "source": "/assets/photos/guides/airway.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 93463,
-      "fingerprint": "6bb16fba0795ce5e60ad22b5c433ea4b7e46d5a4b0bccb8070dc4fe38b335a30"
+      "bytes": 98067,
+      "fingerprint": "fb1222620cb7db8ed1401cd28ddbbf229330e11d770009cd81a2c83c8f295b15"
     },
     "article-laboratory-buying-guide": {
       "image": "/assets/social/article-laboratory-buying-guide.jpg",
       "source": "/assets/photos/guides/laboratory.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 104438,
-      "fingerprint": "a849fc108aaa5e90a06fb0713657ccfe1ce3ee169aabd5a408bfee1e4adca017"
+      "bytes": 105762,
+      "fingerprint": "7c5dbfe2c944d4e2942df8b632acc3011b65402ff33bc80440fbfcde77b8b410"
     },
     "article-point-of-care-buying-guide": {
       "image": "/assets/social/article-point-of-care-buying-guide.jpg",
       "source": "/assets/photos/guides/point-of-care.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 116757,
-      "fingerprint": "879da1a87f5761a0cbd37b34a7d12da0a97680bf99d131b93276f7ba07baf881"
+      "bytes": 120679,
+      "fingerprint": "a597734bc33728e47a6467e3b9a2af48c313fa5cbc9c16fcb29824c73962bb8d"
     },
     "article-sterilization-buying-guide": {
       "image": "/assets/social/article-sterilization-buying-guide.jpg",
       "source": "/assets/photos/guides/sterilization.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 93851,
-      "fingerprint": "d6d7d4049cdb1ac49c1029541296dd15b58b461e479f1142c44093d4ba845b10"
+      "bytes": 96946,
+      "fingerprint": "26e469de8c5f3eb3a1cbdda523423292964b93fe57906a8b2dbd10b5b5ea14ba"
     },
     "article-beds-buying-guide": {
       "image": "/assets/social/article-beds-buying-guide.jpg",
       "source": "/assets/photos/guides/beds.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 103432,
-      "fingerprint": "a67a69afdd58ad58760f1131bab69122318de30b608c50af223054600d053367"
+      "bytes": 109201,
+      "fingerprint": "975ce449512872a7c7e4fa74b5b59359e53029e153ef8fb99aecb6eb78266c12"
     },
     "article-refrigeration-buying-guide": {
       "image": "/assets/social/article-refrigeration-buying-guide.jpg",
       "source": "/assets/photos/guides/refrigeration.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 119481,
-      "fingerprint": "d93eca2fd79023c01b6a43bc9f43ade2eb5eb7d1ac84db7642dbfc36d08f3cab"
+      "bytes": 123851,
+      "fingerprint": "845780ee4160cd9715ffa7b12f6df3dcb754be1fd70f8e3c9144bf6a2816e33e"
     },
     "article-dialysis-buying-guide": {
       "image": "/assets/social/article-dialysis-buying-guide.jpg",
       "source": "/assets/photos/guides/dialysis.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 105671,
-      "fingerprint": "aa90d16376781bc55de77f058600041d069342aadf6a7d6995815c892215d69e"
+      "bytes": 111837,
+      "fingerprint": "6b868c19133373dfbe4715824e5b6de97e73e4432df5e58814caa7cc6cb5f504"
     },
     "article-clinical-essentials-buying-guide": {
       "image": "/assets/social/article-clinical-essentials-buying-guide.jpg",
       "source": "/assets/photos/guides/clinical-essentials.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 95122,
-      "fingerprint": "4645637b3f87d98a31f7068fe4ff006f8f38853a33651706a7784d3c5a6e0e51"
+      "bytes": 97229,
+      "fingerprint": "7422c42b01d6753cc0ceac558262ea7c161aa9176504f669bde619201ce4fd09"
     },
     "article-free-equipment": {
       "image": "/assets/social/article-free-equipment.jpg",
       "source": "/assets/photos/guides/beds.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 94989,
-      "fingerprint": "53f7487e6635895a5e32f72617490eaa62186b08f00fe1c8c8391bf008a3c0de"
+      "bytes": 100373,
+      "fingerprint": "4c67681f407c4ed52b7813e617c99322f60ad71ae7f837f6d4546b99e6c7e5e5"
     },
     "article-quote-gaps": {
       "image": "/assets/social/article-quote-gaps.jpg",
       "source": "/assets/photos/guides/anesthesia.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 105592,
-      "fingerprint": "9b41fe7a70716643d57faa9be672a9ad4d953c9d2e329232553ec581d4d10148"
+      "bytes": 108667,
+      "fingerprint": "36419181dc2303a636f0194feb3cd5c2a6af790aa01c9d4b8b6994c4663d2cbf"
     },
     "article-hospital-ready": {
       "image": "/assets/social/article-hospital-ready.jpg",
       "source": "/assets/photos/guides/sterilization.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 91321,
-      "fingerprint": "f517c5fb6f13dca8197dfd963b0a48cf40f3f68805267611de488599c53824fe"
+      "bytes": 96464,
+      "fingerprint": "a6bebb82c8e8420efd2d5466a8fd1ed1f19fa869fadb2eaf196ac67141cad813"
     },
     "article-repair-or-replace": {
       "image": "/assets/social/article-repair-or-replace.jpg",
       "source": "/assets/photos/guides/ventilators.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 90987,
-      "fingerprint": "789b4f60ddf7f28a4681f075b31b64d35e6120d7b102ac428fee46b0747728df"
+      "bytes": 97301,
+      "fingerprint": "c2208465e3fc92527d21350a802da6f78879faff087649e2b7a436e02e0d411a"
     },
     "article-one-or-two": {
       "image": "/assets/social/article-one-or-two.jpg",
       "source": "/assets/photos/guides/ultrasound.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 105336,
-      "fingerprint": "e38fa8715e740473a56e2c7d4a9b856fb08a9bb67cbe70f14353868ba9bf5e7f"
+      "bytes": 107245,
+      "fingerprint": "33c96622adb6c603c2d3c16f8f40b07d5e09f8e283bdce834075eb6b4eadb4d0"
     },
     "article-c-arm-detectors": {
       "image": "/assets/social/article-c-arm-detectors.jpg",
       "source": "/assets/photos/guides/xray.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 94378,
-      "fingerprint": "c9e9ec4d2e425abc87dc9d3f830fd0f2b4b98f848dfedcb22072cdaf6d078690"
+      "bytes": 100227,
+      "fingerprint": "e1dd9194da3d2959457ab56406ed0c774c1882d83320560413678dadf7369f0a"
     },
     "article-ct-tube-budget": {
       "image": "/assets/social/article-ct-tube-budget.jpg",
       "source": "/assets/photos/guides/ct-scanner.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 98422,
-      "fingerprint": "76b058c6a6caebbf90a6b169d6e43b795b9de727cce0bbb3b1f2f5db0c5e9bad"
+      "bytes": 103927,
+      "fingerprint": "904972a569008c81a2ac5d5af61b215db73c3f9f764a2738e386460de5e5cc23"
     },
     "article-ultrasound-probes": {
       "image": "/assets/social/article-ultrasound-probes.jpg",
       "source": "/assets/photos/guides/us-linear-probe.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 94338,
-      "fingerprint": "53dba6bbe73c14e1abde8bdf53ff12c4181e246edf13dad14a30ae0172b85921"
+      "bytes": 99976,
+      "fingerprint": "fb8ce16cdbcd782ef90b25088b6622275c31b1e20f14dfa292317d34e40472d8"
     },
     "article-service-contracts": {
       "image": "/assets/social/article-service-contracts.jpg",
       "source": "/assets/photos/guides/surgical-tables.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 99954,
-      "fingerprint": "6ba10fbbac11157b6efdbd8929692f8d05b2547faf31e8fb0a454f94bcdc2a34"
+      "bytes": 105566,
+      "fingerprint": "b7731837d34d1f46341f693783ee5a7bdc13d5cb23edaf1ad125e82d7ed9de8d"
     },
     "article-mri-site-readiness": {
       "image": "/assets/social/article-mri-site-readiness.jpg",
       "source": "/assets/photos/guides/ct-mri.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 97146,
-      "fingerprint": "d128dadc32ed7bfdb0bd730231866791ec970f8e6e9dd09f170875982d07b7bb"
+      "bytes": 101539,
+      "fingerprint": "22c5662b912b58de80dfc11635e48af320bf72fdd0124641c596d852c0a44866"
     },
     "article-dr-retrofit": {
       "image": "/assets/social/article-dr-retrofit.jpg",
       "source": "/assets/photos/guides/xray.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 95671,
-      "fingerprint": "8fa7793671a5ea96d7ab1c30d61b2296a10ed6978197d0ddbe651d1c6c94447a"
+      "bytes": 100504,
+      "fingerprint": "7b27473433bc26c8c654514b6050ab6d3107ce43c2d04ba96ceba2b264847d8b"
     },
     "article-pacs-image-workflow": {
       "image": "/assets/social/article-pacs-image-workflow.jpg",
       "source": "/assets/photos/guides/ultrasound.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 106275,
-      "fingerprint": "e4fdb2c72b55debfd1f5c4fed7d802a596cebb968879bab8a012fab20c4dd447"
+      "bytes": 108873,
+      "fingerprint": "21ed454bb8e80a0c4b7877cd0d45d097ef6a6b54b755d74ed77a8eca3502a1c9"
     },
     "article-equipment-power": {
       "image": "/assets/social/article-equipment-power.jpg",
       "source": "/assets/photos/guides/anesthesia.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 107460,
-      "fingerprint": "8cf2e869bf66aa13bf7de1846004f9946dc1ca7d3124bb72fdf07e26c54af4ad"
+      "bytes": 110503,
+      "fingerprint": "4389a911ceb55545043e3336fda5acd7547ba5261c9c6acba98cafc521977f30"
     },
     "article-replacement-parts": {
       "image": "/assets/social/article-replacement-parts.jpg",
       "source": "/assets/photos/guides/infusion.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 100905,
-      "fingerprint": "b2b7cb1e7567bcd43c4430b10a3a4327d2f460c87ecafd158341878e51b69a9c"
+      "bytes": 106947,
+      "fingerprint": "2e18723c79d12fe95324beaf2e53a15bb1b955959c39d64b83a693260db05f28"
     },
     "article-equipment-shipping": {
       "image": "/assets/social/article-equipment-shipping.jpg",
       "source": "/assets/photos/guides/beds.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 99627,
-      "fingerprint": "ae0c07e2f45cd16350dbc7f343ec4b67fc2ea3890cc373cf58cd0cb24a74c28f"
+      "bytes": 104360,
+      "fingerprint": "b682601a311892c50676b8c4ed13b5274def1de3d7fc761220451af6abe22e86"
     },
     "article-end-of-support": {
       "image": "/assets/social/article-end-of-support.jpg",
       "source": "/assets/photos/guides/ventilators.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 90344,
-      "fingerprint": "a88067f4dc8c3f5fa8367d70f52761bab6e506ca818582978f530a69373e0e04"
+      "bytes": 95878,
+      "fingerprint": "d22be343ad0f99d148df87c3ed94319e096540a11c540e6e2e7e9ca0946ef74a"
     },
     "article-rent-or-buy": {
       "image": "/assets/social/article-rent-or-buy.jpg",
       "source": "/assets/photos/guides/xray.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 103230,
-      "fingerprint": "c7c820b7a23447559c6a67023c17fb055c31798b1a214d2eb148be7e693832ac"
+      "bytes": 109072,
+      "fingerprint": "f77fbbdc0c3d39ac5ee77e65821405e0c431fd91f1d91fc0219573b421f4693c"
     },
     "article-equipment-handover": {
       "image": "/assets/social/article-equipment-handover.jpg",
       "source": "/assets/photos/guides/surgical-tables.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 101860,
-      "fingerprint": "70d1dd86f4769b50a1666a8c8c8db1b155a9b9a6538fcdce7f3a99f5b02a8f62"
+      "bytes": 107447,
+      "fingerprint": "fd49bb4b5839a28e3f47609d88f713e62eca93b36a45e3b3470f0a8f0d2be347"
     },
     "article-maintenance-records": {
       "image": "/assets/social/article-maintenance-records.jpg",
       "source": "/assets/photos/guides/anesthesia.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 107461,
-      "fingerprint": "14c8dc9dffb9d288c34fec44ec3b4adc0a4e9cb94a959fd575e86bb6edd7f05e"
+      "bytes": 111557,
+      "fingerprint": "cc1646ac1e0d39befadb42f8e14dd84b886139406fb18223aa11d5c95f83960a"
     },
     "article-infusion-consumables": {
       "image": "/assets/social/article-infusion-consumables.jpg",
       "source": "/assets/photos/guides/infusion.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 98904,
-      "fingerprint": "5b8499c8880552d41d14648699f264842ff86d90c701e6068608997a71b6737c"
+      "bytes": 104839,
+      "fingerprint": "ba4171df6b2424a3eaef9d54f1cce8c5c4fae42fee15c686e17bb2c424451be2"
     },
     "article-sterile-processing-workflow": {
       "image": "/assets/social/article-sterile-processing-workflow.jpg",
       "source": "/assets/photos/guides/sterilization.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 93374,
-      "fingerprint": "aa4ffe514ed81d70dee30d25f3b2617cc1a65f740a0ae44fea820b6fcdca10c8"
+      "bytes": 95643,
+      "fingerprint": "0b8c85016f9a72dd22b3872ae3976233ad1297e5b0c4aa6345ef57d99640fa0e"
     },
     "article-facility-oxygen": {
       "image": "/assets/social/article-facility-oxygen.jpg",
       "source": "/assets/photos/guides/oxygen.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 112838,
-      "fingerprint": "fad0983031d5175fdbb009137c4f03720b67c7c6c38490ad45be7f4045b57192"
+      "bytes": 114347,
+      "fingerprint": "c918ffe886b7fc40f85bd71f3918b64b45ff756b817fdb469104b10dbaee5666"
     },
     "article-equipment-software-support": {
       "image": "/assets/social/article-equipment-software-support.jpg",
       "source": "/assets/photos/guides/laboratory.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 108265,
-      "fingerprint": "492be22a6690d7d9e099dd51956d742f8f2ae441641c29bb15195240b3057be1"
+      "bytes": 110800,
+      "fingerprint": "ba5e2dc9c919b368ad575d6809480c493a8e45de3521632dc190310c2990cbe5"
     },
     "article-c-arm-table-fit-buying-guide": {
       "image": "/assets/social/article-c-arm-table-fit-buying-guide.jpg",
       "source": "/assets/photos/guides/surgical-tables.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 94809,
-      "fingerprint": "a9a7a38f4f1242e303deaabe039475d08ad0fb81cebe80df040420f9f0d49e48"
+      "bytes": 97335,
+      "fingerprint": "c3a9252c1e036e3115acefd8ea7bae501bd7d17583358af899eed5e3988d72f9"
     },
     "article-contrast-injectors-buying-guide": {
       "image": "/assets/social/article-contrast-injectors-buying-guide.jpg",
       "source": "/assets/photos/guides/contrast-injector-ct.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 103340,
-      "fingerprint": "b192b1d6bf0e37e0451f2d53fd285e8cbd08c45b643f0c947af73b2a84fe14d6"
+      "bytes": 108342,
+      "fingerprint": "943b92aec8d8fc6c39d3b842098ce17538ca483c687c6f917dd53fc464729a69"
     },
     "article-extremity-mri-buying-guide": {
       "image": "/assets/social/article-extremity-mri-buying-guide.jpg",
       "source": "/assets/photos/guides/ct-mri.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 106750,
-      "fingerprint": "8350fa82ba32dd1d2b39ad3cfb4b54f8fe1e561830a55ae157f38327a976c72b"
+      "bytes": 109649,
+      "fingerprint": "968a259c0f22e5362c022f38b80a2e950d76fedf549517bf3d517d6b3b4d2f42"
     },
     "article-cath-angio-buying-guide": {
       "image": "/assets/social/article-cath-angio-buying-guide.jpg",
       "source": "/assets/photos/guides/cath-angio-system.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 94812,
-      "fingerprint": "466271e14d7c0daedef0106ff657612894956650de308ef9d768ab394591c302"
+      "bytes": 97938,
+      "fingerprint": "e5ef080c418ba43f3fa8d14bb45e962de05bb4f97d66c1fad82331d7c6332dd5"
     },
     "article-mammography-buying-guide": {
       "image": "/assets/social/article-mammography-buying-guide.jpg",
       "source": "/assets/photos/guides/mammography.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 99664,
-      "fingerprint": "7fc302962319f8f3e1b562506bac7b8c33580a1411589f13c0ce80871a6748fe"
+      "bytes": 103520,
+      "fingerprint": "db4e38d9f2ce2da3ba7a7749586af036bae0a14564c7f69215df27689c7eafe0"
     },
     "article-breast-biopsy-buying-guide": {
       "image": "/assets/social/article-breast-biopsy-buying-guide.jpg",
       "source": "/assets/photos/guides/breast-biopsy-table.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 105061,
-      "fingerprint": "f6a7fac9e6b29b96d540f3b6995fd502e4b5fbac29e78626975d24eaf34081a6"
+      "bytes": 108767,
+      "fingerprint": "910da70054a33250a83b5d9987ca42669e794020c01f17d4771d7824b5a38cbc"
     },
     "article-dxa-buying-guide": {
       "image": "/assets/social/article-dxa-buying-guide.jpg",
       "source": "/assets/photos/guides/dxa.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 100132,
-      "fingerprint": "9277fd225e2a30520925178bf8a9fac848770596de31a91dc167ac2f1ba9a50b"
+      "bytes": 102804,
+      "fingerprint": "85b7491a6fc89a82e077ae9074867c8d788f21a554c146dd56d0eb1dcc516631"
     },
     "article-pet-ct-buying-guide": {
       "image": "/assets/social/article-pet-ct-buying-guide.jpg",
       "source": "/assets/photos/guides/pet-ct.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 96903,
-      "fingerprint": "e7f10428b39ccdc044e07f621d41597015300392d0804a87e999792a2f9718fc"
+      "bytes": 101312,
+      "fingerprint": "974de7da6f164bd64a7ff88fcc7f77194c6805758de72e516b3981413779bbd2"
     },
     "article-nuclear-spect-buying-guide": {
       "image": "/assets/social/article-nuclear-spect-buying-guide.jpg",
       "source": "/assets/photos/guides/spect.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 106761,
-      "fingerprint": "fbf7ff883998aee76ac6ef189711cd6775366a5f6cf8093b58fe2aad675d6b1b"
+      "bytes": 110769,
+      "fingerprint": "dc840e8032c6914a102167c932f98f7c2fb926cc0ae4d374d324e4698f008096"
     },
     "article-routine-ct-buying-guide": {
       "image": "/assets/social/article-routine-ct-buying-guide.jpg",
       "source": "/assets/photos/guides/ct-scanner.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 103877,
-      "fingerprint": "8a9920f194e6bd274190582cf73005f0d59273b18a14d20b07018df0a36ba134"
+      "bytes": 109209,
+      "fingerprint": "5d29ac0b1f7cd06a8aa7196ae9f5753907e41120de2ac248e9de35b09642e003"
     },
     "article-cardiac-ct-buying-guide": {
       "image": "/assets/social/article-cardiac-ct-buying-guide.jpg",
       "source": "/assets/photos/guides/ct-scanner.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 103877,
-      "fingerprint": "c58e6e7241157dbf3b5ff86e6c3056710220aadbe0c0a19065ca0411a528867d"
+      "bytes": 110515,
+      "fingerprint": "53d5a7c953c519e0dbff7ddb8906bcf1e7364b8a1197cd1f2c326ffc0bbea4ec"
     },
     "article-ct-guided-procedures-buying-guide": {
       "image": "/assets/social/article-ct-guided-procedures-buying-guide.jpg",
       "source": "/assets/photos/guides/ct-scanner.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 104993,
-      "fingerprint": "80d25d3b6f3957610e631ab87c1c3ec38ac29e1bfd0ed3497f91a469bb771c64"
+      "bytes": 109457,
+      "fingerprint": "9d79a0354397d9db1786938e752560e010444e94cba3aa2ec6647a783c2d3436"
     },
     "article-ct-simulation-buying-guide": {
       "image": "/assets/social/article-ct-simulation-buying-guide.jpg",
       "source": "/assets/photos/guides/ct-scanner.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 102956,
-      "fingerprint": "cd370b29aac1b7040ac4ce1b383ba94403a8b975ef7a97d70b02122541904305"
+      "bytes": 108746,
+      "fingerprint": "42bd480789922d206ed6533258f76f56cdb9287489eb96a8328b2d9b8393555f"
     },
     "article-radiography-fluoroscopy-buying-guide": {
       "image": "/assets/social/article-radiography-fluoroscopy-buying-guide.jpg",
       "source": "/assets/photos/guides/radiography-fluoroscopy-room.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 106723,
-      "fingerprint": "12f2f682af5e9fdb14c2404ec57d6535b569d037b2b5045ba41a18b17fb3b660"
+      "bytes": 110968,
+      "fingerprint": "2ada86d695b17cf516f09d58df19db1758eab33f5bda0d16afbd2d17a61276f2"
     },
     "article-adult-echo-buying-guide": {
       "image": "/assets/social/article-adult-echo-buying-guide.jpg",
       "source": "/assets/photos/guides/echo-system.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 90885,
-      "fingerprint": "e6af3c3061a420c15e4ef7578fa752c092302a389a8a23232899620c7e40b1e9"
+      "bytes": 95677,
+      "fingerprint": "c7ac3e98c680b2a1bb4863e3c1afe632eece0b6594948a687a2af01d992706d3"
     },
     "article-tee-ultrasound-buying-guide": {
       "image": "/assets/social/article-tee-ultrasound-buying-guide.jpg",
       "source": "/assets/photos/guides/us-tee-probe.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 79505,
-      "fingerprint": "99ebcca4beb0c88660db017d02294b526950bc1c9e98768022cb4e959226e409"
+      "bytes": 82066,
+      "fingerprint": "fab25323e8d5b1cc33b592cc9db2d704ae9cb483d1c683b8f0fe6b162ee9815b"
     },
     "article-pediatric-echo-buying-guide": {
       "image": "/assets/social/article-pediatric-echo-buying-guide.jpg",
       "source": "/assets/photos/guides/pediatric-echo.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 110893,
-      "fingerprint": "c9d9f82c317826334585ffe883bd84e7698e04431f967b2b4042f0740ba9ad9b"
+      "bytes": 116221,
+      "fingerprint": "1ca8aa7cc92e23567a69b908399965fcbdbecf6eb6c604c040507c5259c203a3"
     },
     "article-ob-gyn-ultrasound-buying-guide": {
       "image": "/assets/social/article-ob-gyn-ultrasound-buying-guide.jpg",
       "source": "/assets/photos/guides/curvilinear-probe.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 100503,
-      "fingerprint": "ccd33d1f809c58635d0dca22bc31f9bdf9dec49d8f0006b7f7954ca008268684"
+      "bytes": 105100,
+      "fingerprint": "bcf21cd34e9b0922e6636753fe050d74938e4b98e692d3556c8d3a15fe7af4a2"
     },
     "article-vascular-ultrasound-buying-guide": {
       "image": "/assets/social/article-vascular-ultrasound-buying-guide.jpg",
       "source": "/assets/photos/guides/us-linear-probe.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 93551,
-      "fingerprint": "804e40d467fd5b2ee3f7faa8ad71c90385578aab3cc36c6a5d28879dbcebfe2b"
+      "bytes": 99100,
+      "fingerprint": "54de552c37f829e23e931e56fe767c7bc9c24af1cf5e7d259a0c0a2341777928"
     },
     "article-needle-guidance-ultrasound-buying-guide": {
       "image": "/assets/social/article-needle-guidance-ultrasound-buying-guide.jpg",
       "source": "/assets/photos/guides/us-needle-guidance.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 115786,
-      "fingerprint": "7817374e3ee0b2c4d5b8770844f6ab1a95f416d90b63512bf45a4915027d0452"
+      "bytes": 118984,
+      "fingerprint": "76c519eeff07f57cdee077176e2de154a552f8e32934034b48a1633a16e0ebf6"
     },
     "article-fusion-ultrasound-buying-guide": {
       "image": "/assets/social/article-fusion-ultrasound-buying-guide.jpg",
       "source": "/assets/photos/guides/ultrasound.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 110034,
-      "fingerprint": "86581ad175fc42159243c21ce258901dbec775face78e8aa740b48aca62df04e"
+      "bytes": 115036,
+      "fingerprint": "2254a61ca374fbd57581138c5feb4aab562360882b0b599622379472aad94990"
     },
     "article-breast-ultrasound-buying-guide": {
       "image": "/assets/social/article-breast-ultrasound-buying-guide.jpg",
       "source": "/assets/photos/guides/us-linear-probe.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 94392,
-      "fingerprint": "b207a504faecea3d48de89ee22d856409035ddeab129422dab620e27c7251071"
+      "bytes": 99714,
+      "fingerprint": "99062a140e103541bcf83bb971ef0f7c26875446c4b24036ad85016399b28745"
     },
     "article-sensor-cable-cuff-compatibility-buying-guide": {
       "image": "/assets/social/article-sensor-cable-cuff-compatibility-buying-guide.jpg",
       "source": "/assets/photos/guides/ekg.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 109860,
-      "fingerprint": "994a9bd1995508317e3db22b145c45270b466f1697a21b3fe1bf50de12b11b24"
+      "bytes": 114610,
+      "fingerprint": "4be13b61e11c248aa8a345e165f9b098e8698d8edb2f5e5c11ea0b879da35024"
     },
     "article-equipment-exit-buying-guide": {
       "image": "/assets/social/article-equipment-exit-buying-guide.jpg",
       "source": "/assets/photos/guides/beds.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 99083,
-      "fingerprint": "171b87c2de2e7afd84c19e19680acd653db69c9e5d70a4701faaa4207d053791"
+      "bytes": 104295,
+      "fingerprint": "1ac642aebde32536c8edcf6da244cdc4f21511a7afb70dd91ac53cd50e2ef3e9"
     },
     "article-surgical-tourniquets-buying-guide": {
       "image": "/assets/social/article-surgical-tourniquets-buying-guide.jpg",
       "source": "/assets/photos/guides/us-tourniquet-system.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 99275,
-      "fingerprint": "9dea3cdb3ff631776086e34767bd3fc04e50e859a3d1904ba8539a60f3381ae1"
+      "bytes": 103544,
+      "fingerprint": "ece96456bd08c23d9b95ebcb23f0ae966e222045d097fe4e4276b50c2c6e3f98"
     },
     "article-intraoperative-nerve-monitoring-buying-guide": {
       "image": "/assets/social/article-intraoperative-nerve-monitoring-buying-guide.jpg",
       "source": "/assets/photos/guides/us-nerve-monitoring.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 117390,
-      "fingerprint": "befc2a307221b19a12bf5149838acc51133d9fef4435b707b04c1e8eee7547ad"
+      "bytes": 120546,
+      "fingerprint": "d8d5895e7e3800d065fff50b4e2399e2b0c5657b12a74c28e4bfd08e238d9c18"
     },
     "article-endoscopic-cryotherapy-buying-guide": {
       "image": "/assets/social/article-endoscopic-cryotherapy-buying-guide.jpg",
       "source": "/assets/photos/guides/endoscopy.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 103105,
-      "fingerprint": "00906a3885628cb35cfe7ce5595d87f737edb07321b76d91c3ada8dd1eeaefdf"
+      "bytes": 109095,
+      "fingerprint": "3f414d7c2b6e31d8c7f7a4e5be3c10093c4230462adee114c7d9d3aef744734f"
     },
     "article-surgical-power-tools-buying-guide": {
       "image": "/assets/social/article-surgical-power-tools-buying-guide.jpg",
       "source": "/assets/photos/guides/us-surgical-drill.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 99722,
-      "fingerprint": "2b7c2d80032d557094ae9c747544aa013d57f36b88f7c1e4e2f89a843e4e6e31"
+      "bytes": 105293,
+      "fingerprint": "ead1ce7e97e1ddabba4983dacf7158ba296c1bf8d457dfeef9652868311ab24f"
     },
     "article-pain-rf-generators-buying-guide": {
       "image": "/assets/social/article-pain-rf-generators-buying-guide.jpg",
       "source": "/assets/photos/guides/us-rf-generator.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 104820,
-      "fingerprint": "ffaa6001ada49fbe13a9a3bf84446f9a0279b5368ad60c6efde6fec6c0273475"
+      "bytes": 111278,
+      "fingerprint": "82ebe5f215a7e3ecd1b085713036f0edaf6684168ad67c3356613cd0924e7510"
     },
     "article-compression-devices-buying-guide": {
       "image": "/assets/social/article-compression-devices-buying-guide.jpg",
       "source": "/assets/photos/guides/us-compression-system.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 109350,
-      "fingerprint": "5fda2676fab523d58f7d37783916f82625dbaa5dd06291ef72e3d88212175671"
+      "bytes": 112039,
+      "fingerprint": "80fe9b9510844393a691534ba12587d3910f581507afe8fb3b40c7a5c4f10113"
     },
     "article-ultrasonic-surgical-aspirators-buying-guide": {
       "image": "/assets/social/article-ultrasonic-surgical-aspirators-buying-guide.jpg",
       "source": "/assets/photos/guides/us-neurosurgical-context.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 107155,
-      "fingerprint": "9cc12af590187fea118ef09f7f0269df68a9cecc85c6716e6ac1baa02b2bffff"
+      "bytes": 110719,
+      "fingerprint": "09d5ac2a283ed69128a2ddc150978ee748776848f02a2e1cc69a0de07a38e4d2"
     },
     "article-colposcopes-buying-guide": {
       "image": "/assets/social/article-colposcopes-buying-guide.jpg",
       "source": "/assets/photos/guides/colposcopes.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 105903,
-      "fingerprint": "7100238d0d62dc9998a0d1d69b66de3167feb778ace50a7a4560b896b5f1553f"
+      "bytes": 107111,
+      "fingerprint": "ab0e8d299b7f1417058f0aef9299665fa7c7f8c7ef344e29c65b7dceda921153"
     },
     "article-low-temperature-sterilization-buying-guide": {
       "image": "/assets/social/article-low-temperature-sterilization-buying-guide.jpg",
       "source": "/assets/photos/guides/low-temperature-sterilization.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 107037,
-      "fingerprint": "9f228649e4d78044f2d52805859e70d21a422b56fe5d0dc8b24bb0763709ab73"
+      "bytes": 110196,
+      "fingerprint": "de5c928eb2e7253472f4a0254b83e73db36d5c88d0acc4f362c79a867da10f77"
     },
     "article-surgical-instrument-repair-buying-guide": {
       "image": "/assets/social/article-surgical-instrument-repair-buying-guide.jpg",
       "source": "/assets/photos/guides/surgical-instruments.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 103941,
-      "fingerprint": "38d4abf6ee3ef9b91cb5e93d6aab005ef108ece3a1cc918a7162446c1a770075"
+      "bytes": 110086,
+      "fingerprint": "952c8bc48afb7c44b3a9f5e23b7bb12c3acc0646dcbf5e3dc19bd0ce0d370eaf"
     },
     "article-fetal-monitoring-buying-guide": {
       "image": "/assets/social/article-fetal-monitoring-buying-guide.jpg",
       "source": "/assets/photos/guides/fetal-monitoring.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 104839,
-      "fingerprint": "9d5c9ab02835d092ab9170c370fcf48b6105eede6c1205687098fc6e657a41a3"
+      "bytes": 110383,
+      "fingerprint": "88ab0bcfee39f7289b235289682cc574f890069643efbad5247c4330f9ad3728"
     },
     "article-bladder-scanners-buying-guide": {
       "image": "/assets/social/article-bladder-scanners-buying-guide.jpg",
       "source": "/assets/photos/guides/bladder-scanners.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 99126,
-      "fingerprint": "98527f19e378ebeadcb631a4ddbb5999dbd237c077fb5f64490fcdc7c614a74f"
+      "bytes": 104357,
+      "fingerprint": "62bfb88dad4de998f66f48d012ce937efb363419c2399bf11b748634ae27a033"
     },
     "article-simulation-equipment-buying-guide": {
       "image": "/assets/social/article-simulation-equipment-buying-guide.jpg",
       "source": "/assets/photos/guides/patient-simulator.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 127795,
-      "fingerprint": "a025c9ecda22ff4502fe60fc608703b311bbef802db9f39ef0a8a6b67ca4157c"
+      "bytes": 129463,
+      "fingerprint": "af00af89c539839480a51613480472a325934b048cceffdb95f987762ddd29c4"
     },
     "article-temperature-management-buying-guide": {
       "image": "/assets/social/article-temperature-management-buying-guide.jpg",
       "source": "/assets/photos/guides/temperature-management.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 117632,
-      "fingerprint": "79030938ef2d567bcacf07ffcd7b2785250c9303b5d6b85a9226415b7570d672"
+      "bytes": 118349,
+      "fingerprint": "2531d6cb02cb32f6730067fc7f0ab821c660c10c186282fcbc7d5a415a4bb71a"
     },
     "article-patient-warming-buying-guide": {
       "image": "/assets/social/article-patient-warming-buying-guide.jpg",
       "source": "/assets/photos/guides/patient-warming.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 100265,
-      "fingerprint": "21560601357ae5c291a9bd0a5fb8e23c10845e2865bfc6186a4b04e0271f8f51"
+      "bytes": 103374,
+      "fingerprint": "b5c999883a63d5807f2a7be0bf6e4909ff739ed737ccceea0883b2794637c0b1"
     },
     "article-warming-cabinets-buying-guide": {
       "image": "/assets/social/article-warming-cabinets-buying-guide.jpg",
       "source": "/assets/photos/guides/warming-cabinets.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 95391,
-      "fingerprint": "402c7e8032748651a8c7903f59db84496b45998c8f75d74a4b7ff473978ef996"
+      "bytes": 101058,
+      "fingerprint": "3a5c7588455dec674ee32f26c96e8205b2bb255acb2fb60a5a5b705df29215ea"
     },
     "article-surgical-slush-buying-guide": {
       "image": "/assets/social/article-surgical-slush-buying-guide.jpg",
       "source": "/assets/photos/guides/surgical-slush.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 92449,
-      "fingerprint": "5f7b10e06aa568c713e5469b2c95f975d44fca0cc6cd1eaebcccce52d16a1cb9"
+      "bytes": 98462,
+      "fingerprint": "ce1c425e79d9b189626c3b7f063bf13c6d484ed976267b77d6afe39a5685d4f9"
     },
     "article-robotic-surgery-readiness-buying-guide": {
       "image": "/assets/social/article-robotic-surgery-readiness-buying-guide.jpg",
       "source": "/assets/photos/guides/surgical-robot.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 106380,
-      "fingerprint": "b8cb4ef1604004d6646e2a2220394bf6c8e9b0b36e3bdd3abe3eea8568cc036d"
+      "bytes": 108355,
+      "fingerprint": "7ff058fe3e1ef3eea62e236b17056f9deff5762adf93710e7929b30b7dd0657d"
     },
     "article-retained-surgical-item-systems-buying-guide": {
       "image": "/assets/social/article-retained-surgical-item-systems-buying-guide.jpg",
       "source": "/assets/photos/guides/retained-surgical-item-systems.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 105839,
-      "fingerprint": "2a2cc2aea2188e54fabb22b7448d3a07e7baf335c8f29d7cd071cc76f2b46b78"
+      "bytes": 107692,
+      "fingerprint": "32ee9ff77fb35c8220438272ac0c0d06d94cdf6885356c8cf0262b6c3b6a61c7"
     },
     "article-imaging-equipment-buying-guide": {
       "image": "/assets/social/article-imaging-equipment-buying-guide.jpg",
       "source": "/assets/photos/reference/ultrasound-portable.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 98345,
-      "fingerprint": "45c00e7ee3edbe5f1d05cc41c13058c24eacbaa797420fb5eb2be4b4822c24a2"
+      "bytes": 102933,
+      "fingerprint": "fa028529bd8f9fee2f66f8348ad21e17c6070eed32351b51fac4b43467b7adee"
     },
     "article-surgical-equipment-buying-guide": {
       "image": "/assets/social/article-surgical-equipment-buying-guide.jpg",
       "source": "/assets/photos/reference/anesthesia-workstation.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 101915,
-      "fingerprint": "150cd592d9e401cb08bd346e8d7a9abf007c4b0ec67b3600f7ac96cef66392e1"
+      "bytes": 104962,
+      "fingerprint": "21aef2a9d3ef60159f72a3da17276f005ad7698b58322cec106a4613e446ca7d"
     },
     "article-critical-care-buying-guide": {
       "image": "/assets/social/article-critical-care-buying-guide.jpg",
       "source": "/assets/photos/reference/patient-monitor.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 98389,
-      "fingerprint": "5cc8b84c8bba4cea527a8d2d6ab1aa3e5ac7af8407f62046db0efd62d1d6db7c"
+      "bytes": 104290,
+      "fingerprint": "96939be88e02b8f4811ebc515f721bc14e39a11dc4fbe0ffb3dddf511b7d3c7b"
     },
     "article-diagnostic-equipment-buying-guide": {
       "image": "/assets/social/article-diagnostic-equipment-buying-guide.jpg",
       "source": "/assets/photos/reference/chemistry.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 95298,
-      "fingerprint": "6329e4abb31a4cceddf88e8ef94b0ddf65155425fe623c8a855ba17887a4d663"
+      "bytes": 97923,
+      "fingerprint": "e20331cd575d78b86ef642d38552fb270688a75db494ff5af058f4e534d907b6"
     },
     "article-hospital-essentials-buying-guide": {
       "image": "/assets/social/article-hospital-essentials-buying-guide.jpg",
       "source": "/assets/photos/reference/autoclave.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 88850,
-      "fingerprint": "3190ad633ce79dae3d6d145a6cf59b39084fecfc3074e746574fc994c7bcdac0"
+      "bytes": 94776,
+      "fingerprint": "56a682cdc9d21596d234d6554651294cfd072a059ba9af910cc5249682338763"
     },
     "article-mission-clinic-equipment-guide": {
       "image": "/assets/social/article-mission-clinic-equipment-guide.jpg",
       "source": "/assets/photos/reference/otoscope.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 90457,
-      "fingerprint": "3fc1414c235a2f15275ec12745737b2b22840439032627d1ac30382ab6811a0d"
+      "bytes": 95416,
+      "fingerprint": "bb9692d88f0257d2c3d9b2abaa6fa3c544cd22651d7a553883284815a17a1c5c"
     },
     "article-planning-hospital-equipment": {
       "image": "/assets/social/article-planning-hospital-equipment.jpg",
       "source": "/assets/photos/operating-room.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 98563,
-      "fingerprint": "ffd75732a30166a2064f8a871f4ed1522742d8daa0e744cd424ae1d7123fc6a4"
+      "bytes": 101722,
+      "fingerprint": "04e7284ea599dd963e9507d4600caf29b2bb00403533ad7106ae186a8a7fc4c7"
     },
     "article-refurbished-equipment-questions": {
       "image": "/assets/social/article-refurbished-equipment-questions.jpg",
       "source": "/assets/photos/ultrasound.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 96184,
-      "fingerprint": "8ae7f30c6852fa388c7bdc415cb4dfa91eae92e27104a6a4cad6f5b8ee3ee86c"
+      "bytes": 101152,
+      "fingerprint": "8a1a565e1926130adff481fd7c8e0da8f4e5c0caf28205920074cf500c976b16"
     },
     "article-prepare-service-request": {
       "image": "/assets/social/article-prepare-service-request.jpg",
       "source": "/assets/photos/equipment-detail.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 93228,
-      "fingerprint": "1dd175a590c0b191bba9966342fdbacd1c1a289f37d0673f97f00dbcb59a236c"
+      "bytes": 94272,
+      "fingerprint": "09196bf83eb119ad340ccf5487073b8d1a66775b013c4d6d45b82d01bce0123f"
     },
     "article-wholesale-charitable-pricing": {
       "image": "/assets/social/article-wholesale-charitable-pricing.jpg",
       "source": "/assets/photos/laboratory.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 105609,
-      "fingerprint": "b0590cf2a1f2d8ab1315573ab3d697b1cae996398ba994ac0dd8cfc668556ee2"
+      "bytes": 107506,
+      "fingerprint": "16126321ad573ff715276621c2f4bf00c889ff6ec30dffea4a394b987eee09e3"
     },
     "article-the-price-of-a-working-service": {
       "image": "/assets/social/article-the-price-of-a-working-service.jpg",
       "source": "/assets/photos/reference/ultrasound-portable.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 94437,
-      "fingerprint": "a250de7edab0d78db33359b78d8a76b163756fc1db797cb0911715b01baef7d1"
+      "bytes": 100148,
+      "fingerprint": "ff60cc4e863bba274a5fd2d8385a791ea5a13d684499a83ca029cc4368f23049"
     },
     "article-refurbished-is-a-question-not-a-verdict": {
       "image": "/assets/social/article-refurbished-is-a-question-not-a-verdict.jpg",
       "source": "/assets/photos/reference/patient-monitor.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 90287,
-      "fingerprint": "9a4b518828e22481b9deac86a2a2fa12ee23c78e45179948a7581469c0c95cdc"
+      "bytes": 92579,
+      "fingerprint": "b135f430959a2095885d057d371e55118c32002e1e8fb1922998cb9ec404c488"
     },
     "article-a-donation-should-start-with-the-recipient": {
       "image": "/assets/social/article-a-donation-should-start-with-the-recipient.jpg",
       "source": "/assets/photos/reference/otoscope.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 82762,
-      "fingerprint": "2c6d9e394fb619d4bd4203b30f40fedf9011c365b3953625e3f3aa4578580156"
+      "bytes": 88154,
+      "fingerprint": "994ea4d4c71ea677daa3d54dfcd342c5742557775816e018d70172300049b492"
     },
     "article-standardize-with-an-exit-plan": {
       "image": "/assets/social/article-standardize-with-an-exit-plan.jpg",
       "source": "/assets/photos/reference/airway.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 84421,
-      "fingerprint": "641f26a9ee349ad277fd1859a47ab0dae0c5eba4bf6b06a56f2f7bec17935849"
+      "bytes": 84894,
+      "fingerprint": "9606ce6d70276fe4987d727004263874ac580c4d9de686bc90f40e7f425bccf5"
     },
     "article-service-starts-before-delivery": {
       "image": "/assets/social/article-service-starts-before-delivery.jpg",
       "source": "/assets/photos/reference/anesthesia-workstation.webp",
       "width": 1200,
       "height": 630,
-      "bytes": 93729,
-      "fingerprint": "8412d59e5d2f042e2a9526fec7ac0a58497797ae6d8cf06d2994188d8fe1f28b"
+      "bytes": 97613,
+      "fingerprint": "5c0232fbea925edbf974d13fd67c38aa25b2f28bbc9ad5be0d911ee747f3eb94"
     }
   }
 }
