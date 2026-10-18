@@ -3,8 +3,8 @@ export default {
   "key": "airway",
   "kind": "research-guide",
   "equipmentId": "airway",
-  "title": "McGRATH, GlideScope or a flexible scope: choose the right kit",
-  "summary": "Start with the airway task, then decide how blades, batteries, charging and reusable-scope processing will stay available.",
+  "title": "Buying airway equipment: the next blade matters as much as the handle",
+  "summary": "Compare McGRATH, GlideScope and flexible-scope packages by blade compatibility, power, processing and the supplies that keep the kit ready.",
   "categoryId": "surgical",
   "category": "Surgery & anesthesia",
   "image": "guides/airway",
@@ -24,41 +24,41 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 3,
+  "minutes": 5,
   "sections": [
     [
-      "Decide which job the kit must cover",
-      "Video laryngoscopy and flexible intubation/bronchoscopy belong in separate purchasing decisions. List the intended work, patient sizes, trained users and usable backup before selecting a display. A service may need both forms of visualization, but buying a premium video handle does not remove the need for a flexible scope when that is the required capability. The earlier equipment notes favored LF-GP partly for its apparent economy. That remains a plausible retention choice for an intact scope in an established processing service. It is a much weaker shortcut for a new program that would first have to create leak testing, validated processing, drying, storage and repair arrangements. Phone adapters and abbreviated chemical-processing suggestions from those notes are not adopted."
+      "Buy for the task and the patient-size range",
+      "Separate video laryngoscopy from flexible intubation or bronchoscopy before comparing equipment. A compact video handle does not provide every function of a flexible scope. The responsible clinical team defines the intended work, sizes and trained users; purchasing then compares the complete kit that supports that requirement. For compact video equipment, McGRATH MAC 301-000-000 and GlideScope Go 2 offer different power arrangements. McGRATH depends on approved replacement batteries; Go 2 depends on charging and eventual battery service. Either can be a practical choice where that dependency is managed. A spare handle without the required blade size or power supply is not a ready alternative."
     ],
     [
-      "Choose the power dependency the team can manage",
-      "McGRATH and Go 2 offer a practical choice between proprietary replaceable batteries and rechargeable operation. Favor McGRATH when approved batteries can be stocked reliably; favor Go 2 when the team can keep the charger available and obtain battery service. Go 2's published up-to-100-minute runtime is a manufacturer specification, not a measured promise for this site's battery condition or workload. The public handle prices are incomplete comparisons. Denova displayed US$3,500 for McGRATH 301-000-000, while Bell Medical listed CoPilot at US$3,975 on October 16, 2026. Neither opened listing established a complete equivalent kit. Add the needed blade sizes, power, spare provision and destination support before deciding which is cheaper. CoPilot stays conditional because its current manufacturer production and service commitments were not confirmed."
+      "Do not order blades by the display’s family name",
+      "Verathon distinguishes Go 2, using Spectrum QC eco and Spectrum QC single-use blades, from the earlier Go, using Spectrum blades. Its product page also identifies different video-baton arrangements. Specify the exact display and compatible patient-contact components together; a mixed-generation lot can require another supply basket rather than supplying inexpensive spare blades. Go 2’s published operation time is a manufacturer claim for the product, not measured endurance of an offered used battery. Runtime per charge, time to recharge and battery service life are three different quantities. Compare them separately against the service’s readiness routine, without treating a charge-cycle count as if it were minutes of operation. Public asking prices are similarly incomplete. Denova’s October 16, 2026 catalog showed US$3,500 for McGRATH 301-000-000; Bell listed CoPilot at US$3,975. Included blades, power components, condition and destination terms were not established as equivalent. Complete those baskets before calling one offer cheaper."
     ],
     [
-      "Price a quiet year as well as a busy one",
-      "For intermittent flexible-scope work, aScope 4 Broncho can avoid maintaining a reusable scope between patients. Its reusable aView 2 Advance display still needs power, cleaning and support, and enough appropriate unopened scopes must be available when needed. Single-use scope freight, size mix and expiry can dominate a quiet service's cost. An existing LF-GP earns continued use when its fiber bundle, angulation, leak integrity and channel condition remain acceptable and the complete processing route works. Compare annual processing and likely repair costs with delivered single-use quantities at both expected and lower activity. The calculation should include how the service continues during a reusable-scope repair or a delay in disposable deliveries; neither purchase creates backup by itself."
+      "A quiet flexible-scope service has a different cost problem",
+      "For intermittent work, aScope 4 Broncho with aView 2 Advance can avoid maintaining a reusable scope between patients. It still requires the appropriate unopened scope sizes, storage within labeled limits and a working reusable display. Low activity makes pack sizes, expiry and freight especially important; the hospital may pay for scopes it never uses. An already-owned LF-GP can remain economical when fiber condition, angulation, leak integrity and channel condition are acceptable and validated processing, drying, storage and repairs already work. Starting those services from nothing is a different purchase. Compare both the expected year and a quieter year, including processing labor and materials, repairs, unused single-use stock and cover during an interruption. The useful dividing line is the existing infrastructure. A busy supported reusable service may gain little by replacing every scope. An intermittent service struggling to sustain processing may reasonably pay more per disposable scope. Neither arrangement supplies backup automatically; name the usable alternative during repair or delayed deliveries."
     ],
     [
-      "Check the exact handle before building a fleet around it",
-      "The FDA's 2024 McGRATH action distinguishes affected older 300-000-000 and 300-200-000 handles from next-generation 301-000-000, which received updated battery instructions. A separate 2023 notice concerned defective next-generation units distributed through unauthorized channels. The product number therefore needs provenance, serial checks and applicable corrective-action evidence alongside it. Ambu's December 2023 communication says discontinued components stopped new King Vision display and blade manufacturing, with remaining products phased out as stocks depleted. That does not establish that every item is unavailable today. It does mean a new fleet would depend on a finite supply without a verified long-term replenishment plan. No comparative field failure data justify replacing these specific checks with a brand reliability ranking."
+      "Provenance can decide a seemingly good offer",
+      "The FDA’s 2024 McGRATH action removes specified serials of older 300-000-000 and 300-200-000 handles, while 301-000-000 receives updated battery instructions. A separate 2023 action concerns defective next-generation units stolen before destruction and sold through unauthorized channels. The newer model number alone therefore does not clear an offer: verify provenance, serial identity and applicable actions. King Vision’s December 2023 manufacturer communication describes component discontinuations and a phased depletion of remaining products. That is a reason to avoid new standardization without a credible finite-supply plan, rather than proof that every item is currently unavailable. Keep CoPilot conditional on documented supply and service as well. A reachable repair route and confirmed compatible stock are decision evidence; neither establishes comparative clinical success or field reliability."
     ]
   ],
   "related": [
     "airway"
   ],
-  "socialTitle": "Choose an airway kit you can keep ready",
-  "socialDescription": "McGRATH, GlideScope and flexible scopes solve different jobs. Compare blades, batteries, charging and processing before the handle price.",
-  "socialHeadline": "Airway visualization equipment buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying airway equipment: the next blade matters as much as the handle",
+  "socialDescription": "Compare McGRATH, GlideScope and flexible-scope packages by blade compatibility, power, processing and the supplies that keep the kit ready.",
+  "socialHeadline": "Buying airway equipment: the next blade matters as much as the handle",
+  "socialStrapline": "Choose the kit the team can complete, replenish and return to service.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "airway",
-    "title": "Airway visualization equipment buying guide",
-    "summary": "Specify video laryngoscopy and flexible-scope work separately. A compact video handle does not supply every function of a flexible intubation scope.",
-    "firstChoice": "Compare next-generation McGRATH MAC 301-000-000 where replacement batteries and blades are dependable, and GlideScope Go 2 where charging and battery service fit better. Include the necessary blade sizes.",
-    "upgradeWhen": "For intermittent flexible-scope work, compare aScope 4 Broncho/aView 2 Advance with maintaining an intact LF-GP in a functioning reusable-processing service. Buy the complete recurring supply arrangement with either.",
+    "title": "Buying airway equipment: the next blade matters as much as the handle",
+    "summary": "Compare McGRATH, GlideScope and flexible-scope packages by blade compatibility, power, processing and the supplies that keep the kit ready.",
+    "firstChoice": "Separate video laryngoscopy from flexible-scope work, then list the required patient-size range, power route and backup. Compare complete ready kits for those tasks.",
+    "upgradeWhen": "A supported charging system, usable backup or dependable blade supply improves readiness; buy recurring single-use flexible scopes when they solve a real processing and repair constraint.",
     "budgetWatch": "Single-use scopes remove reused-scope processing but add freight, expiry and per-procedure costs. Reusable LF-GP economics depend on leak testing, processing, drying, storage and repair access.",
-    "supportCheck": "Check McGRATH serials, lawful provenance and applicable actions; next-generation labeling alone is insufficient. King Vision's documented component phase-out makes new fleet standardization dependent on a finite supply.",
+    "supportCheck": "Handle provenance or corrective-action status is unclear, required blades cannot be replenished, or a reusable scope is offered without a workable processing and repair route.",
     "askSupplier": [
       "Which blade and scope sizes can you replenish, with what expiry?",
       "What battery or charging arrangement keeps the complete kit ready?",
@@ -76,8 +76,8 @@ export default {
   },
   "research": {
     "id": "airway",
-    "title": "McGRATH, GlideScope or a flexible scope: choose the right kit",
-    "dek": "Start with the airway task, then decide how blades, batteries, charging and reusable-scope processing will stay available.",
+    "title": "Buying airway equipment: the next blade matters as much as the handle",
+    "dek": "Compare McGRATH, GlideScope and flexible-scope packages by blade compatibility, power, processing and the supplies that keep the kit ready.",
     "verdict": "For a compact video kit, favor McGRATH MAC 301-000-000 where approved replacement batteries and blades are dependable; favor GlideScope Go 2 where charging and battery service are better supported. For intermittent flexible-scope work, compare the complete aScope 4 Broncho/aView 2 Advance supply plan with maintaining an existing LF-GP. Keep a sound LF-GP in a functioning reusable-scope service. King Vision's documented phase-out makes it a weak foundation for new standardization.",
     "coverage": [
       "Compact video laryngoscopes",
@@ -107,10 +107,10 @@ export default {
         "model": "Verathon GlideScope Go 2",
         "position": "Rechargeable video alternative",
         "bestFor": "A service that can maintain charging and wants a compact shared-display workflow.",
-        "why": "Verathon specifies a rechargeable battery with up to 100 minutes operation and IP67 protection. These provide concrete reasons to compare it with a replaceable-battery handle.",
-        "tradeoff": "Rechargeability trades recurring battery purchases for battery aging and charger availability. Compatible blades, sizes and spare equipment must be priced; an ingress rating is not proof of field reliability.",
+        "why": "Rechargeable operation and the published up-to-100-minute runtime offer a concrete alternative to a replaceable-battery handle.",
+        "tradeoff": "Specify the Go 2 blade family, charger and battery service. Go and Go 2 are not interchangeable purchasing descriptions; a rating or runtime claim does not establish field reliability.",
         "price": "Quote required as of 2026-10-16 for monitor, charger, approved blades and service coverage; no verified public complete-package price.",
-        "support": "Current manufacturer page and support route verified; destination-country repair turnaround and battery replacement terms unconfirmed.",
+        "support": "Current manufacturer generation/compatibility information verified; destination repair and battery-service terms remain unconfirmed.",
         "sourceIds": [
           "go2"
         ]
@@ -143,7 +143,7 @@ export default {
         "model": "Magaw CoPilot VL",
         "position": "Conditional legacy alternative",
         "bestFor": "An existing CoPilot service or a buyer offered a documented supported package.",
-        "why": "Bell Medical still lists the device and its bougie/introducer ecosystem. This is evidence of a sales route, sufficient to keep it in a comparison rather than pronounce it unavailable.",
+        "why": "Bell Medical lists the device and its introducer ecosystem, preserving a conditional comparison where a complete supported package can be documented.",
         "tradeoff": "Dealer marketing is not comparative clinical evidence. Current manufacturer support duration, replacement blade supply and exact supplied configuration remain open.",
         "price": "Bell Medical's opened category page displayed US$3,975 for CoPilot Video Laryngoscope on 2026-10-16. Included components, warranty, export delivery and stock were not verified; do not compare this directly with a bare handle price.",
         "support": "Seller listing verified; current manufacturer production and regional service not confirmed.",
@@ -154,36 +154,37 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Decide which job the kit must cover",
+        "heading": "Buy for the task and the patient-size range",
         "paragraphs": [
-          "Video laryngoscopy and flexible intubation/bronchoscopy belong in separate purchasing decisions. List the intended work, patient sizes, trained users and usable backup before selecting a display. A service may need both forms of visualization, but buying a premium video handle does not remove the need for a flexible scope when that is the required capability.",
-          "The earlier equipment notes favored LF-GP partly for its apparent economy. That remains a plausible retention choice for an intact scope in an established processing service. It is a much weaker shortcut for a new program that would first have to create leak testing, validated processing, drying, storage and repair arrangements. Phone adapters and abbreviated chemical-processing suggestions from those notes are not adopted."
+          "Separate video laryngoscopy from flexible intubation or bronchoscopy before comparing equipment. A compact video handle does not provide every function of a flexible scope. The responsible clinical team defines the intended work, sizes and trained users; purchasing then compares the complete kit that supports that requirement.",
+          "For compact video equipment, McGRATH MAC 301-000-000 and GlideScope Go 2 offer different power arrangements. McGRATH depends on approved replacement batteries; Go 2 depends on charging and eventual battery service. Either can be a practical choice where that dependency is managed. A spare handle without the required blade size or power supply is not a ready alternative."
         ],
         "sourceIds": [
-          "lfgp",
-          "ambu",
           "mcgrath",
-          "go2"
+          "go2",
+          "ambu",
+          "lfgp"
         ]
       },
       {
-        "heading": "Choose the power dependency the team can manage",
+        "heading": "Do not order blades by the display’s family name",
         "paragraphs": [
-          "McGRATH and Go 2 offer a practical choice between proprietary replaceable batteries and rechargeable operation. Favor McGRATH when approved batteries can be stocked reliably; favor Go 2 when the team can keep the charger available and obtain battery service. Go 2's published up-to-100-minute runtime is a manufacturer specification, not a measured promise for this site's battery condition or workload.",
-          "The public handle prices are incomplete comparisons. Denova displayed US$3,500 for McGRATH 301-000-000, while Bell Medical listed CoPilot at US$3,975 on October 16, 2026. Neither opened listing established a complete equivalent kit. Add the needed blade sizes, power, spare provision and destination support before deciding which is cheaper. CoPilot stays conditional because its current manufacturer production and service commitments were not confirmed."
+          "Verathon distinguishes Go 2, using Spectrum QC eco and Spectrum QC single-use blades, from the earlier Go, using Spectrum blades. Its product page also identifies different video-baton arrangements. Specify the exact display and compatible patient-contact components together; a mixed-generation lot can require another supply basket rather than supplying inexpensive spare blades.",
+          "Go 2’s published operation time is a manufacturer claim for the product, not measured endurance of an offered used battery. Runtime per charge, time to recharge and battery service life are three different quantities. Compare them separately against the service’s readiness routine, without treating a charge-cycle count as if it were minutes of operation.",
+          "Public asking prices are similarly incomplete. Denova’s October 16, 2026 catalog showed US$3,500 for McGRATH 301-000-000; Bell listed CoPilot at US$3,975. Included blades, power components, condition and destination terms were not established as equivalent. Complete those baskets before calling one offer cheaper."
         ],
         "sourceIds": [
-          "mcgrath",
           "go2",
           "mcgrath-price",
           "copilot"
         ]
       },
       {
-        "heading": "Price a quiet year as well as a busy one",
+        "heading": "A quiet flexible-scope service has a different cost problem",
         "paragraphs": [
-          "For intermittent flexible-scope work, aScope 4 Broncho can avoid maintaining a reusable scope between patients. Its reusable aView 2 Advance display still needs power, cleaning and support, and enough appropriate unopened scopes must be available when needed. Single-use scope freight, size mix and expiry can dominate a quiet service's cost.",
-          "An existing LF-GP earns continued use when its fiber bundle, angulation, leak integrity and channel condition remain acceptable and the complete processing route works. Compare annual processing and likely repair costs with delivered single-use quantities at both expected and lower activity. The calculation should include how the service continues during a reusable-scope repair or a delay in disposable deliveries; neither purchase creates backup by itself."
+          "For intermittent work, aScope 4 Broncho with aView 2 Advance can avoid maintaining a reusable scope between patients. It still requires the appropriate unopened scope sizes, storage within labeled limits and a working reusable display. Low activity makes pack sizes, expiry and freight especially important; the hospital may pay for scopes it never uses.",
+          "An already-owned LF-GP can remain economical when fiber condition, angulation, leak integrity and channel condition are acceptable and validated processing, drying, storage and repairs already work. Starting those services from nothing is a different purchase. Compare both the expected year and a quieter year, including processing labor and materials, repairs, unused single-use stock and cover during an interruption.",
+          "The useful dividing line is the existing infrastructure. A busy supported reusable service may gain little by replacing every scope. An intermittent service struggling to sustain processing may reasonably pay more per disposable scope. Neither arrangement supplies backup automatically; name the usable alternative during repair or delayed deliveries."
         ],
         "sourceIds": [
           "ambu",
@@ -191,20 +192,21 @@ export default {
         ]
       },
       {
-        "heading": "Check the exact handle before building a fleet around it",
+        "heading": "Provenance can decide a seemingly good offer",
         "paragraphs": [
-          "The FDA's 2024 McGRATH action distinguishes affected older 300-000-000 and 300-200-000 handles from next-generation 301-000-000, which received updated battery instructions. A separate 2023 notice concerned defective next-generation units distributed through unauthorized channels. The product number therefore needs provenance, serial checks and applicable corrective-action evidence alongside it.",
-          "Ambu's December 2023 communication says discontinued components stopped new King Vision display and blade manufacturing, with remaining products phased out as stocks depleted. That does not establish that every item is unavailable today. It does mean a new fleet would depend on a finite supply without a verified long-term replenishment plan. No comparative field failure data justify replacing these specific checks with a brand reliability ranking."
+          "The FDA’s 2024 McGRATH action removes specified serials of older 300-000-000 and 300-200-000 handles, while 301-000-000 receives updated battery instructions. A separate 2023 action concerns defective next-generation units stolen before destruction and sold through unauthorized channels. The newer model number alone therefore does not clear an offer: verify provenance, serial identity and applicable actions.",
+          "King Vision’s December 2023 manufacturer communication describes component discontinuations and a phased depletion of remaining products. That is a reason to avoid new standardization without a credible finite-supply plan, rather than proof that every item is currently unavailable. Keep CoPilot conditional on documented supply and service as well. A reachable repair route and confirmed compatible stock are decision evidence; neither establishes comparative clinical success or field reliability."
         ],
         "sourceIds": [
           "mcgrath-recall",
           "mcgrath-stolen",
-          "king"
+          "king",
+          "copilot"
         ]
       }
     ],
     "ownership": {
-      "equation": "Cost per ready procedure = (complete system + replacement power + consumables + processing + service + freight + downtime/backup provision) ÷ completed supported procedures.",
+      "equation": "Cost per supported procedure over a common period = (complete system + replacement power + consumables including unused expiry + processing + service/freight + backup provision over the period) / completed supported procedures during that period.",
       "drivers": [
         "Single-use blade and flexible-scope quantities by patient size, including unused expiry stock",
         "Proprietary batteries versus rechargeable battery replacement and charging equipment",
@@ -247,7 +249,7 @@ export default {
         "url": "https://www.verathon.com/glidescope-visualization-systems/glidescope-go?frm=vb-fmly",
         "publisher": "Verathon",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Rechargeable operation up to 100 minutes and IP67; specifications are not comparative durability data."
       },
       {
@@ -274,7 +276,7 @@ export default {
         "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/laryngoscope-recall-medtronic-removes-certain-mcgrath-mac-video-laryngoscopes-updates-use",
         "publisher": "FDA",
         "kind": "regulator",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "2024 notice distinguishes affected older units from updated instructions for next-generation units."
       },
       {
@@ -283,7 +285,7 @@ export default {
         "url": "https://www.fda.gov/medical-devices/medical-device-recalls/covidien-llc-recalls-mcgrath-mac-video-laryngoscope-due-stolen-defective-products",
         "publisher": "FDA",
         "kind": "regulator",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "2023 notice identifies unauthorized distribution of defective next-generation devices."
       },
       {
@@ -315,7 +317,7 @@ export default {
       {
         "option": "McGRATH MAC 301-000-000",
         "capability": "Compact integrated display with single-use blades.",
-        "costDriver": "Proprietary battery and blade replenishment; US$3,500 catalog anchor has unconfirmed contents.",
+        "costDriver": "Proprietary battery and blades; US$3,500 catalog example dated October 16, 2026 has unconfirmed contents.",
         "bestFit": "Portable work with dependable approved battery and blade supplies."
       },
       {
@@ -339,15 +341,17 @@ export default {
       {
         "option": "Magaw CoPilot VL",
         "capability": "Dealer-listed video platform with its own introducer/accessory ecosystem.",
-        "costDriver": "US$3,975 category-page anchor; package contents and manufacturer support remain unresolved.",
+        "costDriver": "US$3,975 seller example dated October 16, 2026; complete package and manufacturer support unresolved.",
         "bestFit": "A documented supported existing installation or fully specified offer."
       }
     ],
     "social": {
-      "title": "Choose an airway kit you can keep ready",
-      "description": "McGRATH, GlideScope and flexible scopes solve different jobs. Compare blades, batteries, charging and processing before the handle price.",
-      "hook": "The missing blade, flat battery or scope awaiting processing can decide what the kit is worth."
-    }
+      "title": "Buying airway equipment: the next blade matters as much as the handle",
+      "description": "Compare McGRATH, GlideScope and flexible-scope packages by blade compatibility, power, processing and the supplies that keep the kit ready.",
+      "hook": "Choose the kit the team can complete, replenish and return to service."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Compact video laryngoscopes Reusable flexible intubation scopes Single-use flexible scopes and displays Legacy model disposition Battery and recall exposure Consumable supply and reprocessing economics Medtronic McGRATH MAC, next-generation 301-000-000 Verathon GlideScope Go 2 Ambu aScope 4 Broncho with aView 2 Advance Olympus PORTAVIEW LF-GP Magaw CoPilot VL"
+  "searchTerms": "Buying airway equipment: the next blade matters as much as the handle Compact video laryngoscopes Reusable flexible intubation scopes Single-use flexible scopes and displays Legacy model disposition Battery and recall exposure Consumable supply and reprocessing economics Medtronic McGRATH MAC, next-generation 301-000-000 Verathon GlideScope Go 2 Ambu aScope 4 Broncho with aView 2 Advance Olympus PORTAVIEW LF-GP Magaw CoPilot VL",
+  "librarySection": "equipment"
 };

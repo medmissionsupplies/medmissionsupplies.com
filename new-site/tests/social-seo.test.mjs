@@ -38,6 +38,14 @@ test('every canonical page has a unique absolute share image and complete OG/X m
     assert.equal(page.image, seo.image);
     assert.ok(!('datePublished' in page), 'Do not turn a review date into a publication claim');
     assert.ok(!('offers' in page) && !('aggregateRating' in page));
+    if (route.articleId) {
+      assert.equal(page.author['@id'], siteUrl + '/#organization');
+      assert.equal(page.mainEntityOfPage, seo.url);
+      assert.match(page.dateModified, /^\d{4}-\d{2}-\d{2}$/);
+    }
+    const crumbs = seo.schema['@graph'].find(node => node['@type'] === 'BreadcrumbList');
+    assert.equal(crumbs.itemListElement.at(-1).item, seo.url);
+    assert.equal(crumbs.itemListElement[0].position, 1);
   }
 });
 

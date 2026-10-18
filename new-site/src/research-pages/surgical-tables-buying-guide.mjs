@@ -3,8 +3,8 @@ export default {
   "key": "surgical-tables",
   "kind": "research-guide",
   "equipmentId": "surgical-tables",
-  "title": "Surgical tables and lights: will the bargain fit your cases?",
-  "summary": "Table movement, safe loads, compatible accessories and reliable illumination can matter more than a low base price. Compare Lyra, UltraSlide and CMAX X-Ray alongside two lighting options.",
+  "title": "Buying surgical tables and lights: compare the fitted package",
+  "summary": "A table’s largest load figure and a light’s peak brightness can hide the limits that matter. Compare positions, accessories, imaging access and the installed room.",
   "categoryId": "surgical",
   "category": "Surgery & anesthesia",
   "image": "guides/surgical-tables",
@@ -23,45 +23,49 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
-      "Put the patient in the comparison—not just the load number",
-      "Lyra’s 360 kg central load figure and 180 kg unrestricted figure describe different conditions. UltraSlide’s stated 800-pound articulation capacity is a different specification again. Ask for the safe load in each required position with the actual accessories fitted; do not compare the largest numbers as though they describe the same task. The useful choice is the table that supports the intended patients and procedures within its documented limits. UltraSlide’s 26-inch longitudinal travel can be worth paying for when it provides needed imaging access without sacrificing the required articulated positioning. CMAX X-Ray’s floating carbon-fiber top supplies a dedicated alternative for frequent image-guided work. Its 230 kg capacity and substantial table weight belong to this exact product, not every Cmax-family table. Demonstrate the C-arm’s required views with the table base, mattress and accessories in place."
+      "Use the load limit for the position you need",
+      "Start with the planned procedures, patient range and required positions. Getinge gives Lyra an overall load of 360 kg centrally and 180 kg unrestricted; that overall load includes patient and accessories. Skytron gives the 3603 UltraSlide an 800-pound articulation capacity. These are differently qualified limits, not interchangeable numbers for a ranking. Have the responsible clinical and engineering teams identify the permitted load with the intended orientation, slide, extensions and attachments. A table can be adequate for one configuration and unsuitable for another. Buy the documented fitted capability, and retain the applicable instructions with the acceptance record."
     ],
     [
-      "Price the complete table already sitting in the room",
-      "A working table with compatible leg supports, armboards, clamps and a usable mattress has value beyond the base. A donated replacement missing those parts can be more expensive to commission than repairing the existing system. Lyra’s accessory compatibility may preserve an investment, but check each fitting and its position-specific load; matching brand names alone are insufficient. Control recovery is another concrete comparison. Lyra documents a separate hard-wired override circuit and manual brake release. Test approved fallback operation during acceptance and obtain the battery and controller replacement procedure for the offered model. Those features can help restore operation after a control problem, but they do not establish a lower failure rate than the alternatives."
+      "Pay for movement when it opens the required view",
+      "UltraSlide’s published 26-inch top travel is worth comparing when the operation needs that imaging access and articulated positioning. Lyra supplies manual longitudinal movement. CMAX X-Ray offers a dedicated floating imaging top; its stated 230 kg patient capacity belongs to that exact product, not every Cmax-family table. A radiolucent top does not prove the C-arm can reach the target through the required angles. Compare the base, column, mattress and fitted accessories together. Demonstrate the intended imaging views and staff access in the room plan. For occasional specialist work, compare an approved accessory arrangement or a suitable rental with a dedicated table; do not assume either provides equivalent capability without evidence."
     ],
     [
-      "A surgical light has to reach the field and stay there",
-      "Compare Polaris and HarmonyAIR with people and equipment around the table. Check field coverage, working distance, shadows, control access and suspension drift. Peak illuminance and an attractive recording-camera option do not answer those questions. HarmonyAIR’s automatic intensity management and color configurations are features to evaluate in that setup; fund recording only when the service will use it. The current mobile Polaris configuration advertises up to four hours at full illumination from its integrated battery. That provides a specific continuity option, not a battery-runtime claim for every ceiling or older Polaris installation. Price the mobile package separately and identify battery replacement and charging requirements. For ceiling systems, include the engineered suspension installation and access for maintenance."
+      "Put the complete existing table on the shortlist",
+      "A supported installed table may already include valuable armboards, leg supports, clamps, mattress and trained staff. Add every missing item to the replacement offer before comparing prices. Brand familiarity alone does not establish accessory compatibility: identify the part, interface and permitted load. An apparently inexpensive base can become the costly choice once the required attachments are added. Check brakes, controls, movement, battery condition and the approved recovery provisions during qualified acceptance. Lyra documents a separate hard-wired override circuit and manual brake release. Those are useful recovery features, not proof that it fails less often. Price controller, battery and mattress replacement alongside routine service; keep a suitable table when those needs remain supportable."
     ],
     [
-      "An older light needs a parts answer, not an automatic rejection",
-      "The opened regional Polaris 100/200 page marks that family End of Sales and points to the newer Polaris. It does not give a worldwide end-of-service date. Inspect an existing unit’s suspension and illumination, then verify the driver, LED modules and other parts needed for that serial number before deciding to replace it. Likewise, a long LED-life specification is about the light source, not a promise that the whole light, suspension or controls will last that long. Identify who can repair a drifting arm or failed driver at the destination. No comparative field failure data establish a longest-lasting table or lighting brand; documented mechanisms and available parts are useful evidence, with local repair capability still decisive."
+      "Compare illumination at the same field size",
+      "For lighting, separate the physical head diameter from the illuminated field. Compare central illuminance at the same working distance and field size, with the same intensity-control state. HarmonyAIR A-Series publishes different values for small and large patterns and for automatic intensity on or off. A single peak number loses those conditions. Evaluate Polaris and HarmonyAIR with people and equipment around the table: reach, shadows, field coverage, control access and suspension drift matter. Price heads, arms, sterile handles, controls and engineered mounting together. Camera and recording options earn their cost only where the service will use them; they should not consume the budget for dependable illumination and maintenance access."
+    ],
+    [
+      "Keep light-source life separate from system life",
+      "The documented mobile Polaris configuration advertises up to four hours at full illumination on its integrated battery. Treat it as a particular continuity option, with charging and replacement batteries included. That runtime does not apply automatically to a ceiling installation or an older Polaris unit. A long LED-life figure is not a warranty for the suspension, driver or controls. Likewise, a regional end-of-sales notice for Polaris 100/200 does not establish a worldwide end-of-service date. An older light can remain good value when illumination and suspension are acceptable and the required repair parts are obtainable. No comparative field-failure evidence here establishes a longest-lasting table or lighting brand."
     ]
   ],
   "related": [
     "surgical-tables"
   ],
-  "socialTitle": "Does the surgical-table bargain fit the actual case?",
-  "socialDescription": "Compare Lyra, UltraSlide and CMAX X-Ray, plus Polaris and HarmonyAIR lights. Position limits, accessories and backup power change the decision.",
-  "socialHeadline": "Surgical table and light buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying surgical tables and lights: compare the fitted package",
+  "socialDescription": "A table’s largest load figure and a light’s peak brightness can hide the limits that matter. Compare positions, accessories, imaging access and the installed room.",
+  "socialHeadline": "Buying surgical tables and lights: compare the fitted package",
+  "socialStrapline": "The bare table is not the working setup.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "surgical-tables",
-    "title": "Surgical table and light buying guide",
-    "summary": "Start with the patients, positions and imaging views your theatre uses. A table's largest load number does not describe every operating position.",
-    "firstChoice": "Compare Maquet Lyra as a general-theatre option with the complete supported table already on site. Include compatible armboards, leg supports, clamps and mattress in both packages.",
-    "upgradeWhen": "Skytron 3603 UltraSlide's longer slide can solve imaging access limits. CMAX X-Ray suits work that uses its floating top. For lights, assess Polaris and HarmonyAIR in the intended room.",
-    "budgetWatch": "Accessory replacement and engineered light installation can change the apparent bargain. Lyra's central and unrestricted load limits differ; CMAX X-Ray specifications do not describe every Cmax-family table.",
-    "supportCheck": "Demonstrate approved fallback controls, brakes and positioning. Check suspension drift and replacement light-driver availability. Polaris battery runtime applies to the documented mobile configuration, not every Polaris light.",
+    "title": "Buying surgical tables and lights: compare the fitted package",
+    "summary": "A table’s largest load figure and a light’s peak brightness can hide the limits that matter. Compare positions, accessories, imaging access and the installed room.",
+    "firstChoice": "Demonstrate the required positions with the intended patient range, accessories and C-arm. For lights, check working distance, reach, shadows and suspension in the actual room layout.",
+    "upgradeWhen": "Pay for UltraSlide’s travel or CMAX X-Ray’s floating top when those movements improve required imaging access. Add battery-backed mobile lighting when the continuity plan needs the documented configuration.",
+    "budgetWatch": "Include all table accessories and light installation. Separate central, articulated and unrestricted loads; distinguish lighthead size from illuminated field.",
+    "supportCheck": "Reject a table described only by its largest load number, a bare base with unpriced missing accessories, or a ceiling light offered without a viable mounting and installation plan.",
     "askSupplier": [
-      "What load is allowed in our positions with these accessories?",
-      "Can our C-arm achieve its views without hitting the base?",
-      "Which controls and illumination remain available during a power or control failure?"
+      "Document allowable loads for our exact positions and attachments.",
+      "Demonstrate imaging access with the complete fitted table.",
+      "Compare lighting at the same field size and distance, including mounting, controls and service."
     ],
     "sourceIds": [
       "t-lyra",
@@ -73,8 +77,8 @@ export default {
   },
   "research": {
     "id": "surgical-tables",
-    "title": "Surgical tables and lights: will the bargain fit your cases?",
-    "dek": "Table movement, safe loads, compatible accessories and reliable illumination can matter more than a low base price. Compare Lyra, UltraSlide and CMAX X-Ray alongside two lighting options.",
+    "title": "Buying surgical tables and lights: compare the fitted package",
+    "dek": "A table’s largest load figure and a light’s peak brightness can hide the limits that matter. Compare positions, accessories, imaging access and the installed room.",
     "verdict": "Choose Lyra when its positioning, compatible accessories and fallback controls fit the general theatre; consider Skytron 3603 UltraSlide when its 26-inch slide and stated articulation capacity solve a real limitation. Reserve CMAX X-Ray for work that uses its floating imaging top. For lights, evaluate current Polaris and HarmonyAIR A-Series in the intended room; the documented mobile Polaris offers a distinct battery-backup option. A complete supported table already on site can remain the strongest value.",
     "coverage": [
       "General-purpose operating tables",
@@ -101,7 +105,7 @@ export default {
         "position": "General table alternative",
         "bestFor": "A theatre using compatible accessories and the documented fallback controls.",
         "why": "Manual slide supports imaging access; a separate hard-wired override circuit and manual brake release address control recovery.",
-        "tradeoff": "The published 360 kg overall load applies centrally; the unrestricted figure is 180 kg. Existing accessories save money only after compatibility and position-specific loads are confirmed.",
+        "tradeoff": "Getinge’s overall load includes patient and accessories: 360 kg centrally versus 180 kg unrestricted. Confirm the limits for the actual position and attachment combination.",
         "price": "Quote required with the actual accessory set and installation.",
         "support": "Fallback features documented; local repair eligibility and parts commitments unconfirmed.",
         "sourceIds": [
@@ -147,10 +151,21 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Put the patient in the comparison—not just the load number",
+        "heading": "Use the load limit for the position you need",
         "paragraphs": [
-          "Lyra’s 360 kg central load figure and 180 kg unrestricted figure describe different conditions. UltraSlide’s stated 800-pound articulation capacity is a different specification again. Ask for the safe load in each required position with the actual accessories fitted; do not compare the largest numbers as though they describe the same task. The useful choice is the table that supports the intended patients and procedures within its documented limits.",
-          "UltraSlide’s 26-inch longitudinal travel can be worth paying for when it provides needed imaging access without sacrificing the required articulated positioning. CMAX X-Ray’s floating carbon-fiber top supplies a dedicated alternative for frequent image-guided work. Its 230 kg capacity and substantial table weight belong to this exact product, not every Cmax-family table. Demonstrate the C-arm’s required views with the table base, mattress and accessories in place."
+          "Start with the planned procedures, patient range and required positions. Getinge gives Lyra an overall load of 360 kg centrally and 180 kg unrestricted; that overall load includes patient and accessories. Skytron gives the 3603 UltraSlide an 800-pound articulation capacity. These are differently qualified limits, not interchangeable numbers for a ranking.",
+          "Have the responsible clinical and engineering teams identify the permitted load with the intended orientation, slide, extensions and attachments. A table can be adequate for one configuration and unsuitable for another. Buy the documented fitted capability, and retain the applicable instructions with the acceptance record."
+        ],
+        "sourceIds": [
+          "t-lyra",
+          "t-skytron"
+        ]
+      },
+      {
+        "heading": "Pay for movement when it opens the required view",
+        "paragraphs": [
+          "UltraSlide’s published 26-inch top travel is worth comparing when the operation needs that imaging access and articulated positioning. Lyra supplies manual longitudinal movement. CMAX X-Ray offers a dedicated floating imaging top; its stated 230 kg patient capacity belongs to that exact product, not every Cmax-family table.",
+          "A radiolucent top does not prove the C-arm can reach the target through the required angles. Compare the base, column, mattress and fitted accessories together. Demonstrate the intended imaging views and staff access in the room plan. For occasional specialist work, compare an approved accessory arrangement or a suitable rental with a dedicated table; do not assume either provides equivalent capability without evidence."
         ],
         "sourceIds": [
           "t-lyra",
@@ -159,37 +174,36 @@ export default {
         ]
       },
       {
-        "heading": "Price the complete table already sitting in the room",
+        "heading": "Put the complete existing table on the shortlist",
         "paragraphs": [
-          "A working table with compatible leg supports, armboards, clamps and a usable mattress has value beyond the base. A donated replacement missing those parts can be more expensive to commission than repairing the existing system. Lyra’s accessory compatibility may preserve an investment, but check each fitting and its position-specific load; matching brand names alone are insufficient.",
-          "Control recovery is another concrete comparison. Lyra documents a separate hard-wired override circuit and manual brake release. Test approved fallback operation during acceptance and obtain the battery and controller replacement procedure for the offered model. Those features can help restore operation after a control problem, but they do not establish a lower failure rate than the alternatives."
+          "A supported installed table may already include valuable armboards, leg supports, clamps, mattress and trained staff. Add every missing item to the replacement offer before comparing prices. Brand familiarity alone does not establish accessory compatibility: identify the part, interface and permitted load. An apparently inexpensive base can become the costly choice once the required attachments are added.",
+          "Check brakes, controls, movement, battery condition and the approved recovery provisions during qualified acceptance. Lyra documents a separate hard-wired override circuit and manual brake release. Those are useful recovery features, not proof that it fails less often. Price controller, battery and mattress replacement alongside routine service; keep a suitable table when those needs remain supportable."
         ],
         "sourceIds": [
-          "t-lyra",
-          "t-skytron"
+          "t-lyra"
         ]
       },
       {
-        "heading": "A surgical light has to reach the field and stay there",
+        "heading": "Compare illumination at the same field size",
         "paragraphs": [
-          "Compare Polaris and HarmonyAIR with people and equipment around the table. Check field coverage, working distance, shadows, control access and suspension drift. Peak illuminance and an attractive recording-camera option do not answer those questions. HarmonyAIR’s automatic intensity management and color configurations are features to evaluate in that setup; fund recording only when the service will use it.",
-          "The current mobile Polaris configuration advertises up to four hours at full illumination from its integrated battery. That provides a specific continuity option, not a battery-runtime claim for every ceiling or older Polaris installation. Price the mobile package separately and identify battery replacement and charging requirements. For ceiling systems, include the engineered suspension installation and access for maintenance."
+          "For lighting, separate the physical head diameter from the illuminated field. Compare central illuminance at the same working distance and field size, with the same intensity-control state. HarmonyAIR A-Series publishes different values for small and large patterns and for automatic intensity on or off. A single peak number loses those conditions.",
+          "Evaluate Polaris and HarmonyAIR with people and equipment around the table: reach, shadows, field coverage, control access and suspension drift matter. Price heads, arms, sterile handles, controls and engineered mounting together. Camera and recording options earn their cost only where the service will use them; they should not consume the budget for dependable illumination and maintenance access."
+        ],
+        "sourceIds": [
+          "t-harmony",
+          "t-polaris"
+        ]
+      },
+      {
+        "heading": "Keep light-source life separate from system life",
+        "paragraphs": [
+          "The documented mobile Polaris configuration advertises up to four hours at full illumination on its integrated battery. Treat it as a particular continuity option, with charging and replacement batteries included. That runtime does not apply automatically to a ceiling installation or an older Polaris unit.",
+          "A long LED-life figure is not a warranty for the suspension, driver or controls. Likewise, a regional end-of-sales notice for Polaris 100/200 does not establish a worldwide end-of-service date. An older light can remain good value when illumination and suspension are acceptable and the required repair parts are obtainable. No comparative field-failure evidence here establishes a longest-lasting table or lighting brand."
         ],
         "sourceIds": [
           "t-polaris",
-          "t-harmony"
-        ]
-      },
-      {
-        "heading": "An older light needs a parts answer, not an automatic rejection",
-        "paragraphs": [
-          "The opened regional Polaris 100/200 page marks that family End of Sales and points to the newer Polaris. It does not give a worldwide end-of-service date. Inspect an existing unit’s suspension and illumination, then verify the driver, LED modules and other parts needed for that serial number before deciding to replace it.",
-          "Likewise, a long LED-life specification is about the light source, not a promise that the whole light, suspension or controls will last that long. Identify who can repair a drifting arm or failed driver at the destination. No comparative field failure data establish a longest-lasting table or lighting brand; documented mechanisms and available parts are useful evidence, with local repair capability still decisive."
-        ],
-        "sourceIds": [
-          "t-old-polaris",
           "t-harmony",
-          "t-polaris"
+          "t-old-polaris"
         ]
       }
     ],
@@ -211,9 +225,9 @@ export default {
       "What does the delivered quote exclude from installation and first commissioning?"
     ],
     "gaps": [
-      "No model-specific legacy table/light recommendation supplied.",
-      "No current matched installed prices or comparative failure-rate evidence.",
-      "No destination-specific service or spare-stock commitments verified.",
+      "Exact fitted load limits, imaging clearance and structural installation require qualified review of the offered configuration.",
+      "No matched installed prices or comparative failure-rate data established.",
+      "Destination service and spare-stock commitments remain unverified.",
       "Polaris 100/200 end-of-sales evidence is regional; end-of-service is not established."
     ],
     "sources": [
@@ -223,7 +237,7 @@ export default {
         "url": "https://www.skytron.com/products/clinical/surgical-tables/3603-ultraslide/",
         "publisher": "Skytron",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "26-inch top slide with 800-pound articulation capacity; 20.5-inch minimum height; removable sections."
       },
       {
@@ -232,7 +246,7 @@ export default {
         "url": "https://www.getinge.com/us/products/maquet-lyra/",
         "publisher": "Getinge",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Manual slide, central versus unrestricted load figures, accessory compatibility and separate override circuit."
       },
       {
@@ -259,7 +273,7 @@ export default {
         "url": "https://www.steris.com/healthcare/products/surgical-lights-and-examination-lights/surgical-lights/harmonyair-a-series-surgical-lighting-system",
         "publisher": "STERIS",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Intensity-management features, color configurations, LED-life specification and replacement-parts/manual links."
       },
       {
@@ -269,7 +283,7 @@ export default {
         "publisher": "Dräger",
         "kind": "manufacturer",
         "accessed": "2026-10-16",
-        "evidence": "Opened page explicitly labels this older family End of Sales and points to the current Polaris; does not give end-of-service date."
+        "evidence": "Product page explicitly labels this older family End of Sales and points to the current Polaris; does not give end-of-service date."
       }
     ],
     "decision": {
@@ -311,10 +325,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Does the surgical-table bargain fit the actual case?",
-      "description": "Compare Lyra, UltraSlide and CMAX X-Ray, plus Polaris and HarmonyAIR lights. Position limits, accessories and backup power change the decision.",
-      "hook": "A table’s biggest load number says little about the position you need with the accessories fitted."
-    }
+      "title": "Buying surgical tables and lights: compare the fitted package",
+      "description": "A table’s largest load figure and a light’s peak brightness can hide the limits that matter. Compare positions, accessories, imaging access and the installed room.",
+      "hook": "The bare table is not the working setup."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "General-purpose operating tables Dedicated imaging tables Ceiling and mobile surgical lights Power continuity Accessories, load limits and refurbishment Skytron 3603 UltraSlide Getinge Maquet Lyra STERIS CMAX X-Ray Image-Guided Surgical Table Dräger Polaris, current generation STERIS HarmonyAIR A-Series"
+  "searchTerms": "Buying surgical tables and lights: compare the fitted package General-purpose operating tables Dedicated imaging tables Ceiling and mobile surgical lights Power continuity Accessories, load limits and refurbishment Skytron 3603 UltraSlide Getinge Maquet Lyra STERIS CMAX X-Ray Image-Guided Surgical Table Dräger Polaris, current generation STERIS HarmonyAIR A-Series",
+  "librarySection": "equipment"
 };

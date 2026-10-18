@@ -3,8 +3,8 @@ export default {
   "key": "ultrasound",
   "kind": "research-guide",
   "equipmentId": "ultrasound",
-  "title": "Ultrasound on a budget: the probe kit changes the winner",
-  "summary": "EBit 30, SonoBook 6 and EBit 60 offer different reasons to buy a laptop scanner. Butterfly iQ3 and Vscan Air CL earn their place when portability opens access to patients.",
+  "title": "Buying an ultrasound? The probe package changes the winner",
+  "summary": "Compare EBit 30, EBit 60 and SonoBook 6 as complete scanning packages, then decide whether iQ3 or Vscan Air CL adds useful bedside access.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "image": "guides/ultrasound",
@@ -23,33 +23,41 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
-      "Buy the missing examination, then choose the console",
-      "Put the required examinations beside each offer: the named transducer, enabled mode and export function should be visible for every item. This makes EBit 30 a useful baseline without declaring it the cheapest system. Its manufacturer page includes a cardiac CW example, but the offered configuration still needs verification. That is a reason to test the offered probe and software combination, not to assume every EBit 30 includes CW. EBit 60 is a separate model, not another name for EBit 30. Its published CW, tissue-Doppler and color-M-mode examples and P3-E/P6-E probe listings make a cardiac comparison more specific. Buy that package only if the clinicians need and accept it. A 4D option or attractive image gallery cannot make up for an absent everyday probe."
+      "Start with the examinations you cannot complete",
+      "A small hospital needs to buy a working examination service, not an impressive console. Put the required examinations beside each offer and identify the transducer, enabled mode and method of saving the result. An inexpensive package missing one everyday probe can lose to a higher-priced package that is ready for the actual workload. EBit 30 is a useful starting comparison for a deliberately limited laptop package. Its published features include harmonic imaging and 4D, but those features do not establish the contents of an individual offer. Fund the necessary probes before paying for an imaging option that the service will seldom use."
     ],
     [
-      "Pay for portability only where it changes the work",
-      "SonoBook 6’s rotating screen and optional three-probe connector are useful differences when a shared machine moves between rooms. The connector may reduce repeated unplugging; the screen may improve positioning around a bed. Include the battery and transport arrangement when assessing its approximately 11-pound console figure, which excludes the battery. Advertised operation of up to two hours is not a verified mission-day runtime. For a backpack or bedside kit, compare iQ3’s single-probe approach with Vscan Air CL’s wireless curved/linear arrays on the intended phone or tablet. Check display visibility, cleaning, charging, image export and operation without internet access. CL is not the separate sector/linear SL configuration. Neither handheld earns a blanket replacement recommendation for a diagnostic laptop from specifications alone; the purchase needs to add examinations or access that the existing service lacks."
+      "Make the EBit 30 versus EBit 60 comparison specific",
+      "The EBit 30 page shows a CW cardiac image. That is a reason to establish the offered cardiac configuration; it does not prove that every regional unit includes the necessary software and probe. EBit 60 is a separate model whose manufacturer page shows CW, tissue-Doppler and color-M-mode examples and lists P3-E/P6-E transducers. The useful comparison is therefore between two named, enabled packages. If both perform the required examinations acceptably, the extra model number alone does not justify a premium. If the EBit 60 package provides a needed function that the offered EBit 30 cannot demonstrate, the upgrade has a concrete purpose. Neither an image gallery nor a list of available probes establishes what ships as standard."
     ],
     [
-      "When keeping the older scanner is the better buy",
-      "An M-Turbo already equipped with useful probes can be more valuable to the service than its resale price suggests. Buying a second inexpensive console without those probes is a different proposition. For either M-Turbo or MicroMaxx, identify the exact console, probe part numbers, enabled software and a repair route before allocating money. Current serial-specific manufacturer service eligibility was not established. Compare the cost of restoring a complete service, not merely repairing the console. A repair that leaves one indispensable, unreplaceable probe does not resolve the next interruption. Equally, replacing a functioning system solely for newer processing claims can consume funds better spent on a needed probe or backup capacity. No comparative failure-rate evidence established in this review supports a brand reliability ranking or a fixed replacement age."
+      "SonoBook 6 earns its place when the scanner moves",
+      "SonoBook 6 offers a rotating 15-inch screen, battery swapping and an optional three-probe connector. Those differences matter when a shared scanner moves between rooms: the screen can help positioning around a bed, while the connector may reduce repeated unplugging. Compare the complete transport arrangement. Its published weight of approximately 11 pounds excludes the battery, and advertised operation of up to two hours is not a verified runtime for your workload. Include the battery, cart or carrying arrangement and the same examination coverage as the competing laptop package. Portability is worth buying when it changes where or how often the scanner can be used."
+    ],
+    [
+      "A handheld should add access you actually need",
+      "Butterfly iQ3 combines a single-probe approach with a compatible phone or tablet. Vscan Air CL puts curved and linear arrays in a wireless housing. The CL designation matters: it is different from the sector/linear SL configuration. Evaluate the exact product, display and enabled applications together. A useful demonstration includes viewing the screen in the intended setting, charging, cleaning, saving a study and retrieving it for review. Establish what works without internet access and what remains available when a subscription ends. A compact device can be valuable for bedside or outreach work without being an adequate replacement for every examination performed on the shared diagnostic scanner."
+    ],
+    [
+      "Keep a useful older scanner when the whole service still works",
+      "An M-Turbo already equipped with useful probes may be more valuable to the service than its resale price suggests. Buying another inexpensive console without those probes is a different proposition. For either M-Turbo or MicroMaxx, establish the exact console, probe part numbers, enabled software and available repair route before committing funds. A console repair that leaves an indispensable probe with no replacement route has not resolved the next interruption. Equally, replacing a functioning scanner solely for newer processing claims can consume money better spent on a missing probe or backup capacity. These sources do not establish comparative failure rates, a universal replacement age or current serial-specific manufacturer service eligibility."
     ]
   ],
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "The ultrasound probe kit can change the buying decision",
-  "socialDescription": "Compare EBit 30, SonoBook 6, EBit 60, iQ3 and Vscan Air CL—and see when keeping a working older scanner makes more sense.",
-  "socialHeadline": "Ultrasound buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "The probe package changes the ultrasound winner",
+  "socialDescription": "Five ultrasound options, the differences worth paying for, and when an older scanner remains a better use of the budget.",
+  "socialHeadline": "The probe package changes the ultrasound winner",
+  "socialStrapline": "A console discount means little if the everyday probe is missing.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "ultrasound",
-    "title": "Ultrasound buying guide",
-    "summary": "Buy the examinations your hospital needs: each requires the right probe, enabled imaging modes and a usable way to save results.",
+    "title": "Buying an ultrasound? The probe package changes the winner",
+    "summary": "Compare EBit 30, EBit 60 and SonoBook 6 as complete scanning packages, then decide whether iQ3 or Vscan Air CL adds useful bedside access.",
     "firstChoice": "Use EBit 30 with a complete everyday probe kit as the first comparison. Keep a working M-Turbo if its useful probes and repair route still support the service.",
     "upgradeWhen": "Compare EBit 60 for needed cardiac Doppler capability, SonoBook 6 for frequent room changes, or iQ3/Vscan Air CL when a handheld reaches otherwise inaccessible patients.",
     "budgetWatch": "A console discount can disappear when probes, batteries, software and a compatible handheld display are added. A handheld subscription may change continuing costs and available functions.",
@@ -65,15 +73,14 @@ export default {
       "u-sonobook",
       "u-iq3",
       "u-vscan",
-      "u-battery",
-      "u-legacy"
+      "u-battery"
     ]
   },
   "research": {
     "id": "ultrasound",
-    "title": "Ultrasound on a budget: the probe kit changes the winner",
-    "dek": "EBit 30, SonoBook 6 and EBit 60 offer different reasons to buy a laptop scanner. Butterfly iQ3 and Vscan Air CL earn their place when portability opens access to patients.",
-    "verdict": "Choose the probe-and-software package that completes the hospital’s examinations first. EBit 30 is a sensible baseline; SonoBook 6 adds specific room-to-room conveniences, and EBit 60 deserves comparison when cardiac work needs its documented Doppler options. Add iQ3 or Vscan Air CL when a handheld reaches patients the shared scanner cannot. A working M-Turbo with useful probes may still be the best use of an existing investment.",
+    "title": "Buying an ultrasound? The probe package changes the winner",
+    "dek": "Compare EBit 30, EBit 60 and SonoBook 6 as complete scanning packages, then decide whether iQ3 or Vscan Air CL adds useful bedside access.",
+    "verdict": "Start with a complete laptop package for the examinations your service must deliver. Compare EBit 30 with EBit 60 for the required cardiac functions and SonoBook 6 for frequent room changes. Buy a handheld when it adds useful access, and keep a capable M-Turbo when its probes and repair route still serve the work.",
     "coverage": [
       "Laptop ultrasound",
       "Handheld ultrasound",
@@ -110,20 +117,19 @@ export default {
         "model": "CHISON EBit 60",
         "position": "Expanded-capability laptop alternative",
         "bestFor": "A service needing the offered cardiac probes and Doppler functions.",
-        "why": "CHISON shows CW, tissue-Doppler and color-M-mode examples and lists P3-E/P6-E probes. EBit 60 is separately named in the earlier inventory.",
+        "why": "CHISON publishes CW, tissue-Doppler and color-M-mode examples and lists P3-E/P6-E probes. These make the cardiac package worth a specific comparison with EBit 30.",
         "tradeoff": "Images and a probe list do not establish which options ship as standard. Compare the required enabled package with EBit 30 before paying an upgrade premium.",
         "price": "Quote required: named probes, enabled software, battery and service.",
         "support": "Model page verified; production availability, destination service and future probe supply unconfirmed.",
         "sourceIds": [
-          "u-ebit60",
-          "u-essentials"
+          "u-ebit60"
         ]
       },
       {
         "model": "Butterfly iQ3",
         "position": "Handheld shortlist",
         "bestFor": "Outreach using one compact probe with a compatible phone or tablet.",
-        "why": "The current generation’s single-probe approach and biplane imaging deserve evaluation independently of the unspecified earlier Butterfly generation.",
+        "why": "Its single-probe approach and biplane imaging offer a compact alternative to a laptop and separate transducer kit.",
         "tradeoff": "Verify enabled applications, compatible display device, account/subscription terms, local authorization and offline workflow. Its marketing comparison does not prove equivalence to the hospital's diagnostic scanner.",
         "price": "Quote required: probe, software term and mobile device.",
         "support": "Manufacturer documentation available; export eligibility, replacement turnaround and phone/software support unconfirmed.",
@@ -147,43 +153,59 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Buy the missing examination, then choose the console",
+        "heading": "Start with the examinations you cannot complete",
         "paragraphs": [
-          "Put the required examinations beside each offer: the named transducer, enabled mode and export function should be visible for every item. This makes EBit 30 a useful baseline without declaring it the cheapest system. Its manufacturer page includes a cardiac CW example, but the offered configuration still needs verification. That is a reason to test the offered probe and software combination, not to assume every EBit 30 includes CW.",
-          "EBit 60 is a separate model, not another name for EBit 30. Its published CW, tissue-Doppler and color-M-mode examples and P3-E/P6-E probe listings make a cardiac comparison more specific. Buy that package only if the clinicians need and accept it. A 4D option or attractive image gallery cannot make up for an absent everyday probe."
+          "A small hospital needs to buy a working examination service, not an impressive console. Put the required examinations beside each offer and identify the transducer, enabled mode and method of saving the result. An inexpensive package missing one everyday probe can lose to a higher-priced package that is ready for the actual workload.",
+          "EBit 30 is a useful starting comparison for a deliberately limited laptop package. Its published features include harmonic imaging and 4D, but those features do not establish the contents of an individual offer. Fund the necessary probes before paying for an imaging option that the service will seldom use."
         ],
         "sourceIds": [
-          "u-ebit",
-          "u-ebit60",
-          "u-essentials"
+          "u-ebit"
         ]
       },
       {
-        "heading": "Pay for portability only where it changes the work",
+        "heading": "Make the EBit 30 versus EBit 60 comparison specific",
         "paragraphs": [
-          "SonoBook 6’s rotating screen and optional three-probe connector are useful differences when a shared machine moves between rooms. The connector may reduce repeated unplugging; the screen may improve positioning around a bed. Include the battery and transport arrangement when assessing its approximately 11-pound console figure, which excludes the battery. Advertised operation of up to two hours is not a verified mission-day runtime.",
-          "For a backpack or bedside kit, compare iQ3’s single-probe approach with Vscan Air CL’s wireless curved/linear arrays on the intended phone or tablet. Check display visibility, cleaning, charging, image export and operation without internet access. CL is not the separate sector/linear SL configuration. Neither handheld earns a blanket replacement recommendation for a diagnostic laptop from specifications alone; the purchase needs to add examinations or access that the existing service lacks."
+          "The EBit 30 page shows a CW cardiac image. That is a reason to establish the offered cardiac configuration; it does not prove that every regional unit includes the necessary software and probe. EBit 60 is a separate model whose manufacturer page shows CW, tissue-Doppler and color-M-mode examples and lists P3-E/P6-E transducers.",
+          "The useful comparison is therefore between two named, enabled packages. If both perform the required examinations acceptably, the extra model number alone does not justify a premium. If the EBit 60 package provides a needed function that the offered EBit 30 cannot demonstrate, the upgrade has a concrete purpose. Neither an image gallery nor a list of available probes establishes what ships as standard."
         ],
         "sourceIds": [
-          "u-sonobook",
+          "u-ebit",
+          "u-ebit60"
+        ]
+      },
+      {
+        "heading": "SonoBook 6 earns its place when the scanner moves",
+        "paragraphs": [
+          "SonoBook 6 offers a rotating 15-inch screen, battery swapping and an optional three-probe connector. Those differences matter when a shared scanner moves between rooms: the screen can help positioning around a bed, while the connector may reduce repeated unplugging.",
+          "Compare the complete transport arrangement. Its published weight of approximately 11 pounds excludes the battery, and advertised operation of up to two hours is not a verified runtime for your workload. Include the battery, cart or carrying arrangement and the same examination coverage as the competing laptop package. Portability is worth buying when it changes where or how often the scanner can be used."
+        ],
+        "sourceIds": [
+          "u-sonobook"
+        ]
+      },
+      {
+        "heading": "A handheld should add access you actually need",
+        "paragraphs": [
+          "Butterfly iQ3 combines a single-probe approach with a compatible phone or tablet. Vscan Air CL puts curved and linear arrays in a wireless housing. The CL designation matters: it is different from the sector/linear SL configuration. Evaluate the exact product, display and enabled applications together.",
+          "A useful demonstration includes viewing the screen in the intended setting, charging, cleaning, saving a study and retrieving it for review. Establish what works without internet access and what remains available when a subscription ends. A compact device can be valuable for bedside or outreach work without being an adequate replacement for every examination performed on the shared diagnostic scanner."
+        ],
+        "sourceIds": [
           "u-iq3",
           "u-vscan",
           "u-battery"
         ]
       },
       {
-        "heading": "When keeping the older scanner is the better buy",
+        "heading": "Keep a useful older scanner when the whole service still works",
         "paragraphs": [
-          "An M-Turbo already equipped with useful probes can be more valuable to the service than its resale price suggests. Buying a second inexpensive console without those probes is a different proposition. For either M-Turbo or MicroMaxx, identify the exact console, probe part numbers, enabled software and a repair route before allocating money. Current serial-specific manufacturer service eligibility was not established.",
-          "Compare the cost of restoring a complete service, not merely repairing the console. A repair that leaves one indispensable, unreplaceable probe does not resolve the next interruption. Equally, replacing a functioning system solely for newer processing claims can consume funds better spent on a needed probe or backup capacity. No comparative failure-rate evidence established in this review supports a brand reliability ranking or a fixed replacement age."
+          "An M-Turbo already equipped with useful probes may be more valuable to the service than its resale price suggests. Buying another inexpensive console without those probes is a different proposition. For either M-Turbo or MicroMaxx, establish the exact console, probe part numbers, enabled software and available repair route before committing funds.",
+          "A console repair that leaves an indispensable probe with no replacement route has not resolved the next interruption. Equally, replacing a functioning scanner solely for newer processing claims can consume money better spent on a missing probe or backup capacity. These sources do not establish comparative failure rates, a universal replacement age or current serial-specific manufacturer service eligibility."
         ],
-        "sourceIds": [
-          "u-legacy"
-        ]
+        "sourceIds": []
       }
     ],
     "ownership": {
-      "equation": "Cost per completed, interpretable examination = (delivered console/probe kit + display/cart + batteries + software + preventive service + repairs + downtime cover) / examinations completed during the chosen ownership period.",
+      "equation": "Cost per completed, interpretable examination over a chosen period = (complete delivered kit + display/cart + batteries + software + service, repairs and downtime cover over that period) ÷ examinations completed over the same period.",
       "drivers": [
         "Exact replacement cost and lead time for each probe",
         "Battery replacement route and approved power protection",
@@ -200,7 +222,7 @@ export default {
     "gaps": [
       "No independent comparative failure-rate or service-life dataset established.",
       "No current matched-configuration prices or charitable discounts verified.",
-      "No current serial-specific MicroMaxx/M-Turbo service eligibility established. Sonosite retirement-page and notice search results were located, but their actual pages repeatedly failed to open; dates are therefore not asserted. EBit 60 destination service also remains unconfirmed.",
+      "Current serial-specific MicroMaxx/M-Turbo manufacturer service eligibility and destination service for the shortlisted systems remain unconfirmed.",
       "No new first-hand imaging or runtime tests performed."
     ],
     "sources": [
@@ -211,7 +233,7 @@ export default {
         "publisher": "CHISON",
         "kind": "manufacturer",
         "accessed": "2026-10-16",
-        "evidence": "Lists imaging features, 4D and probe options; includes a cardiac CW image, requiring reconciliation with the legacy no-CW statement."
+        "evidence": "Documents imaging features, 4D and probe options; the cardiac CW illustration does not establish the inclusions of every offered configuration."
       },
       {
         "id": "u-sonobook",
@@ -250,15 +272,6 @@ export default {
         "evidence": "Published battery/charging guidance and authorized battery-replacement advice; does not establish destination-specific service."
       },
       {
-        "id": "u-legacy",
-        "title": "Earlier equipment material retained in the research archive",
-        "url": "archive:historical-equipment-material",
-        "publisher": "Historical equipment notes",
-        "kind": "historical owner notes",
-        "accessed": "2026-10-16",
-        "evidence": "Original CHISON, Sonosite and unspecified-generation Butterfly recommendations, experiential concerns and historical price relationships; both contract-named owner files read."
-      },
-      {
         "id": "u-ebit60",
         "title": "CHISON EBit 60 Doppler examples and transducers",
         "url": "https://www.chison.com/ebit/ebit-60.html",
@@ -266,15 +279,6 @@ export default {
         "kind": "manufacturer",
         "accessed": "2026-10-16",
         "evidence": "Separate EBit 60 model page shows CW, TDI/PW and color-M-mode examples plus P3-E/P6-E transducers; optional inclusions require a configured quote."
-      },
-      {
-        "id": "u-essentials",
-        "title": "Earlier equipment material retained in the research archive",
-        "url": "archive:historical-equipment-material",
-        "publisher": "Historical equipment notes",
-        "kind": "historical owner notes",
-        "accessed": "2026-10-16",
-        "evidence": "Inventory names MicroMaxx, M-Turbo and EBit 60, distinct from the EBit 30/SonoBook 6 narrative review."
       }
     ],
     "decision": {
@@ -316,10 +320,11 @@ export default {
       }
     ],
     "social": {
-      "title": "The ultrasound probe kit can change the buying decision",
-      "description": "Compare EBit 30, SonoBook 6, EBit 60, iQ3 and Vscan Air CL—and see when keeping a working older scanner makes more sense.",
-      "hook": "A cheap ultrasound console stops being cheap when the probe you need is missing."
+      "title": "The probe package changes the ultrasound winner",
+      "description": "Five ultrasound options, the differences worth paying for, and when an older scanner remains a better use of the budget.",
+      "hook": "A console discount means little if the everyday probe is missing."
     }
   },
-  "searchTerms": "Laptop ultrasound Handheld ultrasound Used MicroMaxx/M-Turbo Probe and Doppler configuration Power, software and lifetime cost CHISON EBit 30 CHISON SonoBook 6 CHISON EBit 60 Butterfly iQ3 GE Vscan Air CL"
+  "searchTerms": "Laptop ultrasound Handheld ultrasound Used MicroMaxx/M-Turbo Probe and Doppler configuration Power, software and lifetime cost CHISON EBit 30 CHISON SonoBook 6 CHISON EBit 60 Butterfly iQ3 GE Vscan Air CL",
+  "librarySection": "equipment"
 };

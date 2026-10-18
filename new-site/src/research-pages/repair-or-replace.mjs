@@ -3,8 +3,8 @@ export default {
   "key": "repair-or-replace",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Repair it—or stop spending money on it?",
-  "summary": "Past spending cannot choose the next purchase. Compare the service a repair can restore with a complete replacement and the cost of each interruption.",
+  "title": "Repair the equipment—or stop paying for the same limitation?",
+  "summary": "Compare what the next repair restores with a complete replacement. Keep useful accessories and capability in the calculation; leave sunk costs out.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/ventilators",
@@ -28,7 +28,7 @@ export default {
   "sections": [
     [
       "Separate a known fault from an expensive guess",
-      "Obtain the diagnosis, proposed work and evidence needed to verify repair. Identify additional faults that may require further authorization and the checks needed to return the equipment to use. Then distinguish a one-off repair from a recurring unresolved problem. Replacing a known consumable part on a maintained system can be economical. Repeatedly paying to investigate the same interruption without finding its cause is a different decision. Keep a simple record of faults, repairs, cost and days unavailable so the next choice uses the hospital's experience."
+      "Before authorizing another payment, establish the fault, the bounded work and the result that will count as a successful repair. Distinguish a confirmed remedy from paid investigation. Set the point at which additional findings require a new decision, so an affordable assessment does not quietly become an open-ended repair. Then distinguish a one-off repair from a recurring unresolved problem. Replacing a known consumable part on a maintained system can be economical. Repeatedly paying to investigate the same interruption without finding its cause is a different decision. Keep a simple record of faults, repairs, cost and days unavailable so the next choice uses the hospital's experience."
     ],
     [
       "Compare what each option restores",
@@ -44,25 +44,25 @@ export default {
     ],
     [
       "Price downtime without pretending to know it",
-      "Put the repair estimate beside a complete replacement cost: accessories, licenses, freight, installation, training and acceptance included. Add the cost of keeping the service available during either route. That might involve a loaner, rental, temporary referral or a second accepted instrument. Use the arrangements available to the hospital rather than assuming every lost day has a known financial value. Ask for both an expected and a longer turnaround scenario. Neither is a guaranteed prediction. Their purpose is to show whether a delayed part would change the decision. Keep previous spending out of the next-payment comparison except where it provides useful evidence about recurring faults; money already spent cannot make the next repair more productive."
+      "Put the repair estimate beside a complete replacement cost: accessories, licenses, freight, installation, training and acceptance included. Add the cost of keeping the service available during either route. That might involve a loaner, rental, temporary referral or a second accepted instrument. Use the arrangements available to the hospital rather than assuming every lost day has a known financial value. Ask for both an expected and a longer turnaround scenario. Neither is a guaranteed prediction. Their purpose is to show whether a delayed part would change the decision. Keep previous spending out of the next-payment comparison except where it provides useful evidence about recurring faults; money already spent cannot make the next repair more productive. For example, a hypothetical US$1,000 repair plus US$600 of temporary cover is a US$1,600 next step. A US$2,500 replacement that needs US$800 of accessories and setup is US$3,300 before continuing costs. The repair is the lower initial outlay only if it restores the needed service; neither figure predicts the next failure or proves the better lifetime value."
     ],
     [
       "Set a clear condition for returning or retiring the unit",
-      "Agree what successful repair must demonstrate and who accepts it. If that condition cannot be met, decide whether a further bounded attempt has a credible purpose. Avoid continuing small payments without a stopping decision. The Force FX example illustrates a sensible retention case: keep an accepted unit that performs the required work and has practical repairs and accessories. Compare replacement with a current IDS-310 when the existing repair burden or support gap becomes unfavorable. Neither published product documentation nor a refurbished seller's warranty supplies a universal remaining-lifespan estimate."
+      "Agree what successful repair must demonstrate and who accepts it. If that condition cannot be met, decide whether a further bounded attempt has a credible purpose. Avoid continuing small payments without a stopping decision. The Force FX example illustrates a sensible retention case: keep an accepted unit that performs the required work and has practical repairs and accessories. Compare replacement with an appropriately configured IDS-310 when the existing repair burden or support gap becomes unfavorable. Neither published product documentation nor a refurbished seller's warranty supplies a universal remaining-lifespan estimate."
     ]
   ],
   "related": [
     "ventilators"
   ],
-  "socialTitle": "Repair it—or stop spending money on it?",
-  "socialDescription": "Compare the next repair with a complete replacement. Condition, remaining support and downtime matter more than age or a fixed percentage rule.",
-  "socialHeadline": "Equipment repair or replacement guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "What does the next equipment repair actually restore?",
+  "socialDescription": "An X8, an ultrasound probe bundle and a reusable scope show why age and repair-price percentages cannot decide the purchase.",
+  "socialHeadline": "What does the next equipment repair actually restore?",
+  "socialStrapline": "Past spending is evidence about the history, not a reason to authorize the next repair.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "repair-or-replace",
-    "title": "Equipment repair or replacement guide",
-    "summary": "Pay for the next useful step. A defined repair can preserve a complete service; another repair may be poor value when it leaves the main limitation untouched.",
+    "title": "Repair the equipment—or stop paying for the same limitation?",
+    "summary": "Compare what the next repair restores with a complete replacement. Keep useful accessories and capability in the calculation; leave sunk costs out.",
     "firstChoice": "Obtain a diagnosis, bounded repair scope and agreed acceptance test. Compare that with a complete replacement, including retained accessories, software, training and the cost of keeping work available during either route.",
     "upgradeWhen": "Replace or reassign equipment when it cannot supply required functions or its essential parts cannot be supported. Repairing an X8 does not add invasive-pressure capability; a working basic monitor may still have a suitable role.",
     "budgetWatch": "A repaired ultrasound console can remain dependent on an unreplaceable probe. An LF-GP still needs a complete processing route. Include repair freight and longer-turnaround scenarios without inventing failure probabilities.",
@@ -89,9 +89,9 @@ export default {
     "choices": [],
     "quickCompare": [],
     "id": "repair-or-replace",
-    "title": "Repair it—or stop spending money on it?",
-    "dek": "Past spending cannot choose the next purchase. Compare the service a repair can restore with a complete replacement and the cost of each interruption.",
-    "verdict": "Repair when a defined intervention restores needed capability and leaves a supportable system. Replace when another repair leaves the main constraint intact. No universal age or repair-price percentage settles the decision.",
+    "title": "Repair the equipment—or stop paying for the same limitation?",
+    "dek": "Compare what the next repair restores with a complete replacement. Keep useful accessories and capability in the calculation; leave sunk costs out.",
+    "verdict": "Repair a defined fault when the result meets the service need and leaves a supportable system. Replace or reassign a unit when another repair leaves the main capability or support gap unresolved.",
     "decision": {
       "firstMove": "Obtain a fault-specific repair scope and price a complete equivalent replacement.",
       "spendMoreWhen": "Replacement resolves a capability or support gap another repair would leave.",
@@ -99,15 +99,15 @@ export default {
       "walkAwayWhen": "An essential unsupported component or unresolved acceptance problem remains."
     },
     "social": {
-      "title": "Repair it—or stop spending money on it?",
-      "description": "Compare the next repair with a complete replacement. Condition, remaining support and downtime matter more than age or a fixed percentage rule.",
-      "hook": "The useful question is what the next payment restores—and what remains likely to stop the service."
+      "title": "What does the next equipment repair actually restore?",
+      "description": "An X8, an ultrasound probe bundle and a reusable scope show why age and repair-price percentages cannot decide the purchase.",
+      "hook": "Past spending is evidence about the history, not a reason to authorize the next repair."
     },
     "sections": [
       {
         "heading": "Separate a known fault from an expensive guess",
         "paragraphs": [
-          "Obtain the diagnosis, proposed work and evidence needed to verify repair. Identify additional faults that may require further authorization and the checks needed to return the equipment to use.",
+          "Before authorizing another payment, establish the fault, the bounded work and the result that will count as a successful repair. Distinguish a confirmed remedy from paid investigation. Set the point at which additional findings require a new decision, so an affordable assessment does not quietly become an open-ended repair.",
           "Then distinguish a one-off repair from a recurring unresolved problem. Replacing a known consumable part on a maintained system can be economical. Repeatedly paying to investigate the same interruption without finding its cause is a different decision. Keep a simple record of faults, repairs, cost and days unavailable so the next choice uses the hospital's experience."
         ],
         "sourceIds": []
@@ -147,7 +147,8 @@ export default {
         "heading": "Price downtime without pretending to know it",
         "paragraphs": [
           "Put the repair estimate beside a complete replacement cost: accessories, licenses, freight, installation, training and acceptance included. Add the cost of keeping the service available during either route. That might involve a loaner, rental, temporary referral or a second accepted instrument. Use the arrangements available to the hospital rather than assuming every lost day has a known financial value.",
-          "Ask for both an expected and a longer turnaround scenario. Neither is a guaranteed prediction. Their purpose is to show whether a delayed part would change the decision. Keep previous spending out of the next-payment comparison except where it provides useful evidence about recurring faults; money already spent cannot make the next repair more productive."
+          "Ask for both an expected and a longer turnaround scenario. Neither is a guaranteed prediction. Their purpose is to show whether a delayed part would change the decision. Keep previous spending out of the next-payment comparison except where it provides useful evidence about recurring faults; money already spent cannot make the next repair more productive.",
+          "For example, a hypothetical US$1,000 repair plus US$600 of temporary cover is a US$1,600 next step. A US$2,500 replacement that needs US$800 of accessories and setup is US$3,300 before continuing costs. The repair is the lower initial outlay only if it restores the needed service; neither figure predicts the next failure or proves the better lifetime value."
         ],
         "sourceIds": []
       },
@@ -155,7 +156,7 @@ export default {
         "heading": "Set a clear condition for returning or retiring the unit",
         "paragraphs": [
           "Agree what successful repair must demonstrate and who accepts it. If that condition cannot be met, decide whether a further bounded attempt has a credible purpose. Avoid continuing small payments without a stopping decision.",
-          "The Force FX example illustrates a sensible retention case: keep an accepted unit that performs the required work and has practical repairs and accessories. Compare replacement with a current IDS-310 when the existing repair burden or support gap becomes unfavorable. Neither published product documentation nor a refurbished seller's warranty supplies a universal remaining-lifespan estimate."
+          "The Force FX example illustrates a sensible retention case: keep an accepted unit that performs the required work and has practical repairs and accessories. Compare replacement with an appropriately configured IDS-310 when the existing repair burden or support gap becomes unfavorable. Neither published product documentation nor a refurbished seller's warranty supplies a universal remaining-lifespan estimate."
         ],
         "sourceIds": [
           "force-fx-offer",
@@ -255,5 +256,6 @@ export default {
       "ekg"
     ]
   },
-  "searchTerms": "buying decisions"
+  "searchTerms": "buying decisions",
+  "librarySection": "decisions"
 };

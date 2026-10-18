@@ -3,8 +3,8 @@ export default {
   "key": "maintenance-records",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Make the maintenance register earn its place in the budget",
-  "summary": "Connect each device to its service history, next task and unresolved cost before buying another machine.",
+  "title": "Before replacing equipment, find out why it was unavailable",
+  "summary": "A useful maintenance record separates a failing machine from delays for parts, supplies or service—and shows where the next purchase will help.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/anesthesia",
@@ -36,33 +36,33 @@ export default {
     ],
     [
       "Make every fault produce a useful history",
-      "Use one work record for each reported problem. Capture when it was noticed, the user's description, the operating context, who assessed it, what was found, parts or services supplied and the evidence for returning it to use. Link invoices and reports to the asset identifier. Preserve an unresolved status when diagnosis or corrective work is still pending. Record unavailable time with the reason where it can be established: awaiting diagnosis, part, engineer, consumable or authorization. Distinguish a verified equipment fault from a missing accessory or an unconfirmed report. FDA's pump guidance encourages detailed follow-up and review of recurring problems; a history should help a qualified team recognize patterns without guessing their cause."
+      "Use one work record for each reported problem. Capture when it was noticed, the user's description, the operating context, who assessed it, what was found, parts or services supplied and the evidence for returning it to use. Link invoices and reports to the asset identifier. Preserve an unresolved status when diagnosis or corrective work is still pending. Record the unavailable period and, where established, how much was spent awaiting diagnosis, a part, an engineer, a consumable or approval. In a hypothetical ten-day interruption, one day of technical work and nine waiting for an imported part suggest a different purchasing response from repeated unresolved failures. The record may support a spare, a faster supply route or a replacement platform; the ten-day total alone cannot choose between them. Keep unconfirmed reports distinct from diagnosed faults. FDA pump guidance supports detailed follow-up and review of recurring problems; it does not make a small local fault log a comparative reliability study. Record operating exposure where available before drawing conclusions from the number of incidents."
     ],
     [
       "Turn the record into next year's spending choices",
       "Create a budget view showing planned work, unresolved repairs, required accessories, expiring support and proposed replacement for each asset. Put the next action, responsible person and current quotation beside each item. Add freight, travel and testing costs where applicable. Leave an unquoted cost marked unknown so that it cannot quietly become zero in a total. Compare the service the hospital needs with the reason it is unavailable. A second suction unit may improve continuity; it will not solve missing collection accessories for both units. Repeated delays waiting for one specialist may justify a different support arrangement. Use documented cases to develop the purchasing question before selecting another model."
     ],
     [
-      "Choose software after demonstrating the workflow",
+      "Make software earn its setup and upkeep cost",
       "WHO describes a computerized maintenance management system as a tool combining inventory with information such as service history, planned procedures, performance indicators and costs. Those are the records to demonstrate during a software evaluation. Ask the vendor to enter a sample asset, schedule work, attach a report, record a repair and export the complete history. A controlled spreadsheet may suit a small team. A larger fleet may need permissions, reminders and multiple users. Either approach needs an owner, a backup and a usable handover when staff change. Include data entry, migration and training in the cost comparison; an attractive dashboard cannot repair an inaccurate starting inventory."
     ],
     [
-      "Use a short review to keep the workbook alive",
+      "Bring the actual history to the next budget decision",
       "At an agreed interval, review overdue tasks, unresolved faults, units moved between departments and upcoming costs. Ask the service lead to explain exceptions and agree the next action. Make it easy for users to report a changed location or problem without letting unverified notes overwrite a completed technical report. Before renewing a contract or placing a replacement order, pull the actual asset history. It should show what was done, what remains uncertain and what the hospital paid. That is stronger purchasing evidence than an age label or a claim that a model is always reliable. Keep the record accessible after any supplier change."
     ]
   ],
   "related": [
     "anesthesia"
   ],
-  "socialTitle": "Before replacing equipment, read its service record",
-  "socialDescription": "A useful register shows the device, the unresolved fault, the next task and the cost of keeping service available.",
-  "socialHeadline": "Maintenance records buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "Broken equipment—or a broken support arrangement?",
+  "socialDescription": "Use maintenance histories to choose the next repair, spare, support contract or replacement.",
+  "socialHeadline": "Broken equipment—or a broken support arrangement?",
+  "socialStrapline": "Ten days unavailable does not necessarily mean ten days under repair.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Maintenance records buying sheet",
-    "summary": "Use the equipment register to decide what needs repair, support, accessories or replacement. Begin with verified assets and records that a named person keeps current.",
-    "firstChoice": "Link each local asset identifier to its model, serial, location, service reports, approved maintenance basis, next task and current status.",
+    "title": "Before replacing equipment, find out why it was unavailable",
+    "summary": "A useful maintenance record separates a failing machine from delays for parts, supplies or service—and shows where the next purchase will help.",
+    "firstChoice": "Separate the recorded interruption into diagnosis, technical work and waiting where known. Use that history to decide whether repair, parts availability, support or replacement addresses the real problem.",
     "upgradeWhen": "Buy a maintenance management system when several users, scheduled work or a larger fleet exceed the current record's practical limits.",
     "budgetWatch": "Allow for physical inventory checks, data entry, migration, staff training and ongoing administration. Keep unquoted repair costs visibly unknown.",
     "supportCheck": "Require external engineers to return device-level reports. Test backup, retrieval and export so the hospital retains its history after staff or supplier changes.",
@@ -88,9 +88,9 @@ export default {
       "service history and downtime",
       "procurement and replacement evidence"
     ],
-    "title": "Make the maintenance register earn its place in the budget",
-    "dek": "Connect each device to its service history, next task and unresolved cost before buying another machine.",
-    "verdict": "Start with a verified register and linked work records that someone owns. Buy management software when it solves a demonstrated coordination problem, and use the resulting history to distinguish equipment failure from missing parts, consumables, staff or service access.",
+    "title": "Before replacing equipment, find out why it was unavailable",
+    "dek": "A useful maintenance record separates a failing machine from delays for parts, supplies or service—and shows where the next purchase will help.",
+    "verdict": "Start with verified assets and a service history that someone maintains. Spend on software when coordination has become the problem; use the records to decide whether the hospital needs repair, supplies, better support or another machine.",
     "decision": {
       "firstMove": "Verify the physical assets and assign one identifier linking the register, service reports and purchasing records.",
       "spendMoreWhen": "The fleet or workflow needs controlled multiuser access, reminders and reporting that the current record cannot sustain.",
@@ -98,9 +98,9 @@ export default {
       "walkAwayWhen": "A proposed system cannot export usable records or lacks a person responsible for maintaining them."
     },
     "social": {
-      "title": "Before replacing equipment, read its service record",
-      "description": "A useful register shows the device, the unresolved fault, the next task and the cost of keeping service available.",
-      "hook": "A row marked broken is not enough to justify the next purchase."
+      "title": "Broken equipment—or a broken support arrangement?",
+      "description": "Use maintenance histories to choose the next repair, spare, support contract or replacement.",
+      "hook": "Ten days unavailable does not necessarily mean ten days under repair."
     },
     "choices": [
       {
@@ -184,7 +184,8 @@ export default {
         "heading": "Make every fault produce a useful history",
         "paragraphs": [
           "Use one work record for each reported problem. Capture when it was noticed, the user's description, the operating context, who assessed it, what was found, parts or services supplied and the evidence for returning it to use. Link invoices and reports to the asset identifier. Preserve an unresolved status when diagnosis or corrective work is still pending.",
-          "Record unavailable time with the reason where it can be established: awaiting diagnosis, part, engineer, consumable or authorization. Distinguish a verified equipment fault from a missing accessory or an unconfirmed report. FDA's pump guidance encourages detailed follow-up and review of recurring problems; a history should help a qualified team recognize patterns without guessing their cause."
+          "Record the unavailable period and, where established, how much was spent awaiting diagnosis, a part, an engineer, a consumable or approval. In a hypothetical ten-day interruption, one day of technical work and nine waiting for an imported part suggest a different purchasing response from repeated unresolved failures. The record may support a spare, a faster supply route or a replacement platform; the ten-day total alone cannot choose between them.",
+          "Keep unconfirmed reports distinct from diagnosed faults. FDA pump guidance supports detailed follow-up and review of recurring problems; it does not make a small local fault log a comparative reliability study. Record operating exposure where available before drawing conclusions from the number of incidents."
         ],
         "sourceIds": [
           "fda-pump-biomed"
@@ -199,7 +200,7 @@ export default {
         "sourceIds": []
       },
       {
-        "heading": "Choose software after demonstrating the workflow",
+        "heading": "Make software earn its setup and upkeep cost",
         "paragraphs": [
           "WHO describes a computerized maintenance management system as a tool combining inventory with information such as service history, planned procedures, performance indicators and costs. Those are the records to demonstrate during a software evaluation. Ask the vendor to enter a sample asset, schedule work, attach a report, record a repair and export the complete history.",
           "A controlled spreadsheet may suit a small team. A larger fleet may need permissions, reminders and multiple users. Either approach needs an owner, a backup and a usable handover when staff change. Include data entry, migration and training in the cost comparison; an attractive dashboard cannot repair an inaccurate starting inventory."
@@ -209,7 +210,7 @@ export default {
         ]
       },
       {
-        "heading": "Use a short review to keep the workbook alive",
+        "heading": "Bring the actual history to the next budget decision",
         "paragraphs": [
           "At an agreed interval, review overdue tasks, unresolved faults, units moved between departments and upcoming costs. Ask the service lead to explain exceptions and agree the next action. Make it easy for users to report a changed location or problem without letting unverified notes overwrite a completed technical report.",
           "Before renewing a contract or placing a replacement order, pull the actual asset history. It should show what was done, what remains uncertain and what the hospital paid. That is stronger purchasing evidence than an age label or a claim that a model is always reliable. Keep the record accessible after any supplier change."
@@ -290,5 +291,6 @@ export default {
       "equipment-handover"
     ]
   },
-  "searchTerms": "verified asset register planned maintenance basis and scheduling service history and downtime procurement and replacement evidence Controlled spreadsheet and linked reports Computerized maintenance management system Shared regional or service-provider records"
+  "searchTerms": "verified asset register planned maintenance basis and scheduling service history and downtime procurement and replacement evidence Controlled spreadsheet and linked reports Computerized maintenance management system Shared regional or service-provider records",
+  "librarySection": "decisions"
 };

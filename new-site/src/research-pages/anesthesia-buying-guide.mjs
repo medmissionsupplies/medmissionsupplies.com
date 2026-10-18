@@ -3,8 +3,8 @@ export default {
   "key": "anesthesia",
   "kind": "research-guide",
   "equipmentId": "anesthesia",
-  "title": "Anesthesia machines: what a cheaper workstation leaves to buy",
-  "summary": "Choose between the UAM, Carestation 620, an existing Aestiva and a portable base by the infrastructure each still needs.",
+  "title": "Buying anesthesia equipment: compare the complete working theatre",
+  "summary": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
   "categoryId": "surgical",
   "category": "Surgery & anesthesia",
   "image": "guides/anesthesia",
@@ -24,45 +24,49 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
-      "Start with the interruption the next machine must solve",
-      "List why planned operating sessions are interrupted before choosing a replacement. If oxygen delivery is unreliable, another conventional workstation may leave the main problem untouched. The UAM's integrated concentrator and monitored delivery make it relevant to that situation. If the hospital already has dependable gases and power, the stronger purchase may be a conventional system supported by the technicians who maintain the rest of the theatre. Separate oxygen generation from ventilation backup. Gradian specifies six-hour batteries for the ventilator and vital-sign monitor, while the concentrator requires 220–240 V, 50–60 Hz power at 500 W. That supply is part of the site plan. Its room-air fallback does not preserve oxygen-enriched delivery: fund the appropriate backup oxygen source and the rest of the monitoring and power arrangements."
+      "Let the interrupted operating list define the upgrade",
+      "A new anesthesia machine earns its cost when it removes a real limit: inadequate ventilation capability, unreliable oxygen, unavailable monitoring or a machine that cannot be repaired in time. If the installed workstation remains suitable and supported, keeping it is a serious option. Replacing a familiar machine while leaving the same gas or service problem untouched is an expensive way to preserve the interruption. Compare Gradian UAM where oxygen infrastructure is the constraint; compare Carestation 620 where dependable utilities and GE service are already available. These are different purchasing situations. Neither a product-family name nor a supplier’s quality certificate establishes the condition or reliability of the unit offered."
     ],
     [
-      "Use the existing Aestiva as a serious competitor",
-      "An accepted Aestiva can be the budget choice when its current capability is sufficient and the next likely repair is supportable. Put the cost of restoring and maintaining that exact machine beside the cost of installing a replacement. Include vaporizer service, sensors, battery condition and repair freight. Replacement earns its cost when it removes a recurring limit on service or an unsustainable repair dependency. Fleet consistency also has value. A hospital with trained staff and compatible accessories should count what a platform change would require. A mixed collection of donated machines can create several separate parts and documentation problems. Older Narkomed, Fabius GS, Apollo, Aespire and Aisys units remain conditional assets to inspect; their present service eligibility was not established. The verified End of Sales page concerns the regional Fabius Tiro D-M specifically, not every Tiro variant."
+      "Turn “complete” into a named configuration",
+      "Put two proposed systems beside the same clinical requirement. Identify the workstation and ventilation functions, each vaporizer and agent, gas-analysis module, patient monitor, circuits, scavenging arrangement and gas connections. Separate equipment already owned and approved for reuse from equipment included in the offer. A mounting position or a photograph of a monitor is not an included functioning accessory. The comparison can change before any brand ranking is needed. If one offer includes the required gas-analysis module and compatible vaporizer while another supplies only the workstation, add those omissions before comparing totals. Then add installation, training and the first year’s approved supplies. Do the same for ongoing sampling lines, water traps, sensors, absorbent and circuits according to the selected system’s instructions."
     ],
     [
-      "A battery label is insufficient evidence of outage readiness",
-      "The FDA's December 2025 Carestation communication identifies certain power-management boards that can prevent automatic transfer to battery after AC loss. For a hospital experiencing outages, the specific board and manufacturer-directed corrective action belong in the acceptance record. The notice is an instruction correction, not a blanket instruction to remove every Carestation. A supplier should identify the offered unit's status before the buyer relies on its backup behavior. An older machine needs the same precision. The historical Aestiva/5 recall concerned specified units and a missing vaporizer-interlock component; the recall is listed as terminated. It supplies a component-level check, not a verdict about every Aestiva's condition today. No comparable field failure data establish a durability winner across the shortlisted platforms."
+      "Trace what continues working when power fails",
+      "Gradian publishes six-hour backup for the UAM ventilator and vital-sign monitor. Its concentrator requires mains electricity; the concentrator’s small alarm battery does not generate oxygen. Room-air fallback does not maintain oxygen-enriched delivery. Backup oxygen and the approved interruption response therefore remain part of the funded service. For Carestation, the FDA’s December 2025 communication concerns certain 600/700-series power-management boards that can prevent automatic transfer to battery after AC loss. It is an instruction correction, not a blanket removal of every machine. Require the offered configuration’s applicable correction evidence and manufacturer-directed acceptance checks. A battery fitted to the cart does not, by itself, prove continuity."
     ],
     [
-      "Price the portable kit after packing it on paper",
-      "Integra SP VSO2 becomes interesting when the equipment must travel repeatedly. Before valuing its compact base, write out the full traveling kit: required ventilation, vaporizers, monitoring, circuits, gas supplies, connectors, cases and power arrangements. The base's 26-pound weight does not describe that complete system's weight or price. For a permanent hospital, transporting a cart once is a different expense from carrying a kit between sites every week. Choose portability for the actual movement pattern. No current complete-system prices were verified here, so the recommendation rests on capability and installed requirements; the cheapest fully specified offer remains an unresolved local comparison."
+      "Compare retention with the cost of changing platforms",
+      "For an existing Aestiva/5 7900 SmartVent, compare the next supportable service period with an installed replacement over that same period. Include scheduled work, likely identified repairs, vaporizer servicing, batteries, sensors, technician travel and the approved contingency during downtime. Record the condition as received and the accepted condition after work; a generic “refurbished” label cannot replace those reports. A different platform may require new accessories, staff training and additional spare stock. Count that transition before valuing extra features. The historical Aestiva interlock recall is specific to affected units and is listed as terminated; it neither condemns every Aestiva nor proves a particular one is ready. Present support for older Narkomed, Fabius GS, Apollo, Aespire and Aisys systems remains an exact-unit purchasing question."
+    ],
+    [
+      "Choose portability for repeated travel",
+      "Avante Integra SP VSO2’s published 26-pound base can matter when a team repeatedly moves between sites. Pack the complete service on paper first: required ventilation, monitoring, vaporizers, oxygen, connectors, circuits, cases and power provision. The base weight is not the traveling system’s weight. For a permanent hospital, moving a cart once is a different problem. Choose the portable arrangement when the completed kit meets the approved clinical requirement and its repeated transport advantage survives the added equipment. Otherwise, spend on the supported fixed system and its continuity arrangements."
     ]
   ],
   "related": [
     "anesthesia"
   ],
-  "socialTitle": "What a cheap anesthesia machine leaves to buy",
-  "socialDescription": "UAM, Carestation or an existing Aestiva? Start with outages, missing equipment and the cost of keeping the whole OR working.",
-  "socialHeadline": "Anesthesia machine buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying anesthesia equipment: compare the complete working theatre",
+  "socialDescription": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
+  "socialHeadline": "Buying anesthesia equipment: compare the complete working theatre",
+  "socialStrapline": "The workstation price is only the opening figure.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "anesthesia",
-    "title": "Anesthesia machine buying guide",
-    "summary": "Choose around the interruption that stops your operating list: unreliable oxygen, unreliable electricity, missing ventilation capability or an unsustainable repair arrangement.",
-    "firstChoice": "Evaluate Gradian UAM where interrupted utilities shape the service, with its concentrator and ventilation maintenance funded. Compare Carestation 620 where dependable gases, power and GE support already exist.",
-    "upgradeWhen": "Replace a supportable Aestiva when the new package removes an actual capability or continuity gap. Integra SP VSO2 fits repeated travel only after the complete ventilation, monitoring and gas kit is specified.",
+    "title": "Buying anesthesia equipment: compare the complete working theatre",
+    "summary": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
+    "firstChoice": "Compare a complete UAM package for an oxygen-infrastructure gap, a Carestation 620 for a supported conventional OR, and retention of a suitable installed workstation.",
+    "upgradeWhen": "The complete configuration removes a documented capability, infrastructure or repair constraint.",
     "budgetWatch": "UAM's published six-hour backup covers the ventilator and vital-sign monitor. Its concentrator needs mains power; room-air fallback does not preserve oxygen-enriched delivery. Fund backup oxygen separately.",
-    "supportCheck": "Require the exact power-loss behavior and applicable corrective-action record. Certain Carestation power boards have a documented battery-transfer correction; the model name alone cannot establish the offered unit's status.",
+    "supportCheck": "Required monitoring, vaporizers, outage behavior or applicable correction status cannot be established.",
     "askSupplier": [
-      "Which vaporizers, ventilation and monitoring functions are included?",
-      "What operates after mains loss, and for how long?",
-      "Who services the concentrator and the exact workstation at our hospital?"
+      "List every included vaporizer, monitoring module, enabled ventilation function and approved accessory.",
+      "Provide as-received and as-left service/acceptance records, including applicable corrections.",
+      "Price installation, recurrent supplies and the destination repair route."
     ],
     "sourceIds": [
       "uam",
@@ -75,9 +79,9 @@ export default {
   },
   "research": {
     "id": "anesthesia",
-    "title": "Anesthesia machines: what a cheaper workstation leaves to buy",
-    "dek": "Choose between the UAM, Carestation 620, an existing Aestiva and a portable base by the infrastructure each still needs.",
-    "verdict": "Choose the Gradian UAM for a new service when interrupted oxygen or electricity is the problem the equipment must address, provided the site can maintain its concentrator and ventilation system. Choose Carestation 620 where dependable utilities and GE service already exist. Keep an accepted, supportable Aestiva when replacement would add little usable capability. Integra SP VSO2 belongs in a repeatedly transported kit whose ventilation, monitoring and gas arrangements are separately funded.",
+    "title": "Buying anesthesia equipment: compare the complete working theatre",
+    "dek": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
+    "verdict": "Consider the Gradian UAM where interruption resilience is a priority and the site can maintain the system. Its published six-hour backup covers ventilation and the vital-sign monitor, not oxygen generation; fund backup oxygen and an approved interruption response separately. Choose Carestation 620 where dependable utilities and GE service already exist. Keep an accepted, supportable Aestiva when replacement would add little usable capability. Integra SP VSO2 belongs in a repeatedly transported kit whose ventilation, monitoring and gas arrangements are separately funded.",
     "coverage": [
       "Conventional anesthesia workstations",
       "Infrastructure-adapted anesthesia",
@@ -87,12 +91,12 @@ export default {
     "choices": [
       {
         "model": "Gradian Universal Anesthesia Machine (UAM)",
-        "position": "Infrastructure-adapted first choice",
+        "position": "Candidate for constrained utilities",
         "bestFor": "Hospitals where oxygen supply interruptions materially limit anesthesia services",
-        "why": "The manufacturer documents an integrated concentrator, oxygen monitoring, and electrically driven ventilation with battery backup. That combination addresses an actual infrastructure expense that a cheap imported workstation can leave entirely to the purchaser.",
-        "tradeoff": "The concentrator and ventilator add maintenance responsibilities. The published six-hour backup covers the ventilator and vital-sign monitor. The concentrator needs mains power; its 9 V battery powers the mains-failure alarm, not oxygen generation. Include a suitable backup oxygen source and check the package's intended patient range.",
+        "why": "Integrated oxygen generation and electrically driven ventilation address different infrastructure dependencies.",
+        "tradeoff": "The stated six-hour backup covers ventilation and the vital-sign monitor, not mains-powered oxygen generation. Budget backup oxygen and concentrator maintenance.",
         "price": "Quote required as of 2026-10-16; request the machine, vaporizers, monitoring, installation, freight and local service as separate lines.",
-        "support": "Current manufacturer product and customer-support routes are published. Local technician coverage, response time and warranty applicability at the destination are not confirmed.",
+        "support": "Confirm destination service and the exact supplied monitoring and vaporizer package.",
         "sourceIds": [
           "uam",
           "uam-manual"
@@ -102,10 +106,10 @@ export default {
         "model": "GE HealthCare Carestation 620",
         "position": "Conventional choice for an established OR",
         "bestFor": "A fixed operating room with dependable gases, electricity and accessible GE service",
-        "why": "Compact layout, guided checkout and modular respiratory monitoring make this a credible current alternative to repeatedly repairing an old donation. Evaluate the actual installed ventilation and monitoring configuration.",
-        "tradeoff": "Its infrastructure and service assumptions differ from the UAM. A current FDA correction concerning certain Carestation power-management boards makes outage performance a specific acceptance issue.",
+        "why": "A compact conventional workstation with guided checkout and configurable respiratory monitoring.",
+        "tradeoff": "Requires a suitable gas, power and service arrangement; affected power boards have a specific battery-transfer correction.",
         "price": "Quote required as of 2026-10-16; no verified public configured-system offer obtained.",
-        "support": "GE maintains a current product page and documentation. Obtain serial, board and corrective-action status plus an actual destination service agreement; a web page alone is not that agreement.",
+        "support": "Obtain exact configuration, corrective-action evidence and destination service terms.",
         "sourceIds": [
           "ge",
           "ge-recall"
@@ -115,10 +119,10 @@ export default {
         "model": "Avante Integra SP VSO2",
         "position": "For a complete traveling kit",
         "bestFor": "A team with a documented transport requirement and a complete anesthesia infrastructure plan",
-        "why": "Avante’s 2025 presentation describes a 26-pound tabletop unit with a vaporizer mount and carrying arrangements. Weight and packability can matter more than a cart’s unused options when equipment must travel repeatedly.",
-        "tradeoff": "Do not treat a portable delivery base as including a ventilator, patient monitor, gas supplies or all required accessories. Comparing this base against a complete cart would distort the budget.",
+        "why": "The manufacturer’s 2025 presentation describes a 26-pound tabletop delivery base. Repeated transport can justify this format.",
+        "tradeoff": "Ventilation, monitoring, oxygen and transport protection must be priced as a complete kit.",
         "price": "Quote required as of 2026-10-16 for a specified human-use configuration and transport case.",
-        "support": "A current first-party product presentation was found. Repair geography, parts commitments and exact ventilator pairing are unconfirmed.",
+        "support": "Confirm approved pairing, intended use and parts access.",
         "sourceIds": [
           "avante"
         ]
@@ -127,10 +131,10 @@ export default {
         "model": "GE Aestiva/5 7900 SmartVent",
         "position": "Keep if already owned and serviceable",
         "bestFor": "An existing standardized fleet with documented maintenance and a competent service partner",
-        "why": "Avoiding replacement can be good value when the whole installed system passes acceptance and parts can actually be obtained. This is a condition-based recommendation, not a new claim of superior reliability.",
-        "tradeoff": "Age, vaporizer condition, sensor replacement and repair freight may erase the apparent acquisition saving. An FDA recall identified particular units with a missing vaporizer-interlock component.",
+        "why": "Retention can be good value when the installed system meets the required cases and remains repairable.",
+        "tradeoff": "Include vaporizer service, sensors, batteries and freight. A historical recall concerned specified vaporizer-interlock assemblies.",
         "price": "Quote required as of 2026-10-16; no current complete refurbished offer verified here.",
-        "support": "The historical FDA notice is model-specific evidence, not proof of current manufacturer service. Written parts and service coverage remain required.",
+        "support": "The terminated recall does not establish present service eligibility; require written repair coverage.",
         "sourceIds": [
           "aestiva-recall"
         ]
@@ -138,50 +142,59 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Start with the interruption the next machine must solve",
+        "heading": "Let the interrupted operating list define the upgrade",
         "paragraphs": [
-          "List why planned operating sessions are interrupted before choosing a replacement. If oxygen delivery is unreliable, another conventional workstation may leave the main problem untouched. The UAM's integrated concentrator and monitored delivery make it relevant to that situation. If the hospital already has dependable gases and power, the stronger purchase may be a conventional system supported by the technicians who maintain the rest of the theatre.",
-          "Separate oxygen generation from ventilation backup. Gradian specifies six-hour batteries for the ventilator and vital-sign monitor, while the concentrator requires 220–240 V, 50–60 Hz power at 500 W. That supply is part of the site plan. Its room-air fallback does not preserve oxygen-enriched delivery: fund the appropriate backup oxygen source and the rest of the monitoring and power arrangements."
+          "A new anesthesia machine earns its cost when it removes a real limit: inadequate ventilation capability, unreliable oxygen, unavailable monitoring or a machine that cannot be repaired in time. If the installed workstation remains suitable and supported, keeping it is a serious option. Replacing a familiar machine while leaving the same gas or service problem untouched is an expensive way to preserve the interruption.",
+          "Compare Gradian UAM where oxygen infrastructure is the constraint; compare Carestation 620 where dependable utilities and GE service are already available. These are different purchasing situations. Neither a product-family name nor a supplier’s quality certificate establishes the condition or reliability of the unit offered."
         ],
         "sourceIds": [
           "uam",
           "ge",
-          "uam-manual"
-        ]
-      },
-      {
-        "heading": "Use the existing Aestiva as a serious competitor",
-        "paragraphs": [
-          "An accepted Aestiva can be the budget choice when its current capability is sufficient and the next likely repair is supportable. Put the cost of restoring and maintaining that exact machine beside the cost of installing a replacement. Include vaporizer service, sensors, battery condition and repair freight. Replacement earns its cost when it removes a recurring limit on service or an unsustainable repair dependency.",
-          "Fleet consistency also has value. A hospital with trained staff and compatible accessories should count what a platform change would require. A mixed collection of donated machines can create several separate parts and documentation problems. Older Narkomed, Fabius GS, Apollo, Aespire and Aisys units remain conditional assets to inspect; their present service eligibility was not established. The verified End of Sales page concerns the regional Fabius Tiro D-M specifically, not every Tiro variant."
-        ],
-        "sourceIds": [
-          "aestiva-recall",
-          "draeger",
-          "ge"
-        ]
-      },
-      {
-        "heading": "A battery label is insufficient evidence of outage readiness",
-        "paragraphs": [
-          "The FDA's December 2025 Carestation communication identifies certain power-management boards that can prevent automatic transfer to battery after AC loss. For a hospital experiencing outages, the specific board and manufacturer-directed corrective action belong in the acceptance record. The notice is an instruction correction, not a blanket instruction to remove every Carestation. A supplier should identify the offered unit's status before the buyer relies on its backup behavior.",
-          "An older machine needs the same precision. The historical Aestiva/5 recall concerned specified units and a missing vaporizer-interlock component; the recall is listed as terminated. It supplies a component-level check, not a verdict about every Aestiva's condition today. No comparable field failure data establish a durability winner across the shortlisted platforms."
-        ],
-        "sourceIds": [
-          "ge-recall",
           "aestiva-recall"
         ]
       },
       {
-        "heading": "Price the portable kit after packing it on paper",
+        "heading": "Turn “complete” into a named configuration",
         "paragraphs": [
-          "Integra SP VSO2 becomes interesting when the equipment must travel repeatedly. Before valuing its compact base, write out the full traveling kit: required ventilation, vaporizers, monitoring, circuits, gas supplies, connectors, cases and power arrangements. The base's 26-pound weight does not describe that complete system's weight or price.",
-          "For a permanent hospital, transporting a cart once is a different expense from carrying a kit between sites every week. Choose portability for the actual movement pattern. No current complete-system prices were verified here, so the recommendation rests on capability and installed requirements; the cheapest fully specified offer remains an unresolved local comparison."
+          "Put two proposed systems beside the same clinical requirement. Identify the workstation and ventilation functions, each vaporizer and agent, gas-analysis module, patient monitor, circuits, scavenging arrangement and gas connections. Separate equipment already owned and approved for reuse from equipment included in the offer. A mounting position or a photograph of a monitor is not an included functioning accessory.",
+          "The comparison can change before any brand ranking is needed. If one offer includes the required gas-analysis module and compatible vaporizer while another supplies only the workstation, add those omissions before comparing totals. Then add installation, training and the first year’s approved supplies. Do the same for ongoing sampling lines, water traps, sensors, absorbent and circuits according to the selected system’s instructions."
         ],
         "sourceIds": [
-          "avante",
+          "ge",
+          "uam"
+        ]
+      },
+      {
+        "heading": "Trace what continues working when power fails",
+        "paragraphs": [
+          "Gradian publishes six-hour backup for the UAM ventilator and vital-sign monitor. Its concentrator requires mains electricity; the concentrator’s small alarm battery does not generate oxygen. Room-air fallback does not maintain oxygen-enriched delivery. Backup oxygen and the approved interruption response therefore remain part of the funded service.",
+          "For Carestation, the FDA’s December 2025 communication concerns certain 600/700-series power-management boards that can prevent automatic transfer to battery after AC loss. It is an instruction correction, not a blanket removal of every machine. Require the offered configuration’s applicable correction evidence and manufacturer-directed acceptance checks. A battery fitted to the cart does not, by itself, prove continuity."
+        ],
+        "sourceIds": [
           "uam",
+          "uam-manual",
+          "ge-recall"
+        ]
+      },
+      {
+        "heading": "Compare retention with the cost of changing platforms",
+        "paragraphs": [
+          "For an existing Aestiva/5 7900 SmartVent, compare the next supportable service period with an installed replacement over that same period. Include scheduled work, likely identified repairs, vaporizer servicing, batteries, sensors, technician travel and the approved contingency during downtime. Record the condition as received and the accepted condition after work; a generic “refurbished” label cannot replace those reports.",
+          "A different platform may require new accessories, staff training and additional spare stock. Count that transition before valuing extra features. The historical Aestiva interlock recall is specific to affected units and is listed as terminated; it neither condemns every Aestiva nor proves a particular one is ready. Present support for older Narkomed, Fabius GS, Apollo, Aespire and Aisys systems remains an exact-unit purchasing question."
+        ],
+        "sourceIds": [
+          "aestiva-recall",
           "ge"
+        ]
+      },
+      {
+        "heading": "Choose portability for repeated travel",
+        "paragraphs": [
+          "Avante Integra SP VSO2’s published 26-pound base can matter when a team repeatedly moves between sites. Pack the complete service on paper first: required ventilation, monitoring, vaporizers, oxygen, connectors, circuits, cases and power provision. The base weight is not the traveling system’s weight.",
+          "For a permanent hospital, moving a cart once is a different problem. Choose the portable arrangement when the completed kit meets the approved clinical requirement and its repeated transport advantage survives the added equipment. Otherwise, spend on the supported fixed system and its continuity arrangements."
+        ],
+        "sourceIds": [
+          "avante"
         ]
       }
     ],
@@ -202,10 +215,10 @@ export default {
       "What is the actual power-loss behavior of the offered configuration?"
     ],
     "gaps": [
-      "No head-to-head comparative field reliability or service-life evidence established.",
-      "No verified current complete-system asking prices; historical donor prices are not carried forward.",
-      "Current service commitments for Narkomed, Fabius GS, Apollo, Aespire, Aisys and Aestiva remain unresolved.",
-      "No evidence confirming current availability or validated configuration of the portable prototype described in earlier equipment notes."
+      "No comparative field failure rates establish a reliability winner.",
+      "Complete installed prices and destination service eligibility remain transaction-specific.",
+      "Current support for older platforms must be confirmed by exact model, configuration and unit.",
+      "Published portable-base information does not establish a complete approved traveling anesthesia service."
     ],
     "sources": [
       {
@@ -214,7 +227,7 @@ export default {
         "url": "https://www.gradianhealth.org/product/uam/",
         "publisher": "Gradian Health",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Integrated concentrator, electrically driven ventilator and stated battery backup; package and quote pathway."
       },
       {
@@ -223,7 +236,7 @@ export default {
         "url": "https://www.gehealthcare.com/en/products/anesthesia-delivery/carestation-620",
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Current conventional-workstation features and documentation."
       },
       {
@@ -232,7 +245,7 @@ export default {
         "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/anesthesia-system-correction-ge-healthcare-updates-use-instructions-carestation-anesthesia-systems",
         "publisher": "FDA",
         "kind": "regulator",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "December 2025 Class I instruction correction for certain 600/700-series power boards and AC-loss shutdown risk."
       },
       {
@@ -273,10 +286,10 @@ export default {
       }
     ],
     "decision": {
-      "firstMove": "Identify the recurring interruption: missing oxygen, failed power, unavailable monitoring or an unrepairable machine. Choose the UAM for an infrastructure gap; evaluate Carestation 620 or the installed Aestiva where utilities already work.",
-      "spendMoreWhen": "The complete UAM package addresses actual supply interruptions, or a supported Carestation replaces an old system whose repairs and downtime prevent the planned service.",
-      "keepExistingWhen": "The Aestiva or another installed workstation passes appropriate acceptance checks, covers the required cases, and has obtainable sensors, batteries, vaporizer service and repairs.",
-      "walkAwayWhen": "The seller cannot identify included ventilation/monitoring, demonstrate the offered configuration's outage behavior or document applicable corrective actions and a credible repair route."
+      "firstMove": "Compare a complete UAM package for an oxygen-infrastructure gap, a Carestation 620 for a supported conventional OR, and retention of a suitable installed workstation.",
+      "spendMoreWhen": "The complete configuration removes a documented capability, infrastructure or repair constraint.",
+      "keepExistingWhen": "The installed system meets the intended cases, passes qualified acceptance and has an obtainable service route.",
+      "walkAwayWhen": "Required monitoring, vaporizers, outage behavior or applicable correction status cannot be established."
     },
     "quickCompare": [
       {
@@ -305,10 +318,12 @@ export default {
       }
     ],
     "social": {
-      "title": "What a cheap anesthesia machine leaves to buy",
-      "description": "UAM, Carestation or an existing Aestiva? Start with outages, missing equipment and the cost of keeping the whole OR working.",
-      "hook": "A low workstation price can leave oxygen, monitoring and the next repair outside the budget."
-    }
+      "title": "Buying anesthesia equipment: compare the complete working theatre",
+      "description": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
+      "hook": "The workstation price is only the opening figure."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Conventional anesthesia workstations Infrastructure-adapted anesthesia Portable/tabletop systems Legacy inspection, service and recalls Gradian Universal Anesthesia Machine (UAM) GE HealthCare Carestation 620 Avante Integra SP VSO2 GE Aestiva/5 7900 SmartVent"
+  "searchTerms": "Buying anesthesia equipment: compare the complete working theatre Conventional anesthesia workstations Infrastructure-adapted anesthesia Portable/tabletop systems Legacy inspection, service and recalls Gradian Universal Anesthesia Machine (UAM) GE HealthCare Carestation 620 Avante Integra SP VSO2 GE Aestiva/5 7900 SmartVent",
+  "librarySection": "equipment"
 };

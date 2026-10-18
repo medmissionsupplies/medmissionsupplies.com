@@ -3,8 +3,8 @@ export default {
   "key": "xray",
   "kind": "research-guide",
   "equipmentId": "xray",
-  "title": "The right X-ray kit: portable DR, full-size C-arm or mini?",
-  "summary": "A battery-powered radiography kit, a hospital mobile cart and an extremity C-arm solve different jobs. Here is what makes each worth buying—and where older OEC systems still fit.",
+  "title": "Portable X-ray or C-arm? Match the kit to the job",
+  "summary": "Compare outreach radiography, bedside carts and surgical fluoroscopy before choosing the detector, batteries and repair plan.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "image": "guides/xray",
@@ -23,38 +23,46 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 4,
+  "minutes": 3,
   "sections": [
     [
-      "Outreach DR and hospital mobile DR need different hardware",
-      "MinXray Impact Wireless provides a reproducible starting point for outreach: a specified TR90BH battery generator, detector and acquisition computer. Check that its 40–90 kV and 20–10 mA range covers the planned work, then verify the complete battery workload. Battery-powered does not mean all-day capacity. DRX-Revolution’s motor drive and collapsible column address repeated bedside movement; those benefits depend on suitable floors, charging and daily use. Neither format wins from portability alone. The earlier LCP1 recommendation needs a bill of materials before it can be compared: generator, detector, software/version, batteries and responsible service organization. Likewise, an old MinXray/Canon CXDI or Varian pairing is not automatically today’s Impact package. Exact components determine exposure capability, compatibility and the replacement bill."
+      "Choose the work before the equipment",
+      "Outreach radiography, repeated bedside imaging and surgical fluoroscopy place different demands on equipment. Start with the examinations and where they happen. A carryable generator may suit transport between clinics; a powered hospital cart can earn its cost on repeated ward rounds. A mini C-arm should enter the comparison only for work that fits its demonstrated anatomy and positioning. Keep a functioning supported system when it meets the approved brief. Replacement becomes useful when capability, movement, workflow or maintainability is the real limitation. Newer hardware alone does not establish a better fit."
     ],
     [
-      "Protect the detector—and the computer that makes it useful",
-      "A complete working NAOMI installation may justify continued use while a replacement is planned. The manufacturer’s 15–35°C operating envelope and older Windows listing are specific limitations; it warns that some Windows 10 systems do not operate correctly. Demonstrate capture, patient identification, DICOM/export and the supported replacement-computer configuration before changing any part of that chain. Detector handling is a purchasing issue; damage coverage and repairability must be established for the offered unit. Obtain the offered detector’s repair or exchange terms and spare availability. A replacement panel is useful only if the acquisition software and generator can still work with it; otherwise one damaged component can stop the entire room."
+      "Outreach: price every part of the portable kit",
+      "MinXray Impact Wireless is a concrete outreach candidate: its published package identifies a TR90BH battery generator, 14 × 17-inch detector and acquisition computer. The generator is rated at 40–90 kV and 20–10 mA. Have the clinical team assess that capability against the examination list rather than assume any portable generator will suffice. Include the stand, transport case, batteries, charging and software in the offered kit. Demonstrate the expected workload; battery power does not establish all-day capacity. An old brand pairing or an unnamed bundle needs its own bill of materials before it can be compared with the currently described package."
     ],
     [
-      "A refurbished OEC has to compete as a commissioned system",
-      "OEC One CFD gives the current-platform comparison a defined starting point: choose 21 or 31 cm detector coverage for the required anatomy and demonstrate positioning with the actual table. Its five-minute standby supports movement between rooms; it does not establish off-grid X-ray operation. Elite CFD is worth considering when its positioning, clinical profiles or cooling address real workload limits. Specify optional vascular, cardiac or motorized functions instead of assuming they come with the family name. OEC 9800 and 9900 remain conditional used-system candidates. Require serial-specific inspection, tube and image-chain testing, motion-system assessment, software/license confirmation and a remedy if commissioning fails. GE’s 9800 parts category, Brazilian 9900 category and US OEC service offering are useful leads, not proof of assembly stock or overseas eligibility. Compare delivered, commissioned cost and repair provision with One CFD or Elite CFD. A working 9400 or 9600 can remain in service with demonstrated local maintenance; the earlier assertion that they were not too old does not establish a new-buy recommendation today."
+      "Bedside work: pay for movement you will use",
+      "Carestream DRX-Revolution's motor drive and collapsible column address repeated movement and positioning inside a hospital. Their value depends on the route, floors, charging and frequency of use. A powered cart is a different deployment choice from a generator carried between locations. For an existing RF NAOMI installation, include the acquisition computer in the keep-or-replace decision. The manufacturer's documented temperature and older Windows compatibility limitations remain relevant. Demonstrate capture, identity and export on the supported configuration before changing hardware or software; retaining a useful detector is worthwhile only with a maintainable whole chain."
     ],
     [
-      "Buy a mini C-arm only after the views fit",
-      "TAU 1512’s 160-degree orbital rotation and 20-inch arc depth, and InSight FD Flex’s rotating detector, give the team concrete positioning differences to test. Neither establishes equivalence to a full-size unit for trunk imaging. The FD Flex dealer advertises sale and service for its offering; confirm repair location and exclusions, because that is not an OEM lifecycle or overseas-service promise. The older InSight II name should not inherit another generation’s specifications. Acceptance must cover the generator, detector, table clearance and image-review/export process together, with qualified radiation commissioning and recurring quality assurance included in the service budget. Current product pages and flat-panel architecture establish features, not lower failure rates; no comparative field reliability dataset was established."
+      "Full-size C-arm: compare the delivered configuration",
+      "OEC One CFD provides a defined flat-panel comparison, with detector and software choices. Its documented five-minute standby feature concerns room-to-room movement; it is not evidence of off-grid X-ray operation. OEC Elite CFD merits consideration when the offered positioning, clinical functions or cooling resolve an actual workload constraint. Specify the options instead of buying the family name. An inspected OEC 9800 or 9900 can remain a conditional alternative when its exact functions and repair route meet the brief. Require tube, image-chain and movement assessment, software entitlement and a remedy if commissioning fails. Manufacturer parts categories are leads for investigation; they establish neither stock nor support for every exported serial number."
+    ],
+    [
+      "Mini C-arm: prove the views fit",
+      "Orthoscan TAU 1512 and Hologic InSight FD Flex offer concrete positioning differences to assess. Demonstrate the intended anatomy and patient positions with the actual table. A compact extremity system should not inherit a full-size C-arm's role simply because both provide fluoroscopy. The FD Flex evidence cited here is a dealer's offering. Its advertised sale and service are not an OEM lifecycle or overseas-coverage commitment. Identify the generation, repair location and exclusions. Neither a current product page nor flat-panel construction establishes a lower field failure rate."
+    ],
+    [
+      "Protect the component that can stop the service",
+      "Budget for detector damage or exchange, tube and generator work, batteries, acquisition-computer replacement and software. Establish the temporary arrangement while a critical part is away. A spare detector helps only when it is compatible with the supported acquisition chain. Compare complete delivered and commissioned packages. Include the room or table, radiation infrastructure, image transfer, training and recurring quality checks. The useful saving comes from a system that finishes the required work with an affordable route back into service."
     ]
   ],
   "related": [
     "xray"
   ],
-  "socialTitle": "Portable X-ray, full-size C-arm or mini: buy the right fit",
-  "socialDescription": "Compare MinXray, DRX-Revolution and OEC options, plus two mini C-arms. The wrong anatomy or repair plan can erase an apparent saving.",
-  "socialHeadline": "C-arm and X-ray buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Portable X-ray or C-arm? Match the kit to the job",
+  "socialDescription": "Compare outreach radiography, bedside carts and surgical fluoroscopy before choosing the detector, batteries and repair plan.",
+  "socialHeadline": "Portable X-ray or C-arm? Match the kit to the job",
+  "socialStrapline": "The right equipment class matters more than a bargain model.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "xray",
-    "title": "C-arm and X-ray buying guide",
+    "title": "Portable X-ray or C-arm? Match the kit to the job",
     "summary": "Choose the imaging job first: outreach radiography, repeated bedside imaging and surgical fluoroscopy need different equipment and support.",
-    "firstChoice": "Start with a complete MinXray Impact Wireless package for outreach. For full-size fluoroscopy, compare OEC One CFD with an inspected, supportable refurbished OEC 9800 or 9900.",
+    "firstChoice": "Define outreach, bedside and fluoroscopy workloads separately. Use the named packages as conditional examples, then compare the exact supplied equipment.",
     "upgradeWhen": "DRX-Revolution's powered movement can help frequent bedside work. Elite CFD earns consideration when its positioning or cooling addresses a real procedural limit. Demonstrate mini-C-arm anatomy coverage before choosing one.",
     "budgetWatch": "Include the detector, acquisition computer, software, batteries, positioning equipment and commissioning. OEC One's standby function is for room changes; it does not establish off-grid X-ray operation.",
     "supportCheck": "For a used C-arm, require tube, image-chain and motion-system assessment. A manufacturer parts category does not establish stock or repair coverage for the offered serial.",
@@ -76,22 +84,22 @@ export default {
   },
   "research": {
     "id": "xray",
-    "title": "The right X-ray kit: portable DR, full-size C-arm or mini?",
-    "dek": "A battery-powered radiography kit, a hospital mobile cart and an extremity C-arm solve different jobs. Here is what makes each worth buying—and where older OEC systems still fit.",
-    "verdict": "For outreach radiography, evaluate the complete MinXray Impact Wireless package; for frequent hospital bedside imaging, DRX-Revolution’s powered movement and positioning features may earn their cost. For full-size fluoroscopy, compare OEC One CFD with a documented refurbished OEC 9800 or 9900; move to Elite CFD for needed imaging, positioning or cooling capability. Mini C-arms belong on the shortlist only when their demonstrated anatomy and positioning cover the planned work.",
+    "title": "Portable X-ray or C-arm? Match the kit to the job",
+    "dek": "Compare outreach radiography, bedside carts and surgical fluoroscopy before choosing the detector, batteries and repair plan.",
+    "verdict": "Match equipment class to the work first: a complete portable DR kit for suitable outreach, a powered cart when frequent bedside movement justifies it, and an exact full-size or mini C-arm configuration for the approved fluoroscopy brief. Keep accepted equipment when its computer, image chain and support remain viable.",
     "coverage": [
       "Portable and hospital mobile digital radiography",
-      "NAOMI retrofit and LCP1 verification",
       "Full-size C-arms",
       "Mini C-arms",
-      "Detector damage, generator limits and service economics"
+      "Detector damage, generator limits and service economics",
+      "retaining a supported acquisition computer"
     ],
     "choices": [
       {
         "model": "MinXray Impact Wireless with TR90BH generator",
         "position": "Outreach DR shortlist",
         "bestFor": "Outreach where a powered hospital cart is impractical.",
-        "why": "A battery generator, 14 × 17-inch CsI detector and computer/DICOM software form a specified alternative to the incomplete LCP1 description.",
+        "why": "A specified battery generator, detector and acquisition computer make the complete package comparable.",
         "tradeoff": "TR90BH is specified at 40–90 kV and 20–10 mA; confirm it satisfies the intended examinations and throughput. Battery power does not establish a whole-day capacity.",
         "price": "Quote required: exact detector, stand, case, batteries and software.",
         "support": "Manufacturer package documented; destination repair, spare detector and export warranty unconfirmed.",
@@ -186,55 +194,66 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Outreach DR and hospital mobile DR need different hardware",
+        "heading": "Choose the work before the equipment",
         "paragraphs": [
-          "MinXray Impact Wireless provides a reproducible starting point for outreach: a specified TR90BH battery generator, detector and acquisition computer. Check that its 40–90 kV and 20–10 mA range covers the planned work, then verify the complete battery workload. Battery-powered does not mean all-day capacity. DRX-Revolution’s motor drive and collapsible column address repeated bedside movement; those benefits depend on suitable floors, charging and daily use. Neither format wins from portability alone.",
-          "The earlier LCP1 recommendation needs a bill of materials before it can be compared: generator, detector, software/version, batteries and responsible service organization. Likewise, an old MinXray/Canon CXDI or Varian pairing is not automatically today’s Impact package. Exact components determine exposure capability, compatibility and the replacement bill."
+          "Outreach radiography, repeated bedside imaging and surgical fluoroscopy place different demands on equipment. Start with the examinations and where they happen. A carryable generator may suit transport between clinics; a powered hospital cart can earn its cost on repeated ward rounds. A mini C-arm should enter the comparison only for work that fits its demonstrated anatomy and positioning.",
+          "Keep a functioning supported system when it meets the approved brief. Replacement becomes useful when capability, movement, workflow or maintainability is the real limitation. Newer hardware alone does not establish a better fit."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Outreach: price every part of the portable kit",
+        "paragraphs": [
+          "MinXray Impact Wireless is a concrete outreach candidate: its published package identifies a TR90BH battery generator, 14 × 17-inch detector and acquisition computer. The generator is rated at 40–90 kV and 20–10 mA. Have the clinical team assess that capability against the examination list rather than assume any portable generator will suffice.",
+          "Include the stand, transport case, batteries, charging and software in the offered kit. Demonstrate the expected workload; battery power does not establish all-day capacity. An old brand pairing or an unnamed bundle needs its own bill of materials before it can be compared with the currently described package."
         ],
         "sourceIds": [
-          "x-impact",
+          "x-impact"
+        ]
+      },
+      {
+        "heading": "Bedside work: pay for movement you will use",
+        "paragraphs": [
+          "Carestream DRX-Revolution's motor drive and collapsible column address repeated movement and positioning inside a hospital. Their value depends on the route, floors, charging and frequency of use. A powered cart is a different deployment choice from a generator carried between locations.",
+          "For an existing RF NAOMI installation, include the acquisition computer in the keep-or-replace decision. The manufacturer's documented temperature and older Windows compatibility limitations remain relevant. Demonstrate capture, identity and export on the supported configuration before changing hardware or software; retaining a useful detector is worthwhile only with a maintainable whole chain."
+        ],
+        "sourceIds": [
           "x-carestream",
-          "x-legacy"
+          "x-naomi"
         ]
       },
       {
-        "heading": "Protect the detector—and the computer that makes it useful",
+        "heading": "Full-size C-arm: compare the delivered configuration",
         "paragraphs": [
-          "A complete working NAOMI installation may justify continued use while a replacement is planned. The manufacturer’s 15–35°C operating envelope and older Windows listing are specific limitations; it warns that some Windows 10 systems do not operate correctly. Demonstrate capture, patient identification, DICOM/export and the supported replacement-computer configuration before changing any part of that chain.",
-          "Detector handling is a purchasing issue; damage coverage and repairability must be established for the offered unit. Obtain the offered detector’s repair or exchange terms and spare availability. A replacement panel is useful only if the acquisition software and generator can still work with it; otherwise one damaged component can stop the entire room."
-        ],
-        "sourceIds": [
-          "x-naomi",
-          "x-legacy"
-        ]
-      },
-      {
-        "heading": "A refurbished OEC has to compete as a commissioned system",
-        "paragraphs": [
-          "OEC One CFD gives the current-platform comparison a defined starting point: choose 21 or 31 cm detector coverage for the required anatomy and demonstrate positioning with the actual table. Its five-minute standby supports movement between rooms; it does not establish off-grid X-ray operation. Elite CFD is worth considering when its positioning, clinical profiles or cooling address real workload limits. Specify optional vascular, cardiac or motorized functions instead of assuming they come with the family name.",
-          "OEC 9800 and 9900 remain conditional used-system candidates. Require serial-specific inspection, tube and image-chain testing, motion-system assessment, software/license confirmation and a remedy if commissioning fails. GE’s 9800 parts category, Brazilian 9900 category and US OEC service offering are useful leads, not proof of assembly stock or overseas eligibility. Compare delivered, commissioned cost and repair provision with One CFD or Elite CFD. A working 9400 or 9600 can remain in service with demonstrated local maintenance; the earlier assertion that they were not too old does not establish a new-buy recommendation today."
+          "OEC One CFD provides a defined flat-panel comparison, with detector and software choices. Its documented five-minute standby feature concerns room-to-room movement; it is not evidence of off-grid X-ray operation. OEC Elite CFD merits consideration when the offered positioning, clinical functions or cooling resolve an actual workload constraint. Specify the options instead of buying the family name.",
+          "An inspected OEC 9800 or 9900 can remain a conditional alternative when its exact functions and repair route meet the brief. Require tube, image-chain and movement assessment, software entitlement and a remedy if commissioning fails. Manufacturer parts categories are leads for investigation; they establish neither stock nor support for every exported serial number."
         ],
         "sourceIds": [
           "x-one",
           "x-elite",
           "x-9800",
           "x-9900",
-          "x-oec-service",
-          "x-legacy"
+          "x-oec-service"
         ]
       },
       {
-        "heading": "Buy a mini C-arm only after the views fit",
+        "heading": "Mini C-arm: prove the views fit",
         "paragraphs": [
-          "TAU 1512’s 160-degree orbital rotation and 20-inch arc depth, and InSight FD Flex’s rotating detector, give the team concrete positioning differences to test. Neither establishes equivalence to a full-size unit for trunk imaging. The FD Flex dealer advertises sale and service for its offering; confirm repair location and exclusions, because that is not an OEM lifecycle or overseas-service promise. The older InSight II name should not inherit another generation’s specifications.",
-          "Acceptance must cover the generator, detector, table clearance and image-review/export process together, with qualified radiation commissioning and recurring quality assurance included in the service budget. Current product pages and flat-panel architecture establish features, not lower failure rates; no comparative field reliability dataset was established."
+          "Orthoscan TAU 1512 and Hologic InSight FD Flex offer concrete positioning differences to assess. Demonstrate the intended anatomy and patient positions with the actual table. A compact extremity system should not inherit a full-size C-arm's role simply because both provide fluoroscopy.",
+          "The FD Flex evidence cited here is a dealer's offering. Its advertised sale and service are not an OEM lifecycle or overseas-coverage commitment. Identify the generation, repair location and exclusions. Neither a current product page nor flat-panel construction establishes a lower field failure rate."
         ],
         "sourceIds": [
           "x-tau",
-          "x-insight",
-          "x-impact",
-          "x-elite"
+          "x-insight"
         ]
+      },
+      {
+        "heading": "Protect the component that can stop the service",
+        "paragraphs": [
+          "Budget for detector damage or exchange, tube and generator work, batteries, acquisition-computer replacement and software. Establish the temporary arrangement while a critical part is away. A spare detector helps only when it is compatible with the supported acquisition chain.",
+          "Compare complete delivered and commissioned packages. Include the room or table, radiation infrastructure, image transfer, training and recurring quality checks. The useful saving comes from a system that finishes the required work with an affordable route back into service."
+        ],
+        "sourceIds": []
       }
     ],
     "ownership": {
@@ -248,7 +267,6 @@ export default {
       ]
     },
     "questions": [
-      "What exact LCP1 bill of materials can be ordered and supported now?",
       "Does each quoted DR generator cover the hospital's examination list at its expected workload?",
       "Which major OEC 9800 assemblies are actually repairable for this serial number?",
       "Are mini-C-arm views sufficient for the planned service when tested with its table?",
@@ -257,7 +275,6 @@ export default {
     "gaps": [
       "No current matched quotations, delivered totals or live stock verified.",
       "No model-to-model field reliability ranking established.",
-      "No current support commitment for LCP1, OEC 9400/9600 or the unspecified legacy Canon/Varian detector models.",
       "Manufacturer lifecycle coverage for InSight FD Flex remains unconfirmed.",
       "OEC 9900 end-of-support date, serial-specific service eligibility and destination parts availability were not established; an accessible Brazilian parts catalog is a procurement lead, not a support commitment."
     ],
@@ -268,8 +285,8 @@ export default {
         "url": "https://www.minxray.com/impact-wireless",
         "publisher": "MinXray",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "TR90BH battery generator, 40–90 kV/20–10 mA ratings, detector and computer package; optional stands."
+        "accessed": "2026-10-18",
+        "evidence": "Written package and specifications rechecked: TR90BH, 40–90 kV/20–10 mA, 14 × 17-inch detector, computer/software and optional stands. No battery workload or field-reliability claim verified."
       },
       {
         "id": "x-carestream",
@@ -335,15 +352,6 @@ export default {
         "evidence": "Dealer's own product/service offering; rotating detector described. No numeric asking price or export support verified."
       },
       {
-        "id": "x-legacy",
-        "title": "Earlier equipment material retained in the research archive",
-        "url": "archive:historical-equipment-material",
-        "publisher": "Historical equipment notes",
-        "kind": "historical owner notes",
-        "accessed": "2026-10-16",
-        "evidence": "LCP1, NAOMI, MinXray, OEC and InSight II recommendations and historical field experience."
-      },
-      {
         "id": "x-9900",
         "title": "GE OEC 9900 parts category, Brazil",
         "url": "https://services.gehealthcare.com.br/gehcstorefront/c/OEC_PARTS_CTG_L2_87",
@@ -366,7 +374,7 @@ export default {
       "firstMove": "Separate the workload into radiography, full-size fluoroscopy and extremity fluoroscopy. Demonstrate the matching system with the actual patient positions, table and image-export workflow.",
       "spendMoreWhen": "Choose DRX-Revolution when repeated bedside movement makes its motor drive and positioning useful. Consider OEC Elite CFD when the specified clinical options, geometry or longer imaging demands justify the complete package.",
       "keepExistingWhen": "Keep a working NAOMI or older OEC when the complete imaging chain passes assessment and an identified service organization can maintain that exact configuration. For NAOMI, include the acquisition computer in the plan.",
-      "walkAwayWhen": "Reject an unspecified LCP1 bundle, a used C-arm with no documented refurbishment/commissioning remedy, or a mini C-arm that cannot produce the required views. A parts-category webpage alone is not a repair commitment."
+      "walkAwayWhen": "Reject an unspecified bundle, a used C-arm with no credible commissioning remedy, or a mini C-arm that cannot obtain the required views."
     },
     "quickCompare": [
       {
@@ -407,10 +415,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Portable X-ray, full-size C-arm or mini: buy the right fit",
-      "description": "Compare MinXray, DRX-Revolution and OEC options, plus two mini C-arms. The wrong anatomy or repair plan can erase an apparent saving.",
-      "hook": "The cheapest X-ray system is an expensive choice if it cannot finish the case."
-    }
+      "title": "Portable X-ray or C-arm? Match the kit to the job",
+      "description": "Compare outreach radiography, bedside carts and surgical fluoroscopy before choosing the detector, batteries and repair plan.",
+      "hook": "The right equipment class matters more than a bargain model."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Portable and hospital mobile digital radiography NAOMI retrofit and LCP1 verification Full-size C-arms Mini C-arms Detector damage, generator limits and service economics MinXray Impact Wireless with TR90BH generator Carestream DRX-Revolution RF NAOMI, exact detector size to be identified GE OEC One CFD GE OEC 9800 GE OEC Elite CFD Orthoscan TAU 1512 Hologic InSight FD Flex"
+  "searchTerms": "Portable and hospital mobile digital radiography Full-size C-arms Mini C-arms Detector damage, generator limits and service economics retaining a supported acquisition computer MinXray Impact Wireless with TR90BH generator Carestream DRX-Revolution RF NAOMI, exact detector size to be identified GE OEC One CFD GE OEC 9800 GE OEC Elite CFD Orthoscan TAU 1512 Hologic InSight FD Flex",
+  "librarySection": "equipment"
 };

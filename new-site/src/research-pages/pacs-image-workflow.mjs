@@ -3,8 +3,8 @@ export default {
   "key": "pacs-image-workflow",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Your scanner sends images. Can your team still find them tomorrow?",
-  "summary": "Buy an image workflow that covers identity, reading, retention, outages and eventual export—not just a successful DICOM connection.",
+  "title": "Buying PACS? Test the outage and the exit",
+  "summary": "Choose image storage by what clinicians can retrieve, recover and move elsewhere—not by a successful send alone.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "image": "guides/ultrasound",
@@ -27,40 +27,40 @@ export default {
   "minutes": 3,
   "sections": [
     [
-      "Follow one study all the way through",
-      "Start with the people who need the images and the moments when they need them. A technologist sends a study, a reader opens it, a clinician compares it with an earlier examination, and another hospital requests a copy. Those are separate transactions. A demonstration that stops after transmission does not prove the rest. Draw a worksheet with five columns: step, responsible system, responsible person, required result and test evidence. Include patient identification, reading access, reports, prior studies and export. Use representative studies from each proposed modality, with appropriately authorized test data, rather than judging the purchase from a vendor's demonstration library."
+      "Start with yesterday’s study",
+      "Before buying a new PACS or archive, ask the existing system to prove a small but demanding journey. Send an appropriately authorized test study, open it for reading, retrieve an earlier examination, recover it after a controlled interruption and export it for another system. Keep the present arrangement if it does those jobs reliably and remains supported. This is a more useful starting point than comparing storage capacity alone. A hospital can have plenty of disk space yet struggle with patient identification, prior studies or referral exports. Spend on the step that fails, whether that means an interface, a viewer, added capacity or a different service."
     ],
     [
-      "Match the actual software and services",
-      "DICOM conformance statements describe supported information objects and services. The standard's conformance section does not itself prescribe validation procedures or require every optional feature for every device. The purchasing implication is practical: obtain statements for the actual software versions at both ends, then have the integration team assess and test the required workflow. GE publishes conformance information for network services, media exchange and information objects. Ask the scanner seller and PACS provider to identify the relevant documents and licensed options. Record who fixes a mismatch, who pays for an interface change, and whether that work is included before acceptance."
+      "Separate the handshake from the archive",
+      "DICOM C-ECHO verifies application-level communication. It does not prove that an image has been stored, retained or made available to a clinician. DICOM also distinguishes accepting transmitted objects from an explicit Storage Commitment. The latter has implementation-specific retention and retrieval terms documented by the receiving system. Treat a successful connection as the beginning of acceptance. Obtain conformance statements for the actual software versions and licensed services at both ends. Have the integration team identify the required objects and transactions, then test them. A familiar standard name is not a promise that every optional function is present."
     ],
     [
-      "Separate receiving an image from keeping it",
-      "DICOM distinguishes Storage from Storage Commitment. Accepting a transmission does not, by itself, establish an explicit safekeeping obligation. Storage Commitment describes an implementation-specific commitment, including the period and retrieval capabilities documented by the receiving system. It is therefore important to ask what the purchased archive actually promises. Have the hospital set its retention requirements and identify where complete studies, reports and relevant associated objects reside. Ask the provider to describe capacity limits, backup arrangements, restoration responsibilities and deletion behavior. A storage dashboard showing spare capacity is different evidence from a successful restoration of a selected study after a simulated failure."
+      "Give each handoff an owner",
+      "Use a five-column study worksheet: step, responsible system, responsible person, required result and test evidence. Include registration, acquisition, reading, reports, prior studies, retention and export. Use representative studies from each modality rather than only a supplier's demonstration library. Name who investigates when the scanner says 'sent' but the reader cannot find the examination. The scanner supplier, network team and archive provider should not leave the hospital to resolve their boundary. Include interface changes, licences and acceptance work in the integration scope."
     ],
     [
-      "Make offline access a specific requirement",
-      "“Works offline” can mean several things: the scanner continues acquiring, a workstation displays recently cached studies, or the department retrieves its full local archive. Specify which people must do which tasks during an internet or internal-network interruption. Include the duration the hospital needs to accommodate without inventing a universal target. Ask for a controlled demonstration of that scenario. Record which images, prior studies and reports remain available, what cannot be done, and how information is reconciled when connectivity returns. Clinical and IT teams should approve the operating procedure. An untested cache setting should not become the hospital's entire continuity plan."
+      "Choose local, hosted or hybrid around the interruption",
+      "A local installation deserves consideration when the hospital can maintain its hardware, network, backups and recovery. A hosted service may reduce onsite infrastructure responsibilities, but connectivity, recurring charges and access during disruption become central. A hybrid arrangement is useful when defined local access is worth its additional coordination. Specify the actual outage: loss of internet, loss of the local network or failure of an archive component. State which images, prior studies and reports must remain available, to whom and for how long. 'Works offline' may describe only recent cached images. Demonstrate the agreed scenario and the reconciliation when service returns; do not assume that an untested cache meets it."
     ],
     [
-      "Buy the right to leave with usable data",
-      "Request an example export before signing. Have the receiving team open it in the intended destination and verify study identity, completeness and the objects it needs. A screenshot or a printable image may serve one purpose while failing the hospital's archive-transfer requirement. Specify both routine referral exports and a future bulk migration. Put the export format, assistance, turnaround, charges and responsibilities into the agreement. Ask what happens when a subscription ends or a supplier is replaced. For hosted services, obtain an explanation of how the hospital receives its information and how the agreed retention and deletion instructions are handled."
+      "Purchase retention, recovery and a way out",
+      "Have the hospital set retention requirements and locate complete studies, reports and associated objects. Record capacity limits, deletion behavior, backup ownership and restoration responsibilities. A capacity dashboard is not a restoration test. Select a study and verify that the agreed recovery process makes it usable again. Then test leaving. A screenshot is not a complete archive migration. Ask the receiving team to open an example export and verify identity, completeness and required objects. Specify routine referrals and future bulk export separately, including format, assistance, turnaround and charges. Subscription expiry should not leave the hospital discovering its exit requirements for the first time."
     ],
     [
-      "Compare costs against the same tested journey",
-      "Use the same planning period for local, hosted and hybrid proposals. Include interfaces, viewers, storage growth, connectivity, support, replacement infrastructure, backup verification and migration. Separate committed charges from volume-dependent ones. Ask suppliers to price the hospital's own activity assumptions rather than adopting an attractive but irrelevant sample workload. Finish the worksheet with a named acceptance owner for every step. The least expensive useful proposal is the one that delivers the agreed journey within the hospital's operating capacity. A familiar existing system deserves consideration when it passes; a new platform earns its premium by resolving a demonstrated problem."
+      "Compare one workload over one period",
+      "Price local, hosted and hybrid proposals against the same activity and retention assumptions. Include interfaces, viewers, storage growth, connectivity, support, replacement infrastructure, recovery testing and migration. Separate fixed commitments from volume-dependent fees so a low starting subscription does not hide the later workload. The deciding question is which arrangement can deliver the tested study journey within the hospital's operating capacity. Extend a sound existing service when that resolves the gap. Buy a different platform when it demonstrably improves access, recovery or support enough to justify both transition and ongoing cost."
     ]
   ],
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "A successful image send is only the beginning",
-  "socialDescription": "Use a study-journey worksheet to compare PACS, archives, offline access and export before buying imaging equipment.",
-  "socialHeadline": "Image access: follow the whole study",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "Buying PACS? Test the outage and the exit",
+  "socialDescription": "Choose image storage by what clinicians can retrieve, recover and move elsewhere—not by a successful send alone.",
+  "socialHeadline": "Buying PACS? Test the outage and the exit",
+  "socialStrapline": "A study is useful only when the right person can retrieve it.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Image access: follow the whole study",
+    "title": "Buying PACS? Test the outage and the exit",
     "summary": "A successful send does not establish a complete archive service. Compare the journey from registration to reading, retention, recovery and eventual export.",
     "firstChoice": "Test the existing supported workflow first. Map each step to its responsible system, person and acceptance evidence before buying additional software or storage.",
     "upgradeWhen": "A demonstrated access, capacity, integration or recovery gap requires a different local, hosted or hybrid arrangement that the team can maintain.",
@@ -80,15 +80,15 @@ export default {
   "research": {
     "kind": "feature",
     "id": "pacs-image-workflow",
-    "researchedAt": "2026-10-17",
+    "researchedAt": "2026-10-18",
     "coverage": [
       "DICOM conformance and acceptance",
       "PACS and archive responsibilities",
       "offline access and recovery",
       "image export and supplier exit"
     ],
-    "title": "Your scanner sends images. Can your team still find them tomorrow?",
-    "dek": "Buy an image workflow that covers identity, reading, retention, outages and eventual export—not just a successful DICOM connection.",
+    "title": "Buying PACS? Test the outage and the exit",
+    "dek": "Choose image storage by what clinicians can retrieve, recover and move elsewhere—not by a successful send alone.",
     "verdict": "Choose the simplest supported arrangement that demonstrates the hospital's complete study journey, including an outage and an exit. Keep a working archive when it passes those tests; expand it only to resolve a documented access, capacity or support gap.",
     "decision": {
       "firstMove": "Map one representative study from patient registration to reading, long-term retrieval and external export.",
@@ -97,9 +97,9 @@ export default {
       "walkAwayWhen": "The proposal leaves retention, restoration, compatibility or data-exit responsibilities undefined."
     },
     "social": {
-      "title": "A successful image send is only the beginning",
-      "description": "Use a study-journey worksheet to compare PACS, archives, offline access and export before buying imaging equipment.",
-      "hook": "Ask to retrieve yesterday's study during an internet outage."
+      "title": "Buying PACS? Test the outage and the exit",
+      "description": "Choose image storage by what clinicians can retrieve, recover and move elsewhere—not by a successful send alone.",
+      "hook": "A study is useful only when the right person can retrieve it."
     },
     "choices": [
       {
@@ -181,57 +181,59 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Follow one study all the way through",
+        "heading": "Start with yesterday’s study",
         "paragraphs": [
-          "Start with the people who need the images and the moments when they need them. A technologist sends a study, a reader opens it, a clinician compares it with an earlier examination, and another hospital requests a copy. Those are separate transactions. A demonstration that stops after transmission does not prove the rest.",
-          "Draw a worksheet with five columns: step, responsible system, responsible person, required result and test evidence. Include patient identification, reading access, reports, prior studies and export. Use representative studies from each proposed modality, with appropriately authorized test data, rather than judging the purchase from a vendor's demonstration library."
+          "Before buying a new PACS or archive, ask the existing system to prove a small but demanding journey. Send an appropriately authorized test study, open it for reading, retrieve an earlier examination, recover it after a controlled interruption and export it for another system. Keep the present arrangement if it does those jobs reliably and remains supported.",
+          "This is a more useful starting point than comparing storage capacity alone. A hospital can have plenty of disk space yet struggle with patient identification, prior studies or referral exports. Spend on the step that fails, whether that means an interface, a viewer, added capacity or a different service."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Match the actual software and services",
+        "heading": "Separate the handshake from the archive",
         "paragraphs": [
-          "DICOM conformance statements describe supported information objects and services. The standard's conformance section does not itself prescribe validation procedures or require every optional feature for every device. The purchasing implication is practical: obtain statements for the actual software versions at both ends, then have the integration team assess and test the required workflow.",
-          "GE publishes conformance information for network services, media exchange and information objects. Ask the scanner seller and PACS provider to identify the relevant documents and licensed options. Record who fixes a mismatch, who pays for an interface change, and whether that work is included before acceptance."
+          "DICOM C-ECHO verifies application-level communication. It does not prove that an image has been stored, retained or made available to a clinician. DICOM also distinguishes accepting transmitted objects from an explicit Storage Commitment. The latter has implementation-specific retention and retrieval terms documented by the receiving system.",
+          "Treat a successful connection as the beginning of acceptance. Obtain conformance statements for the actual software versions and licensed services at both ends. Have the integration team identify the required objects and transactions, then test them. A familiar standard name is not a promise that every optional function is present."
         ],
         "sourceIds": [
-          "dicom-conformance",
-          "ge-dicom"
+          "dicom-echo",
+          "dicom-storage",
+          "dicom-conformance"
         ]
       },
       {
-        "heading": "Separate receiving an image from keeping it",
+        "heading": "Give each handoff an owner",
         "paragraphs": [
-          "DICOM distinguishes Storage from Storage Commitment. Accepting a transmission does not, by itself, establish an explicit safekeeping obligation. Storage Commitment describes an implementation-specific commitment, including the period and retrieval capabilities documented by the receiving system. It is therefore important to ask what the purchased archive actually promises.",
-          "Have the hospital set its retention requirements and identify where complete studies, reports and relevant associated objects reside. Ask the provider to describe capacity limits, backup arrangements, restoration responsibilities and deletion behavior. A storage dashboard showing spare capacity is different evidence from a successful restoration of a selected study after a simulated failure."
-        ],
-        "sourceIds": [
-          "dicom-storage"
-        ]
-      },
-      {
-        "heading": "Make offline access a specific requirement",
-        "paragraphs": [
-          "“Works offline” can mean several things: the scanner continues acquiring, a workstation displays recently cached studies, or the department retrieves its full local archive. Specify which people must do which tasks during an internet or internal-network interruption. Include the duration the hospital needs to accommodate without inventing a universal target.",
-          "Ask for a controlled demonstration of that scenario. Record which images, prior studies and reports remain available, what cannot be done, and how information is reconciled when connectivity returns. Clinical and IT teams should approve the operating procedure. An untested cache setting should not become the hospital's entire continuity plan."
-        ],
-        "sourceIds": []
-      },
-      {
-        "heading": "Buy the right to leave with usable data",
-        "paragraphs": [
-          "Request an example export before signing. Have the receiving team open it in the intended destination and verify study identity, completeness and the objects it needs. A screenshot or a printable image may serve one purpose while failing the hospital's archive-transfer requirement. Specify both routine referral exports and a future bulk migration.",
-          "Put the export format, assistance, turnaround, charges and responsibilities into the agreement. Ask what happens when a subscription ends or a supplier is replaced. For hosted services, obtain an explanation of how the hospital receives its information and how the agreed retention and deletion instructions are handled."
+          "Use a five-column study worksheet: step, responsible system, responsible person, required result and test evidence. Include registration, acquisition, reading, reports, prior studies, retention and export. Use representative studies from each modality rather than only a supplier's demonstration library.",
+          "Name who investigates when the scanner says 'sent' but the reader cannot find the examination. The scanner supplier, network team and archive provider should not leave the hospital to resolve their boundary. Include interface changes, licences and acceptance work in the integration scope."
         ],
         "sourceIds": [
           "ge-dicom"
         ]
       },
       {
-        "heading": "Compare costs against the same tested journey",
+        "heading": "Choose local, hosted or hybrid around the interruption",
         "paragraphs": [
-          "Use the same planning period for local, hosted and hybrid proposals. Include interfaces, viewers, storage growth, connectivity, support, replacement infrastructure, backup verification and migration. Separate committed charges from volume-dependent ones. Ask suppliers to price the hospital's own activity assumptions rather than adopting an attractive but irrelevant sample workload.",
-          "Finish the worksheet with a named acceptance owner for every step. The least expensive useful proposal is the one that delivers the agreed journey within the hospital's operating capacity. A familiar existing system deserves consideration when it passes; a new platform earns its premium by resolving a demonstrated problem."
+          "A local installation deserves consideration when the hospital can maintain its hardware, network, backups and recovery. A hosted service may reduce onsite infrastructure responsibilities, but connectivity, recurring charges and access during disruption become central. A hybrid arrangement is useful when defined local access is worth its additional coordination.",
+          "Specify the actual outage: loss of internet, loss of the local network or failure of an archive component. State which images, prior studies and reports must remain available, to whom and for how long. 'Works offline' may describe only recent cached images. Demonstrate the agreed scenario and the reconciliation when service returns; do not assume that an untested cache meets it."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Purchase retention, recovery and a way out",
+        "paragraphs": [
+          "Have the hospital set retention requirements and locate complete studies, reports and associated objects. Record capacity limits, deletion behavior, backup ownership and restoration responsibilities. A capacity dashboard is not a restoration test. Select a study and verify that the agreed recovery process makes it usable again.",
+          "Then test leaving. A screenshot is not a complete archive migration. Ask the receiving team to open an example export and verify identity, completeness and required objects. Specify routine referrals and future bulk export separately, including format, assistance, turnaround and charges. Subscription expiry should not leave the hospital discovering its exit requirements for the first time."
+        ],
+        "sourceIds": [
+          "dicom-storage",
+          "ge-dicom"
+        ]
+      },
+      {
+        "heading": "Compare one workload over one period",
+        "paragraphs": [
+          "Price local, hosted and hybrid proposals against the same activity and retention assumptions. Include interfaces, viewers, storage growth, connectivity, support, replacement infrastructure, recovery testing and migration. Separate fixed commitments from volume-dependent fees so a low starting subscription does not hide the later workload.",
+          "The deciding question is which arrangement can deliver the tested study journey within the hospital's operating capacity. Extend a sound existing service when that resolves the gap. Buy a different platform when it demonstrably improves access, recovery or support enough to justify both transition and ongoing cost."
         ],
         "sourceIds": []
       }
@@ -278,7 +280,7 @@ export default {
         "url": "https://dicom.nema.org/medical/dicom/current/output/chtml/part04/chapter_J.html",
         "publisher": "DICOM Standards Committee",
         "kind": "primary standard",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Distinguishes acceptance of transmitted objects from explicit storage commitment and documented retention/retrieval capabilities."
       },
       {
@@ -289,6 +291,15 @@ export default {
         "kind": "manufacturer",
         "accessed": "2026-10-17",
         "evidence": "Explains the network-service, media-exchange and information-object capabilities covered by manufacturer conformance statements."
+      },
+      {
+        "id": "dicom-echo",
+        "title": "DICOM PS3.4: Verification Service Class",
+        "url": "https://dicom.nema.org/medical/dicom/current/output/chtml/part04/chapter_A.html",
+        "publisher": "DICOM Standards Committee",
+        "kind": "primary standard",
+        "accessed": "2026-10-18",
+        "evidence": "2026d chapter A.1: C-ECHO verifies application-level communication. It does not establish archive retention or retrieval."
       }
     ],
     "related": [
@@ -298,5 +309,6 @@ export default {
       "dr-retrofit"
     ]
   },
-  "searchTerms": "DICOM conformance and acceptance PACS and archive responsibilities offline access and recovery image export and supplier exit Extend the existing PACS and archive Local PACS and archive Hosted image-management service Hybrid arrangement with defined local access"
+  "searchTerms": "DICOM conformance and acceptance PACS and archive responsibilities offline access and recovery image export and supplier exit Extend the existing PACS and archive Local PACS and archive Hosted image-management service Hybrid arrangement with defined local access",
+  "librarySection": "decisions"
 };

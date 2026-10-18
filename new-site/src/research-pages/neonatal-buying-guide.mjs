@@ -3,8 +3,8 @@ export default {
   "key": "neonatal",
   "kind": "research-guide",
   "equipmentId": "neonatal",
-  "title": "Newborn equipment: build the station before buying the box",
-  "summary": "An incubator, warmer, phototherapy light and fetal monitor solve different gaps. Buy the configuration that completes the care area.",
+  "title": "Buying newborn equipment: finish one useful station first",
+  "summary": "Compare incubators, open warmers and phototherapy by the care function, complete accessories and repair route. Integrated features earn their price when they close a real gap.",
   "categoryId": "critical-care",
   "category": "Critical & patient care",
   "image": "guides/neonatal",
@@ -23,41 +23,45 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 5,
+  "minutes": 7,
   "sections": [
     [
-      "Which missing function is delaying the next usable station?",
-      "A newborn unit can own several impressive machines and still lack one complete care station. Start the equipment list with the required function, then add every component needed to make it usable. Enclosed incubator care brings enclosure, humidity and sensor maintenance. An open warmer gives access but does not supply the same environment. The clinical service decides which function is needed; that decision should precede the brand comparison. For enclosed care, Isolette 8000 plus offers a removable humidity subsystem, while Giraffe Incubator Carestation brings servo humidity and an access-oriented enclosure. Existing technician familiarity can be more useful than a small apparent purchase saving. For a used offer, account for doors, seals, latches, probes and removable assemblies before calculating freight. Missing proprietary plastics can turn a cheap incubator into a parts search that the hospital cannot finish. Wallaby WLB-1000 gives an open-warming purchase a clear scope: manual, servo and prewarm functions, documented parts and a 220–240 V requirement. Panda and Babyroo become more attractive when their selected integrated functions remove a separate purchase or solve a crowded workstation layout. Compare the completed station cost. A basic warmer plus equipment already owned can be sensible; an integrated workstation can also be sensible when that separate equipment does not exist."
+      "A station is a care function, not a machine count",
+      "Begin with the function the clinical service needs: enclosed care, open access with warming, phototherapy or maternity monitoring. These are separate requirements, even when some functions share a workstation. A donated incubator does not replace an open warmer simply because both provide heat. Nor does an open warmer supply the enclosed environment required by a different care plan. For enclosed care, compare Isolette 8000 plus with Giraffe Incubator Carestation using complete configurations. Isolette’s removable humidity subsystem offers a practical cleaning and service consideration; Giraffe may fit existing staff and engineering familiarity. Include doors, seals, latches, probes and humidity assemblies in a used-unit inspection. A missing proprietary enclosure part can stop a purchase that looks attractive on freight and console price alone."
     ],
     [
-      "Firefly and neoBLUE are different station designs",
-      "Firefly combines a bassinet with a fixed double-sided light arrangement. That can simplify a standalone station, but MTTS prohibits using it inside an incubator or radiant warmer. If the planned workflow needs that arrangement, Firefly leaves the shortlist before price enters the discussion. An attractive unit price cannot change the permitted configuration. neoBLUE is the overhead comparison. Its mounting, clearance and permitted bed/incubator arrangement must fit the supplied instructions. Put a compatible radiometer and output-verification process into the equipment package: the clinical service needs verified irradiance, not proof that the LEDs turn blue. Published LED operating hours do not establish the useful output of an older light or its remaining repair-free life."
+      "Pay for integration when it replaces something needed",
+      "Wallaby WLB-1000 provides a defined open-warming comparison with manual, servo and prewarm functions and a published 220–240 V requirement. It may be economical where the hospital already owns the separate monitoring and resuscitation equipment it needs. Panda or Babyroo becomes more attractive when the selected integrated functions complete an otherwise unfinished station or improve an evaluated working layout. Compare two actual arrangements: the warmer plus retained equipment, and the integrated package with every required option installed. Include the recurring probes and supplies in both. Then consider the repair consequence: which functions remain available if a component is removed for service, and what complete alternative station covers the gap? Integration should be valued for useful work, not the number of features on a brochure."
     ],
     [
-      "Maternal integration earns its cost when it replaces a gap",
-      "F6 and F6 Express create a practical budget choice. The fetal-monitoring requirement may be met by F6; Express adds maternal measurements that can eliminate a separate monitoring purchase. Where a functioning maternal monitor already serves the bed, that duplication deserves a reason. Where none exists, buying the simpler fetal-only package may merely move part of the bill elsewhere. For Avalon, the first distinction is external versus internal monitoring: FM20 and FM30 are not interchangeable simply because a seller adds a probe. Itemize required maternal parameters, triplet capability, battery and cableless options. Across both families, compare the delivered transducers, belts, maternal cuffs and printer supplies. A complete modest configuration is more useful than a 'fully loaded' listing that omits an accessory the service needs every day. Treat the EDAN brochure's inconsistent battery-runtime descriptions as unresolved. If battery operation is part of the purchase case, require a current binding specification for the exact delivered unit. For any donated fetal monitor, the price of one replacement transducer can materially change the apparent saving; include that item in the ownership comparison."
+      "Choose the phototherapy layout before the light",
+      "Firefly’s fixed, double-sided lights and removable bassinet define a standalone arrangement. MTTS excludes use inside an incubator or radiant warmer. Where that combination is part of the intended workflow, the exclusion decides the shortlist before price. Its current ordering table also separates the optional battery backup and trolley from the main unit; a product image does not establish their inclusion. neoBLUE offers an overhead comparison. Check the permitted care-bed arrangement and mounting clearance in the applicable instructions, then fund the appropriate irradiance measurement and output-verification process. Blue illumination and an hour counter do not prove adequate output from a used light. Compare the supported treatment station, including its measurement equipment, rather than extrapolating service life from an advertised LED-hours figure."
     ],
     [
-      "Check the optional resuscitation hardware, not just the warmer",
-      "GE's 2026 correction concerns certain M1091607-R air/oxygen blenders fitted to Giraffe and Panda infant resuscitation systems; it is not a blanket finding about warmer temperature control. Dräger's 2026 action concerns specified VentStar Resus Neo hoses. A vendor should identify whether the exact supplied component is affected and document the required action. Neither event supplies a comparative failure rate for an entire warmer family. The implication is specific: a warming station with added resuscitation hardware needs an accessory record as well as a console record. Component traceability and a reachable technician are useful buying evidence. This review did not establish comparative long-term failure rates, local spare stock or export-warranty coverage; those remain open rather than being converted into a brand durability ranking."
+      "Keep maternity monitoring a complete package",
+      "F6 and F6 Express make maternal integration a deliberate choice: Express adds maternal parameters, which may avoid a separate monitor where none exists. For Avalon, FM20’s external-monitoring role differs from FM30’s internal-monitoring capability. A probe cannot supply an unsupported function merely because the family name looks similar. Specify the required fetal transducer count, maternal parameters, belts, cuffs, recorder supplies and any central connection. Retain a functioning separate maternal monitor when its integration adds no useful benefit. The EDAN brochure contains inconsistent runtime descriptions, so battery-dependent purchases need a current specification for the actual configuration."
+    ],
+    [
+      "Trace the accessory as well as the console",
+      "GE’s 2026 correction concerns specified M1091607-R blenders in Giraffe/Panda resuscitation systems and warmers. The separate Dräger notice concerns VentStar Resus Neo MP00310 hoses. Review applicability and required action for supplied components; neither notice establishes a failure rate for every warmer in the family. A completed station therefore needs component identities and acceptance records as well as a console serial number. Choose the package that can be kept complete with reachable technical support. A published product page and a seller’s refurbishment claim do not establish local spare stock, a tested offered unit or an export warranty."
     ]
   ],
   "related": [
     "neonatal"
   ],
-  "socialTitle": "Newborn Equipment: Buy the Missing Care Function",
-  "socialDescription": "Compare incubators, warmers, phototherapy and fetal monitors by complete stations, useful integration and the accessories that keep them working.",
-  "socialHeadline": "Newborn and maternity equipment buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying newborn equipment: finish one useful station first",
+  "socialDescription": "Compare incubators, open warmers and phototherapy by the care function, complete accessories and repair route. Integrated features earn their price when they close a real gap.",
+  "socialHeadline": "Buying newborn equipment: finish one useful station first",
+  "socialStrapline": "Several incomplete machines can still leave the next baby without a usable station.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "neonatal",
-    "title": "Newborn and maternity equipment buying guide",
-    "summary": "Fund the missing care function: enclosed care, open warming, phototherapy or maternity monitoring. Several incomplete machines do not make one usable station.",
-    "firstChoice": "Compare Isolette 8000 plus and Giraffe Incubator Carestation for enclosed care. Wallaby WLB-1000 is a defined open-warmer starting point where 220–240 V fits. Firefly provides a standalone phototherapy arrangement.",
-    "upgradeWhen": "Panda or Babyroo earns consideration when integrated functions replace equipment the unit needs. F6 Express adds maternal parameters; Avalon FM30 addresses internal-monitoring requirements beyond FM20's external-monitoring role.",
+    "title": "Buying newborn equipment: finish one useful station first",
+    "summary": "Compare incubators, open warmers and phototherapy by the care function, complete accessories and repair route. Integrated features earn their price when they close a real gap.",
+    "firstChoice": "Identify the missing station function: enclosed care, open warming, phototherapy or maternity monitoring. Compare complete systems within that job.",
+    "upgradeWhen": "Panda or Babyroo integration replaces needed separate equipment, or the fetal-monitor configuration adds maternal/internal measurements the service actually requires.",
     "budgetWatch": "Used incubators can need costly doors, seals, probes and humidity parts. Firefly must not be used inside an incubator or radiant warmer; choose the phototherapy layout before comparing prices.",
-    "supportCheck": "Verify phototherapy output with the appropriate measurement arrangement. Check supplied Panda blender and Babyroo hose identifiers against their component-specific actions; neither notice applies to every warmer function.",
+    "supportCheck": "Reject Firefly for planned incubator/warmer use, a mismatched-voltage Wallaby, or an incomplete donated station whose missing components cannot be sourced.",
     "askSupplier": [
       "Which enclosure, warming and resuscitation components complete this station?",
       "Is our planned phototherapy arrangement permitted by the instructions?",
@@ -81,8 +85,8 @@ export default {
   },
   "research": {
     "id": "neonatal",
-    "title": "Newborn equipment: build the station before buying the box",
-    "dek": "An incubator, warmer, phototherapy light and fetal monitor solve different gaps. Buy the configuration that completes the care area.",
+    "title": "Buying newborn equipment: finish one useful station first",
+    "dek": "Compare incubators, open warmers and phototherapy by the care function, complete accessories and repair route. Integrated features earn their price when they close a real gap.",
     "verdict": "Fund the missing care function first. For enclosed care, compare Isolette 8000 plus and Giraffe Incubator Carestation on completeness, humidity-system upkeep and the hospital's existing service skills. For a dedicated open warmer, Wallaby WLB-1000 is the simpler starting point if 220–240 V fits; Panda or Babyroo earns more spending when its integrated functions replace equipment the unit otherwise needs. Firefly fits a standalone phototherapy station, while an overhead neoBLUE arrangement may suit a different workflow. For maternity monitoring, pay for maternal parameters or internal monitoring only when the service needs them.",
     "coverage": [
       "Incubators",
@@ -210,15 +214,23 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Which missing function is delaying the next usable station?",
+        "heading": "A station is a care function, not a machine count",
         "paragraphs": [
-          "A newborn unit can own several impressive machines and still lack one complete care station. Start the equipment list with the required function, then add every component needed to make it usable. Enclosed incubator care brings enclosure, humidity and sensor maintenance. An open warmer gives access but does not supply the same environment. The clinical service decides which function is needed; that decision should precede the brand comparison.",
-          "For enclosed care, Isolette 8000 plus offers a removable humidity subsystem, while Giraffe Incubator Carestation brings servo humidity and an access-oriented enclosure. Existing technician familiarity can be more useful than a small apparent purchase saving. For a used offer, account for doors, seals, latches, probes and removable assemblies before calculating freight. Missing proprietary plastics can turn a cheap incubator into a parts search that the hospital cannot finish.",
-          "Wallaby WLB-1000 gives an open-warming purchase a clear scope: manual, servo and prewarm functions, documented parts and a 220–240 V requirement. Panda and Babyroo become more attractive when their selected integrated functions remove a separate purchase or solve a crowded workstation layout. Compare the completed station cost. A basic warmer plus equipment already owned can be sensible; an integrated workstation can also be sensible when that separate equipment does not exist."
+          "Begin with the function the clinical service needs: enclosed care, open access with warming, phototherapy or maternity monitoring. These are separate requirements, even when some functions share a workstation. A donated incubator does not replace an open warmer simply because both provide heat. Nor does an open warmer supply the enclosed environment required by a different care plan.",
+          "For enclosed care, compare Isolette 8000 plus with Giraffe Incubator Carestation using complete configurations. Isolette’s removable humidity subsystem offers a practical cleaning and service consideration; Giraffe may fit existing staff and engineering familiarity. Include doors, seals, latches, probes and humidity assemblies in a used-unit inspection. A missing proprietary enclosure part can stop a purchase that looks attractive on freight and console price alone."
         ],
         "sourceIds": [
           "n1",
-          "n2",
+          "n2"
+        ]
+      },
+      {
+        "heading": "Pay for integration when it replaces something needed",
+        "paragraphs": [
+          "Wallaby WLB-1000 provides a defined open-warming comparison with manual, servo and prewarm functions and a published 220–240 V requirement. It may be economical where the hospital already owns the separate monitoring and resuscitation equipment it needs. Panda or Babyroo becomes more attractive when the selected integrated functions complete an otherwise unfinished station or improve an evaluated working layout.",
+          "Compare two actual arrangements: the warmer plus retained equipment, and the integrated package with every required option installed. Include the recurring probes and supplies in both. Then consider the repair consequence: which functions remain available if a component is removed for service, and what complete alternative station covers the gap? Integration should be valued for useful work, not the number of features on a brochure."
+        ],
+        "sourceIds": [
           "n3",
           "n4",
           "n5",
@@ -226,10 +238,10 @@ export default {
         ]
       },
       {
-        "heading": "Firefly and neoBLUE are different station designs",
+        "heading": "Choose the phototherapy layout before the light",
         "paragraphs": [
-          "Firefly combines a bassinet with a fixed double-sided light arrangement. That can simplify a standalone station, but MTTS prohibits using it inside an incubator or radiant warmer. If the planned workflow needs that arrangement, Firefly leaves the shortlist before price enters the discussion. An attractive unit price cannot change the permitted configuration.",
-          "neoBLUE is the overhead comparison. Its mounting, clearance and permitted bed/incubator arrangement must fit the supplied instructions. Put a compatible radiometer and output-verification process into the equipment package: the clinical service needs verified irradiance, not proof that the LEDs turn blue. Published LED operating hours do not establish the useful output of an older light or its remaining repair-free life."
+          "Firefly’s fixed, double-sided lights and removable bassinet define a standalone arrangement. MTTS excludes use inside an incubator or radiant warmer. Where that combination is part of the intended workflow, the exclusion decides the shortlist before price. Its current ordering table also separates the optional battery backup and trolley from the main unit; a product image does not establish their inclusion.",
+          "neoBLUE offers an overhead comparison. Check the permitted care-bed arrangement and mounting clearance in the applicable instructions, then fund the appropriate irradiance measurement and output-verification process. Blue illumination and an hour counter do not prove adequate output from a used light. Compare the supported treatment station, including its measurement equipment, rather than extrapolating service life from an advertised LED-hours figure."
         ],
         "sourceIds": [
           "n7",
@@ -237,11 +249,10 @@ export default {
         ]
       },
       {
-        "heading": "Maternal integration earns its cost when it replaces a gap",
+        "heading": "Keep maternity monitoring a complete package",
         "paragraphs": [
-          "F6 and F6 Express create a practical budget choice. The fetal-monitoring requirement may be met by F6; Express adds maternal measurements that can eliminate a separate monitoring purchase. Where a functioning maternal monitor already serves the bed, that duplication deserves a reason. Where none exists, buying the simpler fetal-only package may merely move part of the bill elsewhere.",
-          "For Avalon, the first distinction is external versus internal monitoring: FM20 and FM30 are not interchangeable simply because a seller adds a probe. Itemize required maternal parameters, triplet capability, battery and cableless options. Across both families, compare the delivered transducers, belts, maternal cuffs and printer supplies. A complete modest configuration is more useful than a 'fully loaded' listing that omits an accessory the service needs every day.",
-          "Treat the EDAN brochure's inconsistent battery-runtime descriptions as unresolved. If battery operation is part of the purchase case, require a current binding specification for the exact delivered unit. For any donated fetal monitor, the price of one replacement transducer can materially change the apparent saving; include that item in the ownership comparison."
+          "F6 and F6 Express make maternal integration a deliberate choice: Express adds maternal parameters, which may avoid a separate monitor where none exists. For Avalon, FM20’s external-monitoring role differs from FM30’s internal-monitoring capability. A probe cannot supply an unsupported function merely because the family name looks similar.",
+          "Specify the required fetal transducer count, maternal parameters, belts, cuffs, recorder supplies and any central connection. Retain a functioning separate maternal monitor when its integration adds no useful benefit. The EDAN brochure contains inconsistent runtime descriptions, so battery-dependent purchases need a current specification for the actual configuration."
         ],
         "sourceIds": [
           "n9",
@@ -251,10 +262,10 @@ export default {
         ]
       },
       {
-        "heading": "Check the optional resuscitation hardware, not just the warmer",
+        "heading": "Trace the accessory as well as the console",
         "paragraphs": [
-          "GE's 2026 correction concerns certain M1091607-R air/oxygen blenders fitted to Giraffe and Panda infant resuscitation systems; it is not a blanket finding about warmer temperature control. Dräger's 2026 action concerns specified VentStar Resus Neo hoses. A vendor should identify whether the exact supplied component is affected and document the required action. Neither event supplies a comparative failure rate for an entire warmer family.",
-          "The implication is specific: a warming station with added resuscitation hardware needs an accessory record as well as a console record. Component traceability and a reachable technician are useful buying evidence. This review did not establish comparative long-term failure rates, local spare stock or export-warranty coverage; those remain open rather than being converted into a brand durability ranking."
+          "GE’s 2026 correction concerns specified M1091607-R blenders in Giraffe/Panda resuscitation systems and warmers. The separate Dräger notice concerns VentStar Resus Neo MP00310 hoses. Review applicability and required action for supplied components; neither notice establishes a failure rate for every warmer in the family.",
+          "A completed station therefore needs component identities and acceptance records as well as a console serial number. Choose the package that can be kept complete with reachable technical support. A published product page and a seller’s refurbishment claim do not establish local spare stock, a tested offered unit or an export warranty."
         ],
         "sourceIds": [
           "n13",
@@ -263,7 +274,7 @@ export default {
       }
     ],
     "ownership": {
-      "equation": "Cost per available neonatal station-day = complete delivered station + required probes and accessories + power infrastructure + output/calibration equipment + cleaning supplies + scheduled service and replacement parts + downtime provision, divided by days the complete station is available.",
+      "equation": "Cost per available station-day over a stated period = (complete delivered station + probes/accessories + power provision + output-verification equipment + cleaning/service + replacement parts and backup over the period) / days the complete station is available in the same period.",
       "drivers": [
         "Incubator doors, seals, humidity assemblies and skin probes",
         "Warmer voltage compatibility, mattress and optional resuscitation modules",
@@ -280,10 +291,9 @@ export default {
       "Are supplied blender and hose serials/lots affected by current corrective actions?"
     ],
     "gaps": [
-      "No historical neonatal model ranking was present in the supplied notes.",
-      "No equivalent delivered prices or independent comparative failure rates were verified.",
-      "Regional registration, technician access and serial-specific support remain open.",
-      "EDAN brochure battery-runtime inconsistency needs a binding current specification."
+      "No equivalent delivered package prices or comparative field failure rates establish a universal winner.",
+      "Exact registration, technician access, component corrections and serial-specific repair acceptance require destination checks.",
+      "EDAN battery-runtime inconsistency requires a current exact-configuration specification."
     ],
     "sources": [
       {
@@ -346,7 +356,7 @@ export default {
         "url": "https://www.mtts-asia.com/firefly-phototherapy/",
         "publisher": "MTTS",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Double-sided standalone system; prohibited use inside incubator or radiant warmer."
       },
       {
@@ -400,7 +410,7 @@ export default {
         "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/infant-resuscitation-system-correction-ge-healthcare-issues-correction-giraffe-and-panda-infant",
         "publisher": "FDA",
         "kind": "regulator",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "2026 action on specified M1091607-R blender components."
       },
       {
@@ -409,7 +419,7 @@ export default {
         "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/breathing-circuit-recall-draeger-removes-ventstar-resus-neo-hoses",
         "publisher": "FDA",
         "kind": "regulator",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "2026 MP00310 hose cracking/detachment action; component-specific scope."
       }
     ],
@@ -458,10 +468,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Newborn Equipment: Buy the Missing Care Function",
-      "description": "Compare incubators, warmers, phototherapy and fetal monitors by complete stations, useful integration and the accessories that keep them working.",
-      "hook": "An inexpensive phototherapy system is no bargain if its permitted setup does not fit the station you plan to use."
-    }
+      "title": "Buying newborn equipment: finish one useful station first",
+      "description": "Compare incubators, open warmers and phototherapy by the care function, complete accessories and repair route. Integrated features earn their price when they close a real gap.",
+      "hook": "Several incomplete machines can still leave the next baby without a usable station."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Incubators Open radiant warmers Phototherapy External and internal fetal monitoring Maternal vital-sign options 2026 model/accessory corrections Dräger Isolette 8000 plus GE Giraffe Incubator Carestation MTTS Wallaby WLB-1000 GE Panda warmer Dräger Babyroo TN300 MTTS Firefly Natus neoBLUE LED Phototherapy System EDAN F6 / F6 Express Philips Avalon FM20 / FM30"
+  "searchTerms": "Buying newborn equipment: finish one useful station first Incubators Open radiant warmers Phototherapy External and internal fetal monitoring Maternal vital-sign options 2026 model/accessory corrections Dräger Isolette 8000 plus GE Giraffe Incubator Carestation MTTS Wallaby WLB-1000 GE Panda warmer Dräger Babyroo TN300 MTTS Firefly Natus neoBLUE LED Phototherapy System EDAN F6 / F6 Express Philips Avalon FM20 / FM30",
+  "librarySection": "equipment"
 };

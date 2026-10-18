@@ -3,8 +3,8 @@ export default {
   "key": "surgical-microscopes",
   "kind": "research-guide",
   "equipmentId": "surgical-microscopes",
-  "title": "Manual or motorized? Buy the surgical microscope your work needs",
-  "summary": "SO-111T prioritizes portable mounting and battery input; OM-6 targets compact outpatient work; M220 F12 adds motorized controls. Surgilens still needs a documented production offer.",
+  "title": "Buying a surgical microscope: pay for the working view",
+  "summary": "Compare SO-111T, OM-6 and M220 F12 by mounting, controls and complete optics. A portable head or motorized feature is useful only when the surgeon can use the whole setup.",
   "categoryId": "surgical",
   "category": "Surgery & anesthesia",
   "image": "guides/surgical-microscopes",
@@ -23,66 +23,63 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
-      "Pack the mount, power and working view into the decision",
-      "SO-111T addresses a real transport problem with table mounting, coaxial LED illumination and AC or 12 V battery input. Its manual 5x/10x workflow is also a real limitation or preference for the surgeon to evaluate. Confirm the receiving table’s approved mounting arrangement, stability and working distance with the complete setup before treating a small optical head as a portable operating service. The manufacturer page contains different descriptive and packaging weights, so obtain the final packing list rather than planning freight around one figure. Include the mount, controls, battery, case and any assistant equipment. Battery input compatibility does not establish a full day’s runtime or validate an improvised solar arrangement."
+      "Start at the eyepieces, with the real controls",
+      "The strongest microscope purchase begins with a surgeon evaluating the intended work on the offered optical head, objective, mount and controls. A good image in a showroom does not settle working distance, reach, stability, assistant visibility or how focus changes during the case. Specify that accepted configuration before comparing prices. For travel work, SO-111T combines manual two-step magnification with table mounting and AC/12 V input. That is a meaningful alternative to carrying a motorized stand. The tradeoff is the accepted manual workflow and a suitable receiving table. For a fixed ophthalmic service, M220 F12’s motorized focus and magnification may justify more equipment when hands-free adjustments are valuable."
     ],
     [
-      "When motorized controls earn the extra cost",
-      "M220 F12 provides motorized five-step magnification and focus, plus LED red-reflex illumination. These are useful reasons to compare it with a manual system in a sustained ophthalmic theatre. Its upgradable XY unit is not necessarily fitted: identify the installed options, required foot control and assistant observation equipment in the offered configuration. OM-6 supplies three-step optics and focus foot control in a compact outpatient arrangement. The manufacturer qualifies cataract use by the hospital or clinic environment; do not extend that description to every cataract or posterior-segment workload. Have the surgeon accept the exact combination of optics, mounting and controls. Give recording equipment priority when teaching requires it, after the operating view and required assistant view are suitable."
+      "The portable package must arrive as a working system",
+      "A shipping weight for the head is not the weight of the service. Include the mount or stand, power supply, battery, protective case and required observation equipment. Scan Optics publishes differing descriptive and packed-weight figures, so obtain a final itemized packing list before committing to transport. Its named battery option establishes an identifiable component, not a proven full-day endurance claim. Demonstrate the mounting arrangement with the full optical load. Table fit, arm positioning and the user’s seating must work together. A floor stand may solve a mounting constraint but change freight, storage and handling. Those are different completed packages, so compare their delivered cost and setup burden separately rather than attaching a portability label to the smaller head."
     ],
     [
-      "Surgilens needs a production answer before a purchase decision",
-      "The earlier equipment notes describe a 24-hour battery aspiration and a hoped-for $2,000–3,000 target. The accessible Surgilens project page instead describes prototype fundraising, a 12-hour battery claim and an approximate $4,000–6,000 at-cost target. Neither is a validated runtime or an available-unit quotation. The suitcase, solar and teaching concept fits the historical need, but a procurement recommendation requires the actual production device, intended-use documentation, delivered configuration and repair terms. Treat that uncertainty as a reason to investigate a concrete offer if one appears, not as evidence that the project failed or that the device is available now. The documented Scan Optics, Takagi and Leica configurations provide alternatives that can be evaluated while those production questions remain open."
+      "Pay for the movement and view the work requires",
+      "OM-6 offers a compact outpatient arrangement with three-step optics and focus foot control. Takagi qualifies cataract suitability by the hospital or clinic environment; the label should not be extended to every ophthalmic workload. Evaluate the actual objective, mounting and controls with the responsible surgeon. For M220 F12, an upgradable XY feature is not necessarily installed. Identify XY, the foot controller and assistant observation in the offer. A teaching camera should earn its place after the operating and assistant views are satisfactory. If recording is required, include the capture hardware and a usable storage/export arrangement; the presence of a camera port is not a complete teaching system. A donation described simply as OPMI or Leica Wild also needs its exact head, stand, illuminator and controls identified. Family names span configurations. Completing a missing objective or foot control can cost more than the apparent saving, especially when the matching part is difficult to obtain."
     ],
     [
-      "A complete donation can beat an incomplete new plan",
-      "OPMI and Leica Wild are family names covering different microscopes, stands, illuminators and controls. An appropriate working donation with a competent repair route can preserve considerable value. A free head with a missing objective, damaged arm or unavailable foot control can become a costly assembly project. Evaluate the exact unit and its accessories rather than accepting a family-name assurance that it worked before removal. Loupes can be assessed for procedures and operators that permit them; they are not a general substitute for ophthalmic operating microscopy. The earlier student-loupe price is no longer a quality or suitability benchmark. Across the microscope shortlist, LED illumination and fewer powered functions are design differences, not measured reliability advantages. An advertised LED life also does not establish the life of the stand, optics or controls."
+      "Keep an accepted microscope before buying an assembly project",
+      "Retain a working microscope when its optical quality, positioning, controls and repair route remain suitable. Test the whole proposed configuration, including the accessory load and movement needed by the service. A clean optical head on a damaged or unsupported stand is not an equivalent offer. Budget approved covers, cleaning supplies, inspection, transport damage exposure and the time without the system during repair. LED illumination and fewer powered functions are design differences, not measured guarantees of reliability. An advertised lamp life says little about future stand, optical or control repairs. Prefer a defined service route and usable replacement arrangements over an unsupported promise of lifetime operation. Surgilens remains outside the purchasable shortlist until production status, intended-use documentation, validated specifications and supported delivery terms are established. A project concept or target price cannot replace an available complete system for a funded operating list."
     ]
   ],
   "related": [
     "surgical-microscopes"
   ],
-  "socialTitle": "A portable microscope has to work beyond the suitcase",
-  "socialDescription": "Compare SO-111T, OM-6 and M220 F12 by mount, controls and surgical workflow—and see why Surgilens remains a project to verify.",
-  "socialHeadline": "Surgical microscope buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying a surgical microscope: pay for the working view",
+  "socialDescription": "Compare SO-111T, OM-6 and M220 F12 by mounting, controls and complete optics. A portable head or motorized feature is useful only when the surgeon can use the whole setup.",
+  "socialHeadline": "Buying a surgical microscope: pay for the working view",
+  "socialStrapline": "The mount, foot control and assistant view can matter more than the camera.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "surgical-microscopes",
-    "title": "Surgical microscope buying guide",
-    "summary": "Choose the working view, focus controls and mounting arrangement the surgeon can use, then price the complete transport or fixed-theatre package.",
-    "firstChoice": "Evaluate Scan Optics SO-111T for table-mounted travel work when manual 5x/10x adjustment is acceptable. Its AC/12 V input supports a portable comparison; the battery and approved mounting still need specification.",
-    "upgradeWhen": "M220 F12 adds motorized focus and magnification for a fixed ophthalmic workflow. OM-6 is a compact outpatient alternative whose cataract suitability requires review of the actual environment and configuration.",
+    "title": "Buying a surgical microscope: pay for the working view",
+    "summary": "Compare SO-111T, OM-6 and M220 F12 by mounting, controls and complete optics. A portable head or motorized feature is useful only when the surgeon can use the whole setup.",
+    "firstChoice": "Have the surgeon test the required view, working distance, magnification changes and focus controls on the complete offered system. For travel, include the mount, battery and observation accessories in the packed kit.",
+    "upgradeWhen": "Pay for M220 F12’s motorized focus and magnification when hands-free adjustment materially helps the planned cases. Fund assistant observation or recording when the teaching or clinical service actually requires it.",
     "budgetWatch": "Include objective, stand or clamp, foot control, assistant view, case and power. M220's upgradable XY function is not necessarily installed. SO-111T's differing published weight descriptions need a final packing list.",
-    "supportCheck": "Have the surgeon accept the complete optics and controls. Verify service for a donated head/stand combination. Surgilens remains an unresolved production offer, not a confirmed available purchase.",
+    "supportCheck": "Have the surgeon accept the complete optics, mount and controls. Confirm service for the exact donated head/stand combination.",
     "askSupplier": [
-      "Can the surgeon demonstrate the intended work with these controls?",
-      "What is the complete packed weight and specified battery endurance?",
-      "Which stand, XY, assistant-view and foot-control options are included?"
+      "Can the surgeon demonstrate the intended work using this complete configuration?",
+      "What are the final packed contents, weight and supported power arrangement?",
+      "Which XY, assistant-view and foot-control options are installed?"
     ],
     "sourceIds": [
       "m-scan",
       "m-takagi",
       "m-leica",
-      "m-leica-manual",
-      "m-surgilens",
-      "m-legacy"
+      "m-leica-manual"
     ]
   },
   "research": {
     "id": "surgical-microscopes",
-    "title": "Manual or motorized? Buy the surgical microscope your work needs",
-    "dek": "SO-111T prioritizes portable mounting and battery input; OM-6 targets compact outpatient work; M220 F12 adds motorized controls. Surgilens still needs a documented production offer.",
-    "verdict": "Start with Scan Optics SO-111T when transport, table mounting and AC/12 V operation are central to the service—and the surgeon accepts manual adjustment. OM-6 is a compact outpatient alternative; M220 F12 earns consideration when motorized focus and magnification improve a fixed ophthalmic workflow. Keep a suitable supported donation if it already does the work. Surgilens remains a project to verify, not a confirmed equipment purchase.",
+    "title": "Buying a surgical microscope: pay for the working view",
+    "dek": "Compare SO-111T, OM-6 and M220 F12 by mounting, controls and complete optics. A portable head or motorized feature is useful only when the surgeon can use the whole setup.",
+    "verdict": "Evaluate SO-111T when transport and table mounting are central and manual adjustment is acceptable. Compare OM-6 for its defined outpatient role and M220 F12 where hands-free focus and magnification improve the intended workflow. A suitable, supportable complete donation can remain the strongest value.",
     "coverage": [
       "Portable ophthalmic microscopes",
       "Compact outpatient microscopes",
       "Fixed ophthalmic surgical microscopes",
-      "Surgilens project status",
-      "Donated OPMI/Leica Wild systems and loupes"
+      "Complete donated optics and stands"
     ],
     "choices": [
       {
@@ -121,74 +118,60 @@ export default {
           "m-leica",
           "m-leica-manual"
         ]
-      },
-      {
-        "model": "Surgilens 1",
-        "position": "Project watchlist; procurement recommendation pending",
-        "bestFor": "Future consideration if a documented production package becomes available.",
-        "why": "The project describes suitcase transport, battery operation, solar charging and teaching/recording features. Those claims address the earlier portability brief, but a documented production package is still needed.",
-        "tradeoff": "The accessible page describes prototype fundraising and differs materially from the earlier equipment notes. Technical validation, intended-use documentation and an actual delivered offer remain unresolved.",
-        "price": "No verified purchasable-unit price; fundraising targets are not equipment quotations.",
-        "support": "Public project page verified; production, documented servicing and spare parts unconfirmed.",
-        "sourceIds": [
-          "m-surgilens",
-          "m-legacy"
-        ]
       }
     ],
     "sections": [
       {
-        "heading": "Pack the mount, power and working view into the decision",
+        "heading": "Start at the eyepieces, with the real controls",
         "paragraphs": [
-          "SO-111T addresses a real transport problem with table mounting, coaxial LED illumination and AC or 12 V battery input. Its manual 5x/10x workflow is also a real limitation or preference for the surgeon to evaluate. Confirm the receiving table’s approved mounting arrangement, stability and working distance with the complete setup before treating a small optical head as a portable operating service.",
-          "The manufacturer page contains different descriptive and packaging weights, so obtain the final packing list rather than planning freight around one figure. Include the mount, controls, battery, case and any assistant equipment. Battery input compatibility does not establish a full day’s runtime or validate an improvised solar arrangement."
+          "The strongest microscope purchase begins with a surgeon evaluating the intended work on the offered optical head, objective, mount and controls. A good image in a showroom does not settle working distance, reach, stability, assistant visibility or how focus changes during the case. Specify that accepted configuration before comparing prices.",
+          "For travel work, SO-111T combines manual two-step magnification with table mounting and AC/12 V input. That is a meaningful alternative to carrying a motorized stand. The tradeoff is the accepted manual workflow and a suitable receiving table. For a fixed ophthalmic service, M220 F12’s motorized focus and magnification may justify more equipment when hands-free adjustments are valuable."
+        ],
+        "sourceIds": [
+          "m-scan",
+          "m-leica"
+        ]
+      },
+      {
+        "heading": "The portable package must arrive as a working system",
+        "paragraphs": [
+          "A shipping weight for the head is not the weight of the service. Include the mount or stand, power supply, battery, protective case and required observation equipment. Scan Optics publishes differing descriptive and packed-weight figures, so obtain a final itemized packing list before committing to transport. Its named battery option establishes an identifiable component, not a proven full-day endurance claim.",
+          "Demonstrate the mounting arrangement with the full optical load. Table fit, arm positioning and the user’s seating must work together. A floor stand may solve a mounting constraint but change freight, storage and handling. Those are different completed packages, so compare their delivered cost and setup burden separately rather than attaching a portability label to the smaller head."
         ],
         "sourceIds": [
           "m-scan"
         ]
       },
       {
-        "heading": "When motorized controls earn the extra cost",
+        "heading": "Pay for the movement and view the work requires",
         "paragraphs": [
-          "M220 F12 provides motorized five-step magnification and focus, plus LED red-reflex illumination. These are useful reasons to compare it with a manual system in a sustained ophthalmic theatre. Its upgradable XY unit is not necessarily fitted: identify the installed options, required foot control and assistant observation equipment in the offered configuration.",
-          "OM-6 supplies three-step optics and focus foot control in a compact outpatient arrangement. The manufacturer qualifies cataract use by the hospital or clinic environment; do not extend that description to every cataract or posterior-segment workload. Have the surgeon accept the exact combination of optics, mounting and controls. Give recording equipment priority when teaching requires it, after the operating view and required assistant view are suitable."
+          "OM-6 offers a compact outpatient arrangement with three-step optics and focus foot control. Takagi qualifies cataract suitability by the hospital or clinic environment; the label should not be extended to every ophthalmic workload. Evaluate the actual objective, mounting and controls with the responsible surgeon.",
+          "For M220 F12, an upgradable XY feature is not necessarily installed. Identify XY, the foot controller and assistant observation in the offer. A teaching camera should earn its place after the operating and assistant views are satisfactory. If recording is required, include the capture hardware and a usable storage/export arrangement; the presence of a camera port is not a complete teaching system.",
+          "A donation described simply as OPMI or Leica Wild also needs its exact head, stand, illuminator and controls identified. Family names span configurations. Completing a missing objective or foot control can cost more than the apparent saving, especially when the matching part is difficult to obtain."
         ],
         "sourceIds": [
+          "m-takagi",
           "m-leica",
-          "m-leica-manual",
-          "m-takagi"
+          "m-leica-manual"
         ]
       },
       {
-        "heading": "Surgilens needs a production answer before a purchase decision",
+        "heading": "Keep an accepted microscope before buying an assembly project",
         "paragraphs": [
-          "The earlier equipment notes describe a 24-hour battery aspiration and a hoped-for $2,000–3,000 target. The accessible Surgilens project page instead describes prototype fundraising, a 12-hour battery claim and an approximate $4,000–6,000 at-cost target. Neither is a validated runtime or an available-unit quotation. The suitcase, solar and teaching concept fits the historical need, but a procurement recommendation requires the actual production device, intended-use documentation, delivered configuration and repair terms.",
-          "Treat that uncertainty as a reason to investigate a concrete offer if one appears, not as evidence that the project failed or that the device is available now. The documented Scan Optics, Takagi and Leica configurations provide alternatives that can be evaluated while those production questions remain open."
+          "Retain a working microscope when its optical quality, positioning, controls and repair route remain suitable. Test the whole proposed configuration, including the accessory load and movement needed by the service. A clean optical head on a damaged or unsupported stand is not an equivalent offer. Budget approved covers, cleaning supplies, inspection, transport damage exposure and the time without the system during repair.",
+          "LED illumination and fewer powered functions are design differences, not measured guarantees of reliability. An advertised lamp life says little about future stand, optical or control repairs. Prefer a defined service route and usable replacement arrangements over an unsupported promise of lifetime operation.",
+          "Surgilens remains outside the purchasable shortlist until production status, intended-use documentation, validated specifications and supported delivery terms are established. A project concept or target price cannot replace an available complete system for a funded operating list."
         ],
         "sourceIds": [
-          "m-surgilens",
-          "m-legacy",
           "m-scan",
           "m-takagi",
-          "m-leica"
-        ]
-      },
-      {
-        "heading": "A complete donation can beat an incomplete new plan",
-        "paragraphs": [
-          "OPMI and Leica Wild are family names covering different microscopes, stands, illuminators and controls. An appropriate working donation with a competent repair route can preserve considerable value. A free head with a missing objective, damaged arm or unavailable foot control can become a costly assembly project. Evaluate the exact unit and its accessories rather than accepting a family-name assurance that it worked before removal.",
-          "Loupes can be assessed for procedures and operators that permit them; they are not a general substitute for ophthalmic operating microscopy. The earlier student-loupe price is no longer a quality or suitability benchmark. Across the microscope shortlist, LED illumination and fewer powered functions are design differences, not measured reliability advantages. An advertised LED life also does not establish the life of the stand, optics or controls."
-        ],
-        "sourceIds": [
-          "m-legacy",
-          "m-scan",
-          "m-takagi",
-          "m-leica"
+          "m-leica",
+          "m-leica-manual"
         ]
       }
     ],
     "ownership": {
-      "equation": "Cost per supported surgical case = (complete microscope/mount + transport + battery/power equipment + assistant optics/recording if required + approved covers and cleaning supplies + inspection/service + repair and downtime provision) / cases completed with the system.",
+      "equation": "Cost per supported case over one planning period = (complete microscope/mount + transport/power + required observation/recording + covers/cleaning + service/repairs and backup over the period) / supported cases completed during the same period.",
       "drivers": [
         "Objective, eyepieces and assistant observation configuration",
         "Stand or table-clamp compatibility and transport cases",
@@ -198,11 +181,9 @@ export default {
       ]
     },
     "questions": [
-      "Can the surgeon complete the intended workflow using the offered focus and magnification controls?",
-      "What is the final packed weight and exact SO-111T battery runtime?",
-      "What is included versus optional on the OM-6 and M220 F12 quotes?",
-      "Is Surgilens now a documented production device, and which specification supersedes the conflicting historical claims?",
-      "Who supports the exact donated microscope/stand combination after export?"
+      "Which complete optical, mounting and control configuration did the surgeon accept?",
+      "What is included in the packed system and how is battery endurance specified?",
+      "Who repairs the exact head/stand/illuminator combination at the destination?"
     ],
     "gaps": [
       "No direct comparative field reliability testing or failure-rate evidence.",
@@ -217,7 +198,7 @@ export default {
         "url": "https://scanoptics.com.au/product/surgical-and-ophthalmic-microscope-so-111t/",
         "publisher": "Scan Optics",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Manual two-step magnification, coaxial LED, table mounting and AC/12 V input. Page contains differing descriptive/packed weight figures."
       },
       {
@@ -246,24 +227,6 @@ export default {
         "kind": "manufacturer",
         "accessed": "2026-10-16",
         "evidence": "Manufacturer user manual; operating environment and system-specific requirements must accompany a proposed deployment."
-      },
-      {
-        "id": "m-surgilens",
-        "title": "Earlier equipment material retained in the research archive",
-        "url": "archive:historical-equipment-material",
-        "publisher": "Historical equipment notes",
-        "kind": "historical owner notes",
-        "accessed": "2026-10-16",
-        "evidence": "Live page describes prototype fundraising, 12-hour battery and approximate at-cost target; differs from supplied owner's review and is not an available-unit quotation."
-      },
-      {
-        "id": "m-legacy",
-        "title": "Earlier equipment material retained in the research archive",
-        "url": "archive:historical-equipment-material",
-        "publisher": "Historical equipment notes",
-        "kind": "historical owner notes",
-        "accessed": "2026-10-16",
-        "evidence": "Surgilens aspirations, broad OPMI/Leica Wild donation assessment and unspecified loupes recommendation."
       }
     ],
     "decision": {
@@ -290,19 +253,15 @@ export default {
         "capability": "Motorized five-step magnification and focus, LED red-reflex illumination; XY is upgradable.",
         "costDriver": "Installed XY/assistant options, stand, transport and service.",
         "bestFit": "A fixed ophthalmic service benefiting from hands-free control changes."
-      },
-      {
-        "option": "Surgilens 1",
-        "capability": "Project claims suitcase transport, battery/solar operation and teaching/recording features.",
-        "costDriver": "No verified purchasable production package or delivered price.",
-        "bestFit": "Watchlist only until production, intended use, validation and support are documented."
       }
     ],
     "social": {
-      "title": "A portable microscope has to work beyond the suitcase",
-      "description": "Compare SO-111T, OM-6 and M220 F12 by mount, controls and surgical workflow—and see why Surgilens remains a project to verify.",
-      "hook": "The mount, foot control and working distance can decide a microscope purchase before the camera does."
-    }
+      "title": "Buying a surgical microscope: pay for the working view",
+      "description": "Compare SO-111T, OM-6 and M220 F12 by mounting, controls and complete optics. A portable head or motorized feature is useful only when the surgeon can use the whole setup.",
+      "hook": "The mount, foot control and assistant view can matter more than the camera."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Portable ophthalmic microscopes Compact outpatient microscopes Fixed ophthalmic surgical microscopes Surgilens project status Donated OPMI/Leica Wild systems and loupes Scan Optics SO-111T Takagi OM-6 Leica M220 F12 Surgilens 1"
+  "searchTerms": "Buying a surgical microscope: pay for the working view Portable ophthalmic microscopes Compact outpatient microscopes Fixed ophthalmic surgical microscopes Complete donated optics and stands Scan Optics SO-111T Takagi OM-6 Leica M220 F12",
+  "librarySection": "equipment"
 };

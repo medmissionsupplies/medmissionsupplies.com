@@ -3,8 +3,8 @@ export default {
   "key": "replacement-parts",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "The cheapest replacement part can be the wrong purchase",
-  "summary": "Match the fault, exact configuration, component condition and return obligations before authorizing an urgent parts order.",
+  "title": "A cheap replacement part can leave an expensive repair",
+  "summary": "Compare the confirmed fault, exact part and installed cost—then close the exchange-core return before calling the repair paid for.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/infusion",
@@ -32,36 +32,36 @@ export default {
     ],
     [
       "Build an identity packet that another person can check",
-      "Collect the equipment model, serial number, software version, installed options, relevant service report and clear photographs of the component label. Record the full part number and revision, including suffixes. Ask the supplier to confirm compatibility with that exact configuration and to explain any proposed replacement or superseded number. The cited US warranty also excludes use outside the United States and does not include installation. A hospital abroad needs written destination-specific coverage and installation terms before relying on that offer. Make the confirmation part of the order record. A matching connector, similar product photograph or shared model family is insufficient purchasing evidence. WHO's inventory-management guidance reinforces the value of managing equipment information throughout its life; the practical extension here is to connect the ordered part and its installation record to the hospital's specific asset."
+      "Collect the equipment model, serial, software, installed options, fault report and clear photographs of the full component label. Include the part-number suffix and revision. A supplier should confirm the proposed part or approved supersession against that configuration. A similar connector or product photograph cannot establish the match. Keep the compatibility confirmation with the order and asset history. WHO inventory guidance supports maintaining equipment information throughout its life; linking the exact replacement and installation report makes the next repair easier to assess."
     ],
     [
       "Make the condition meaningful",
-      "New, refurbished, repaired and used are different descriptions, not a common performance guarantee. Ask who performed the work, what was inspected or tested, what documentation accompanies the item and what remedy applies if it arrives faulty. GE's published parts warranty statement distinguishes component condition and specialty-component categories. Have the service provider describe whether a proposed substitution restores the intended specifications or changes them. FDA's servicing and remanufacturing guidance makes that distinction consequential; a purchasing team should obtain a qualified assessment rather than assume every modification is routine service. The order should identify the component and agreed work clearly enough to review later."
+      "New, refurbished, repaired and used are different descriptions, not a common performance guarantee. Ask who performed the work, what was inspected or tested, what documentation accompanies the item and what remedy applies if it arrives faulty. GE's published parts warranty statement distinguishes component condition and specialty-component categories. Have the service provider describe whether a proposed substitution restores the intended specifications or changes them. FDA's servicing and remanufacturing guidance makes that distinction consequential; a purchasing team should obtain a qualified assessment rather than assume every modification is routine service. The order should identify the component and agreed work clearly enough to review later. The cited GE US warranty example excludes use outside the United States and does not include installation. An overseas hospital therefore needs destination-specific coverage and installation terms; it cannot carry the domestic warranty assumption into its landed-cost comparison."
     ],
     [
       "Treat the core as a second shipment with a deadline",
-      "An exchange offer includes an obligation involving the removed component. GE's 2208852-R listing provides a concrete example: its price is conditioned on receipt of a suitable corresponding core within the stated period, with additional billing possible if that condition is unmet. This is one supplier's published arrangement, not a universal rule. Before ordering, record the core identifier, eligibility, return deadline, packing method, freight responsibility and charge if rejected or late. Assign one person to obtain return instructions, track delivery and confirm acceptance. A part installed successfully does not close the purchase if the old component remains unshipped in the workshop."
+      "An exchange offer includes an obligation involving the removed component. GE's 2208852-R listing provides a concrete example: its price is conditioned on receipt of a suitable corresponding core within the stated period, with additional billing possible if that condition is unmet. This is one supplier's published arrangement, not a universal rule. Before ordering, record the core identifier, eligibility, return deadline, packing method, freight responsibility and charge if rejected or late. Assign one person to obtain return instructions, track delivery and confirm acceptance. A part installed successfully does not close the purchase if the old component remains unshipped in the workshop. For illustration, an exchange quoted at US$1,200 plus US$200 return freight beats a US$1,800 outright purchase by US$400 only if the core is accepted. A hypothetical US$700 rejected-core charge changes that total to US$2,100. These are invented comparison figures, not GE prices; installation and other costs are assumed equal."
     ],
     [
       "Price the repair through release back to service",
       "Add diagnosis, inbound freight, import handling where relevant, installation, calibration, required testing and any temporary replacement to the part price. For an exchange, add outbound core freight and show the contingent core charge separately. For a repair, state what happens if assessment finds the component uneconomic or unsuitable to repair. Agree who verifies the completed work and what evidence permits release back into service. A box delivered to receiving is not a completed equipment repair. Keep the service report, installed part identity, test result and warranty dates together so a subsequent failure does not require reconstructing the transaction from invoices and memory."
     ],
     [
-      "Close the return and warranty loop",
+      "Close the transaction after the core is accepted",
       "Use a worksheet with three stages: before order, after installation and after return. The first records identity, diagnosis and terms. The second records installed condition and acceptance evidence. The third records any returned item, tracking, supplier acceptance and final financial reconciliation. Leave the purchase open until all applicable stages are complete. Compare suppliers on that complete pathway. A higher component price can be reasonable when it purchases a verified match and usable remedy; a cheaper tested item can also be appropriate when the service team accepts its evidence. The deciding question is whether the hospital can restore the asset and finish the transaction without unresolved obligations."
     ]
   ],
   "related": [
     "infusion"
   ],
-  "socialTitle": "Before ordering that replacement board",
-  "socialDescription": "Check the exact serial and configuration, component condition, installation cost and core-return terms before buying a medical-equipment part.",
-  "socialHeadline": "Replacement parts: close the whole transaction",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "The exchange discount ends where the core charge begins",
+  "socialDescription": "A part number, a repair plan and an accepted core return matter more than the lowest component price.",
+  "socialHeadline": "The exchange discount ends where the core charge begins",
+  "socialStrapline": "A delivered board is not a repaired machine—or a closed invoice.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Replacement parts: close the whole transaction",
-    "summary": "A component price is only one part of a repair. Verify the diagnosis, exact compatibility, condition and all return obligations before ordering.",
+    "title": "A cheap replacement part can leave an expensive repair",
+    "summary": "Compare the confirmed fault, exact part and installed cost—then close the exchange-core return before calling the repair paid for.",
     "firstChoice": "Assemble the model, serial, software, options, fault report and full part label. Obtain written compatibility confirmation and identify who will install and verify it.",
     "upgradeWhen": "Stronger testing evidence, a usable warranty or dependable delivery resolves a material repair risk that the cheaper offer leaves with the hospital.",
     "budgetWatch": "Compare diagnosis, freight, handling, installation, calibration, temporary cover and core liability. Show the maximum additional charge if an exchange condition is unmet.",
@@ -88,9 +88,9 @@ export default {
       "exchange cores and returns",
       "installation and verification"
     ],
-    "title": "The cheapest replacement part can be the wrong purchase",
-    "dek": "Match the fault, exact configuration, component condition and return obligations before authorizing an urgent parts order.",
-    "verdict": "Buy the verified compatible part with a complete installed-cost and return plan. Compare outright, exchange and repair offers on the same fault and acceptance criteria; use a low component price only after compatibility, condition and obligations are clear.",
+    "title": "A cheap replacement part can leave an expensive repair",
+    "dek": "Compare the confirmed fault, exact part and installed cost—then close the exchange-core return before calling the repair paid for.",
+    "verdict": "Buy a verified compatible component through a complete repair and return pathway. Compare outright purchase, exchange and repair on the same fault; an exchange discount only survives if the old core meets the terms.",
     "decision": {
       "firstMove": "Have the service team document the diagnosis and assemble the device and part identity packet.",
       "spendMoreWhen": "Better evidence, warranty or delivery materially improves the likelihood of a timely verified repair.",
@@ -98,9 +98,9 @@ export default {
       "walkAwayWhen": "The seller cannot confirm compatibility, condition, testing, return remedy or core liability in writing."
     },
     "social": {
-      "title": "Before ordering that replacement board",
-      "description": "Check the exact serial and configuration, component condition, installation cost and core-return terms before buying a medical-equipment part.",
-      "hook": "An exchange price is only complete when the old part is accepted."
+      "title": "The exchange discount ends where the core charge begins",
+      "description": "A part number, a repair plan and an accepted core return matter more than the lowest component price.",
+      "hook": "A delivered board is not a repaired machine—or a closed invoice."
     },
     "choices": [
       {
@@ -190,8 +190,8 @@ export default {
       {
         "heading": "Build an identity packet that another person can check",
         "paragraphs": [
-          "Collect the equipment model, serial number, software version, installed options, relevant service report and clear photographs of the component label. Record the full part number and revision, including suffixes. Ask the supplier to confirm compatibility with that exact configuration and to explain any proposed replacement or superseded number. The cited US warranty also excludes use outside the United States and does not include installation. A hospital abroad needs written destination-specific coverage and installation terms before relying on that offer.",
-          "Make the confirmation part of the order record. A matching connector, similar product photograph or shared model family is insufficient purchasing evidence. WHO's inventory-management guidance reinforces the value of managing equipment information throughout its life; the practical extension here is to connect the ordered part and its installation record to the hospital's specific asset."
+          "Collect the equipment model, serial, software, installed options, fault report and clear photographs of the full component label. Include the part-number suffix and revision. A supplier should confirm the proposed part or approved supersession against that configuration. A similar connector or product photograph cannot establish the match.",
+          "Keep the compatibility confirmation with the order and asset history. WHO inventory guidance supports maintaining equipment information throughout its life; linking the exact replacement and installation report makes the next repair easier to assess."
         ],
         "sourceIds": [
           "who-inventory"
@@ -201,7 +201,8 @@ export default {
         "heading": "Make the condition meaningful",
         "paragraphs": [
           "New, refurbished, repaired and used are different descriptions, not a common performance guarantee. Ask who performed the work, what was inspected or tested, what documentation accompanies the item and what remedy applies if it arrives faulty. GE's published parts warranty statement distinguishes component condition and specialty-component categories.",
-          "Have the service provider describe whether a proposed substitution restores the intended specifications or changes them. FDA's servicing and remanufacturing guidance makes that distinction consequential; a purchasing team should obtain a qualified assessment rather than assume every modification is routine service. The order should identify the component and agreed work clearly enough to review later."
+          "Have the service provider describe whether a proposed substitution restores the intended specifications or changes them. FDA's servicing and remanufacturing guidance makes that distinction consequential; a purchasing team should obtain a qualified assessment rather than assume every modification is routine service. The order should identify the component and agreed work clearly enough to review later.",
+          "The cited GE US warranty example excludes use outside the United States and does not include installation. An overseas hospital therefore needs destination-specific coverage and installation terms; it cannot carry the domestic warranty assumption into its landed-cost comparison."
         ],
         "sourceIds": [
           "ge-exchange",
@@ -212,7 +213,8 @@ export default {
         "heading": "Treat the core as a second shipment with a deadline",
         "paragraphs": [
           "An exchange offer includes an obligation involving the removed component. GE's 2208852-R listing provides a concrete example: its price is conditioned on receipt of a suitable corresponding core within the stated period, with additional billing possible if that condition is unmet. This is one supplier's published arrangement, not a universal rule.",
-          "Before ordering, record the core identifier, eligibility, return deadline, packing method, freight responsibility and charge if rejected or late. Assign one person to obtain return instructions, track delivery and confirm acceptance. A part installed successfully does not close the purchase if the old component remains unshipped in the workshop."
+          "Before ordering, record the core identifier, eligibility, return deadline, packing method, freight responsibility and charge if rejected or late. Assign one person to obtain return instructions, track delivery and confirm acceptance. A part installed successfully does not close the purchase if the old component remains unshipped in the workshop.",
+          "For illustration, an exchange quoted at US$1,200 plus US$200 return freight beats a US$1,800 outright purchase by US$400 only if the core is accepted. A hypothetical US$700 rejected-core charge changes that total to US$2,100. These are invented comparison figures, not GE prices; installation and other costs are assumed equal."
         ],
         "sourceIds": [
           "ge-exchange"
@@ -227,7 +229,7 @@ export default {
         "sourceIds": []
       },
       {
-        "heading": "Close the return and warranty loop",
+        "heading": "Close the transaction after the core is accepted",
         "paragraphs": [
           "Use a worksheet with three stages: before order, after installation and after return. The first records identity, diagnosis and terms. The second records installed condition and acceptance evidence. The third records any returned item, tracking, supplier acceptance and final financial reconciliation. Leave the purchase open until all applicable stages are complete.",
           "Compare suppliers on that complete pathway. A higher component price can be reasonable when it purchases a verified match and usable remedy; a cheaper tested item can also be appropriate when the service team accepts its evidence. The deciding question is whether the hospital can restore the asset and finish the transaction without unresolved obligations."
@@ -300,5 +302,6 @@ export default {
       "end-of-support"
     ]
   },
-  "searchTerms": "diagnosis before ordering serial and configuration compatibility new refurbished repaired and used condition exchange cores and returns installation and verification New compatible part purchased outright Refurbished exchange part Repair the installed component Tested used or harvested part"
+  "searchTerms": "diagnosis before ordering serial and configuration compatibility new refurbished repaired and used condition exchange cores and returns installation and verification New compatible part purchased outright Refurbished exchange part Repair the installed component Tested used or harvested part",
+  "librarySection": "decisions"
 };

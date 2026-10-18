@@ -3,8 +3,8 @@ export default {
   "key": "equipment-shipping",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Delivered to the hospital is not the same as ready to use",
-  "summary": "Plan packing, transport, import clearance, unloading and installation as one documented handover.",
+  "title": "Where does your equipment delivery quote stop?",
+  "summary": "Compare the journey from the seller’s room to an accepted installation. Unloading, clearance and the final move can sit outside a cheap freight quote.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/beds",
@@ -24,11 +24,11 @@ export default {
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
     "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
       "Draw the journey before accepting a freight price",
-      "Start inside the seller's room and finish at the hospital's accepted installation. Between them may be de-installation, packing, collection, warehouse handling, international transport, clearance, local delivery, unloading, rigging and commissioning. Mark every change of custody and every change of contractor. The quote should identify where its responsibility begins and ends. For each stage, record the provider, required documents, equipment condition evidence, price and contingency if the next party is unavailable. GE's published relocation terms illustrate why this matters: engineering work, site preparation, electrical work and transport have distinct responsibilities. Another supplier's agreement may allocate them differently."
+      "A freight offer can end at a port, loading dock or kerb while the hospital still needs unloading, rigging and installation. Start the comparison inside the seller’s room and finish at the accepted installation. Mark who handles de-installation, packing, collection, clearance, the final move and commissioning; then compare prices for the same journey. For each stage, record the provider, required documents, equipment condition evidence, price and contingency if the next party is unavailable. GE's published relocation terms illustrate why this matters: engineering work, site preparation, electrical work and transport have distinct responsibilities. Another supplier's agreement may allocate them differently."
     ],
     [
       "Make equipment preparation a specialist task",
@@ -36,7 +36,7 @@ export default {
     ],
     [
       "Check the destination before the truck is booked",
-      "The receiving plan should identify the actual entry route, unloading method, internal movement, storage conditions and installation location. The qualified logistics and facilities teams should verify access and load constraints. A street address and loading-dock photograph cannot establish that a large system will reach its final room. Confirm when staff, lifting resources and the installer will be available. Decide who pays for waiting, re-delivery or storage if the site is unready. If a prerequisite remains unresolved, compare controlled holding at origin with dispatching equipment into uncertainty. Include preservation and any later inspection in that comparison rather than assuming storage is harmless or free."
+      "The receiving plan should identify the actual entry route, unloading method, internal movement, storage conditions and installation location. The qualified logistics and facilities teams should verify access and load constraints. A street address and loading-dock photograph cannot establish that a large system will reach its final room. Consider a delivery scheduled before the receiving team has secured lifting resources or completed room access. The lowest freight rate may then acquire waiting, storage and re-delivery charges, plus a second engineer visit. Compare a controlled hold at origin with that unfinished destination plan. Include preservation and later inspection: storage itself has requirements and costs."
     ],
     [
       "Resolve import responsibilities for this shipment",
@@ -47,21 +47,21 @@ export default {
       "Read the actual transport agreement and any protection documents before collection. Paying a provider to move equipment does not establish that the provider accepts every loss. GE's published US transport terms are a concrete example in which substantial transport risk remains with the customer. Obtain qualified review of unclear or material contractual exposure. Assign a receiving inspector and a claim coordinator. Record exterior condition, package identifiers, shortages and visible damage promptly under the applicable procedure. FedEx's claims guidance requests supporting evidence and retention of packaging and contents. Follow the chosen carrier's current requirements and deadlines; a damage indicator or photograph alone does not guarantee a successful claim."
     ],
     [
-      "Keep delivery separate from clinical acceptance",
+      "Finish the move with acceptance evidence",
       "Use a handover worksheet with distinct signatures for shipment receipt, unpacking and condition inspection, installation and technical acceptance. Identify who investigates damage or missing accessories before the equipment is put into service. Agree the required tests and documentation with the hospital's technical and clinical teams before shipment. Close the project only when open discrepancies, costs and responsibilities are resolved. Preserve the origin report, packing record, transport documents, receiving photographs and commissioning evidence together. The best shipping proposal is the one that gets the specified equipment through this complete journey with clear accountability, not simply the one with the lowest line-haul charge."
     ]
   ],
   "related": [
     "beds"
   ],
-  "socialTitle": "Where exactly does your delivery quote end?",
-  "socialDescription": "A practical equipment-shipping checklist for packing, import coordination, rigging, damage evidence and installation responsibilities.",
-  "socialHeadline": "Shipping: map every handover",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "The last few metres may be outside the freight quote",
+  "socialDescription": "Compare packing, clearance, unloading, rigging and installation before choosing the lowest transport price.",
+  "socialHeadline": "The last few metres may be outside the freight quote",
+  "socialStrapline": "Delivered to the address is not the same as installed in the room.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Shipping: map every handover",
-    "summary": "A freight quote can stop well before equipment reaches an accepted installation. Plan the whole route and assign every responsibility before dispatch.",
+    "title": "Where does your equipment delivery quote stop?",
+    "summary": "Compare the journey from the seller’s room to an accepted installation. Unloading, clearance and the final move can sit outside a cheap freight quote.",
     "firstChoice": "Build an origin-to-room worksheet naming the equipment engineer, packer, carrier, broker, receiving team and installer, with evidence and handover points for each.",
     "upgradeWhen": "Specialist packing, handling or coordination resolves a material gap in the route, equipment requirements or the hospital's ability to manage contractors.",
     "budgetWatch": "Include de-installation, packing, clearance, unloading, rigging, site work, storage, waiting, re-delivery, installation and any uncovered loss exposure.",
@@ -89,9 +89,9 @@ export default {
       "condition evidence and transit claims",
       "installation after delivery"
     ],
-    "title": "Delivered to the hospital is not the same as ready to use",
-    "dek": "Plan packing, transport, import clearance, unloading and installation as one documented handover.",
-    "verdict": "Select the logistics arrangement that assigns every handover to a capable party and preserves condition evidence from origin to acceptance. Defer dispatch when the destination, documents or qualified receiving team are not ready.",
+    "title": "Where does your equipment delivery quote stop?",
+    "dek": "Compare the journey from the seller’s room to an accepted installation. Unloading, clearance and the final move can sit outside a cheap freight quote.",
+    "verdict": "Choose a transport arrangement with a capable owner for every handover, including equipment preparation and final installation. Hold dispatch when unresolved destination work would turn delivery into storage, rehandling or a failed visit.",
     "decision": {
       "firstMove": "Map the entire journey and name the party responsible for each physical and documentary handover.",
       "spendMoreWhen": "Qualified packing, handling, coordination or verified protection resolves a material transport risk.",
@@ -99,9 +99,9 @@ export default {
       "walkAwayWhen": "The offer leaves packing, import readiness, unloading, loss exposure or commissioning ownership unclear."
     },
     "social": {
-      "title": "Where exactly does your delivery quote end?",
-      "description": "A practical equipment-shipping checklist for packing, import coordination, rigging, damage evidence and installation responsibilities.",
-      "hook": "The last few metres can be outside the freight quote."
+      "title": "The last few metres may be outside the freight quote",
+      "description": "Compare packing, clearance, unloading, rigging and installation before choosing the lowest transport price.",
+      "hook": "Delivered to the address is not the same as installed in the room."
     },
     "choices": [
       {
@@ -165,7 +165,7 @@ export default {
       {
         "heading": "Draw the journey before accepting a freight price",
         "paragraphs": [
-          "Start inside the seller's room and finish at the hospital's accepted installation. Between them may be de-installation, packing, collection, warehouse handling, international transport, clearance, local delivery, unloading, rigging and commissioning. Mark every change of custody and every change of contractor. The quote should identify where its responsibility begins and ends.",
+          "A freight offer can end at a port, loading dock or kerb while the hospital still needs unloading, rigging and installation. Start the comparison inside the seller’s room and finish at the accepted installation. Mark who handles de-installation, packing, collection, clearance, the final move and commissioning; then compare prices for the same journey.",
           "For each stage, record the provider, required documents, equipment condition evidence, price and contingency if the next party is unavailable. GE's published relocation terms illustrate why this matters: engineering work, site preparation, electrical work and transport have distinct responsibilities. Another supplier's agreement may allocate them differently."
         ],
         "sourceIds": [
@@ -186,7 +186,7 @@ export default {
         "heading": "Check the destination before the truck is booked",
         "paragraphs": [
           "The receiving plan should identify the actual entry route, unloading method, internal movement, storage conditions and installation location. The qualified logistics and facilities teams should verify access and load constraints. A street address and loading-dock photograph cannot establish that a large system will reach its final room.",
-          "Confirm when staff, lifting resources and the installer will be available. Decide who pays for waiting, re-delivery or storage if the site is unready. If a prerequisite remains unresolved, compare controlled holding at origin with dispatching equipment into uncertainty. Include preservation and any later inspection in that comparison rather than assuming storage is harmless or free."
+          "Consider a delivery scheduled before the receiving team has secured lifting resources or completed room access. The lowest freight rate may then acquire waiting, storage and re-delivery charges, plus a second engineer visit. Compare a controlled hold at origin with that unfinished destination plan. Include preservation and later inspection: storage itself has requirements and costs."
         ],
         "sourceIds": []
       },
@@ -212,7 +212,7 @@ export default {
         ]
       },
       {
-        "heading": "Keep delivery separate from clinical acceptance",
+        "heading": "Finish the move with acceptance evidence",
         "paragraphs": [
           "Use a handover worksheet with distinct signatures for shipment receipt, unpacking and condition inspection, installation and technical acceptance. Identify who investigates damage or missing accessories before the equipment is put into service. Agree the required tests and documentation with the hospital's technical and clinical teams before shipment.",
           "Close the project only when open discrepancies, costs and responsibilities are resolved. Preserve the origin report, packing record, transport documents, receiving photographs and commissioning evidence together. The best shipping proposal is the one that gets the specified equipment through this complete journey with clear accountability, not simply the one with the lowest line-haul charge."
@@ -293,5 +293,6 @@ export default {
       "replacement-parts"
     ]
   },
-  "searchTerms": "transport readiness and packing rigging and delivery interfaces destination import coordination condition evidence and transit claims installation after delivery Seller-coordinated relocation and installation Independent specialist logistics with separate installation Staged dispatch after destination readiness"
+  "searchTerms": "transport readiness and packing rigging and delivery interfaces destination import coordination condition evidence and transit claims installation after delivery Seller-coordinated relocation and installation Independent specialist logistics with separate installation Staged dispatch after destination readiness",
+  "librarySection": "decisions"
 };

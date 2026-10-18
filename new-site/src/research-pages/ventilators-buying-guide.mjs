@@ -3,8 +3,8 @@ export default {
   "key": "ventilators",
   "kind": "research-guide",
   "equipmentId": "ventilators",
-  "title": "Buying a ventilator without piped air: what to pay for",
-  "summary": "A turbine solves the compressed-air problem. Patient range, oxygen supply, batteries and the next repair decide which ventilator is worth buying.",
+  "title": "Buying a ventilator: fund the whole bed, not just the console",
+  "summary": "Compare C1, Savina 300 Classic, T1 and pNeuton by patient role, gas supply, the batteries actually included and the accessories needed to keep the service running.",
   "categoryId": "critical-care",
   "category": "Critical & patient care",
   "image": "guides/ventilators",
@@ -27,38 +27,46 @@ export default {
   "minutes": 4,
   "sections": [
     [
-      "A cheap AVEA is a transition decision",
-      "Vyaire's September 23, 2024 customer letter changes the AVEA calculation. It discontinued AVEA, ReVel, SiPAP and VELA capital equipment, technical training, field service and factory orders globally, with remaining consumables and parts limited by availability. A hospital already maintaining AVEA may reasonably use its known fleet while replacing it in stages. A hospital starting from nothing would be buying the maintenance problem as well as the ventilator. The useful question is how many supported service-years the offered unit can still provide, not how far its price has fallen. LTV needs a different answer: ZOLL's current technical-support page includes that family. That is a real route to investigate, although it does not establish repairability of every LTV 1000 or 1200. Make the offered serial, service kits and remaining repair horizon the deciding evidence. AHP300 remains unresolved because current OEM support was not confirmed. Keep or accept an older machine for a documented role; do not expand a fleet simply because earlier equipment notes liked the model."
+      "Separate the bedside requirement from the journey",
+      "For adult/pediatric bedside ventilation without piped air, HAMILTON-C1 and Dräger Savina 300 Classic are useful turbine-based comparisons. Both still need an appropriate oxygen supply. C1’s compactness or purchased neonatal configuration may justify its package; Savina’s adult/pediatric role may be sufficient where its local service arrangement is stronger. HAMILTON-T1 belongs in the comparison when transfers require its mounting, battery arrangement and transport capabilities. That can include movement inside the hospital. If most beds stay in one place, compare a complete spare bedside station against transport capability on every unit. Choose according to the approved workload and continuity plan, without assuming either arrangement fails less often."
     ],
     [
-      "Match bedside and transport capability to the actual work",
-      "C1 and Savina address the same expensive infrastructure problem: both use a turbine rather than requiring central compressed air. They still need an adequate supplemental oxygen source. Compare them beside the proposed oxygen supply and backup-power plan, not as isolated consoles. Savina's stated internal battery is 45 minutes; its longer advertised autonomy uses an external battery. C1's published four-hour figure is also a specification under stated conditions, not a promise that an aged battery will cover any outage. C1’s purchased neonatal configuration or smaller footprint can fill a real service gap; whether that justifies any additional quoted cost depends on the complete competing packages. Savina’s adult/pediatric scope can be enough for a ward that will not use neonatal modes. T1 belongs in the comparison for intra-hospital as well as inter-facility transfers when mounting, battery changes and transport operation meet the route’s needs. A hospital with mostly stationary beds may gain more from a complete spare bedside unit than from transport features on each bed. Compare complete offers before making that budget tradeoff; it is not a failure-rate claim. For pNeuton Model A, avoiding electrical dependence shifts the purchase toward compressed-gas logistics. Calculate the complete transport arrangement, including regulator, gas, circuits and monitoring. Across all four options, price the replacement flow sensors, valves and humidification supplies that keep the station usable. An absent consumable can take a healthy ventilator out of service just as effectively as a fault."
+      "Read the battery configuration behind the runtime",
+      "Savina’s US specification lists 45 minutes for its internal battery and identifies an external battery as standard; the longer advertised autonomy uses both. A used offer may not contain the complete original package. Hamilton’s current T1 page lists four hours with one battery and eight with two. Those are published configuration figures, not endurance measurements for the unit offered. Write down each protected load separately: ventilator, required monitor, active humidification and any other powered equipment in the approved setup. A ventilator battery does not establish backup for its peripherals. Hamilton specifically notes that the H900 humidifier is not approved for transport, even where its controls appear on the ventilator display. Specify an approved complete arrangement for the intended route rather than transferring a bedside package unchanged."
     ],
     [
-      "The circuit lot and service record belong beside the serial number",
-      "The FDA's August 2026 update concerns certain Hamilton coaxial circuit sets whose expiratory valve membranes can adhere and impair gas flow. Affected sets are to be removed; this is not a statement that every C1 or T1 is recalled. It is a concrete reason to include circuit identifiers and lot verification in acceptance rather than inspecting the console alone. Used C1 and T1 offers also need their older corrective-action history. FDA documented a 2023 software issue affecting specified versions with the neonatal option and a separate 2023 correction for affected control-board capacitors and spare parts. Neither is resolved merely by supplying new breathing circuits. Require the serial, installed software and hardware service record to establish which actions apply and have been completed. Use the configuration demonstration and biomedical acceptance to settle what the offered unit can do now. Use a destination service commitment to settle how it will be maintained. Published battery figures, manuals and service portals support those decisions; none supplies a comparative failure rate. A well-documented refurbished unit can therefore remain a rational purchase, while a newer unit with an incomplete accessory package can still be poor value."
+      "Compare the same usable station",
+      "Price the patient-group licenses, enabled modes, gas connection, trolley or mount, humidifier arrangement, sensors, expiratory valves, circuits, filters and batteries together. An adult configuration with a small starter box is not comparable to a neonatal-ready station with the required sensors and supplies. Check the replenishment route as carefully as the initial contents. For pNeuton Model A, pneumatic operation shifts the continuity problem toward compressed-gas logistics. Include the specified regulator, gas provision, compatible circuit and monitoring. For all candidates, obtain qualified acceptance results for the actual delivered setup, including its approved battery and alarm checks. Record battery condition, test conditions and recharge requirements so an attractive runtime is tied to evidence."
+    ],
+    [
+      "Price legacy equipment over its remaining supportable period",
+      "Vyaire’s September 2024 letter ended AVEA, ReVel, SiPAP and VELA capital equipment, technical training, field service and factory orders, with remaining parts and consumables subject to availability. An established hospital may manage a staged transition of known AVEA units. Starting a new fleet around a low acquisition price creates a different maintenance exposure. LTV has a current ZOLL technical-support route to investigate, but that does not guarantee acceptance of every LTV 1000 or 1200. Confirm the exact serial, parts and remaining service horizon. AHP300 support and ambiguous Esprit designations remain unresolved. Keep an older unit only for a documented supportable role, with a funded replacement and continuity plan."
+    ],
+    [
+      "Check the consumable and the console separately",
+      "The FDA’s August 2026 Hamilton update calls for removal of affected coaxial circuit item/lot combinations because valve membranes can impair expiratory flow. It is not a recall of every C1 or T1 console. Verify supplied and stocked circuits against the current affected list; console inspection alone cannot establish their status. Separate 2023 Hamilton actions concerned specified neonatal-option software and control-board components. New circuits do not settle those actions. Keep serial, software, hardware and consumable evidence together, with applicable completion records. Manuals and accessible service improve the purchasing case, but no comparative field-failure data here establish a brand reliability winner."
     ]
   ],
   "related": [
     "ventilators"
   ],
-  "socialTitle": "Buying a Ventilator Without Piped Air",
-  "socialDescription": "C1, Savina, T1 or a legacy bargain? Compare the patient range, oxygen supply, batteries and support that make a ventilator usable.",
-  "socialHeadline": "Ventilator buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying a ventilator: fund the whole bed, not just the console",
+  "socialDescription": "Compare C1, Savina 300 Classic, T1 and pNeuton by patient role, gas supply, the batteries actually included and the accessories needed to keep the service running.",
+  "socialHeadline": "Buying a ventilator: fund the whole bed, not just the console",
+  "socialStrapline": "A turbine solves compressed air. It does not fund oxygen or backup.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "ventilators",
-    "title": "Ventilator buying guide",
-    "summary": "Separate bedside ventilation from transport, then specify patient groups, oxygen supply and the complete breathing-system package before comparing consoles.",
-    "firstChoice": "Without piped air, compare turbine-based HAMILTON-C1 and Savina 300 Classic. Savina's adult/pediatric scope may fit the ward; C1 deserves comparison when its compactness or purchased neonatal configuration matters.",
-    "upgradeWhen": "Choose T1 when transfers need its mounting and battery arrangement. Consider pneumatic pNeuton Model A only with a funded compressed-gas and monitoring plan. Avoid building a new fleet around AVEA's ended service program.",
-    "budgetWatch": "Include humidification, flow sensors, valves, circuits, batteries and oxygen. Savina's longer advertised autonomy includes an external battery; published runtime does not establish endurance of a used battery.",
-    "supportCheck": "Check Hamilton circuit item/lot numbers and applicable software and control-board corrections separately. New circuits alone do not settle the correction history of a used C1 or T1.",
+    "title": "Buying a ventilator: fund the whole bed, not just the console",
+    "summary": "Compare C1, Savina 300 Classic, T1 and pNeuton by patient role, gas supply, the batteries actually included and the accessories needed to keep the service running.",
+    "firstChoice": "For adult/pediatric bedside care without piped air, compare complete C1 and Savina 300 Classic stations against the same oxygen and outage requirements.",
+    "upgradeWhen": "Pay for C1's neonatal configuration or T1's transport package when those patient groups or journeys are part of the service.",
+    "budgetWatch": "A runtime claim must identify the batteries supplied and the loads protected. Include monitors, approved humidification, gas and recurring circuits/sensors separately.",
+    "supportCheck": "Decline an AVEA as the foundation of a new fleet, or an unidentified Esprit offered for neonatal use without verified configuration evidence.",
     "askSupplier": [
-      "Which patient groups, modes and monitoring options are enabled?",
-      "What oxygen input and complete battery arrangement does this package need?",
-      "Which serial, software and circuit corrective actions are documented as complete?"
+      "Itemize exact enabled patient groups, modes and accessories.",
+      "Identify every supplied battery, its test conditions and which loads it powers.",
+      "Document console software/hardware actions and circuit item/lot checks separately."
     ],
     "sourceIds": [
       "v-c1",
@@ -74,8 +82,8 @@ export default {
   },
   "research": {
     "id": "ventilators",
-    "title": "Buying a ventilator without piped air: what to pay for",
-    "dek": "A turbine solves the compressed-air problem. Patient range, oxygen supply, batteries and the next repair decide which ventilator is worth buying.",
+    "title": "Buying a ventilator: fund the whole bed, not just the console",
+    "dek": "Compare C1, Savina 300 Classic, T1 and pNeuton by patient role, gas supply, the batteries actually included and the accessories needed to keep the service running.",
     "verdict": "For an adult/pediatric bedside service without piped air, start with HAMILTON-C1 and Dräger Savina 300 Classic in the configuration the ward will actually use. C1 moves ahead when compactness or a purchased neonatal configuration matters; Savina is a credible alternative when its bedside package and local service fit better. Consider HAMILTON-T1 for intra-hospital or inter-facility transfers when its mounting, battery arrangement and transport operation meet the route’s requirements. Consider pneumatic pNeuton Model A only where the transport gas supply can support it. A cheap AVEA now needs a transition plan, not a place at the top of a new-fleet shopping list.",
     "coverage": [
       "Adult and pediatric bedside invasive ventilation",
@@ -89,10 +97,10 @@ export default {
         "model": "HAMILTON-C1, quoted with required patient-group and therapy options",
         "position": "Compact bedside platform",
         "bestFor": "Hospitals needing a compact turbine ventilator across more than one care area.",
-        "why": "The current manufacturer page identifies an integrated turbine, adult/pediatric and neonatal configurations, invasive modes, NIV and high-flow therapy. A common platform can make a small fleet easier to train on and provision, if the purchased licenses and accessories actually cover the workload.",
-        "tradeoff": "A base-unit quote can omit neonatal capability, monitoring or therapy options. Flow sensors, valves and humidification remain part of the system; four-hour published battery operation is not an outage guarantee.",
+        "why": "Turbine ventilation with adult/pediatric and neonatal configurations; confirm purchased patient-group and therapy options.",
+        "tradeoff": "Published four-hour operation is for one battery under specified conditions, not measured used-unit endurance.",
         "price": "Quote required as of 2026-10-16; include software options, trolley, humidifier, sensors, batteries and starter circuits.",
-        "support": "Current manuals and product resources are published. Country-specific service, spare availability and end-of-support commitment were not confirmed. Check the 2026 coaxial-circuit recall by item and lot.",
+        "support": "Verify destination service, software/hardware corrections and circuit item/lot status.",
         "sourceIds": [
           "v-c1",
           "v-hrecall"
@@ -102,10 +110,10 @@ export default {
         "model": "Dräger Savina 300 Classic",
         "position": "Adult/pediatric bedside alternative",
         "bestFor": "Adult/pediatric services with accessible Dräger support and a preference for a larger bedside display.",
-        "why": "Turbine operation and a low-pressure oxygen input reduce dependence on a central compressed-air installation. The US specification lists adult/pediatric use and identifies NIV, CO2 and several display capabilities as options.",
-        "tradeoff": "Do not buy it as a neonatal ventilator. The listed internal battery is 45 minutes; the longer advertised autonomy includes the external battery. Optional functions must be itemized.",
+        "why": "Adult/pediatric turbine platform with low-pressure oxygen input; NIV and CO2 are listed options.",
+        "tradeoff": "US specifications list 45-minute internal backup and an external battery as standard. Confirm the offered package actually includes that external supply; do not buy this as a neonatal ventilator.",
         "price": "Quote required as of 2026-10-16; compare the same NIV, CO2, external-battery and humidifier configuration.",
-        "support": "Current manufacturer product and documentation pages exist; local repair turnaround and parts horizon remain unverified.",
+        "support": "Obtain local repair coverage and an exact configuration report.",
         "sourceIds": [
           "v-savina"
         ]
@@ -114,10 +122,10 @@ export default {
         "model": "HAMILTON-T1, with required transport and neonatal options",
         "position": "Dedicated transport capability",
         "bestFor": "Teams moving ventilated patients within or between hospitals while maintaining the required modes and monitoring.",
-        "why": "Hamilton documents a turbine, low-pressure oxygen connector and one integrated plus one hot-swappable battery. Its transport focus makes it a more coherent comparison than choosing an old unit only because it fits in a bag.",
-        "tradeoff": "Transport mounting, batteries and consumables add to the purchase. Confirm the exact regional neonatal and high-flow options; a brochure for one software release cannot define every used T1.",
+        "why": "A turbine transport platform with one integrated and one hot-swappable battery arrangement.",
+        "tradeoff": "The current regional page distinguishes four hours with one battery from eight with two; actual runtime depends on conditions and battery health.",
         "price": "Quote required as of 2026-10-16; include approved mounting, charger, spare battery and complete transport circuit package.",
-        "support": "Current manufacturer transport resources and manuals are available. Contractual support at the destination remains unconfirmed; affected circuit lots must be excluded.",
+        "support": "Confirm transport mounting, regional options and all applicable corrections.",
         "sourceIds": [
           "v-t1",
           "v-hrecall"
@@ -127,10 +135,10 @@ export default {
         "model": "Airon pNeuton Model A",
         "position": "Pneumatic transport alternative",
         "bestFor": "A program able to support a pneumatic transport ventilator and its specified oxygen supply.",
-        "why": "The manufacturer still provides a Model A product page, operator manual and dedicated startup-kit information. Its pneumatic approach is worth quoting where avoiding electrical dependence has practical value.",
-        "tradeoff": "Electrical simplicity shifts the burden to compressed gas, compatible circuits and the monitoring arrangement. It should not be assumed to duplicate a turbine ICU ventilator's interface, modes or neonatal capability.",
+        "why": "A pneumatic alternative where avoiding electrical dependence fits the transport service.",
+        "tradeoff": "Its specified compressed-gas, circuit and monitoring needs remain essential; it is not a generic ICU-console substitute.",
         "price": "Quote required as of 2026-10-16; price the gas supply, regulator, circuits, mounting and monitoring as well as the unit.",
-        "support": "Public manufacturer documentation is confirmed. The manual specifies qualified/approved service; a local service route and current parts commitment were not confirmed.",
+        "support": "Manufacturer documentation exists; approved local service and parts commitments remain unconfirmed.",
         "sourceIds": [
           "v-airon",
           "v-aironmanual"
@@ -139,22 +147,34 @@ export default {
     ],
     "sections": [
       {
-        "heading": "A cheap AVEA is a transition decision",
+        "heading": "Separate the bedside requirement from the journey",
         "paragraphs": [
-          "Vyaire's September 23, 2024 customer letter changes the AVEA calculation. It discontinued AVEA, ReVel, SiPAP and VELA capital equipment, technical training, field service and factory orders globally, with remaining consumables and parts limited by availability. A hospital already maintaining AVEA may reasonably use its known fleet while replacing it in stages. A hospital starting from nothing would be buying the maintenance problem as well as the ventilator. The useful question is how many supported service-years the offered unit can still provide, not how far its price has fallen.",
-          "LTV needs a different answer: ZOLL's current technical-support page includes that family. That is a real route to investigate, although it does not establish repairability of every LTV 1000 or 1200. Make the offered serial, service kits and remaining repair horizon the deciding evidence. AHP300 remains unresolved because current OEM support was not confirmed. Keep or accept an older machine for a documented role; do not expand a fleet simply because earlier equipment notes liked the model."
+          "For adult/pediatric bedside ventilation without piped air, HAMILTON-C1 and Dräger Savina 300 Classic are useful turbine-based comparisons. Both still need an appropriate oxygen supply. C1’s compactness or purchased neonatal configuration may justify its package; Savina’s adult/pediatric role may be sufficient where its local service arrangement is stronger.",
+          "HAMILTON-T1 belongs in the comparison when transfers require its mounting, battery arrangement and transport capabilities. That can include movement inside the hospital. If most beds stay in one place, compare a complete spare bedside station against transport capability on every unit. Choose according to the approved workload and continuity plan, without assuming either arrangement fails less often."
         ],
         "sourceIds": [
-          "v-vyaire",
-          "v-zoll"
+          "v-c1",
+          "v-savina",
+          "v-t1"
         ]
       },
       {
-        "heading": "Match bedside and transport capability to the actual work",
+        "heading": "Read the battery configuration behind the runtime",
         "paragraphs": [
-          "C1 and Savina address the same expensive infrastructure problem: both use a turbine rather than requiring central compressed air. They still need an adequate supplemental oxygen source. Compare them beside the proposed oxygen supply and backup-power plan, not as isolated consoles. Savina's stated internal battery is 45 minutes; its longer advertised autonomy uses an external battery. C1's published four-hour figure is also a specification under stated conditions, not a promise that an aged battery will cover any outage.",
-          "C1’s purchased neonatal configuration or smaller footprint can fill a real service gap; whether that justifies any additional quoted cost depends on the complete competing packages. Savina’s adult/pediatric scope can be enough for a ward that will not use neonatal modes. T1 belongs in the comparison for intra-hospital as well as inter-facility transfers when mounting, battery changes and transport operation meet the route’s needs. A hospital with mostly stationary beds may gain more from a complete spare bedside unit than from transport features on each bed. Compare complete offers before making that budget tradeoff; it is not a failure-rate claim.",
-          "For pNeuton Model A, avoiding electrical dependence shifts the purchase toward compressed-gas logistics. Calculate the complete transport arrangement, including regulator, gas, circuits and monitoring. Across all four options, price the replacement flow sensors, valves and humidification supplies that keep the station usable. An absent consumable can take a healthy ventilator out of service just as effectively as a fault."
+          "Savina’s US specification lists 45 minutes for its internal battery and identifies an external battery as standard; the longer advertised autonomy uses both. A used offer may not contain the complete original package. Hamilton’s current T1 page lists four hours with one battery and eight with two. Those are published configuration figures, not endurance measurements for the unit offered.",
+          "Write down each protected load separately: ventilator, required monitor, active humidification and any other powered equipment in the approved setup. A ventilator battery does not establish backup for its peripherals. Hamilton specifically notes that the H900 humidifier is not approved for transport, even where its controls appear on the ventilator display. Specify an approved complete arrangement for the intended route rather than transferring a bedside package unchanged."
+        ],
+        "sourceIds": [
+          "v-savina",
+          "v-t1",
+          "v-c1"
+        ]
+      },
+      {
+        "heading": "Compare the same usable station",
+        "paragraphs": [
+          "Price the patient-group licenses, enabled modes, gas connection, trolley or mount, humidifier arrangement, sensors, expiratory valves, circuits, filters and batteries together. An adult configuration with a small starter box is not comparable to a neonatal-ready station with the required sensors and supplies. Check the replenishment route as carefully as the initial contents.",
+          "For pNeuton Model A, pneumatic operation shifts the continuity problem toward compressed-gas logistics. Include the specified regulator, gas provision, compatible circuit and monitoring. For all candidates, obtain qualified acceptance results for the actual delivered setup, including its approved battery and alarm checks. Record battery condition, test conditions and recharge requirements so an attractive runtime is tied to evidence."
         ],
         "sourceIds": [
           "v-c1",
@@ -165,11 +185,21 @@ export default {
         ]
       },
       {
-        "heading": "The circuit lot and service record belong beside the serial number",
+        "heading": "Price legacy equipment over its remaining supportable period",
         "paragraphs": [
-          "The FDA's August 2026 update concerns certain Hamilton coaxial circuit sets whose expiratory valve membranes can adhere and impair gas flow. Affected sets are to be removed; this is not a statement that every C1 or T1 is recalled. It is a concrete reason to include circuit identifiers and lot verification in acceptance rather than inspecting the console alone.",
-          "Used C1 and T1 offers also need their older corrective-action history. FDA documented a 2023 software issue affecting specified versions with the neonatal option and a separate 2023 correction for affected control-board capacitors and spare parts. Neither is resolved merely by supplying new breathing circuits. Require the serial, installed software and hardware service record to establish which actions apply and have been completed.",
-          "Use the configuration demonstration and biomedical acceptance to settle what the offered unit can do now. Use a destination service commitment to settle how it will be maintained. Published battery figures, manuals and service portals support those decisions; none supplies a comparative failure rate. A well-documented refurbished unit can therefore remain a rational purchase, while a newer unit with an incomplete accessory package can still be poor value."
+          "Vyaire’s September 2024 letter ended AVEA, ReVel, SiPAP and VELA capital equipment, technical training, field service and factory orders, with remaining parts and consumables subject to availability. An established hospital may manage a staged transition of known AVEA units. Starting a new fleet around a low acquisition price creates a different maintenance exposure.",
+          "LTV has a current ZOLL technical-support route to investigate, but that does not guarantee acceptance of every LTV 1000 or 1200. Confirm the exact serial, parts and remaining service horizon. AHP300 support and ambiguous Esprit designations remain unresolved. Keep an older unit only for a documented supportable role, with a funded replacement and continuity plan."
+        ],
+        "sourceIds": [
+          "v-vyaire",
+          "v-zoll"
+        ]
+      },
+      {
+        "heading": "Check the consumable and the console separately",
+        "paragraphs": [
+          "The FDA’s August 2026 Hamilton update calls for removal of affected coaxial circuit item/lot combinations because valve membranes can impair expiratory flow. It is not a recall of every C1 or T1 console. Verify supplied and stocked circuits against the current affected list; console inspection alone cannot establish their status.",
+          "Separate 2023 Hamilton actions concerned specified neonatal-option software and control-board components. New circuits do not settle those actions. Keep serial, software, hardware and consumable evidence together, with applicable completion records. Manuals and accessible service improve the purchasing case, but no comparative field-failure data here establish a brand reliability winner."
         ],
         "sourceIds": [
           "v-hrecall",
@@ -179,7 +209,7 @@ export default {
       }
     ],
     "ownership": {
-      "equation": "Cost per available ventilator-bed day = (landed configured system + commissioning + training + service + replacement batteries/sensors + circuits and humidification + backup capacity) / days the required configuration is actually available.",
+      "equation": "Over one agreed period: cost per available ventilator-bed day = (landed complete stations + commissioning + training + service + batteries/sensors + circuits/humidification + gas + continuity) ÷ days the required stations are available in that period.",
       "drivers": [
         "Oxygen generation or cylinder supply at required pressure and flow",
         "Batteries tested under the quoted load, including external packs",
@@ -196,10 +226,10 @@ export default {
       "Can the vendor demonstrate operation, alarms and battery endurance with the complete delivered accessories before shipment?"
     ],
     "gaps": [
-      "No comparable landed quotations or independent comparative failure rates were obtained.",
-      "Original Esprit/V1000/V100 designation and neonatal claims remain unverified.",
-      "AHP300 current OEM service and LTV 1000/1200 serial-specific support remain unresolved.",
-      "Product pages confirm documentation and stated capabilities, not local service availability."
+      "No comparable landed prices or independent comparative failure rates established.",
+      "Used-unit endurance requires qualified testing of the actual configuration; published runtime is not a guarantee.",
+      "AHP300 service, ambiguous Esprit designations and LTV 1000/1200 serial-specific acceptance remain unresolved.",
+      "Current manuals, exact patient-group options and destination service must be confirmed for an offered unit."
     ],
     "sources": [
       {
@@ -208,7 +238,7 @@ export default {
         "url": "https://www.hamilton-medical.com/en_US/Products/HAMILTON-C1.html",
         "publisher": "Hamilton Medical",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Turbine; adult/pediatric and neonatal configurations; invasive, NIV and high-flow therapy; listed battery and options."
       },
       {
@@ -217,7 +247,7 @@ export default {
         "url": "https://www.hamilton-medical.com/en_GB/Products/HAMILTON-T1",
         "publisher": "Hamilton Medical",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Transport platform for use inside and outside the hospital; turbine, low-pressure oxygen connection, battery configuration and regional options."
       },
       {
@@ -226,7 +256,7 @@ export default {
         "url": "https://www.draeger.com/en-us_us/Products/Savina-300-Classic",
         "publisher": "Dräger",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Adult/pediatric turbine platform; LPO inlet; 45-minute internal battery; optional NIV and CO2; external battery for longer runtime."
       },
       {
@@ -271,7 +301,7 @@ export default {
         "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/breathing-circuit-set-recall-hamilton-medical-removes-breathing-circuit-set",
         "publisher": "FDA",
         "kind": "regulator",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Certain circuit item/lots have valve membrane adherence; removal recommended; not a recall of all C1/T1 consoles."
       },
       {
@@ -332,10 +362,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Buying a Ventilator Without Piped Air",
-      "description": "C1, Savina, T1 or a legacy bargain? Compare the patient range, oxygen supply, batteries and support that make a ventilator usable.",
-      "hook": "The turbine may solve compressed air. It does not solve oxygen, overnight outages or the next repair."
-    }
+      "title": "Buying a ventilator: fund the whole bed, not just the console",
+      "description": "Compare C1, Savina 300 Classic, T1 and pNeuton by patient role, gas supply, the batteries actually included and the accessories needed to keep the service running.",
+      "hook": "A turbine solves compressed air. It does not fund oxygen or backup."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Adult and pediatric bedside invasive ventilation Neonatal configuration limits Transport ventilation Legacy Esprit, AVEA, AHP300 and LTV Gas, power, circuits, service and recalls HAMILTON-C1, quoted with required patient-group and therapy options Dräger Savina 300 Classic HAMILTON-T1, with required transport and neonatal options Airon pNeuton Model A"
+  "searchTerms": "Buying a ventilator: fund the whole bed, not just the console Adult and pediatric bedside invasive ventilation Neonatal configuration limits Transport ventilation Legacy Esprit, AVEA, AHP300 and LTV Gas, power, circuits, service and recalls HAMILTON-C1, quoted with required patient-group and therapy options Dräger Savina 300 Classic HAMILTON-T1, with required transport and neonatal options Airon pNeuton Model A",
+  "librarySection": "equipment"
 };

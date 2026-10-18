@@ -3,8 +3,8 @@ export default {
   "key": "end-of-support",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "End of support is a decision deadline, not a complete decision",
-  "summary": "Turn a support notice into a documented plan for parts, software, continuity and eventual retirement.",
+  "title": "End of equipment support: keep, upgrade or replace?",
+  "summary": "Find out which parts, software and service commitments actually end, then compare a funded transition with a complete replacement.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/ventilators",
@@ -28,7 +28,7 @@ export default {
   "sections": [
     [
       "Translate the notice into a support map",
-      "Ask for the original manufacturer notice and confirmation that it applies to the installed model, serial number, software and region. Record the dates for equipment sales, parts supply, field service, software updates and any transitional arrangement. Different notices and providers may use labels differently; the actual obligations matter more than a familiar acronym. Create a row for each dependency and mark it available, limited, withdrawn or unconfirmed. IMDRF's legacy-device guidance distinguishes lifecycle stages and associated responsibilities. Use the supplier's own documented scope for the specific purchase rather than turning a general lifecycle definition into a promise about this hospital's equipment."
+      "An end-of-support notice can change the next purchase without settling it. Obtain the original notice and match its scope to the installed model, serial, software and region. Then separate the dates for sales, parts, field service, application updates and security support. One provider’s continued mechanical repair offer does not fill every gap left by the manufacturer. Create a row for each dependency and mark it available, limited, withdrawn or unconfirmed. IMDRF's legacy-device guidance distinguishes lifecycle stages and associated responsibilities. Use the supplier's own documented scope for the specific purchase rather than turning a general lifecycle definition into a promise about this hospital's equipment."
     ],
     [
       "Verify the parts route instead of counting listings",
@@ -40,7 +40,7 @@ export default {
     ],
     [
       "Compare complete alternatives on one page",
-      "Set out three practical proposals: continue for a defined period, make a supported upgrade, or replace. Where independent service is credible, include it within the continuation proposal with its exact limitations. Price the same planning period, using quoted costs and explicit scenarios instead of guessed failure probabilities. For an upgrade, obtain written confirmation of what becomes supported and for how long. For replacement, include site changes, training, integration, downtime and retirement. For continuation, include additional support, controls, spares and interruption arrangements. A low annual service charge is incomplete evidence when it excludes the specific component or software dependency driving the decision."
+      "Set out three practical proposals: continue for a defined period, make a supported upgrade, or replace. Where independent service is credible, include it within the continuation proposal with its exact limitations. Price the same planning period, using quoted costs and explicit scenarios instead of guessed failure probabilities. For an upgrade, obtain written confirmation of what becomes supported and for how long. For replacement, include site changes, training, integration, downtime and retirement. For continuation, include additional support, controls, spares and interruption arrangements. A low annual service charge is incomplete evidence when it excludes the specific component or software dependency driving the decision. A supported software upgrade may be a useful buy when it resolves the documented issue and the hardware remains adequate. It is a weaker answer when the next indispensable component has no credible replacement route. Conversely, a stocked replacement board does not address an unresolved software or security limitation. Pay for the route that closes the actual gap, not the label attached to it."
     ],
     [
       "Give a keep decision a date and stop conditions",
@@ -48,20 +48,20 @@ export default {
     ],
     [
       "Plan the exit while records are still accessible",
-      "WHO's decommissioning guidance addresses why, when and how to retire medical devices. Before switching systems, identify records and configurations the hospital must retain, the route for migrating required data, and the people responsible for technical decommissioning and appropriate disposition. Confirm local requirements with the responsible specialists. Complete a support-decision worksheet containing the asset identity, notices, component and software support map, alternatives, chosen conditions, review date and transition owner. Preserve it with the maintenance history. The defensible decision is the one the team can explain and sustain with current evidence, whether that is a short continuation, a supported upgrade or replacement."
+      "WHO's decommissioning guidance addresses why, when and how to retire medical devices. Before switching systems, identify records and configurations the hospital must retain, the route for migrating required data, and the people responsible for technical decommissioning and appropriate disposition. Confirm local requirements with the responsible specialists. Keep the asset identity, applicable notices, remaining support, chosen conditions and transition owner with the service history. Set a review date that leaves time for procurement and site preparation. The decision should remain understandable after staff change: what the hospital is relying on, what would end that reliance and how the replacement service will be ready."
     ]
   ],
   "related": [
     "ventilators"
   ],
-  "socialTitle": "What does end of support change for your hospital?",
-  "socialDescription": "Build a documented keep, upgrade or replace decision from exact parts, software, security and service evidence—not equipment age alone.",
-  "socialHeadline": "End of support: make a dated decision",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "Which support is ending—and what should you buy next?",
+  "socialDescription": "Separate parts, field service, software and security before making a keep, upgrade or replace decision.",
+  "socialHeadline": "Which support is ending—and what should you buy next?",
+  "socialStrapline": "A working machine and a sustainable support route are separate facts.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "End of support: make a dated decision",
-    "summary": "A support notice starts a structured review. Determine what changes for the exact installed configuration before deciding to continue, upgrade or replace.",
+    "title": "End of equipment support: keep, upgrade or replace?",
+    "summary": "Find out which parts, software and service commitments actually end, then compare a funded transition with a complete replacement.",
     "firstChoice": "Build a support map for parts, field service, software, security and essential accessories. Obtain written dates and limitations from the responsible suppliers.",
     "upgradeWhen": "A supported upgrade or replacement resolves a material gap that the hospital cannot acceptably manage through a documented interim plan.",
     "budgetWatch": "Compare support, controls, spares and interruption provision with complete upgrade or replacement costs, including site work, training, migration and retirement.",
@@ -89,9 +89,9 @@ export default {
       "time-limited continuation",
       "planned replacement and decommissioning"
     ],
-    "title": "End of support is a decision deadline, not a complete decision",
-    "dek": "Turn a support notice into a documented plan for parts, software, continuity and eventual retirement.",
-    "verdict": "Obtain the exact support position for the installed configuration, then compare a time-limited continuation plan, a supported upgrade and replacement. Continue only when responsible clinical, technical and security teams accept the documented arrangement and fund its limits.",
+    "title": "End of equipment support: keep, upgrade or replace?",
+    "dek": "Find out which parts, software and service commitments actually end, then compare a funded transition with a complete replacement.",
+    "verdict": "Match the support notice to the installed configuration. Continue only under an accepted, time-limited plan; upgrade when it resolves the actual gap, and replace when the remaining arrangement cannot support the required service.",
     "decision": {
       "firstMove": "Obtain the manufacturer notice and map its dates and exclusions to the hospital's serial number and software.",
       "spendMoreWhen": "An upgrade or replacement resolves a material support, security or continuity gap that cannot be acceptably managed.",
@@ -99,9 +99,9 @@ export default {
       "walkAwayWhen": "Continued use depends on undocumented parts availability, unsupported promises or an unreviewed security workaround."
     },
     "social": {
-      "title": "What does end of support change for your hospital?",
-      "description": "Build a documented keep, upgrade or replace decision from exact parts, software, security and service evidence—not equipment age alone.",
-      "hook": "Ask which support ends, on what date, for your exact system."
+      "title": "Which support is ending—and what should you buy next?",
+      "description": "Separate parts, field service, software and security before making a keep, upgrade or replace decision.",
+      "hook": "A working machine and a sustainable support route are separate facts."
     },
     "choices": [
       {
@@ -184,7 +184,7 @@ export default {
       {
         "heading": "Translate the notice into a support map",
         "paragraphs": [
-          "Ask for the original manufacturer notice and confirmation that it applies to the installed model, serial number, software and region. Record the dates for equipment sales, parts supply, field service, software updates and any transitional arrangement. Different notices and providers may use labels differently; the actual obligations matter more than a familiar acronym.",
+          "An end-of-support notice can change the next purchase without settling it. Obtain the original notice and match its scope to the installed model, serial, software and region. Then separate the dates for sales, parts, field service, application updates and security support. One provider’s continued mechanical repair offer does not fill every gap left by the manufacturer.",
           "Create a row for each dependency and mark it available, limited, withdrawn or unconfirmed. IMDRF's legacy-device guidance distinguishes lifecycle stages and associated responsibilities. Use the supplier's own documented scope for the specific purchase rather than turning a general lifecycle definition into a promise about this hospital's equipment."
         ],
         "sourceIds": [
@@ -216,7 +216,8 @@ export default {
         "heading": "Compare complete alternatives on one page",
         "paragraphs": [
           "Set out three practical proposals: continue for a defined period, make a supported upgrade, or replace. Where independent service is credible, include it within the continuation proposal with its exact limitations. Price the same planning period, using quoted costs and explicit scenarios instead of guessed failure probabilities.",
-          "For an upgrade, obtain written confirmation of what becomes supported and for how long. For replacement, include site changes, training, integration, downtime and retirement. For continuation, include additional support, controls, spares and interruption arrangements. A low annual service charge is incomplete evidence when it excludes the specific component or software dependency driving the decision."
+          "For an upgrade, obtain written confirmation of what becomes supported and for how long. For replacement, include site changes, training, integration, downtime and retirement. For continuation, include additional support, controls, spares and interruption arrangements. A low annual service charge is incomplete evidence when it excludes the specific component or software dependency driving the decision.",
+          "A supported software upgrade may be a useful buy when it resolves the documented issue and the hardware remains adequate. It is a weaker answer when the next indispensable component has no credible replacement route. Conversely, a stocked replacement board does not address an unresolved software or security limitation. Pay for the route that closes the actual gap, not the label attached to it."
         ],
         "sourceIds": []
       },
@@ -232,7 +233,7 @@ export default {
         "heading": "Plan the exit while records are still accessible",
         "paragraphs": [
           "WHO's decommissioning guidance addresses why, when and how to retire medical devices. Before switching systems, identify records and configurations the hospital must retain, the route for migrating required data, and the people responsible for technical decommissioning and appropriate disposition. Confirm local requirements with the responsible specialists.",
-          "Complete a support-decision worksheet containing the asset identity, notices, component and software support map, alternatives, chosen conditions, review date and transition owner. Preserve it with the maintenance history. The defensible decision is the one the team can explain and sustain with current evidence, whether that is a short continuation, a supported upgrade or replacement."
+          "Keep the asset identity, applicable notices, remaining support, chosen conditions and transition owner with the service history. Set a review date that leaves time for procurement and site preparation. The decision should remain understandable after staff change: what the hospital is relying on, what would end that reliance and how the replacement service will be ready."
         ],
         "sourceIds": [
           "who-decommission"
@@ -313,5 +314,6 @@ export default {
       "rent-or-buy"
     ]
   },
-  "searchTerms": "support-notice scope parts and service evidence software and cybersecurity dependencies time-limited continuation planned replacement and decommissioning Time-limited continuation with verified support Manufacturer-supported upgrade Independent service for a defined scope Planned replacement and decommissioning"
+  "searchTerms": "support-notice scope parts and service evidence software and cybersecurity dependencies time-limited continuation planned replacement and decommissioning Time-limited continuation with verified support Manufacturer-supported upgrade Independent service for a defined scope Planned replacement and decommissioning",
+  "librarySection": "decisions"
 };

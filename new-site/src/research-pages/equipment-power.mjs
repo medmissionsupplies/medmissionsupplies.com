@@ -3,8 +3,8 @@ export default {
   "key": "equipment-power",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "A UPS quote is incomplete until you name what must stay on",
-  "summary": "Define the failure, the protected equipment and the required outcome before buying power conditioning or backup.",
+  "title": "A UPS keeps what running—the computer or the whole service?",
+  "summary": "Define the protected equipment and the required outcome before comparing power-backup prices. Runtime means little without the load behind it.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/anesthesia",
@@ -24,7 +24,7 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
       "Describe the failure before shopping for the box",
@@ -36,7 +36,7 @@ export default {
     ],
     [
       "Specify an outcome and the conditions behind it",
-      "Choose whether the purpose is uninterrupted operation through a defined event, a bridge to another supply, or enough time for an approved controlled shutdown. GE lists both imaging and PACS applications, but that product-family description does not prove the capability of a particular UPS attached to a particular system. Require the designer to state the protected load, expected operating conditions, runtime basis, battery condition assumptions and behavior when capacity is exhausted. Ask how the proposed arrangement changes as equipment or accessories are added. Do not let an unspecified runtime figure substitute for a documented operating scenario."
+      "Compare two proposals described as “scanner backup.” One may preserve a workstation long enough for an approved shutdown; the other may be designed to bridge the specified acquisition equipment to a backup supply. Those are different outcomes, even if the quoted runtime sounds similar. GE describes imaging and PACS applications, but a product-family label cannot establish which outcome a particular installation provides. Require the designer to state the protected load, expected operating conditions, runtime basis, battery condition assumptions and behavior when capacity is exhausted. Ask how the proposed arrangement changes as equipment or accessories are added. Do not let an unspecified runtime figure substitute for a documented operating scenario."
     ],
     [
       "Test the handover, including the return to normal",
@@ -47,21 +47,21 @@ export default {
       "WHO's energy-access report treats facility electrification as both a technical and an economic undertaking. Apply that perspective to ongoing support: batteries, inspection, testing, monitoring, spare components and the operating needs of the chosen backup supply must have owners and budgets. Ask who responds to a power-system alarm after hours and who can establish whether a fault belongs to the utility, backup system or medical device. Identify the maintenance arrangements during which protection is reduced. A proposal that funds installation but leaves replacement consumables and service unsupported is an unfinished continuity plan."
     ],
     [
-      "Use a one-page power requirement worksheet",
-      "Create one row per required outcome. Fill in the affected equipment, measured event, acceptable interruption, protected loads, proposed solution, maintenance owner and acceptance evidence. Obtain the equipment supplier's requirements and the engineer's approved design before comparing prices. Keep uncertain entries visibly unresolved instead of allowing suppliers to make different assumptions. Compare the complete project, including assessment, site work, commissioning and upkeep. Retain an existing installation when evidence confirms it meets the brief. Expand or replace it when the accepted design shows a real gap. The decision is complete when the hospital knows what remains operational, for what conditions, and who maintains that capability."
+      "Compare the complete protected outcome",
+      "Ask each bidder to price the same affected equipment, measured event, allowable interruption and required outcome. Include the supporting loads the qualified designer identifies. Put unresolved assumptions beside the proposal rather than letting one supplier quote a workstation and another quote the room while both call it backup. Compare the complete project, including assessment, site work, commissioning and upkeep. Retain an existing installation when evidence confirms it meets the brief. Expand or replace it when the accepted design shows a real gap. The decision is complete when the hospital knows what remains operational, for what conditions, and who maintains that capability."
     ]
   ],
   "related": [
     "anesthesia"
   ],
-  "socialTitle": "What exactly does your UPS protect?",
-  "socialDescription": "A practical worksheet for equipment power quality, protected loads, UPS runtime, generator transfer and maintenance responsibilities.",
-  "socialHeadline": "Power support: specify the protected outcome",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "What exactly will stay on when the power fails?",
+  "socialDescription": "Separate workstation backup, voltage-sag correction and whole-service continuity before choosing a UPS.",
+  "socialHeadline": "What exactly will stay on when the power fails?",
+  "socialStrapline": "Keeping the computer on does not prove the scanner can keep working.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Power support: specify the protected outcome",
-    "summary": "Buy a documented response to the site's actual power events. A UPS label alone does not identify what stays operational or for how long.",
+    "title": "A UPS keeps what running—the computer or the whole service?",
+    "summary": "Define the protected equipment and the required outcome before comparing power-backup prices. Runtime means little without the load behind it.",
     "firstChoice": "Commission a qualified assessment, obtain exact equipment requirements and list every load needed for the proposed bridge, continued operation or controlled shutdown.",
     "upgradeWhen": "The accepted design identifies an interruption or power-quality problem that the installed arrangement cannot adequately address for the required equipment.",
     "budgetWatch": "Include assessment, electrical design, site work, commissioning, batteries, monitoring, routine service and the operating needs of any backup supply.",
@@ -87,9 +87,9 @@ export default {
       "UPS and generator handover",
       "maintenance and acceptance"
     ],
-    "title": "A UPS quote is incomplete until you name what must stay on",
-    "dek": "Define the failure, the protected equipment and the required outcome before buying power conditioning or backup.",
-    "verdict": "Commission a site-specific assessment and purchase a documented power-support outcome. Match conditioning, UPS capacity and generator handover to the exact equipment and measured site conditions, with qualified engineering design and witnessed acceptance.",
+    "title": "A UPS keeps what running—the computer or the whole service?",
+    "dek": "Define the protected equipment and the required outcome before comparing power-backup prices. Runtime means little without the load behind it.",
+    "verdict": "Buy an engineered response to measured site conditions: continued operation, a bridge to backup supply or controlled shutdown. Pay for the complete load and transfer sequence the service needs, with maintainable batteries and qualified acceptance.",
     "decision": {
       "firstMove": "List power events, affected equipment and the required response to each event.",
       "spendMoreWhen": "The engineered proposal protects an essential function or controlled shutdown that the current arrangement cannot demonstrate.",
@@ -97,9 +97,9 @@ export default {
       "walkAwayWhen": "Capacity, protected loads, runtime conditions or transfer behavior are assumed from a generic equipment label."
     },
     "social": {
-      "title": "What exactly does your UPS protect?",
-      "description": "A practical worksheet for equipment power quality, protected loads, UPS runtime, generator transfer and maintenance responsibilities.",
-      "hook": "A computer staying on does not prove the scanner can keep working."
+      "title": "What exactly will stay on when the power fails?",
+      "description": "Separate workstation backup, voltage-sag correction and whole-service continuity before choosing a UPS.",
+      "hook": "Keeping the computer on does not prove the scanner can keep working."
     },
     "choices": [
       {
@@ -200,7 +200,7 @@ export default {
       {
         "heading": "Specify an outcome and the conditions behind it",
         "paragraphs": [
-          "Choose whether the purpose is uninterrupted operation through a defined event, a bridge to another supply, or enough time for an approved controlled shutdown. GE lists both imaging and PACS applications, but that product-family description does not prove the capability of a particular UPS attached to a particular system.",
+          "Compare two proposals described as “scanner backup.” One may preserve a workstation long enough for an approved shutdown; the other may be designed to bridge the specified acquisition equipment to a backup supply. Those are different outcomes, even if the quoted runtime sounds similar. GE describes imaging and PACS applications, but a product-family label cannot establish which outcome a particular installation provides.",
           "Require the designer to state the protected load, expected operating conditions, runtime basis, battery condition assumptions and behavior when capacity is exhausted. Ask how the proposed arrangement changes as equipment or accessories are added. Do not let an unspecified runtime figure substitute for a documented operating scenario."
         ],
         "sourceIds": [
@@ -226,9 +226,9 @@ export default {
         ]
       },
       {
-        "heading": "Use a one-page power requirement worksheet",
+        "heading": "Compare the complete protected outcome",
         "paragraphs": [
-          "Create one row per required outcome. Fill in the affected equipment, measured event, acceptable interruption, protected loads, proposed solution, maintenance owner and acceptance evidence. Obtain the equipment supplier's requirements and the engineer's approved design before comparing prices. Keep uncertain entries visibly unresolved instead of allowing suppliers to make different assumptions.",
+          "Ask each bidder to price the same affected equipment, measured event, allowable interruption and required outcome. Include the supporting loads the qualified designer identifies. Put unresolved assumptions beside the proposal rather than letting one supplier quote a workstation and another quote the room while both call it backup.",
           "Compare the complete project, including assessment, site work, commissioning and upkeep. Retain an existing installation when evidence confirms it meets the brief. Expand or replace it when the accepted design shows a real gap. The decision is complete when the hospital knows what remains operational, for what conditions, and who maintains that capability."
         ],
         "sourceIds": []
@@ -297,5 +297,6 @@ export default {
       "equipment-shipping"
     ]
   },
-  "searchTerms": "power-quality assessment protected-load specification UPS and generator handover maintenance and acceptance Power-quality survey before equipment selection Targeted voltage-sag correction UPS for a defined equipment load Engineered backup supply with coordinated transfer"
+  "searchTerms": "power-quality assessment protected-load specification UPS and generator handover maintenance and acceptance Power-quality survey before equipment selection Targeted voltage-sag correction UPS for a defined equipment load Engineered backup supply with coordinated transfer",
+  "librarySection": "decisions"
 };

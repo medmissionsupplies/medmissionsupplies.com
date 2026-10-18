@@ -3,8 +3,8 @@ export default {
   "key": "dr-retrofit",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Upgrade the detector or replace the X-ray room?",
-  "summary": "A DR retrofit can preserve valuable equipment, but its value depends on the generator, mechanics, integration and repair route it leaves behind.",
+  "title": "DR retrofit or new X-ray room? Find the part worth keeping",
+  "summary": "A detector upgrade pays off when the generator, mechanics and support still deserve the investment.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "image": "guides/xray",
@@ -24,43 +24,43 @@ export default {
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
     "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
   },
-  "minutes": 4,
+  "minutes": 3,
   "sections": [
     [
-      "Find the problem the digital upgrade is meant to solve",
-      "If the current difficulty is cassette processing or moving images to readers, a detector retrofit deserves investigation. If the difficulty is a failing generator, awkward positioning or an unsupported table, the same purchase may leave the important problem intact. Separate image-acquisition limitations from the condition and usability of the X-ray room. Have the clinical and technical teams assess the existing tube, generator, table, stands, controls and required movements. List repairs needed before an upgrade and identify the remaining parts route. A functioning generator is an asset only when it remains suitable for the work and can be maintained at an acceptable cost. Keep any required corrective work in the retrofit column. Otherwise the comparison gives the old room credit for being fully serviceable while quietly leaving the hospital to pay for defects that the initial assessment already identified."
+      "Two rooms can need opposite purchases",
+      "Consider two illustrative rooms. In the first, the generator, tube and positioning equipment are sound and supported, but cassette processing delays reading. A compatible DR retrofit directly addresses the bottleneck. In the second, the table cannot provide required positioning and major generator faults remain unresolved. The same panel purchase leaves the expensive problem in place. Commission a condition and support review before selecting the detector. Price required repairs in the retrofit column. Otherwise the comparison credits the old room with being serviceable while concealing work the hospital already knows it must fund."
     ],
     [
-      "A detector that fits still needs an accepted system",
-      "Carestream's retrofit page names cassette-format requirements for its DRX-1 offering. Fujifilm lists standard tray fit and room-retrofit configurations for FDR D-EVO III. These are useful starting points for a technical shortlist, not evidence that every installed room is ready for either package. Have the supplier inspect and document the exact generator, exposure controls, detector holders, grids and intended workflow. Verify the supported acquisition arrangement and determine what calibration or configuration changes are required. Avoid accepting a universal compatibility statement in place of a written specification for this particular combination."
+      "Use physical fit to start the shortlist",
+      "Carestream identifies cassette-format compatibility for DRX-1 retrofits; Fujifilm describes standard tray fit and room-retrofit arrangements for FDR D-EVO III. Those features make a technical comparison possible. They do not establish the condition or suitability of every retained room. Document the generator, exposure controls, holders, grids and proposed workflow. Have the supplier confirm the supported combination and the configuration or calibration work required. A universal compatibility phrase is weaker than a specification for the equipment actually being purchased."
     ],
     [
-      "Follow an image all the way to its reader",
-      "Include the acquisition workstation, image processing, patient-identification workflow, export and receiving archive in the demonstration. Check the required DICOM functions and licenses, then verify a completed transfer with correct identifiers. Clarify storage during an interruption and who restores the connection. A panel that captures an image has completed only part of the service. Carestream's Flex offering permits a choice of PC hardware subject to minimum requirements. That can preserve an existing investment, but it creates a specific IT assessment: supported hardware, operating system, software entitlement, updates and replacement. Include these responsibilities and the network work in the quoted package."
+      "A new panel needs a durable computer and image path",
+      "Include the workstation, image processing, patient identification, export and receiving archive in the demonstration. Verify the required licensed functions and a correctly identified transferred study. Define what happens during a connection interruption and who restores it. Carestream Flex permits PC choice subject to minimum requirements. Reusing a suitable computer can preserve capital, but its operating system, licence, updates and replacement route become part of the purchase. A panel that outlasts an unsupported workstation does not preserve a usable room by itself."
     ],
     [
-      "Choose detector quantity around the actual room workflow",
-      "Walk through the intended examinations with the radiographers. Establish how often the detector moves between table, wall stand and other locations, where it charges and who controls its availability. A shared detector may reduce initial purchases while adding handling and coordination. Decide whether that compromise is acceptable for the real schedule. If considering a replacement room, demonstrate the motion features that would make a material difference. Carestream's DRX-Compass range illustrates differing overhead and floor-mounted arrangements. Specify the supplied configuration rather than assuming all automation is standard. Do not assign throughput savings until the team has assessed the relevant workflow."
+      "Share a detector only when the schedule works",
+      "Walk through examinations with the radiographers. Count moves between the table, wall stand and other systems, identify where the detector charges and decide who has priority when both rooms need it. Sharing can reduce the number of panels purchased while increasing handling and coordination. Its value depends on the actual schedule. A replacement room deserves comparison when its motion or automation solves a demonstrated limitation. Carestream DRX-Compass has different overhead and floor-mounted arrangements; quote the intended version and demonstrate the relevant movements. Do not assign throughput savings simply because automation is available."
     ],
     [
-      "Buy commissioning and a quality-control baseline",
-      "Plan qualified acceptance and commissioning for the final assembled system. Include image quality, exposure-control behavior, relevant exposure information and the working image-transfer pathway. Agree who investigates an unacceptable result when the generator and detector come from different suppliers. The buyer should not have to arbitrate an unresolved interface after installation. IAEA's basic quality-control handbook includes digital-radiography exposure-index monitoring and the need for baseline values. Build the ongoing checks, training and recordkeeping into the handover. This is a reason to fund the complete change in workflow, not a basis for claiming that installing a digital panel automatically lowers every examination's dose."
+      "Put one owner at the integration boundary",
+      "Agree who investigates an unacceptable image or exposure-control result when the generator and detector have different suppliers. Acceptance and commissioning must cover the assembled system, including the working image-transfer path. The hospital should not be left adjudicating which vendor owns a fault after delivery. IAEA quality-control guidance includes exposure-index monitoring and baseline values. Fund training, records and ongoing checks as part of the transition. Installing a digital panel alone is not evidence that every examination will use less radiation."
     ],
     [
-      "Price the next repair before declaring the retrofit cheaper",
-      "Compare complete installed costs, including any repairs to retained equipment, software, batteries, commissioning and training. Obtain the detector replacement and repair terms, including accidental-damage exclusions, freight and a workable temporary option. Separately establish the support route for the generator and tube that remain in the room. Block Imaging's comparison highlights retrofit and automated-room alternatives, but its broad cost conclusions cannot decide a specific hospital's project. Test both proposals with current quotes and a realistic major-repair scenario. Retain the room when its continuing usefulness justifies the upgrade; replace it when the underlying equipment or workflow needs a change that the panel cannot provide."
+      "Compare repairs retained as well as equipment replaced",
+      "For retrofit, total the detector, workstation, licences, batteries, integration, commissioning and known repairs to retained hardware. For replacement, include the configured room, building work, removal, installation and the same handover requirements. Keep common costs in both columns and identify costs genuinely avoided. Then add a major-repair scenario: detector exchange on one side, and the relevant generator, tube or positioning exposure on the other. Use actual terms for damage exclusions, freight and temporary equipment. Keep the old room when its continuing usefulness supports the investment. Replace it when the underlying limitation survives the panel upgrade."
     ]
   ],
   "related": [
     "xray"
   ],
-  "socialTitle": "Should you retrofit DR or replace the X-ray room?",
-  "socialDescription": "A digital detector can improve the image workflow while leaving the old generator and mechanics in place. Compare the whole service.",
-  "socialHeadline": "DR retrofit or replacement buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "DR retrofit or new X-ray room? Find the part worth keeping",
+  "socialDescription": "A detector upgrade pays off when the generator, mechanics and support still deserve the investment.",
+  "socialHeadline": "DR retrofit or new X-ray room? Find the part worth keeping",
+  "socialStrapline": "The cheapest panel cannot repair an unsuitable room.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "DR retrofit or replacement buying sheet",
+    "title": "DR retrofit or new X-ray room? Find the part worth keeping",
     "summary": "Keep a useful X-ray room when a compatible detector package resolves the real limitation. Evaluate the whole acquisition and image-transfer workflow.",
     "firstChoice": "Quote a retrofit after a qualified condition and support review of the generator, tube, table and stands. Include repairs before comparing prices.",
     "upgradeWhen": "Replace the room when positioning, mechanical condition or unavailable parts create a material limitation that a new detector leaves unresolved.",
@@ -81,7 +81,7 @@ export default {
   "research": {
     "kind": "feature",
     "id": "dr-retrofit",
-    "researchedAt": "2026-10-17",
+    "researchedAt": "2026-10-18",
     "coverage": [
       "DR retrofit versus room replacement",
       "generator and mechanical condition",
@@ -90,8 +90,8 @@ export default {
       "acceptance and exposure monitoring",
       "parts support and continuity"
     ],
-    "title": "Upgrade the detector or replace the X-ray room?",
-    "dek": "A DR retrofit can preserve valuable equipment, but its value depends on the generator, mechanics, integration and repair route it leaves behind.",
+    "title": "DR retrofit or new X-ray room? Find the part worth keeping",
+    "dek": "A detector upgrade pays off when the generator, mechanics and support still deserve the investment.",
     "verdict": "Quote a DR retrofit first when the existing generator, tube, table and positioning equipment meet the service's needs and remain maintainable. Compare a replacement room when those components or the workflow are the real limitation. Require an accepted complete imaging and image-transfer workflow in either case.",
     "decision": {
       "firstMove": "Assess the existing room's condition, required positioning and remaining support before selecting a detector.",
@@ -100,9 +100,9 @@ export default {
       "walkAwayWhen": "Compatibility, responsibility for integration, acceptance or support of the retained equipment is unresolved."
     },
     "social": {
-      "title": "Should you retrofit DR or replace the X-ray room?",
-      "description": "A digital detector can improve the image workflow while leaving the old generator and mechanics in place. Compare the whole service.",
-      "hook": "Before buying the panel, find out whether the rest of the room deserves to stay."
+      "title": "DR retrofit or new X-ray room? Find the part worth keeping",
+      "description": "A detector upgrade pays off when the generator, mechanics and support still deserve the investment.",
+      "hook": "The cheapest panel cannot repair an unsuitable room."
     },
     "choices": [
       {
@@ -158,7 +158,7 @@ export default {
       {
         "option": "Retrofit the existing room",
         "capability": "Add digital acquisition while retaining suitable equipment.",
-        "costDriver": "Detector package plus repairs and support for retained components.",
+        "costDriver": "Detector package, known corrective work and future support for retained components.",
         "bestFit": "The room meets requirements and remains maintainable."
       },
       {
@@ -176,19 +176,18 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Find the problem the digital upgrade is meant to solve",
+        "heading": "Two rooms can need opposite purchases",
         "paragraphs": [
-          "If the current difficulty is cassette processing or moving images to readers, a detector retrofit deserves investigation. If the difficulty is a failing generator, awkward positioning or an unsupported table, the same purchase may leave the important problem intact. Separate image-acquisition limitations from the condition and usability of the X-ray room.",
-          "Have the clinical and technical teams assess the existing tube, generator, table, stands, controls and required movements. List repairs needed before an upgrade and identify the remaining parts route. A functioning generator is an asset only when it remains suitable for the work and can be maintained at an acceptable cost.",
-          "Keep any required corrective work in the retrofit column. Otherwise the comparison gives the old room credit for being fully serviceable while quietly leaving the hospital to pay for defects that the initial assessment already identified."
+          "Consider two illustrative rooms. In the first, the generator, tube and positioning equipment are sound and supported, but cassette processing delays reading. A compatible DR retrofit directly addresses the bottleneck. In the second, the table cannot provide required positioning and major generator faults remain unresolved. The same panel purchase leaves the expensive problem in place.",
+          "Commission a condition and support review before selecting the detector. Price required repairs in the retrofit column. Otherwise the comparison credits the old room with being serviceable while concealing work the hospital already knows it must fund."
         ],
         "sourceIds": []
       },
       {
-        "heading": "A detector that fits still needs an accepted system",
+        "heading": "Use physical fit to start the shortlist",
         "paragraphs": [
-          "Carestream's retrofit page names cassette-format requirements for its DRX-1 offering. Fujifilm lists standard tray fit and room-retrofit configurations for FDR D-EVO III. These are useful starting points for a technical shortlist, not evidence that every installed room is ready for either package.",
-          "Have the supplier inspect and document the exact generator, exposure controls, detector holders, grids and intended workflow. Verify the supported acquisition arrangement and determine what calibration or configuration changes are required. Avoid accepting a universal compatibility statement in place of a written specification for this particular combination."
+          "Carestream identifies cassette-format compatibility for DRX-1 retrofits; Fujifilm describes standard tray fit and room-retrofit arrangements for FDR D-EVO III. Those features make a technical comparison possible. They do not establish the condition or suitability of every retained room.",
+          "Document the generator, exposure controls, holders, grids and proposed workflow. Have the supplier confirm the supported combination and the configuration or calibration work required. A universal compatibility phrase is weaker than a specification for the equipment actually being purchased."
         ],
         "sourceIds": [
           "carestream-retrofit",
@@ -196,44 +195,43 @@ export default {
         ]
       },
       {
-        "heading": "Follow an image all the way to its reader",
+        "heading": "A new panel needs a durable computer and image path",
         "paragraphs": [
-          "Include the acquisition workstation, image processing, patient-identification workflow, export and receiving archive in the demonstration. Check the required DICOM functions and licenses, then verify a completed transfer with correct identifiers. Clarify storage during an interruption and who restores the connection. A panel that captures an image has completed only part of the service.",
-          "Carestream's Flex offering permits a choice of PC hardware subject to minimum requirements. That can preserve an existing investment, but it creates a specific IT assessment: supported hardware, operating system, software entitlement, updates and replacement. Include these responsibilities and the network work in the quoted package."
+          "Include the workstation, image processing, patient identification, export and receiving archive in the demonstration. Verify the required licensed functions and a correctly identified transferred study. Define what happens during a connection interruption and who restores it.",
+          "Carestream Flex permits PC choice subject to minimum requirements. Reusing a suitable computer can preserve capital, but its operating system, licence, updates and replacement route become part of the purchase. A panel that outlasts an unsupported workstation does not preserve a usable room by itself."
         ],
         "sourceIds": [
-          "carestream-flex"
+          "carestream-flex",
+          "carestream-retrofit"
         ]
       },
       {
-        "heading": "Choose detector quantity around the actual room workflow",
+        "heading": "Share a detector only when the schedule works",
         "paragraphs": [
-          "Walk through the intended examinations with the radiographers. Establish how often the detector moves between table, wall stand and other locations, where it charges and who controls its availability. A shared detector may reduce initial purchases while adding handling and coordination. Decide whether that compromise is acceptable for the real schedule.",
-          "If considering a replacement room, demonstrate the motion features that would make a material difference. Carestream's DRX-Compass range illustrates differing overhead and floor-mounted arrangements. Specify the supplied configuration rather than assuming all automation is standard. Do not assign throughput savings until the team has assessed the relevant workflow."
+          "Walk through examinations with the radiographers. Count moves between the table, wall stand and other systems, identify where the detector charges and decide who has priority when both rooms need it. Sharing can reduce the number of panels purchased while increasing handling and coordination. Its value depends on the actual schedule.",
+          "A replacement room deserves comparison when its motion or automation solves a demonstrated limitation. Carestream DRX-Compass has different overhead and floor-mounted arrangements; quote the intended version and demonstrate the relevant movements. Do not assign throughput savings simply because automation is available."
         ],
         "sourceIds": [
           "carestream-compass"
         ]
       },
       {
-        "heading": "Buy commissioning and a quality-control baseline",
+        "heading": "Put one owner at the integration boundary",
         "paragraphs": [
-          "Plan qualified acceptance and commissioning for the final assembled system. Include image quality, exposure-control behavior, relevant exposure information and the working image-transfer pathway. Agree who investigates an unacceptable result when the generator and detector come from different suppliers. The buyer should not have to arbitrate an unresolved interface after installation.",
-          "IAEA's basic quality-control handbook includes digital-radiography exposure-index monitoring and the need for baseline values. Build the ongoing checks, training and recordkeeping into the handover. This is a reason to fund the complete change in workflow, not a basis for claiming that installing a digital panel automatically lowers every examination's dose."
+          "Agree who investigates an unacceptable image or exposure-control result when the generator and detector have different suppliers. Acceptance and commissioning must cover the assembled system, including the working image-transfer path. The hospital should not be left adjudicating which vendor owns a fault after delivery.",
+          "IAEA quality-control guidance includes exposure-index monitoring and baseline values. Fund training, records and ongoing checks as part of the transition. Installing a digital panel alone is not evidence that every examination will use less radiation."
         ],
         "sourceIds": [
           "iaea-dr-qc"
         ]
       },
       {
-        "heading": "Price the next repair before declaring the retrofit cheaper",
+        "heading": "Compare repairs retained as well as equipment replaced",
         "paragraphs": [
-          "Compare complete installed costs, including any repairs to retained equipment, software, batteries, commissioning and training. Obtain the detector replacement and repair terms, including accidental-damage exclusions, freight and a workable temporary option. Separately establish the support route for the generator and tube that remain in the room.",
-          "Block Imaging's comparison highlights retrofit and automated-room alternatives, but its broad cost conclusions cannot decide a specific hospital's project. Test both proposals with current quotes and a realistic major-repair scenario. Retain the room when its continuing usefulness justifies the upgrade; replace it when the underlying equipment or workflow needs a change that the panel cannot provide."
+          "For retrofit, total the detector, workstation, licences, batteries, integration, commissioning and known repairs to retained hardware. For replacement, include the configured room, building work, removal, installation and the same handover requirements. Keep common costs in both columns and identify costs genuinely avoided.",
+          "Then add a major-repair scenario: detector exchange on one side, and the relevant generator, tube or positioning exposure on the other. Use actual terms for damage exclusions, freight and temporary equipment. Keep the old room when its continuing usefulness supports the investment. Replace it when the underlying limitation survives the panel upgrade."
         ],
-        "sourceIds": [
-          "block-dr"
-        ]
+        "sourceIds": []
       }
     ],
     "checklist": [
@@ -271,8 +269,8 @@ export default {
         "url": "https://www.carestream.com/en/us/medical/dr-systems/mobile-x-ray/dr-retrofit-solutions",
         "publisher": "Carestream",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
-        "evidence": "Identifies wireless retrofit options and specified cassette-format compatibility; complete local integration must still be verified."
+        "accessed": "2026-10-18",
+        "evidence": "Written room/mobile/Flex retrofit descriptions and cassette-format criteria rechecked; Flex PC minimum-requirement footnote read. Marketing ROI and universal installation promises not adopted."
       },
       {
         "id": "carestream-flex",
@@ -328,5 +326,6 @@ export default {
       "c-arm-detectors"
     ]
   },
-  "searchTerms": "DR retrofit versus room replacement generator and mechanical condition detector compatibility workstation and image integration acceptance and exposure monitoring parts support and continuity Carestream DRX-1 retrofit Carestream DRX-Transportable System/Flex Fujifilm FDR D-EVO III room retrofit Carestream DRX-Compass, specified room configuration"
+  "searchTerms": "DR retrofit versus room replacement generator and mechanical condition detector compatibility workstation and image integration acceptance and exposure monitoring parts support and continuity Carestream DRX-1 retrofit Carestream DRX-Transportable System/Flex Fujifilm FDR D-EVO III room retrofit Carestream DRX-Compass, specified room configuration",
+  "librarySection": "decisions"
 };

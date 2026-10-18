@@ -3,8 +3,8 @@ export default {
   "key": "ct-mri",
   "kind": "research-guide",
   "equipmentId": "ct-mri",
-  "title": "CT and MRI: the scanner price is only the first bill",
-  "summary": "A donated scanner, a routine CT platform and a low-helium MRI can each be sensible. The deciding costs are the room, supported protocols, major repairs and studies the service can complete.",
+  "title": "Buying CT or MRI? Budget for the studies you can finish",
+  "summary": "Compare scanner capability with the room, people, software and repair capacity needed to keep the service running.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "image": "guides/ct-mri",
@@ -26,31 +26,43 @@ export default {
   "minutes": 3,
   "sections": [
     [
-      "The CT slice badge can hide the comparison",
-      "Revolution Advance and SOMATOM go.Now are concrete routine-CT candidates, but their headline slice figures need interpretation. GE specifies 16-slice CT with optional 32-slice post-reconstruction; Siemens lists 32 slices alongside 16 × 0.7 mm z-coverage. Reconstructed slice count is not acquired detector coverage. Have the radiology team assess the actual protocol and reconstruction package instead of using the bigger printed number as an automatic upgrade. Check the table against the intended patient population and the room against the actual installation plan. go.Now’s optional higher-load table may be material; a compact scanner footprint does not describe the whole department. The published 42 kW and 32 kW generator ratings are not building energy-consumption estimates. Use site-planning requirements and an installed offer to compare power, environmental control and construction."
+      "A first scanner creates a continuing service",
+      "Start with examinations the clinical team needs, patients likely to attend and the people who will acquire, interpret and act on the studies. Then compare equipment capable of supporting that brief. A donated scanner can be worthwhile, but its zero purchase price does not fund installation or the next major repair. Use completed, accepted studies as the denominator in the cost comparison. Idle capacity still carries staffing, service and building costs. If realistic activity cannot sustain the proposed service, a funded referral or shared-access arrangement deserves comparison before equipment is committed."
     ],
     [
-      "Low-helium MRI removes one obstacle, not the operating budget",
-      "Free.Star combines 0.55T imaging with a sealed 0.7-litre helium inventory and no quench pipe. MR 5300 uses a 1.5T BlueSeal design retaining a small sealed helium inventory. These approaches can reduce helium logistics; neither means the magnet contains no helium or the hospital can dispense with an appropriately designed MRI environment. Their different field strengths also prevent a simple like-for-like equipment comparison. Ask the radiologists to accept representative protocols, coil coverage and image quality, then time the complete study workflow—including positioning, patient changeover and repeats. Free.Star’s siting advantages matter only if the offered protocols meet the service requirement. MR 5300’s service-package language is useful for structuring an offer, but maintenance, coil replacement and upgrades depend on the actual annual contract. Neither brochure establishes recovery after every power interruption."
+      "Read beyond the CT slice badge",
+      "GE Revolution Advance and Siemens SOMATOM go.Now provide concrete routine-CT examples. GE's cited brochure distinguishes a 16-slice platform from optional 32-slice post-reconstruction. Siemens lists 32 slices alongside 16 × 0.7 mm z-coverage. A reconstructed slice number is not acquired detector coverage. Have radiologists assess the exact protocol and reconstruction package. Include table capacity, patient access and the actual installation plan. Generator ratings such as the cited 42 kW and 32 kW do not describe building energy consumption. Use site requirements to price electrical supply and environmental control; a compact scanner footprint does not describe the entire department."
     ],
     [
-      "Make a donation compete with a functioning service",
-      "Before accepting an older scanner, identify what will arrive: tube or magnet, coils, patient accessories, computers and transferable software entitlements. Add deinstallation, transport, room work, installation and acceptance to the equipment price. Name the organization that will support that serial number after relocation. A missing coil or unlicensed application can remove an examination from the service just as decisively as a broken component. Then price the next major repair and the work lost while waiting. A machine already supported locally may beat a newer model that needs distant engineers; an apparently free unit can lose once tube exposure, parts travel and referrals are included. GE’s model-specific service training establishes that documentation and training exist, not that a destination engineer is available. No controlled reliability comparison establishes which shortlisted scanner lasts longest. Use completed, accepted studies as the cost denominator. If realistic demand cannot fund staffing, service and the installation, compare a funded referral arrangement before committing to the scanner. That is especially relevant for a first CT or MRI service: idle capacity still carries fixed costs."
+      "Compare MRI capability and siting together",
+      "Siemens Free.Star combines 0.55T imaging with a sealed small helium inventory and no quench pipe; Philips MR 5300 offers a 1.5T BlueSeal alternative. These are useful designs to investigate where helium logistics or siting constrain the project. Their different field strengths and configurations prevent a simple like-for-like comparison. Have the clinical team accept representative examinations, coil coverage and image quality, then assess the complete appointment: positioning, acquisition, changeover and repeats. A siting advantage matters only when the system meets the required work. Low-helium operation does not remove the rest of the building, power, cooling or support obligations."
+    ],
+    [
+      "Make the donation show its full bill",
+      "Identify the actual tube or magnet, coils, accessories, computers and transferable software entitlements. Add deinstallation, packing, transport, rigging, room work, installation and acceptance. Name the organization responsible for the exact relocated serial number. A missing coil or licence can remove an examination as decisively as a broken component. A supported older system may be a better fit than a newer one requiring distant engineers, but that conclusion needs a credible local remedy. Model-specific training documents establish that a course exists; they do not place a trained engineer in the receiving country."
+    ],
+    [
+      "Preserve useful equipment without buying a cosmetic upgrade",
+      "For an existing service, compare keep-and-repair, an approved capability upgrade, replacement and referral for selected work. Describe the component or function each route changes. Retaining a magnet or gantry does not establish that the required coils, controls, applications and support are included. Additional capability earns its price through accepted examinations or a demonstrated workflow benefit. Avoid paying for an advanced application merely because it appears in the product family. Routine CT, cardiac CT, image-guided procedures and radiotherapy simulation have different requirements; each needs its own service brief."
+    ],
+    [
+      "Fund the normal year and the interruption",
+      "Compare all offers over the same planning period, including staff, software, energy, maintenance and major-component exposure. For CT, make tube condition and replacement terms explicit. For MRI, identify coils and the exact maintenance, replacement and upgrade obligations in the service agreement. Philips' cited annual-package language is tied to contract terms, not free lifetime upkeep. Run a separate early-repair scenario without inventing failure probabilities. Identify funds, travel and interim service. Keep an accepted scanner when it remains supportable and useful; replace it when the new package solves a material limitation at a sustainable total cost. Public brochures identify candidates, not an installed-price winner."
     ]
   ],
   "related": [
     "ct-mri"
   ],
-  "socialTitle": "Free CT, expensive installation? Price the whole service",
-  "socialDescription": "Compare routine CT and low-helium MRI options with a donated scanner’s real costs: installation, coils, tube coverage, software and service.",
-  "socialHeadline": "CT and MRI buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying CT or MRI? Budget for the studies you can finish",
+  "socialDescription": "Compare scanner capability with the room, people, software and repair capacity needed to keep the service running.",
+  "socialHeadline": "Buying CT or MRI? Budget for the studies you can finish",
+  "socialStrapline": "A low equipment price is only useful inside a funded service.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "ct-mri",
-    "title": "CT and MRI buying guide",
+    "title": "Buying CT or MRI? Budget for the studies you can finish",
     "summary": "A first scanner is a new service: fund accepted examinations, staffing, installation and continuing repairs together before committing to the machine.",
-    "firstChoice": "For routine CT, compare Revolution Advance and SOMATOM go.Now against the actual examination list. For MRI, evaluate Free.Star where siting and helium logistics constrain the project, alongside the 1.5T MR 5300.",
+    "firstChoice": "Define accepted examinations and a funded operating service, then compare clinically suitable routine-CT or MRI configurations with keep/repair, donation and referral alternatives.",
     "upgradeWhen": "Pay for additional protocols, coils or capacity when radiologists accept the results and the complete examination workflow demonstrates a useful gain. A larger slice number alone cannot settle the CT choice.",
     "budgetWatch": "A donated scanner still needs relocation, room work, installation, software rights and service. CT reconstructed slice counts differ from acquired coverage; low-helium MRI still has substantial operating obligations.",
     "supportCheck": "Name the organization that will repair the exact relocated system. Price major-component exposure and service continuity before treating a low equipment price as a saving.",
@@ -69,8 +81,8 @@ export default {
   },
   "research": {
     "id": "ct-mri",
-    "title": "CT and MRI: the scanner price is only the first bill",
-    "dek": "A donated scanner, a routine CT platform and a low-helium MRI can each be sensible. The deciding costs are the room, supported protocols, major repairs and studies the service can complete.",
+    "title": "Buying CT or MRI? Budget for the studies you can finish",
+    "dek": "Compare scanner capability with the room, people, software and repair capacity needed to keep the service running.",
     "verdict": "For routine CT, compare Revolution Advance and SOMATOM go.Now against the required examinations before paying for a higher slice badge. For MRI, Free.Star’s 0.55T low-helium design deserves evaluation where siting and helium logistics constrain the service; MR 5300 offers a 1.5T alternative. A donation earns its place only after relocation, installation, software, major components and service are priced alongside those options. No installed-cost winner is established here.",
     "coverage": [
       "Routine CT",
@@ -132,10 +144,18 @@ export default {
     ],
     "sections": [
       {
-        "heading": "The CT slice badge can hide the comparison",
+        "heading": "A first scanner creates a continuing service",
         "paragraphs": [
-          "Revolution Advance and SOMATOM go.Now are concrete routine-CT candidates, but their headline slice figures need interpretation. GE specifies 16-slice CT with optional 32-slice post-reconstruction; Siemens lists 32 slices alongside 16 × 0.7 mm z-coverage. Reconstructed slice count is not acquired detector coverage. Have the radiology team assess the actual protocol and reconstruction package instead of using the bigger printed number as an automatic upgrade.",
-          "Check the table against the intended patient population and the room against the actual installation plan. go.Now’s optional higher-load table may be material; a compact scanner footprint does not describe the whole department. The published 42 kW and 32 kW generator ratings are not building energy-consumption estimates. Use site-planning requirements and an installed offer to compare power, environmental control and construction."
+          "Start with examinations the clinical team needs, patients likely to attend and the people who will acquire, interpret and act on the studies. Then compare equipment capable of supporting that brief. A donated scanner can be worthwhile, but its zero purchase price does not fund installation or the next major repair.",
+          "Use completed, accepted studies as the denominator in the cost comparison. Idle capacity still carries staffing, service and building costs. If realistic activity cannot sustain the proposed service, a funded referral or shared-access arrangement deserves comparison before equipment is committed."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Read beyond the CT slice badge",
+        "paragraphs": [
+          "GE Revolution Advance and Siemens SOMATOM go.Now provide concrete routine-CT examples. GE's cited brochure distinguishes a 16-slice platform from optional 32-slice post-reconstruction. Siemens lists 32 slices alongside 16 × 0.7 mm z-coverage. A reconstructed slice number is not acquired detector coverage.",
+          "Have radiologists assess the exact protocol and reconstruction package. Include table capacity, patient access and the actual installation plan. Generator ratings such as the cited 42 kW and 32 kW do not describe building energy consumption. Use site requirements to price electrical supply and environmental control; a compact scanner footprint does not describe the entire department."
         ],
         "sourceIds": [
           "c-advance",
@@ -143,10 +163,10 @@ export default {
         ]
       },
       {
-        "heading": "Low-helium MRI removes one obstacle, not the operating budget",
+        "heading": "Compare MRI capability and siting together",
         "paragraphs": [
-          "Free.Star combines 0.55T imaging with a sealed 0.7-litre helium inventory and no quench pipe. MR 5300 uses a 1.5T BlueSeal design retaining a small sealed helium inventory. These approaches can reduce helium logistics; neither means the magnet contains no helium or the hospital can dispense with an appropriately designed MRI environment. Their different field strengths also prevent a simple like-for-like equipment comparison.",
-          "Ask the radiologists to accept representative protocols, coil coverage and image quality, then time the complete study workflow—including positioning, patient changeover and repeats. Free.Star’s siting advantages matter only if the offered protocols meet the service requirement. MR 5300’s service-package language is useful for structuring an offer, but maintenance, coil replacement and upgrades depend on the actual annual contract. Neither brochure establishes recovery after every power interruption."
+          "Siemens Free.Star combines 0.55T imaging with a sealed small helium inventory and no quench pipe; Philips MR 5300 offers a 1.5T BlueSeal alternative. These are useful designs to investigate where helium logistics or siting constrain the project. Their different field strengths and configurations prevent a simple like-for-like comparison.",
+          "Have the clinical team accept representative examinations, coil coverage and image quality, then assess the complete appointment: positioning, acquisition, changeover and repeats. A siting advantage matters only when the system meets the required work. Low-helium operation does not remove the rest of the building, power, cooling or support obligations."
         ],
         "sourceIds": [
           "c-freestar",
@@ -154,14 +174,30 @@ export default {
         ]
       },
       {
-        "heading": "Make a donation compete with a functioning service",
+        "heading": "Make the donation show its full bill",
         "paragraphs": [
-          "Before accepting an older scanner, identify what will arrive: tube or magnet, coils, patient accessories, computers and transferable software entitlements. Add deinstallation, transport, room work, installation and acceptance to the equipment price. Name the organization that will support that serial number after relocation. A missing coil or unlicensed application can remove an examination from the service just as decisively as a broken component.",
-          "Then price the next major repair and the work lost while waiting. A machine already supported locally may beat a newer model that needs distant engineers; an apparently free unit can lose once tube exposure, parts travel and referrals are included. GE’s model-specific service training establishes that documentation and training exist, not that a destination engineer is available. No controlled reliability comparison establishes which shortlisted scanner lasts longest.",
-          "Use completed, accepted studies as the cost denominator. If realistic demand cannot fund staffing, service and the installation, compare a funded referral arrangement before committing to the scanner. That is especially relevant for a first CT or MRI service: idle capacity still carries fixed costs."
+          "Identify the actual tube or magnet, coils, accessories, computers and transferable software entitlements. Add deinstallation, packing, transport, rigging, room work, installation and acceptance. Name the organization responsible for the exact relocated serial number. A missing coil or licence can remove an examination as decisively as a broken component.",
+          "A supported older system may be a better fit than a newer one requiring distant engineers, but that conclusion needs a credible local remedy. Model-specific training documents establish that a course exists; they do not place a trained engineer in the receiving country."
         ],
         "sourceIds": [
-          "c-ge-training",
+          "c-ge-training"
+        ]
+      },
+      {
+        "heading": "Preserve useful equipment without buying a cosmetic upgrade",
+        "paragraphs": [
+          "For an existing service, compare keep-and-repair, an approved capability upgrade, replacement and referral for selected work. Describe the component or function each route changes. Retaining a magnet or gantry does not establish that the required coils, controls, applications and support are included.",
+          "Additional capability earns its price through accepted examinations or a demonstrated workflow benefit. Avoid paying for an advanced application merely because it appears in the product family. Routine CT, cardiac CT, image-guided procedures and radiotherapy simulation have different requirements; each needs its own service brief."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "Fund the normal year and the interruption",
+        "paragraphs": [
+          "Compare all offers over the same planning period, including staff, software, energy, maintenance and major-component exposure. For CT, make tube condition and replacement terms explicit. For MRI, identify coils and the exact maintenance, replacement and upgrade obligations in the service agreement. Philips' cited annual-package language is tied to contract terms, not free lifetime upkeep.",
+          "Run a separate early-repair scenario without inventing failure probabilities. Identify funds, travel and interim service. Keep an accepted scanner when it remains supportable and useful; replace it when the new package solves a material limitation at a sustainable total cost. Public brochures identify candidates, not an installed-price winner."
+        ],
+        "sourceIds": [
           "c-mr5300"
         ]
       }
@@ -184,7 +220,6 @@ export default {
       "Who can restore this serial-numbered system locally, including after a power event?"
     ],
     "gaps": [
-      "No historical owner CT/MRI models were supplied.",
       "No installed quotes, country-specific service commitments or utilization forecast.",
       "No comparative failure-rate dataset or locally demonstrated image-quality/throughput evaluation.",
       "Regional availability and configuration must be confirmed; public brochures are not procurement commitments."
@@ -205,8 +240,8 @@ export default {
         "url": "https://www.siemens-healthineers.com/en-us/computed-tomography/somatom/somatom-go-platform/somatom-go-now",
         "publisher": "Siemens Healthineers",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "Distinguishes 32 slices from 16 × 0.7 mm z-coverage; 32 kW, 70 cm bore and optional table specifications."
+        "accessed": "2026-10-18",
+        "evidence": "US technical table rechecked: 32 slices versus 16 × 0.7 mm z-coverage, 32 kW, 70 cm bore and separately identified table option. No advertised dose or reliability advantage adopted."
       },
       {
         "id": "c-freestar",
@@ -269,10 +304,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Free CT, expensive installation? Price the whole service",
-      "description": "Compare routine CT and low-helium MRI options with a donated scanner’s real costs: installation, coils, tube coverage, software and service.",
-      "hook": "A free scanner still needs a funded room, supported software and a way back into service after failure."
-    }
+      "title": "Buying CT or MRI? Budget for the studies you can finish",
+      "description": "Compare scanner capability with the room, people, software and repair capacity needed to keep the service running.",
+      "hook": "A low equipment price is only useful inside a funded service."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Routine CT Low-helium 0.55T MRI Low-helium 1.5T MRI Refurbished/donated scanner comparison Installation, utilization and cost per completed study GE Revolution Advance Siemens SOMATOM go.Now Siemens MAGNETOM Free.Star Philips MR 5300"
+  "searchTerms": "Routine CT Low-helium 0.55T MRI Low-helium 1.5T MRI Refurbished/donated scanner comparison Installation, utilization and cost per completed study GE Revolution Advance Siemens SOMATOM go.Now Siemens MAGNETOM Free.Star Philips MR 5300",
+  "librarySection": "equipment"
 };

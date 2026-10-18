@@ -3,8 +3,8 @@ export default {
   "key": "mri-site-readiness",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "The MRI bargain starts with a site survey",
-  "summary": "Resolve the building, utilities, installation responsibilities and support route before a low scanner price becomes an expensive unfinished project.",
+  "title": "Can your building afford the MRI bargain?",
+  "summary": "Check the exact magnet, delivery route, utilities and support before a low scanner price becomes an unfinished project.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "image": "guides/ct-mri",
@@ -24,43 +24,43 @@ export default {
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
     "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
   },
-  "minutes": 4,
+  "minutes": 3,
   "sections": [
     [
-      "Define the service before reserving the scanner",
-      "An MRI purchase commits the hospital to a building, specialist equipment and an operating service. Begin with the examinations the clinical team needs, the coils and software required, the intended workload and the people who will run and support it. Then identify the exact scanner and magnet configuration proposed to deliver that service. Do not allow an attractive available unit to define the clinical brief by default. A missing coil, unavailable application or uncertain support entitlement can weaken the value of the entire installation. The preliminary decision is whether this configuration can become a complete sustainable service at this location."
+      "Spend the first money on feasibility",
+      "An inexpensive MRI can become the expensive choice if the building cannot accept it without major work. Reserve the equipment only after the clinical brief and a specialist site assessment point to a feasible installation. The brief should identify examinations, coils, software, workload and the people who will run the service. Start with at least two routes where practical: a supported configuration that can use the existing suite, and an alternative that resolves a documented constraint. Compare the whole project. A missing coil or application can make either route unsuitable even when the magnet fits."
     ],
     [
-      "Use the site survey as a decision gate",
-      "Bring the MRI supplier, project architect, structural and building-services engineers and the hospital's MR safety expertise into the feasibility assessment. Identify which findings could stop the project, which require redesign and which simply need a priced work item. Assign an owner and a resolution date to each open dependency. GE's planning portal explicitly distinguishes typical drawings from construction drawings and calls for the full configuration-specific planning information. A floor plan downloaded from a similar system is useful for early discussion, but cannot approve this site. Match every document revision to the actual magnet, cabinets, cooling arrangement and proposed installation."
+      "Use the exact planning revision",
+      "GE's planning portal distinguishes typical layouts from construction drawings. A drawing from a similar scanner can start a discussion; it cannot approve this installation. Match the documents to the exact magnet, cabinets, cooling arrangement and proposed configuration. Bring the supplier, architect, structural and building-services engineers and MR safety expertise into the review. Separate findings that stop the project from those that require redesign or a priced work item. Each unresolved interface needs an owner and a completion date before delivery becomes a commitment."
     ],
     [
-      "Inspect the route and the spaces beyond the scanner room",
-      "Have the project team review delivery access, structural loading, equipment clearances, neighboring spaces and the path for future major-component replacement. GE's January 2026 SIGNA Pioneer typical drawings separately address structural requirements, magnetic interference, vibration, RF shielding and delivery. Those headings show why an empty room of apparently sufficient size is only an initial observation. The assessment should produce a coordinated scope, not several contractors assuming someone else owns an interface. Record who supplies penetrations, shielding work, utilities, cooling, monitoring and final verification. Resolve changes before equipment shipment, and identify the consequences of a delivery date moving while construction remains incomplete."
+      "Look beyond the scan room",
+      "Delivery access, structural loading and the route for a later major-component replacement belong in the first assessment. The January 2026 GE SIGNA Pioneer typical drawings separately address structure, magnetic interference, vibration, RF shielding, cooling and cryogenic planning. An apparently spacious room answers only a small part of that brief. Consider an illustrative choice between two otherwise suitable systems. One can use a reapproved existing delivery route; the other requires opening and reinstating part of the building. Even without equipment prices, the comparison reveals a real cost and schedule difference. Measure and price that difference before ranking the offers. This example is a decision method, not a claim that a particular scanner fits your site."
     ],
     [
-      "A different magnet design may change the project economics",
-      "Philips describes BlueSeal as a sealed-helium technology that does not require a quench pipe. Where vent routing or helium logistics is a real constraint, that distinction deserves a priced comparison. It is a specific design characteristic, not permission to apply the same assumptions to every system marketed as low-helium. Compare clinically suitable configurations on their actual building and operating implications. A higher equipment price may be offset by avoided work, but that conclusion needs project quotations. Confirm remaining power, cooling, shielding, access and service requirements. A feature that simplifies one dependency does not establish that the entire site is ready."
+      "Know which dependency a different magnet removes",
+      "Philips describes BlueSeal as a sealed-helium technology that does not require a quench pipe. Where vent routing or helium logistics is a material constraint, it deserves comparison with a clinically suitable conventional design. Avoid extending that specific feature to every system described as low-helium. The useful question is which documented work disappears and which remains. Confirm power, cooling, shielding, access and support separately. A premium may be justified by avoided construction or an operating dependency, but an economic winner requires the actual scopes and costs. Reusing an existing suite can also be attractive when the proposed replacement is verified for it."
     ],
     [
-      "Fund the room's working equipment and people",
-      "List the supporting equipment required for the planned service: positioning accessories, patient communication, appropriate monitoring when required, transport and emergency arrangements, and the approved screening workflow. Ask the MR safety team to verify each item's intended location and compatibility. FDA guidance states that MR Conditional equipment must be used within its stated conditions; an unspecified “MRI compatible” description is insufficient purchasing evidence. Include staff training, supervised handover, quality checks, image transfer and service documentation in the opening budget. Establish who manages the suite and who can authorize a response to an equipment or utility problem. Those responsibilities must remain clear after the installation team leaves."
+      "Include the equipment that makes the room usable",
+      "Budget for the required coils and positioning accessories, patient communication, appropriate monitoring, transport, emergency arrangements and screening workflow. Have the MR safety team verify each item's intended location and conditions of use. FDA guidance requires MR Conditional devices to meet all their stated conditions; an unqualified 'MRI compatible' description is insufficient. Training, supervised handover, quality checks, image transfer and service documentation should be funded before opening. Confirm who manages the suite and who can authorize the response to equipment or utility problems after the installation team leaves."
     ],
     [
-      "Test whether the project survives its first interruption",
-      "Obtain support proposals covering the exact scanner, coils, software and relevant cooling equipment, with major exclusions made explicit. Ask where specialists and parts are based, what routine support requires and what happens after a significant interruption. Compare funded contingencies and interim service arrangements, not only the annual maintenance fee. Block Imaging's MRI project overview usefully separates selection, installation and upkeep; its general guidance cannot price this building. Proceed when feasibility, scope, funding and responsibilities align. If a critical utility, safety or support dependency remains unresolved, defer the equipment commitment and complete that work first. A purchase that waits for readiness can be cheaper than a scanner waiting for a usable hospital."
+      "Choose a project the hospital can sustain",
+      "Put contractor responsibilities next to the corresponding costs: penetrations, shielding, utilities, cooling, monitoring, installation and final verification. This prevents an attractive scanner quote from concealing work that every supplier assumed another party would provide. Then test a significant interruption. Identify support for the exact scanner, coils, software and cooling equipment, the specialists and parts available to the destination, and the alternative service while repairs occur. Proceed when those responsibilities and funds are credible. If a critical dependency remains unresolved, complete the readiness work before buying the equipment; money tied up in a waiting scanner cannot finish the room."
     ]
   ],
   "related": [
     "ct-mri"
   ],
-  "socialTitle": "An MRI price is not an MRI project budget",
-  "socialDescription": "Check the exact magnet, building, utilities, delivery route and support plan before committing to the scanner.",
-  "socialHeadline": "MRI project readiness buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "Can your building afford the MRI bargain?",
+  "socialDescription": "Check the exact magnet, delivery route, utilities and support before a low scanner price becomes an unfinished project.",
+  "socialHeadline": "Can your building afford the MRI bargain?",
+  "socialStrapline": "The building can change which MRI offer is affordable.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "MRI project readiness buying sheet",
+    "title": "Can your building afford the MRI bargain?",
     "summary": "Make the equipment commitment after exact-system feasibility and complete project funding are established. A scanner quote is only one part of the service.",
     "firstChoice": "Choose a clinically suitable configuration with a specialist-reviewed site, priced installation responsibilities and sustainable operating support.",
     "upgradeWhen": "A different design resolves a documented building or operating constraint at an acceptable complete cost. Verify the remaining dependencies separately.",
@@ -81,7 +81,7 @@ export default {
   "research": {
     "kind": "feature",
     "id": "mri-site-readiness",
-    "researchedAt": "2026-10-17",
+    "researchedAt": "2026-10-18",
     "coverage": [
       "MRI project go/no-go",
       "specialist site survey",
@@ -90,8 +90,8 @@ export default {
       "sealed-magnet siting tradeoffs",
       "accessories and long-term support"
     ],
-    "title": "The MRI bargain starts with a site survey",
-    "dek": "Resolve the building, utilities, installation responsibilities and support route before a low scanner price becomes an expensive unfinished project.",
+    "title": "Can your building afford the MRI bargain?",
+    "dek": "Check the exact magnet, delivery route, utilities and support before a low scanner price becomes an unfinished project.",
     "verdict": "Proceed only when an exact configuration has an approved clinical brief, a specialist site assessment, a priced installation scope and a funded operating/support plan. Compare reused infrastructure and different magnet designs on their complete project cost; defer the purchase when essential dependencies remain unfunded.",
     "decision": {
       "firstMove": "Commission a site feasibility review against the exact scanner and magnet configuration.",
@@ -100,9 +100,9 @@ export default {
       "walkAwayWhen": "Safe siting, delivery access, utilities, staffing or major-component support cannot be credibly funded."
     },
     "social": {
-      "title": "An MRI price is not an MRI project budget",
-      "description": "Check the exact magnet, building, utilities, delivery route and support plan before committing to the scanner.",
-      "hook": "The first MRI buying decision is whether the site can sustain the proposed system."
+      "title": "Can your building afford the MRI bargain?",
+      "description": "Check the exact magnet, delivery route, utilities and support before a low scanner price becomes an unfinished project.",
+      "hook": "The building can change which MRI offer is affordable."
     },
     "choices": [
       {
@@ -170,62 +170,60 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Define the service before reserving the scanner",
+        "heading": "Spend the first money on feasibility",
         "paragraphs": [
-          "An MRI purchase commits the hospital to a building, specialist equipment and an operating service. Begin with the examinations the clinical team needs, the coils and software required, the intended workload and the people who will run and support it. Then identify the exact scanner and magnet configuration proposed to deliver that service.",
-          "Do not allow an attractive available unit to define the clinical brief by default. A missing coil, unavailable application or uncertain support entitlement can weaken the value of the entire installation. The preliminary decision is whether this configuration can become a complete sustainable service at this location."
+          "An inexpensive MRI can become the expensive choice if the building cannot accept it without major work. Reserve the equipment only after the clinical brief and a specialist site assessment point to a feasible installation. The brief should identify examinations, coils, software, workload and the people who will run the service.",
+          "Start with at least two routes where practical: a supported configuration that can use the existing suite, and an alternative that resolves a documented constraint. Compare the whole project. A missing coil or application can make either route unsuitable even when the magnet fits."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Use the site survey as a decision gate",
+        "heading": "Use the exact planning revision",
         "paragraphs": [
-          "Bring the MRI supplier, project architect, structural and building-services engineers and the hospital's MR safety expertise into the feasibility assessment. Identify which findings could stop the project, which require redesign and which simply need a priced work item. Assign an owner and a resolution date to each open dependency.",
-          "GE's planning portal explicitly distinguishes typical drawings from construction drawings and calls for the full configuration-specific planning information. A floor plan downloaded from a similar system is useful for early discussion, but cannot approve this site. Match every document revision to the actual magnet, cabinets, cooling arrangement and proposed installation."
+          "GE's planning portal distinguishes typical layouts from construction drawings. A drawing from a similar scanner can start a discussion; it cannot approve this installation. Match the documents to the exact magnet, cabinets, cooling arrangement and proposed configuration.",
+          "Bring the supplier, architect, structural and building-services engineers and MR safety expertise into the review. Separate findings that stop the project from those that require redesign or a priced work item. Each unresolved interface needs an owner and a completion date before delivery becomes a commitment."
         ],
         "sourceIds": [
           "ge-planning"
         ]
       },
       {
-        "heading": "Inspect the route and the spaces beyond the scanner room",
+        "heading": "Look beyond the scan room",
         "paragraphs": [
-          "Have the project team review delivery access, structural loading, equipment clearances, neighboring spaces and the path for future major-component replacement. GE's January 2026 SIGNA Pioneer typical drawings separately address structural requirements, magnetic interference, vibration, RF shielding and delivery. Those headings show why an empty room of apparently sufficient size is only an initial observation.",
-          "The assessment should produce a coordinated scope, not several contractors assuming someone else owns an interface. Record who supplies penetrations, shielding work, utilities, cooling, monitoring and final verification. Resolve changes before equipment shipment, and identify the consequences of a delivery date moving while construction remains incomplete."
+          "Delivery access, structural loading and the route for a later major-component replacement belong in the first assessment. The January 2026 GE SIGNA Pioneer typical drawings separately address structure, magnetic interference, vibration, RF shielding, cooling and cryogenic planning. An apparently spacious room answers only a small part of that brief.",
+          "Consider an illustrative choice between two otherwise suitable systems. One can use a reapproved existing delivery route; the other requires opening and reinstating part of the building. Even without equipment prices, the comparison reveals a real cost and schedule difference. Measure and price that difference before ranking the offers. This example is a decision method, not a claim that a particular scanner fits your site."
         ],
         "sourceIds": [
           "ge-pioneer-plan"
         ]
       },
       {
-        "heading": "A different magnet design may change the project economics",
+        "heading": "Know which dependency a different magnet removes",
         "paragraphs": [
-          "Philips describes BlueSeal as a sealed-helium technology that does not require a quench pipe. Where vent routing or helium logistics is a real constraint, that distinction deserves a priced comparison. It is a specific design characteristic, not permission to apply the same assumptions to every system marketed as low-helium.",
-          "Compare clinically suitable configurations on their actual building and operating implications. A higher equipment price may be offset by avoided work, but that conclusion needs project quotations. Confirm remaining power, cooling, shielding, access and service requirements. A feature that simplifies one dependency does not establish that the entire site is ready."
+          "Philips describes BlueSeal as a sealed-helium technology that does not require a quench pipe. Where vent routing or helium logistics is a material constraint, it deserves comparison with a clinically suitable conventional design. Avoid extending that specific feature to every system described as low-helium.",
+          "The useful question is which documented work disappears and which remains. Confirm power, cooling, shielding, access and support separately. A premium may be justified by avoided construction or an operating dependency, but an economic winner requires the actual scopes and costs. Reusing an existing suite can also be attractive when the proposed replacement is verified for it."
         ],
         "sourceIds": [
           "philips-blueseal"
         ]
       },
       {
-        "heading": "Fund the room's working equipment and people",
+        "heading": "Include the equipment that makes the room usable",
         "paragraphs": [
-          "List the supporting equipment required for the planned service: positioning accessories, patient communication, appropriate monitoring when required, transport and emergency arrangements, and the approved screening workflow. Ask the MR safety team to verify each item's intended location and compatibility. FDA guidance states that MR Conditional equipment must be used within its stated conditions; an unspecified “MRI compatible” description is insufficient purchasing evidence.",
-          "Include staff training, supervised handover, quality checks, image transfer and service documentation in the opening budget. Establish who manages the suite and who can authorize a response to an equipment or utility problem. Those responsibilities must remain clear after the installation team leaves."
+          "Budget for the required coils and positioning accessories, patient communication, appropriate monitoring, transport, emergency arrangements and screening workflow. Have the MR safety team verify each item's intended location and conditions of use. FDA guidance requires MR Conditional devices to meet all their stated conditions; an unqualified 'MRI compatible' description is insufficient.",
+          "Training, supervised handover, quality checks, image transfer and service documentation should be funded before opening. Confirm who manages the suite and who can authorize the response to equipment or utility problems after the installation team leaves."
         ],
         "sourceIds": [
           "fda-mr"
         ]
       },
       {
-        "heading": "Test whether the project survives its first interruption",
+        "heading": "Choose a project the hospital can sustain",
         "paragraphs": [
-          "Obtain support proposals covering the exact scanner, coils, software and relevant cooling equipment, with major exclusions made explicit. Ask where specialists and parts are based, what routine support requires and what happens after a significant interruption. Compare funded contingencies and interim service arrangements, not only the annual maintenance fee.",
-          "Block Imaging's MRI project overview usefully separates selection, installation and upkeep; its general guidance cannot price this building. Proceed when feasibility, scope, funding and responsibilities align. If a critical utility, safety or support dependency remains unresolved, defer the equipment commitment and complete that work first. A purchase that waits for readiness can be cheaper than a scanner waiting for a usable hospital."
+          "Put contractor responsibilities next to the corresponding costs: penetrations, shielding, utilities, cooling, monitoring, installation and final verification. This prevents an attractive scanner quote from concealing work that every supplier assumed another party would provide.",
+          "Then test a significant interruption. Identify support for the exact scanner, coils, software and cooling equipment, the specialists and parts available to the destination, and the alternative service while repairs occur. Proceed when those responsibilities and funds are credible. If a critical dependency remains unresolved, complete the readiness work before buying the equipment; money tied up in a waiting scanner cannot finish the room."
         ],
-        "sourceIds": [
-          "block-mri"
-        ]
+        "sourceIds": []
       }
     ],
     "checklist": [
@@ -291,8 +289,8 @@ export default {
         "url": "https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/information-professionals",
         "publisher": "FDA",
         "kind": "regulator",
-        "accessed": "2026-10-17",
-        "evidence": "MR Conditional devices require compliance with their conditions; devices with unknown MR safety status should be treated as unsafe."
+        "accessed": "2026-10-18",
+        "evidence": "Professional guidance rechecked: MR Conditional devices require every stated condition; unknown MR safety status is assumed unsafe. Used narrowly for procurement of support equipment."
       },
       {
         "id": "block-mri",
@@ -311,5 +309,6 @@ export default {
       "ct-tube-budget"
     ]
   },
-  "searchTerms": "MRI project go/no-go specialist site survey exact magnet and configuration shielding utilities and delivery sealed-magnet siting tradeoffs accessories and long-term support Reuse an existing MRI suite for a verified replacement Conventional superconducting installation; GE SIGNA Pioneer planning example Philips BlueSeal 1.5T platform"
+  "searchTerms": "MRI project go/no-go specialist site survey exact magnet and configuration shielding utilities and delivery sealed-magnet siting tradeoffs accessories and long-term support Reuse an existing MRI suite for a verified replacement Conventional superconducting installation; GE SIGNA Pioneer planning example Philips BlueSeal 1.5T platform",
+  "librarySection": "decisions"
 };

@@ -7,6 +7,7 @@ import { routes } from '../src/routes.mjs';
 import { equipment } from '../src/catalog.mjs';
 import { articles } from '../src/articles.mjs';
 import { researchGuides } from '../src/research-guides.generated.mjs';
+import { localReference } from './html-references.mjs';
 
 const root = resolve(import.meta.dirname, '../dist');
 const pages = [...routes.map(route => route.path.slice(1, -5)), '404'];
@@ -27,18 +28,17 @@ for (const [file, html] of rendered) {
   // Philips' verified FRx product URL literally ends in /undefined; it is not a rendering error.
   const checkedHtml = html.replaceAll('https://www.philips.com.ph/healthcare/product/HC861304/undefined', 'verified-philips-product');
   assert.ok(!/\bundefined\b/.test(checkedHtml), `${file}: undefined content`);
-  for (const match of html.matchAll(/(?:href|src)="([^"#]+)(?:#[^"]*)?"/g)) {
-    const url = match[1].replace(/&amp;/g, '&');
-    if (/^(https?:|data:|mailto:|tel:)/.test(url)) continue;
-    const target = new URL(url, `https://mms.invalid/${file}`).pathname.slice(1);
+  for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
+    const target = localReference(match[1], file)?.path;
     if (!target) continue;
     await access(resolve(root, target));
     links++;
   }
-  for (const match of html.matchAll(/href="([^"#?]*)#([^"]+)"/g)) {
-    const destination = match[1] ? new URL(match[1], `https://mms.invalid/${file}`).pathname.slice(1) : file;
-    const targetHtml = rendered.get(destination);
-    assert.ok(targetHtml?.includes(`id="${match[2]}"`), `${file}: broken anchor ${match[0]}`);
+  for (const match of html.matchAll(/href="([^"]+)"/g)) {
+    const target = localReference(match[1], file);
+    if (!target?.fragment) continue;
+    const targetHtml = rendered.get(target.path);
+    assert.ok(targetHtml?.includes(`id="${target.fragment}"`), `${file}: broken anchor ${match[0]}`);
   }
 }
 const team = rendered.get('about.html');

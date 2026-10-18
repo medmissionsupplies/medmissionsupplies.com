@@ -3,8 +3,8 @@ export default {
   "key": "refrigeration",
   "kind": "research-guide",
   "equipmentId": "refrigeration",
-  "title": "Medical refrigerators: buy for the stock and the room",
-  "summary": "Vaccine, blood and pharmacy storage need separate choices. Usable capacity, ambient limits and outage response decide which cabinet earns its cost.",
+  "title": "Buying medical refrigerators: protect the stock through the outage",
+  "summary": "Compare vaccine, blood and pharmacy cabinets by usable capacity, room conditions and the response when power fails. Extra litres cannot fix an unsuitable room.",
   "categoryId": "hospital",
   "category": "Hospital essentials",
   "image": "guides/refrigeration",
@@ -23,45 +23,45 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 4,
+  "minutes": 5,
   "sections": [
     [
-      "Name the stock before choosing the cabinet",
-      "Vaccine, blood and reagent storage are separate buying jobs. Start with the exact products, permitted storage conditions, peak inventory and door-opening pattern. A large 'medical refrigerator' label does not establish suitability for all three. Usable space must leave room for the validated storage arrangement rather than simply fit every package inside. The purchase protects stock through a real working day and a real interruption. Include independent monitoring where required, alarm routing, a person able to respond and an alternative storage plan. That makes capacity useful; a low cabinet price is little consolation when a temperature excursion leaves the service quarantining its inventory."
+      "Buy for the stock that has to survive",
+      "Vaccines, blood and pharmacy or laboratory stock are separate storage jobs. Begin with the actual products, their permitted conditions and the busiest replenishment cycle. Gross cabinet litres do not tell you how much stock fits in the required arrangement with circulation space. A large medical-refrigerator label is not proof that the cabinet suits every product. Treat monitoring, the alarm responder and alternative storage as part of the purchase. A display on the door is little help after staff leave. Decide what happens when an alarm reaches an unattended phone, a communications link fails or the receiving cabinet is already full. The useful comparison is the protected service, including those dependencies."
     ],
     [
-      "Solar pays when the building supply is the weak link",
-      "Dulas VC88SDD's battery-free solar-direct-drive architecture separates cooling from unreliable building electricity. Its 88 L net vaccine capacity is the relevant figure, not the gross cabinet size. The solar design still has to fit the site and season, with secure mounting, clear ventilation and controlled shading. Published autonomy describes tested conditions rather than any installation a buyer might assemble. Compare capacity with the replenishment schedule. More space may reduce deliveries, but it can also concentrate more stock in one cabinet. Haier HTC-120 is an identifiable alternative through the UNICEF/PQS listing; compare the exact qualified package and local aftercare rather than assuming the lower displayed currency amount is the better installation."
+      "Solar solves a particular power problem",
+      "Dulas VC88SDD provides 88 L net vaccine capacity with solar direct drive. A suitable installation can separate cooling from unreliable building electricity. Its value depends on the actual site: seasonal solar availability, shading, secure mounting, ventilation and aftercare. Published autonomy belongs to specified test conditions, not any panel arrangement a buyer attaches. Compare Haier HTC-120 as an identified qualified package in the same UNICEF procurement table. Match usable inventory and delivery intervals before comparing price. More storage may reduce deliveries but also concentrates more stock in a single cabinet; a replenishment change and a larger refrigerator are different ways to solve a capacity problem."
     ],
     [
-      "Use the UNICEF prices as a scope comparison",
-      "The September 2026 UNICEF table records EUR 4,880–5,060 for VC88SDD and USD 3,937–4,417 for HTC-120. These are institutional FCA containerized sea-shipment terms with EMS level 2 and exclusions, not a small hospital's delivered retail prices. The currencies also differ. They provide an informed starting point only after the package and delivery basis are matched. Separate cabinet, solar equipment, monitoring, inland transport, installation, commissioning, training and warranty logistics. A higher complete local offer may earn its difference through those services; a vague solar-package premium may not. Use the benchmark to identify what the hospital receives for each part of the price."
+      "Tender prices help only when the scope travels with them",
+      "UNICEF’s September 2026 table gives EUR 4,880–5,060 for VC88SDD and USD 3,937–4,417 for HTC-120. These institutional figures use FCA containerized sea-shipment terms with EMS level 2 and stated exclusions. They are neither directly comparable currencies nor a hospital’s delivered retail price. Keep cabinet, solar equipment, monitoring, inland freight, installation, commissioning, training and warranty travel separate in a local comparison. A higher complete price may buy useful work that the benchmark excludes. An unexplained premium may buy nothing extra. Do not apply an exchange rate without its date or assume eligibility for an institutional contract."
     ],
     [
-      "B131 buys more blood storage, not hotter-room capability",
-      "B51 has 45 L net storage; B131 provides 106 L and a published capacity of 51 bags of 450 mL. That gives a concrete reason to choose the larger model when peak inventory needs it. Compare the actual bag arrangement, not gross cabinet litres. Both retain an ambient range of +10°C to +32°C, so changing from B51 to B131 does not fix a room that exceeds the limit. Keep holdover language separate from permitted blood-storage conditions. B51's stated 1.5 hours is measured from +4°C to +10°C; it is not permission to hold blood at the endpoint. Specify the backup-power and stock-transfer response accordingly. Likewise, B131's remote monitoring is optional equipment, not an assumed service included with the cabinet."
+      "More blood capacity does not buy a hotter-room rating",
+      "B51 offers 45 L storage and B131 106 L, with B131 listing 51 bags of 450 mL. Peak inventory can justify the larger model. Both specify +10°C to +32°C ambient operation, so a move to B131 does not fix a room above that limit. Compare the complete storage and room-control solution. B51’s published 1.5-hour holdover measures warming from +4°C to +10°C. That endpoint is not permission to hold blood at +10°C. Use the stock’s permitted conditions to design the response, with the responsible blood-service team. Remote monitoring also needs its specified optional hardware/software and a working communications path; it is not automatically included because the page mentions alarms."
     ],
     [
-      "Pharmacy capacity is worth buying only when it is usable",
-      "PHCbi MPR-S150H-PE gives a larger 165 L sliding-door option. P55 offers 45 L storage, a +5°C set point, forced-air cooling and USB export; its opened specification is 220–240 V, 50–60 Hz and +10°C to +32°C ambient. These are useful differences for a small versus larger inventory, not evidence that one is universally cheaper. Map the installed arrangement for the actual medicines or reagents, including packaging and circulation space. Compare complete monitoring and service costs after deciding the usable capacity. The available product evidence does not establish comparative long-term failure rates, so a more elaborate display alone should not decide the premium."
+      "Size pharmacy storage around the working arrangement",
+      "P55 provides a compact 45 L option; PHCbi MPR-S150H-PE provides a 165 L sliding-door alternative. Choose the smaller supported cabinet when the required arrangement fits, and pay for the larger one when stock and access justify it. P55’s cited 220–240 V configuration and +10°C to +32°C room range must fit the installation. Confirm the installed temperature performance for the intended medicines or reagents, including the loaded arrangement and normal door openings. Add replacement covers or seals where relevant, refrigeration service, monitoring costs and the stock-transfer provision to the common ownership period. A digital display and a long cabinet warranty do not establish lower failure rates or guarantee the whole refrigeration system for that same term."
     ]
   ],
   "related": [
     "refrigeration"
   ],
-  "socialTitle": "Medical refrigerators: buy for the stock and the room",
-  "socialDescription": "Compare solar vaccine, blood-bank and pharmacy options by usable capacity, room temperature, monitoring and the cost of protecting stock.",
-  "socialHeadline": "Medical refrigerator buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Buying medical refrigerators: protect the stock through the outage",
+  "socialDescription": "Compare vaccine, blood and pharmacy cabinets by usable capacity, room conditions and the response when power fails. Extra litres cannot fix an unsuitable room.",
+  "socialHeadline": "Buying medical refrigerators: protect the stock through the outage",
+  "socialStrapline": "An alarm is useful only when someone can protect the stock.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "refrigeration",
-    "title": "Medical refrigerator buying guide",
-    "summary": "Name the stock, temperature requirements and peak inventory first. Vaccine, blood and pharmacy cabinets solve different storage jobs and need a practical alarm response.",
-    "firstChoice": "For off-grid vaccines fitting 88 L net capacity, compare Dulas VC88SDD with an appropriately qualified Haier HTC-120 package. For blood, compare B51's 45 L with B131's 106 L against actual inventory.",
-    "upgradeWhen": "Buy extra blood capacity when peak stock needs it. For pharmacy or reagents, compare P55's 45 L with PHCbi MPR-S150H-PE's 165 L and the required validated storage arrangement.",
+    "title": "Buying medical refrigerators: protect the stock through the outage",
+    "summary": "Compare vaccine, blood and pharmacy cabinets by usable capacity, room conditions and the response when power fails. Extra litres cannot fix an unsuitable room.",
+    "firstChoice": "List the actual contents, permitted temperatures, peak usable volume and hottest room conditions before choosing vaccine, blood or pharmacy equipment.",
+    "upgradeWhen": "Larger inventory requires B131 or the PHCbi cabinet, or an appropriate solar installation removes dependence on unreliable building power.",
     "budgetWatch": "A larger B131 retains B51's +32°C upper ambient limit. Solar pricing must include site design and installation. UNICEF tender benchmarks have specific currencies, delivery terms and exclusions; they are not hospital landed prices.",
-    "supportCheck": "Specify monitoring, a named alarm responder and stock-transfer arrangements. B51's published holdover to +10°C is a test endpoint, not permission to store blood at that temperature.",
+    "supportCheck": "Reject B51/B131/P55 for a room outside their rated ambient range, or a package that lacks a workable alarm and outage response.",
     "askSupplier": [
       "What usable capacity remains for our products and airflow arrangement?",
       "Will this cabinet work within our measured room conditions?",
@@ -78,8 +78,8 @@ export default {
   },
   "research": {
     "id": "refrigeration",
-    "title": "Medical refrigerators: buy for the stock and the room",
-    "dek": "Vaccine, blood and pharmacy storage need separate choices. Usable capacity, ambient limits and outage response decide which cabinet earns its cost.",
+    "title": "Buying medical refrigerators: protect the stock through the outage",
+    "dek": "Compare vaccine, blood and pharmacy cabinets by usable capacity, room conditions and the response when power fails. Extra litres cannot fix an unsuitable room.",
     "verdict": "For an off-grid vaccine service whose inventory fits 88 L net, Dulas VC88SDD is a concrete solar-direct-drive starting point; compare Haier HTC-120 in an appropriate qualified package using matched delivery scope. For blood, choose between B51's 45 L and B131's 106 L storage by peak inventory—both retain the same +32°C upper ambient limit. For pharmacy or reagents, P55's 45 L can suit a small validated inventory, while PHCbi MPR-S150H-PE supplies a 165 L sliding-door alternative. Buy the alarm response and backup arrangement with the cabinet.",
     "coverage": [
       "refrigeration",
@@ -153,7 +153,7 @@ export default {
         "position": "Compact pharmacy/reagent storage",
         "bestFor": "A pharmacy or reagent store whose validated peak inventory fits 45 L of storage.",
         "why": "P55 offers a smaller cabinet than the 165 L PHCbi candidate, with a +5°C set point, forced-air cooling and USB data export.",
-        "tradeoff": "The opened specification is 220–240 V, 50–60 Hz and +10°C to +32°C ambient. Confirm the contents' temperature requirements and leave usable airflow space.",
+        "tradeoff": "The cited specification is 220–240 V, 50–60 Hz and +10°C to +32°C ambient. Confirm the contents' temperature requirements and leave usable airflow space.",
         "price": "Quote required. Include independent monitoring and any optional remote-alarm hardware or software.",
         "support": "The manufacturer provides support and manual links; no destination-specific service commitment or comparative failure-rate evidence has been established.",
         "sourceIds": [
@@ -163,18 +163,18 @@ export default {
     ],
     "sections": [
       {
-        "heading": "Name the stock before choosing the cabinet",
+        "heading": "Buy for the stock that has to survive",
         "paragraphs": [
-          "Vaccine, blood and reagent storage are separate buying jobs. Start with the exact products, permitted storage conditions, peak inventory and door-opening pattern. A large 'medical refrigerator' label does not establish suitability for all three. Usable space must leave room for the validated storage arrangement rather than simply fit every package inside.",
-          "The purchase protects stock through a real working day and a real interruption. Include independent monitoring where required, alarm routing, a person able to respond and an alternative storage plan. That makes capacity useful; a low cabinet price is little consolation when a temperature excursion leaves the service quarantining its inventory."
+          "Vaccines, blood and pharmacy or laboratory stock are separate storage jobs. Begin with the actual products, their permitted conditions and the busiest replenishment cycle. Gross cabinet litres do not tell you how much stock fits in the required arrangement with circulation space. A large medical-refrigerator label is not proof that the cabinet suits every product.",
+          "Treat monitoring, the alarm responder and alternative storage as part of the purchase. A display on the door is little help after staff leave. Decide what happens when an alarm reaches an unattended phone, a communications link fails or the receiving cabinet is already full. The useful comparison is the protected service, including those dependencies."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Solar pays when the building supply is the weak link",
+        "heading": "Solar solves a particular power problem",
         "paragraphs": [
-          "Dulas VC88SDD's battery-free solar-direct-drive architecture separates cooling from unreliable building electricity. Its 88 L net vaccine capacity is the relevant figure, not the gross cabinet size. The solar design still has to fit the site and season, with secure mounting, clear ventilation and controlled shading. Published autonomy describes tested conditions rather than any installation a buyer might assemble.",
-          "Compare capacity with the replenishment schedule. More space may reduce deliveries, but it can also concentrate more stock in one cabinet. Haier HTC-120 is an identifiable alternative through the UNICEF/PQS listing; compare the exact qualified package and local aftercare rather than assuming the lower displayed currency amount is the better installation."
+          "Dulas VC88SDD provides 88 L net vaccine capacity with solar direct drive. A suitable installation can separate cooling from unreliable building electricity. Its value depends on the actual site: seasonal solar availability, shading, secure mounting, ventilation and aftercare. Published autonomy belongs to specified test conditions, not any panel arrangement a buyer attaches.",
+          "Compare Haier HTC-120 as an identified qualified package in the same UNICEF procurement table. Match usable inventory and delivery intervals before comparing price. More storage may reduce deliveries but also concentrates more stock in a single cabinet; a replenishment change and a larger refrigerator are different ways to solve a capacity problem."
         ],
         "sourceIds": [
           "dulas",
@@ -182,20 +182,20 @@ export default {
         ]
       },
       {
-        "heading": "Use the UNICEF prices as a scope comparison",
+        "heading": "Tender prices help only when the scope travels with them",
         "paragraphs": [
-          "The September 2026 UNICEF table records EUR 4,880–5,060 for VC88SDD and USD 3,937–4,417 for HTC-120. These are institutional FCA containerized sea-shipment terms with EMS level 2 and exclusions, not a small hospital's delivered retail prices. The currencies also differ. They provide an informed starting point only after the package and delivery basis are matched.",
-          "Separate cabinet, solar equipment, monitoring, inland transport, installation, commissioning, training and warranty logistics. A higher complete local offer may earn its difference through those services; a vague solar-package premium may not. Use the benchmark to identify what the hospital receives for each part of the price."
+          "UNICEF’s September 2026 table gives EUR 4,880–5,060 for VC88SDD and USD 3,937–4,417 for HTC-120. These institutional figures use FCA containerized sea-shipment terms with EMS level 2 and stated exclusions. They are neither directly comparable currencies nor a hospital’s delivered retail price.",
+          "Keep cabinet, solar equipment, monitoring, inland freight, installation, commissioning, training and warranty travel separate in a local comparison. A higher complete price may buy useful work that the benchmark excludes. An unexplained premium may buy nothing extra. Do not apply an exchange rate without its date or assume eligibility for an institutional contract."
         ],
         "sourceIds": [
           "unicef"
         ]
       },
       {
-        "heading": "B131 buys more blood storage, not hotter-room capability",
+        "heading": "More blood capacity does not buy a hotter-room rating",
         "paragraphs": [
-          "B51 has 45 L net storage; B131 provides 106 L and a published capacity of 51 bags of 450 mL. That gives a concrete reason to choose the larger model when peak inventory needs it. Compare the actual bag arrangement, not gross cabinet litres. Both retain an ambient range of +10°C to +32°C, so changing from B51 to B131 does not fix a room that exceeds the limit.",
-          "Keep holdover language separate from permitted blood-storage conditions. B51's stated 1.5 hours is measured from +4°C to +10°C; it is not permission to hold blood at the endpoint. Specify the backup-power and stock-transfer response accordingly. Likewise, B131's remote monitoring is optional equipment, not an assumed service included with the cabinet."
+          "B51 offers 45 L storage and B131 106 L, with B131 listing 51 bags of 450 mL. Peak inventory can justify the larger model. Both specify +10°C to +32°C ambient operation, so a move to B131 does not fix a room above that limit. Compare the complete storage and room-control solution.",
+          "B51’s published 1.5-hour holdover measures warming from +4°C to +10°C. That endpoint is not permission to hold blood at +10°C. Use the stock’s permitted conditions to design the response, with the responsible blood-service team. Remote monitoring also needs its specified optional hardware/software and a working communications path; it is not automatically included because the page mentions alarms."
         ],
         "sourceIds": [
           "blood",
@@ -203,14 +203,15 @@ export default {
         ]
       },
       {
-        "heading": "Pharmacy capacity is worth buying only when it is usable",
+        "heading": "Size pharmacy storage around the working arrangement",
         "paragraphs": [
-          "PHCbi MPR-S150H-PE gives a larger 165 L sliding-door option. P55 offers 45 L storage, a +5°C set point, forced-air cooling and USB export; its opened specification is 220–240 V, 50–60 Hz and +10°C to +32°C ambient. These are useful differences for a small versus larger inventory, not evidence that one is universally cheaper.",
-          "Map the installed arrangement for the actual medicines or reagents, including packaging and circulation space. Compare complete monitoring and service costs after deciding the usable capacity. The available product evidence does not establish comparative long-term failure rates, so a more elaborate display alone should not decide the premium."
+          "P55 provides a compact 45 L option; PHCbi MPR-S150H-PE provides a 165 L sliding-door alternative. Choose the smaller supported cabinet when the required arrangement fits, and pay for the larger one when stock and access justify it. P55’s cited 220–240 V configuration and +10°C to +32°C room range must fit the installation.",
+          "Confirm the installed temperature performance for the intended medicines or reagents, including the loaded arrangement and normal door openings. Add replacement covers or seals where relevant, refrigeration service, monitoring costs and the stock-transfer provision to the common ownership period. A digital display and a long cabinet warranty do not establish lower failure rates or guarantee the whole refrigeration system for that same term."
         ],
         "sourceIds": [
           "phc",
-          "pharmacy-p55"
+          "pharmacy-p55",
+          "blood"
         ]
       }
     ],
@@ -259,7 +260,7 @@ export default {
         "url": "https://www.bmedicalsystems.com/en/product/b51/",
         "publisher": "B Medical Systems",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "45 L net; ambient +10 to +32°C; specified holdover endpoint is +10°C."
       },
       {
@@ -335,10 +336,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Medical refrigerators: buy for the stock and the room",
-      "description": "Compare solar vaccine, blood-bank and pharmacy options by usable capacity, room temperature, monitoring and the cost of protecting stock.",
-      "hook": "A larger blood refrigerator can hold more stock while having exactly the same hot-room limitation."
-    }
+      "title": "Buying medical refrigerators: protect the stock through the outage",
+      "description": "Compare vaccine, blood and pharmacy cabinets by usable capacity, room conditions and the response when power fails. Extra litres cannot fix an unsuitable room.",
+      "hook": "An alarm is useful only when someone can protect the stock."
+    },
+    "researchedAt": "2026-10-18"
   },
-  "searchTerms": "refrigeration blood-bank refrigeration pharmacy and reagent refrigeration Dulas VC88SDD Haier HTC-120, exact PQS configuration B Medical Systems B51 B Medical Systems B131 PHCbi MPR-S150H-PE B Medical Systems P55"
+  "searchTerms": "Buying medical refrigerators: protect the stock through the outage refrigeration blood-bank refrigeration pharmacy and reagent refrigeration Dulas VC88SDD Haier HTC-120, exact PQS configuration B Medical Systems B51 B Medical Systems B131 PHCbi MPR-S150H-PE B Medical Systems P55",
+  "librarySection": "equipment"
 };

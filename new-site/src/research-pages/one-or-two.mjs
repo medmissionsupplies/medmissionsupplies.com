@@ -3,8 +3,8 @@ export default {
   "key": "one-or-two",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "One better machine—or two simpler ones?",
-  "summary": "Extra capacity and useful backup are different purchases. Decide what limits the service, then test whether a second machine actually removes that limit.",
+  "title": "One better machine or two simpler ones? Buy the missing capacity",
+  "summary": "A second console can leave the same queue—and the same single point of failure. Compare capability, daily capacity and usable backup before doubling the equipment.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/ultrasound",
@@ -27,50 +27,54 @@ export default {
   "minutes": 3,
   "sections": [
     [
-      "Name what the second machine would change",
-      "Identify the constraint: a shared instrument, delayed processing, repairs, or work beyond the current system's capability. Describe the planned work that becomes possible after the purchase. Then separate daily capacity from continuity during failure. A second unit might shorten a queue yet provide little backup if both are always fully occupied. A spare might protect service through a repair while doing little for ordinary throughput. Each earns its cost differently."
+      "Separate three reasons to spend",
+      "Start with the work that cannot happen today. Is the equipment missing a required function, occupied when another patient needs it, or unavailable during repair? Those are three different purchases: capability, capacity and continuity. A more advanced machine may solve the first without solving the second. A spare may solve the third while adding little everyday throughput. Use the busiest realistic day and one credible interruption to compare the alternatives. If both proposed units will be fully occupied, the second adds capacity but may leave little spare capacity during failure. If the spare will sit ready, include the cost of keeping its battery, accessories and user skills ready too."
     ],
     [
-      "Required capability cannot be added by counting boxes",
-      "Two simpler machines do not necessarily substitute for one appropriately configured system. The Tuttnauer T-Top example makes the distinction concrete: Class S and Class B configurations have different cycle/load specifications. If the instrument mix requires an appropriate vacuum-processing configuration, buying another lower-priced incompatible cycle does not supply that capability. Apply the same test to a backup monitor or ultrasound. EDAN's X8 lacks the optional invasive-pressure capability assigned to X10/X12. A second X8 can support the work it is equipped to do, but it is not an equivalent backup for a station requiring that channel. Specify the minimum functions the service must preserve before choosing the backup."
+      "Two simpler units cannot supply a missing function",
+      "The EDAN X8 example makes this concrete. In the manufacturer configuration table reviewed October 16, 2026, optional invasive blood pressure belongs to X10/X12, not X8. Another X8 can cover its supported monitoring work; it cannot become an equivalent backup for a station that requires the missing channel. The same logic applies to sterilization. Tuttnauer’s T-Top range has different Class S and Class B cycle/load configurations. An upgradeable label does not establish the configuration actually supplied. Two machines with an unsuitable cycle are not a substitute for one configuration validated for the required instrument load."
     ],
     [
-      "Find the bottleneck before buying another sterilizer",
-      "Map a complete instrument-set turnaround: cleaning and inspection, loading, the validated cycle, drying, cooling and release. A second sterilizer helps only to the extent that sterilizer availability or suitable batch capacity is constraining that process. If staff, cleaning facilities or the number of complete instrument sets are the limit, a second chamber may leave the queue unchanged. A supported 2540M and a current M11 illustrate different operating choices. The manual platform places more operation and documentation work with staff; the M11 provides automatic cycle records and care reminders. Decide whether the local problem is simultaneous processing capacity or staff attention before assuming that two simpler units or one automated unit is inherently better. Each arrangement still needs its own appropriate acceptance and quality system."
+      "A second chamber may leave the queue unchanged",
+      "Follow a complete instrument set through cleaning, inspection, loading, the validated cycle, drying, cooling and release. If the chamber is the limiting step and staff can support another one, added capacity may help. If the queue is waiting for cleaning, staff or enough complete sets, another chamber can remain idle beside the first. A supported Tuttnauer 2540M and the Midmark M11 illustrate a different choice: manual operation versus automation that includes cycle records and care reminders. Those documented features can change staff work. They do not establish that either arrangement is more reliable or that two manual units will produce more released sets. Compare the actual load and workflow, not just the chamber count."
     ],
     [
-      "Sometimes the useful second item is a scope",
-      "An endoscopy service can own two towers and still be unable to run a planned examination if its only suitable scope is being processed or repaired. Inventory the scope types and availability through the actual schedule. An additional accepted compatible scope, or a usable repair-loaner arrangement, may preserve more service than a second processor. Ultrasound has a similar accessory question. A spare console without the required probe does not restore the missing examination. Before adding a handheld as backup, have the responsible users determine which work it can cover and whether the complete display, power and image-export workflow is available. Price the capability that would remain during a failure rather than assuming every device labeled ultrasound is interchangeable."
+      "Sometimes the useful second purchase is a scope",
+      "Consider a deliberately simplified, hypothetical endoscopy list. A service has one suitable scope and one processor. Under its assumed processing and staffing schedule, that scope can cover only two of four planned examinations. A second processor alone still leaves one scope. A second accepted compatible scope may remove the constraint—but only if processing, staff and the rest of the system can support the additional work. These figures illustrate the dependency; they are not a clinical throughput standard. Ultrasound has the same trap. A spare console without the required probe does not restore the missing examination. An additional probe or compatible repair loaner may therefore be more useful than another console. A handheld can be valuable backup for work the users accept it to perform, provided the display, charging and image-export path are available. The word “ultrasound” alone does not make two packages interchangeable."
     ],
     [
-      "Test the backup against a shared failure",
-      "List shared dependencies: electricity, oxygen, water treatment, charging, software, consumables and repair providers. Two machines can stop together when either depends on the same unavailable utility or supply. Standardization can still be sensible if those common dependencies are managed. Standardizing models can simplify accessories, training and maintenance. Using different platforms can sometimes preserve capability through a platform-specific interruption but also creates more supplies and skills to maintain. Choose that tradeoff deliberately. WHO's facility oxygen framework is useful here because source, storage and distribution remain relevant regardless of how many oxygen-dependent devices are purchased."
+      "Test what could stop both machines",
+      "Two devices can still depend on one oxygen source, charger, water system, software service or consumable delivery. Buying a second device does not remove that common failure. WHO’s facility oxygen framework is useful here: source, storage and distribution remain part of the service however many oxygen-dependent devices are installed. Standardizing equipment can simplify training, accessories and maintenance. Different platforms may offer another route through a platform-specific interruption, but they also create more supplies and skills to sustain. Choose diversity only when that benefit is concrete; it is not automatically safer than a supported common platform."
     ],
     [
-      "Budget the second unit as a working package",
-      "Include its required accessories, power, supplies, maintenance, verification and trained users. A partially equipped spare can create false confidence. Define where it is kept, how its readiness is checked, who moves it into service and which work it is expected to cover. Compare one upgraded unit, two complete simpler units and a targeted continuity arrangement over the same workload and period. Use the site's actual delay, repair and supply experience where available. No universal utilization percentage or machine count decides the answer. The useful purchase is the one that removes the identified limit while leaving the team able to sustain the resulting service."
+      "Compare one period and one useful output",
+      "Compare an upgrade, a complete second unit and a targeted continuity purchase over the same period. Include accessories, supplies, maintenance, readiness checks and training. Use one output that each arrangement can actually support: the same examination, released set or other defined task. Do not divide one option’s three-year costs by another option’s annual workload. For example, an explicitly hypothetical three-year arrangement costing US$18,000 and supporting 3,000 of the defined tasks costs US$6 per supported task. If another costs US$24,000 and supports the same 3,000 tasks, its US$8 result needs a separate justification—perhaps required capability or useful continuity. Neither figure measures a brand’s reliability or puts a value on a clinical outcome."
+    ],
+    [
+      "The decision to take away",
+      "Buy the smallest complete change that removes the identified limit. Confirm the minimum work the backup must preserve, where it will be kept and who keeps it ready. A second machine earns its place when it adds usable capacity or continuity; a probe, scope, set or better-supported repair route can sometimes do that job for less."
     ]
   ],
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "One better machine—or two simpler ones?",
-  "socialDescription": "A second machine helps only when it can do the needed work and survive the interruption. Find the bottleneck before doubling the equipment.",
-  "socialHeadline": "One better machine or two simpler ones: buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "One machine or two? Find the real bottleneck",
+  "socialDescription": "A spare console is not much help without the right probe, scope or supply. See when an upgrade, a second unit or a smaller purchase earns its cost.",
+  "socialHeadline": "One machine or two? Find the real bottleneck",
+  "socialStrapline": "More boxes do not always mean more usable care.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "one-or-two",
-    "title": "One better machine or two simpler ones: buying guide",
-    "summary": "Name the constraint before counting machines: required capability, daily capacity and continuity during repairs are different reasons to spend.",
-    "firstChoice": "Fund the smallest complete change that removes the real bottleneck. That may be another compatible endoscope, an ultrasound probe, more instrument sets or a repair-loaner arrangement before another console.",
-    "upgradeWhen": "Buy higher capability when the work needs it. A second X8 cannot back up required invasive pressure; another incompatible sterilizer cycle cannot replace the required T-Top load capability.",
-    "budgetWatch": "Two units each need accessories, supplies, maintenance and trained users. Check cleaning, drying, cooling and release before buying a second sterilizer. M11 automation may help staff workload where manual 2540M operation consumes attention.",
-    "supportCheck": "Test the backup against shared interruptions. Two oxygen-dependent machines can both stop when their source fails. A handheld ultrasound is useful backup only for examinations and export workflows it can actually cover.",
+    "title": "One better machine or two simpler ones? Buy the missing capacity",
+    "summary": "Choose between capability, daily capacity and useful backup. A smaller accessory or processing purchase can sometimes solve more than another console.",
+    "firstChoice": "Fund the smallest complete change that removes the real constraint: an upgrade, second unit, compatible scope or probe, extra sets, or a supported repair arrangement.",
+    "upgradeWhen": "The work needs capability the simpler system lacks. Another X8 does not supply required invasive pressure, and an unsuitable sterilizer cycle does not become suitable by adding a second chamber.",
+    "budgetWatch": "Use the same cost period and task denominator. Include the spare’s accessories, supplies, readiness, service and training; keep continuity benefits separate from ordinary throughput.",
+    "supportCheck": "Test shared power, oxygen, charging, software and supply dependencies. The spare must cover the defined task with its own usable accessories.",
     "askSupplier": [
-      "Which additional work becomes possible with this second complete package?",
-      "What shared power, oxygen, software or supply failure stops both units?",
-      "Would a scope, probe, processing improvement or loaner remove more downtime?"
+      "What additional work will this complete package make possible?",
+      "What interruption could still stop both units?",
+      "Would a compatible accessory, processing fix or loaner solve more?"
     ],
     "sourceIds": [
       "ttop-loads",
@@ -86,45 +90,45 @@ export default {
   "research": {
     "id": "one-or-two",
     "kind": "feature",
-    "title": "One better machine—or two simpler ones?",
-    "dek": "Extra capacity and useful backup are different purchases. Decide what limits the service, then test whether a second machine actually removes that limit.",
-    "verdict": "Buy higher capability when the work requires it. Buy a second suitable unit for a demonstrated capacity or continuity problem. Improve accessories, processing or support when those are the actual constraints.",
+    "title": "One better machine or two simpler ones? Buy the missing capacity",
+    "dek": "A second console can leave the same queue—and the same single point of failure. Compare capability, daily capacity and usable backup before doubling the equipment.",
+    "verdict": "Buy a second complete unit when it removes a demonstrated queue or preserves required work during repair. Buy higher capability when the existing equipment cannot perform the job. When probes, scopes, sets or processing are the constraint, spend there first.",
     "decision": {
-      "firstMove": "Map the busiest realistic day and the failure that would stop it.",
-      "spendMoreWhen": "Required capability or a complete second unit preserves the planned service.",
-      "keepExistingWhen": "A targeted spare or workflow improvement gives the suitable installed unit useful resilience.",
-      "walkAwayWhen": "The backup cannot cover the required work or shares the unresolved cause of interruption."
+      "firstMove": "Name the missing capability, daily capacity or repair continuity before choosing equipment.",
+      "spendMoreWhen": "A complete additional package performs required work the other alternatives cannot sustain.",
+      "keepExistingWhen": "A compatible accessory, processing improvement or funded repair route removes the actual limit.",
+      "walkAwayWhen": "The proposed backup cannot do the required task or shares the unresolved interruption."
     },
     "social": {
-      "title": "One better machine—or two simpler ones?",
-      "description": "A second machine helps only when it can do the needed work and survive the interruption. Find the bottleneck before doubling the equipment.",
-      "hook": "Two machines can still leave the service dependent on one probe, one charger or one supply delivery."
+      "title": "One machine or two? Find the real bottleneck",
+      "description": "A spare console is not much help without the right probe, scope or supply. See when an upgrade, a second unit or a smaller purchase earns its cost.",
+      "hook": "More boxes do not always mean more usable care."
     },
     "sections": [
       {
-        "heading": "Name what the second machine would change",
+        "heading": "Separate three reasons to spend",
         "paragraphs": [
-          "Identify the constraint: a shared instrument, delayed processing, repairs, or work beyond the current system's capability. Describe the planned work that becomes possible after the purchase.",
-          "Then separate daily capacity from continuity during failure. A second unit might shorten a queue yet provide little backup if both are always fully occupied. A spare might protect service through a repair while doing little for ordinary throughput. Each earns its cost differently."
+          "Start with the work that cannot happen today. Is the equipment missing a required function, occupied when another patient needs it, or unavailable during repair? Those are three different purchases: capability, capacity and continuity. A more advanced machine may solve the first without solving the second. A spare may solve the third while adding little everyday throughput.",
+          "Use the busiest realistic day and one credible interruption to compare the alternatives. If both proposed units will be fully occupied, the second adds capacity but may leave little spare capacity during failure. If the spare will sit ready, include the cost of keeping its battery, accessories and user skills ready too."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Required capability cannot be added by counting boxes",
+        "heading": "Two simpler units cannot supply a missing function",
         "paragraphs": [
-          "Two simpler machines do not necessarily substitute for one appropriately configured system. The Tuttnauer T-Top example makes the distinction concrete: Class S and Class B configurations have different cycle/load specifications. If the instrument mix requires an appropriate vacuum-processing configuration, buying another lower-priced incompatible cycle does not supply that capability.",
-          "Apply the same test to a backup monitor or ultrasound. EDAN's X8 lacks the optional invasive-pressure capability assigned to X10/X12. A second X8 can support the work it is equipped to do, but it is not an equivalent backup for a station requiring that channel. Specify the minimum functions the service must preserve before choosing the backup."
+          "The EDAN X8 example makes this concrete. In the manufacturer configuration table reviewed October 16, 2026, optional invasive blood pressure belongs to X10/X12, not X8. Another X8 can cover its supported monitoring work; it cannot become an equivalent backup for a station that requires the missing channel.",
+          "The same logic applies to sterilization. Tuttnauer’s T-Top range has different Class S and Class B cycle/load configurations. An upgradeable label does not establish the configuration actually supplied. Two machines with an unsuitable cycle are not a substitute for one configuration validated for the required instrument load."
         ],
         "sourceIds": [
-          "ttop-loads",
-          "edan-options"
+          "edan-options",
+          "ttop-loads"
         ]
       },
       {
-        "heading": "Find the bottleneck before buying another sterilizer",
+        "heading": "A second chamber may leave the queue unchanged",
         "paragraphs": [
-          "Map a complete instrument-set turnaround: cleaning and inspection, loading, the validated cycle, drying, cooling and release. A second sterilizer helps only to the extent that sterilizer availability or suitable batch capacity is constraining that process. If staff, cleaning facilities or the number of complete instrument sets are the limit, a second chamber may leave the queue unchanged.",
-          "A supported 2540M and a current M11 illustrate different operating choices. The manual platform places more operation and documentation work with staff; the M11 provides automatic cycle records and care reminders. Decide whether the local problem is simultaneous processing capacity or staff attention before assuming that two simpler units or one automated unit is inherently better. Each arrangement still needs its own appropriate acceptance and quality system."
+          "Follow a complete instrument set through cleaning, inspection, loading, the validated cycle, drying, cooling and release. If the chamber is the limiting step and staff can support another one, added capacity may help. If the queue is waiting for cleaning, staff or enough complete sets, another chamber can remain idle beside the first.",
+          "A supported Tuttnauer 2540M and the Midmark M11 illustrate a different choice: manual operation versus automation that includes cycle records and care reminders. Those documented features can change staff work. They do not establish that either arrangement is more reliable or that two manual units will produce more released sets. Compare the actual load and workflow, not just the chamber count."
         ],
         "sourceIds": [
           "manual-sterilizer",
@@ -132,10 +136,10 @@ export default {
         ]
       },
       {
-        "heading": "Sometimes the useful second item is a scope",
+        "heading": "Sometimes the useful second purchase is a scope",
         "paragraphs": [
-          "An endoscopy service can own two towers and still be unable to run a planned examination if its only suitable scope is being processed or repaired. Inventory the scope types and availability through the actual schedule. An additional accepted compatible scope, or a usable repair-loaner arrangement, may preserve more service than a second processor.",
-          "Ultrasound has a similar accessory question. A spare console without the required probe does not restore the missing examination. Before adding a handheld as backup, have the responsible users determine which work it can cover and whether the complete display, power and image-export workflow is available. Price the capability that would remain during a failure rather than assuming every device labeled ultrasound is interchangeable."
+          "Consider a deliberately simplified, hypothetical endoscopy list. A service has one suitable scope and one processor. Under its assumed processing and staffing schedule, that scope can cover only two of four planned examinations. A second processor alone still leaves one scope. A second accepted compatible scope may remove the constraint—but only if processing, staff and the rest of the system can support the additional work. These figures illustrate the dependency; they are not a clinical throughput standard.",
+          "Ultrasound has the same trap. A spare console without the required probe does not restore the missing examination. An additional probe or compatible repair loaner may therefore be more useful than another console. A handheld can be valuable backup for work the users accept it to perform, provided the display, charging and image-export path are available. The word “ultrasound” alone does not make two packages interchangeable."
         ],
         "sourceIds": [
           "olympus-ecosystem",
@@ -144,20 +148,27 @@ export default {
         ]
       },
       {
-        "heading": "Test the backup against a shared failure",
+        "heading": "Test what could stop both machines",
         "paragraphs": [
-          "List shared dependencies: electricity, oxygen, water treatment, charging, software, consumables and repair providers. Two machines can stop together when either depends on the same unavailable utility or supply. Standardization can still be sensible if those common dependencies are managed.",
-          "Standardizing models can simplify accessories, training and maintenance. Using different platforms can sometimes preserve capability through a platform-specific interruption but also creates more supplies and skills to maintain. Choose that tradeoff deliberately. WHO's facility oxygen framework is useful here because source, storage and distribution remain relevant regardless of how many oxygen-dependent devices are purchased."
+          "Two devices can still depend on one oxygen source, charger, water system, software service or consumable delivery. Buying a second device does not remove that common failure. WHO’s facility oxygen framework is useful here: source, storage and distribution remain part of the service however many oxygen-dependent devices are installed.",
+          "Standardizing equipment can simplify training, accessories and maintenance. Different platforms may offer another route through a platform-specific interruption, but they also create more supplies and skills to sustain. Choose diversity only when that benefit is concrete; it is not automatically safer than a supported common platform."
         ],
         "sourceIds": [
           "oxygen-dependencies"
         ]
       },
       {
-        "heading": "Budget the second unit as a working package",
+        "heading": "Compare one period and one useful output",
         "paragraphs": [
-          "Include its required accessories, power, supplies, maintenance, verification and trained users. A partially equipped spare can create false confidence. Define where it is kept, how its readiness is checked, who moves it into service and which work it is expected to cover.",
-          "Compare one upgraded unit, two complete simpler units and a targeted continuity arrangement over the same workload and period. Use the site's actual delay, repair and supply experience where available. No universal utilization percentage or machine count decides the answer. The useful purchase is the one that removes the identified limit while leaving the team able to sustain the resulting service."
+          "Compare an upgrade, a complete second unit and a targeted continuity purchase over the same period. Include accessories, supplies, maintenance, readiness checks and training. Use one output that each arrangement can actually support: the same examination, released set or other defined task. Do not divide one option’s three-year costs by another option’s annual workload.",
+          "For example, an explicitly hypothetical three-year arrangement costing US$18,000 and supporting 3,000 of the defined tasks costs US$6 per supported task. If another costs US$24,000 and supports the same 3,000 tasks, its US$8 result needs a separate justification—perhaps required capability or useful continuity. Neither figure measures a brand’s reliability or puts a value on a clinical outcome."
+        ],
+        "sourceIds": []
+      },
+      {
+        "heading": "The decision to take away",
+        "paragraphs": [
+          "Buy the smallest complete change that removes the identified limit. Confirm the minimum work the backup must preserve, where it will be kept and who keeps it ready. A second machine earns its place when it adds usable capacity or continuity; a probe, scope, set or better-supported repair route can sometimes do that job for less."
         ],
         "sourceIds": []
       }
@@ -172,7 +183,7 @@ export default {
       "Compare an upgrade, a second unit and targeted continuity options."
     ],
     "ownership": {
-      "equation": "Cost per supported workload = complete equipment and accessories + supplies, service and readiness provision ÷ work the arrangement can actually sustain.",
+      "equation": "Cost per supported task over the chosen period = (complete equipment and accessories + supplies, service, training and readiness costs over that same period) ÷ defined tasks the arrangement can support over that period.",
       "drivers": [
         "Required capability and configuration",
         "Workflow and accessory bottlenecks",
@@ -277,5 +288,6 @@ export default {
     "choices": [],
     "quickCompare": []
   },
-  "searchTerms": "buying decisions"
+  "searchTerms": "buying decisions",
+  "librarySection": "decisions"
 };

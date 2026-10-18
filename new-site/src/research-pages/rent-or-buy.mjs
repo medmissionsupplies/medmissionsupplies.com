@@ -3,8 +3,8 @@ export default {
   "key": "rent-or-buy",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Rent for the gap you have, then check when the gap changes",
-  "summary": "Compare rental, loaner and purchase options using the complete usable period, compatible accessories and a clear return process.",
+  "title": "Rent equipment for a short gap. Recalculate when it grows.",
+  "summary": "A daily rate can hide delivery, return and extension costs. Compare rental with a complete purchase over the time the hospital actually needs cover.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/xray",
@@ -40,28 +40,28 @@ export default {
     ],
     [
       "Calculate the entire billable period",
-      "Obtain the contract's billing unit, minimum commitment, start event, end event, extension terms and cancellation conditions. Ask whether charges stop when the hospital requests collection, when the carrier collects, or when the provider receives the item. Those are questions for the actual agreement, not assumptions to make from the daily rate. For each duration case, add rental charges, delivery, collection, setup, necessary accessories, training, cleaning charges where applicable and uncovered damage exposure. Identify whether a malfunctioning rental is exchanged and how billing is handled during interruption. Keep deposits, refundable amounts and contingent liabilities separate from costs that will definitely be incurred."
+      "Obtain the contract's billing unit, minimum commitment, start event, end event, extension terms and cancellation conditions. Ask whether charges stop when the hospital requests collection, when the carrier collects, or when the provider receives the item. Those are questions for the actual agreement, not assumptions to make from the daily rate. For each duration case, add rental charges, delivery, collection, setup, necessary accessories, training, cleaning charges where applicable and uncovered damage exposure. Identify whether a malfunctioning rental is exchanged and how billing is handled during interruption. Keep deposits, refundable amounts and contingent liabilities separate from costs that will definitely be incurred. Consider an illustrative rental at US$50 per billable day plus US$400 delivery and collection. Twenty days cost US$1,400; sixty cost US$3,400. A comparable ready-to-use purchase at US$3,000 crosses that simplified rental total at 52 days. These invented figures exclude unequal maintenance, supplies, taxes and residual value, so 52 days is a calculation for this example—not a general buying rule."
     ],
     [
       "Put purchase and internal capacity beside the rental",
       "Use the same capability and planning period for every alternative. A purchase comparison should include delivery, acceptance, maintenance, consumables, storage, eventual disposition and any credible residual value. State the basis of that residual estimate; do not use an optimistic resale figure simply to make ownership look cheaper. Also examine an approved internal spare or redeployment. Include preparation, transport and the service gap created elsewhere. WHO's procurement guide supports a clear, accountable acquisition process; the worksheet here applies that principle by documenting the alternatives and assumptions. Lowest immediate cash outlay and lowest total cost can point to different decisions, so show both."
     ],
     [
-      "Give the temporary arrangement an owner and a review date",
+      "Schedule the next decision before the extension",
       "Assign one person to monitor the repair or project milestone, approve extensions and arrange return. Keep a receipt inventory and condition record so accessories and damage can be reconciled at collection. Confirm the equipment is no longer needed before ending cover, and preserve the provider's acknowledgement that the rental has closed. Revisit the comparison when the expected duration, usage or quote changes. A sensible short rental can become an expensive unexamined habit. Equally, buying an asset for a brief gap can create years of unnecessary ownership work. Choose the option that fits the current evidence, and schedule the next decision before the arrangement silently renews."
     ]
   ],
   "related": [
     "xray"
   ],
-  "socialTitle": "When does temporary equipment stop being temporary?",
-  "socialDescription": "Compare rental, service loaners, internal redeployment and purchase using complete period costs, compatibility and return terms.",
-  "socialHeadline": "Rent or buy: price the full gap",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "When does temporary equipment become an expensive habit?",
+  "socialDescription": "Price the rental through return, then test what an extended repair or project delay does to the decision.",
+  "socialHeadline": "When does temporary equipment become an expensive habit?",
+  "socialStrapline": "The rental ends when the contract says billing stops, not necessarily when scanning stops.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Rent or buy: price the full gap",
-    "summary": "Temporary equipment should fill a defined capability gap for a defined period. Compare usable packages and complete costs rather than daily rates alone.",
+    "title": "Rent equipment for a short gap. Recalculate when it grows.",
+    "summary": "A daily rate can hide delivery, return and extension costs. Compare rental with a complete purchase over the time the hospital actually needs cover.",
     "firstChoice": "State the required configuration, usable start date and event ending the need. Compare rental, confirmed loaner, approved internal capacity and purchase.",
     "upgradeWhen": "A better-supported or more complete package can meet the actual deadline and clinical requirement that a cheaper offer cannot demonstrate.",
     "budgetWatch": "Price the planned interval and plausible extensions. Include transport, setup, accessories, training, minimum commitments, return charges and the exact billing stop event.",
@@ -88,9 +88,9 @@ export default {
       "loaner availability",
       "owned spare and purchase comparison"
     ],
-    "title": "Rent for the gap you have, then check when the gap changes",
-    "dek": "Compare rental, loaner and purchase options using the complete usable period, compatible accessories and a clear return process.",
-    "verdict": "Rent when a defined temporary requirement and complete quoted terms make it the practical option. Reassess as the duration or workload changes; buy or redeploy a supported asset when its total cost and operating responsibilities better fit the continuing need.",
+    "title": "Rent equipment for a short gap. Recalculate when it grows.",
+    "dek": "A daily rate can hide delivery, return and extension costs. Compare rental with a complete purchase over the time the hospital actually needs cover.",
+    "verdict": "Rent a compatible package for a defined temporary gap. Revisit the decision when its duration changes; purchase or redeploy when continuing demand and the full operating cost justify ownership.",
     "decision": {
       "firstMove": "Define the capability, earliest usable date, expected end date and plausible extension before requesting offers.",
       "spendMoreWhen": "A compatible, timely package preserves a required service that a cheaper incomplete offer cannot provide.",
@@ -98,9 +98,9 @@ export default {
       "walkAwayWhen": "Availability, configuration, billing period, repair responsibility or return charges remain unresolved."
     },
     "social": {
-      "title": "When does temporary equipment stop being temporary?",
-      "description": "Compare rental, service loaners, internal redeployment and purchase using complete period costs, compatibility and return terms.",
-      "hook": "The daily rate is only one line in the temporary-equipment decision."
+      "title": "When does temporary equipment become an expensive habit?",
+      "description": "Price the rental through return, then test what an extended repair or project delay does to the decision.",
+      "hook": "The rental ends when the contract says billing stops, not necessarily when scanning stops."
     },
     "choices": [
       {
@@ -211,7 +211,8 @@ export default {
         "heading": "Calculate the entire billable period",
         "paragraphs": [
           "Obtain the contract's billing unit, minimum commitment, start event, end event, extension terms and cancellation conditions. Ask whether charges stop when the hospital requests collection, when the carrier collects, or when the provider receives the item. Those are questions for the actual agreement, not assumptions to make from the daily rate.",
-          "For each duration case, add rental charges, delivery, collection, setup, necessary accessories, training, cleaning charges where applicable and uncovered damage exposure. Identify whether a malfunctioning rental is exchanged and how billing is handled during interruption. Keep deposits, refundable amounts and contingent liabilities separate from costs that will definitely be incurred."
+          "For each duration case, add rental charges, delivery, collection, setup, necessary accessories, training, cleaning charges where applicable and uncovered damage exposure. Identify whether a malfunctioning rental is exchanged and how billing is handled during interruption. Keep deposits, refundable amounts and contingent liabilities separate from costs that will definitely be incurred.",
+          "Consider an illustrative rental at US$50 per billable day plus US$400 delivery and collection. Twenty days cost US$1,400; sixty cost US$3,400. A comparable ready-to-use purchase at US$3,000 crosses that simplified rental total at 52 days. These invented figures exclude unequal maintenance, supplies, taxes and residual value, so 52 days is a calculation for this example—not a general buying rule."
         ],
         "sourceIds": []
       },
@@ -226,7 +227,7 @@ export default {
         ]
       },
       {
-        "heading": "Give the temporary arrangement an owner and a review date",
+        "heading": "Schedule the next decision before the extension",
         "paragraphs": [
           "Assign one person to monitor the repair or project milestone, approve extensions and arrange return. Keep a receipt inventory and condition record so accessories and damage can be reconciled at collection. Confirm the equipment is no longer needed before ending cover, and preserve the provider's acknowledgement that the rental has closed.",
           "Revisit the comparison when the expected duration, usage or quote changes. A sensible short rental can become an expensive unexamined habit. Equally, buying an asset for a brief gap can create years of unnecessary ownership work. Choose the option that fits the current evidence, and schedule the next decision before the arrangement silently renews."
@@ -296,7 +297,39 @@ export default {
       "ultrasound-probes",
       "end-of-support",
       "equipment-shipping"
-    ]
+    ],
+    "visual": {
+      "type": "cost-comparison",
+      "title": "A short rental and a long rental are different decisions",
+      "rowHeader": "Option",
+      "unit": "USD",
+      "columns": [
+        "20 days",
+        "52 days",
+        "60 days"
+      ],
+      "rows": [
+        {
+          "label": "Rent",
+          "values": [
+            1400,
+            3000,
+            3400
+          ]
+        },
+        {
+          "label": "Buy",
+          "values": [
+            3000,
+            3000,
+            3000
+          ]
+        }
+      ],
+      "insertAfterHeading": "Calculate the entire billable period",
+      "caption": "Hypothetical USD example: rental at $50 per billable day plus $400 delivery and collection versus a $3,000 ready-to-use purchase. Excludes unequal maintenance, supplies, taxes and residual value; 52 days is not a general rule."
+    }
   },
-  "searchTerms": "temporary equipment and downtime cover compatible rental package complete rental period cost loaner availability owned spare and purchase comparison Rent a specified equipment package Service-linked loaner Redeploy an approved internal asset Purchase a supported new or used asset"
+  "searchTerms": "temporary equipment and downtime cover compatible rental package complete rental period cost loaner availability owned spare and purchase comparison Rent a specified equipment package Service-linked loaner Redeploy an approved internal asset Purchase a supported new or used asset",
+  "librarySection": "decisions"
 };

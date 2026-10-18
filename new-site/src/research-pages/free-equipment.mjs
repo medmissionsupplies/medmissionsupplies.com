@@ -3,8 +3,8 @@ export default {
   "key": "free-equipment",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Free equipment can be the most expensive offer",
-  "summary": "Compare a donation, a refurbished unit and a new purchase on the cost of getting the same service working—and keeping it working.",
+  "title": "Free equipment: what will it cost to make it useful?",
+  "summary": "Put donation, refurbishment and new purchase on the same basis: the complete service delivered, the spending still required and who will keep it running.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/beds",
@@ -28,10 +28,10 @@ export default {
   "sections": [
     [
       "Start with the hospital's missing capability",
-      "A donation should answer a need identified by the receiving team. “We have a machine available” is an invitation to investigate, not a complete reason to ship it. Establish the work that cannot currently be done, the required configuration and the people who will use and maintain it. WHO's updated donation guidance places recipient and donor responsibilities within that planning process. Then consider three routes to the same service: repair the installed equipment, accept a donated or refurbished replacement, or buy new. A familiar maintained platform may preserve useful accessories, training and spare parts. A change of brand or generation can require those investments again."
+      "A donation should answer a need identified by the receiving team. “We have a machine available” is an invitation to investigate, not a complete reason to ship it. Establish the work that cannot currently be done, the required configuration and the people who will use and maintain it. WHO's updated donation guidance places recipient and donor responsibilities within that planning process. Give every route the same target: restore the installed equipment, complete a donation, buy a refurbished replacement or buy new. A familiar platform may preserve usable accessories, staff experience and parts. Changing generation can require those investments again. The choice is between complete ways of providing the needed service, not four labels for the machine."
     ],
     [
-      "Give the free machine a completion price",
+      "A donated tower is not yet an endoscopy service",
       "Inventory everything needed between arrival and first accepted use. Include removal, packing, transport, import arrangements, missing accessories, electrical configuration, software entitlement, installation and acceptance. Some costs will be unresolved at the first review. Keep them visible as unpriced items rather than allowing a zero to stand in for an unknown. An endoscopy processor and light source illustrate the issue. Olympus documents the CV-190/CLV-190 platform and compatible equipment, but those boxes alone do not provide an operating endoscopy service. The receiving hospital also needs appropriate scopes, accessories, a repair route and validated processing. A donated tower may be valuable within an established compatible service and poor value where most of that system still has to be purchased."
     ],
     [
@@ -40,10 +40,10 @@ export default {
     ],
     [
       "Read the warranty as a transport arrangement",
-      "Find out who receives a failed unit, who pays each freight leg, whether diagnosis happens locally and whether anything covers the service while it waits. A warranty that requires overseas shipment can have a very different practical value from local support. Neither arrangement should be assumed from a warranty's length. The OMAX M82ES-A188V storefront provides a useful small-equipment example: a dated low asking price coexists with buyer-paid return freight and warranty exclusions. That can still be an acceptable purchase, especially for an accepted backup instrument. The buyer needs to price the consequence of failure rather than treating the word warranty as completed maintenance planning."
+      "Find out who receives a failed unit, who pays each freight leg, whether diagnosis happens locally and whether anything covers the service while it waits. A warranty that requires overseas shipment can have a very different practical value from local support. Neither arrangement should be assumed from a warranty's length. The October 16, 2026 OMAX M82ES-A188V storefront snapshot illustrates the tradeoff at a smaller scale: its US$317.99 asking price came with buyer-paid return freight and warranty exclusions. That historical offer may have suited an accepted backup instrument; it was not a delivered overseas price or a promise of local repair. Price the consequence of failure as carefully as the first shipment."
     ],
     [
-      "New equipment must earn the difference",
+      "Pay the premium for a named advantage",
       "New equipment deserves a premium when it supplies required functions, verified completeness, suitable installation or stronger support that the other offers cannot provide. Newness alone does not guarantee a technician at the destination or affordable consumables. Put those commitments in the comparison and identify which party is responsible for each. Use the same operating period and workload for every option. Compare the equipment's completion cost, recurring supplies, maintenance and the cost of keeping the service available during repairs. Do not assign a fictional failure rate to make the arithmetic look decisive. Where the uncertainty is large, request a priced repair or support provision and show the remaining exposure."
     ],
     [
@@ -54,15 +54,15 @@ export default {
   "related": [
     "beds"
   ],
-  "socialTitle": "Free equipment can be the most expensive offer",
-  "socialDescription": "A zero-dollar invoice can hide freight, missing accessories and years of supply costs. Put donated, refurbished and new offers on the same basis.",
-  "socialHeadline": "Donated, refurbished or new equipment buying guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "The free machine still needs a completion price",
+  "socialDescription": "An endoscopy tower, a refurbished generator and a low-cost microscope show why the invoice is only part of the decision.",
+  "socialHeadline": "The free machine still needs a completion price",
+  "socialStrapline": "Write down what the hospital must buy after saying yes.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "free-equipment",
-    "title": "Donated, refurbished or new equipment buying guide",
-    "summary": "Compare three routes to the same missing service: complete a donation, buy a documented refurbishment or fund a new supported installation.",
+    "title": "Free equipment: what will it cost to make it useful?",
+    "summary": "Put donation, refurbishment and new purchase on the same basis: the complete service delivered, the spending still required and who will keep it running.",
     "firstChoice": "Begin with the receiving team's need and inventory. Accept a donation when the exact configuration fills that gap and its completion costs and upkeep have owners and funding.",
     "upgradeWhen": "Pay for refurbishment when the defined inspection and repair work produces useful savings. Pay for new equipment when required functions, installation or support resolve gaps left by cheaper offers.",
     "budgetWatch": "A free endoscopy tower still needs compatible scopes, accessories and processing. Add packing, freight, imports, software rights, missing components and acceptance. Keep unknown completion costs visible instead of treating them as zero.",
@@ -88,9 +88,9 @@ export default {
     "choices": [],
     "quickCompare": [],
     "id": "free-equipment",
-    "title": "Free equipment can be the most expensive offer",
-    "dek": "Compare a donation, a refurbished unit and a new purchase on the cost of getting the same service working—and keeping it working.",
-    "verdict": "Accept a donation when its needed capability, completion costs and upkeep are funded. Choose refurbishment for verifiable condition and useful savings. Pay for new equipment when its complete supported installation resolves the cheaper offers' gaps.",
+    "title": "Free equipment: what will it cost to make it useful?",
+    "dek": "Put donation, refurbishment and new purchase on the same basis: the complete service delivered, the spending still required and who will keep it running.",
+    "verdict": "Accept a donation when it fills a recipient-defined need and the completion and continuing costs are funded. Pay for refurbishment or new equipment when its documented condition, capability or support produces better complete value.",
     "decision": {
       "firstMove": "Give repair, donation, refurbishment and new purchase the same complete service requirements.",
       "spendMoreWhen": "The higher price buys required capability, verified condition or usable local support.",
@@ -98,23 +98,23 @@ export default {
       "walkAwayWhen": "The recipient has no need, essential components are missing, or continuing costs have no owner."
     },
     "social": {
-      "title": "Free equipment can be the most expensive offer",
-      "description": "A zero-dollar invoice can hide freight, missing accessories and years of supply costs. Put donated, refurbished and new offers on the same basis.",
-      "hook": "Before accepting the donation, write down what the receiving hospital must buy next."
+      "title": "The free machine still needs a completion price",
+      "description": "An endoscopy tower, a refurbished generator and a low-cost microscope show why the invoice is only part of the decision.",
+      "hook": "Write down what the hospital must buy after saying yes."
     },
     "sections": [
       {
         "heading": "Start with the hospital's missing capability",
         "paragraphs": [
           "A donation should answer a need identified by the receiving team. “We have a machine available” is an invitation to investigate, not a complete reason to ship it. Establish the work that cannot currently be done, the required configuration and the people who will use and maintain it. WHO's updated donation guidance places recipient and donor responsibilities within that planning process.",
-          "Then consider three routes to the same service: repair the installed equipment, accept a donated or refurbished replacement, or buy new. A familiar maintained platform may preserve useful accessories, training and spare parts. A change of brand or generation can require those investments again."
+          "Give every route the same target: restore the installed equipment, complete a donation, buy a refurbished replacement or buy new. A familiar platform may preserve usable accessories, staff experience and parts. Changing generation can require those investments again. The choice is between complete ways of providing the needed service, not four labels for the machine."
         ],
         "sourceIds": [
           "donations"
         ]
       },
       {
-        "heading": "Give the free machine a completion price",
+        "heading": "A donated tower is not yet an endoscopy service",
         "paragraphs": [
           "Inventory everything needed between arrival and first accepted use. Include removal, packing, transport, import arrangements, missing accessories, electrical configuration, software entitlement, installation and acceptance. Some costs will be unresolved at the first review. Keep them visible as unpriced items rather than allowing a zero to stand in for an unknown.",
           "An endoscopy processor and light source illustrate the issue. Olympus documents the CV-190/CLV-190 platform and compatible equipment, but those boxes alone do not provide an operating endoscopy service. The receiving hospital also needs appropriate scopes, accessories, a repair route and validated processing. A donated tower may be valuable within an established compatible service and poor value where most of that system still has to be purchased."
@@ -139,14 +139,14 @@ export default {
         "heading": "Read the warranty as a transport arrangement",
         "paragraphs": [
           "Find out who receives a failed unit, who pays each freight leg, whether diagnosis happens locally and whether anything covers the service while it waits. A warranty that requires overseas shipment can have a very different practical value from local support. Neither arrangement should be assumed from a warranty's length.",
-          "The OMAX M82ES-A188V storefront provides a useful small-equipment example: a dated low asking price coexists with buyer-paid return freight and warranty exclusions. That can still be an acceptable purchase, especially for an accepted backup instrument. The buyer needs to price the consequence of failure rather than treating the word warranty as completed maintenance planning."
+          "The October 16, 2026 OMAX M82ES-A188V storefront snapshot illustrates the tradeoff at a smaller scale: its US$317.99 asking price came with buyer-paid return freight and warranty exclusions. That historical offer may have suited an accepted backup instrument; it was not a delivered overseas price or a promise of local repair. Price the consequence of failure as carefully as the first shipment."
         ],
         "sourceIds": [
           "omax-terms"
         ]
       },
       {
-        "heading": "New equipment must earn the difference",
+        "heading": "Pay the premium for a named advantage",
         "paragraphs": [
           "New equipment deserves a premium when it supplies required functions, verified completeness, suitable installation or stronger support that the other offers cannot provide. Newness alone does not guarantee a technician at the destination or affordable consumables. Put those commitments in the comparison and identify which party is responsible for each.",
           "Use the same operating period and workload for every option. Compare the equipment's completion cost, recurring supplies, maintenance and the cost of keeping the service available during repairs. Do not assign a fictional failure rate to make the arithmetic look decisive. Where the uncertainty is large, request a priced repair or support provision and show the remaining exposure."
@@ -247,5 +247,6 @@ export default {
       "beds"
     ]
   },
-  "searchTerms": "buying decisions"
+  "searchTerms": "buying decisions",
+  "librarySection": "decisions"
 };

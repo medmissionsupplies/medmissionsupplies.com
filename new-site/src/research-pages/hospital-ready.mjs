@@ -3,8 +3,8 @@ export default {
   "key": "hospital-ready",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "The machine is ready. Is your hospital?",
-  "summary": "Power, gases, water, temperature and maintenance can decide a purchase before brand or price. Find the missing dependency before the equipment ships.",
+  "title": "The equipment fits the budget. Will it work at your hospital?",
+  "summary": "A UAM battery, an Airvo oxygen supply and a refrigerator’s ambient limit expose the costs that a machine-only quote can miss.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/sterilization",
@@ -28,41 +28,41 @@ export default {
   "sections": [
     [
       "Follow the service through an ordinary day",
-      "Begin where the equipment will work. Identify who prepares it, what supplies arrive, which utilities it uses, how results or records move, and who returns it to readiness. Then repeat the exercise with a power interruption, delayed delivery or failed component. This reveals dependencies that an equipment-only quotation cannot describe. Give each unresolved dependency an owner and a decision: the site already meets it, a funded change will meet it, or the proposed service needs a different design. A readiness review should produce an installation plan the receiving team can use. It should not leave a list of important tasks that everyone assumes someone else will handle."
+      "A machine can fit the purchase budget and still be unaffordable to operate at the destination. Follow the proposed service through preparation, use, cleaning or replenishment and return to readiness. Then repeat that journey during a power interruption or delayed supply delivery. The missing item may be an oxygen source, cold storage, treated water or technical support rather than a better machine. Give each unresolved dependency an owner and a decision: the site already meets it, a funded change will meet it, or the proposed service needs a different design. A readiness review should produce an installation plan the receiving team can use. It should not leave a list of important tasks that everyone assumes someone else will handle."
     ],
     [
-      "Describe the whole electrical requirement",
+      "A battery claim may cover only part of the machine",
       "Have the responsible technical team use the exact equipment's installation documents to assess its electrical supply and interruption behavior. Include the complete attached equipment, charging, environmental control and any manufacturer-specified backup requirements. Use the manufacturer's site-planning information for the installation. The Gradian UAM integrates oxygen generation and monitored ventilation, but its subsystems have different power needs. Gradian specifies six-hour backup for the ventilator and vital-sign monitor. The concentrator requires 220–240 V, 50–60 Hz mains power at 500 W; its 9 V battery powers only the mains-failure alarm. Its ability to entrain room air does not preserve oxygen-enriched delivery. Include backup oxygen and the remaining power requirements in the site's funded plan."
     ],
     [
-      "Treat oxygen as a facility service",
+      "An Airvo purchase does not buy an oxygen source",
       "Count the equipment that must use oxygen, where it will operate and what simultaneous demand the planned service creates. The responsible clinical and technical leads must match source capability, delivery arrangements and device requirements. WHO's facility oxygen specifications provide a framework for source, storage and distribution planning; buying a concentrator addresses only part of that system. Airvo 2 is a useful purchasing example. A high-flow generator/humidifier is not an oxygen generator. Its purchase must sit alongside a suitable oxygen arrangement, compatible patient supplies, power continuity and maintenance. A discounted device cannot close a gap in source capacity by itself. Avoid assuming one source is suitable for another device simply because both have a connection for oxygen."
     ],
     [
-      "Make water quality and room conditions visible",
+      "Water and room temperature can change the shortlist",
       "Different equipment can impose very different water obligations. BioBase BK200 specifies deionized-water use below 5 L/hour, alongside washing and other operating requirements. Dialysis adds a distinct treated-water and monitoring system: CDC guidance addresses chemical and microbiological quality across treatment and distribution. A generic water connection or an unqualified reverse-osmosis label does not establish that either installation meets its requirements. Room temperature can be equally decisive. B Medical's B51 blood refrigerator has a published upper ambient limit of 32°C. A hotter room requires a resolved environmental or equipment-selection decision. The cabinet's cold setting does not change its ambient rating. Its monitoring and response arrangements also need someone able to act when conditions move outside the accepted range."
     ],
     [
-      "Include delivery and storage before the first test",
+      "Buy the storage route along with the test supplies",
       "Some services fail economically before a patient reaches the machine. epoc cards require 15–30°C storage, while Piccolo discs require 2–8°C. Those conditions matter on the delivery route and in the storeroom as well as in the testing area. Plan shipment quantities and usable expiry around the site's actual ability to receive, store and consume them. Equipment can sometimes change the dependency. Dulas VC88SDD uses solar-direct-drive cooling, making it a candidate where building power is unreliable. It still needs an appropriate site, solar installation, monitoring and continuing care. Choose the architecture that fits the site and then fund the requirements that remain."
     ],
     [
       "Decide who owns readiness after the handover",
-      "Name the person who orders supplies, the team that maintains the equipment, the service provider who accepts repairs and the budget paying for each. Confirm that documentation and training remain with the receiving service. Where software is involved, establish usable access and support rather than relying on a visitor's personal laptop or account. Finish with an acceptance and handover plan covering the installed configuration and its dependencies. Some gaps justify a targeted upgrade; others make a smaller service or dependable referral the better first investment. Readiness is achieved when the local team can continue the work after the installation team leaves."
+      "Name the person who orders supplies, the team that maintains the equipment, the service provider who accepts repairs and the budget paying for each. Confirm that documentation and training remain with the receiving service. Where software is involved, establish usable access and support rather than relying on a visitor's personal laptop or account. Compare the equipment plus its missing dependencies with a smaller service, a different architecture or an established referral arrangement. A funded water or power improvement may make the existing equipment useful; another console may not. Complete the purchase when the receiving team has both the accepted installation and the means to keep it working after the visitors leave."
     ]
   ],
   "related": [
     "sterilization"
   ],
-  "socialTitle": "The machine is ready. Is your hospital?",
-  "socialDescription": "Check power, oxygen, water, room conditions and repairs before shipping equipment. A complete machine can still arrive at an incomplete service.",
-  "socialHeadline": "Hospital equipment readiness guide",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-16",
+  "socialTitle": "Can your hospital sustain the equipment you can afford?",
+  "socialDescription": "Check the power, oxygen, water and storage dependencies that can change the buying decision.",
+  "socialHeadline": "Can your hospital sustain the equipment you can afford?",
+  "socialStrapline": "The missing purchase may be infrastructure, not another machine.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "hospital-ready",
-    "title": "Hospital equipment readiness guide",
-    "summary": "Follow the proposed service through an ordinary day and an interruption. Give every essential utility, supply and maintenance dependency a funded owner before shipment.",
+    "title": "The equipment fits the budget. Will it work at your hospital?",
+    "summary": "A UAM battery, an Airvo oxygen supply and a refrigerator’s ambient limit expose the costs that a machine-only quote can miss.",
     "firstChoice": "Use the exact installation documents to match equipment with power, oxygen, water, room conditions and storage. Fund the missing enabling infrastructure before adding capacity that cannot operate reliably at the site.",
     "upgradeWhen": "Change equipment architecture when it solves a documented constraint: solar-direct-drive vaccine refrigeration can address building-power dependence, while its site, monitoring and installation requirements still need funding.",
     "budgetWatch": "UAM's ventilator/monitor battery does not power its oxygen concentrator. Airvo is not an oxygen generator. BK200 needs deionized water; dialysis has a separate water-quality system. Include each dependency in the installed cost.",
@@ -93,9 +93,9 @@ export default {
     "choices": [],
     "quickCompare": [],
     "id": "hospital-ready",
-    "title": "The machine is ready. Is your hospital?",
-    "dek": "Power, gases, water, temperature and maintenance can decide a purchase before brand or price. Find the missing dependency before the equipment ships.",
-    "verdict": "Buy equipment whose operating requirements the site can sustain. Fund infrastructure that enables the needed service. Delay or change a purchase when essential dependencies remain unowned or unfunded.",
+    "title": "The equipment fits the budget. Will it work at your hospital?",
+    "dek": "A UAM battery, an Airvo oxygen supply and a refrigerator’s ambient limit expose the costs that a machine-only quote can miss.",
+    "verdict": "Buy the service the site can sustain. Fund the missing power, oxygen, water, environmental control or supply route before adding equipment that depends on it.",
     "decision": {
       "firstMove": "Map utilities, supplies, workflow and repairs through an ordinary day and an interruption.",
       "spendMoreWhen": "A funded infrastructure upgrade makes the required service feasible.",
@@ -103,21 +103,21 @@ export default {
       "walkAwayWhen": "Required utilities, room conditions or technical support cannot be sustained."
     },
     "social": {
-      "title": "The machine is ready. Is your hospital?",
-      "description": "Check power, oxygen, water, room conditions and repairs before shipping equipment. A complete machine can still arrive at an incomplete service.",
-      "hook": "A machine can pass its bench test and still be the wrong purchase for the room waiting for it."
+      "title": "Can your hospital sustain the equipment you can afford?",
+      "description": "Check the power, oxygen, water and storage dependencies that can change the buying decision.",
+      "hook": "The missing purchase may be infrastructure, not another machine."
     },
     "sections": [
       {
         "heading": "Follow the service through an ordinary day",
         "paragraphs": [
-          "Begin where the equipment will work. Identify who prepares it, what supplies arrive, which utilities it uses, how results or records move, and who returns it to readiness. Then repeat the exercise with a power interruption, delayed delivery or failed component. This reveals dependencies that an equipment-only quotation cannot describe.",
+          "A machine can fit the purchase budget and still be unaffordable to operate at the destination. Follow the proposed service through preparation, use, cleaning or replenishment and return to readiness. Then repeat that journey during a power interruption or delayed supply delivery. The missing item may be an oxygen source, cold storage, treated water or technical support rather than a better machine.",
           "Give each unresolved dependency an owner and a decision: the site already meets it, a funded change will meet it, or the proposed service needs a different design. A readiness review should produce an installation plan the receiving team can use. It should not leave a list of important tasks that everyone assumes someone else will handle."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Describe the whole electrical requirement",
+        "heading": "A battery claim may cover only part of the machine",
         "paragraphs": [
           "Have the responsible technical team use the exact equipment's installation documents to assess its electrical supply and interruption behavior. Include the complete attached equipment, charging, environmental control and any manufacturer-specified backup requirements. Use the manufacturer's site-planning information for the installation.",
           "The Gradian UAM integrates oxygen generation and monitored ventilation, but its subsystems have different power needs. Gradian specifies six-hour backup for the ventilator and vital-sign monitor. The concentrator requires 220–240 V, 50–60 Hz mains power at 500 W; its 9 V battery powers only the mains-failure alarm. Its ability to entrain room air does not preserve oxygen-enriched delivery. Include backup oxygen and the remaining power requirements in the site's funded plan."
@@ -128,7 +128,7 @@ export default {
         ]
       },
       {
-        "heading": "Treat oxygen as a facility service",
+        "heading": "An Airvo purchase does not buy an oxygen source",
         "paragraphs": [
           "Count the equipment that must use oxygen, where it will operate and what simultaneous demand the planned service creates. The responsible clinical and technical leads must match source capability, delivery arrangements and device requirements. WHO's facility oxygen specifications provide a framework for source, storage and distribution planning; buying a concentrator addresses only part of that system.",
           "Airvo 2 is a useful purchasing example. A high-flow generator/humidifier is not an oxygen generator. Its purchase must sit alongside a suitable oxygen arrangement, compatible patient supplies, power continuity and maintenance. A discounted device cannot close a gap in source capacity by itself. Avoid assuming one source is suitable for another device simply because both have a connection for oxygen."
@@ -139,7 +139,7 @@ export default {
         ]
       },
       {
-        "heading": "Make water quality and room conditions visible",
+        "heading": "Water and room temperature can change the shortlist",
         "paragraphs": [
           "Different equipment can impose very different water obligations. BioBase BK200 specifies deionized-water use below 5 L/hour, alongside washing and other operating requirements. Dialysis adds a distinct treated-water and monitoring system: CDC guidance addresses chemical and microbiological quality across treatment and distribution. A generic water connection or an unqualified reverse-osmosis label does not establish that either installation meets its requirements.",
           "Room temperature can be equally decisive. B Medical's B51 blood refrigerator has a published upper ambient limit of 32°C. A hotter room requires a resolved environmental or equipment-selection decision. The cabinet's cold setting does not change its ambient rating. Its monitoring and response arrangements also need someone able to act when conditions move outside the accepted range."
@@ -151,7 +151,7 @@ export default {
         ]
       },
       {
-        "heading": "Include delivery and storage before the first test",
+        "heading": "Buy the storage route along with the test supplies",
         "paragraphs": [
           "Some services fail economically before a patient reaches the machine. epoc cards require 15–30°C storage, while Piccolo discs require 2–8°C. Those conditions matter on the delivery route and in the storeroom as well as in the testing area. Plan shipment quantities and usable expiry around the site's actual ability to receive, store and consume them.",
           "Equipment can sometimes change the dependency. Dulas VC88SDD uses solar-direct-drive cooling, making it a candidate where building power is unreliable. It still needs an appropriate site, solar installation, monitoring and continuing care. Choose the architecture that fits the site and then fund the requirements that remain."
@@ -166,7 +166,7 @@ export default {
         "heading": "Decide who owns readiness after the handover",
         "paragraphs": [
           "Name the person who orders supplies, the team that maintains the equipment, the service provider who accepts repairs and the budget paying for each. Confirm that documentation and training remain with the receiving service. Where software is involved, establish usable access and support rather than relying on a visitor's personal laptop or account.",
-          "Finish with an acceptance and handover plan covering the installed configuration and its dependencies. Some gaps justify a targeted upgrade; others make a smaller service or dependable referral the better first investment. Readiness is achieved when the local team can continue the work after the installation team leaves."
+          "Compare the equipment plus its missing dependencies with a smaller service, a different architecture or an established referral arrangement. A funded water or power improvement may make the existing equipment useful; another console may not. Complete the purchase when the receiving team has both the accepted installation and the means to keep it working after the visitors leave."
         ],
         "sourceIds": []
       }
@@ -300,5 +300,6 @@ export default {
       "point-of-care"
     ]
   },
-  "searchTerms": "buying decisions"
+  "searchTerms": "buying decisions",
+  "librarySection": "decisions"
 };

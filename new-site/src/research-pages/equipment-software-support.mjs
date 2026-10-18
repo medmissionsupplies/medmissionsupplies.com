@@ -3,8 +3,8 @@ export default {
   "key": "equipment-software-support",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Buy the software rights and the recovery plan, too",
-  "summary": "Record what software the hospital may use, who supports it and how the service returns after a failure.",
+  "title": "Will the equipment still work after its computer fails?",
+  "summary": "Buy the software rights and recovery route alongside the hardware. A working demonstration does not establish what transfers or how licensed operation will be restored.",
   "categoryId": "decisions",
   "category": "Procurement & service",
   "image": "guides/laboratory",
@@ -28,7 +28,7 @@ export default {
   "sections": [
     [
       "List the functions that must survive the sale",
-      "Create a software schedule alongside the hardware list. For each required function, record the product or feature name, installed version, licence type, receiving organization, permitted site, renewal conditions and evidence supplied. Include interfaces, reporting tools and service software where relevant. Mark demonstrations and trial functions separately until their continuing entitlement is confirmed. A used system may show a feature that the purchaser has not established a right to retain. GE HealthCare's published India terms illustrate why the actual agreement matters: software rights can depend on specified hardware and site, with conditional transfer and additional product terms. Treat that as a regional example, then obtain the terms for your transaction."
+      "A used scanner can demonstrate a reporting or analysis feature while leaving its transfer rights unresolved. List the functions the hospital needs and connect each to its installed version, licence, permitted site and renewal conditions. Separate temporary demonstrations from purchased rights. The useful question is whether the receiving hospital can keep using the required function after the sale. A used system may show a feature that the purchaser has not established a right to retain. GE HealthCare's published India terms illustrate why the actual agreement matters: software rights can depend on specified hardware and site, with conditional transfer and additional product terms. Treat that as a regional example, then obtain the terms for your transaction."
     ],
     [
       "Give support its own dates and deliverables",
@@ -40,28 +40,28 @@ export default {
     ],
     [
       "Separate a backup from a recoverable service",
-      "Ask what can be backed up and what must be obtained again from the supplier. Record responsibility for configuration, data, licences, installation materials and restoration work. Establish the permitted backup arrangements under the actual licence and the hospital's information policies. Price any supplier visit or activation needed after a storage device or computer fails. Request an authorized recovery demonstration or documented verification appropriate to the equipment, supervised by the responsible technical team. Define the required evidence in advance. A file copied to a drive does not by itself establish that the equipment can be restored, licensed and returned to its approved configuration. Record what was verified and what still depends on supplier access."
+      "Compare two otherwise similar offers after an imagined computer failure. One includes an authorized recovery route for the application, configuration and licences; the other supplies only a copy of patient data. Both may have a “backup,” but only the first has described how licensed operation returns. Establish what the hospital can restore itself and what requires supplier activation, approved installation media or a service visit. Request an authorized recovery demonstration or documented verification appropriate to the equipment, supervised by the responsible technical team. Define the required evidence in advance. A file copied to a drive does not by itself establish that the equipment can be restored, licensed and returned to its approved configuration. Record what was verified and what still depends on supplier access."
     ],
     [
       "Ask which functions remain during an outage",
       "Have users identify the tasks they need during an internet, network or hosted-service interruption. Ask the vendor to state which functions remain available, which stop and what records may need reconciliation afterward. Include local access to approved instructions and support contacts. Obtain documented answers for the offered configuration rather than assuming a device has a usable offline mode. Review those answers with the hospital's continuity team and agree an appropriate verification plan. Some services may require an alternative workflow or replacement equipment. Record the resources and costs of that plan. Disconnecting a system is not automatically a complete security or clinical continuity solution, and this buying guide does not prescribe network changes."
     ],
     [
-      "Make the schedule part of acceptance",
+      "Pay for a recoverable configuration",
       "Before award, compare a supported purchase, an upgrade of suitable installed equipment and a planned replacement against the same functions and continuity requirements. Include recurring charges, interfaces, staff preparation, migration and support. Identify what happens when a subscription or service agreement ends, including continued access to the hospital's records. At handover, reconcile the software schedule with the installed configuration and supplied evidence. Confirm authorized access, support registration, backup ownership and the recovery contacts. Give unresolved items an owner and deadline. The resulting record should let the hospital explain what it bought, what it may keep using and how it will recover the service when a component or supplier relationship changes."
     ]
   ],
   "related": [
     "laboratory"
   ],
-  "socialTitle": "The next equipment quote needs a software schedule",
-  "socialDescription": "Check feature rights, support dates, account ownership, backups and recovery before accepting connected or computer-based equipment.",
-  "socialHeadline": "Equipment software buying sheet",
-  "socialStrapline": "Practical equipment buying guidance.",
-  "reviewedAt": "2026-10-17",
+  "socialTitle": "The equipment works today. Can you restore it tomorrow?",
+  "socialDescription": "Separate software entitlement, data backup and full equipment recovery before buying a computer-based system.",
+  "socialHeadline": "The equipment works today. Can you restore it tomorrow?",
+  "socialStrapline": "A copied drive is not proof that the hospital can recover a licensed service.",
+  "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Equipment software buying sheet",
-    "summary": "Include software rights, support and recovery in the equipment purchase. Record what the receiving hospital may use and how that service can be restored.",
+    "title": "Will the equipment still work after its computer fails?",
+    "summary": "Buy the software rights and recovery route alongside the hardware. A working demonstration does not establish what transfers or how licensed operation will be restored.",
     "firstChoice": "Create a schedule of required features, versions, licence terms, destination rights, recurring charges and named support providers. Verify it against the delivered configuration.",
     "upgradeWhen": "A documented supported upgrade preserves useful equipment and meets the hospital's capability, security and continuity requirements at an acceptable complete cost.",
     "budgetWatch": "Include interface work, renewals, activation, authorized recovery, training, migration and any required computer replacement.",
@@ -87,9 +87,9 @@ export default {
       "authorized access and backup ownership",
       "recovery and offline service requirements"
     ],
-    "title": "Buy the software rights and the recovery plan, too",
-    "dek": "Record what software the hospital may use, who supports it and how the service returns after a failure.",
-    "verdict": "Make software entitlement, support dates and recovery responsibilities part of the equipment order. Require configuration-specific evidence and an approved continuity plan; a demonstration that works today does not settle transfer rights, future updates or recovery after a computer replacement.",
+    "title": "Will the equipment still work after its computer fails?",
+    "dek": "Buy the software rights and recovery route alongside the hardware. A working demonstration does not establish what transfers or how licensed operation will be restored.",
+    "verdict": "Choose a configuration whose required features, transfer rights and recovery route are documented. Compare a supported upgrade with replacement before discarding useful hardware, and include activation, interfaces and recurring charges in the cost.",
     "decision": {
       "firstMove": "List every required feature and interface with its software version, licence, renewal conditions and responsible support provider.",
       "spendMoreWhen": "Supported software or a documented upgrade preserves needed capability and gives the hospital an affordable recovery and support route.",
@@ -97,9 +97,9 @@ export default {
       "walkAwayWhen": "Required rights, support or recovery access cannot be established for the receiving hospital and destination."
     },
     "social": {
-      "title": "The next equipment quote needs a software schedule",
-      "description": "Check feature rights, support dates, account ownership, backups and recovery before accepting connected or computer-based equipment.",
-      "hook": "Ask what still works after the computer fails or the service contract ends."
+      "title": "The equipment works today. Can you restore it tomorrow?",
+      "description": "Separate software entitlement, data backup and full equipment recovery before buying a computer-based system.",
+      "hook": "A copied drive is not proof that the hospital can recover a licensed service."
     },
     "choices": [
       {
@@ -162,7 +162,7 @@ export default {
       {
         "heading": "List the functions that must survive the sale",
         "paragraphs": [
-          "Create a software schedule alongside the hardware list. For each required function, record the product or feature name, installed version, licence type, receiving organization, permitted site, renewal conditions and evidence supplied. Include interfaces, reporting tools and service software where relevant. Mark demonstrations and trial functions separately until their continuing entitlement is confirmed.",
+          "A used scanner can demonstrate a reporting or analysis feature while leaving its transfer rights unresolved. List the functions the hospital needs and connect each to its installed version, licence, permitted site and renewal conditions. Separate temporary demonstrations from purchased rights. The useful question is whether the receiving hospital can keep using the required function after the sale.",
           "A used system may show a feature that the purchaser has not established a right to retain. GE HealthCare's published India terms illustrate why the actual agreement matters: software rights can depend on specified hardware and site, with conditional transfer and additional product terms. Treat that as a regional example, then obtain the terms for your transaction."
         ],
         "sourceIds": [
@@ -192,7 +192,7 @@ export default {
       {
         "heading": "Separate a backup from a recoverable service",
         "paragraphs": [
-          "Ask what can be backed up and what must be obtained again from the supplier. Record responsibility for configuration, data, licences, installation materials and restoration work. Establish the permitted backup arrangements under the actual licence and the hospital's information policies. Price any supplier visit or activation needed after a storage device or computer fails.",
+          "Compare two otherwise similar offers after an imagined computer failure. One includes an authorized recovery route for the application, configuration and licences; the other supplies only a copy of patient data. Both may have a “backup,” but only the first has described how licensed operation returns. Establish what the hospital can restore itself and what requires supplier activation, approved installation media or a service visit.",
           "Request an authorized recovery demonstration or documented verification appropriate to the equipment, supervised by the responsible technical team. Define the required evidence in advance. A file copied to a drive does not by itself establish that the equipment can be restored, licensed and returned to its approved configuration. Record what was verified and what still depends on supplier access."
         ],
         "sourceIds": []
@@ -206,7 +206,7 @@ export default {
         "sourceIds": []
       },
       {
-        "heading": "Make the schedule part of acceptance",
+        "heading": "Pay for a recoverable configuration",
         "paragraphs": [
           "Before award, compare a supported purchase, an upgrade of suitable installed equipment and a planned replacement against the same functions and continuity requirements. Include recurring charges, interfaces, staff preparation, migration and support. Identify what happens when a subscription or service agreement ends, including continued access to the hospital's records.",
           "At handover, reconcile the software schedule with the installed configuration and supplied evidence. Confirm authorized access, support registration, backup ownership and the recovery contacts. Give unresolved items an owner and deadline. The resulting record should let the hospital explain what it bought, what it may keep using and how it will recover the service when a component or supplier relationship changes."
@@ -277,5 +277,6 @@ export default {
       "maintenance-records"
     ]
   },
-  "searchTerms": "software entitlement and transfer support and security-update horizon authorized access and backup ownership recovery and offline service requirements Purchase a fully specified supported configuration Upgrade a suitable installed platform Replace a configuration with unresolved support gaps"
+  "searchTerms": "software entitlement and transfer support and security-update horizon authorized access and backup ownership recovery and offline service requirements Purchase a fully specified supported configuration Upgrade a suitable installed platform Replace a configuration with unresolved support gaps",
+  "librarySection": "decisions"
 };
