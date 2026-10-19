@@ -3,7 +3,7 @@ export default {
   "key": "end-of-support",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "End of equipment support: keep, upgrade or replace?",
+  "title": "Equipment support is ending: which upgrade is worth buying?",
   "summary": "Find out which parts, software and service commitments actually end, then compare a funded transition with a complete replacement.",
   "categoryId": "decisions",
   "category": "Procurement & service",
@@ -39,8 +39,8 @@ export default {
       "A system may still acquire images while its operating system, remote connection or other software component has a different support position. Involve the hospital's IT and security teams alongside biomedical engineering. GE's public product-security repository illustrates the kind of manufacturer information to seek: affected products, updates, required actions and patch history. Ask the manufacturer which approved updates and controls apply. IMDRF advises consideration of device-specific compensating controls and their costs after support ends, while preserving intended use. Do not assume disconnecting a network cable resolves every concern or remains compatible with clinical work. Have the responsible teams assess the entire operating workflow and document their conclusion."
     ],
     [
-      "Compare complete alternatives on one page",
-      "Set out three practical proposals: continue for a defined period, make a supported upgrade, or replace. Where independent service is credible, include it within the continuation proposal with its exact limitations. Price the same planning period, using quoted costs and explicit scenarios instead of guessed failure probabilities. For an upgrade, obtain written confirmation of what becomes supported and for how long. For replacement, include site changes, training, integration, downtime and retirement. For continuation, include additional support, controls, spares and interruption arrangements. A low annual service charge is incomplete evidence when it excludes the specific component or software dependency driving the decision. A supported software upgrade may be a useful buy when it resolves the documented issue and the hardware remains adequate. It is a weaker answer when the next indispensable component has no credible replacement route. Conversely, a stocked replacement board does not address an unresolved software or security limitation. Pay for the route that closes the actual gap, not the label attached to it."
+      "Buy the change that removes the limiting dependency",
+      "Ask what would end useful service first: an unavailable detector or board, an unsupported operating system, a licence that cannot be restored, or a capability the department now needs. Quote the remedy for that dependency. Buying a software upgrade cannot solve an unavailable mechanical assembly; buying a shelf of spares cannot renew security support. A supported upgrade is attractive when it preserves suitable hardware, supplies the missing capability and has a written support period long enough for the hospital’s plan. Replacement becomes more persuasive when several costly dependencies remain after the upgrade. Include installation, interfaces, training, data transition and temporary cover in the replacement price before making that comparison. For continuation, request a specific difficult-repair scenario: the required part, source, lead time, technician, post-repair verification and cover during the interruption. Price that scenario alongside ordinary maintenance without inventing a probability that it will happen. If the hospital cannot tolerate the scenario, a cheap annual service contract has not resolved the decision."
     ],
     [
       "Give a keep decision a date and stop conditions",
@@ -54,13 +54,13 @@ export default {
   "related": [
     "ventilators"
   ],
-  "socialTitle": "Which support is ending—and what should you buy next?",
+  "socialTitle": "Equipment support is ending: which upgrade is worth buying?",
   "socialDescription": "Separate parts, field service, software and security before making a keep, upgrade or replace decision.",
-  "socialHeadline": "Which support is ending—and what should you buy next?",
+  "socialHeadline": "Equipment support is ending: which upgrade is worth buying?",
   "socialStrapline": "A working machine and a sustainable support route are separate facts.",
   "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "End of equipment support: keep, upgrade or replace?",
+    "title": "Equipment support is ending: which upgrade is worth buying?",
     "summary": "Find out which parts, software and service commitments actually end, then compare a funded transition with a complete replacement.",
     "firstChoice": "Build a support map for parts, field service, software, security and essential accessories. Obtain written dates and limitations from the responsible suppliers.",
     "upgradeWhen": "A supported upgrade or replacement resolves a material gap that the hospital cannot acceptably manage through a documented interim plan.",
@@ -89,7 +89,7 @@ export default {
       "time-limited continuation",
       "planned replacement and decommissioning"
     ],
-    "title": "End of equipment support: keep, upgrade or replace?",
+    "title": "Equipment support is ending: which upgrade is worth buying?",
     "dek": "Find out which parts, software and service commitments actually end, then compare a funded transition with a complete replacement.",
     "verdict": "Match the support notice to the installed configuration. Continue only under an accepted, time-limited plan; upgrade when it resolves the actual gap, and replace when the remaining arrangement cannot support the required service.",
     "decision": {
@@ -99,7 +99,7 @@ export default {
       "walkAwayWhen": "Continued use depends on undocumented parts availability, unsupported promises or an unreviewed security workaround."
     },
     "social": {
-      "title": "Which support is ending—and what should you buy next?",
+      "title": "Equipment support is ending: which upgrade is worth buying?",
       "description": "Separate parts, field service, software and security before making a keep, upgrade or replace decision.",
       "hook": "A working machine and a sustainable support route are separate facts."
     },
@@ -213,11 +213,11 @@ export default {
         ]
       },
       {
-        "heading": "Compare complete alternatives on one page",
+        "heading": "Buy the change that removes the limiting dependency",
         "paragraphs": [
-          "Set out three practical proposals: continue for a defined period, make a supported upgrade, or replace. Where independent service is credible, include it within the continuation proposal with its exact limitations. Price the same planning period, using quoted costs and explicit scenarios instead of guessed failure probabilities.",
-          "For an upgrade, obtain written confirmation of what becomes supported and for how long. For replacement, include site changes, training, integration, downtime and retirement. For continuation, include additional support, controls, spares and interruption arrangements. A low annual service charge is incomplete evidence when it excludes the specific component or software dependency driving the decision.",
-          "A supported software upgrade may be a useful buy when it resolves the documented issue and the hardware remains adequate. It is a weaker answer when the next indispensable component has no credible replacement route. Conversely, a stocked replacement board does not address an unresolved software or security limitation. Pay for the route that closes the actual gap, not the label attached to it."
+          "Ask what would end useful service first: an unavailable detector or board, an unsupported operating system, a licence that cannot be restored, or a capability the department now needs. Quote the remedy for that dependency. Buying a software upgrade cannot solve an unavailable mechanical assembly; buying a shelf of spares cannot renew security support.",
+          "A supported upgrade is attractive when it preserves suitable hardware, supplies the missing capability and has a written support period long enough for the hospital’s plan. Replacement becomes more persuasive when several costly dependencies remain after the upgrade. Include installation, interfaces, training, data transition and temporary cover in the replacement price before making that comparison.",
+          "For continuation, request a specific difficult-repair scenario: the required part, source, lead time, technician, post-repair verification and cover during the interruption. Price that scenario alongside ordinary maintenance without inventing a probability that it will happen. If the hospital cannot tolerate the scenario, a cheap annual service contract has not resolved the decision."
         ],
         "sourceIds": []
       },
@@ -284,7 +284,7 @@ export default {
         "url": "https://www.siemens-healthineers.com/en-us/medical-imaging/end-of-support/ct",
         "publisher": "Siemens Healthineers",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "The manufacturer's US CT page states that spare-parts availability is no longer guaranteed after the described support transition; it does not identify the status of an individual serial."
       },
       {
@@ -293,7 +293,7 @@ export default {
         "url": "https://www.gehealthcare.com/en-us/productsecurity/products",
         "publisher": "GE HealthCare",
         "kind": "manufacturer security repository",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Public entry describes product security updates, affected-product status, required actions and patch history."
       },
       {
@@ -303,7 +303,7 @@ export default {
         "publisher": "WHO",
         "kind": "institutional guidance",
         "published": "2019-02-01",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Provides a framework for determining why, when and how to decommission medical devices."
       }
     ],

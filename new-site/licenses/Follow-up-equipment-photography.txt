@@ -1,0 +1,30 @@
+MMS FOLLOW-UP ARTICLE PHOTOGRAPHS — 18 OCTOBER 2026
+Archive examples; no claim of MMS inventory, staff, endorsement or offered configuration.
+
+guides/pacs-server.webp
+PACS server and archive hardware, photographed in 2010. Archive equipment example.
+Hg6996 — CC0 1.0
+Source: https://commons.wikimedia.org/wiki/File:PACS-Server_and_Archive.jpg
+License: https://creativecommons.org/publicdomain/zero/1.0/
+Resized and converted to WebP; photographic content retained.
+
+guides/monitor-service.webp
+Biomedical technicians assess a patient monitor in Colón, Panama, in August 2024. Equipment-service example.
+Mark Logico / U.S. Navy — Public domain (U.S.)
+Source: https://commons.wikimedia.org/wiki/File:Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n,_Panama_(8601112).jpg
+License: https://creativecommons.org/publicdomain/mark/1.0/
+Resized and converted to WebP; photographic content retained.
+
+guides/monitor-board-repair.webp
+A biomedical technician examines patient-monitor circuit boards in Colón, Panama, in August 2024. Equipment-service example.
+Mark Logico / U.S. Navy — Public domain (U.S.)
+Source: https://commons.wikimedia.org/wiki/File:Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n,_Panama_(8601110).jpg
+License: https://creativecommons.org/publicdomain/mark/1.0/
+Resized and converted to WebP; photographic content retained.
+
+guides/ultrasound-handover.webp
+Hospital staff receive ultrasound training in Puerto Cortés, Honduras, in July 2024. Equipment-training example.
+Mark Logico / U.S. Navy — Public domain (U.S.)
+Source: https://commons.wikimedia.org/wiki/File:CP24_Biomedical_Equipment_Technicians_Repair_Medical_Equipment_in_Puerto_Cort%C3%A9s_Public_Hospital,_Honduras_(8559636).jpg
+License: https://creativecommons.org/publicdomain/mark/1.0/
+Resized and converted to WebP; photographic content retained.

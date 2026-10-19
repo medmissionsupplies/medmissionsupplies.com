@@ -3,7 +3,7 @@ export default {
   "key": "one-or-two",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "One better machine or two simpler ones? Buy the missing capacity",
+  "title": "One advanced machine or two simpler ones? Find the real bottleneck",
   "summary": "A second console can leave the same queue—and the same single point of failure. Compare capability, daily capacity and usable backup before doubling the equipment.",
   "categoryId": "decisions",
   "category": "Procurement & service",
@@ -24,7 +24,7 @@ export default {
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
     "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
       "Separate three reasons to spend",
@@ -51,21 +51,21 @@ export default {
       "Compare an upgrade, a complete second unit and a targeted continuity purchase over the same period. Include accessories, supplies, maintenance, readiness checks and training. Use one output that each arrangement can actually support: the same examination, released set or other defined task. Do not divide one option’s three-year costs by another option’s annual workload. For example, an explicitly hypothetical three-year arrangement costing US$18,000 and supporting 3,000 of the defined tasks costs US$6 per supported task. If another costs US$24,000 and supports the same 3,000 tasks, its US$8 result needs a separate justification—perhaps required capability or useful continuity. Neither figure measures a brand’s reliability or puts a value on a clinical outcome."
     ],
     [
-      "The decision to take away",
-      "Buy the smallest complete change that removes the identified limit. Confirm the minimum work the backup must preserve, where it will be kept and who keeps it ready. A second machine earns its place when it adds usable capacity or continuity; a probe, scope, set or better-supported repair route can sometimes do that job for less."
+      "Choose the smallest complete fix",
+      "Choose the advanced machine when a required examination or load cannot be supported by the simpler option. Choose a second complete unit when simultaneous work or repair cover is the demonstrated shortage and staff, accessories and utilities can support it. Buy a probe, scope, instrument set or faster repair arrangement when that is the part preventing useful work. Before paying for a spare, compare ownership with a written loaner or rental arrangement where available. Owned cover is stronger when it must be immediately accessible and the hospital can keep it ready. A contracted loaner may suit a tolerable delay, but its exact capability, dispatch time, freight, availability and fees must be clear. A promise to try to find a unit is not equivalent to reserved cover."
     ]
   ],
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "One machine or two? Find the real bottleneck",
+  "socialTitle": "One advanced machine or two simpler ones? Find the real bottleneck",
   "socialDescription": "A spare console is not much help without the right probe, scope or supply. See when an upgrade, a second unit or a smaller purchase earns its cost.",
-  "socialHeadline": "One machine or two? Find the real bottleneck",
+  "socialHeadline": "One advanced machine or two simpler ones? Find the real bottleneck",
   "socialStrapline": "More boxes do not always mean more usable care.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "one-or-two",
-    "title": "One better machine or two simpler ones? Buy the missing capacity",
+    "title": "One advanced machine or two simpler ones? Find the real bottleneck",
     "summary": "Choose between capability, daily capacity and useful backup. A smaller accessory or processing purchase can sometimes solve more than another console.",
     "firstChoice": "Fund the smallest complete change that removes the real constraint: an upgrade, second unit, compatible scope or probe, extra sets, or a supported repair arrangement.",
     "upgradeWhen": "The work needs capability the simpler system lacks. Another X8 does not supply required invasive pressure, and an unsuitable sterilizer cycle does not become suitable by adding a second chamber.",
@@ -90,7 +90,7 @@ export default {
   "research": {
     "id": "one-or-two",
     "kind": "feature",
-    "title": "One better machine or two simpler ones? Buy the missing capacity",
+    "title": "One advanced machine or two simpler ones? Find the real bottleneck",
     "dek": "A second console can leave the same queue—and the same single point of failure. Compare capability, daily capacity and usable backup before doubling the equipment.",
     "verdict": "Buy a second complete unit when it removes a demonstrated queue or preserves required work during repair. Buy higher capability when the existing equipment cannot perform the job. When probes, scopes, sets or processing are the constraint, spend there first.",
     "decision": {
@@ -100,7 +100,7 @@ export default {
       "walkAwayWhen": "The proposed backup cannot do the required task or shares the unresolved interruption."
     },
     "social": {
-      "title": "One machine or two? Find the real bottleneck",
+      "title": "One advanced machine or two simpler ones? Find the real bottleneck",
       "description": "A spare console is not much help without the right probe, scope or supply. See when an upgrade, a second unit or a smaller purchase earns its cost.",
       "hook": "More boxes do not always mean more usable care."
     },
@@ -166,9 +166,10 @@ export default {
         "sourceIds": []
       },
       {
-        "heading": "The decision to take away",
+        "heading": "Choose the smallest complete fix",
         "paragraphs": [
-          "Buy the smallest complete change that removes the identified limit. Confirm the minimum work the backup must preserve, where it will be kept and who keeps it ready. A second machine earns its place when it adds usable capacity or continuity; a probe, scope, set or better-supported repair route can sometimes do that job for less."
+          "Choose the advanced machine when a required examination or load cannot be supported by the simpler option. Choose a second complete unit when simultaneous work or repair cover is the demonstrated shortage and staff, accessories and utilities can support it. Buy a probe, scope, instrument set or faster repair arrangement when that is the part preventing useful work.",
+          "Before paying for a spare, compare ownership with a written loaner or rental arrangement where available. Owned cover is stronger when it must be immediately accessible and the hospital can keep it ready. A contracted loaner may suit a tolerable delay, but its exact capability, dispatch time, freight, availability and fees must be clear. A promise to try to find a unit is not equivalent to reserved cover."
         ],
         "sourceIds": []
       }
@@ -271,7 +272,7 @@ export default {
         "url": "https://www.who.int/publications/i/item/9789240101616",
         "publisher": "World Health Organization",
         "kind": "institutional procurement",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Facility oxygen-source, storage and distribution specification framework."
       }
     ],

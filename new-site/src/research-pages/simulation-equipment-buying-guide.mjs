@@ -17,7 +17,7 @@ export default {
       "What software, accounts, renewals and record export are included?",
       "Can the educators complete the planned lesson and reset with the offered package?"
     ],
-    "budgetWatch": "Compare the full usable configuration and recurring supplies over one common period.",
+    "budgetWatch": "Cost a deliverable teaching timetable: educator time, practice stations, reset supplies and renewed learner/software access.",
     "sourceIds": [
       "anne",
       "simpad",
@@ -141,7 +141,8 @@ export default {
         "heading": "Count practice places and complete teaching cycles",
         "paragraphs": [
           "Suppose, purely for planning, 24 learners each need 15 minutes of hands-on practice at the same station. That is 360 station-minutes before preparation, cleaning, feedback or reassessment. One station requires six hours; four equivalent stations could provide the same practice in 90 minutes only if staffing, supervision and space allow parallel work.",
-          "For team scenarios, count briefing, the exercise, debrief and reset as one cycle. A 20-minute scenario is not three sessions per hour if each group also needs 30 minutes of discussion and 10 minutes of reset. On those hypothetical assumptions, one complete group cycle occupies an hour. Add the equipment that removes the measured constraint rather than buying another simulator when instructor availability is the bottleneck."
+          "For team scenarios, count briefing, the exercise, debrief and reset as one cycle. A 20-minute scenario is not three sessions per hour if each group also needs 30 minutes of discussion and 10 minutes of reset. On those hypothetical assumptions, one complete group cycle occupies an hour. Add the equipment that removes the measured constraint rather than buying another simulator when instructor availability is the bottleneck.",
+          "Build a sample teaching week before approving the order. Put the actual educators, learner groups, preparation time and assessment slots beside each proposed station. An extra trainer is a useful purchase when it opens parallel practice under available supervision; instructor time or replacement skins may be the better purchase when existing stations sit idle. For a software bundle, cost the number of active learners and instructors the schedule needs, including renewal after the first cohort."
         ],
         "sourceIds": []
       },
@@ -202,7 +203,7 @@ export default {
     ],
     [
       "Count practice places and complete teaching cycles",
-      "Suppose, purely for planning, 24 learners each need 15 minutes of hands-on practice at the same station. That is 360 station-minutes before preparation, cleaning, feedback or reassessment. One station requires six hours; four equivalent stations could provide the same practice in 90 minutes only if staffing, supervision and space allow parallel work. For team scenarios, count briefing, the exercise, debrief and reset as one cycle. A 20-minute scenario is not three sessions per hour if each group also needs 30 minutes of discussion and 10 minutes of reset. On those hypothetical assumptions, one complete group cycle occupies an hour. Add the equipment that removes the measured constraint rather than buying another simulator when instructor availability is the bottleneck."
+      "Suppose, purely for planning, 24 learners each need 15 minutes of hands-on practice at the same station. That is 360 station-minutes before preparation, cleaning, feedback or reassessment. One station requires six hours; four equivalent stations could provide the same practice in 90 minutes only if staffing, supervision and space allow parallel work. For team scenarios, count briefing, the exercise, debrief and reset as one cycle. A 20-minute scenario is not three sessions per hour if each group also needs 30 minutes of discussion and 10 minutes of reset. On those hypothetical assumptions, one complete group cycle occupies an hour. Add the equipment that removes the measured constraint rather than buying another simulator when instructor availability is the bottleneck. Build a sample teaching week before approving the order. Put the actual educators, learner groups, preparation time and assessment slots beside each proposed station. An extra trainer is a useful purchase when it opens parallel practice under available supervision; instructor time or replacement skins may be the better purchase when existing stations sit idle. For a software bundle, cost the number of active learners and instructors the schedule needs, including renewal after the first cohort."
     ],
     [
       "Consumables and reset work decide how often the room gets used",

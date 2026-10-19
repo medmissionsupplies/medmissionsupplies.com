@@ -36,7 +36,7 @@ export default {
     ],
     [
       "Count available channels, then fund the software work",
-      "A donated fleet should be counted as complete usable configurations, not boxes. An Alaris controller, compatible modules, software, batteries and approved sets form a system; missing any required part changes the cost of putting a channel into service. Keeping a known configuration can preserve training and technical knowledge. Buying a mixed lot introduces work that its low price may hide. Drug libraries, profiles and networking also need an operating budget. Pharmacy and the responsible clinical team must own the approved content; engineering and IT need the rights and resources to maintain the selected implementation. Evaluate the configured workflow with its users before buying or renting. If a feature will not be operated, do not count its advertised availability as a financial benefit. Buy backup capacity as a working arrangement. A spare pump needs compatible tubing, a usable battery and prepared staff. FDA’s facility guidance explicitly couples access to a working pump with access to its tubing. A second family kept only as an empty console adds little continuity."
+      "A donated fleet should be counted as complete usable configurations, not boxes. An Alaris controller, compatible modules, software, batteries and approved sets form a system; missing any required part changes the cost of putting a channel into service. Keeping a known configuration can preserve training and technical knowledge. Buying a mixed lot introduces work that its low price may hide. Use the hospital’s asset and repair logs to explain the shortage before ordering more channels. Pumps awaiting collection, cleaning, batteries or a missing clamp call for different remedies from a sustained increase in simultaneous infusions. Compare the cost and time to return those assets to service with buying new complete channels. A standard fleet can simplify stocking and training, but count any usable equipment and remaining supplies lost during conversion as a real transition cost. Drug libraries, profiles and networking also need an operating budget. Pharmacy and the responsible clinical team must own the approved content; engineering and IT need the rights and resources to maintain the selected implementation. Evaluate the configured workflow with its users before buying or renting. If a feature will not be operated, do not count its advertised availability as a financial benefit. Buy backup capacity as a working arrangement. A spare pump needs compatible tubing, a usable battery and prepared staff. FDA’s facility guidance explicitly couples access to a working pump with access to its tubing. A second family kept only as an empty console adds little continuity."
     ],
     [
       "Use correction records at the right level",
@@ -57,7 +57,7 @@ export default {
     "summary": "Compare compactplus and Agilia as complete volumetric and syringe systems, then test the value of retaining a known Alaris or Spectrum fleet.",
     "firstChoice": "Compare the same annual basket of approved sets and syringes for compactplus and Agilia, including delivered cost and replenishment reliability.",
     "upgradeWhen": "A supported fleet, usable drug-library workflow or better local consumable supply reduces a defined operating problem.",
-    "budgetWatch": "Compare the same annual approved-set basket, including delivered prices, minimum orders and expiry. Standard Infusomat compactplus does not accept arbitrary tubing; physical syringe fit does not establish validated operation.",
+    "budgetWatch": "Model approved sets over the same period, then add library upkeep, fleet conversion and the cost of returning repairable pumps to service.",
     "supportCheck": "Decline an unidentified pump, undocumented tubing compatibility or a donated controller/module system that cannot be completed and verified.",
     "askSupplier": [
       "Which approved set codes and syringe brands/sizes are supplied locally?",
@@ -172,6 +172,7 @@ export default {
         "heading": "Count available channels, then fund the software work",
         "paragraphs": [
           "A donated fleet should be counted as complete usable configurations, not boxes. An Alaris controller, compatible modules, software, batteries and approved sets form a system; missing any required part changes the cost of putting a channel into service. Keeping a known configuration can preserve training and technical knowledge. Buying a mixed lot introduces work that its low price may hide.",
+          "Use the hospital’s asset and repair logs to explain the shortage before ordering more channels. Pumps awaiting collection, cleaning, batteries or a missing clamp call for different remedies from a sustained increase in simultaneous infusions. Compare the cost and time to return those assets to service with buying new complete channels. A standard fleet can simplify stocking and training, but count any usable equipment and remaining supplies lost during conversion as a real transition cost.",
           "Drug libraries, profiles and networking also need an operating budget. Pharmacy and the responsible clinical team must own the approved content; engineering and IT need the rights and resources to maintain the selected implementation. Evaluate the configured workflow with its users before buying or renting. If a feature will not be operated, do not count its advertised availability as a financial benefit.",
           "Buy backup capacity as a working arrangement. A spare pump needs compatible tubing, a usable battery and prepared staff. FDA’s facility guidance explicitly couples access to a working pump with access to its tubing. A second family kept only as an empty console adds little continuity."
         ],
@@ -344,6 +345,6 @@ export default {
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying infusion pumps: choose the fleet you can keep running Volumetric infusion pumps Syringe pumps Approved administration sets and syringe libraries Drug-library and network obligations Legacy Spectrum and Alaris 2025 model/software-specific corrections B. Braun Infusomat compactplus Fresenius Kabi Agilia VP MC WiFi B. Braun Perfusor compactplus Fresenius Kabi Agilia SP MC",
+  "searchTerms": "Buying infusion pumps: choose the fleet you can keep running Volumetric infusion pumps Syringe pumps Approved administration sets and syringe libraries Drug-library and network obligations Legacy Spectrum and Alaris 2025 model/software-specific corrections",
   "librarySection": "equipment"
 };

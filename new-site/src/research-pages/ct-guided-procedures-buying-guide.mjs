@@ -3,7 +3,7 @@ export default {
   "key": "ct-guided-procedures",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "CT-guided procedures: buy the right guidance package",
+  "title": "CT-guided procedures: which guidance option are you buying?",
   "summary": "Compare biopsy mode, step-and-shoot controls, CT fluoroscopy and planning aids before treating a scanner as an intervention service.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
@@ -11,9 +11,9 @@ export default {
     "ct-mri"
   ],
   "reviewedAt": "2026-10-18",
-  "socialTitle": "CT-guided procedures: buy the right guidance package",
+  "socialTitle": "CT-guided procedures: which guidance option are you buying?",
   "socialDescription": "Compare biopsy mode, step-and-shoot controls, CT fluoroscopy and planning aids before treating a scanner as an intervention service.",
-  "socialHeadline": "CT-guided procedures: buy the right guidance package",
+  "socialHeadline": "CT-guided procedures: which guidance option are you buying?",
   "socialStrapline": "The missing foot control, licence or room arrangement can change the purchase.",
   "research": {
     "kind": "feature",
@@ -25,7 +25,7 @@ export default {
       "myNeedle guidance planning",
       "shared CT intervention capacity"
     ],
-    "title": "CT-guided procedures: buy the right guidance package",
+    "title": "CT-guided procedures: which guidance option are you buying?",
     "dek": "Compare biopsy mode, step-and-shoot controls, CT fluoroscopy and planning aids before treating a scanner as an intervention service.",
     "verdict": "Define the intended procedures with the intervention team, then choose the required imaging and guidance functions. An eligible existing scanner may be the economical route, but only when its exact package, room, staffing and scheduled capacity support the work.",
     "decision": {
@@ -35,7 +35,7 @@ export default {
       "walkAwayWhen": "The required controls, applications, staff protection or procedure pathway remain unproven."
     },
     "social": {
-      "title": "CT-guided procedures: buy the right guidance package",
+      "title": "CT-guided procedures: which guidance option are you buying?",
       "description": "Compare biopsy mode, step-and-shoot controls, CT fluoroscopy and planning aids before treating a scanner as an intervention service.",
       "hook": "The missing foot control, licence or room arrangement can change the purchase."
     },
@@ -121,7 +121,7 @@ export default {
       {
         "heading": "Price the controls, access and room as one package",
         "paragraphs": [
-          "An intervention offer should identify the in-room display, mounting, hand or foot controls, cables, software and table configuration. Missing small components can prevent use of an otherwise functioning option. Check who installs and accepts them, and whether their location works with the intended procedure setup.",
+          "Request a line-by-line intervention package: installed software, in-room display and mounting, hand or foot controls, cables and the applicable table configuration. Ask the seller to show which control starts the purchased function on the offered scanner. A biopsy planning screen, an in-room monitor and a continuous acquisition option are different deliverables; a missing control can leave a paid licence unusable.",
           "Walk through patient transfer, table travel, operator access, equipment positioning and the route for assistance. Include the practical space needed for sterile supplies and any clinically required monitoring or anaesthesia equipment. The largest item on the room plan is not necessarily the item that determines whether the work fits."
         ],
         "sourceIds": []
@@ -148,7 +148,7 @@ export default {
         "heading": "Follow the procedure through to a useful result",
         "paragraphs": [
           "Equipment value depends on what happens after the scan-guided step. For biopsy work, establish the sample-handling, pathology and result pathway. For any planned procedure, define the necessary staffing, supplies, observation and response arrangements. A successful scanner demonstration does not establish those services.",
-          "Choose the eligible upgrade when it delivers the accepted function economically within a workable schedule. Choose greater capability or dedicated capacity when a specific limitation justifies it. Defer ownership when the supporting pathway cannot yet deliver the intended result, while preserving a practical referral option."
+          "Choose an eligible upgrade when it supplies the required guidance function within a workable routine-scanner schedule. Pay for continuous imaging, laser guidance or a dedicated scanner only when the intervention team identifies the constraint it removes. If the missing ingredient is pathology, staff or recovery space, retain the existing CT capability and fund that gap or a referral route before adding an option."
         ],
         "sourceIds": []
       }
@@ -197,7 +197,7 @@ export default {
         "publisher": "Siemens Healthineers",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Written product description identifies myNeedle Guide, optional myNeedle Laser and selected supported systems. Angiography-based study footnotes not generalized to CT outcomes."
+        "evidence": "Primary description and study footnotes rechecked 18 October 2026: myNeedle Guide, dedicated protocols and optional myNeedle Laser; selected CT/angiography systems. Referenced customer studies concern angiography and do not establish CT outcomes or current retrofit rights."
       },
       {
         "id": "protection",
@@ -214,12 +214,12 @@ export default {
     ]
   },
   "sheet": {
-    "title": "CT-guided procedures: buy the right guidance package",
+    "title": "CT-guided procedures: which guidance option are you buying?",
     "summary": "Compare biopsy mode, step-and-shoot controls, CT fluoroscopy and planning aids before treating a scanner as an intervention service.",
-    "firstChoice": "Specify the required guidance function with the clinical team.",
-    "upgradeWhen": "A demonstrated limitation justifies a different option or dedicated capacity.",
-    "budgetWatch": "Include the full procedure slot and supporting pathway.",
-    "supportCheck": "Confirm exact software, controls and room acceptance.",
+    "firstChoice": "Name the procedures and the required guidance functions.",
+    "upgradeWhen": "A specific guidance capability or dedicated capacity solves a demonstrated limitation.",
+    "budgetWatch": "Procedure capability cost = eligible scanner options + room and protection work + staff and supplies + quality/support + displaced routine capacity.",
+    "supportCheck": "The required controls, applications, staff protection or procedure pathway remain unproven.",
     "askSupplier": [
       "Which imaging and guidance functions do the procedures require?",
       "Which displays, controls and applications are included and eligible?",
@@ -242,7 +242,7 @@ export default {
     ],
     [
       "Price the controls, access and room as one package",
-      "An intervention offer should identify the in-room display, mounting, hand or foot controls, cables, software and table configuration. Missing small components can prevent use of an otherwise functioning option. Check who installs and accepts them, and whether their location works with the intended procedure setup. Walk through patient transfer, table travel, operator access, equipment positioning and the route for assistance. Include the practical space needed for sterile supplies and any clinically required monitoring or anaesthesia equipment. The largest item on the room plan is not necessarily the item that determines whether the work fits."
+      "Request a line-by-line intervention package: installed software, in-room display and mounting, hand or foot controls, cables and the applicable table configuration. Ask the seller to show which control starts the purchased function on the offered scanner. A biopsy planning screen, an in-room monitor and a continuous acquisition option are different deliverables; a missing control can leave a paid licence unusable. Walk through patient transfer, table travel, operator access, equipment positioning and the route for assistance. Include the practical space needed for sterile supplies and any clinically required monitoring or anaesthesia equipment. The largest item on the room plan is not necessarily the item that determines whether the work fits."
     ],
     [
       "Sharing the routine scanner has a real capacity cost",
@@ -254,11 +254,11 @@ export default {
     ],
     [
       "Follow the procedure through to a useful result",
-      "Equipment value depends on what happens after the scan-guided step. For biopsy work, establish the sample-handling, pathology and result pathway. For any planned procedure, define the necessary staffing, supplies, observation and response arrangements. A successful scanner demonstration does not establish those services. Choose the eligible upgrade when it delivers the accepted function economically within a workable schedule. Choose greater capability or dedicated capacity when a specific limitation justifies it. Defer ownership when the supporting pathway cannot yet deliver the intended result, while preserving a practical referral option."
+      "Equipment value depends on what happens after the scan-guided step. For biopsy work, establish the sample-handling, pathology and result pathway. For any planned procedure, define the necessary staffing, supplies, observation and response arrangements. A successful scanner demonstration does not establish those services. Choose an eligible upgrade when it supplies the required guidance function within a workable routine-scanner schedule. Pay for continuous imaging, laser guidance or a dedicated scanner only when the intervention team identifies the constraint it removes. If the missing ingredient is pathology, staff or recovery space, retain the existing CT capability and fund that gap or a referral route before adding an option."
     ]
   ],
   "minutes": 3,
-  "searchTerms": "CT guided procedure package SmartStep versus SmartView myNeedle guidance planning shared CT intervention capacity Revolution EVO with confirmed SmartStep Revolution EVO with confirmed SmartView Eligible CT with myNeedle Companion",
+  "searchTerms": "CT-guided procedures: which guidance option are you buying? CT guided procedure package SmartStep versus SmartView myNeedle guidance planning shared CT intervention capacity Revolution EVO with confirmed SmartStep Revolution EVO with confirmed SmartView Eligible CT with myNeedle Companion",
   "librarySection": "equipment",
   "image": "guides/ct-scanner",
   "photo": {

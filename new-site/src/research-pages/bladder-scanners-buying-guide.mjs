@@ -19,7 +19,7 @@ export default {
       "Which charger, battery, probe, printer and host/software are actually included?",
       "How will the accepted result reach the patient record?"
     ],
-    "budgetWatch": "Compare the full usable configuration and recurring supplies over one common period.",
+    "budgetWatch": "Compare complete kits, probe-repair exposure and the cost of covering a scanner while it is away for service.",
     "sourceIds": [
       "bvi-manual",
       "calibration",
@@ -170,7 +170,8 @@ export default {
         "heading": "Compare completed kits and the cost of keeping them usable",
         "paragraphs": [
           "In a hypothetical comparison, a $2,000 used console requiring $900 of missing accessories and $400 of acceptance work costs $3,300 before service and continuity. A complete $3,500 alternative is only $200 more at that point. These are invented figures showing how to compare offers, not current scanner prices or permission to buy an unsupported unit.",
-          "A sound decision includes the probe replacement route, battery, approved cleaning supplies, required checks, staff training and time without the device. Retain a suitable accepted scanner when those dependencies are manageable. Replace it when the continuing-service case fails, rather than treating age alone or an “AI” label as the deciding evidence."
+          "A sound decision includes the probe replacement route, battery, approved cleaning supplies, required checks, staff training and time without the device. Retain a suitable accepted scanner when those dependencies are manageable. Replace it when the continuing-service case fails, rather than treating age alone or an “AI” label as the deciding evidence.",
+          "Ask for two support figures: the cost to restore a damaged probe and the time until a complete working scanner is back on the ward. Compare a repair-only warranty with one that supplies a usable loaner. When one shared scanner serves several wards, a cheap repair can still leave a costly service gap; when a second accepted scanner already covers that gap, paying for a premium exchange service may add little. This is a continuity comparison, not a prediction of which model will fail."
         ],
         "sourceIds": []
       }
@@ -223,7 +224,7 @@ export default {
     ],
     [
       "Compare completed kits and the cost of keeping them usable",
-      "In a hypothetical comparison, a $2,000 used console requiring $900 of missing accessories and $400 of acceptance work costs $3,300 before service and continuity. A complete $3,500 alternative is only $200 more at that point. These are invented figures showing how to compare offers, not current scanner prices or permission to buy an unsupported unit. A sound decision includes the probe replacement route, battery, approved cleaning supplies, required checks, staff training and time without the device. Retain a suitable accepted scanner when those dependencies are manageable. Replace it when the continuing-service case fails, rather than treating age alone or an “AI” label as the deciding evidence."
+      "In a hypothetical comparison, a $2,000 used console requiring $900 of missing accessories and $400 of acceptance work costs $3,300 before service and continuity. A complete $3,500 alternative is only $200 more at that point. These are invented figures showing how to compare offers, not current scanner prices or permission to buy an unsupported unit. A sound decision includes the probe replacement route, battery, approved cleaning supplies, required checks, staff training and time without the device. Retain a suitable accepted scanner when those dependencies are manageable. Replace it when the continuing-service case fails, rather than treating age alone or an “AI” label as the deciding evidence. Ask for two support figures: the cost to restore a damaged probe and the time until a complete working scanner is back on the ward. Compare a repair-only warranty with one that supplies a usable loaner. When one shared scanner serves several wards, a cheap repair can still leave a costly service gap; when a second accepted scanner already covers that gap, paying for a premium exchange service may add little. This is a continuity comparison, not a prediction of which model will fail."
     ]
   ],
   "socialTitle": "Buying a bladder scanner: the probe is only half the kit",

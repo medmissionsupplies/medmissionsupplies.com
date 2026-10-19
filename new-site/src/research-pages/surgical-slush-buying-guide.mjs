@@ -45,9 +45,9 @@ export default {
       },
       {
         "id": "microtek",
-        "title": "Fluid warmers and surgical slush",
+        "title": "Microtek fluid warming and Hush Slush 2.0 systems",
         "url": "https://www.medline.com/perioperative/patient-temperature-management/",
-        "publisher": "Medline Microtek",
+        "publisher": "Microtek",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
         "evidence": "Current Hush Slush 2.0 configuration description and loan/rent/sale options; marketing outcomes not treated as comparative evidence."
@@ -121,7 +121,7 @@ export default {
         "heading": "Keep the generations straight",
         "paragraphs": [
           "Ecolab’s EU specification identifies an ORS-1075EU slush machine, ORS-K24EU Auto-Stir and ORS-2038EU solution warmer. Its table names the compatible ORS-130, ORS-320, ORS-321 and ORS-325 disc-drapes and describes them as sterile and single-use. Those identifiers are more useful than an offer headed simply “Hush Slush”.",
-          "Medline Microtek’s current product page describes Hush Slush 2.0 with an integrated fluid warmer and a twist-lock drape arrangement. Do not transfer the older EU system’s drape, electrical or accessory specifications to a differently labelled generation. Require the exact model, revision, applicable instructions and supplied components to agree."
+          "Microtek’s current product page describes Hush Slush 2.0 with an integrated fluid warmer and a twist-lock drape arrangement. Do not transfer the older EU system’s drape, electrical or accessory specifications to a differently labelled generation. Require the exact model, revision, applicable instructions and supplied components to agree."
         ],
         "sourceIds": [
           "legacy-spec",
@@ -140,15 +140,16 @@ export default {
         "heading": "The recurring order can decide the economics",
         "paragraphs": [
           "Identify the exact drape code, pack quantity, usable shelf life on delivery and supply route. Include expected opening losses and the stock reserved for unplanned demand. Availability of a physically similar drape is not proof of compatibility. A system that depends on one particular consumable deserves a credible response to a stock interruption.",
-          "For a low-volume service, minimum order quantities can matter more than unit price. Suppose a hypothetical carton contains 24 approved drapes at 80 each, but only 12 are used before the remaining stock expires. The carton costs 1,920 and its effective drape cost is 160 per completed case. If all 24 are used, it is 80. This is an inventory example, not a market price or expiry forecast."
+          "For a low-volume service, minimum order quantities can matter more than unit price. Suppose a hypothetical carton contains 24 approved drapes at US$80 each, but only 12 are used before the remaining stock expires. The carton costs US$1,920 and its effective drape cost is US$160 per completed case. If all 24 are used, it is US$80. This is an inventory example, not a market price or expiry forecast."
         ],
         "sourceIds": []
       },
       {
         "heading": "A placement offer still has a price",
         "paragraphs": [
-          "Medline describes loaned, rented and sold units. Compare the written terms: minimum consumable purchases, eligible product codes, annual increases, servicing, replacement cover and what happens if activity falls or the agreement ends. A supplied machine may be valuable, but the funding comes from the complete agreement.",
-          "For illustration, a commitment to buy 150 drapes a year when the service uses 100 creates 50 units of excess annual purchasing unless stock can legitimately carry forward or serve other accepted demand. Calculate that obligation before comparing it with a capital purchase. Avoid crediting a placement scheme with savings that depend on cases the hospital does not expect to perform."
+          "Microtek’s product page describes loaned, rented and sold units. Compare the written terms: minimum consumable purchases, eligible product codes, annual increases, servicing, replacement cover and what happens if activity falls or the agreement ends. A supplied machine may be valuable, but the funding comes from the complete agreement.",
+          "For illustration, a commitment to buy 150 drapes a year when the service uses 100 creates 50 units of excess annual purchasing unless stock can legitimately carry forward or serve other accepted demand. Calculate that obligation before comparing it with a capital purchase. Avoid crediting a placement scheme with savings that depend on cases the hospital does not expect to perform.",
+          "Require the contract to say who owns the unit, who pays freight when it needs repair, and whether the replacement arrives with the correct drape system. If the minimum supply order is fixed while activity falls, ask whether the commitment can be reduced or the unit returned without a further capital charge. Price those terms before describing placement as free equipment."
         ],
         "sourceIds": [
           "microtek"
@@ -197,7 +198,7 @@ export default {
     ],
     [
       "Keep the generations straight",
-      "Ecolab’s EU specification identifies an ORS-1075EU slush machine, ORS-K24EU Auto-Stir and ORS-2038EU solution warmer. Its table names the compatible ORS-130, ORS-320, ORS-321 and ORS-325 disc-drapes and describes them as sterile and single-use. Those identifiers are more useful than an offer headed simply “Hush Slush”. Medline Microtek’s current product page describes Hush Slush 2.0 with an integrated fluid warmer and a twist-lock drape arrangement. Do not transfer the older EU system’s drape, electrical or accessory specifications to a differently labelled generation. Require the exact model, revision, applicable instructions and supplied components to agree."
+      "Ecolab’s EU specification identifies an ORS-1075EU slush machine, ORS-K24EU Auto-Stir and ORS-2038EU solution warmer. Its table names the compatible ORS-130, ORS-320, ORS-321 and ORS-325 disc-drapes and describes them as sterile and single-use. Those identifiers are more useful than an offer headed simply “Hush Slush”. Microtek’s current product page describes Hush Slush 2.0 with an integrated fluid warmer and a twist-lock drape arrangement. Do not transfer the older EU system’s drape, electrical or accessory specifications to a differently labelled generation. Require the exact model, revision, applicable instructions and supplied components to agree."
     ],
     [
       "Choose the package for the work",
@@ -205,11 +206,11 @@ export default {
     ],
     [
       "The recurring order can decide the economics",
-      "Identify the exact drape code, pack quantity, usable shelf life on delivery and supply route. Include expected opening losses and the stock reserved for unplanned demand. Availability of a physically similar drape is not proof of compatibility. A system that depends on one particular consumable deserves a credible response to a stock interruption. For a low-volume service, minimum order quantities can matter more than unit price. Suppose a hypothetical carton contains 24 approved drapes at 80 each, but only 12 are used before the remaining stock expires. The carton costs 1,920 and its effective drape cost is 160 per completed case. If all 24 are used, it is 80. This is an inventory example, not a market price or expiry forecast."
+      "Identify the exact drape code, pack quantity, usable shelf life on delivery and supply route. Include expected opening losses and the stock reserved for unplanned demand. Availability of a physically similar drape is not proof of compatibility. A system that depends on one particular consumable deserves a credible response to a stock interruption. For a low-volume service, minimum order quantities can matter more than unit price. Suppose a hypothetical carton contains 24 approved drapes at US$80 each, but only 12 are used before the remaining stock expires. The carton costs US$1,920 and its effective drape cost is US$160 per completed case. If all 24 are used, it is US$80. This is an inventory example, not a market price or expiry forecast."
     ],
     [
       "A placement offer still has a price",
-      "Medline describes loaned, rented and sold units. Compare the written terms: minimum consumable purchases, eligible product codes, annual increases, servicing, replacement cover and what happens if activity falls or the agreement ends. A supplied machine may be valuable, but the funding comes from the complete agreement. For illustration, a commitment to buy 150 drapes a year when the service uses 100 creates 50 units of excess annual purchasing unless stock can legitimately carry forward or serve other accepted demand. Calculate that obligation before comparing it with a capital purchase. Avoid crediting a placement scheme with savings that depend on cases the hospital does not expect to perform."
+      "Microtek’s product page describes loaned, rented and sold units. Compare the written terms: minimum consumable purchases, eligible product codes, annual increases, servicing, replacement cover and what happens if activity falls or the agreement ends. A supplied machine may be valuable, but the funding comes from the complete agreement. For illustration, a commitment to buy 150 drapes a year when the service uses 100 creates 50 units of excess annual purchasing unless stock can legitimately carry forward or serve other accepted demand. Calculate that obligation before comparing it with a capital purchase. Avoid crediting a placement scheme with savings that depend on cases the hospital does not expect to perform. Require the contract to say who owns the unit, who pays freight when it needs repair, and whether the replacement arrives with the correct drape system. If the minimum supply order is fixed while activity falls, ask whether the commitment can be reduced or the unit returned without a further capital charge. Price those terms before describing placement as free equipment."
     ],
     [
       "Traceability includes the disposable",

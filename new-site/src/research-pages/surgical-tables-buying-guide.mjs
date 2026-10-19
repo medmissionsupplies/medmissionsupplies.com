@@ -3,7 +3,7 @@ export default {
   "key": "surgical-tables",
   "kind": "research-guide",
   "equipmentId": "surgical-tables",
-  "title": "Buying surgical tables and lights: compare the fitted package",
+  "title": "Surgical tables and lights: the fitted room is the real price",
   "summary": "A table’s largest load figure and a light’s peak brightness can hide the limits that matter. Compare positions, accessories, imaging access and the installed room.",
   "categoryId": "surgical",
   "category": "Surgery & anesthesia",
@@ -39,7 +39,7 @@ export default {
     ],
     [
       "Compare illumination at the same field size",
-      "For lighting, separate the physical head diameter from the illuminated field. Compare central illuminance at the same working distance and field size, with the same intensity-control state. HarmonyAIR A-Series publishes different values for small and large patterns and for automatic intensity on or off. A single peak number loses those conditions. Evaluate Polaris and HarmonyAIR with people and equipment around the table: reach, shadows, field coverage, control access and suspension drift matter. Price heads, arms, sterile handles, controls and engineered mounting together. Camera and recording options earn their cost only where the service will use them; they should not consume the budget for dependable illumination and maintenance access."
+      "For lighting, separate the physical head diameter from the illuminated field. Compare central illuminance at the same working distance and field size, with the same intensity-control state. HarmonyAIR A-Series publishes different values for small and large patterns and for automatic intensity on or off. A single peak number loses those conditions. Evaluate Polaris and HarmonyAIR with people and equipment around the table: reach, shadows, field coverage, control access and suspension drift matter. Price heads, arms, sterile handles, controls and engineered mounting together. Camera and recording options earn their cost only where the service will use them; they should not consume the budget for dependable illumination and maintenance access. Get installation and room-closure costs before accepting a ceiling-light discount. The offer should identify structural mounting work, electrical work, commissioning, access for later service and the period the theatre will be unavailable. Compare staged replacement or a suitable temporary arrangement if those costs are material. For a table, add the required mattress and positioning accessories on the same basis. A cheaper device and a cheaper completed room are different proposals."
     ],
     [
       "Keep light-source life separate from system life",
@@ -49,18 +49,18 @@ export default {
   "related": [
     "surgical-tables"
   ],
-  "socialTitle": "Buying surgical tables and lights: compare the fitted package",
+  "socialTitle": "Surgical tables and lights: the fitted room is the real price",
   "socialDescription": "A table’s largest load figure and a light’s peak brightness can hide the limits that matter. Compare positions, accessories, imaging access and the installed room.",
-  "socialHeadline": "Buying surgical tables and lights: compare the fitted package",
+  "socialHeadline": "Surgical tables and lights: the fitted room is the real price",
   "socialStrapline": "The bare table is not the working setup.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "surgical-tables",
-    "title": "Buying surgical tables and lights: compare the fitted package",
+    "title": "Surgical tables and lights: the fitted room is the real price",
     "summary": "A table’s largest load figure and a light’s peak brightness can hide the limits that matter. Compare positions, accessories, imaging access and the installed room.",
     "firstChoice": "Demonstrate the required positions with the intended patient range, accessories and C-arm. For lights, check working distance, reach, shadows and suspension in the actual room layout.",
     "upgradeWhen": "Pay for UltraSlide’s travel or CMAX X-Ray’s floating top when those movements improve required imaging access. Add battery-backed mobile lighting when the continuity plan needs the documented configuration.",
-    "budgetWatch": "Include all table accessories and light installation. Separate central, articulated and unrestricted loads; distinguish lighthead size from illuminated field.",
+    "budgetWatch": "Compare fitted table/accessory packages and installed lighting, including engineered mounting, room closure and future service access.",
     "supportCheck": "Reject a table described only by its largest load number, a bare base with unpriced missing accessories, or a ceiling light offered without a viable mounting and installation plan.",
     "askSupplier": [
       "Document allowable loads for our exact positions and attachments.",
@@ -77,7 +77,7 @@ export default {
   },
   "research": {
     "id": "surgical-tables",
-    "title": "Buying surgical tables and lights: compare the fitted package",
+    "title": "Surgical tables and lights: the fitted room is the real price",
     "dek": "A table’s largest load figure and a light’s peak brightness can hide the limits that matter. Compare positions, accessories, imaging access and the installed room.",
     "verdict": "Choose Lyra when its positioning, compatible accessories and fallback controls fit the general theatre; consider Skytron 3603 UltraSlide when its 26-inch slide and stated articulation capacity solve a real limitation. Reserve CMAX X-Ray for work that uses its floating imaging top. For lights, evaluate current Polaris and HarmonyAIR A-Series in the intended room; the documented mobile Polaris offers a distinct battery-backup option. A complete supported table already on site can remain the strongest value.",
     "coverage": [
@@ -187,7 +187,8 @@ export default {
         "heading": "Compare illumination at the same field size",
         "paragraphs": [
           "For lighting, separate the physical head diameter from the illuminated field. Compare central illuminance at the same working distance and field size, with the same intensity-control state. HarmonyAIR A-Series publishes different values for small and large patterns and for automatic intensity on or off. A single peak number loses those conditions.",
-          "Evaluate Polaris and HarmonyAIR with people and equipment around the table: reach, shadows, field coverage, control access and suspension drift matter. Price heads, arms, sterile handles, controls and engineered mounting together. Camera and recording options earn their cost only where the service will use them; they should not consume the budget for dependable illumination and maintenance access."
+          "Evaluate Polaris and HarmonyAIR with people and equipment around the table: reach, shadows, field coverage, control access and suspension drift matter. Price heads, arms, sterile handles, controls and engineered mounting together. Camera and recording options earn their cost only where the service will use them; they should not consume the budget for dependable illumination and maintenance access.",
+          "Get installation and room-closure costs before accepting a ceiling-light discount. The offer should identify structural mounting work, electrical work, commissioning, access for later service and the period the theatre will be unavailable. Compare staged replacement or a suitable temporary arrangement if those costs are material. For a table, add the required mattress and positioning accessories on the same basis. A cheaper device and a cheaper completed room are different proposals."
         ],
         "sourceIds": [
           "t-harmony",
@@ -325,12 +326,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Buying surgical tables and lights: compare the fitted package",
+      "title": "Surgical tables and lights: the fitted room is the real price",
       "description": "A table’s largest load figure and a light’s peak brightness can hide the limits that matter. Compare positions, accessories, imaging access and the installed room.",
       "hook": "The bare table is not the working setup."
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying surgical tables and lights: compare the fitted package General-purpose operating tables Dedicated imaging tables Ceiling and mobile surgical lights Power continuity Accessories, load limits and refurbishment Skytron 3603 UltraSlide Getinge Maquet Lyra STERIS CMAX X-Ray Image-Guided Surgical Table Dräger Polaris, current generation STERIS HarmonyAIR A-Series",
+  "searchTerms": "Surgical tables and lights: the fitted room is the real price General-purpose operating tables Dedicated imaging tables Ceiling and mobile surgical lights Power continuity Accessories, load limits and refurbishment",
   "librarySection": "equipment"
 };

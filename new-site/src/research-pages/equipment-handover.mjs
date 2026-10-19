@@ -3,28 +3,27 @@ export default {
   "key": "equipment-handover",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "The equipment arrived. What still stands between it and use?",
+  "title": "Medical equipment delivery: what must pass before you accept it?",
   "summary": "Separate receiving, installation and acceptance so missing probes, site work or training do not become surprises after delivery.",
   "categoryId": "decisions",
   "category": "Procurement & service",
-  "image": "guides/surgical-tables",
+  "image": "guides/ultrasound-handover",
   "photo": {
-    "id": "surgical-tables",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%A1-%D0%B4%D1%83%D0%B3%D0%B0_%D0%B8_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB_ALPHAMAQUET_1150_%D1%81_%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E_%D1%80%D0%B5%D0%BD%D1%82%D0%B3%D0%B5%D0%BD%D0%BF%D1%80%D0%BE%D0%B7%D1%80%D0%B0%D1%87%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%88%D0%BD%D0%B8%D1%86%D0%B5%D0%B9.jpg",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1-%D0%B4%D1%83%D0%B3%D0%B0_%D0%B8_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB_ALPHAMAQUET_1150_%D1%81_%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E_%D1%80%D0%B5%D0%BD%D1%82%D0%B3%D0%B5%D0%BD%D0%BF%D1%80%D0%BE%D0%B7%D1%80%D0%B0%D1%87%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%88%D0%BD%D0%B8%D1%86%D0%B5%D0%B9.jpg",
-    "photographer": "Михаил Митин",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "caption": "An ALPHAMAQUET 1150 operating table positioned with a C-arm for imaging access. Equipment example.",
-    "captionContext": "Illustrative equipment photograph: An ALPHAMAQUET 1150 operating table positioned with a C-arm for imaging access. Equipment example.",
-    "alt": "An ALPHAMAQUET 1150 radiolucent operating table positioned inside a mobile C-arm.",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:CP24_Biomedical_Equipment_Technicians_Repair_Medical_Equipment_in_Puerto_Cort%C3%A9s_Public_Hospital,_Honduras_(8559636).jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/CP24_Biomedical_Equipment_Technicians_Repair_Medical_Equipment_in_Puerto_Cort%C3%A9s_Public_Hospital%2C_Honduras_%288559636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "photographer": "Mark Logico / U.S. Navy",
+    "license": "Public domain (U.S.)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "caption": "Hospital staff receive ultrasound training in Puerto Cortés, Honduras, in July 2024. Equipment-training example.",
+    "captionContext": "Hospital staff receive ultrasound training in Puerto Cortés, Honduras, in July 2024. Equipment-training example.",
+    "alt": "Hospital staff receive ultrasound training in Puerto Cortés, Honduras, in July 2024. Equipment-training example.",
     "fit": "contain",
     "modelMatch": "category",
-    "verifiedAt": "2026-10-17",
-    "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
-    "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
+    "modelMatchNote": "Illustrative archive photograph; not evidence of MMS inventory, staff or a specific configuration offered for sale.",
+    "verifiedAt": "2026-10-18",
+    "changes": "Resized and converted to WebP; photographic content retained."
   },
-  "minutes": 4,
+  "minutes": 3,
   "sections": [
     [
       "Agree what completion means before shipment",
@@ -40,7 +39,7 @@ export default {
     ],
     [
       "Agree the acceptance result before the engineer travels",
-      "Ask the qualified engineering and clinical leads to define the required acceptance work before ordering. Name who performs it, who reviews the results and who authorizes use under hospital policy. Include required reports and any applicable local approvals in the delivery scope. This guide supplies purchasing records; the responsible specialists select and carry out the tests. For each delivered serial, link the installation report, configuration record, required test results and corrective actions. If a result is unacceptable or a document is missing, assign a hold status and a due date. Closing an action should require the promised evidence, not simply a supplier email saying the issue has been addressed."
+      "Ask the qualified engineering and clinical leads to define the required acceptance work before ordering. Name who performs it, who reviews the results and who authorizes use under hospital policy. Include required reports and any applicable local approvals in the delivery scope. This guide supplies purchasing records; the responsible specialists select and carry out the tests. Make acceptance reflect the purchased workflow. For an ultrasound, reconcile the serial, probes, paid software functions and agreed image export. For a sterilizer, require the responsible specialists’ installation and qualification records for the intended loads. For a connected monitor, include the ordered bedside and central-station functions. These examples define the scope to agree; they do not replace the manufacturer’s tests or local clinical authorization."
     ],
     [
       "Finish with supplies, staff and support ready",
@@ -48,19 +47,19 @@ export default {
     ],
     [
       "Close the purchase with a usable record",
-      "Keep each unresolved item connected to its responsible party, due date and closure evidence. A missing accessory has a different consequence from a failed safety requirement, and commercial closeout must not silently authorize clinical use. Have the responsible hospital team approve any conditional commercial acceptance and state its limits. Finish by handing the complete record to the asset owner and maintenance team. The next buyer should be able to find what was ordered, what arrived, what was accepted and which obligations remain. That makes the handover useful after the installation engineer and purchasing project team have moved on."
+      "Before ordering, agree how a missing item changes commercial completion. A missing spare accessory may allow a documented later delivery; a missing primary probe may prevent the bought examination altogether. State the correction deadline, responsible party and any negotiated payment milestone or retention. Do not assume the hospital may withhold payment unless the contract provides for it, and keep commercial acceptance separate from authorization for clinical use. Finish by handing the complete record to the asset owner and maintenance team. The next buyer should be able to find what was ordered, what arrived, what was accepted and which obligations remain. That makes the handover useful after the installation engineer and purchasing project team have moved on."
     ]
   ],
   "related": [
     "surgical-tables"
   ],
-  "socialTitle": "A delivery signature does not finish the equipment purchase",
+  "socialTitle": "Medical equipment delivery: what must pass before you accept it?",
   "socialDescription": "Define who closes the gap between the loading dock and the first working day.",
-  "socialHeadline": "A delivery signature does not finish the equipment purchase",
+  "socialHeadline": "Medical equipment delivery: what must pass before you accept it?",
   "socialStrapline": "Delivered, installed and accepted are three different milestones.",
   "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "The equipment arrived. What still stands between it and use?",
+    "title": "Medical equipment delivery: what must pass before you accept it?",
     "summary": "Separate receiving, installation and acceptance so missing probes, site work or training do not become surprises after delivery.",
     "firstChoice": "Attach a staged handover schedule to the order: receipt, installation, technical acceptance, user preparation and authorization for use. Give every stage an owner and required evidence.",
     "upgradeWhen": "Pay for specialist installation, acceptance support or additional training when the receiving hospital lacks the necessary qualified capacity.",
@@ -87,7 +86,7 @@ export default {
       "handover evidence and open actions",
       "training and support transfer"
     ],
-    "title": "The equipment arrived. What still stands between it and use?",
+    "title": "Medical equipment delivery: what must pass before you accept it?",
     "dek": "Separate receiving, installation and acceptance so missing probes, site work or training do not become surprises after delivery.",
     "verdict": "Agree the required evidence and responsible people before shipment. A complete handover connects the exact configuration to installation, technical acceptance, user preparation and the hospital’s authorization for use.",
     "decision": {
@@ -97,7 +96,7 @@ export default {
       "walkAwayWhen": "The offer leaves required acceptance work, missing accessories or support ownership without an accountable provider."
     },
     "social": {
-      "title": "A delivery signature does not finish the equipment purchase",
+      "title": "Medical equipment delivery: what must pass before you accept it?",
       "description": "Define who closes the gap between the loading dock and the first working day.",
       "hook": "Delivered, installed and accepted are three different milestones."
     },
@@ -191,7 +190,7 @@ export default {
         "heading": "Agree the acceptance result before the engineer travels",
         "paragraphs": [
           "Ask the qualified engineering and clinical leads to define the required acceptance work before ordering. Name who performs it, who reviews the results and who authorizes use under hospital policy. Include required reports and any applicable local approvals in the delivery scope. This guide supplies purchasing records; the responsible specialists select and carry out the tests.",
-          "For each delivered serial, link the installation report, configuration record, required test results and corrective actions. If a result is unacceptable or a document is missing, assign a hold status and a due date. Closing an action should require the promised evidence, not simply a supplier email saying the issue has been addressed."
+          "Make acceptance reflect the purchased workflow. For an ultrasound, reconcile the serial, probes, paid software functions and agreed image export. For a sterilizer, require the responsible specialists’ installation and qualification records for the intended loads. For a connected monitor, include the ordered bedside and central-station functions. These examples define the scope to agree; they do not replace the manufacturer’s tests or local clinical authorization."
         ],
         "sourceIds": []
       },
@@ -208,7 +207,7 @@ export default {
       {
         "heading": "Close the purchase with a usable record",
         "paragraphs": [
-          "Keep each unresolved item connected to its responsible party, due date and closure evidence. A missing accessory has a different consequence from a failed safety requirement, and commercial closeout must not silently authorize clinical use. Have the responsible hospital team approve any conditional commercial acceptance and state its limits.",
+          "Before ordering, agree how a missing item changes commercial completion. A missing spare accessory may allow a documented later delivery; a missing primary probe may prevent the bought examination altogether. State the correction deadline, responsible party and any negotiated payment milestone or retention. Do not assume the hospital may withhold payment unless the contract provides for it, and keep commercial acceptance separate from authorization for clinical use.",
           "Finish by handing the complete record to the asset owner and maintenance team. The next buyer should be able to find what was ordered, what arrived, what was accepted and which obligations remain. That makes the handover useful after the installation engineer and purchasing project team have moved on."
         ],
         "sourceIds": []
@@ -258,7 +257,7 @@ export default {
         "url": "https://www.unicef.org/supply/contract-implementation",
         "publisher": "UNICEF Supply Division",
         "kind": "institutional guidance",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Vaccine procurement resource describes a named contract manager coordinating supplier, freight and customs communication through final confirmation of contractual conditions."
       },
       {
@@ -267,7 +266,7 @@ export default {
         "url": "https://www.unicef.org/supply/cold-chain-faq",
         "publisher": "UNICEF Supply Division",
         "kind": "institutional guidance",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Cold-room planning includes site readiness, installation responsibility, temperature monitoring, alarms, power backup, spares and user/technician training. These are cold-chain examples, not universal equipment specifications."
       }
     ],

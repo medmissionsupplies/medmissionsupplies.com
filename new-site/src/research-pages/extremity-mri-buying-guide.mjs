@@ -41,7 +41,7 @@ export default {
     },
     "choices": [
       {
-        "model": "Dedicated extremity MRI, exact regional configuration",
+        "model": "Esaote O-scan, exact regional generation and coil set",
         "position": "Capacity-release route",
         "bestFor": "A stable accepted group of transferable examinations.",
         "why": "Separates appropriate work from the main scanner.",
@@ -124,7 +124,7 @@ export default {
         "heading": "Compare a second scanner with two simpler routes",
         "paragraphs": [
           "Longer hours on the existing scanner may use infrastructure and coils already funded, provided staffing and service capacity make that practical. Referral or contracted access can address a smaller or uncertain workload without duplicating all fixed costs, though travel, waiting and continuity must be considered.",
-          "A dedicated scanner earns its place when accepted transferable work is consistent and the service can use the released main-scanner capacity. It is a poor fit when the bottleneck is reporting, staffing or patient preparation shared by both machines. Adding equipment to that bottleneck can add cost without adding completed studies."
+          "A dedicated scanner earns its place when accepted transferable work is consistent and released main-scanner appointments can be filled. Check the staffing plan as a second calculation: if the same radiographer must leave the main scanner to run the extremity system, six hours released on paper may not become six extra staffed hours. Reporting and patient preparation can impose the same constraint."
         ],
         "sourceIds": []
       },
@@ -141,7 +141,7 @@ export default {
       {
         "heading": "Buy released capacity you can use",
         "paragraphs": [
-          "Compare the full additional annual cost with the value of the accepted transferred work and usable main-scanner slots. Include staff, coils, software, service, quality work, premises and interruptions. Avoid equating gross billed activity with funds available to run the machine.",
+          "Compare the additional annual cost with accepted transferred work and usable main-scanner slots. Include the second room, staff, coils, licences, quality work and repair cover. Price an unavailable extremity coil as an interruption scenario: the main scanner may need to take those patients back, using the very capacity the purchase was meant to release. Count only a backup route that can actually accept that work.",
           "Keep the existing arrangement when a schedule change or dependable referral route meets the need at lower sustainable cost. Add extremity MRI when the clinical transfer list, patient fit and staffed capacity case hold together. The decision is whether a second supported workflow improves the service, not whether a smaller magnet looks affordable."
         ],
         "sourceIds": []
@@ -182,7 +182,7 @@ export default {
         "publisher": "Esaote",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Written extremity-system scope, named knee/hand-wrist/ankle-foot coils and regional footnote read. Page says this O-scan is no longer available in CE countries; performance and throughput marketing not validated."
+        "evidence": "Primary O-scan coil list and regional footnote rechecked 18 October 2026: knee, hand-wrist and ankle-foot coils named; page says this system no longer available in CE countries. No support entitlement or throughput claim inferred."
       },
       {
         "id": "fda-mr",
@@ -201,10 +201,10 @@ export default {
   "sheet": {
     "title": "Will an extremity MRI really free your main scanner?",
     "summary": "Count the accepted examinations that can move, then compare a second scanner with longer hours and referral.",
-    "firstChoice": "Build an accepted examination-transfer list before seeking a second scanner.",
-    "upgradeWhen": "The transferred workload releases capacity the main service can use.",
-    "budgetWatch": "Count duplicate fixed costs and complete appointment time.",
-    "supportCheck": "Verify exact model, coils, market and support.",
+    "firstChoice": "Map actual examinations and patient fit to the exact proposed scanner and coils.",
+    "upgradeWhen": "Accepted transferable work and usable released capacity justify a second supported service.",
+    "budgetWatch": "Incremental cost per transferred examination = additional premises, equipment, staff and support cost / accepted transferred examinations.",
+    "supportCheck": "Clinical acceptance, sufficient transferable work, staffing or support is missing.",
     "askSupplier": [
       "Which recent examinations would actually transfer?",
       "Who will staff both workflows and use the freed slots?",
@@ -230,7 +230,7 @@ export default {
     ],
     [
       "Compare a second scanner with two simpler routes",
-      "Longer hours on the existing scanner may use infrastructure and coils already funded, provided staffing and service capacity make that practical. Referral or contracted access can address a smaller or uncertain workload without duplicating all fixed costs, though travel, waiting and continuity must be considered. A dedicated scanner earns its place when accepted transferable work is consistent and the service can use the released main-scanner capacity. It is a poor fit when the bottleneck is reporting, staffing or patient preparation shared by both machines. Adding equipment to that bottleneck can add cost without adding completed studies."
+      "Longer hours on the existing scanner may use infrastructure and coils already funded, provided staffing and service capacity make that practical. Referral or contracted access can address a smaller or uncertain workload without duplicating all fixed costs, though travel, waiting and continuity must be considered. A dedicated scanner earns its place when accepted transferable work is consistent and released main-scanner appointments can be filled. Check the staffing plan as a second calculation: if the same radiographer must leave the main scanner to run the extremity system, six hours released on paper may not become six extra staffed hours. Reporting and patient preparation can impose the same constraint."
     ],
     [
       "A small scanner still needs an operating home",
@@ -238,11 +238,11 @@ export default {
     ],
     [
       "Buy released capacity you can use",
-      "Compare the full additional annual cost with the value of the accepted transferred work and usable main-scanner slots. Include staff, coils, software, service, quality work, premises and interruptions. Avoid equating gross billed activity with funds available to run the machine. Keep the existing arrangement when a schedule change or dependable referral route meets the need at lower sustainable cost. Add extremity MRI when the clinical transfer list, patient fit and staffed capacity case hold together. The decision is whether a second supported workflow improves the service, not whether a smaller magnet looks affordable."
+      "Compare the additional annual cost with accepted transferred work and usable main-scanner slots. Include the second room, staff, coils, licences, quality work and repair cover. Price an unavailable extremity coil as an interruption scenario: the main scanner may need to take those patients back, using the very capacity the purchase was meant to release. Count only a backup route that can actually accept that work. Keep the existing arrangement when a schedule change or dependable referral route meets the need at lower sustainable cost. Add extremity MRI when the clinical transfer list, patient fit and staffed capacity case hold together. The decision is whether a second supported workflow improves the service, not whether a smaller magnet looks affordable."
     ]
   ],
   "minutes": 3,
-  "searchTerms": "extremity MRI versus whole-body capacity coil and examination scope appointment transfer arithmetic regional product availability Dedicated extremity MRI, exact regional configuration Extend the existing MRI schedule Contracted access or referral",
+  "searchTerms": "Will an extremity MRI really free your main scanner? extremity MRI versus whole-body capacity coil and examination scope appointment transfer arithmetic regional product availability Esaote O-scan, exact regional generation and coil set Extend the existing MRI schedule Contracted access or referral",
   "librarySection": "equipment",
   "image": "guides/ct-mri",
   "photo": {

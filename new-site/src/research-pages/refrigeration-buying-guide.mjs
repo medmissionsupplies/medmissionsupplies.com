@@ -27,7 +27,7 @@ export default {
   "sections": [
     [
       "Buy for the stock that has to survive",
-      "Vaccines, blood and pharmacy or laboratory stock are separate storage jobs. Begin with the actual products, their permitted conditions and the busiest replenishment cycle. Gross cabinet litres do not tell you how much stock fits in the required arrangement with circulation space. A large medical-refrigerator label is not proof that the cabinet suits every product. Treat monitoring, the alarm responder and alternative storage as part of the purchase. A display on the door is little help after staff leave. Decide what happens when an alarm reaches an unattended phone, a communications link fails or the receiving cabinet is already full. The useful comparison is the protected service, including those dependencies."
+      "Vaccines, blood and pharmacy or laboratory stock are separate storage jobs. Begin with the actual products, their permitted conditions and the busiest replenishment cycle. Gross cabinet litres do not tell you how much stock fits in the required arrangement with circulation space. A large medical-refrigerator label is not proof that the cabinet suits every product. Treat monitoring, the alarm responder and alternative storage as part of the purchase. A display on the door is little help after staff leave. Decide what happens when an alarm reaches an unattended phone, a communications link fails or the receiving cabinet is already full. The useful comparison is the protected service, including those dependencies. Test the outage plan against peak stock, not an almost-empty cabinet. Identify the quantity that the receiving store can accept, approved transport capacity and the staff available to move it. Two refrigerators on the same electrical circuit or in the same overheated room may share the same interruption. Extra capacity is valuable only when the site can keep that capacity within the stock’s permitted conditions."
     ],
     [
       "Solar solves a particular power problem",
@@ -35,7 +35,7 @@ export default {
     ],
     [
       "Tender prices help only when the scope travels with them",
-      "UNICEF’s September 2026 table gives EUR 4,880–5,060 for VC88SDD and USD 3,937–4,417 for HTC-120. These institutional figures use FCA containerized sea-shipment terms with EMS level 2 and stated exclusions. They are neither directly comparable currencies nor a hospital’s delivered retail price. Keep cabinet, solar equipment, monitoring, inland freight, installation, commissioning, training and warranty travel separate in a local comparison. A higher complete price may buy useful work that the benchmark excludes. An unexplained premium may buy nothing extra. Do not apply an exchange rate without its date or assume eligibility for an institutional contract."
+      "UNICEF’s September 2026 table gives EUR 4,880–5,060 for VC88SDD and USD 3,937–4,417 for HTC-120. These institutional figures use FCA containerized sea-shipment terms with EMS level 2 and stated exclusions. They are neither directly comparable currencies nor a hospital’s delivered retail price. Keep cabinet, solar equipment, monitoring, inland freight, installation, commissioning, training and warranty travel separate in a local comparison. A higher complete price may buy useful work that the benchmark excludes. An unexplained premium may buy nothing extra. Do not apply an exchange rate without its date or assume eligibility for an institutional contract. Ask for the installed package and its recurring monitoring cost in one chosen currency, with exchange assumptions dated. Compare service travel, communications fees, logger replacement and the stock-transfer arrangement alongside energy. A cabinet with a lower electricity bill may still cost more to protect if every repair requires distant travel and there is no usable temporary store."
     ],
     [
       "More blood capacity does not buy a hotter-room rating",
@@ -166,7 +166,8 @@ export default {
         "heading": "Buy for the stock that has to survive",
         "paragraphs": [
           "Vaccines, blood and pharmacy or laboratory stock are separate storage jobs. Begin with the actual products, their permitted conditions and the busiest replenishment cycle. Gross cabinet litres do not tell you how much stock fits in the required arrangement with circulation space. A large medical-refrigerator label is not proof that the cabinet suits every product.",
-          "Treat monitoring, the alarm responder and alternative storage as part of the purchase. A display on the door is little help after staff leave. Decide what happens when an alarm reaches an unattended phone, a communications link fails or the receiving cabinet is already full. The useful comparison is the protected service, including those dependencies."
+          "Treat monitoring, the alarm responder and alternative storage as part of the purchase. A display on the door is little help after staff leave. Decide what happens when an alarm reaches an unattended phone, a communications link fails or the receiving cabinet is already full. The useful comparison is the protected service, including those dependencies.",
+          "Test the outage plan against peak stock, not an almost-empty cabinet. Identify the quantity that the receiving store can accept, approved transport capacity and the staff available to move it. Two refrigerators on the same electrical circuit or in the same overheated room may share the same interruption. Extra capacity is valuable only when the site can keep that capacity within the stock’s permitted conditions."
         ],
         "sourceIds": []
       },
@@ -185,7 +186,8 @@ export default {
         "heading": "Tender prices help only when the scope travels with them",
         "paragraphs": [
           "UNICEF’s September 2026 table gives EUR 4,880–5,060 for VC88SDD and USD 3,937–4,417 for HTC-120. These institutional figures use FCA containerized sea-shipment terms with EMS level 2 and stated exclusions. They are neither directly comparable currencies nor a hospital’s delivered retail price.",
-          "Keep cabinet, solar equipment, monitoring, inland freight, installation, commissioning, training and warranty travel separate in a local comparison. A higher complete price may buy useful work that the benchmark excludes. An unexplained premium may buy nothing extra. Do not apply an exchange rate without its date or assume eligibility for an institutional contract."
+          "Keep cabinet, solar equipment, monitoring, inland freight, installation, commissioning, training and warranty travel separate in a local comparison. A higher complete price may buy useful work that the benchmark excludes. An unexplained premium may buy nothing extra. Do not apply an exchange rate without its date or assume eligibility for an institutional contract.",
+          "Ask for the installed package and its recurring monitoring cost in one chosen currency, with exchange assumptions dated. Compare service travel, communications fees, logger replacement and the stock-transfer arrangement alongside energy. A cabinet with a lower electricity bill may still cost more to protect if every repair requires distant travel and there is no usable temporary store."
         ],
         "sourceIds": [
           "unicef"
@@ -342,6 +344,6 @@ export default {
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying medical refrigerators: protect the stock through the outage refrigeration blood-bank refrigeration pharmacy and reagent refrigeration Dulas VC88SDD Haier HTC-120, exact PQS configuration B Medical Systems B51 B Medical Systems B131 PHCbi MPR-S150H-PE B Medical Systems P55",
+  "searchTerms": "Buying medical refrigerators: protect the stock through the outage refrigeration blood-bank refrigeration pharmacy and reagent refrigeration",
   "librarySection": "equipment"
 };

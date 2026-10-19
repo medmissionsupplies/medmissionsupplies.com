@@ -42,7 +42,7 @@ export default {
     },
     "choices": [
       {
-        "model": "Compatible upright attachment",
+        "model": "Hologic Affirm upright guidance on a verified compatible host",
         "position": "Share the existing room",
         "bestFor": "Accepted workload fits the mammography schedule.",
         "why": "Uses a host imaging system already funded.",
@@ -54,7 +54,7 @@ export default {
         ]
       },
       {
-        "model": "Dedicated prone system",
+        "model": "Hologic Affirm prone system",
         "position": "Separate capacity",
         "bestFor": "Accepted positioning or workload warrants its own room.",
         "why": "Separates scheduling from routine mammography.",
@@ -78,13 +78,13 @@ export default {
     ],
     "quickCompare": [
       {
-        "option": "Upright attachment",
+        "option": "Affirm upright on compatible host",
         "capability": "Shared host and room.",
         "costDriver": "Displaced appointments.",
         "bestFit": "Compatible host and manageable workload."
       },
       {
-        "option": "Prone system",
+        "option": "Affirm prone",
         "capability": "Dedicated imaging capacity.",
         "costDriver": "Second room and support.",
         "bestFit": "Accepted need justifies fixed costs."
@@ -109,7 +109,7 @@ export default {
         "heading": "Use compatible examples, not family-name assumptions",
         "paragraphs": [
           "Hologic describes its Affirm guidance system as an add-on for compatible Hologic 3D-capable mammography systems, with 2D and 3D guidance. Its Affirm prone product is a dedicated prone 2D/3D system. These are examples of the two architectures, not a finding that any used Hologic unit accepts any Affirm attachment.",
-          "Record the host system, software version, guidance device, licences and accessories in one configuration schedule. Have the supplier document compatibility and the clinical team review the intended positioning. Optional access hardware should appear in the offer when the accepted procedure plan depends on it."
+          "Put the host model, release, guidance device and licences on one configuration schedule. Hologic lists a lateral arm as an optional upright accessory. If the clinical plan depends on that access, a base Affirm quotation is incomplete without the arm and its accepted configuration. Compare setup and storage with staff using the actual accessories, then price the sampling equipment separately."
         ],
         "sourceIds": [
           "affirm-up",
@@ -185,7 +185,7 @@ export default {
         "publisher": "Hologic",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Written product description: add-on to compatible Hologic 3D-capable mammography with 2D/3D guidance; optional lateral arm. Exact offered-generation compatibility remains to verify."
+        "evidence": "Primary product overview and feature list read 18 October 2026: host-based 2D/3D guidance; lateral arm explicitly optional. Compatibility and included accessories on a used host remain unit-specific."
       },
       {
         "id": "affirm-prone",
@@ -205,10 +205,10 @@ export default {
   "sheet": {
     "title": "Breast biopsy: share the mammography unit or buy a prone table?",
     "summary": "Compare a compatible upright attachment, a dedicated prone system and referral by patient fit, room time and the complete sampling pathway.",
-    "firstChoice": "Compare accepted procedures and real blocked room time.",
-    "upgradeWhen": "Dedicated capacity or positioning removes a documented limitation.",
-    "budgetWatch": "Include sampling, pathology and lost usable appointments.",
-    "supportCheck": "Verify host compatibility and the response to downtime.",
+    "firstChoice": "Agree clinical scope and measure the room time required for the anticipated workload.",
+    "upgradeWhen": "Dedicated capacity or positioning solves an accepted clinical or scheduling need.",
+    "budgetWatch": "Biopsy service cost = guidance system + site and shared-room opportunity cost + sampling supplies + staff + pathology + support.",
+    "supportCheck": "The complete sampling and pathology pathway or exact compatibility is unproven.",
     "askSupplier": [
       "Is every host, licence and accessory compatible in this exact offer?",
       "How much useful room time would sharing displace?",
@@ -226,7 +226,7 @@ export default {
     ],
     [
       "Use compatible examples, not family-name assumptions",
-      "Hologic describes its Affirm guidance system as an add-on for compatible Hologic 3D-capable mammography systems, with 2D and 3D guidance. Its Affirm prone product is a dedicated prone 2D/3D system. These are examples of the two architectures, not a finding that any used Hologic unit accepts any Affirm attachment. Record the host system, software version, guidance device, licences and accessories in one configuration schedule. Have the supplier document compatibility and the clinical team review the intended positioning. Optional access hardware should appear in the offer when the accepted procedure plan depends on it."
+      "Hologic describes its Affirm guidance system as an add-on for compatible Hologic 3D-capable mammography systems, with 2D and 3D guidance. Its Affirm prone product is a dedicated prone 2D/3D system. These are examples of the two architectures, not a finding that any used Hologic unit accepts any Affirm attachment. Put the host model, release, guidance device and licences on one configuration schedule. Hologic lists a lateral arm as an optional upright accessory. If the clinical plan depends on that access, a base Affirm quotation is incomplete without the arm and its accepted configuration. Compare setup and storage with staff using the actual accessories, then price the sampling equipment separately."
     ],
     [
       "Price the appointments that sharing displaces",
@@ -246,7 +246,7 @@ export default {
     ]
   ],
   "minutes": 3,
-  "searchTerms": "upright versus prone breast biopsy mammography room occupancy guidance and sampling equipment pathology and follow-up Compatible upright attachment Dedicated prone system Referral partnership",
+  "searchTerms": "Breast biopsy: share the mammography unit or buy a prone table? upright versus prone breast biopsy mammography room occupancy guidance and sampling equipment pathology and follow-up Hologic Affirm upright guidance on a verified compatible host Hologic Affirm prone system Referral partnership",
   "librarySection": "equipment",
   "image": "guides/breast-biopsy-table",
   "photo": {

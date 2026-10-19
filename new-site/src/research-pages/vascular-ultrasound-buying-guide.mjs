@@ -3,7 +3,7 @@ export default {
   "key": "vascular-ultrasound",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Vascular ultrasound: a linear probe is not the whole package",
+  "title": "Vascular ultrasound: price the probe, modes and report",
   "summary": "Compare the examinations, Doppler work and reporting the service needs. A portable and a shared imaging cart can each be good value for different workloads.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
@@ -19,7 +19,7 @@ export default {
     ],
     [
       "Make the report part of the demonstration",
-      "Have the qualified vascular team evaluate the complete task using its approved acceptance arrangements. Follow the required imaging and measurements through saved studies, labels and the report. Establish which values transfer into the reporting workflow and which still require manual entry. Count the actual steps before accepting a promised productivity advantage. A demonstration on a supplier’s fully equipped unit should not settle a purchase of another configuration. Record the release, enabled options and probe used. If an advanced flow display is attractive, ask whether it changes a requirement in the clinical brief; otherwise compare it as an optional benefit rather than an assumed necessity."
+      "Have the qualified vascular team evaluate the complete task using its approved acceptance arrangements. Follow the required imaging and measurements through saved studies, labels and the report. Establish which values transfer into the reporting workflow and which still require manual entry. Count the actual steps before accepting a promised productivity advantage. Make the supplier identify the probe, software release and enabled applications used in the demonstration. Then ask for the same examination-to-report sequence on the delivered package. If the quoted base software requires manual re-entry of measurements while the demonstration used a separate reporting product, add that licence and integration before accepting a productivity comparison. Advanced flow displays should earn their cost through a named clinical requirement."
     ],
     [
       "A shared cart and a portable solve different access problems",
@@ -33,14 +33,14 @@ export default {
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "What is missing from the vascular ultrasound package?",
-  "socialDescription": "Compare LOGIQ E10 and Vivid iq configuration leads without turning brochure images into a universal winner.",
-  "socialHeadline": "What is missing from the vascular ultrasound package?",
+  "socialTitle": "Vascular ultrasound: price the probe, modes and report",
+  "socialDescription": "Compare the examinations, Doppler work and reporting the service needs. A portable and a shared imaging cart can each be good value for different workloads.",
+  "socialHeadline": "Vascular ultrasound: price the probe, modes and report",
   "socialStrapline": "A vessel image does not prove the full examination and report are covered.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "vascular-ultrasound",
-    "title": "Vascular ultrasound: a linear probe is not the whole package",
+    "title": "Vascular ultrasound: price the probe, modes and report",
     "summary": "Compare the examinations, Doppler work and reporting the service needs. A portable and a shared imaging cart can each be good value for different workloads.",
     "firstChoice": "Define the vascular examinations and report, then compare complete named probe/mode/release packages.",
     "upgradeWhen": "A required function, reporting improvement or dedicated availability changes the service.",
@@ -60,7 +60,7 @@ export default {
   "research": {
     "id": "vascular-ultrasound",
     "kind": "feature",
-    "title": "Vascular ultrasound: a linear probe is not the whole package",
+    "title": "Vascular ultrasound: price the probe, modes and report",
     "dek": "Compare the examinations, Doppler work and reporting the service needs. A portable and a shared imaging cart can each be good value for different workloads.",
     "verdict": "Buy the complete accepted vascular examination and reporting workflow. Add a cart, advanced option or dedicated system only when it resolves a defined imaging, access or workload limitation.",
     "coverage": [
@@ -76,7 +76,7 @@ export default {
         "bestFor": "A service considering shared or dedicated cart capacity.",
         "why": "OEM examples identify L2-9-D vascular imaging tasks.",
         "tradeoff": "Examples do not specify every offered release or included option.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "L2-9-D and any other required probes, specified vascular modes, reporting and probe cover.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "ge-clinical",
@@ -89,7 +89,7 @@ export default {
         "bestFor": "A service needing an accepted portable vascular workflow.",
         "why": "OEM page states a version restriction for the named probe.",
         "tradeoff": "Do not infer equal clinical performance or buy unwanted options by default.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Compatible Premium/4D version, L4-20t-RS, cart/battery arrangement and accepted reporting.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "vivid-iq"
@@ -101,7 +101,7 @@ export default {
         "bestFor": "Adequate capability and access with a practical repair route.",
         "why": "May preserve useful probes, reporting and staff familiarity.",
         "tradeoff": "Exact support and unresolved limitations decide whether investment continues.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Supported probe or reporting addition, repair and temporary service cover.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": []
       }
@@ -131,7 +131,7 @@ export default {
         "heading": "Make the report part of the demonstration",
         "paragraphs": [
           "Have the qualified vascular team evaluate the complete task using its approved acceptance arrangements. Follow the required imaging and measurements through saved studies, labels and the report. Establish which values transfer into the reporting workflow and which still require manual entry. Count the actual steps before accepting a promised productivity advantage.",
-          "A demonstration on a supplier’s fully equipped unit should not settle a purchase of another configuration. Record the release, enabled options and probe used. If an advanced flow display is attractive, ask whether it changes a requirement in the clinical brief; otherwise compare it as an optional benefit rather than an assumed necessity."
+          "Make the supplier identify the probe, software release and enabled applications used in the demonstration. Then ask for the same examination-to-report sequence on the delivered package. If the quoted base software requires manual re-entry of measurements while the demonstration used a separate reporting product, add that licence and integration before accepting a productivity comparison. Advanced flow displays should earn their cost through a named clinical requirement."
         ],
         "sourceIds": []
       },
@@ -188,7 +188,7 @@ export default {
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Current public examples include ML4-20-D breast 2D shear-wave and L2-9-D lower-extremity venous micro B-Flow. Specific offered release, licences and probe condition remain purchase checks."
+        "evidence": "Primary current LOGIQ E10 image captions and release footnotes read 18 October 2026: L2-9-D lower-extremity venous micro B-Flow example. Does not establish installed options or universal release compatibility."
       },
       {
         "id": "vivid-iq",
@@ -197,7 +197,7 @@ export default {
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Current public body identifies M5Sc, analysis/reporting tools and release-dependent features; manufacturer performance and testimonial claims are not independent findings. No current matched price or all-unit entitlement established."
+        "evidence": "Primary Vivid iq page read during this review on 18 October 2026: L4-20t-RS explicitly limited to Premium and 4D versions. Manufacturer battery, performance and testimonial statements not used as head-to-head vascular evidence."
       }
     ],
     "decision": {
@@ -227,12 +227,12 @@ export default {
       }
     ],
     "social": {
-      "title": "What is missing from the vascular ultrasound package?",
-      "description": "Compare LOGIQ E10 and Vivid iq configuration leads without turning brochure images into a universal winner.",
+      "title": "Vascular ultrasound: price the probe, modes and report",
+      "description": "Compare the examinations, Doppler work and reporting the service needs. A portable and a shared imaging cart can each be good value for different workloads.",
       "hook": "A vessel image does not prove the full examination and report are covered."
     }
   },
-  "searchTerms": "Vascular ultrasound: a linear probe is not the whole package Defined vascular examinations Probe and release differences Measurement-to-report workflow Shared versus dedicated access LOGIQ E10 with the required vascular package Vivid iq Premium/4D with a verified L4-20t-RS package Retain or complete the accepted installed system",
+  "searchTerms": "Vascular ultrasound: price the probe, modes and report Defined vascular examinations Probe and release differences Measurement-to-report workflow Shared versus dedicated access LOGIQ E10 with the required vascular package Vivid iq Premium/4D with a verified L4-20t-RS package Retain or complete the accepted installed system",
   "librarySection": "equipment",
   "image": "guides/us-linear-probe",
   "photo": {

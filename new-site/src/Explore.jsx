@@ -30,7 +30,7 @@ import { guideSources } from "./guide-sources.mjs";
 import { equipmentGuidance } from "./editorial-guidance.mjs";
 import { EquipmentEditorial, Takeaways, SourceLinks, SourceNotes } from "./EditorialContent.jsx";
 import ShareTools from "./ShareTools.jsx";
-import { ResearchLibrary, GuideInquiry } from "./ResearchLibrary.jsx";
+import { ResearchLibrary, GuideInquiry, PhotoCredit } from "./ResearchLibrary.jsx";
 import ResearchArticleRoute from "./ResearchArticleRoute.jsx";
 import { researchGuides } from "./research-guide-index.generated.mjs";
 
@@ -220,6 +220,7 @@ export function ExploreHero({
   back,
   backLabel,
   image = "equipment-detail",
+  photo,
   compact = false,
   action,
 }) {
@@ -238,9 +239,10 @@ export function ExploreHero({
         {description && <p>{description}</p>}
         {action && <Action href={action[1]}>{action[0]}</Action>}
       </div>
-      <div className="page-banner-media">
-        <Photo name={image} eager />
-      </div>
+      {photo ? <figure className="page-banner-media credited-banner-media">
+        <div><Photo name={image} alt={photo.alt || photo.caption} eager /></div>
+        <PhotoCredit photo={photo} />
+      </figure> : <div className="page-banner-media"><Photo name={image} eager /></div>}
     </header>
   );
 }
@@ -639,6 +641,7 @@ export function ArticleDetail({ item }) {
         back="/articles.html"
         backLabel="Buying guides"
         image={item.image}
+        photo={item.photo}
       />
       <div className="content-width"><ShareTools path={articleUrl(item)} title={item.socialTitle || item.title} summary={item.socialDescription || item.summary} /></div>
       <article className="content-width article-layout">
@@ -649,7 +652,7 @@ export function ArticleDetail({ item }) {
           {item.sections.map(([title, text], i) => (
             <section id={`section-${i + 1}`} key={title}>
               <h2>{title}</h2>
-              <p>{text}</p>
+              {text.split(/\n\s*\n/).map((paragraph, index) => <p key={index}>{paragraph}</p>)}
               <SourceLinks ids={item.sectionSources?.[i]} />
             </section>
           ))}
@@ -725,6 +728,7 @@ export function BuyingGuide({ item }) {
       <ExploreHero
         title={item.title}
         image={item.image}
+        photo={item.photo}
         back="/articles.html"
         backLabel="Buying guides"
       />
@@ -755,7 +759,8 @@ export function BuyingGuide({ item }) {
               <section className="guide-item" id={entry.id} key={entry.id}>
                 <div className="guide-item-top">
                   <figure>
-                    <Photo name={entry.image} />
+                    <Photo name={entry.image} alt={entry.photo?.alt || entry.photo?.caption} />
+                    <PhotoCredit photo={entry.photo} compact />
                   </figure>
                   <div>
                     <h2>{entry.title}</h2>

@@ -3,7 +3,7 @@ export default {
   "key": "infusion-consumables",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Infusion sets: a lower unit price can cost the hospital more",
+  "title": "Infusion pump sets: the discount that can raise your annual bill",
   "summary": "Use pack sizes, expiry, minimum orders and a common annual basket to expose the real supply cost before committing to a pump fleet.",
   "categoryId": "decisions",
   "category": "Procurement & service",
@@ -44,19 +44,19 @@ export default {
     ],
     [
       "Compare the transition with keeping a supported fleet",
-      "A new family adds accessories, startup supplies, training, configuration and old stock that may no longer be usable. Keep those one-time costs separate from the recurring basket. Retaining a supported fleet and improving delivery terms may be better value when supply management is the real problem. Standardization is stronger when it removes a demonstrated compatibility, training or support burden. Award the configured equipment and replenishment arrangement together. Carry approved references, pack quantities, price validity, shortage contacts and the review date into routine purchasing. Recalculate when workload or approved products change; the original capital saving should not conceal an increasingly expensive annual commitment."
+      "A new family adds accessories, startup supplies, training, configuration and old stock that may no longer be usable. Keep those one-time costs separate from the recurring basket. Retaining a supported fleet and improving delivery terms may be better value when supply management is the real problem. Standardization is stronger when it removes a demonstrated compatibility, training or support burden. Use a simple conversion test before accepting cheaper sets as a reason to change pumps. In a hypothetical case, a complete fleet conversion costs an extra US$12,000 and saves US$3,000 a year on the same approved consumable basket. Four years of those savings are needed to recover the extra outlay, before financing or other cost differences. If the price commitment lasts only one year, the four-year saving is still an assumption. A change may be justified by capability or support, but label that benefit separately. Award the configured equipment and replenishment arrangement together. Carry approved references, pack quantities, price validity, shortage contacts and the review date into routine purchasing. Recalculate when workload or approved products change; the original capital saving should not conceal an increasingly expensive annual commitment."
     ]
   ],
   "related": [
     "infusion"
   ],
-  "socialTitle": "Infusion sets: a lower unit price can cost the hospital more",
+  "socialTitle": "Infusion pump sets: the discount that can raise your annual bill",
   "socialDescription": "Use pack sizes, expiry, minimum orders and a common annual basket to expose the real supply cost before committing to a pump fleet.",
-  "socialHeadline": "Infusion sets: a lower unit price can cost the hospital more",
+  "socialHeadline": "Infusion pump sets: the discount that can raise your annual bill",
   "socialStrapline": "Compare usable supply, not the cheapest number on a carton.",
   "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Infusion sets: a lower unit price can cost the hospital more",
+    "title": "Infusion pump sets: the discount that can raise your annual bill",
     "summary": "Use pack sizes, expiry, minimum orders and a common annual basket to expose the real supply cost before committing to a pump fleet.",
     "firstChoice": "Have pharmacy, nursing, engineering and purchasing agree the required pump applications and approved consumable references.",
     "upgradeWhen": "A better supply or support arrangement resolves a documented weakness and its complete cost remains affordable.",
@@ -83,7 +83,7 @@ export default {
       "supply continuity and substitutions",
       "fleet transition costs"
     ],
-    "title": "Infusion sets: a lower unit price can cost the hospital more",
+    "title": "Infusion pump sets: the discount that can raise your annual bill",
     "dek": "Use pack sizes, expiry, minimum orders and a common annual basket to expose the real supply cost before committing to a pump fleet.",
     "verdict": "Compare complete pump packages against the same locally approved annual consumables basket. Prefer a supportable combination of equipment, approved supplies and replenishment terms; a low hardware price does not settle that comparison.",
     "decision": {
@@ -93,7 +93,7 @@ export default {
       "walkAwayWhen": "The supplier cannot document compatibility for the offered configuration or quote a sustainable replenishment route."
     },
     "social": {
-      "title": "Infusion sets: a lower unit price can cost the hospital more",
+      "title": "Infusion pump sets: the discount that can raise your annual bill",
       "description": "Use pack sizes, expiry, minimum orders and a common annual basket to expose the real supply cost before committing to a pump fleet.",
       "hook": "Compare usable supply, not the cheapest number on a carton."
     },
@@ -198,6 +198,7 @@ export default {
         "heading": "Compare the transition with keeping a supported fleet",
         "paragraphs": [
           "A new family adds accessories, startup supplies, training, configuration and old stock that may no longer be usable. Keep those one-time costs separate from the recurring basket. Retaining a supported fleet and improving delivery terms may be better value when supply management is the real problem. Standardization is stronger when it removes a demonstrated compatibility, training or support burden.",
+          "Use a simple conversion test before accepting cheaper sets as a reason to change pumps. In a hypothetical case, a complete fleet conversion costs an extra US$12,000 and saves US$3,000 a year on the same approved consumable basket. Four years of those savings are needed to recover the extra outlay, before financing or other cost differences. If the price commitment lasts only one year, the four-year saving is still an assumption. A change may be justified by capability or support, but label that benefit separately.",
           "Award the configured equipment and replenishment arrangement together. Carry approved references, pack quantities, price validity, shortage contacts and the review date into routine purchasing. Recalculate when workload or approved products change; the original capital saving should not conceal an increasingly expensive annual commitment."
         ],
         "sourceIds": [

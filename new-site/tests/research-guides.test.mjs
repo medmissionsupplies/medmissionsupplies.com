@@ -19,8 +19,8 @@ test('every equipment listing has one original, sourced buying guide and on-page
     const sources = new Set(g.research.sources.map(s => s.id));
     assert.equal(sources.size, g.research.sources.length, g.id + ': duplicate source IDs');
     for (const field of ['title', 'summary', 'firstChoice', 'upgradeWhen', 'budgetWatch', 'supportCheck']) assert.ok(g.sheet[field]?.trim(), g.id + ': ' + field);
-    assert.equal(g.sheet.askSupplier.length, 3, g.id);
-    assert.equal(new Set(g.sheet.askSupplier).size, 3, g.id);
+    assert.ok(g.sheet.askSupplier.length >= 3 && g.sheet.askSupplier.length <= 6, g.id + ': concise, complete quote questions');
+    assert.equal(new Set(g.sheet.askSupplier).size, g.sheet.askSupplier.length, g.id + ': repeated quote question');
     assert.ok(g.sheet.sourceIds.length > 0, g.id);
     const references = [...g.sheet.sourceIds, ...g.research.sections.flatMap(s => s.sourceIds || []), ...g.research.choices.flatMap(c => c.sourceIds || [])];
     for (const ref of references) assert.ok(sources.has(ref), g.id + ': missing source ' + ref);

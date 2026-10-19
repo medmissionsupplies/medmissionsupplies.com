@@ -23,19 +23,19 @@ export default {
     ],
     [
       "Compare the missing pieces before replacing the console",
-      "Suppose an existing supported scanner can be upgraded for the defined task. Compare the authorized software addition, exact tracking hardware, compatible probe and integration work with a complete replacement package. Keeping a console can preserve useful training and accessories, but only if the upgrade closes the whole requirement. Conversely, a low-priced used scanner with fusion software but missing sensors or tracker electronics is not a discounted complete system. Establish whether the missing parts can actually be supplied, configured and serviced. An uncertain completion cost belongs beside the purchase price; it should not disappear into an assumed future accessory order."
+      "Suppose an existing supported scanner can be upgraded for the defined task. Compare the authorized software addition, exact tracking hardware, compatible probe and integration work with a complete replacement package. Keeping a console can preserve useful training and accessories, but only if the upgrade closes the whole requirement. A used console with an enabled fusion screen but no tracker electronics or sensor is an incomplete offer. Obtain a priced, documented route for each missing part before valuing the discount. Ask the service provider to identify which component it can replace and which software configuration it can restore. If one unavailable specialist part stops the entire workflow, a general ultrasound warranty does not turn the console into a supported fusion package."
     ],
     [
       "Budget for keeping the chain working",
-      "Ask which party can restore the software and tracking configuration after a failure or computer replacement, and which rights transfer with the equipment. Define coverage for the tracker and sensors as well as the console and transducers. A general ultrasound repair promise does not establish that the whole specialist package can return to service. The sources do not establish a current matched price, a universal clinical advantage or a reliability ranking. The useful comparison is narrower: a complete accepted upgrade, a complete replacement, or another justified service arrangement. Spend more when it buys a required working capability and credible continuity; defer the purchase when the essential hardware or support route cannot be established."
+      "Ask which party can restore the software and tracking configuration after a failure or computer replacement, and which rights transfer with the equipment. Define coverage for the tracker and sensors as well as the console and transducers. A general ultrasound repair promise does not establish that the whole specialist package can return to service. Compare a supported complete upgrade, a complete replacement and access through an established service on the same expected workload. Include preparation of prior images and the time needed to set up the accepted workflow. Retain the conventional scanner for work it already performs well; spend on fusion only when the clinical requirement and the whole configuration justify the additional commitment."
     ]
   ],
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "Does that fusion ultrasound include the tracking system?",
-  "socialDescription": "Use the ACUSON S3000 example to identify missing hardware, separate needle tracking and image-import dependencies before buying.",
-  "socialHeadline": "Does that fusion ultrasound include the tracking system?",
+  "socialTitle": "Fusion ultrasound: the tracking hardware can decide the deal",
+  "socialDescription": "A fusion option on the console is only part of the purchase. Compare the software, tracker, probe, image import and support needed for the intended work.",
+  "socialHeadline": "Fusion ultrasound: the tracking hardware can decide the deal",
   "socialStrapline": "A feature name on the screen is not a complete fusion package.",
   "reviewedAt": "2026-10-18",
   "sheet": {
@@ -76,8 +76,8 @@ export default {
         "bestFor": "A supported platform with a documented route to the required fusion capability.",
         "why": "May retain useful probes, reporting and staff familiarity.",
         "tradeoff": "Price the entire approved hardware/software addition, not the licence alone.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Confirm exact release, probe condition and destination repair eligibility.",
+        "price": "Software addition, compatible probe, sensor/bracket, tracker hardware and image-source integration.",
+        "support": "Confirm the approved upgrade path and restoration of its tracking/software configuration.",
         "sourceIds": [
           "siemens-fusion-training"
         ]
@@ -88,8 +88,8 @@ export default {
         "bestFor": "A service requiring a complete configured fusion workflow.",
         "why": "The S3000 example distinguishes image fusion from separately named needle tracking.",
         "tradeoff": "Historical documentation does not prove present support or delivered options.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Confirm exact release, probe condition and destination repair eligibility.",
+        "price": "Complete installed bundle plus separately priced replacement sensors and specialist service.",
+        "support": "Verify present support for the exact S3000 generation and every specialist component.",
         "sourceIds": [
           "siemens-s3000"
         ]
@@ -100,8 +100,8 @@ export default {
         "bestFor": "A brief that can be met without owning this specialist package.",
         "why": "Avoids funding an incomplete capability or rarely used unsupported system.",
         "tradeoff": "Clinical suitability and access must be decided locally.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Confirm exact release, probe condition and destination repair eligibility.",
+        "price": "Compare accepted local work and referral costs against annual ownership of the specialist package.",
+        "support": "Agree source-image transfer, appointment access and return of the result.",
         "sourceIds": []
       }
     ],
@@ -141,7 +141,7 @@ export default {
         "heading": "Compare the missing pieces before replacing the console",
         "paragraphs": [
           "Suppose an existing supported scanner can be upgraded for the defined task. Compare the authorized software addition, exact tracking hardware, compatible probe and integration work with a complete replacement package. Keeping a console can preserve useful training and accessories, but only if the upgrade closes the whole requirement.",
-          "Conversely, a low-priced used scanner with fusion software but missing sensors or tracker electronics is not a discounted complete system. Establish whether the missing parts can actually be supplied, configured and serviced. An uncertain completion cost belongs beside the purchase price; it should not disappear into an assumed future accessory order."
+          "A used console with an enabled fusion screen but no tracker electronics or sensor is an incomplete offer. Obtain a priced, documented route for each missing part before valuing the discount. Ask the service provider to identify which component it can replace and which software configuration it can restore. If one unavailable specialist part stops the entire workflow, a general ultrasound warranty does not turn the console into a supported fusion package."
         ],
         "sourceIds": []
       },
@@ -149,7 +149,7 @@ export default {
         "heading": "Budget for keeping the chain working",
         "paragraphs": [
           "Ask which party can restore the software and tracking configuration after a failure or computer replacement, and which rights transfer with the equipment. Define coverage for the tracker and sensors as well as the console and transducers. A general ultrasound repair promise does not establish that the whole specialist package can return to service.",
-          "The sources do not establish a current matched price, a universal clinical advantage or a reliability ranking. The useful comparison is narrower: a complete accepted upgrade, a complete replacement, or another justified service arrangement. Spend more when it buys a required working capability and credible continuity; defer the purchase when the essential hardware or support route cannot be established."
+          "Compare a supported complete upgrade, a complete replacement and access through an established service on the same expected workload. Include preparation of prior images and the time needed to set up the accepted workflow. Retain the conventional scanner for work it already performs well; spend on fusion only when the clinical requirement and the whole configuration justify the additional commitment."
         ],
         "sourceIds": []
       }
@@ -192,7 +192,7 @@ export default {
         "publisher": "Siemens Healthineers",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Relevant complete public product text read: eSieFusion CT/MR with ultrasound and separately named eSieGuide needle tracking. Regional marketing page does not establish current support, offered entitlement or independent clinical benefit."
+        "evidence": "Canadian OEM product text rechecked 18 October 2026: CT/MR with live ultrasound and separately named eSieGuide needle tracking. Regional legacy page is configuration evidence, not current sales/support or independent outcome evidence."
       }
     ],
     "decision": {
@@ -222,8 +222,8 @@ export default {
       }
     ],
     "social": {
-      "title": "Does that fusion ultrasound include the tracking system?",
-      "description": "Use the ACUSON S3000 example to identify missing hardware, separate needle tracking and image-import dependencies before buying.",
+      "title": "Fusion ultrasound: the tracking hardware can decide the deal",
+      "description": "A fusion option on the console is only part of the purchase. Compare the software, tracker, probe, image import and support needed for the intended work.",
       "hook": "A feature name on the screen is not a complete fusion package."
     }
   },

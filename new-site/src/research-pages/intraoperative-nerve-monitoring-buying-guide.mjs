@@ -3,7 +3,7 @@ export default {
   "key": "intraoperative-nerve-monitoring",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Nerve monitoring: price the case supplies and correction history",
+  "title": "Nerve monitoring: what a complete case really costs",
   "summary": "Four versus eight channels is only one choice. Compare the exact electrodes, patient interface, software and trained service, with correction evidence for the equipment and every affected accessory.",
   "categoryId": "surgical",
   "category": "Surgery & anesthesia",
@@ -15,7 +15,7 @@ export default {
     ],
     [
       "Make one complete case basket before comparing prices",
-      "List the console, patient interface, exact electrodes or tubes, stimulation probes, cables and enabled software needed for the defined case. Separate reusable components from continuing case supplies and identify their approved handling. The service needs a sustainable supply route for its actual patient range, not merely a sample accessory included with the machine. Compare the same planned case mix and period. A lower-priced console can cost more overall if it brings higher recurring supplies or an unsupported interface. Conversely, a higher-specification platform adds little value if the team cannot obtain the required electrodes. Keep any staffing, training, processing and backup costs visible alongside the device package."
+      "List the console, patient interface, exact electrodes or tubes, stimulation probes, cables and enabled software needed for the defined case. Separate reusable components from continuing case supplies and identify their approved handling. The service needs a sustainable supply route for its actual patient range, not merely a sample accessory included with the machine. Compare the same planned case mix and period. A lower-priced console can cost more overall if it brings higher recurring supplies or an unsupported interface. Conversely, a higher-specification platform adds little value if the team cannot obtain the required electrodes. Keep any staffing, training, processing and backup costs visible alongside the device package. Build separate supply baskets for the procedures actually planned rather than one average accessory allowance. A low-volume service can be affected more by minimum orders, expiry and unavailable interfaces than by the console’s channel count. Request the delivered cost and remaining shelf life for the first year’s likely case mix, then a second price for higher activity. Keep unopened but unusable or recalled accessories out of the bundle’s claimed value."
     ],
     [
       "Check software and disposable notices separately",
@@ -29,14 +29,14 @@ export default {
   "related": [
     "electrosurgery"
   ],
-  "socialTitle": "The nerve-monitoring quote needs more than a console",
-  "socialDescription": "Compare NIM-Response and NIM-Neuro channel distinctions, complete case supplies and separate NIM Vital/software and tube safety notices.",
-  "socialHeadline": "The nerve-monitoring quote needs more than a console",
+  "socialTitle": "Nerve monitoring: what a complete case really costs",
+  "socialDescription": "Four versus eight channels is only one choice. Compare the exact electrodes, patient interface, software and trained service, with correction evidence for the equipment and every affected accessory.",
+  "socialHeadline": "Nerve monitoring: what a complete case really costs",
   "socialStrapline": "An updated console does not clear every accessory in the package.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "intraoperative-nerve-monitoring",
-    "title": "Nerve monitoring: price the case supplies and correction history",
+    "title": "Nerve monitoring: what a complete case really costs",
     "summary": "Four versus eight channels is only one choice. Compare the exact electrodes, patient interface, software and trained service, with correction evidence for the equipment and every affected accessory.",
     "firstChoice": "Define the intraoperative clinical workflow and complete case basket before comparing consoles.",
     "upgradeWhen": "Required channels, accepted interfaces or a sustainable supported supply route close a real service gap.",
@@ -57,7 +57,7 @@ export default {
   "research": {
     "id": "intraoperative-nerve-monitoring",
     "kind": "feature",
-    "title": "Nerve monitoring: price the case supplies and correction history",
+    "title": "Nerve monitoring: what a complete case really costs",
     "dek": "Four versus eight channels is only one choice. Compare the exact electrodes, patient interface, software and trained service, with correction evidence for the equipment and every affected accessory.",
     "verdict": "Choose intraoperative monitoring for the defined procedure and clinical team. Buy a complete supported configuration with usable recurring supplies and documented correction status; do not infer readiness from a working console or a general EMG label.",
     "coverage": [
@@ -73,8 +73,8 @@ export default {
         "bestFor": "A clinical brief met by the documented channel capacity and approved accessories.",
         "why": "Manufacturer description identifies up to four nerve-muscle channels.",
         "tradeoff": "Current support, corrections and continuing supplies still need exact verification.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Price the four-channel console, patient interface, required stimulation accessories and a year of the approved procedure-specific supplies.",
+        "support": "Identify console/interface repair, supported software and the route for each continuing electrode or tube supply.",
         "sourceIds": [
           "nim-3"
         ]
@@ -85,8 +85,8 @@ export default {
         "bestFor": "A procedure brief requiring more channels or other documented functions.",
         "why": "The named Neuro3.0 example supports up to eight channels.",
         "tradeoff": "Additional capacity is not proof of better outcomes or a complete package.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Separate the cost of extra required channels/functions from the recurring supplies for the same planned case mix.",
+        "support": "Require exact platform and software identity; a NIM Vital correction is not proof of NIM 3.0 status or vice versa.",
         "sourceIds": [
           "nim-3"
         ]
@@ -97,8 +97,8 @@ export default {
         "bestFor": "Adequate capability, correction evidence and a sustainable accessory supply.",
         "why": "Can preserve staff competence and useful interfaces.",
         "tradeoff": "A supply or unresolved correction gap can outweigh a low acquisition cost.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Compare a supported repair and stock replenishment with replacement plus retraining and any unusable remaining inventory.",
+        "support": "Confirm accepted interfaces, applicable correction completion and a compatible loan or continuity arrangement.",
         "sourceIds": []
       }
     ],
@@ -117,7 +117,8 @@ export default {
         "heading": "Make one complete case basket before comparing prices",
         "paragraphs": [
           "List the console, patient interface, exact electrodes or tubes, stimulation probes, cables and enabled software needed for the defined case. Separate reusable components from continuing case supplies and identify their approved handling. The service needs a sustainable supply route for its actual patient range, not merely a sample accessory included with the machine.",
-          "Compare the same planned case mix and period. A lower-priced console can cost more overall if it brings higher recurring supplies or an unsupported interface. Conversely, a higher-specification platform adds little value if the team cannot obtain the required electrodes. Keep any staffing, training, processing and backup costs visible alongside the device package."
+          "Compare the same planned case mix and period. A lower-priced console can cost more overall if it brings higher recurring supplies or an unsupported interface. Conversely, a higher-specification platform adds little value if the team cannot obtain the required electrodes. Keep any staffing, training, processing and backup costs visible alongside the device package.",
+          "Build separate supply baskets for the procedures actually planned rather than one average accessory allowance. A low-volume service can be affected more by minimum orders, expiry and unavailable interfaces than by the console’s channel count. Request the delivered cost and remaining shelf life for the first year’s likely case mix, then a second price for higher activity. Keep unopened but unusable or recalled accessories out of the bundle’s claimed value."
         ],
         "sourceIds": []
       },
@@ -231,12 +232,12 @@ export default {
       }
     ],
     "social": {
-      "title": "The nerve-monitoring quote needs more than a console",
-      "description": "Compare NIM-Response and NIM-Neuro channel distinctions, complete case supplies and separate NIM Vital/software and tube safety notices.",
+      "title": "Nerve monitoring: what a complete case really costs",
+      "description": "Four versus eight channels is only one choice. Compare the exact electrodes, patient interface, software and trained service, with correction evidence for the equipment and every affected accessory.",
       "hook": "An updated console does not clear every accessory in the package."
     }
   },
-  "searchTerms": "Nerve monitoring: price the case supplies and correction history Procedure-specific channels Complete case basket Software and accessory corrections Qualified interpretation and support NIM-Response 3.0 complete package NIM-Neuro 3.0 or another appropriately specified system Retain an accepted supported service",
+  "searchTerms": "Nerve monitoring: what a complete case really costs Procedure-specific channels Complete case basket Software and accessory corrections Qualified interpretation and support",
   "librarySection": "equipment",
   "image": "guides/us-nerve-monitoring",
   "photo": {

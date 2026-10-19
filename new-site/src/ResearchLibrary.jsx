@@ -33,19 +33,20 @@ function References({ ids, sources }) {
   )}</div>;
 }
 
-function PhotoCredit({ photo }) {
+export function PhotoCredit({ photo, compact = false }) {
   if (!photo) return null;
   const caption = photo.captionContext || photo.caption;
   const normalized = (text) => String(text || "").toLowerCase().replace(/[^a-z0-9]/g, "");
   const additionalNote = photo.modelMatchNote && normalized(photo.modelMatchNote) !== normalized(caption) &&
     !normalized(caption).includes(normalized(photo.modelMatchNote)) ? photo.modelMatchNote : "";
-  return <figcaption className="rg-photo-credit">
+  const content = <>
     {caption && <span className="rg-photo-caption">{caption}</span>}
     <span>{external(photo.sourcePage) ? <a href={photo.sourcePage} target="_blank" rel="noopener noreferrer">{photo.photographer || "Photo source"}</a> : photo.photographer}
       {photo.license && <> · {external(photo.licenseUrl) ? <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">{photo.license}</a> : photo.license}</>}</span>
     {photo.creditNote && <span>{photo.creditNote}</span>}
     {additionalNote && <details><summary>About this photograph</summary><p>{additionalNote}</p></details>}
-  </figcaption>;
+  </>;
+  return <figcaption className="rg-photo-credit">{compact ? <details><summary>Photo & credit</summary>{content}</details> : content}</figcaption>;
 }
 
 export function ResearchLibrary() {

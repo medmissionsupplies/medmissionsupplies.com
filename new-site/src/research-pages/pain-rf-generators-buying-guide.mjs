@@ -19,7 +19,7 @@ export default {
     ],
     [
       "Compare the same work over the same period",
-      "Take an explicitly hypothetical one-year example: System A costs US$6,000 to acquire and requires US$180 of comparable supplies per case. System B costs US$10,000 and requires US$120 per case. At 100 cases, the respective totals are US$24,000 and US$22,000. The higher purchase price leaves a US$2,000 lower acquisition-plus-supply total. These are invented comparison inputs, not offers for any named model. The example excludes staffing, imaging, processing, service, financing and downtime. Add any differences in those costs before choosing. Its point is to make a recurring supply difference visible; it does not establish that either system is clinically equivalent or cheaper in your setting."
+      "Take an explicitly hypothetical one-year example: System A costs US$6,000 to acquire and requires US$180 of comparable supplies per case. System B costs US$10,000 and requires US$120 per case. At 100 cases, the respective totals are US$24,000 and US$22,000. The higher purchase price leaves a US$2,000 lower acquisition-plus-supply total. These are invented comparison inputs, not offers for any named model. The example excludes staffing, imaging, processing, service, financing and downtime. Add any differences in those costs before choosing. Its point is to make a recurring supply difference visible; it does not establish that either system is clinically equivalent or cheaper in your setting. At only 40 otherwise comparable cases in that same year, A would total US$13,200 and B US$14,800, so the higher-capital option would cost US$1,600 more on those two lines. The purchase changes with activity. Request the same routine and specialist case mix from each supplier, then test a lower-volume first year before relying on an eventual saving."
     ],
     [
       "A used console needs a continuing accessory and support route",
@@ -29,9 +29,9 @@ export default {
   "related": [
     "electrosurgery"
   ],
-  "socialTitle": "What will each pain-RF case cost after the generator arrives?",
-  "socialDescription": "Use Abbott IonicRF and Simplicity III details to separate generator functions from the approved disposable, reusable and adapter package.",
-  "socialHeadline": "What will each pain-RF case cost after the generator arrives?",
+  "socialTitle": "Pain RF generators: the electrode system can outweigh the console price",
+  "socialDescription": "Compare the complete approved generator, electrode, cannula and cable package. Reusable supplies, single-use devices and specialist functions create different continuing costs.",
+  "socialHeadline": "Pain RF generators: the electrode system can outweigh the console price",
   "socialStrapline": "An RF output socket is not a complete procedure kit.",
   "reviewedAt": "2026-10-18",
   "sheet": {
@@ -71,8 +71,8 @@ export default {
         "bestFor": "An accepted setup with continuing approved supplies.",
         "why": "May avoid unnecessary conversion and training costs.",
         "tradeoff": "Accessory availability and qualified repair must be established.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Price the supported repair or missing instruments, plus replenishment and processing for the actual case mix.",
+        "support": "Confirm the approved accessory catalogue, exact console repair route and usable cover during service.",
         "sourceIds": []
       },
       {
@@ -81,8 +81,8 @@ export default {
         "bestFor": "A service whose brief is met by a verified offered configuration.",
         "why": "Can be evaluated as a complete acquisition rather than a cheap bare console.",
         "tradeoff": "Historical reseller data do not establish present support or compatibility.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Add missing cables, electrodes, acceptance and any software work to the used-console offer before comparing it with a complete new package.",
+        "support": "Require model-specific accessory and service evidence; no present NT2000iX support duration is established here.",
         "sourceIds": []
       },
       {
@@ -91,8 +91,8 @@ export default {
         "bestFor": "A clinical brief met by its documented functions and approved instruments.",
         "why": "Manufacturer identifies independent channels and single-use/reusable instrument options.",
         "tradeoff": "Specialist accessories, adapters and continuing supplies remain separate cost lines.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Itemize generator, required channel accessories, ordinary-case supplies and specialist electrode/adapter additions; compare at realistic annual activity.",
+        "support": "Confirm authorized regional service and replenishment for every required electrode, cannula and connection.",
         "sourceIds": [
           "abbott-ionic"
         ]
@@ -124,7 +124,8 @@ export default {
         "heading": "Compare the same work over the same period",
         "paragraphs": [
           "Take an explicitly hypothetical one-year example: System A costs US$6,000 to acquire and requires US$180 of comparable supplies per case. System B costs US$10,000 and requires US$120 per case. At 100 cases, the respective totals are US$24,000 and US$22,000. The higher purchase price leaves a US$2,000 lower acquisition-plus-supply total.",
-          "These are invented comparison inputs, not offers for any named model. The example excludes staffing, imaging, processing, service, financing and downtime. Add any differences in those costs before choosing. Its point is to make a recurring supply difference visible; it does not establish that either system is clinically equivalent or cheaper in your setting."
+          "These are invented comparison inputs, not offers for any named model. The example excludes staffing, imaging, processing, service, financing and downtime. Add any differences in those costs before choosing. Its point is to make a recurring supply difference visible; it does not establish that either system is clinically equivalent or cheaper in your setting.",
+          "At only 40 otherwise comparable cases in that same year, A would total US$13,200 and B US$14,800, so the higher-capital option would cost US$1,600 more on those two lines. The purchase changes with activity. Request the same routine and specialist case mix from each supplier, then test a lower-volume first year before relying on an eventual saving."
         ],
         "sourceIds": []
       },
@@ -197,12 +198,12 @@ export default {
       }
     ],
     "social": {
-      "title": "What will each pain-RF case cost after the generator arrives?",
-      "description": "Use Abbott IonicRF and Simplicity III details to separate generator functions from the approved disposable, reusable and adapter package.",
+      "title": "Pain RF generators: the electrode system can outweigh the console price",
+      "description": "Compare the complete approved generator, electrode, cannula and cable package. Reusable supplies, single-use devices and specialist functions create different continuing costs.",
       "hook": "An RF output socket is not a complete procedure kit."
     }
   },
-  "searchTerms": "Pain RF generators: the electrode system can outweigh the console price Required RF functions Approved electrode/cannula/cable chain Single-use versus reusable cost Routine versus specialist basket Supported used versus new package Retain or complete the supported installed system Used NT2000iX with an exact supported package IonicRF with the required approved case basket",
+  "searchTerms": "Pain RF generators: the electrode system can outweigh the console price Required RF functions Approved electrode/cannula/cable chain Single-use versus reusable cost Routine versus specialist basket Supported used versus new package",
   "librarySection": "equipment",
   "image": "guides/us-rf-generator",
   "photo": {

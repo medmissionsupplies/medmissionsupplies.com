@@ -114,8 +114,8 @@ export default {
       {
         "heading": "Case one: keep the table and change its imaging access",
         "paragraphs": [
-          "A supported general surgical table may need only an approved extension when the limitation is access over part of the body. STERIS lists its 44-inch imaging extension for specified tables, including 4085, with different accessory versions. This provides a concrete keep-and-adapt route to compare with buying another table.",
-          "The important catch is the resulting configuration's limit. The same STERIS page gives 4085-with-extension capacities of 400 lb with the tabletop centered and 300 lb with slide induced. Those published figures illustrate why the table's headline capacity cannot be carried over to an accessory arrangement. The exact operator instructions and qualified assessment govern use; this is not a positioning prescription."
+          "A supported general surgical table may need an approved extension when the obstruction affects only part of the required view. STERIS lists its 44-inch extension for named table generations. For its 4000/5000-series versions, BF604 includes the pad while BF60401 omits it. That small distinction belongs in the cost comparison: an extension-only offer does not include every component of the usable surface.",
+          "The STERIS table also lists 4085-with-extension capacities of 400 lb centered and 300 lb with slide induced. Do not carry the base table’s headline capacity into the accessory configuration. The exact operator instructions and the team’s assessment govern use; the purchasing task is to reject a package whose approved limits exclude the intended workload."
         ],
         "sourceIds": [
           "steris-extension"
@@ -192,7 +192,7 @@ export default {
         "publisher": "STERIS",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Compatibility list and model/position-specific patient-capacity table read. Exact extension and table generation matter; no general 4085 maximum substituted."
+        "evidence": "Primary compatibility, model and load tables read 18 October 2026: BF604 includes pad, BF60401 excludes pad; 4085 listed with centered/slide-induced capacities of 400/300 lb. Tables describe specific configurations, not a C-arm pairing approval."
       },
       {
         "id": "steris-cmax",
@@ -221,10 +221,10 @@ export default {
   "sheet": {
     "title": "Before replacing the C-arm, check the table",
     "summary": "A suitable table or approved accessory can change which C-arm purchase makes sense. Compare the pair in the positions you actually need.",
-    "firstChoice": "Identify the obstructed view before choosing which component to replace.",
-    "upgradeWhen": "An approved accessory or dedicated table removes a documented limitation.",
-    "budgetWatch": "Include the complete table/accessory and acceptance package.",
-    "supportCheck": "Match both models, generations and limits to the demonstrated pair.",
+    "firstChoice": "Define the required views and loaded positions for the actual C-arm/table/accessory combination.",
+    "upgradeWhen": "A documented accessory or imaging table removes an obstruction that the existing setup cannot resolve.",
+    "budgetWatch": "Paired-system change cost = equipment or accessory + integration and acceptance + support + interruption provision.",
+    "supportCheck": "The proposed pairing lacks documented compatibility or cannot demonstrate the required access.",
     "askSupplier": [
       "Which item prevents the required view?",
       "What limit applies with this accessory and position?",
@@ -242,7 +242,7 @@ export default {
     ],
     [
       "Case one: keep the table and change its imaging access",
-      "A supported general surgical table may need only an approved extension when the limitation is access over part of the body. STERIS lists its 44-inch imaging extension for specified tables, including 4085, with different accessory versions. This provides a concrete keep-and-adapt route to compare with buying another table. The important catch is the resulting configuration's limit. The same STERIS page gives 4085-with-extension capacities of 400 lb with the tabletop centered and 300 lb with slide induced. Those published figures illustrate why the table's headline capacity cannot be carried over to an accessory arrangement. The exact operator instructions and qualified assessment govern use; this is not a positioning prescription."
+      "A supported general surgical table may need an approved extension when the obstruction affects only part of the required view. STERIS lists its 44-inch extension for named table generations. For its 4000/5000-series versions, BF604 includes the pad while BF60401 omits it. That small distinction belongs in the cost comparison: an extension-only offer does not include every component of the usable surface. The STERIS table also lists 4085-with-extension capacities of 400 lb centered and 300 lb with slide induced. Do not carry the base table’s headline capacity into the accessory configuration. The exact operator instructions and the team’s assessment govern use; the purchasing task is to reject a package whose approved limits exclude the intended workload."
     ],
     [
       "Case two: buy travel that the workload needs",
@@ -262,7 +262,7 @@ export default {
     ]
   ],
   "minutes": 3,
-  "searchTerms": "C-arm and table geometry accessory-dependent patient limits keep extend or replace dedicated imaging table Existing table plus approved imaging extension CMAX X-Ray dedicated imaging table Keep the accepted pair",
+  "searchTerms": "Before replacing the C-arm, check the table C-arm and table geometry accessory-dependent patient limits keep extend or replace dedicated imaging table Existing table plus approved imaging extension CMAX X-Ray dedicated imaging table Keep the accepted pair",
   "librarySection": "equipment",
   "image": "guides/surgical-tables",
   "photo": {

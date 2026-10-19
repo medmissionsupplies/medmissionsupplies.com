@@ -3,26 +3,25 @@ export default {
   "key": "replacement-parts",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "A cheap replacement part can leave an expensive repair",
+  "title": "Medical equipment parts: when an exchange deal costs more",
   "summary": "Compare the confirmed fault, exact part and installed cost—then close the exchange-core return before calling the repair paid for.",
   "categoryId": "decisions",
   "category": "Procurement & service",
-  "image": "guides/infusion",
+  "image": "guides/monitor-board-repair",
   "photo": {
-    "id": "infusion",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Infusomat_BBraun.jpg",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Infusomat_BBraun.jpg",
-    "photographer": "Dctrzl",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "caption": "Inside a B. Braun Infusomat infusion pump, showing the tubing path. Archive equipment example.",
-    "captionContext": "Illustrative equipment photograph: Inside a B. Braun Infusomat infusion pump, showing the tubing path. Archive equipment example.",
-    "alt": "An open B. Braun Infusomat infusion pump showing the loaded tubing path and door.",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n,_Panama_(8601110).jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n%2C_Panama_%288601110%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "photographer": "Mark Logico / U.S. Navy",
+    "license": "Public domain (U.S.)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "caption": "A biomedical technician examines patient-monitor circuit boards in Colón, Panama, in August 2024. Equipment-service example.",
+    "captionContext": "A biomedical technician examines patient-monitor circuit boards in Colón, Panama, in August 2024. Equipment-service example.",
+    "alt": "A biomedical technician examines patient-monitor circuit boards in Colón, Panama, in August 2024. Equipment-service example.",
     "fit": "contain",
     "modelMatch": "category",
-    "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide.",
-    "verifiedAt": "2026-10-17",
-    "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+    "modelMatchNote": "Illustrative archive photograph; not evidence of MMS inventory, staff or a specific configuration offered for sale.",
+    "verifiedAt": "2026-10-18",
+    "changes": "Resized and converted to WebP; photographic content retained."
   },
   "minutes": 4,
   "sections": [
@@ -44,23 +43,23 @@ export default {
     ],
     [
       "Price the repair through release back to service",
-      "Add diagnosis, inbound freight, import handling where relevant, installation, calibration, required testing and any temporary replacement to the part price. For an exchange, add outbound core freight and show the contingent core charge separately. For a repair, state what happens if assessment finds the component uneconomic or unsuitable to repair. Agree who verifies the completed work and what evidence permits release back into service. A box delivered to receiving is not a completed equipment repair. Keep the service report, installed part identity, test result and warranty dates together so a subsequent failure does not require reconstructing the transaction from invoices and memory."
+      "Add diagnosis, inbound freight, import handling where relevant, installation, calibration, required testing and any temporary replacement to the part price. For an exchange, add outbound core freight and show the contingent core charge separately. For a repair, state what happens if assessment finds the component uneconomic or unsuitable to repair. Agree who verifies the completed work and what evidence permits release back into service. A box delivered to receiving is not a completed equipment repair. Keep the service report, installed part identity, test result and warranty dates together so a subsequent failure does not require reconstructing the transaction from invoices and memory. An outright part can be the more predictable purchase when the old component is missing, damaged beyond the exchange criteria or costly to return across a border. Repairing the original component may be attractive when the diagnosis is confirmed and temporary cover is affordable. An exchange can shorten the interruption only if the replacement is actually available and the installation team is ready. Compare those dates and obligations with the price before selecting the route."
     ],
     [
-      "Close the transaction after the core is accepted",
+      "Finish the repair and the return",
       "Use a worksheet with three stages: before order, after installation and after return. The first records identity, diagnosis and terms. The second records installed condition and acceptance evidence. The third records any returned item, tracking, supplier acceptance and final financial reconciliation. Leave the purchase open until all applicable stages are complete. Compare suppliers on that complete pathway. A higher component price can be reasonable when it purchases a verified match and usable remedy; a cheaper tested item can also be appropriate when the service team accepts its evidence. The deciding question is whether the hospital can restore the asset and finish the transaction without unresolved obligations."
     ]
   ],
   "related": [
     "infusion"
   ],
-  "socialTitle": "The exchange discount ends where the core charge begins",
+  "socialTitle": "Medical equipment parts: when an exchange deal costs more",
   "socialDescription": "A part number, a repair plan and an accepted core return matter more than the lowest component price.",
-  "socialHeadline": "The exchange discount ends where the core charge begins",
+  "socialHeadline": "Medical equipment parts: when an exchange deal costs more",
   "socialStrapline": "A delivered board is not a repaired machine—or a closed invoice.",
   "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "A cheap replacement part can leave an expensive repair",
+    "title": "Medical equipment parts: when an exchange deal costs more",
     "summary": "Compare the confirmed fault, exact part and installed cost—then close the exchange-core return before calling the repair paid for.",
     "firstChoice": "Assemble the model, serial, software, options, fault report and full part label. Obtain written compatibility confirmation and identify who will install and verify it.",
     "upgradeWhen": "Stronger testing evidence, a usable warranty or dependable delivery resolves a material repair risk that the cheaper offer leaves with the hospital.",
@@ -88,7 +87,7 @@ export default {
       "exchange cores and returns",
       "installation and verification"
     ],
-    "title": "A cheap replacement part can leave an expensive repair",
+    "title": "Medical equipment parts: when an exchange deal costs more",
     "dek": "Compare the confirmed fault, exact part and installed cost—then close the exchange-core return before calling the repair paid for.",
     "verdict": "Buy a verified compatible component through a complete repair and return pathway. Compare outright purchase, exchange and repair on the same fault; an exchange discount only survives if the old core meets the terms.",
     "decision": {
@@ -98,7 +97,7 @@ export default {
       "walkAwayWhen": "The seller cannot confirm compatibility, condition, testing, return remedy or core liability in writing."
     },
     "social": {
-      "title": "The exchange discount ends where the core charge begins",
+      "title": "Medical equipment parts: when an exchange deal costs more",
       "description": "A part number, a repair plan and an accepted core return matter more than the lowest component price.",
       "hook": "A delivered board is not a repaired machine—or a closed invoice."
     },
@@ -224,12 +223,13 @@ export default {
         "heading": "Price the repair through release back to service",
         "paragraphs": [
           "Add diagnosis, inbound freight, import handling where relevant, installation, calibration, required testing and any temporary replacement to the part price. For an exchange, add outbound core freight and show the contingent core charge separately. For a repair, state what happens if assessment finds the component uneconomic or unsuitable to repair.",
-          "Agree who verifies the completed work and what evidence permits release back into service. A box delivered to receiving is not a completed equipment repair. Keep the service report, installed part identity, test result and warranty dates together so a subsequent failure does not require reconstructing the transaction from invoices and memory."
+          "Agree who verifies the completed work and what evidence permits release back into service. A box delivered to receiving is not a completed equipment repair. Keep the service report, installed part identity, test result and warranty dates together so a subsequent failure does not require reconstructing the transaction from invoices and memory.",
+          "An outright part can be the more predictable purchase when the old component is missing, damaged beyond the exchange criteria or costly to return across a border. Repairing the original component may be attractive when the diagnosis is confirmed and temporary cover is affordable. An exchange can shorten the interruption only if the replacement is actually available and the installation team is ready. Compare those dates and obligations with the price before selecting the route."
         ],
         "sourceIds": []
       },
       {
-        "heading": "Close the transaction after the core is accepted",
+        "heading": "Finish the repair and the return",
         "paragraphs": [
           "Use a worksheet with three stages: before order, after installation and after return. The first records identity, diagnosis and terms. The second records installed condition and acceptance evidence. The third records any returned item, tracking, supplier acceptance and final financial reconciliation. Leave the purchase open until all applicable stages are complete.",
           "Compare suppliers on that complete pathway. A higher component price can be reasonable when it purchases a verified match and usable remedy; a cheaper tested item can also be appropriate when the service team accepts its evidence. The deciding question is whether the hospital can restore the asset and finish the transaction without unresolved obligations."
@@ -271,7 +271,7 @@ export default {
         "url": "https://services.gehealthcare.com/gehcstorefront/p/2208852-R",
         "publisher": "GE HealthCare",
         "kind": "manufacturer parts listing and terms",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Identifies a refurbished exchange item and new alternative; sets core-return conditions and distinguishes warranty categories. Used as a concrete contractual example, not a recommendation for unrelated equipment."
       },
       {
@@ -281,7 +281,7 @@ export default {
         "publisher": "US Food and Drug Administration",
         "kind": "regulatory guidance",
         "published": "2024-05",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Final guidance clarifies servicing versus remanufacturing and associated responsibilities; it does not certify a particular repair or part."
       },
       {
@@ -291,7 +291,7 @@ export default {
         "publisher": "WHO",
         "kind": "institutional guidance",
         "published": "2025-06-04",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Current publication on equipment inventory and maintenance information management; supports retaining asset-linked service information."
       }
     ],

@@ -3,8 +3,8 @@ export default {
   "key": "cath-angio",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Which cath lab can your team actually run?",
-  "summary": "Compare a fixed angiography room, an approved upgrade and referral against the procedures, people and support you can sustain.",
+  "title": "Cath lab upgrade or replacement: what can you reuse?",
+  "summary": "Compare a supported lab conversion with a new angiography room by retained hardware, installation downtime and the staffed procedures each can deliver.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "related": [
@@ -12,9 +12,9 @@ export default {
     "surgical-tables"
   ],
   "reviewedAt": "2026-10-18",
-  "socialTitle": "Which cath lab can your team actually run?",
-  "socialDescription": "Compare a fixed angiography room, an approved upgrade and referral against the procedures, people and support you can sustain.",
-  "socialHeadline": "Which cath lab can your team actually run?",
+  "socialTitle": "Cath lab upgrade or replacement: what can you reuse?",
+  "socialDescription": "Compare a supported lab conversion with a new angiography room by retained hardware, installation downtime and the staffed procedures each can deliver.",
+  "socialHeadline": "Cath lab upgrade or replacement: what can you reuse?",
   "socialStrapline": "The imaging system is only one part of a working cath lab.",
   "research": {
     "kind": "feature",
@@ -26,8 +26,8 @@ export default {
       "mobile C-arm scope",
       "complete procedural service cost"
     ],
-    "title": "Which cath lab can your team actually run?",
-    "dek": "Compare a fixed angiography room, an approved upgrade and referral against the procedures, people and support you can sustain.",
+    "title": "Cath lab upgrade or replacement: what can you reuse?",
+    "dek": "Compare a supported lab conversion with a new angiography room by retained hardware, installation downtime and the staffed procedures each can deliver.",
     "verdict": "Choose the room around an approved procedural service and its staffed operating plan. A fixed lab can justify its infrastructure when the team, caseload and recovery pathway are ready; a low equipment price cannot supply those missing capabilities.",
     "decision": {
       "firstMove": "Define procedures, staffing, emergency arrangements and annual completed cases.",
@@ -36,25 +36,25 @@ export default {
       "walkAwayWhen": "The project depends on unstaffed capability or unverified mobile-to-fixed equivalence."
     },
     "social": {
-      "title": "Which cath lab can your team actually run?",
-      "description": "Compare a fixed angiography room, an approved upgrade and referral against the procedures, people and support you can sustain.",
+      "title": "Cath lab upgrade or replacement: what can you reuse?",
+      "description": "Compare a supported lab conversion with a new angiography room by retained hardware, installation downtime and the staffed procedures each can deliver.",
       "hook": "The imaging system is only one part of a working cath lab."
     },
     "choices": [
       {
-        "model": "Existing fixed lab with approved upgrade",
+        "model": "Eligible existing GE lab with a specified Lift to Allia conversion",
         "position": "Retain infrastructure",
         "bestFor": "A working service with a defined equipment limitation.",
         "why": "May reuse suitable room and components.",
         "tradeoff": "Eligibility and retained-component exposure need explicit review.",
-        "price": "Upgrade, integration, acceptance and interruption.",
+        "price": "Conversion plus retained-component repairs, interface work, acceptance and closure cover.",
         "support": "Confirm the exact installed system and future service scope.",
         "sourceIds": [
           "allia"
         ]
       },
       {
-        "model": "Specified fixed angiography room",
+        "model": "Specified fixed angiography room, including an accepted Allia IGS configuration",
         "position": "Build or replace capability",
         "bestFor": "A staffed procedural service with an accepted case mix.",
         "why": "Allows the complete room and workflow to be specified together.",
@@ -112,7 +112,7 @@ export default {
         "heading": "Three offers can describe very different projects",
         "paragraphs": [
           "A replacement imaging system in a functioning room, a conversion of an existing lab and a new installation have different boundaries. GE's Allia family includes IGS 5 and IGS 7 configurations; its Lift to Allia offering illustrates that an upgrade route may also exist for eligible installed systems. None of those labels establishes what a particular offer includes.",
-          "Require one schedule identifying the table, detector, generator, displays, control equipment, software and interfaces retained or replaced. Then identify the associated monitoring or hemodynamic equipment, injector, accessories and information-system work. An upgrade price that reuses the room cannot be compared directly with a complete new-room price."
+          "Ask for a retained-versus-replaced schedule covering the table, detector, generator, displays, control equipment, software and interfaces. Then add monitoring or hemodynamic equipment, injector and information-system work. In a conversion, the age and support exposure of retained components remain part of the deal. Compare the expected room closure for each installation route alongside capital cost; no amount of reused hardware is a saving if the resulting room misses its approved brief."
         ],
         "sourceIds": [
           "allia"
@@ -198,7 +198,7 @@ export default {
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Written Allia IGS 5/7 family and Lift to Allia upgrade descriptions; exact offer, eligibility and performance not established."
+        "evidence": "Primary Allia family body read 18 October 2026: IGS 5, IGS 7 and Lift to Allia conversion route are described. Calculator not used; no savings, unit eligibility or current installed price inferred."
       },
       {
         "id": "elite",
@@ -216,12 +216,12 @@ export default {
     ]
   },
   "sheet": {
-    "title": "Which cath lab can your team actually run?",
-    "summary": "Compare a fixed angiography room, an approved upgrade and referral against the procedures, people and support you can sustain.",
-    "firstChoice": "Approve the staffed service before choosing a room.",
-    "upgradeWhen": "An accepted capability or support limit needs a defined change.",
-    "budgetWatch": "Compare the same installed scope and completed cases.",
-    "supportCheck": "Confirm the complete chain and retained-component exclusions.",
+    "title": "Cath lab upgrade or replacement: what can you reuse?",
+    "summary": "Compare a supported lab conversion with a new angiography room by retained hardware, installation downtime and the staffed procedures each can deliver.",
+    "firstChoice": "Define procedures, staffing, emergency arrangements and annual completed cases.",
+    "upgradeWhen": "A specified fixed lab or approved upgrade solves a demonstrated clinical or capacity limit.",
+    "budgetWatch": "Cost per completed procedure = annualized installed project, staffing, supplies, support and interruption cost / completed accepted procedures.",
+    "supportCheck": "The project depends on unstaffed capability or unverified mobile-to-fixed equivalence.",
     "askSupplier": [
       "Which procedures and staff cover are funded from opening day?",
       "Which components and interfaces are retained, supplied or excluded?",
@@ -240,7 +240,7 @@ export default {
     ],
     [
       "Three offers can describe very different projects",
-      "A replacement imaging system in a functioning room, a conversion of an existing lab and a new installation have different boundaries. GE's Allia family includes IGS 5 and IGS 7 configurations; its Lift to Allia offering illustrates that an upgrade route may also exist for eligible installed systems. None of those labels establishes what a particular offer includes. Require one schedule identifying the table, detector, generator, displays, control equipment, software and interfaces retained or replaced. Then identify the associated monitoring or hemodynamic equipment, injector, accessories and information-system work. An upgrade price that reuses the room cannot be compared directly with a complete new-room price."
+      "A replacement imaging system in a functioning room, a conversion of an existing lab and a new installation have different boundaries. GE's Allia family includes IGS 5 and IGS 7 configurations; its Lift to Allia offering illustrates that an upgrade route may also exist for eligible installed systems. None of those labels establishes what a particular offer includes. Ask for a retained-versus-replaced schedule covering the table, detector, generator, displays, control equipment, software and interfaces. Then add monitoring or hemodynamic equipment, injector and information-system work. In a conversion, the age and support exposure of retained components remain part of the deal. Compare the expected room closure for each installation route alongside capital cost; no amount of reused hardware is a saving if the resulting room misses its approved brief."
     ],
     [
       "A mobile cardiac option is not a complete cath lab",
@@ -260,7 +260,7 @@ export default {
     ]
   ],
   "minutes": 3,
-  "searchTerms": "fixed angiography and cath lab purchasing upgrade versus replacement mobile C-arm scope complete procedural service cost Existing fixed lab with approved upgrade Specified fixed angiography room Referral or contracted access",
+  "searchTerms": "Cath lab upgrade or replacement: what can you reuse? fixed angiography and cath lab purchasing upgrade versus replacement mobile C-arm scope complete procedural service cost Eligible existing GE lab with a specified Lift to Allia conversion Specified fixed angiography room, including an accepted Allia IGS configuration Referral or contracted access",
   "librarySection": "equipment",
   "image": "guides/cath-angio-system",
   "photo": {

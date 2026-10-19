@@ -28,7 +28,7 @@ export default {
   "sections": [
     [
       "The quiet week can decide the analyzer",
-      "Count accepted patient results by assay, including the demand in quieter weeks. Controls, calibration, repeats and opened reagent that expires all consume supplies without producing additional reportable patient results. A panel contains several tests, so a specification of 200 tests per hour does not mean 200 complete patient panels. HumaLyzer 4000 is a lower-complexity chemistry comparison when trained staff can prepare and pipette the required work. BK200 automation becomes valuable when handling time is the demonstrated bottleneck and the laboratory can sustain its water, room conditions and repairs. The BK200 page specifies 15–30°C operation and deionized-water consumption below 5 L/hour. Include the actual water-treatment and room-control provision; do not assume maximum published consumption equals the site’s measured bill."
+      "Count accepted patient results by assay, including the demand in quieter weeks. Controls, calibration, repeats and opened reagent that expires all consume supplies without producing additional reportable patient results. A panel contains several tests, so a specification of 200 tests per hour does not mean 200 complete patient panels. Ask the supplier to cost the packs that will actually be opened during a quiet month. A hypothetical US$100 reagent pack yielding 100 accepted patient results contributes US$1 per result; if only 50 accepted results are obtained before the remaining usable reagent expires or is consumed by required non-patient work, it contributes US$2. This isolates one reagent cost, not the full assay price. Compare the same approved assay and include controls and calibration without counting the same pack twice. HumaLyzer 4000 is a lower-complexity chemistry comparison when trained staff can prepare and pipette the required work. BK200 automation becomes valuable when handling time is the demonstrated bottleneck and the laboratory can sustain its water, room conditions and repairs. The BK200 page specifies 15–30°C operation and deionized-water consumption below 5 L/hour. Include the actual water-treatment and room-control provision; do not assume maximum published consumption equals the site’s measured bill."
     ],
     [
       "Put capital and results into the same period",
@@ -40,7 +40,7 @@ export default {
     ],
     [
       "Spend bench money where the method needs it",
-      "OMAX M82ES-A188V’s dated US$317.99 offer provides a budget microscopy candidate, not a guarantee of diagnostic suitability. Assess prepared-slide images, focus stability, stage movement and illumination for the intended work. Compare CX23 where its exact clinical configuration and optical service justify the difference. High total magnification alone is a poor substitute for useful resolution and a stable working view. For centrifugation, the tube method determines force, rotor geometry and capacity. HORIZON 6 Flex provides six-place horizontal centrifugation up to 2,000 ×g; EBA 200 offers eight-place fixed-angle operation up to 3,461 ×g. These are different arrangements, not a simple ranking by speed. Include the correct holders and adapters, and distinguish EBA 200 from the higher-force 200 S."
+      "OMAX M82ES-A188V’s October 16, 2026 US$317.99 manufacturer offer provides a budget microscopy candidate, not a guarantee of diagnostic suitability. Assess prepared-slide images, focus stability, stage movement and illumination for the intended work. Compare CX23 where its exact clinical configuration and optical service justify the difference. High total magnification alone is a poor substitute for useful resolution and a stable working view. For centrifugation, the tube method determines force, rotor geometry and capacity. HORIZON 6 Flex provides six-place horizontal centrifugation up to 2,000 ×g; EBA 200 offers eight-place fixed-angle operation up to 3,461 ×g. These are different arrangements, not a simple ranking by speed. Include the correct holders and adapters, and distinguish EBA 200 from the higher-force 200 S."
     ],
     [
       "A new microtome cannot finish an incomplete histology service",
@@ -248,6 +248,7 @@ export default {
         "heading": "The quiet week can decide the analyzer",
         "paragraphs": [
           "Count accepted patient results by assay, including the demand in quieter weeks. Controls, calibration, repeats and opened reagent that expires all consume supplies without producing additional reportable patient results. A panel contains several tests, so a specification of 200 tests per hour does not mean 200 complete patient panels.",
+          "Ask the supplier to cost the packs that will actually be opened during a quiet month. A hypothetical US$100 reagent pack yielding 100 accepted patient results contributes US$1 per result; if only 50 accepted results are obtained before the remaining usable reagent expires or is consumed by required non-patient work, it contributes US$2. This isolates one reagent cost, not the full assay price. Compare the same approved assay and include controls and calibration without counting the same pack twice.",
           "HumaLyzer 4000 is a lower-complexity chemistry comparison when trained staff can prepare and pipette the required work. BK200 automation becomes valuable when handling time is the demonstrated bottleneck and the laboratory can sustain its water, room conditions and repairs. The BK200 page specifies 15–30°C operation and deionized-water consumption below 5 L/hour. Include the actual water-treatment and room-control provision; do not assume maximum published consumption equals the site’s measured bill."
         ],
         "sourceIds": [
@@ -281,7 +282,7 @@ export default {
       {
         "heading": "Spend bench money where the method needs it",
         "paragraphs": [
-          "OMAX M82ES-A188V’s dated US$317.99 offer provides a budget microscopy candidate, not a guarantee of diagnostic suitability. Assess prepared-slide images, focus stability, stage movement and illumination for the intended work. Compare CX23 where its exact clinical configuration and optical service justify the difference. High total magnification alone is a poor substitute for useful resolution and a stable working view.",
+          "OMAX M82ES-A188V’s October 16, 2026 US$317.99 manufacturer offer provides a budget microscopy candidate, not a guarantee of diagnostic suitability. Assess prepared-slide images, focus stability, stage movement and illumination for the intended work. Compare CX23 where its exact clinical configuration and optical service justify the difference. High total magnification alone is a poor substitute for useful resolution and a stable working view.",
           "For centrifugation, the tube method determines force, rotor geometry and capacity. HORIZON 6 Flex provides six-place horizontal centrifugation up to 2,000 ×g; EBA 200 offers eight-place fixed-angle operation up to 3,461 ×g. These are different arrangements, not a simple ranking by speed. Include the correct holders and adapters, and distinguish EBA 200 from the higher-force 200 S."
         ],
         "sourceIds": [
@@ -472,13 +473,13 @@ export default {
       {
         "option": "Evident CX23 / OMAX M82ES-A188V",
         "capability": "Configured bench microscopy; the OMAX package supplies 4×/10×/40×/100× oil objectives.",
-        "costDriver": "Optical suitability, spares and repair access; OMAX's dated US offer is $317.99.",
+        "costDriver": "Optical suitability, spares and repair; OMAX US$317.99 manufacturer offer, October 16, 2026, excludes unconfirmed delivery/tax.",
         "bestFit": "A permanent clinical bench or an accepted budget backup, chosen after specimen-work assessment."
       },
       {
         "option": "Drucker HORIZON 6 Flex / Hettich EBA 200",
         "capability": "Six-place horizontal rotor up to 2,000 ×g versus eight-place fixed-angle up to 3,461 ×g.",
-        "costDriver": "Correct tubes, adapters, rotor condition and service; Drucker's dated offer is $1,982.66.",
+        "costDriver": "Correct tubes/adapters and service; Drucker US$1,982.66 manufacturer offer, October 16, 2026, with delivery/tax to confirm.",
         "bestFit": "The validated tube method decides the rotor and force requirement."
       },
       {
@@ -495,6 +496,6 @@ export default {
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying laboratory equipment: count useful results, not headline speed Clinical chemistry and semi-automated alternative Three-part and five-part hematology Small-volume and trip CBC considerations Microscopes including OMAX Centrifuges and tube/rotor compatibility Microtomes and the whole histology workflow Reagent stability, service and delivered cost HUMAN HumaLyzer 4000 BioBase BK200 Sysmex XQ-320 Sysmex pocH-100i BioBase BK-6310, human configuration Sysmex XW-100 Evident CX23 OMAX M82ES-A188V Drucker HORIZON 6 Flex, SKU 00-376-009-000 Hettich EBA 200 Leica HistoCore BIOCUT Epredia HM325",
+  "searchTerms": "Buying laboratory equipment: count useful results, not headline speed Clinical chemistry and semi-automated alternative Three-part and five-part hematology Small-volume and trip CBC considerations Microscopes including OMAX Centrifuges and tube/rotor compatibility Microtomes and the whole histology workflow Reagent stability, service and delivered cost",
   "librarySection": "equipment"
 };

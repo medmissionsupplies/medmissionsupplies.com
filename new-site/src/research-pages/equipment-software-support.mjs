@@ -3,7 +3,7 @@ export default {
   "key": "equipment-software-support",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Will the equipment still work after its computer fails?",
+  "title": "Used medical equipment: will the software survive a computer failure?",
   "summary": "Buy the software rights and recovery route alongside the hardware. A working demonstration does not establish what transfers or how licensed operation will be restored.",
   "categoryId": "decisions",
   "category": "Procurement & service",
@@ -28,7 +28,7 @@ export default {
   "sections": [
     [
       "List the functions that must survive the sale",
-      "A used scanner can demonstrate a reporting or analysis feature while leaving its transfer rights unresolved. List the functions the hospital needs and connect each to its installed version, licence, permitted site and renewal conditions. Separate temporary demonstrations from purchased rights. The useful question is whether the receiving hospital can keep using the required function after the sale. A used system may show a feature that the purchaser has not established a right to retain. GE HealthCare's published India terms illustrate why the actual agreement matters: software rights can depend on specified hardware and site, with conditional transfer and additional product terms. Treat that as a regional example, then obtain the terms for your transaction."
+      "A used scanner can demonstrate a reporting or analysis feature while leaving its transfer rights unresolved. List the functions the hospital needs and connect each to its installed version, licence, permitted site and renewal conditions. Separate temporary demonstrations from purchased rights. The useful question is whether the receiving hospital can keep using the required function after the sale. Obtain the seller’s software schedule and the rights granted to the receiving hospital before pricing the machine as complete. GE HealthCare’s published India terms illustrate that rights may depend on hardware, site and transfer conditions; the agreement for the actual country and transaction must settle the question. A screenshot of an enabled option proves neither transfer rights nor a future activation route."
     ],
     [
       "Give support its own dates and deliverables",
@@ -40,7 +40,7 @@ export default {
     ],
     [
       "Separate a backup from a recoverable service",
-      "Compare two otherwise similar offers after an imagined computer failure. One includes an authorized recovery route for the application, configuration and licences; the other supplies only a copy of patient data. Both may have a “backup,” but only the first has described how licensed operation returns. Establish what the hospital can restore itself and what requires supplier activation, approved installation media or a service visit. Request an authorized recovery demonstration or documented verification appropriate to the equipment, supervised by the responsible technical team. Define the required evidence in advance. A file copied to a drive does not by itself establish that the equipment can be restored, licensed and returned to its approved configuration. Record what was verified and what still depends on supplier access."
+      "Compare two otherwise similar offers after an imagined computer failure. One includes an authorized recovery route for the application, configuration and licences; the other supplies only a copy of patient data. Both may have a “backup,” but only the first has described how licensed operation returns. Establish what the hospital can restore itself and what requires supplier activation, approved installation media or a service visit. Request an authorized recovery demonstration or documented verification appropriate to the equipment, supervised by the responsible technical team. Define the required evidence in advance. A file copied to a drive does not by itself establish that the equipment can be restored, licensed and returned to its approved configuration. Record what was verified and what still depends on supplier access. Put three failures in the demonstration brief: replacement of the system computer, loss of the network or hosted service, and expiry of an optional subscription. Ask which required functions return, who authorizes restoration, which charges apply and how long the hospital must use its fallback. A cheaper system may still be a sensible purchase if those dependencies are modest and funded. Walk away when a required function depends on credentials or licences the seller cannot lawfully transfer."
     ],
     [
       "Ask which functions remain during an outage",
@@ -54,13 +54,13 @@ export default {
   "related": [
     "laboratory"
   ],
-  "socialTitle": "The equipment works today. Can you restore it tomorrow?",
+  "socialTitle": "Used medical equipment: will the software survive a computer failure?",
   "socialDescription": "Separate software entitlement, data backup and full equipment recovery before buying a computer-based system.",
-  "socialHeadline": "The equipment works today. Can you restore it tomorrow?",
+  "socialHeadline": "Used medical equipment: will the software survive a computer failure?",
   "socialStrapline": "A copied drive is not proof that the hospital can recover a licensed service.",
   "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Will the equipment still work after its computer fails?",
+    "title": "Used medical equipment: will the software survive a computer failure?",
     "summary": "Buy the software rights and recovery route alongside the hardware. A working demonstration does not establish what transfers or how licensed operation will be restored.",
     "firstChoice": "Create a schedule of required features, versions, licence terms, destination rights, recurring charges and named support providers. Verify it against the delivered configuration.",
     "upgradeWhen": "A documented supported upgrade preserves useful equipment and meets the hospital's capability, security and continuity requirements at an acceptable complete cost.",
@@ -87,7 +87,7 @@ export default {
       "authorized access and backup ownership",
       "recovery and offline service requirements"
     ],
-    "title": "Will the equipment still work after its computer fails?",
+    "title": "Used medical equipment: will the software survive a computer failure?",
     "dek": "Buy the software rights and recovery route alongside the hardware. A working demonstration does not establish what transfers or how licensed operation will be restored.",
     "verdict": "Choose a configuration whose required features, transfer rights and recovery route are documented. Compare a supported upgrade with replacement before discarding useful hardware, and include activation, interfaces and recurring charges in the cost.",
     "decision": {
@@ -97,7 +97,7 @@ export default {
       "walkAwayWhen": "Required rights, support or recovery access cannot be established for the receiving hospital and destination."
     },
     "social": {
-      "title": "The equipment works today. Can you restore it tomorrow?",
+      "title": "Used medical equipment: will the software survive a computer failure?",
       "description": "Separate software entitlement, data backup and full equipment recovery before buying a computer-based system.",
       "hook": "A copied drive is not proof that the hospital can recover a licensed service."
     },
@@ -163,7 +163,7 @@ export default {
         "heading": "List the functions that must survive the sale",
         "paragraphs": [
           "A used scanner can demonstrate a reporting or analysis feature while leaving its transfer rights unresolved. List the functions the hospital needs and connect each to its installed version, licence, permitted site and renewal conditions. Separate temporary demonstrations from purchased rights. The useful question is whether the receiving hospital can keep using the required function after the sale.",
-          "A used system may show a feature that the purchaser has not established a right to retain. GE HealthCare's published India terms illustrate why the actual agreement matters: software rights can depend on specified hardware and site, with conditional transfer and additional product terms. Treat that as a regional example, then obtain the terms for your transaction."
+          "Obtain the seller’s software schedule and the rights granted to the receiving hospital before pricing the machine as complete. GE HealthCare’s published India terms illustrate that rights may depend on hardware, site and transfer conditions; the agreement for the actual country and transaction must settle the question. A screenshot of an enabled option proves neither transfer rights nor a future activation route."
         ],
         "sourceIds": [
           "ge-india-software"
@@ -193,7 +193,8 @@ export default {
         "heading": "Separate a backup from a recoverable service",
         "paragraphs": [
           "Compare two otherwise similar offers after an imagined computer failure. One includes an authorized recovery route for the application, configuration and licences; the other supplies only a copy of patient data. Both may have a “backup,” but only the first has described how licensed operation returns. Establish what the hospital can restore itself and what requires supplier activation, approved installation media or a service visit.",
-          "Request an authorized recovery demonstration or documented verification appropriate to the equipment, supervised by the responsible technical team. Define the required evidence in advance. A file copied to a drive does not by itself establish that the equipment can be restored, licensed and returned to its approved configuration. Record what was verified and what still depends on supplier access."
+          "Request an authorized recovery demonstration or documented verification appropriate to the equipment, supervised by the responsible technical team. Define the required evidence in advance. A file copied to a drive does not by itself establish that the equipment can be restored, licensed and returned to its approved configuration. Record what was verified and what still depends on supplier access.",
+          "Put three failures in the demonstration brief: replacement of the system computer, loss of the network or hosted service, and expiry of an optional subscription. Ask which required functions return, who authorizes restoration, which charges apply and how long the hospital must use its fallback. A cheaper system may still be a sensible purchase if those dependencies are modest and funded. Walk away when a required function depends on credentials or licences the seller cannot lawfully transfer."
         ],
         "sourceIds": []
       },
@@ -257,7 +258,7 @@ export default {
         "url": "https://www.philips.com/a-w/security/product-security.html",
         "publisher": "Philips",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Describes product-specific security status documents and MDS2 information covering backups, patches, removable media, remote service access and audit logs. Documents require customer registration; no specific product's security status was inferred."
       },
       {

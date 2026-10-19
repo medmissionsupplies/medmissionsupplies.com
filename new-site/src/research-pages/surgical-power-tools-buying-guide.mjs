@@ -19,7 +19,7 @@ export default {
     ],
     [
       "Make the battery upgrade a workflow comparison",
-      "System 9 gives a concrete reason to examine a newer platform: Stryker describes wireless charging through the case before or after sterilization, with space for up to six batteries. It also describes a changed handpiece-to-battery interface. Evaluate that documented workflow with the exact approved accessories and instructions. Those features do not prove that existing batteries, chargers, cases or handpieces transfer to the new platform. Obtain the compatibility record and price every required conversion item. Compare the complete change with continuing an accepted System 7 or System 8 installation whose required parts and qualified support remain available. For used batteries, a statement that they charge is not an assessment of useful performance in the intended workload. Include the applicable condition test, replacement costs and the approved charging/processing arrangement. Avoid turning a manufacturer runtime or generation-to-generation marketing claim into a life prediction for the offered pack."
+      "System 9 gives a concrete reason to examine a newer platform: Stryker describes wireless charging through the case before or after sterilization, with space for up to six batteries. It also describes a changed handpiece-to-battery interface. Evaluate that documented workflow with the exact approved accessories and instructions. Those features do not prove that existing batteries, chargers, cases or handpieces transfer to the new platform. Obtain the compatibility record and price every required conversion item. Compare the complete change with continuing an accepted System 7 or System 8 installation whose required parts and qualified support remain available. For used batteries, a statement that they charge is not an assessment of useful performance in the intended workload. Include the applicable condition test, replacement costs and the approved charging/processing arrangement. Avoid turning a manufacturer runtime or generation-to-generation marketing claim into a life prediction for the offered pack. Request three priced proposals: repair and complete the current set; add one compatible complete set; and convert all required handpieces, batteries, chargers and trays. Include the approved blades and attachments used most often in each. A conversion discount should be measured after writing off stock that cannot transfer and funding parallel stock during training. This makes a battery-workflow improvement compete with the simpler capacity purchase it is meant to replace."
     ],
     [
       "Keep the cutting-accessory and repair bill visible",
@@ -27,9 +27,9 @@ export default {
     ]
   ],
   "related": [],
-  "socialTitle": "Another complete power-tool set may beat a newer handpiece",
-  "socialDescription": "Compare Stryker System 8 and System 9 workflow differences with the handpieces, batteries, attachments and processing capacity the theatre actually needs.",
-  "socialHeadline": "Another complete power-tool set may beat a newer handpiece",
+  "socialTitle": "Surgical power tools: buy enough complete sets for the list",
+  "socialDescription": "A newer drill cannot shorten an unavailable handpiece’s processing cycle. Compare the exact tools, batteries, attachments and turnaround capacity before changing platforms.",
+  "socialHeadline": "Surgical power tools: buy enough complete sets for the list",
   "socialStrapline": "Capacity belongs to the complete prepared set.",
   "reviewedAt": "2026-10-18",
   "sheet": {
@@ -70,8 +70,8 @@ export default {
         "bestFor": "An adequate platform constrained by turnaround or a missing component.",
         "why": "Targets the item that prevents the next case from being ready.",
         "tradeoff": "Requires sustainable accessories and qualified service.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Price the missing handpiece/attachment, accepted batteries and a complete additional tray against targeted repair plus temporary cover.",
+        "support": "Require repair and exchange coverage for attachments and chargers as well as the main handpiece.",
         "sourceIds": []
       },
       {
@@ -80,8 +80,8 @@ export default {
         "bestFor": "A procedure mix met by the appropriate named handpieces and accessories.",
         "why": "Manufacturer distinguishes several tools within the family.",
         "tradeoff": "The family name does not specify kit contents or transferable battery/processing arrangements.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Itemize each required System 8 handpiece, approved cutting accessories, batteries, charger, processing tray and initial replenishment stock.",
+        "support": "Establish current service and supply for the exact offered generation; condition and compatibility remain unit-specific.",
         "sourceIds": [
           "stryker-s8"
         ]
@@ -92,8 +92,8 @@ export default {
         "bestFor": "A service where the accepted charging/handling workflow improves a defined constraint.",
         "why": "Manufacturer describes through-case wireless charging and a new battery interface.",
         "tradeoff": "Price the full approved conversion and evaluate locally; no reliability premium assumed.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Price full handpiece/battery/charger/tray conversion, staff training, usable reserve and inventory that cannot transfer.",
+        "support": "Demonstrate the approved charging/processing combination and confirm complete temporary equipment during repair.",
         "sourceIds": [
           "stryker-s9"
         ]
@@ -124,7 +124,8 @@ export default {
         "paragraphs": [
           "System 9 gives a concrete reason to examine a newer platform: Stryker describes wireless charging through the case before or after sterilization, with space for up to six batteries. It also describes a changed handpiece-to-battery interface. Evaluate that documented workflow with the exact approved accessories and instructions.",
           "Those features do not prove that existing batteries, chargers, cases or handpieces transfer to the new platform. Obtain the compatibility record and price every required conversion item. Compare the complete change with continuing an accepted System 7 or System 8 installation whose required parts and qualified support remain available.",
-          "For used batteries, a statement that they charge is not an assessment of useful performance in the intended workload. Include the applicable condition test, replacement costs and the approved charging/processing arrangement. Avoid turning a manufacturer runtime or generation-to-generation marketing claim into a life prediction for the offered pack."
+          "For used batteries, a statement that they charge is not an assessment of useful performance in the intended workload. Include the applicable condition test, replacement costs and the approved charging/processing arrangement. Avoid turning a manufacturer runtime or generation-to-generation marketing claim into a life prediction for the offered pack.",
+          "Request three priced proposals: repair and complete the current set; add one compatible complete set; and convert all required handpieces, batteries, chargers and trays. Include the approved blades and attachments used most often in each. A conversion discount should be measured after writing off stock that cannot transfer and funding parallel stock during training. This makes a battery-workflow improvement compete with the simpler capacity purchase it is meant to replace."
         ],
         "sourceIds": [
           "stryker-s9"
@@ -192,29 +193,29 @@ export default {
       {
         "option": "Complete or duplicate the accepted installed set",
         "capability": "Targets the item that prevents the next case from being ready.",
-        "costDriver": "Requires sustainable accessories and qualified service.",
+        "costDriver": "Repair versus another complete accepted set, including attachments and processing tray",
         "bestFit": "An adequate platform constrained by turnaround or a missing component."
       },
       {
         "option": "Task-matched System 8 package",
         "capability": "Manufacturer distinguishes several tools within the family.",
-        "costDriver": "The family name does not specify kit contents or transferable battery/processing arrangements.",
+        "costDriver": "Task-specific kit contents, batteries, cutting accessories and continuing repair",
         "bestFit": "A procedure mix met by the appropriate named handpieces and accessories."
       },
       {
         "option": "Complete System 9 conversion",
         "capability": "Manufacturer describes through-case wireless charging and a new battery interface.",
-        "costDriver": "Price the full approved conversion and evaluate locally; no reliability premium assumed.",
+        "costDriver": "Whole-fleet conversion, nontransferable stock, charging hardware and training",
         "bestFit": "A service where the accepted charging/handling workflow improves a defined constraint."
       }
     ],
     "social": {
-      "title": "Another complete power-tool set may beat a newer handpiece",
-      "description": "Compare Stryker System 8 and System 9 workflow differences with the handpieces, batteries, attachments and processing capacity the theatre actually needs.",
+      "title": "Surgical power tools: buy enough complete sets for the list",
+      "description": "A newer drill cannot shorten an unavailable handpiece’s processing cycle. Compare the exact tools, batteries, attachments and turnaround capacity before changing platforms.",
       "hook": "Capacity belongs to the complete prepared set."
     }
   },
-  "searchTerms": "Surgical power tools: buy enough complete sets for the list Procedure-specific handpieces Complete-set turnaround Battery and charger conversion Approved processing Cutting accessories and repair Complete or duplicate the accepted installed set Task-matched System 8 package Complete System 9 conversion",
+  "searchTerms": "Surgical power tools: buy enough complete sets for the list Procedure-specific handpieces Complete-set turnaround Battery and charger conversion Approved processing Cutting accessories and repair",
   "librarySection": "equipment",
   "image": "guides/us-surgical-drill",
   "photo": {

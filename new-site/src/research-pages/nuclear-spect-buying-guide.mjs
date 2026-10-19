@@ -57,7 +57,7 @@ export default {
         "position": "Hybrid example",
         "bestFor": "Accepted work that benefits from integrated CT.",
         "why": "Combines nuclear imaging with a separately specified CT capability.",
-        "tradeoff": "Configuration choices and added CT failures/quality work matter.",
+        "tradeoff": "Specify crystal, CT configuration and applications; added CT service and quality obligations need funding.",
         "price": "Both subsystems, applications and integration.",
         "support": "Name responsibility for nuclear, CT and combined faults.",
         "sourceIds": [
@@ -119,7 +119,7 @@ export default {
         "heading": "The collimator and software list can change the offer",
         "paragraphs": [
           "GE describes SwiftScan in conjunction with a named LEHRS collimator and acquisition or processing combinations. A generic camera price is therefore incomplete for a task that depends on that package. Require the actual collimator set, handling equipment and enabled reconstruction applications rather than assuming every brochure capability is included.",
-          "Pro.specta's table also lists alternative crystal thicknesses. Have the clinical and physics teams specify the appropriate detector, collimator and application combination for the intended work. Do not infer universal isotope capability or local quantification performance from a family-level claim."
+          "Pro.specta’s table offers 3/8-inch or 5/8-inch crystals and marks its CT specifications as configuration-dependent. Have the nuclear medicine and physics teams choose the detector, collimators and applications together. A higher CT specification is not a substitute for the collimator the scheduled nuclear examination needs; an attractive package can still omit that essential accessory."
         ],
         "sourceIds": [
           "nm830",
@@ -140,7 +140,7 @@ export default {
         "heading": "Hybrid support needs a named boundary",
         "paragraphs": [
           "Price support for the nuclear detectors, gantry and motion systems, collimators, processing workstation and software. For SPECT/CT, add the CT tube, generator, detector, calibration and integration responsibilities. Identify which provider owns a fault that crosses the two systems.",
-          "Compare the complete service scope over the same period, including exclusions and restoration work after component replacement. A lower annual contract can be poor value if a major hybrid component is outside it. Public service-course listings and claims of parts access are evidence of possible serviceability, not measured uptime or proof of eligibility."
+          "For a hybrid offer, ask which operating functions remain available when a CT component is awaiting repair and which studies would need to move elsewhere. Price that interruption response together with both subsystem contracts. A low nuclear-camera service fee cannot be compared with an inclusive hybrid agreement until the CT exclusions, calibration and shared software responsibilities are visible."
         ],
         "sourceIds": []
       },
@@ -197,7 +197,7 @@ export default {
         "publisher": "Siemens Healthineers",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "US technical table lists 32/64 CT configurations and 3/8- or 5/8-inch crystals; configuration and option footnotes read. No blanket tracer compatibility or quantitative accuracy claim adopted."
+        "evidence": "Primary US technical table rechecked 18 October 2026: CT 32/64 and 3/8- or 5/8-inch crystals; specifications carry configuration/option footnotes. No manufacturer quantitative-accuracy or universal theranostic claim adopted."
       },
       {
         "id": "iaea-spect",
@@ -217,10 +217,10 @@ export default {
   "sheet": {
     "title": "SPECT or SPECT/CT: will the extra scanner earn its keep?",
     "summary": "Compare a nuclear-only camera with a hybrid system by the accepted examinations, collimators, software and added CT obligations.",
-    "firstChoice": "Choose the architecture from the accepted examination list.",
-    "upgradeWhen": "Integrated CT adds a capability the programme can use.",
-    "budgetWatch": "Compare collimators, software and both hybrid subsystems.",
-    "supportCheck": "Require exact corrective-action status and installed acceptance evidence.",
+    "firstChoice": "Map required nuclear examinations and the specific role of CT in each.",
+    "upgradeWhen": "Hybrid imaging adds accepted value the service can use and support.",
+    "budgetWatch": "SPECT service cost = installed camera and applications + tracer pathway + staff and quality resources + support; hybrid adds CT and integration obligations.",
+    "supportCheck": "Required collimators, software, quality tools or unresolved corrective actions cannot be established.",
     "askSupplier": [
       "Which examinations require integrated CT and what CT capability?",
       "Which collimators, crystal configuration and applications are included?",
@@ -243,7 +243,7 @@ export default {
     ],
     [
       "The collimator and software list can change the offer",
-      "GE describes SwiftScan in conjunction with a named LEHRS collimator and acquisition or processing combinations. A generic camera price is therefore incomplete for a task that depends on that package. Require the actual collimator set, handling equipment and enabled reconstruction applications rather than assuming every brochure capability is included. Pro.specta's table also lists alternative crystal thicknesses. Have the clinical and physics teams specify the appropriate detector, collimator and application combination for the intended work. Do not infer universal isotope capability or local quantification performance from a family-level claim."
+      "GE describes SwiftScan in conjunction with a named LEHRS collimator and acquisition or processing combinations. A generic camera price is therefore incomplete for a task that depends on that package. Require the actual collimator set, handling equipment and enabled reconstruction applications rather than assuming every brochure capability is included. Pro.specta’s table offers 3/8-inch or 5/8-inch crystals and marks its CT specifications as configuration-dependent. Have the nuclear medicine and physics teams choose the detector, collimators and applications together. A higher CT specification is not a substitute for the collimator the scheduled nuclear examination needs; an attractive package can still omit that essential accessory."
     ],
     [
       "A working image is not an acceptance record",
@@ -251,7 +251,7 @@ export default {
     ],
     [
       "Hybrid support needs a named boundary",
-      "Price support for the nuclear detectors, gantry and motion systems, collimators, processing workstation and software. For SPECT/CT, add the CT tube, generator, detector, calibration and integration responsibilities. Identify which provider owns a fault that crosses the two systems. Compare the complete service scope over the same period, including exclusions and restoration work after component replacement. A lower annual contract can be poor value if a major hybrid component is outside it. Public service-course listings and claims of parts access are evidence of possible serviceability, not measured uptime or proof of eligibility."
+      "Price support for the nuclear detectors, gantry and motion systems, collimators, processing workstation and software. For SPECT/CT, add the CT tube, generator, detector, calibration and integration responsibilities. Identify which provider owns a fault that crosses the two systems. For a hybrid offer, ask which operating functions remain available when a CT component is awaiting repair and which studies would need to move elsewhere. Price that interruption response together with both subsystem contracts. A low nuclear-camera service fee cannot be compared with an inclusive hybrid agreement until the CT exclusions, calibration and shared software responsibilities are visible."
     ],
     [
       "Keep or replace on evidence the hospital can use",
@@ -259,7 +259,7 @@ export default {
     ]
   ],
   "minutes": 3,
-  "searchTerms": "SPECT versus SPECT CT collimator and software configuration nuclear camera acceptance hybrid imaging service obligations GE NM 830 with specified collimators and applications Symbia Pro.specta, exact SPECT/CT configuration Retain accepted camera with targeted remedy",
+  "searchTerms": "SPECT or SPECT/CT: will the extra scanner earn its keep? SPECT versus SPECT CT collimator and software configuration nuclear camera acceptance hybrid imaging service obligations GE NM 830 with specified collimators and applications Symbia Pro.specta, exact SPECT/CT configuration Retain accepted camera with targeted remedy",
   "librarySection": "equipment",
   "image": "guides/spect",
   "photo": {

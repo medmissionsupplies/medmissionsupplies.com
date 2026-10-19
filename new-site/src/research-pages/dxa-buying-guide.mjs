@@ -3,17 +3,17 @@ export default {
   "key": "dxa",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Buying DXA? Protect the value of the next scan",
-  "summary": "Compare GE Prodigy and Hologic Horizon configurations, useful analysis options and the quality work needed to preserve meaningful follow-up scans.",
+  "title": "Replacing DXA? Keep past scans useful",
+  "summary": "Compare Prodigy and Horizon configurations, then budget the data, quality work and overlap needed to preserve a useful follow-up service.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "related": [
     "xray"
   ],
   "reviewedAt": "2026-10-18",
-  "socialTitle": "Buying DXA? Protect the value of the next scan",
-  "socialDescription": "Compare GE Prodigy and Hologic Horizon configurations, useful analysis options and the quality work needed to preserve meaningful follow-up scans.",
-  "socialHeadline": "Buying DXA? Protect the value of the next scan",
+  "socialTitle": "Replacing DXA? Keep past scans useful",
+  "socialDescription": "Compare Prodigy and Horizon configurations, then budget the data, quality work and overlap needed to preserve a useful follow-up service.",
+  "socialHeadline": "Replacing DXA? Keep past scans useful",
   "socialStrapline": "The handover can matter as much as the scanner.",
   "research": {
     "kind": "feature",
@@ -25,8 +25,8 @@ export default {
       "bone density versus body composition",
       "quality and data handover"
     ],
-    "title": "Buying DXA? Protect the value of the next scan",
-    "dek": "Compare GE Prodigy and Hologic Horizon configurations, useful analysis options and the quality work needed to preserve meaningful follow-up scans.",
+    "title": "Replacing DXA? Keep past scans useful",
+    "dek": "Compare Prodigy and Horizon configurations, then budget the data, quality work and overlap needed to preserve a useful follow-up service.",
     "verdict": "Buy DXA around a defined clinical service and a funded quality programme. When replacing an existing machine, plan how future measurements will relate to prior studies before the old system disappears.",
     "decision": {
       "firstMove": "Define the clinical workload and review the current patient-history and quality records.",
@@ -35,8 +35,8 @@ export default {
       "walkAwayWhen": "The offer omits essential software, quality tools or a workable clinical reporting pathway."
     },
     "social": {
-      "title": "Buying DXA? Protect the value of the next scan",
-      "description": "Compare GE Prodigy and Hologic Horizon configurations, useful analysis options and the quality work needed to preserve meaningful follow-up scans.",
+      "title": "Replacing DXA? Keep past scans useful",
+      "description": "Compare Prodigy and Horizon configurations, then budget the data, quality work and overlap needed to preserve a useful follow-up service.",
       "hook": "The handover can matter as much as the scanner."
     },
     "choices": [
@@ -124,7 +124,7 @@ export default {
         "heading": "Do not lose the value of the previous examination",
         "paragraphs": [
           "A replacement can disrupt useful follow-up even when the new machine performs well. ISCD's 2023 positions distinguish comparisons within a system from comparisons across systems and require appropriate cross-calibration for quantitative comparison after a change. Without that assessment, a new baseline is needed.",
-          "The purchasing consequence is to plan the transition before removing the old unit. Ask the clinical team to define the necessary overlap, assessment, records and reporting changes. Include that work in the installation budget and timetable. An equipment swap completed quickly is not necessarily a complete clinical handover."
+          "Set the transition timetable before the removal date. If the team needs access to both systems for its cross-calibration plan, a same-day trade-in can prevent that work. Price the necessary overlap, staff time, records access and reporting changes with installation. A successful database import preserves records; it does not by itself establish that measurements from the two scanners can be compared quantitatively."
         ],
         "sourceIds": [
           "iscd"
@@ -160,7 +160,7 @@ export default {
         "heading": "Judge the offer after the handover costs are included",
         "paragraphs": [
           "Compare the same period and workload, including equipment, installation, trained staff, quality work, reporting, software, service and transition. Keep a realistic allowance for interruption or referral. No universal scan volume can decide this without the site's costs and accepted demand.",
-          "Before acceptance, demonstrate acquisition-to-report delivery, recovery of prior records and the agreed quality and transition work. The durable asset is a supported service that produces usable results over time. A low purchase price is valuable only when it preserves that service rather than leaving essential work unfunded. Manufacturer reputation and installed-base size do not establish a lower failure rate; use the exact service history and achievable repair arrangements to judge support exposure."
+          "Before acceptance, demonstrate acquisition-to-report delivery, retrieval of prior records and the agreed quality and transition work. Keep a supported existing system when it meets the brief and replacement mainly changes the badge. Pay more when a needed configuration or a credible support improvement survives the full handover comparison. Brand reputation and installed-base size do not establish a lower failure rate."
         ],
         "sourceIds": []
       }
@@ -199,7 +199,7 @@ export default {
         "publisher": "International Society for Clinical Densitometry",
         "kind": "professional-society",
         "accessed": "2026-10-18",
-        "evidence": "Read quality-control, precision, cross-calibration and reporting sections. Facility precision differs from manufacturer specification; comparisons across changed systems require appropriate cross-calibration. No clinical protocol reproduced.",
+        "evidence": "2023 Official Adult Positions: calibration, precision, changing/adding systems and comparison-between-facilities sections read 18 October 2026. Cross-calibration governs quantitative comparison; records migration alone does not. Numerical clinical/test procedures not reproduced.",
         "published": "2023-08-24"
       },
       {
@@ -236,12 +236,12 @@ export default {
     ]
   },
   "sheet": {
-    "title": "Buying DXA? Protect the value of the next scan",
-    "summary": "Compare GE Prodigy and Hologic Horizon configurations, useful analysis options and the quality work needed to preserve meaningful follow-up scans.",
-    "firstChoice": "Protect follow-up and fund the quality programme.",
-    "upgradeWhen": "A defined limitation justifies a planned system change.",
-    "budgetWatch": "Include software, quality work and transition costs.",
-    "supportCheck": "Verify the exact configuration and continued record access.",
+    "title": "Replacing DXA? Keep past scans useful",
+    "summary": "Compare Prodigy and Horizon configurations, then budget the data, quality work and overlap needed to preserve a useful follow-up service.",
+    "firstChoice": "Define the clinical workload and review the current patient-history and quality records.",
+    "upgradeWhen": "Replacement resolves an accepted capability or support limit with a planned transition.",
+    "budgetWatch": "DXA service cost = installed equipment + staffing and interpretation + quality work + software and service + transition and interruption.",
+    "supportCheck": "The offer omits essential software, quality tools or a workable clinical reporting pathway.",
     "askSupplier": [
       "Which applications and licences are included?",
       "How will the clinical team manage comparison with prior studies?",
@@ -263,7 +263,7 @@ export default {
     ],
     [
       "Do not lose the value of the previous examination",
-      "A replacement can disrupt useful follow-up even when the new machine performs well. ISCD's 2023 positions distinguish comparisons within a system from comparisons across systems and require appropriate cross-calibration for quantitative comparison after a change. Without that assessment, a new baseline is needed. The purchasing consequence is to plan the transition before removing the old unit. Ask the clinical team to define the necessary overlap, assessment, records and reporting changes. Include that work in the installation budget and timetable. An equipment swap completed quickly is not necessarily a complete clinical handover."
+      "A replacement can disrupt useful follow-up even when the new machine performs well. ISCD's 2023 positions distinguish comparisons within a system from comparisons across systems and require appropriate cross-calibration for quantitative comparison after a change. Without that assessment, a new baseline is needed. Set the transition timetable before the removal date. If the team needs access to both systems for its cross-calibration plan, a same-day trade-in can prevent that work. Price the necessary overlap, staff time, records access and reporting changes with installation. A successful database import preserves records; it does not by itself establish that measurements from the two scanners can be compared quantitatively."
     ],
     [
       "Quality equipment and operator work are separate",
@@ -279,11 +279,11 @@ export default {
     ],
     [
       "Judge the offer after the handover costs are included",
-      "Compare the same period and workload, including equipment, installation, trained staff, quality work, reporting, software, service and transition. Keep a realistic allowance for interruption or referral. No universal scan volume can decide this without the site's costs and accepted demand. Before acceptance, demonstrate acquisition-to-report delivery, recovery of prior records and the agreed quality and transition work. The durable asset is a supported service that produces usable results over time. A low purchase price is valuable only when it preserves that service rather than leaving essential work unfunded. Manufacturer reputation and installed-base size do not establish a lower failure rate; use the exact service history and achievable repair arrangements to judge support exposure."
+      "Compare the same period and workload, including equipment, installation, trained staff, quality work, reporting, software, service and transition. Keep a realistic allowance for interruption or referral. No universal scan volume can decide this without the site's costs and accepted demand. Before acceptance, demonstrate acquisition-to-report delivery, retrieval of prior records and the agreed quality and transition work. Keep a supported existing system when it meets the brief and replacement mainly changes the badge. Pay more when a needed configuration or a credible support improvement survives the full handover comparison. Brand reputation and installed-base size do not establish a lower failure rate."
     ]
   ],
   "minutes": 4,
-  "searchTerms": "DXA purchasing and replacement cross-calibration and follow-up bone density versus body composition quality and data handover GE Prodigy with the required analysis package Hologic Horizon C/W or Ci/Wi, exact configuration Hologic Horizon A, exact configuration",
+  "searchTerms": "Replacing DXA? Keep past scans useful DXA purchasing and replacement cross-calibration and follow-up bone density versus body composition quality and data handover GE Prodigy with the required analysis package Hologic Horizon C/W or Ci/Wi, exact configuration Hologic Horizon A, exact configuration",
   "librarySection": "equipment",
   "image": "guides/dxa",
   "photo": {

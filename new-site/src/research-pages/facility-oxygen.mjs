@@ -3,7 +3,7 @@ export default {
   "key": "facility-oxygen",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Hospital oxygen: compare the supply bill behind the equipment",
+  "title": "Hospital oxygen: buy the supply route your budget can sustain",
   "summary": "Cylinders, concentrators and a plant shift costs between delivery, electricity, maintenance and backup. Compare the oxygen service each can sustain.",
   "categoryId": "decisions",
   "category": "Procurement & service",
@@ -25,7 +25,7 @@ export default {
     "verifiedAt": "2026-10-17",
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
   },
-  "minutes": 4,
+  "minutes": 3,
   "sections": [
     [
       "Choose the supply arrangement the site can sustain",
@@ -45,19 +45,19 @@ export default {
     ],
     [
       "Buying a service can change who carries the work",
-      "A qualified provider may operate equipment and sell oxygen as an ongoing service. UNICEF describes such arrangements in Liberia and Uganda. Compare the provider's measurable supply and maintenance commitments with the power, site, payment and oversight obligations the hospital retains. A service fee is not proof that every interruption risk has transferred. Before award, walk through a missed delivery, loss of power and source failure with the responsible teams. Identify the approved continuity response, the person who initiates it and the resources already funded. Choose the feasible arrangement with a supportable five-year bill—not the offer whose essential costs sit outside the quotation."
+      "A qualified provider may operate equipment and sell oxygen as an ongoing service. UNICEF describes such arrangements in Liberia and Uganda. Compare the provider's measurable supply and maintenance commitments with the power, site, payment and oversight obligations the hospital retains. A service fee is not proof that every interruption risk has transferred. A service contract deserves a place on the shortlist when the hospital can fund regular supply but cannot sustain plant operation and repair itself. Compare minimum payments, price changes, measurement of delivered oxygen, backup obligations and the handover if the contract ends. If a programme includes donor support, calculate what the hospital owes when that support expires. Owning a plant is more attractive only when its operating resources and repair route are credible for the same period. Before award, walk through a missed delivery, loss of power and source failure with the responsible teams. Identify the approved continuity response, the person who initiates it and the resources already funded. Choose the feasible arrangement with a supportable five-year bill—not the offer whose essential costs sit outside the quotation."
     ]
   ],
   "related": [
     "oxygen"
   ],
-  "socialTitle": "Hospital oxygen: compare the supply bill behind the equipment",
+  "socialTitle": "Hospital oxygen: buy the supply route your budget can sustain",
   "socialDescription": "Cylinders, concentrators and a plant shift costs between delivery, electricity, maintenance and backup. Compare the oxygen service each can sustain.",
-  "socialHeadline": "Hospital oxygen: compare the supply bill behind the equipment",
+  "socialHeadline": "Hospital oxygen: buy the supply route your budget can sustain",
   "socialStrapline": "The source price is only the first oxygen bill.",
   "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Hospital oxygen: compare the supply bill behind the equipment",
+    "title": "Hospital oxygen: buy the supply route your budget can sustain",
     "summary": "Cylinders, concentrators and a plant shift costs between delivery, electricity, maintenance and backup. Compare the oxygen service each can sustain.",
     "firstChoice": "Compare technically acceptable source arrangements at the same assessed workload, including delivery, power, support and backup.",
     "upgradeWhen": "Additional production, distribution or a contracted service removes a verified capacity or continuity constraint and its operating costs are funded.",
@@ -85,7 +85,7 @@ export default {
       "complete service scope and backup",
       "operating cost and accountability"
     ],
-    "title": "Hospital oxygen: compare the supply bill behind the equipment",
+    "title": "Hospital oxygen: buy the supply route your budget can sustain",
     "dek": "Cylinders, concentrators and a plant shift costs between delivery, electricity, maintenance and backup. Compare the oxygen service each can sustain.",
     "verdict": "Keep a workable supply arrangement until a replacement meets the same assessed demand and improves the full service cost or continuity. Prefer delivered cylinders where replenishment is dependable; consider on-site generation when its power, operating skills, maintenance and backup can be sustained. A plant without those resources is an unfinished project.",
     "decision": {
@@ -95,7 +95,7 @@ export default {
       "walkAwayWhen": "Output cannot be matched to the receiving devices or quality, maintenance and interruption responsibilities have no funded owner."
     },
     "social": {
-      "title": "Hospital oxygen: compare the supply bill behind the equipment",
+      "title": "Hospital oxygen: buy the supply route your budget can sustain",
       "description": "Cylinders, concentrators and a plant shift costs between delivery, electricity, maintenance and backup. Compare the oxygen service each can sustain.",
       "hook": "The source price is only the first oxygen bill."
     },
@@ -219,6 +219,7 @@ export default {
         "heading": "Buying a service can change who carries the work",
         "paragraphs": [
           "A qualified provider may operate equipment and sell oxygen as an ongoing service. UNICEF describes such arrangements in Liberia and Uganda. Compare the provider's measurable supply and maintenance commitments with the power, site, payment and oversight obligations the hospital retains. A service fee is not proof that every interruption risk has transferred.",
+          "A service contract deserves a place on the shortlist when the hospital can fund regular supply but cannot sustain plant operation and repair itself. Compare minimum payments, price changes, measurement of delivered oxygen, backup obligations and the handover if the contract ends. If a programme includes donor support, calculate what the hospital owes when that support expires. Owning a plant is more attractive only when its operating resources and repair route are credible for the same period.",
           "Before award, walk through a missed delivery, loss of power and source failure with the responsible teams. Identify the approved continuity response, the person who initiates it and the resources already funded. Choose the feasible arrangement with a supportable five-year bill—not the offer whose essential costs sit outside the quotation."
         ],
         "sourceIds": [

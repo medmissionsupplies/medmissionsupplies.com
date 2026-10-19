@@ -3,7 +3,7 @@ export default {
   "key": "equipment-power",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "A UPS keeps what running—the computer or the whole service?",
+  "title": "Medical equipment UPS: pay for the load you need to keep running",
   "summary": "Define the protected equipment and the required outcome before comparing power-backup prices. Runtime means little without the load behind it.",
   "categoryId": "decisions",
   "category": "Procurement & service",
@@ -44,7 +44,7 @@ export default {
     ],
     [
       "Fund the system after commissioning",
-      "WHO's energy-access report treats facility electrification as both a technical and an economic undertaking. Apply that perspective to ongoing support: batteries, inspection, testing, monitoring, spare components and the operating needs of the chosen backup supply must have owners and budgets. Ask who responds to a power-system alarm after hours and who can establish whether a fault belongs to the utility, backup system or medical device. Identify the maintenance arrangements during which protection is reduced. A proposal that funds installation but leaves replacement consumables and service unsupported is an unfinished continuity plan."
+      "WHO's energy-access report treats facility electrification as both a technical and an economic undertaking. Apply that perspective to ongoing support: batteries, inspection, testing, monitoring, spare components and the operating needs of the chosen backup supply must have owners and budgets. Ask who responds to a power-system alarm after hours and who can establish whether a fault belongs to the utility, backup system or medical device. Identify the maintenance arrangements during which protection is reduced. A proposal that funds installation but leaves replacement consumables and service unsupported is an unfinished continuity plan. Separate the price of replacing batteries from replacing the UPS. If the existing installation remains suitable, a qualified assessment and approved battery renewal may preserve the required outcome at lower project cost. If the department has added loads or changed the required runtime, a battery quote alone does not answer the capacity question. Obtain priced maintenance and end-of-life replacement obligations before choosing a larger system."
     ],
     [
       "Compare the complete protected outcome",
@@ -54,13 +54,13 @@ export default {
   "related": [
     "anesthesia"
   ],
-  "socialTitle": "What exactly will stay on when the power fails?",
+  "socialTitle": "Medical equipment UPS: pay for the load you need to keep running",
   "socialDescription": "Separate workstation backup, voltage-sag correction and whole-service continuity before choosing a UPS.",
-  "socialHeadline": "What exactly will stay on when the power fails?",
+  "socialHeadline": "Medical equipment UPS: pay for the load you need to keep running",
   "socialStrapline": "Keeping the computer on does not prove the scanner can keep working.",
   "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "A UPS keeps what running—the computer or the whole service?",
+    "title": "Medical equipment UPS: pay for the load you need to keep running",
     "summary": "Define the protected equipment and the required outcome before comparing power-backup prices. Runtime means little without the load behind it.",
     "firstChoice": "Commission a qualified assessment, obtain exact equipment requirements and list every load needed for the proposed bridge, continued operation or controlled shutdown.",
     "upgradeWhen": "The accepted design identifies an interruption or power-quality problem that the installed arrangement cannot adequately address for the required equipment.",
@@ -87,7 +87,7 @@ export default {
       "UPS and generator handover",
       "maintenance and acceptance"
     ],
-    "title": "A UPS keeps what running—the computer or the whole service?",
+    "title": "Medical equipment UPS: pay for the load you need to keep running",
     "dek": "Define the protected equipment and the required outcome before comparing power-backup prices. Runtime means little without the load behind it.",
     "verdict": "Buy an engineered response to measured site conditions: continued operation, a bridge to backup supply or controlled shutdown. Pay for the complete load and transfer sequence the service needs, with maintainable batteries and qualified acceptance.",
     "decision": {
@@ -97,7 +97,7 @@ export default {
       "walkAwayWhen": "Capacity, protected loads, runtime conditions or transfer behavior are assumed from a generic equipment label."
     },
     "social": {
-      "title": "What exactly will stay on when the power fails?",
+      "title": "Medical equipment UPS: pay for the load you need to keep running",
       "description": "Separate workstation backup, voltage-sag correction and whole-service continuity before choosing a UPS.",
       "hook": "Keeping the computer on does not prove the scanner can keep working."
     },
@@ -219,7 +219,8 @@ export default {
         "heading": "Fund the system after commissioning",
         "paragraphs": [
           "WHO's energy-access report treats facility electrification as both a technical and an economic undertaking. Apply that perspective to ongoing support: batteries, inspection, testing, monitoring, spare components and the operating needs of the chosen backup supply must have owners and budgets.",
-          "Ask who responds to a power-system alarm after hours and who can establish whether a fault belongs to the utility, backup system or medical device. Identify the maintenance arrangements during which protection is reduced. A proposal that funds installation but leaves replacement consumables and service unsupported is an unfinished continuity plan."
+          "Ask who responds to a power-system alarm after hours and who can establish whether a fault belongs to the utility, backup system or medical device. Identify the maintenance arrangements during which protection is reduced. A proposal that funds installation but leaves replacement consumables and service unsupported is an unfinished continuity plan.",
+          "Separate the price of replacing batteries from replacing the UPS. If the existing installation remains suitable, a qualified assessment and approved battery renewal may preserve the required outcome at lower project cost. If the department has added loads or changed the required runtime, a battery quote alone does not answer the capacity question. Obtain priced maintenance and end-of-life replacement obligations before choosing a larger system."
         ],
         "sourceIds": [
           "who-energy"
@@ -268,7 +269,7 @@ export default {
         "url": "https://www.gehealthcare.com/en/products/clinical-accessories/ups-uninterruptible-power-supplies",
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Describes imaging and PACS applications including power management, data saving and appropriate shutdown; exact configuration requires engineering confirmation."
       },
       {

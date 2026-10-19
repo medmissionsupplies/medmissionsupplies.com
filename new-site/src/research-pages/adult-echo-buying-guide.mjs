@@ -3,8 +3,8 @@ export default {
   "key": "adult-echo",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Buying an adult echo system? Price the complete examination",
-  "summary": "A cardiac probe and a convincing image are only the start. Compare Doppler, measurements, reporting and the enabled package before paying for advanced options.",
+  "title": "Adult echo systems: budget for the probe and the report",
+  "summary": "Compare CX50, Vivid iq and EBit 60 packages by the routine examinations they can finish, including cardiac probes, enabled modes and reporting.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "minutes": 3,
@@ -23,25 +23,25 @@ export default {
     ],
     [
       "Test the complete result before choosing the cheaper package",
-      "Ask the qualified users to assess representative work within the hospital’s approved demonstration arrangements. Follow one examination through acquisition, required measurements, saving, retrieval and reporting. Check the exact probes and accessories supplied, not a better-equipped demonstration unit. A technically impressive scan that cannot reach the reviewing clinician is an incomplete purchase. Include the everyday physical workflow: whether the system must move between wards, how probes are stored, who cleans them and where charging happens. A portable does not automatically solve access if the cart, display position or battery arrangement makes the intended work awkward. A larger cart is not automatically better value if it adds no required capability."
+      "Ask the qualified users to assess representative work within the hospital’s approved demonstration arrangements. Follow one examination through acquisition, required measurements, saving, retrieval and reporting. Check the exact probes and accessories supplied, not a better-equipped demonstration unit. A technically impressive scan that cannot reach the reviewing clinician is an incomplete purchase. Mobility has its own configuration cost. GE quotes Vivid iq battery scanning of up to one hour on the console and up to four hours on a cart, depending on mode and battery condition. If the intended round needs the longer arrangement, compare the cart and its battery as part of the offer. Ask for a demonstration on the offered batteries along the actual ward route; a brochure maximum is not a promise about a used battery."
     ],
     [
       "Spend on the weakest indispensable link",
-      "For a used system, assess the probe and console separately and establish a practical repair route for both. A low console price can leave too little budget for a satisfactory cardiac probe, software rights or temporary cover. Compare a complete used package with a complete newer one, including installation, training and the same ownership period. Keep a suitable installed system when a supported probe or software addition closes the real gap. Change platforms when the required work, acceptance result or continuing support makes the difference. Public documentation supports this shortlist’s questions; it does not establish a cheapest model, a reliability ranking or a universal winner for adult echo."
+      "For a used system, assess the probe and console separately and establish a practical repair route for both. A low console price can leave too little budget for a satisfactory cardiac probe, software rights or temporary cover. Compare a complete used package with a complete newer one, including installation, training and the same ownership period. Keep a suitable installed system when a supported probe or software addition closes the real gap. Change platforms when required work or continuing support makes that investment worthwhile. Before paying a portable premium, compare the cost of a second accepted probe, a reporting licence or temporary replacement cover: one of those may protect more routine examinations than an unused advanced option."
     ]
   ],
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "The cardiac probe is only the start of an echo package",
-  "socialDescription": "Compare CX50 xMATRIX, Vivid iq and EBit 60 as documented configurations, with routine work separated from optional analysis.",
-  "socialHeadline": "The cardiac probe is only the start of an echo package",
+  "socialTitle": "Adult echo systems: budget for the probe and the report",
+  "socialDescription": "Compare CX50, Vivid iq and EBit 60 packages by the routine examinations they can finish, including cardiac probes, enabled modes and reporting.",
+  "socialHeadline": "Adult echo systems: budget for the probe and the report",
   "socialStrapline": "Buy the examination from acquisition to an interpretable report.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "adult-echo",
-    "title": "Buying an adult echo system? Price the complete examination",
-    "summary": "A cardiac probe and a convincing image are only the start. Compare Doppler, measurements, reporting and the enabled package before paying for advanced options.",
+    "title": "Adult echo systems: budget for the probe and the report",
+    "summary": "Compare CX50, Vivid iq and EBit 60 packages by the routine examinations they can finish, including cardiac probes, enabled modes and reporting.",
     "firstChoice": "Have the echo lead define the complete routine examination and report, then match the offered configuration to it.",
     "upgradeWhen": "The additional probe, mode, analysis or workflow capability fills a required and demonstrated gap.",
     "budgetWatch": "Complete echo cost = scanner and required probe + enabled modes and reporting + accessories + training, acceptance and support over a common period.",
@@ -61,8 +61,8 @@ export default {
   "research": {
     "id": "adult-echo",
     "kind": "feature",
-    "title": "Buying an adult echo system? Price the complete examination",
-    "dek": "A cardiac probe and a convincing image are only the start. Compare Doppler, measurements, reporting and the enabled package before paying for advanced options.",
+    "title": "Adult echo systems: budget for the probe and the report",
+    "dek": "Compare CX50, Vivid iq and EBit 60 packages by the routine examinations they can finish, including cardiac probes, enabled modes and reporting.",
     "verdict": "Fund a complete package for the echo service’s defined routine work before adding advanced analysis or interventional capability. A supported portable can be the right choice when it completes that work; a larger cart must earn its extra cost through a needed function or workflow.",
     "coverage": [
       "Routine adult TTE",
@@ -77,7 +77,7 @@ export default {
         "bestFor": "A buyer assessing an exact used adult-TTE package.",
         "why": "The 2016 OEM table identifies the adult-echo probe.",
         "tradeoff": "Present rights and repair eligibility must be established.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Include S5-1 condition, enabled cardiac modes, reporting rights and the cost of temporary cover.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "cx50-2016"
@@ -89,7 +89,7 @@ export default {
         "bestFor": "A service comparing portable acquisition and its analysis workflow.",
         "why": "OEM documentation identifies M5Sc and separate software tools.",
         "tradeoff": "The actual release and licences determine delivered capability.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Separate console, cardiac probe, battery/cart arrangement and EchoPAC or other reporting costs.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "vivid-iq"
@@ -101,7 +101,7 @@ export default {
         "bestFor": "A deliberately bounded service whose clinicians accept the package.",
         "why": "Published examples justify checking its offered Doppler functions.",
         "tradeoff": "A marketing image is not evidence that an option is included.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Price the demonstrated cardiac configuration, not the base laptop advertised alone.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "u-ebit60"
@@ -143,15 +143,17 @@ export default {
         "heading": "Test the complete result before choosing the cheaper package",
         "paragraphs": [
           "Ask the qualified users to assess representative work within the hospital’s approved demonstration arrangements. Follow one examination through acquisition, required measurements, saving, retrieval and reporting. Check the exact probes and accessories supplied, not a better-equipped demonstration unit. A technically impressive scan that cannot reach the reviewing clinician is an incomplete purchase.",
-          "Include the everyday physical workflow: whether the system must move between wards, how probes are stored, who cleans them and where charging happens. A portable does not automatically solve access if the cart, display position or battery arrangement makes the intended work awkward. A larger cart is not automatically better value if it adds no required capability."
+          "Mobility has its own configuration cost. GE quotes Vivid iq battery scanning of up to one hour on the console and up to four hours on a cart, depending on mode and battery condition. If the intended round needs the longer arrangement, compare the cart and its battery as part of the offer. Ask for a demonstration on the offered batteries along the actual ward route; a brochure maximum is not a promise about a used battery."
         ],
-        "sourceIds": []
+        "sourceIds": [
+          "vivid-iq"
+        ]
       },
       {
         "heading": "Spend on the weakest indispensable link",
         "paragraphs": [
           "For a used system, assess the probe and console separately and establish a practical repair route for both. A low console price can leave too little budget for a satisfactory cardiac probe, software rights or temporary cover. Compare a complete used package with a complete newer one, including installation, training and the same ownership period.",
-          "Keep a suitable installed system when a supported probe or software addition closes the real gap. Change platforms when the required work, acceptance result or continuing support makes the difference. Public documentation supports this shortlist’s questions; it does not establish a cheapest model, a reliability ranking or a universal winner for adult echo."
+          "Keep a suitable installed system when a supported probe or software addition closes the real gap. Change platforms when required work or continuing support makes that investment worthwhile. Before paying a portable premium, compare the cost of a second accepted probe, a reporting licence or temporary replacement cover: one of those may protect more routine examinations than an unused advanced option."
         ],
         "sourceIds": []
       }
@@ -202,7 +204,7 @@ export default {
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Current public body identifies M5Sc, analysis/reporting tools and release-dependent features; manufacturer performance and testimonial claims are not independent findings. No current matched price or all-unit entitlement established."
+        "evidence": "OEM product body and footnotes read 18 October 2026: M5Sc, EchoPAC and release-dependent features; battery statement distinguishes console from cart and depends on mode/condition. No serial-specific support, included licences or independent performance established."
       },
       {
         "id": "u-ebit60",
@@ -241,12 +243,12 @@ export default {
       }
     ],
     "social": {
-      "title": "The cardiac probe is only the start of an echo package",
-      "description": "Compare CX50 xMATRIX, Vivid iq and EBit 60 as documented configurations, with routine work separated from optional analysis.",
+      "title": "Adult echo systems: budget for the probe and the report",
+      "description": "Compare CX50, Vivid iq and EBit 60 packages by the routine examinations they can finish, including cardiac probes, enabled modes and reporting.",
       "hook": "Buy the examination from acquisition to an interpretable report."
     }
   },
-  "searchTerms": "Buying an adult echo system? Price the complete examination Routine adult TTE Exact cardiac package Analysis and reporting rights Probe and console support CX50 xMATRIX with S5-1 Vivid iq with the required cardiac and reporting package EBit 60 with demonstrated cardiac options",
+  "searchTerms": "Adult echo systems: budget for the probe and the report Routine adult TTE Exact cardiac package Analysis and reporting rights Probe and console support CX50 xMATRIX with S5-1 Vivid iq with the required cardiac and reporting package EBit 60 with demonstrated cardiac options",
   "librarySection": "equipment",
   "image": "guides/echo-system",
   "photo": {

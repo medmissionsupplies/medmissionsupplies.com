@@ -67,4 +67,13 @@ test('sharing uses clean production URLs and correctly encoded content', () => {
     assert.ok([...parsed.searchParams.values()].some(v => v.includes(result.url)));
   }
   assert.throws(() => shareContent({ path: 'https://other.example/a', title: 'Wrong site' }));
+  for (const article of articles) {
+    const shared = shareContent({ path: `/resources/${article.id}.html`, title: article.socialTitle || article.title, summary: article.socialDescription || article.summary });
+    assert.equal(shared.image, `/assets/social/article-${article.id}.jpg`);
+    for (const [, href] of shared.links) {
+      const values = [...new URL(href).searchParams.values()];
+      assert.ok(values.some(value => value.includes(shared.url)), article.id + ': share link lost its canonical destination');
+    }
+    assert.ok(shared.caption.includes(shared.title) && shared.caption.endsWith(shared.url), article.id);
+  }
 });

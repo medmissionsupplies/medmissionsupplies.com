@@ -26,7 +26,7 @@ export default function ShareTools({ path, title, summary }) {
     <button type="button" onClick={() => copy(data.url, 'Link copied.')}><Copy size={18} />Copy link</button>
     {native && <button type="button" onClick={nativeShare}><Share size={18} />Share</button>}
     <details className="share-networks">
-      <summary><Share size={18} />Share options</summary>
+      <summary><Share size={18} />Share this guide</summary>
       <div className="share-menu">
         {data.links.map(([label, href]) => <a key={label} href={href} target="_blank" rel="noopener noreferrer">{label}<ArrowUpRight size={16} /></a>)}
         <button type="button" onClick={() => copy(data.caption, 'Post text and link copied.')}>Copy post text</button>

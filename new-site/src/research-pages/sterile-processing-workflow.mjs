@@ -3,7 +3,7 @@ export default {
   "key": "sterile-processing-workflow",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "The sterilizer is faster. Why are instrument sets still late?",
+  "title": "Sterile processing delays: buy capacity where the sets are waiting",
   "summary": "Find the stage that limits ready sets, then compare extra instruments, workflow improvements and new processing equipment against the same busy-day demand.",
   "categoryId": "decisions",
   "category": "Procurement & service",
@@ -36,7 +36,7 @@ export default {
     ],
     [
       "Distinguish more capacity from money saved",
-      "Compare three remedies for the demonstrated constraint: improve the existing pathway, replace worn equipment, or expand the service. If incomplete trays cause delay, targeted instrument repair or additional complete sets may produce more usable capacity than a larger chamber. If cleaning is the limit, compare suitable racks, washer capacity and staff coverage before spending downstream. Freed staff time is a capacity benefit unless it actually reduces paid hours or another expenditure. Similarly, lower water consumption per cycle is not the whole saving if the new load pattern requires more cycles. Calculate annual utilities using the same workload, operating days and usable output; include chemistry, maintenance and installed capital. A supplier’s example can suggest what to measure without proving the hospital’s return."
+      "Compare three remedies for the demonstrated constraint: improve the existing pathway, replace worn equipment, or expand the service. If incomplete trays cause delay, targeted instrument repair or additional complete sets may produce more usable capacity than a larger chamber. If cleaning is the limit, compare suitable racks, washer capacity and staff coverage before spending downstream. For a targeted instrument purchase, compare the complete tray with the few instruments that repeatedly hold it out of service. Include compatible replacements, inspection, repair turnaround and the number of sets needed during that interval. Extra sets are most useful when they bridge an acceptable processing turnaround; they are a poor substitute for fixing a process that cannot clear the daily workload. Test the proposed mix against the actual case list before increasing chamber size. Freed staff time is a capacity benefit unless it actually reduces paid hours or another expenditure. Similarly, lower water consumption per cycle is not the whole saving if the new load pattern requires more cycles. Calculate annual utilities using the same workload, operating days and usable output; include chemistry, maintenance and installed capital. A supplier’s example can suggest what to measure without proving the hospital’s return."
     ],
     [
       "Specify the load, the room and the utilities together",
@@ -44,19 +44,19 @@ export default {
     ],
     [
       "Protect tomorrow’s list during a breakdown",
-      "Replacing two machines with one can improve routine efficiency while removing an independent route during maintenance. Compare the remaining usable capacity when the largest unit is unavailable. An approved external processing arrangement may help, but its transport, traceability, turnaround and extra-set requirement belong in the price. Keep commissioning and process verification as explicit contract deliverables, with responsible specialists and acceptance records. CDC describes verification before routine use and after relevant changes. The purchasing decision should fund a working route to released sets, routine supplies and an approved interruption plan—not just a delivered chamber."
+      "Replacing two machines with one can improve routine efficiency while removing an independent route during maintenance. Compare the remaining usable capacity when the largest unit is unavailable. An approved external processing arrangement may help, but its transport, traceability, turnaround and extra-set requirement belong in the price. Keep commissioning and process verification as explicit contract deliverables, with responsible specialists and acceptance records. CDC describes verification before routine use and after relevant changes. The purchasing decision should fund a working route to released sets, routine supplies and an approved interruption plan—not just a delivered chamber. Request an installation sequence that keeps the existing approved processing route available until the new one is accepted, where the site permits. Price temporary external processing, transport and additional sets if it does not. That transition cost can decide whether a phased replacement is preferable to a larger single installation."
     ]
   ],
   "related": [
     "sterilization"
   ],
-  "socialTitle": "The sterilizer is faster. Why are instrument sets still late?",
+  "socialTitle": "Sterile processing delays: buy capacity where the sets are waiting",
   "socialDescription": "Find the stage that limits ready sets, then compare extra instruments, workflow improvements and new processing equipment against the same busy-day demand.",
-  "socialHeadline": "The sterilizer is faster. Why are instrument sets still late?",
+  "socialHeadline": "Sterile processing delays: buy capacity where the sets are waiting",
   "socialStrapline": "Buy the improvement that reaches the operating list.",
   "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "The sterilizer is faster. Why are instrument sets still late?",
+    "title": "Sterile processing delays: buy capacity where the sets are waiting",
     "summary": "Find the stage that limits ready sets, then compare extra instruments, workflow improvements and new processing equipment against the same busy-day demand.",
     "firstChoice": "Map instrument-set demand, return deadlines and capacity at every processing stage with the sterile-processing and infection-prevention leads.",
     "upgradeWhen": "A demonstrated bottleneck requires added capacity and the complete room, utility, staffing and quality-assurance plan is funded.",
@@ -84,7 +84,7 @@ export default {
       "load compatibility and procurement scope",
       "commissioning and ongoing resources"
     ],
-    "title": "The sterilizer is faster. Why are instrument sets still late?",
+    "title": "Sterile processing delays: buy capacity where the sets are waiting",
     "dek": "Find the stage that limits ready sets, then compare extra instruments, workflow improvements and new processing equipment against the same busy-day demand.",
     "verdict": "Keep a suitable sterilizer when the delay occurs elsewhere. Spend first on the demonstrated constraint, then test the proposed pathway against the busiest schedule and a major outage.",
     "decision": {
@@ -94,7 +94,7 @@ export default {
       "walkAwayWhen": "The offer lacks configuration-specific utility requirements, compatible-load evidence or an accountable commissioning plan."
     },
     "social": {
-      "title": "The sterilizer is faster. Why are instrument sets still late?",
+      "title": "Sterile processing delays: buy capacity where the sets are waiting",
       "description": "Find the stage that limits ready sets, then compare extra instruments, workflow improvements and new processing equipment against the same busy-day demand.",
       "hook": "Buy the improvement that reaches the operating list."
     },
@@ -198,6 +198,7 @@ export default {
         "heading": "Distinguish more capacity from money saved",
         "paragraphs": [
           "Compare three remedies for the demonstrated constraint: improve the existing pathway, replace worn equipment, or expand the service. If incomplete trays cause delay, targeted instrument repair or additional complete sets may produce more usable capacity than a larger chamber. If cleaning is the limit, compare suitable racks, washer capacity and staff coverage before spending downstream.",
+          "For a targeted instrument purchase, compare the complete tray with the few instruments that repeatedly hold it out of service. Include compatible replacements, inspection, repair turnaround and the number of sets needed during that interval. Extra sets are most useful when they bridge an acceptable processing turnaround; they are a poor substitute for fixing a process that cannot clear the daily workload. Test the proposed mix against the actual case list before increasing chamber size.",
           "Freed staff time is a capacity benefit unless it actually reduces paid hours or another expenditure. Similarly, lower water consumption per cycle is not the whole saving if the new load pattern requires more cycles. Calculate annual utilities using the same workload, operating days and usable output; include chemistry, maintenance and installed capital. A supplier’s example can suggest what to measure without proving the hospital’s return."
         ],
         "sourceIds": [
@@ -219,7 +220,8 @@ export default {
         "heading": "Protect tomorrow’s list during a breakdown",
         "paragraphs": [
           "Replacing two machines with one can improve routine efficiency while removing an independent route during maintenance. Compare the remaining usable capacity when the largest unit is unavailable. An approved external processing arrangement may help, but its transport, traceability, turnaround and extra-set requirement belong in the price.",
-          "Keep commissioning and process verification as explicit contract deliverables, with responsible specialists and acceptance records. CDC describes verification before routine use and after relevant changes. The purchasing decision should fund a working route to released sets, routine supplies and an approved interruption plan—not just a delivered chamber."
+          "Keep commissioning and process verification as explicit contract deliverables, with responsible specialists and acceptance records. CDC describes verification before routine use and after relevant changes. The purchasing decision should fund a working route to released sets, routine supplies and an approved interruption plan—not just a delivered chamber.",
+          "Request an installation sequence that keeps the existing approved processing route available until the new one is accepted, where the site permits. Price temporary external processing, transport and additional sets if it does not. That transition cost can decide whether a phased replacement is preferable to a larger single installation."
         ],
         "sourceIds": [
           "cdc-processing"

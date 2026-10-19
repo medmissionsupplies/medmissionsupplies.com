@@ -27,15 +27,15 @@ export default {
     ],
     [
       "Follow the examination into the record",
-      "Demonstrate the required labels, annotations, measurements, saved images and report using the offered configuration. Establish what transfers into the receiving system and what must be entered again. A good image shown at the console is only one part of a complete diagnostic workflow. Finally compare probe repair or replacement, temporary cover and the limits of the actual warranty. Do not turn a reseller’s broad warranty promise into assumed coverage for every transducer or destination. The better purchase is the accepted package that meets the service’s requirements at a supportable total cost, with optional functions priced for the value they actually add."
+      "Demonstrate the required labels, annotations, measurements, saved images and report using the offered configuration. Establish what transfers into the receiving system and what must be entered again. A good image shown at the console is only one part of a complete diagnostic workflow. Get separate repair or replacement terms for the transducer and console, including the shipping route and what happens while the probe is away. A warranty that restores the scanner after several weeks may still leave the breast service without its only accepted probe. Where the installed system already meets the clinical brief, a second compatible probe or better temporary cover deserves comparison with an expensive imaging option."
     ]
   ],
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "What does the breast-ultrasound upgrade actually add?",
-  "socialDescription": "Compare EPIQ Elite/eL18-4 and LOGIQ E10/ML4-20-D configuration examples without assuming every optional tool is included or required.",
-  "socialHeadline": "What does the breast-ultrasound upgrade actually add?",
+  "socialTitle": "Breast ultrasound: make the probe package earn the upgrade",
+  "socialDescription": "Compare the required imaging, reporting and approved procedure setup before paying for elastography or AI. Exact probes and enabled options matter more than a premium model badge.",
+  "socialHeadline": "Breast ultrasound: make the probe package earn the upgrade",
   "socialStrapline": "An optional feature should solve a defined problem in the service.",
   "reviewedAt": "2026-10-18",
   "sheet": {
@@ -79,7 +79,7 @@ export default {
         "bestFor": "A breast service evaluating the documented probe and required options.",
         "why": "Manufacturer materials identify the pairing and relevant probe capabilities.",
         "tradeoff": "Confirm exact software, accessories and regional feature availability.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Separate eL18-4, required application licences and any accepted biopsy or fusion accessories.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "philips-breast",
@@ -92,7 +92,7 @@ export default {
         "bestFor": "A service comparing an accepted alternative with defined imaging requirements.",
         "why": "Manufacturer examples identify breast and shear-wave imaging with this probe.",
         "tradeoff": "Illustrations do not establish all-unit inclusion or comparative clinical performance.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Separate ML4-20-D, required shear-wave option and reporting integration.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "ge-clinical",
@@ -105,7 +105,7 @@ export default {
         "bestFor": "Adequate capability with a resolvable probe, access or workflow gap.",
         "why": "May preserve useful training, reporting and accessories.",
         "tradeoff": "Support and the condition of the exact equipment remain decisive.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Compare probe repair or replacement, loan cover and any supported software addition.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": []
       }
@@ -157,7 +157,7 @@ export default {
         "heading": "Follow the examination into the record",
         "paragraphs": [
           "Demonstrate the required labels, annotations, measurements, saved images and report using the offered configuration. Establish what transfers into the receiving system and what must be entered again. A good image shown at the console is only one part of a complete diagnostic workflow.",
-          "Finally compare probe repair or replacement, temporary cover and the limits of the actual warranty. Do not turn a reseller’s broad warranty promise into assumed coverage for every transducer or destination. The better purchase is the accepted package that meets the service’s requirements at a supportable total cost, with optional functions priced for the value they actually add."
+          "Get separate repair or replacement terms for the transducer and console, including the shipping route and what happens while the probe is away. A warranty that restores the scanner after several weeks may still leave the breast service without its only accepted probe. Where the installed system already meets the clinical brief, a second compatible probe or better temporary cover deserves comparison with an expensive imaging option."
         ],
         "sourceIds": []
       }
@@ -199,7 +199,7 @@ export default {
         "publisher": "Philips",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Product specification table read: linear transducer, breast application, biopsy-capable and image-fusion-navigation-capable fields. Capability does not identify included brackets, guides, tracking hardware or licences. No frequency inferred from the probe name."
+        "evidence": "Primary specification table read 18 October 2026: linear eL18-4 lists breast among applications and states biopsy/image-fusion capability. These fields do not identify included guides, tracking hardware, licences or exact console compatibility."
       },
       {
         "id": "ge-clinical",
@@ -257,8 +257,8 @@ export default {
       }
     ],
     "social": {
-      "title": "What does the breast-ultrasound upgrade actually add?",
-      "description": "Compare EPIQ Elite/eL18-4 and LOGIQ E10/ML4-20-D configuration examples without assuming every optional tool is included or required.",
+      "title": "Breast ultrasound: make the probe package earn the upgrade",
+      "description": "Compare the required imaging, reporting and approved procedure setup before paying for elastography or AI. Exact probes and enabled options matter more than a premium model badge.",
       "hook": "An optional feature should solve a defined problem in the service."
     }
   },

@@ -138,8 +138,8 @@ export default {
       {
         "heading": "New capabilities bring new commissioning work",
         "paragraphs": [
-          "AAPM published its TG-66U1 update in September 2026. The public abstract describes an expanded QA scope covering developments such as 4D CT, extended field of view, metal-artifact reduction and multienergy imaging. Buying these functions adds evaluation work; it does not remove the need to validate the planning chain.",
-          "Allocate qualified physics time, appropriate test resources, protocol development and end-to-end data checks before scheduling clinical use. Agree who will resolve an image-transfer or geometry problem spanning the scanner, workstation and planning system. A successful DICOM send is not the same as an accepted treatment-planning workflow."
+          "AAPM’s September 2026 TG-66U1 update addresses developments including 4D CT, extended field of view, metal-artifact reduction and multienergy imaging. Its discussion makes a useful purchasing distinction: extended-field reconstruction does not enlarge the physical acquisition field. Buying the application adds a capability the physics team must evaluate for its intended planning use, rather than making every part of the larger image equally suitable by default.",
+          "Allocate physics time, test resources, protocol development and end-to-end data checks before clinical use. Put ownership of interface faults in writing across the scanner, workstation and treatment-planning suppliers. Include the cost of repeating affected checks after relevant software changes; an upgrade subscription that supplies new features does not supply the hospital’s commissioning labour."
         ],
         "sourceIds": [
           "tg"
@@ -189,7 +189,7 @@ export default {
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Current written page distinguishes 82 cm bore from 80 cm extended field of view and lists motion/metal-artifact tools. No artifact-free, outcome or dose claim adopted."
+        "evidence": "Primary Revolution RT body rechecked 18 October 2026: 82 cm bore and 80 cm reconstructed FOV remain distinct; motion/MAR/subscription offerings listed. No artifact-free or dose/outcome marketing adopted."
       },
       {
         "id": "pim",
@@ -216,7 +216,7 @@ export default {
         "publisher": "AAPM / Medical Physics",
         "kind": "professional-society",
         "accessed": "2026-10-18",
-        "evidence": "Published16September 2026. Abstract describes updated CT simulator QA scope including 4D CT, extended HU/field, metal-artifact reduction and multienergy; full report not read.",
+        "evidence": "Primary publisher content retrieved through indexed search after direct opening returned an error. Selected TG-66U1 sections on extended FOV, data transfer and protocol management read 18 October 2026; physical acquisition field is not enlarged by extended reconstruction. Entire report and test tables not audited; no test tolerances prescribed.",
         "published": "2026-09-16"
       }
     ],
@@ -227,10 +227,10 @@ export default {
   "sheet": {
     "title": "Buying a CT simulator: the wide bore is only the beginning",
     "summary": "Compare a dedicated radiotherapy CT package with an eligible existing scanner by positioning, planning data, motion tools and commissioning.",
-    "firstChoice": "Specify the entire positioning-to-planning chain.",
-    "upgradeWhen": "A documented fit, imaging or capacity limit needs the dedicated configuration.",
-    "budgetWatch": "Include lasers, interfaces and physics resources.",
-    "supportCheck": "Accept the combined chain and its future change process.",
+    "firstChoice": "Define the treatment-planning and positioning requirements.",
+    "upgradeWhen": "The dedicated configuration solves an accepted fit, motion, image or capacity limitation.",
+    "budgetWatch": "CT simulation cost = accepted scanner/positioning chain + room and alignment works + planning integration + commissioning and continuing quality.",
+    "supportCheck": "The planning interface, positioning system or physics acceptance cannot be established.",
     "askSupplier": [
       "Does the actual immobilized setup fit and meet planning-image requirements?",
       "Who supplies and accepts the table, lasers and planning interface?",
@@ -262,7 +262,7 @@ export default {
     ],
     [
       "New capabilities bring new commissioning work",
-      "AAPM published its TG-66U1 update in September 2026. The public abstract describes an expanded QA scope covering developments such as 4D CT, extended field of view, metal-artifact reduction and multienergy imaging. Buying these functions adds evaluation work; it does not remove the need to validate the planning chain. Allocate qualified physics time, appropriate test resources, protocol development and end-to-end data checks before scheduling clinical use. Agree who will resolve an image-transfer or geometry problem spanning the scanner, workstation and planning system. A successful DICOM send is not the same as an accepted treatment-planning workflow."
+      "AAPM’s September 2026 TG-66U1 update addresses developments including 4D CT, extended field of view, metal-artifact reduction and multienergy imaging. Its discussion makes a useful purchasing distinction: extended-field reconstruction does not enlarge the physical acquisition field. Buying the application adds a capability the physics team must evaluate for its intended planning use, rather than making every part of the larger image equally suitable by default. Allocate physics time, test resources, protocol development and end-to-end data checks before clinical use. Put ownership of interface faults in writing across the scanner, workstation and treatment-planning suppliers. Include the cost of repeating affected checks after relevant software changes; an upgrade subscription that supplies new features does not supply the hospital’s commissioning labour."
     ],
     [
       "Choose between adaptation and dedicated capacity",
@@ -270,7 +270,7 @@ export default {
     ]
   ],
   "minutes": 3,
-  "searchTerms": "radiotherapy CT simulation buying wide bore versus field of view flat tabletop and laser alignment 4D CT commissioning Revolution RT, fully specified package Eligible CT with specified flat tabletop Shared or external simulation access",
+  "searchTerms": "Buying a CT simulator: the wide bore is only the beginning radiotherapy CT simulation buying wide bore versus field of view flat tabletop and laser alignment 4D CT commissioning Revolution RT, fully specified package Eligible CT with specified flat tabletop Shared or external simulation access",
   "librarySection": "equipment",
   "image": "guides/ct-scanner",
   "photo": {
