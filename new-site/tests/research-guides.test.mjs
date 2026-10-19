@@ -33,8 +33,8 @@ test('every equipment listing has one original, sourced buying guide and on-page
 });
 
 test('public research excludes legacy branding, local paths and fabricated availability claims', () => {
-  const content=JSON.stringify(researchGuides);
-  assert.doesNotMatch(content, /giving\s*tree|C:\\|C:\/Users|localhost|127\.0\.0\.1/i);
+  const content=JSON.stringify({ researchGuides, articles });
+  assert.doesNotMatch(content, /giving\s*tree|block\s*imaging|blockimaging\.com|\bavante\b|avantehs\.com|denova\s*medical|bell\s*medical|victori\s*medical|\bpartssource\b|partssource\.com|mfi\s*medical|mfimedical\.com|ilap\s*biomed|the\s*cpap\s*shop|thecpapshop\.com|medicalrite|cliawaived|duraline\s*systems|duralinesystems\.com|walton\s*medical|minicarm\.com|agiliti|C:\\|C:\/Users|localhost|127\.0\.0\.1/i);
   for(const g of researchGuides) {
     assert.ok(g.research.sections.length >= 3, g.id);
     assert.ok(Math.max(g.research.checklist?.length || 0, g.research.questions?.length || 0) >= 3, g.id);

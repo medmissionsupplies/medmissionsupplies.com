@@ -73,8 +73,7 @@ export default {
       "fuji",
       "pentax",
       "matrix",
-      "steris-p6700-ifu",
-      "dealer"
+      "steris-p6700-ifu"
     ]
   },
   "research": {
@@ -99,8 +98,7 @@ export default {
         "support": "Confirm repair acceptance and support horizon for each offered serial number.",
         "sourceIds": [
           "olympus",
-          "olympus-brochure",
-          "dealer"
+          "olympus-brochure"
         ]
       },
       {
@@ -194,7 +192,6 @@ export default {
           "Compare installed capital, recurring processing supplies, repairs and continuity over one service period. There is no verified universal price or reliability winner among these brands. Favor the package that keeps the required examinations available within a funded workflow. If neither the fleet nor its processing can be sustained, phase the service around a feasible workload instead of buying an incomplete room."
         ],
         "sourceIds": [
-          "dealer",
           "matrix"
         ]
       }
@@ -218,7 +215,7 @@ export default {
     ],
     "gaps": [
       "No current destination-specific manufacturer support commitment or head-to-head reliability dataset established.",
-      "No verified numeric complete-system price; online processor listings did not supply a complete comparable offer.",
+      "No verified numeric complete-system price is established; compare configured tower, scope-fleet and support offers.",
       "No current CV-160/EPK-1000 lifecycle statement verified.",
       "Exact proposed scope/reprocessor combinations remain to be validated."
     ],
@@ -229,8 +226,8 @@ export default {
         "url": "https://www.medical.olympusamerica.com/products/evis-exera-endoscopy",
         "publisher": "Olympus",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "CV-190/CLV-190 platform and named GI scope features."
+        "accessed": "2026-10-18",
+        "evidence": "Direct platform page re-read, including named gastroscope/colonoscope families and CV-190/CLV-190 pairing. Supports platform identity; not current serial-specific repair acceptance or remaining support duration."
       },
       {
         "id": "olympus-brochure",
@@ -258,15 +255,6 @@ export default {
         "kind": "manufacturer",
         "accessed": "2026-10-16",
         "evidence": "i10c scope pairing, distal-tip LED architecture, 1080p output and documentation features."
-      },
-      {
-        "id": "dealer",
-        "title": "Refurbished CV-190 and CLV-190 listing",
-        "url": "https://shop.victorimedical.com/products/olympus-cv-190-and-clv-190-evis-exera-iii-video-system-refurbished",
-        "publisher": "Victori Medical",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "First-party refurbished listing; no verified numerical configured offer retrieved."
       },
       {
         "id": "steris",

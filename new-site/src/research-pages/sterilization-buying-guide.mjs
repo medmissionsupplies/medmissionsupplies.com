@@ -38,8 +38,8 @@ export default {
       "M11’s automatic cycle records and device-care reminders can justify a premium when recording and managing cycles consume scarce staff time. Compare the actual workflow, including retrieving records and maintaining the system. A screen alone is a weak reason to replace a manual sterilizer that is consistently managed and supportable. For illustration, six minutes of documentation time saved per working day across 250 days equals 25 staff hours a year. Those are invented inputs, not a Midmark performance claim. The benefit may be time available for inspection or other work; it becomes cash savings only if an actual expenditure falls. Do not multiply manufacturer cycle-life claims into an assumed field lifespan."
     ],
     [
-      "Keep the dated prices attached to their conditions",
-      "Two October 16, 2026 retail anchors illustrate the package problem. Duraline listed a refurbished previous-model RT2540M at USD 3,099, shipping extra, with conflicting three- and six-month warranty wording. MFI listed a new M11 at USD 7,562.82 plus USD 495 displayed shipping. These are different generations and conditions, not matched installed offers. The cited MFI M11-050/-051 listing is expressly for medical facilities and excludes dental applications. A dental practice needs an appropriate model and quote. Resolve the exact voltage, refurbishment work, warranty and return-freight obligations before award. Add suitable water, installation, approved packaging, monitoring supplies and training to both alternatives."
+      "Compare the package and the repair promise",
+      "Midmark’s Medical Guide Book, effective November 1, 2025 and checked October 18, 2026, lists M11-050 with a six-slot pouch rack. It also distinguishes parts-only from parts-and-labor extended plans. Those are different support purchases; the offered unit’s eligibility, term and destination coverage still need to be established. Compare a new unit and a refurbished previous generation with condition and scope visible. Record the actual refurbishment work, electrical variant, included racks and accessories, acceptance responsibilities and return-freight obligations. Add suitable water, installation, approved packaging, monitoring supplies and training to each. A lower machine price remains useful only if the completed arrangement meets the same approved workload."
     ],
     [
       "A repair route can be worth more than simple controls",
@@ -60,8 +60,8 @@ export default {
     "summary": "Compare Tuttnauer 2540M, Midmark M11 and T-Top by compatible loads, complete turnaround and the staff work the purchase actually changes.",
     "firstChoice": "Map the busiest day's instrument sets, packaging and complete turnaround; match the validated cycle before choosing a chamber size.",
     "upgradeWhen": "M11 automation relieves a real documentation burden, or the load requires an enabled T-Top Class B configuration.",
-    "budgetWatch": "Add suitable water, packaging, monitoring supplies and enough instrument sets. The reviewed M11-050/-051 offer is medical-only, excluding dental use. The refurbished 2540M listing had conflicting warranty lengths needing resolution.",
-    "supportCheck": "Reject an incompatible cycle, an upgradeable T-Top sold without required Class B capability, or the reviewed medical M11 SKUs for dental use.",
+    "budgetWatch": "Add suitable water, packaging, monitoring supplies and enough instrument sets. Compare the exact electrical variant, included accessories and parts-only versus parts-and-labor cover; none establishes the full installed cost.",
+    "supportCheck": "Reject an incompatible cycle, a T-Top supplied without required Class B capability, or an unresolved model, electrical or service mismatch for the receiving practice.",
     "askSupplier": [
       "Identify the enabled cycle and load evidence for our instruments and packaging.",
       "Show the complete busiest-day turnaround, including work outside the chamber.",
@@ -71,15 +71,14 @@ export default {
       "tutt",
       "midmark",
       "ttop",
-      "refurb",
-      "mfi"
+      "midmark-guide"
     ]
   },
   "research": {
     "id": "sterilization",
     "title": "Buying a sterilizer: choose the cycle before the chamber",
     "dek": "Compare Tuttnauer 2540M, Midmark M11 and T-Top by compatible loads, complete turnaround and the staff work the purchase actually changes.",
-    "verdict": "Tuttnauer 2540M is a sensible starting point for a modest workload whose instruments fit its validated cycles and whose staff can run and document them consistently. Midmark M11 earns its higher price when cycle management and recordkeeping consume scarce staff time. If the load needs vacuum processing, compare a T-Top with Class B actually enabled before comparing prices. The M11-050/-051 offer reviewed here is medical-only, not a dental configuration. Spend against the number of complete sets the clinic can release, rather than chamber size alone.",
+    "verdict": "Tuttnauer 2540M is a sensible starting point for a modest workload whose instruments fit its validated cycles and whose staff can run and document them consistently. Midmark M11 automation can justify extra spending when cycle management and recordkeeping consume scarce staff time. If the load needs vacuum processing, compare a T-Top with Class B actually enabled before comparing prices. Spend against the number of complete sets the clinic can release, rather than chamber size alone.",
     "coverage": [
       "sterilization"
     ],
@@ -90,24 +89,23 @@ export default {
         "bestFor": "Clinics able to operate and document manual cycles consistently.",
         "why": "The manufacturer lists a 23 L manual unit; familiar controls can be a practical match for a technician-led maintenance program.",
         "tradeoff": "Manual operation shifts work to staff. Chamber volume alone does not establish throughput or suitability for a particular wrapped or hollow instrument.",
-        "price": "Quote a new unit. Budget reference: Duraline displays USD 3,099 for its previous-model refurbished RT2540M listing, reviewed Oct 16, 2026; shipping extra.",
-        "support": "OEM manuals and service routes are published. Serial-specific parts, country support and refurbishment must be confirmed. Dealer page mixes three- and six-month warranty language.",
+        "price": "Compare new and documented refurbished offers with the same delivered accessories, installation, acceptance and service scope. No current purchase price is asserted here.",
+        "support": "OEM manuals and service routes are published. Confirm the offered serial, actual refurbishment work, parts access, warranty terms and country support; a new-unit warranty does not establish cover for a used offer.",
         "sourceIds": [
-          "tutt",
-          "refurb"
+          "tutt"
         ]
       },
       {
-        "model": "Midmark M11-050 / M11-051, current generation",
+        "model": "Midmark M11-050, current medical catalog example",
         "position": "Automation for a busy medical clinic",
         "bestFor": "Busy medical clinics with dependable utilities and staff time tied up in recording and managing cycles.",
         "why": "The current M11 provides automatic cycle records and care reminders. That is an operational reason to consider it, rather than paying for a screen alone.",
-        "tradeoff": "The cited MFI M11-050/-051 offer is medical-only and excludes dental applications. Choose the appropriate configuration for the practice; automated records do not replace quality assurance.",
-        "price": "Dated retail anchor, October 16, 2026: MFI listed a factory-new M11 at USD 7,562.82 plus USD 495 displayed shipping, with 115 V and 230 V variants. Requote the exact model and destination.",
-        "support": "Manufacturer has technical documentation and repair channels. A published support route is not confirmation of field coverage at the recipient hospital.",
+        "tradeoff": "Choose the exact model, electrical configuration and supported load for the receiving practice. Automatic records do not replace the required quality-assurance process.",
+        "price": "Compare the complete delivered package, required accessories and selected support plan. No current installed or unit price is asserted here.",
+        "support": "The medical catalog lists distinct parts-only and parts-and-labor extended plans. Confirm actual unit eligibility, period, travel and destination coverage rather than assuming that either plan applies.",
         "sourceIds": [
           "midmark",
-          "mfi"
+          "midmark-guide"
         ]
       },
       {
@@ -157,14 +155,15 @@ export default {
         ]
       },
       {
-        "heading": "Keep the dated prices attached to their conditions",
+        "heading": "Compare the package and the repair promise",
         "paragraphs": [
-          "Two October 16, 2026 retail anchors illustrate the package problem. Duraline listed a refurbished previous-model RT2540M at USD 3,099, shipping extra, with conflicting three- and six-month warranty wording. MFI listed a new M11 at USD 7,562.82 plus USD 495 displayed shipping. These are different generations and conditions, not matched installed offers.",
-          "The cited MFI M11-050/-051 listing is expressly for medical facilities and excludes dental applications. A dental practice needs an appropriate model and quote. Resolve the exact voltage, refurbishment work, warranty and return-freight obligations before award. Add suitable water, installation, approved packaging, monitoring supplies and training to both alternatives."
+          "Midmark’s Medical Guide Book, effective November 1, 2025 and checked October 18, 2026, lists M11-050 with a six-slot pouch rack. It also distinguishes parts-only from parts-and-labor extended plans. Those are different support purchases; the offered unit’s eligibility, term and destination coverage still need to be established.",
+          "Compare a new unit and a refurbished previous generation with condition and scope visible. Record the actual refurbishment work, electrical variant, included racks and accessories, acceptance responsibilities and return-freight obligations. Add suitable water, installation, approved packaging, monitoring supplies and training to each. A lower machine price remains useful only if the completed arrangement meets the same approved workload."
         ],
         "sourceIds": [
-          "refurb",
-          "mfi"
+          "midmark-guide",
+          "midmark",
+          "tutt"
         ]
       },
       {
@@ -198,7 +197,7 @@ export default {
     "gaps": [
       "No comparative field failure-rate data established for these choices.",
       "No current Pelton & Crane serial-specific support commitment established.",
-      "Public US offers are not export or installed-system quotes."
+      "No current comparable purchase prices or installed-system quotations are asserted here."
     ],
     "sources": [
       {
@@ -207,8 +206,8 @@ export default {
         "url": "https://tuttnauer.com/us/dental-practices/tabletop-sterilizers/manual/2540m",
         "publisher": "Tuttnauer",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "Manual 23 L platform; US page lists 120 V, 1400 W and service/documentation routes."
+        "accessed": "2026-10-18",
+        "evidence": "Fresh product-page check confirms manual 23 L platform, 120 V/1400 W specification and documentation/service routes. No public unit price established."
       },
       {
         "id": "midmark",
@@ -217,7 +216,7 @@ export default {
         "publisher": "Midmark",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Current model includes cycle recordkeeping and device-care support."
+        "evidence": "Fresh medical product-page check confirms automatic cycle records, device-care features and separate 115/230 V electrical specifications. No public complete-unit price established."
       },
       {
         "id": "ttop",
@@ -229,29 +228,21 @@ export default {
         "evidence": "21/27 L line with Class S and upgradeable Class B configurations; distinct cycle tables."
       },
       {
-        "id": "refurb",
-        "title": "Refurbished previous-model 2540M offer",
-        "url": "https://duralinesystems.com/collections/refurbished-sterilizers/products/rt2540m",
-        "publisher": "Duraline Systems",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Opened price USD 3,099; warranty selector says three months while description mentions six. Shipping calculated separately."
-      },
-      {
-        "id": "mfi",
-        "title": "Factory-new current M11 offer",
-        "url": "https://mfimedical.com/products/midmark-m11-steam-sterilizer",
-        "publisher": "MFI Medical",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Opened price USD 7,562.82 plus displayed USD 495 shipping; exact voltage and delivery terms require confirmation. The listing identifies M11-050 / M11-051 and expressly states medical-facility use only, excluding dental applications."
+        "id": "midmark-guide",
+        "title": "Midmark Medical Guide Book: M11 and sterilizer accessories, pp. 86–87",
+        "url": "https://www.midmark.com/docs/default-source/pricebooks/medical/2025-medical-guide-book.pdf?sfvrsn=1816663e_6",
+        "publisher": "Midmark",
+        "kind": "manufacturer",
+        "published": "2025-11-01",
+        "accessed": "2026-10-18",
+        "evidence": "Relevant pages 86–87 fully read and visually inspected. M11-050 includes a six-slot pouch rack; separate extended parts-only and parts-and-labor plans are listed. No price shown. This does not establish eligibility or geographic cover for an offered unit."
       }
     ],
     "decision": {
       "firstMove": "Map the busiest day's instrument sets, packaging and complete turnaround; match the validated cycle before choosing a chamber size.",
       "spendMoreWhen": "M11 automation relieves a real documentation burden, or the load requires an enabled T-Top Class B configuration.",
       "keepExistingWhen": "Keep a verified manual sterilizer when its cycles fit the instruments and seals, valves, heaters and competent service remain available.",
-      "walkAwayWhen": "Reject an incompatible cycle, an upgradeable T-Top sold without required Class B capability, or the reviewed medical M11 SKUs for dental use."
+      "walkAwayWhen": "Reject an incompatible cycle, a T-Top supplied without required Class B capability, or an unresolved model, electrical or service mismatch for the receiving practice."
     },
     "quickCompare": [
       {
@@ -261,9 +252,9 @@ export default {
         "bestFit": "A modest predictable instrument workload"
       },
       {
-        "option": "Midmark M11-050 / M11-051",
-        "capability": "Current medical configurations with automatic cycle records and care reminders",
-        "costDriver": "Capital premium, electrical variant and regional service",
+        "option": "Midmark M11-050 example",
+        "capability": "Medical catalog example with automatic cycle records and care reminders",
+        "costDriver": "Any automation premium, exact electrical variant and selected repair cover",
         "bestFit": "Medical clinics with a recurring cycle-management burden"
       },
       {
@@ -280,6 +271,6 @@ export default {
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying a sterilizer: choose the cycle before the chamber sterilization Tuttnauer 2540M Midmark M11-050 / M11-051, current generation Tuttnauer T-Top 10 / 11 with Class B configuration",
+  "searchTerms": "Buying a sterilizer: choose the cycle before the chamber sterilization Tuttnauer 2540M Midmark M11-050, current medical catalog example Tuttnauer T-Top 10 / 11 with Class B configuration",
   "librarySection": "equipment"
 };

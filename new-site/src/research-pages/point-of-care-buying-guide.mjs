@@ -33,8 +33,8 @@ export default {
       "An urgent blood-gas service, a routine chemistry clinic and an intermittent diabetes clinic have different purchasing jobs. Select the required analytes, intended patient population and acceptable turnaround first. A broader panel adds value only when the results are needed and the staff can maintain its quality program. Compare epoc for an urgent service whose menu fits its combined card; compare i-STAT 1 when particular supported cartridges supply needed assays. Epoc card storage is 15–30°C, not unrestricted tropical storage, and calibration precedes sample analysis. Piccolo Xpress belongs in routine chemistry with 2–8°C disc storage. A short published analysis time does not include every preparation, calibration or reporting step."
     ],
     [
-      "A $13.90 disc can cost $21.13 per usable panel",
-      "A US CLIAwaived offer dated October 16, 2026 listed ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08) for $139, plus $30 shipping/handling per item. One such pack therefore costs $169 before other expenses: $16.90 per purchased disc. If only eight discs produce accepted patient panels, that same purchase costs $21.13 per usable patient panel before controls, collection supplies and instrument expense. Eight usable panels is an illustration, not an observed waste rate; this is not a price per individual analyte. MedicalRite’s dated CHEM8+ offer was $537.99 for 25 cartridges, about $21.52 each before other charges. Different menus and uses prevent a price-only winner between these products. The seller also displayed conflicting availability text. The Piccolo offer required a US CLIA number; neither listing establishes destination-country supply. Build the annual basket from delivered packs and expected accepted results, including the quiet months. Count all purchased packs once: reagent used for controls, repeats or lost to expiry is already inside that expenditure. Add separate controls and other costs where genuinely additional, then divide by results from the same period."
+      "When US$24 becomes US$32 per patient panel",
+      "Consider an original hypothetical example, not a product offer: 12 single-use panel tests cost US$240 plus US$48 delivery. The US$288 purchase costs US$24 per panel if all 12 produce accepted patient panels. If only nine do so, the purchase cost becomes US$32 per accepted patient panel. The prices, pack quantity and nine-panel yield are invented inputs, not a forecast or a quotation for any named assay. This is a cost per patient panel, not per individual analyte. Separately purchased control material, collection supplies, storage and instrument costs remain additional. Apply that calculation to one defined testing job at a time. CHEM8+ and Piccolo panels have different menus and uses; they cannot be ranked by a cartridge or disc price alone. Select the required assays first, then compare equivalent accepted results with the laboratory team. Build the annual basket from delivered packs and expected accepted results, including the quiet months. Count all purchased packs once: reagent used for controls, repeats or lost to expiry is already inside that expenditure. Add separate controls and other costs where genuinely additional, then divide by results from the same period."
     ],
     [
       "Small dedicated tests can be the better first investment",
@@ -115,12 +115,12 @@ export default {
         "bestFor": "A service that specifically needs supported i-STAT cartridge assays and can maintain their individual storage/QC requirements.",
         "why": "Its cartridge families allow selection around the required test menu. This can justify its recurring consumable cost when the result serves a time-sensitive need that another shortlisted platform cannot meet.",
         "tradeoff": "Each cartridge has its own intended use and storage instructions. Multiple cartridge families create separate stock, expiry and QC obligations; compare the exact assay basket the service needs.",
-        "price": "Hardware quote required. MedicalRite's listing on 2026-10-16 listed CHEM8+ 09P31-26, box of 25, at US$537.99 (about $21.52 each before waste and any additional charges). The page simultaneously said sold out and in stock, so availability is unconfirmed.",
+        "price": "Compare the reader/host package, exact cartridge quantities, controls, storage and reporting costs. No current package or cartridge price is asserted here.",
         "support": "Current Abbott product/documentation resources verified. Regional cartridge availability and servicing of a donated or used handheld need confirmation.",
         "sourceIds": [
           "istat",
           "istat-docs",
-          "istat-price"
+          "istat-chem8"
         ]
       },
       {
@@ -129,11 +129,10 @@ export default {
         "bestFor": "A low-volume fixed clinic that benefits from a chemistry panel and can refrigerate discs.",
         "why": "Manufacturer information describes a compact panel-based chemistry workflow using 100 µL samples and approximately 12-minute analysis. It can reduce manual reagent preparation for a small service.",
         "tradeoff": "Discs require 2–8°C storage; the instrument is not a substitute for a blood-gas analyzer. External QC, expired stock and the exact desired panel affect cost.",
-        "price": "Analyzer quote required. CLIAwaived's listing on 2026-10-16 listed Comprehensive Metabolic discs ABBT-07P02-08 at US$139/10 plus $30 shipping/handling per item, and required a valid CLIA number. This US offer is not a destination-country supply commitment.",
+        "price": "Compare the analyzer, selected reagent panels, controls and cold-chain delivery at the same usable workload. No current analyzer or disc price is asserted here.",
         "support": "Official product FAQ and support information verified. Destination supply, regulatory status, warranty and cold-chain delivery remain unconfirmed.",
         "sourceIds": [
-          "piccolo",
-          "piccolo-price"
+          "piccolo"
         ]
       },
       {
@@ -201,12 +200,11 @@ export default {
         "model": "McKesson Consult 120, 121-120",
         "position": "Conditional retention/budget quote",
         "bestFor": "A clinic already using the system with reliable access to the exact McKesson strips and controls.",
-        "why": "McKesson's guide identifies the 121-120, and its catalog still lists compatible reagents including 121-10SG. Retaining an accepted working reader can preserve a familiar workflow.",
-        "tradeoff": "A current reagent listing does not establish ongoing new-analyzer production or indefinite repairs. Confirm the exact reader; do not treat 121-120 and U120 accessories as universally interchangeable.",
-        "price": "McKesson catalog pricing requires login; quote required as of 2026-10-16 for the applicable reader, reagent pack sizes and controls.",
-        "support": "Official guide and current reagent catalog verified. New-system availability, support duration and destination distribution unconfirmed.",
+        "why": "The brand owner’s quick-start guide identifies the 121-120 reader. Retaining an accepted working reader can preserve a familiar workflow when its approved supplies and support remain obtainable.",
+        "tradeoff": "An accessible guide does not establish ongoing new-analyzer production or indefinite repairs. Confirm the exact reader and its approved consumables; do not treat 121-120 and U120 accessories as universally interchangeable.",
+        "price": "Compare the exact reader, approved reagent packs and controls against usable demand and delivered expiry. No current public complete-package price is used here.",
+        "support": "Official model-identification guide retained. New-system availability, replenishment, support duration and destination distribution remain unconfirmed.",
         "sourceIds": [
-          "mckesson",
           "mckesson-guide"
         ]
       },
@@ -276,15 +274,16 @@ export default {
         ]
       },
       {
-        "heading": "A $13.90 disc can cost $21.13 per usable panel",
+        "heading": "When US$24 becomes US$32 per patient panel",
         "paragraphs": [
-          "A US CLIAwaived offer dated October 16, 2026 listed ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08) for $139, plus $30 shipping/handling per item. One such pack therefore costs $169 before other expenses: $16.90 per purchased disc. If only eight discs produce accepted patient panels, that same purchase costs $21.13 per usable patient panel before controls, collection supplies and instrument expense. Eight usable panels is an illustration, not an observed waste rate; this is not a price per individual analyte.",
-          "MedicalRite’s dated CHEM8+ offer was $537.99 for 25 cartridges, about $21.52 each before other charges. Different menus and uses prevent a price-only winner between these products. The seller also displayed conflicting availability text. The Piccolo offer required a US CLIA number; neither listing establishes destination-country supply.",
+          "Consider an original hypothetical example, not a product offer: 12 single-use panel tests cost US$240 plus US$48 delivery. The US$288 purchase costs US$24 per panel if all 12 produce accepted patient panels. If only nine do so, the purchase cost becomes US$32 per accepted patient panel.",
+          "The prices, pack quantity and nine-panel yield are invented inputs, not a forecast or a quotation for any named assay. This is a cost per patient panel, not per individual analyte. Separately purchased control material, collection supplies, storage and instrument costs remain additional.",
+          "Apply that calculation to one defined testing job at a time. CHEM8+ and Piccolo panels have different menus and uses; they cannot be ranked by a cartridge or disc price alone. Select the required assays first, then compare equivalent accepted results with the laboratory team.",
           "Build the annual basket from delivered packs and expected accepted results, including the quiet months. Count all purchased packs once: reagent used for controls, repeats or lost to expiry is already inside that expenditure. Add separate controls and other costs where genuinely additional, then divide by results from the same period."
         ],
         "sourceIds": [
-          "piccolo-price",
-          "istat-price"
+          "istat-chem8",
+          "piccolo"
         ]
       },
       {
@@ -311,7 +310,6 @@ export default {
         ],
         "sourceIds": [
           "clinitek",
-          "mckesson",
           "mckesson-guide",
           "hcg",
           "a1c",
@@ -382,31 +380,13 @@ export default {
         "evidence": "Current documentation/software resources; consult cartridge-specific instructions."
       },
       {
-        "id": "istat-price",
-        "title": "CHEM8+ box-of-25 offer",
-        "url": "https://medicalrite.com/products/reagent_i-stat_chem_8-_cartridge_test",
-        "publisher": "MedicalRite",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Dated seller offer: 09P31-26 at $537.99/25; conflicting sold-out/in-stock statements."
-      },
-      {
         "id": "piccolo",
         "title": "Piccolo Xpress product FAQs",
         "url": "https://www.abaxis.com/faqs/",
         "publisher": "Abbott/Abaxis",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "100 µL panel chemistry, approximately 12 minutes, refrigerated discs and external QC considerations."
-      },
-      {
-        "id": "piccolo-price",
-        "title": "Comprehensive Metabolic disc offer",
-        "url": "https://www.cliawaived.com/comp-metabolic-reagent-disc.html",
-        "publisher": "CLIAwaived",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Dated seller offer: ABBT-07P02-08 at $139/10 plus $30 fee per item and CLIA-license requirement."
+        "accessed": "2026-10-18",
+        "evidence": "Fresh FAQ check: single-use discs produce a panel from one sample; refrigerated storage, external-control considerations and expiry constraints remain relevant. No public disc or analyzer price established."
       },
       {
         "id": "hb301",
@@ -463,15 +443,6 @@ export default {
         "evidence": "Specified Siemens strips and CLINITEST hCG compatibility; reader features."
       },
       {
-        "id": "mckesson",
-        "title": "McKesson Consult reagent catalog",
-        "url": "https://mms.mckesson.com/catalog?node=28001+42548429",
-        "publisher": "McKesson",
-        "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "Current compatible-strip listings including 121-10SG; login required for price."
-      },
-      {
         "id": "mckesson-guide",
         "title": "McKesson Consult 120 quick-start guide",
         "url": "https://imgcdn.mckesson.com/CumulusWeb/Click_and_learn/QuickStartGuide.pdf",
@@ -524,6 +495,15 @@ export default {
         "kind": "manufacturer",
         "accessed": "2026-10-16",
         "evidence": "Current product families; ICT collection cards, test devices/buffer and controls are separate kit components."
+      },
+      {
+        "id": "istat-chem8",
+        "title": "i-STAT CHEM8+ cartridge: assay menu and product code",
+        "url": "https://www.globalpointofcare.abbott/us/en/product-details/apoc/istat-chem8.html",
+        "publisher": "Abbott",
+        "kind": "manufacturer",
+        "accessed": "2026-10-18",
+        "evidence": "Official page identifies the chemistry/electrolyte/hematology menu and product code 09P31-26. Ordering leads to e-Abbott; no public current cartridge price established in this check."
       }
     ],
     "decision": {

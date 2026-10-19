@@ -32,7 +32,7 @@ export default {
     ],
     [
       "Compare complete usable packages",
-      "List required capabilities, accessories, consumables, software, connectivity and operator familiarity. For each proposal, confirm the actual model or acceptable substitute, condition documentation, delivery location and acceptance process. A rental that arrives without a required probe, cable or compatible supply cannot fill the stated gap. Agiliti's public rental portfolio demonstrates that multiple equipment categories are available through rental arrangements; it does not establish local availability for a particular configuration. Obtain a dated offer for the specific need. Have the clinical and technical teams approve any substitute and identify training or setup work before counting the first day as usable service."
+      "List required capabilities, accessories, consumables, software, connectivity and operator familiarity. For each proposal, confirm the actual model or acceptable substitute, condition documentation, delivery location and acceptance process. A rental that arrives without a required probe, cable or compatible supply cannot fill the stated gap. Obtain a dated offer for the specific configuration and destination. Have the clinical and technical teams approve any substitute and identify training or setup work before counting the first day as usable service. Compare the date the package becomes usable with the date rental billing begins; a low daily rate can still buy days when the hospital cannot use the equipment."
     ],
     [
       "Check the loaner before treating it as backup",
@@ -72,7 +72,6 @@ export default {
       "What would the complete cost be if the need lasts longer?"
     ],
     "sourceIds": [
-      "agiliti-rental",
       "ge-loaner",
       "who-procurement"
     ]
@@ -107,13 +106,11 @@ export default {
         "model": "Rent a specified equipment package",
         "position": "Defined temporary capacity",
         "bestFor": "A repair interval, temporary demand increase or planned replacement gap.",
-        "why": "Agiliti publicly offers rental categories including infusion, respiratory, beds and surgical equipment.",
-        "tradeoff": "Public catalog presence does not reserve the required model at the destination.",
+        "why": "Pay for capacity during the defined gap without taking on the same long-term ownership commitment.",
+        "tradeoff": "Delivery, acceptance and the actual billing interval determine how much useful cover the rental buys.",
         "price": "Quote the actual term, accessories, transport and return charges.",
         "support": "Confirm maintenance, exchange response and the available configuration.",
-        "sourceIds": [
-          "agiliti-rental"
-        ]
+        "sourceIds": []
       },
       {
         "model": "Service-linked loaner",
@@ -191,11 +188,9 @@ export default {
         "heading": "Compare complete usable packages",
         "paragraphs": [
           "List required capabilities, accessories, consumables, software, connectivity and operator familiarity. For each proposal, confirm the actual model or acceptable substitute, condition documentation, delivery location and acceptance process. A rental that arrives without a required probe, cable or compatible supply cannot fill the stated gap.",
-          "Agiliti's public rental portfolio demonstrates that multiple equipment categories are available through rental arrangements; it does not establish local availability for a particular configuration. Obtain a dated offer for the specific need. Have the clinical and technical teams approve any substitute and identify training or setup work before counting the first day as usable service."
+          "Obtain a dated offer for the specific configuration and destination. Have the clinical and technical teams approve any substitute and identify training or setup work before counting the first day as usable service. Compare the date the package becomes usable with the date rental billing begins; a low daily rate can still buy days when the hospital cannot use the equipment."
         ],
-        "sourceIds": [
-          "agiliti-rental"
-        ]
+        "sourceIds": []
       },
       {
         "heading": "Check the loaner before treating it as backup",
@@ -263,15 +258,6 @@ export default {
       "Provider descriptions are evidence of offered arrangements, not independent performance comparisons."
     ],
     "sources": [
-      {
-        "id": "agiliti-rental",
-        "title": "Medical equipment rental",
-        "url": "https://www.agilitihealth.com/medical-equipment-rental/",
-        "publisher": "Agiliti",
-        "kind": "service-provider primary source",
-        "accessed": "2026-10-17",
-        "evidence": "Documents offered rental categories; does not establish a specific unit's local availability, cost or comparative performance."
-      },
       {
         "id": "ge-loaner",
         "title": "Ultrasound probe diagnostics and loaner availability",

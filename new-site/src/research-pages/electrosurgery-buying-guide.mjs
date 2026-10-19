@@ -28,7 +28,7 @@ export default {
   "sections": [
     [
       "Keep the refurbished saving in perspective",
-      "A refurbished Force FX can be a sensible routine-OR purchase when the hospital already has compatible approved accessories, competent support and a unit that passes the required output and electrical checks. Victori Medical’s October 16, 2026 listing offered a certified-refurbished Force FX for US$3,195 with a stated 90-day warranty. Treat that as a dated seller offer, not the cost of a completed room or a prediction of remaining service life. Compare the installed package with a new IDS-310: generator, required controls and accessories, commissioning, repair freight and usable backup. A short warranty can be valuable locally yet awkward after export if the buyer funds transport both ways. A higher new-system price is justified when its actual service terms reduce that exposure; a new label alone does not prove lower failure rates."
+      "A refurbished Force FX can be a sensible routine-OR purchase when the hospital already has compatible approved accessories, competent support and a unit that passes the required output and electrical checks. Historical primary documentation identifies its monopolar and bipolar surgical role. It does not establish what condition a particular used generator is in, which accessories come with it or who will repair it. Compare the installed package with a new IDS-310: generator, required controls and accessories, commissioning, repair freight and usable backup. A short warranty can be valuable locally yet awkward after export if the buyer funds transport both ways. A higher new-system price is justified when its actual service terms reduce that exposure; a new label alone does not prove lower failure rates. For an original hypothetical comparison, a US$3,000 used generator needing US$1,200 of accessories and US$800 of delivery and acceptance reaches US$5,000. A US$6,400 complete new package leaves a US$1,400 initial premium. These invented figures are not Force FX or IDS-310 prices. Decide what that premium actually buys in support and continuity; do not turn it into an assumed failure-rate advantage."
     ],
     [
       "An accessory catalogue is not the contents of the box",
@@ -40,7 +40,7 @@ export default {
     ],
     [
       "Give the office procedure its own shortlist",
-      "Hyfrecator 2000 is a focused office option within its labeled scope, rather than a substitute for every general surgical generator. The dated MFI offer is for 115 V model 7-900-115; bipolar accessories and a foot control can change the completed price. Electrical version, required functions and replenishable tips matter more than comparing its power rating with a full OR platform. Keep a supported Force FX when it performs the required job and its repair plan works. Move to IDS-310 when the completed new-system offer improves continuity at a defensible cost. Fund FT10 when the advanced instrument capability has a defined use and a recurring budget. These choices follow the work and supply chain, without pretending the evidence identifies a universal reliability winner."
+      "Hyfrecator 2000 is a focused office option within its labeled scope, rather than a substitute for every general surgical generator. The manufacturer lists distinct supply-voltage versions, including 7-900-115 for 115 V and 7-900-230 for 230–240 V. The right electrical version and required accessories belong in the first price comparison; a low basic-unit price is of little use if the completed package will not suit the site. Keep a supported Force FX when it performs the required job and its repair plan works. Move to IDS-310 when the completed new-system offer improves continuity at a defensible cost. Fund FT10 when the advanced instrument capability has a defined use and a recurring budget. These choices follow the work and supply chain, without pretending the evidence identifies a universal reliability winner."
     ]
   ],
   "related": [
@@ -57,7 +57,7 @@ export default {
     "summary": "Compare Force FX, IDS-310, Hyfrecator 2000 and FT10 by the procedures they support, the accessories supplied and the continuing instrument bill.",
     "firstChoice": "List the procedures and compatible instruments the team intends to use. Separate the office Hyfrecator requirement from general OR cut/coagulation and advanced vessel sealing.",
     "upgradeWhen": "A new IDS-310 reduces a documented repair dependency, or FT10 enables a needed instrument capability whose continuing supply is funded.",
-    "budgetWatch": "A generator price can omit pedals, pencils, forceps and return electrodes. Include smoke evacuation and supplies. Confirm voltage; the reviewed Hyfrecator seller package was specifically 115 V.",
+    "budgetWatch": "A generator price can omit pedals, pencils, forceps and return electrodes. Include smoke evacuation and supplies. Confirm voltage: CONMED lists separate 100, 115, 220 and 230–240 V Hyfrecator 2000 versions.",
     "supportCheck": "A cheap generator has no serial-specific testing or service scope, an incomplete accessory set, or an advanced instrument supply the hospital cannot replenish.",
     "askSupplier": [
       "Which generator suffix, voltage, modes and pedals are supplied?",
@@ -65,10 +65,10 @@ export default {
       "What is the recurring instrument cost for our intended advanced-energy cases?"
     ],
     "sourceIds": [
-      "fx-price",
+      "fx-regulatory",
       "bovie",
       "hyf",
-      "hyf-price",
+      "hyf-platform",
       "ft10"
     ]
   },
@@ -90,10 +90,10 @@ export default {
         "bestFor": "Routine operating-room use with a tested unit and established repair access",
         "why": "A documented refurbished unit can make economic sense where the hospital already owns approved compatible accessories and can obtain practical repairs.",
         "tradeoff": "Refurbishment quality varies by serial; age and a familiar name do not establish output accuracy or remaining service life. Confirm the actual model suffix, voltage and included pedals.",
-        "price": "Victori Medical displayed US$3,195 on 2026-10-16 for its certified-refurbished Force FX listing, with a stated 90-day warranty. This is that seller’s offer, not a market average or delivered mission package; accessory inclusions and international warranty need written confirmation.",
-        "support": "Seller refurbishment and warranty statements were published. Current OEM service commitment at the destination was not confirmed.",
+        "price": "Request a serial-specific refurbished package price, including the required accessories, acceptance testing and delivery. No verified manufacturer-direct refurbished offer is established.",
+        "support": "Historical primary documentation establishes the platform’s role. Current OEM repair acceptance, independent repair scope, parts and any warranty require confirmation for the offered unit.",
         "sourceIds": [
-          "fx-price"
+          "fx-regulatory"
         ]
       },
       {
@@ -109,16 +109,16 @@ export default {
         ]
       },
       {
-        "model": "CONMED Hyfrecator 2000, 7-900-115",
+        "model": "CONMED Hyfrecator 2000, voltage variant specified",
         "position": "Office shortlist",
         "bestFor": "The office-procedure role specifically supported by its instructions",
         "why": "Monopolar and bipolar functions with fine low-power adjustment suit the office-procedure scope in its instructions. Its focused role should determine the accessory basket.",
-        "tradeoff": "The 115 V seller configuration is not appropriate for every destination supply. Bipolar forceps, foot control and other accessories can add materially to the basic package. Do not assume it replaces a general cut/coag generator.",
-        "price": "MFI Medical displayed US$1,035.90 on 2026-10-16 for factory-new 7-900-115. Listed contents include hand-switching pencil, wall mount and small starter quantities of nonsterile tips; freight/export, extra electrodes and bipolar accessories require confirmation.",
-        "support": "Current CONMED manual and product materials exist. MFI lists a one-year warranty; applicability overseas and any extension must be confirmed with the actual seller.",
+        "tradeoff": "CONMED lists separate 100, 115, 220 and 230–240 V versions. Select for the destination supply; include the required bipolar accessories and foot control. Do not assume it replaces a general cut/coag generator.",
+        "price": "No public manufacturer-direct price was established on October 18, 2026. Price the correct voltage version with the required controls, electrodes, smoke-control supplies and delivery.",
+        "support": "CONMED publishes the product, accessories and operator resources. Confirm destination service and warranty terms for the exact supplied configuration.",
         "sourceIds": [
           "hyf",
-          "hyf-price"
+          "hyf-platform"
         ]
       },
       {
@@ -138,11 +138,12 @@ export default {
       {
         "heading": "Keep the refurbished saving in perspective",
         "paragraphs": [
-          "A refurbished Force FX can be a sensible routine-OR purchase when the hospital already has compatible approved accessories, competent support and a unit that passes the required output and electrical checks. Victori Medical’s October 16, 2026 listing offered a certified-refurbished Force FX for US$3,195 with a stated 90-day warranty. Treat that as a dated seller offer, not the cost of a completed room or a prediction of remaining service life.",
-          "Compare the installed package with a new IDS-310: generator, required controls and accessories, commissioning, repair freight and usable backup. A short warranty can be valuable locally yet awkward after export if the buyer funds transport both ways. A higher new-system price is justified when its actual service terms reduce that exposure; a new label alone does not prove lower failure rates."
+          "A refurbished Force FX can be a sensible routine-OR purchase when the hospital already has compatible approved accessories, competent support and a unit that passes the required output and electrical checks. Historical primary documentation identifies its monopolar and bipolar surgical role. It does not establish what condition a particular used generator is in, which accessories come with it or who will repair it.",
+          "Compare the installed package with a new IDS-310: generator, required controls and accessories, commissioning, repair freight and usable backup. A short warranty can be valuable locally yet awkward after export if the buyer funds transport both ways. A higher new-system price is justified when its actual service terms reduce that exposure; a new label alone does not prove lower failure rates.",
+          "For an original hypothetical comparison, a US$3,000 used generator needing US$1,200 of accessories and US$800 of delivery and acceptance reaches US$5,000. A US$6,400 complete new package leaves a US$1,400 initial premium. These invented figures are not Force FX or IDS-310 prices. Decide what that premium actually buys in support and continuity; do not turn it into an assumed failure-rate advantage."
         ],
         "sourceIds": [
-          "fx-price",
+          "fx-regulatory",
           "bovie"
         ]
       },
@@ -172,13 +173,13 @@ export default {
       {
         "heading": "Give the office procedure its own shortlist",
         "paragraphs": [
-          "Hyfrecator 2000 is a focused office option within its labeled scope, rather than a substitute for every general surgical generator. The dated MFI offer is for 115 V model 7-900-115; bipolar accessories and a foot control can change the completed price. Electrical version, required functions and replenishable tips matter more than comparing its power rating with a full OR platform.",
+          "Hyfrecator 2000 is a focused office option within its labeled scope, rather than a substitute for every general surgical generator. The manufacturer lists distinct supply-voltage versions, including 7-900-115 for 115 V and 7-900-230 for 230–240 V. The right electrical version and required accessories belong in the first price comparison; a low basic-unit price is of little use if the completed package will not suit the site.",
           "Keep a supported Force FX when it performs the required job and its repair plan works. Move to IDS-310 when the completed new-system offer improves continuity at a defensible cost. Fund FT10 when the advanced instrument capability has a defined use and a recurring budget. These choices follow the work and supply chain, without pretending the evidence identifies a universal reliability winner."
         ],
         "sourceIds": [
           "hyf",
-          "hyf-price",
-          "fx-price",
+          "hyf-platform",
+          "fx-regulatory",
           "bovie",
           "ft10"
         ]
@@ -202,19 +203,10 @@ export default {
     ],
     "gaps": [
       "No comparative field reliability or remaining-life estimates established.",
-      "Current manufacturer repair support for Force FX and A2350 not confirmed.",
+      "Current manufacturer repair support for Force FX not confirmed.",
       "New IDS-310 and FT10 complete-package pricing remains quote-dependent."
     ],
     "sources": [
-      {
-        "id": "fx-price",
-        "title": "Force FX certified-refurbished offer",
-        "url": "https://shop.victorimedical.com/products/valleylab-force-fx-refurbished",
-        "publisher": "Victori Medical",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "US$3,195 asking price, certified-refurbished condition and seller-stated 90-day warranty on access date."
-      },
       {
         "id": "bovie",
         "title": "Bovie IDS-310 product and service resources",
@@ -234,15 +226,6 @@ export default {
         "evidence": "Modes, accessories, inspections, single-use restrictions and smoke-removal cautions."
       },
       {
-        "id": "hyf-price",
-        "title": "Factory-new Hyfrecator 2000 7-900-115 offer",
-        "url": "https://mfimedical.com/products/conmed-hyfrecator-2000",
-        "publisher": "MFI Medical",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "US$1,035.90, factory-new 115 V package, listed contents and seller warranty."
-      },
-      {
         "id": "ft10",
         "title": "Valleylab FT10 human-use energy platform",
         "url": "https://www.medtronic.com/en-ca/healthcare-professionals/products/surgical-energy/electrosurgical-hardware/electrosurgical-generators-monitors/valleylab-ft10-energy-platform.html",
@@ -250,6 +233,25 @@ export default {
         "kind": "manufacturer",
         "accessed": "2026-10-18",
         "evidence": "Human-use VLFT10GEN, LigaSure and software-update resources; regional availability qualification."
+      },
+      {
+        "id": "fx-regulatory",
+        "title": "Force FX generators: indications and 510(k) summary, K143161",
+        "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf14/K143161.pdf",
+        "publisher": "FDA / Covidien",
+        "kind": "regulatory filing",
+        "published": "2014-12-19",
+        "accessed": "2026-10-18",
+        "evidence": "Five-page filing read, including indications and manufacturer summary. Establishes historical monopolar/bipolar cutting and coagulation role and model variations; not current service availability, offered-unit condition, warranty or remaining-life evidence."
+      },
+      {
+        "id": "hyf-platform",
+        "title": "Hyfrecator 2000 product, voltage variants and accessories",
+        "url": "https://www.conmed.com/en/Products/Electrosurgical-Units/electrosurgical-units/the-hyfrecator-2000-electrosurgical-system",
+        "publisher": "CONMED",
+        "kind": "manufacturer",
+        "accessed": "2026-10-18",
+        "evidence": "Product description and capital-unit/accessory SKU lists read. Confirms monopolar/bipolar office role and 100, 115, 220 and 230–240 V variants. No public price or complete destination package established."
       }
     ],
     "decision": {
@@ -262,7 +264,7 @@ export default {
       {
         "option": "Valleylab Force FX",
         "capability": "Routine OR electrosurgery, subject to exact version, condition and approved accessories.",
-        "costDriver": "US$3,195 seller offer dated October 16, 2026; accessories, repairs and export warranty logistics add cost.",
+        "costDriver": "Complete approved accessories, acceptance testing, repair access and freight; compare these with the installed new-system package.",
         "bestFit": "A supported routine service, especially one retaining compatible equipment."
       },
       {
@@ -272,9 +274,9 @@ export default {
         "bestFit": "A hospital gaining practical value from the available new-equipment service package."
       },
       {
-        "option": "Hyfrecator 2000, 7-900-115",
+        "option": "Hyfrecator 2000, voltage variant specified",
         "capability": "Office monopolar/bipolar functions with fine low-power control.",
-        "costDriver": "US$1,035.90 seller offer dated October 16, 2026 for the new 115 V version; extra accessories and smoke evacuation add cost.",
+        "costDriver": "Correct voltage version, required controls and electrodes, smoke evacuation and replenishment.",
         "bestFit": "Office work within its intended use, with the correct electrical supply."
       },
       {
@@ -291,6 +293,6 @@ export default {
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Electrosurgery: the generator price is only the first bill General monopolar/bipolar electrosurgery Office electrosurgery Advanced vessel sealing Approved accessories, electrical testing and smoke evacuation Valleylab Force FX Bovie IDS-310 300W Electrosurgical Generator CONMED Hyfrecator 2000, 7-900-115 Medtronic Valleylab FT10, VLFT10GEN",
+  "searchTerms": "Electrosurgery: the generator price is only the first bill General monopolar/bipolar electrosurgery Office electrosurgery Advanced vessel sealing Approved accessories, electrical testing and smoke evacuation Valleylab Force FX Bovie IDS-310 300W Electrosurgical Generator CONMED Hyfrecator 2000, voltage variant specified Medtronic Valleylab FT10, VLFT10GEN",
   "librarySection": "equipment"
 };

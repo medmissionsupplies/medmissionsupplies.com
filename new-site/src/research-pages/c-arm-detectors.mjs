@@ -48,7 +48,7 @@ export default {
     ],
     [
       "Compare the repair exposure on both sides",
-      "Both offers need a credible major-component plan. Price detector or intensifier replacement with diagnosis, freight, installation and calibration, then add the tube exposure. Establish what the contract covers, which replacement condition is acceptable and what happens if the compatible component cannot be obtained. Seller lifespan and price comparisons can suggest questions, but they cannot establish a failure rate or the cost of repairing this unit in your country. Compare a normal operating year and an early major-repair scenario without inventing probabilities. Choose the flat panel when its demonstrated gain and support justify the premium; retain accepted equipment when the upgrade leaves the important limitation unchanged."
+      "Both offers need a credible major-component plan. Price detector or intensifier replacement with diagnosis, freight, installation and calibration, then add the tube exposure. Establish what the contract covers, which replacement condition is acceptable and what happens if the compatible component cannot be obtained. Put the upgrade premium beside two separate repair totals: one for the current system and one for the proposed replacement. A lower purchase price is not useful if its first major repair would exhaust the service budget. Equally, paying more for a flat panel buys no financial protection unless the warranty or service agreement actually provides it. Compare a normal operating year and an early major-repair scenario without assigning invented failure probabilities. Choose the flat panel when its demonstrated clinical or workflow gain and support justify the premium. Keep accepted equipment when the upgrade leaves the important limitation unchanged."
     ]
   ],
   "related": [
@@ -221,11 +221,10 @@ export default {
         "heading": "Compare the repair exposure on both sides",
         "paragraphs": [
           "Both offers need a credible major-component plan. Price detector or intensifier replacement with diagnosis, freight, installation and calibration, then add the tube exposure. Establish what the contract covers, which replacement condition is acceptable and what happens if the compatible component cannot be obtained.",
-          "Seller lifespan and price comparisons can suggest questions, but they cannot establish a failure rate or the cost of repairing this unit in your country. Compare a normal operating year and an early major-repair scenario without inventing probabilities. Choose the flat panel when its demonstrated gain and support justify the premium; retain accepted equipment when the upgrade leaves the important limitation unchanged."
+          "Put the upgrade premium beside two separate repair totals: one for the current system and one for the proposed replacement. A lower purchase price is not useful if its first major repair would exhaust the service budget. Equally, paying more for a flat panel buys no financial protection unless the warranty or service agreement actually provides it.",
+          "Compare a normal operating year and an early major-repair scenario without assigning invented failure probabilities. Choose the flat panel when its demonstrated clinical or workflow gain and support justify the premium. Keep accepted equipment when the upgrade leaves the important limitation unchanged."
         ],
-        "sourceIds": [
-          "block-detectors"
-        ]
+        "sourceIds": []
       }
     ],
     "checklist": [
@@ -257,22 +256,12 @@ export default {
     ],
     "sources": [
       {
-        "id": "block-detectors",
-        "title": "Flat Panel Detector C-Arms vs. Image Intensifier C-Arms",
-        "url": "https://www.blockimaging.com/blog/flat-panel-detector-c-arms-vs.-image-intensifier-c-arms",
-        "publisher": "Block Imaging",
-        "kind": "seller perspective",
-        "accessed": "2026-10-17",
-        "updated": "2025-04-30",
-        "evidence": "Seller discusses detector selection, software and service costs. Its market-wide price, lifespan and sufficiency claims are not treated as verified comparative evidence."
-      },
-      {
         "id": "cios-us",
         "title": "Cios Select: United States specifications",
         "url": "https://www.siemens-healthineers.com/en-us/surgical-c-arms-and-navigation/mobile-c-arms/cios-select",
         "publisher": "Siemens Healthineers",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "US page specifies a 23 cm image intensifier, 2.5 kW output and separately identified optional DICOM and vascular functions."
       },
       {
@@ -281,7 +270,7 @@ export default {
         "url": "https://www.siemens-healthineers.com/en-in/surgical-c-arms-and-navigation/mobile-c-arms/cios-select",
         "publisher": "Siemens Healthineers",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Regional page identifies both image-intensifier and flat-detector configurations; the model name alone does not establish the supplied detector."
       },
       {

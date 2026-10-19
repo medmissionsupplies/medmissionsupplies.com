@@ -95,12 +95,11 @@ export default {
         "bestFor": "A continuous-flow requirement within the approved output and environment",
         "why": "Drive specifies 2–10 L/min for the 1025DS. Buy the electrical variant suited to the destination, with its oxygen-sensing configuration identified.",
         "tradeoff": "Rated output does not establish compatibility with every downstream device.",
-        "price": "Dated retail anchor: The CPAP Shop listed the 1025DS-bundle at USD 1,399 on October 16, 2026, with AC cord, installed filters, adapter, manual and five cannulas. Overseas freight, import charges and export warranty remain separate.",
+        "price": "Compare the correct voltage variant with its required patient accessories, replacement filters, delivery and destination service. The manufacturer store requires sign-in for pricing; no public complete-package price is established here.",
         "support": "Confirm service eligibility for the exact unit and destination.",
         "sourceIds": [
           "o1",
-          "o2",
-          "o-cpap-1025"
+          "o2"
         ]
       },
       {
@@ -134,11 +133,10 @@ export default {
         "bestFor": "A service with compatible supplies and a defined mains-powered high-flow station",
         "why": "An established flow generator and humidifier with a defined tube, chamber and interface ecosystem.",
         "tradeoff": "Separate oxygen, power continuity, water, reprocessing and patient supplies remain necessary.",
-        "price": "Request a complete station price; an unconfigured seller listing is not a usable-system budget.",
+        "price": "Price the regional unit, compatible heated tube and chamber, patient interfaces, stand and required reprocessing supplies as a complete station. Include the oxygen source and power provision in the service budget.",
         "support": "Require evidence addressing the applicable 2025 disinfection-manual correction.",
         "sourceIds": [
           "o6",
-          "o7",
           "o8"
         ]
       },
@@ -301,8 +299,8 @@ export default {
     "gaps": [
       "Actual patient eligibility and device/source compatibility require the applicable current instructions and qualified clinical approval.",
       "Some retained Airvo specifications come from FDA and MSF documentation; current OEM instructions for the offered regional configuration remain necessary.",
-      "The October 16 retail anchor is dated seller evidence, not an October 18 refresh or a delivered export quote.",
-      "No comparative measured failure rates or confirmed destination service agreements support a brand reliability ranking."
+      "No comparative measured failure rates or confirmed destination service agreements support a brand reliability ranking.",
+      "Public complete-package purchase prices and destination delivery costs were not established; the electricity example is explicitly hypothetical operating-cost arithmetic."
     ],
     "sources": [
       {
@@ -312,7 +310,7 @@ export default {
         "publisher": "Drive DeVilbiss",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Current 10 L platform, flow range and outlet pressure."
+        "evidence": "Manufacturer 1025DS product/specification page: 2–10 L/min, electrical variant and oxygen-sensing details. The direct store requires sign-in to view price; no public price or dealer bundle is adopted."
       },
       {
         "id": "o2",
@@ -358,15 +356,6 @@ export default {
         "kind": "institutional procurement",
         "accessed": "2026-10-16",
         "evidence": "Airvo 2 specifications and separately listed accessories; not a public sales offer."
-      },
-      {
-        "id": "o7",
-        "title": "Unconfigured new Airvo 2 seller lead",
-        "url": "https://ilapbiomed.com/products/fisher-paykel-airvo-2-high-flow-humidifier-new",
-        "publisher": "ILAP Biomed",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Opened body displays a $3,305 asking amount for an item labeled new Airvo 2. Electrical variant, kit, stock and warranty scope unresolved; retain only as an unconfigured seller lead, not a configured budget or comparison price."
       },
       {
         "id": "o8",
@@ -511,15 +500,6 @@ export default {
         "kind": "regulator",
         "accessed": "2026-10-16",
         "evidence": "Foam-recall information; exact device identity and remediation matter."
-      },
-      {
-        "id": "o-cpap-1025",
-        "title": "The CPAP Shop 1025DS concentrator offer and supplies",
-        "url": "https://www.thecpapshop.com/devilbiss-10-liter-home-oxygen-concentrator",
-        "publisher": "The CPAP Shop",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Opened page shows SKU 1025DS-bundle, $1,399.00 base unit, listed box contents and $33.99 optional intake filter. Seller asking price, not landed total."
       }
     ],
     "decision": {

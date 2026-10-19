@@ -28,7 +28,7 @@ export default {
   "sections": [
     [
       "Start with the power source the job requires",
-      "Vacu-Aide 7325P-D provides a compact battery-equipped comparison; Walton Medical’s October 16, 2026 offer was US$398 with a carrying case. The similar 7325D-D lacks the battery. Confirm the suffix and complete collection package before comparing the number on the invoice. SSCOR VX-2 has another important distinction: its supplied AC charger cannot power the pump. The documented vehicle-power and charging/retention-bracket arrangement is a separate operating route. An AC cord therefore does not establish that a unit with a failed battery is ready for portable service. Select the back, mount and power accessories as one configuration. Laerdal LSU deserves comparison when tool-less battery access, a suitable mount and its particular collection system improve the transport service. Have qualified personnel verify the delivered system using the manufacturer’s procedure. A motor that runs briefly does not establish battery endurance; maximum blocked vacuum does not establish flow through the working tubing and filter."
+      "Vacu-Aide 7325P-D provides a compact battery-equipped comparison with a carry bag. Drive lists the similar 7325D-D without a battery. The suffix also identifies collection and filter configuration, so compare the complete working kit before judging the invoice total. A cheaper mains-only unit cannot stand in for the portable function the service needs. SSCOR VX-2 has another important distinction: its supplied AC charger cannot power the pump. The documented vehicle-power and charging/retention-bracket arrangement is a separate operating route. An AC cord therefore does not establish that a unit with a failed battery is ready for portable service. Select the back, mount and power accessories as one configuration. Laerdal LSU deserves comparison when tool-less battery access, a suitable mount and its particular collection system improve the transport service. Have qualified personnel verify the delivered system using the manufacturer’s procedure. A motor that runs briefly does not establish battery endurance; maximum blocked vacuum does not establish flow through the working tubing and filter."
     ],
     [
       "Standardize the collection kit before accumulating pumps",
@@ -79,7 +79,7 @@ export default {
     "id": "suction",
     "title": "Buying suction: the missing filter can idle the whole pump",
     "dek": "Compare complete portable kits and surgical stations, including batteries, mounts, canisters and filters. Higher vacuum alone does not prove usable suction at the point of care.",
-    "verdict": "For compact portable suction, Vacu-Aide 7325P-D supplies a concrete USD 398 retail benchmark for the battery model. Move toward S-SCORT VX-2 when its selected mounting and parts arrangement suit transport, or LSU when battery access, canister choice and service support earn the difference. VX-2's charger cannot run the pump through a failed battery. For mains surgical suction, Basic's 30 L/min class is the starting point when sufficient; Dominant Flex adds selectable 40/50/60 L/min for a defined higher-flow need. Buy the canister, filters, tubing and power arrangement as part of each station.",
+    "verdict": "For compact portable suction, compare the battery-equipped Vacu-Aide 7325P-D as a complete working kit; the similar 7325D-D is not a battery-powered substitute. Move toward S-SCORT VX-2 when its selected mounting and parts arrangement suit transport, or LSU when battery access, canister choice and service support earn the difference. VX-2's charger cannot run the pump through a failed battery. For mains surgical suction, Basic's 30 L/min class is the starting point when sufficient; Dominant Flex adds selectable 40/50/60 L/min for a defined higher-flow need. Buy the canister, filters, tubing and power arrangement as part of each station.",
     "coverage": [
       "Portable airway suction",
       "Transport mounting and power",
@@ -95,12 +95,12 @@ export default {
         "bestFor": "A service requiring a compact battery-equipped suction unit within its labeled use",
         "why": "The published 7325P-D package includes a battery, disposable container and carry bag. Drive documents compatible collection-system parts shared with older Vacu-Aide families, which may preserve useful existing supply arrangements.",
         "tradeoff": "7325D-D has no battery; similar names are not interchangeable. Container/filter configuration also differs by suffix. Confirm the actual pressure/flow requirement rather than choosing solely on portability.",
-        "price": "Walton Medical displayed USD 398.00 for SKU 7325P-D on October 16, 2026: the battery model with carrying case, distinct from nonbattery 7325D-D. Confirm complete canister/filter/tubing contents, freight, tax and export support. This retail asking price is not a delivered mission quote.",
+        "price": "Compare the battery-equipped unit, complete collection and filter system, tubing, replacement battery and delivery. A lower price for the nonbattery version does not buy the same portable service. No public manufacturer price was available without sign-in.",
         "support": "Manufacturer specification and accessory list found. Destination repair service, replacement battery availability and warranty coverage remain open.",
         "sourceIds": [
           "s1",
           "s2",
-          "s-walton-7325"
+          "s-drive-7325"
         ]
       },
       {
@@ -159,14 +159,14 @@ export default {
       {
         "heading": "Start with the power source the job requires",
         "paragraphs": [
-          "Vacu-Aide 7325P-D provides a compact battery-equipped comparison; Walton Medical’s October 16, 2026 offer was US$398 with a carrying case. The similar 7325D-D lacks the battery. Confirm the suffix and complete collection package before comparing the number on the invoice.",
+          "Vacu-Aide 7325P-D provides a compact battery-equipped comparison with a carry bag. Drive lists the similar 7325D-D without a battery. The suffix also identifies collection and filter configuration, so compare the complete working kit before judging the invoice total. A cheaper mains-only unit cannot stand in for the portable function the service needs.",
           "SSCOR VX-2 has another important distinction: its supplied AC charger cannot power the pump. The documented vehicle-power and charging/retention-bracket arrangement is a separate operating route. An AC cord therefore does not establish that a unit with a failed battery is ready for portable service. Select the back, mount and power accessories as one configuration.",
           "Laerdal LSU deserves comparison when tool-less battery access, a suitable mount and its particular collection system improve the transport service. Have qualified personnel verify the delivered system using the manufacturer’s procedure. A motor that runs briefly does not establish battery endurance; maximum blocked vacuum does not establish flow through the working tubing and filter."
         ],
         "sourceIds": [
           "s1",
           "s2",
-          "s-walton-7325",
+          "s-drive-7325",
           "s3",
           "s4",
           "s5"
@@ -306,13 +306,13 @@ export default {
         "evidence": "Mains power, selectable flow and approved accessory requirements."
       },
       {
-        "id": "s-walton-7325",
-        "title": "Walton Medical Vacu-Aide SKU 7325P-D offer",
-        "url": "https://www.waltonmedical.com/en-us/products/vacu-aide-suction-machine",
-        "publisher": "Walton Medical",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Opened USD page displays SKU 7325P-D and $398.00; product text identifies battery and included case. Shipping and import totals not established."
+        "id": "s-drive-7325",
+        "title": "Drive Vacu-Aide 7325 configurations",
+        "url": "https://shop.drivemedical.com/us/en/products/respiratory/suction-therapy/suction-machines/vacu-aide-suction-machine/p/7325P-D",
+        "publisher": "Drive DeVilbiss Healthcare",
+        "kind": "manufacturer",
+        "accessed": "2026-10-18",
+        "evidence": "Direct manufacturer store identifies 7325P-D with battery and carry bag and 7325D-D without battery, plus internal/external filter variants. Sign-in is required to view price."
       }
     ],
     "decision": {

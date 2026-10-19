@@ -39,8 +39,8 @@ export default {
       "Inspect the dependencies that remain after the proposed fix. A repaired console still relies on its probes, sensors, cables, software and supplies. For ultrasound, identify the exact probes needed and the support available for each before spending heavily on the console. Restoring the main box can leave the service exposed to one unreplaceable accessory. The same issue is concrete with an Olympus LF-GP. Continued value depends on the scope's fiber condition, angulation, leak integrity, channel condition and complete reusable-processing pathway. A repair may make sense in an established service with those resources. It is less attractive if the scope returns to a site that still cannot process or maintain it appropriately."
     ],
     [
-      "Treat supply endings as planning evidence",
-      "A component or consumable phase-out can change the repair calculation even when the machine works today. Ambu's December 2023 King Vision communication describes component discontinuations and phased stock depletion. It does not prove every blade is unavailable now, but it gives the buyer a reason to examine the remaining supply horizon before investing in another display. Be precise about what is known. An accessible manual does not prove that a manufacturer accepts the exact serial for repair. A missing website listing does not prove formal discontinuation. Obtain a written service response, identify a credible alternative provider where appropriate, and record any unresolved essential part. Age alone is an unreliable substitute for that evidence."
+      "Check the supply that remains after the repair",
+      "A working display still needs the correct patient-contact components. Verathon identifies Spectrum blades for the earlier GlideScope Go, while Go 2 uses Spectrum QC eco and Spectrum QC. Owning a cupboard of blades for a newer generation does not make an older display supportable. Before paying for repair, identify the exact compatible stock and how it will be replenished; before replacement, identify which stock cannot transfer. Be precise about what is known. An accessible manual does not prove that a manufacturer accepts the exact serial for repair. A missing website listing does not prove formal discontinuation. Obtain a written service response, identify a credible alternative provider where appropriate, and record any unresolved essential part. Age alone is an unreliable substitute for that evidence."
     ],
     [
       "Price downtime without pretending to know it",
@@ -48,7 +48,7 @@ export default {
     ],
     [
       "Set a clear condition for returning or retiring the unit",
-      "Agree what successful repair must demonstrate and who accepts it. If that condition cannot be met, decide whether a further bounded attempt has a credible purpose. Avoid continuing small payments without a stopping decision. The Force FX example illustrates a sensible retention case: keep an accepted unit that performs the required work and has practical repairs and accessories. Compare replacement with an appropriately configured IDS-310 when the existing repair burden or support gap becomes unfavorable. Neither published product documentation nor a refurbished seller's warranty supplies a universal remaining-lifespan estimate."
+      "Agree what successful repair must demonstrate and who accepts it. If that condition cannot be met, decide whether a further bounded attempt has a credible purpose. Avoid continuing small payments without a stopping decision. Force FX provides a conditional retention example: keep an accepted unit that performs the required work and has practical repairs and compatible accessories. Compare a complete IDS-310 replacement when the existing repair burden or support gap becomes unfavorable. The historical Force FX filing and current IDS-310 resources establish product roles; they do not estimate the remaining life of the hospital’s generator."
     ]
   ],
   "related": [
@@ -66,7 +66,7 @@ export default {
     "firstChoice": "Obtain a diagnosis, bounded repair scope and agreed acceptance test. Compare that with a complete replacement, including retained accessories, software, training and the cost of keeping work available during either route.",
     "upgradeWhen": "Replace or reassign equipment when it cannot supply required functions or its essential parts cannot be supported. Repairing an X8 does not add invasive-pressure capability; a working basic monitor may still have a suitable role.",
     "budgetWatch": "A repaired ultrasound console can remain dependent on an unreplaceable probe. An LF-GP still needs a complete processing route. Include repair freight and longer-turnaround scenarios without inventing failure probabilities.",
-    "supportCheck": "Use fault history and written repair acceptance. King Vision's component phase-out is a reason to verify remaining supplies before further investment; an accessible manual alone does not establish support.",
+    "supportCheck": "Use fault history and written repair acceptance. Check the exact generation of essential accessories: Go and Go 2 use different blade families. An accessible manual alone does not establish ongoing supply or repair support.",
     "askSupplier": [
       "What specific fault will this repair resolve and how will you prove it?",
       "Which essential accessory or part remains unsupported afterward?",
@@ -76,9 +76,9 @@ export default {
       "edan-capability",
       "ultrasound-probes",
       "lfgp-platform",
-      "king-supply",
-      "force-fx-offer",
-      "ids310-resources"
+      "ids310-resources",
+      "fx-regulatory",
+      "go-generation"
     ]
   },
   "research": {
@@ -134,13 +134,13 @@ export default {
         ]
       },
       {
-        "heading": "Treat supply endings as planning evidence",
+        "heading": "Check the supply that remains after the repair",
         "paragraphs": [
-          "A component or consumable phase-out can change the repair calculation even when the machine works today. Ambu's December 2023 King Vision communication describes component discontinuations and phased stock depletion. It does not prove every blade is unavailable now, but it gives the buyer a reason to examine the remaining supply horizon before investing in another display.",
+          "A working display still needs the correct patient-contact components. Verathon identifies Spectrum blades for the earlier GlideScope Go, while Go 2 uses Spectrum QC eco and Spectrum QC. Owning a cupboard of blades for a newer generation does not make an older display supportable. Before paying for repair, identify the exact compatible stock and how it will be replenished; before replacement, identify which stock cannot transfer.",
           "Be precise about what is known. An accessible manual does not prove that a manufacturer accepts the exact serial for repair. A missing website listing does not prove formal discontinuation. Obtain a written service response, identify a credible alternative provider where appropriate, and record any unresolved essential part. Age alone is an unreliable substitute for that evidence."
         ],
         "sourceIds": [
-          "king-supply"
+          "go-generation"
         ]
       },
       {
@@ -156,10 +156,10 @@ export default {
         "heading": "Set a clear condition for returning or retiring the unit",
         "paragraphs": [
           "Agree what successful repair must demonstrate and who accepts it. If that condition cannot be met, decide whether a further bounded attempt has a credible purpose. Avoid continuing small payments without a stopping decision.",
-          "The Force FX example illustrates a sensible retention case: keep an accepted unit that performs the required work and has practical repairs and accessories. Compare replacement with an appropriately configured IDS-310 when the existing repair burden or support gap becomes unfavorable. Neither published product documentation nor a refurbished seller's warranty supplies a universal remaining-lifespan estimate."
+          "Force FX provides a conditional retention example: keep an accepted unit that performs the required work and has practical repairs and compatible accessories. Compare a complete IDS-310 replacement when the existing repair burden or support gap becomes unfavorable. The historical Force FX filing and current IDS-310 resources establish product roles; they do not estimate the remaining life of the hospital’s generator."
         ],
         "sourceIds": [
-          "force-fx-offer",
+          "fx-regulatory",
           "ids310-resources"
         ]
       }
@@ -221,31 +221,32 @@ export default {
         "evidence": "Regional page describes portable tracheal intubation fiberscope; does not establish current repairs."
       },
       {
-        "id": "king-supply",
-        "title": "King Vision December 2023 customer communication",
-        "url": "https://www.medline.com/media/assets/pdf/vendor-list/King-Vision-Video-Laryngoscope-Customer-Communication-December-2023.pdf",
-        "publisher": "Ambu, hosted by Medline",
-        "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "Component discontinuations; some codes immediately unavailable and remaining portfolio phased out as inventory depletes."
-      },
-      {
-        "id": "force-fx-offer",
-        "title": "Force FX certified-refurbished offer",
-        "url": "https://shop.victorimedical.com/products/valleylab-force-fx-refurbished",
-        "publisher": "Victori Medical",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "US$3,195 asking price, certified-refurbished condition and seller-stated 90-day warranty on access date."
-      },
-      {
         "id": "ids310-resources",
         "title": "Bovie IDS-310 product and service resources",
         "url": "https://www.aspensurgical.com/Product/IDS-310",
         "publisher": "Aspen Surgical",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "300W model, accessory listings and user/service guides."
+        "accessed": "2026-10-18",
+        "evidence": "Aspen’s product body, included-items table and resource links re-read. Confirms 300 W platform, generator/power-cord list and user/service resource route; no open public price or destination service promise established."
+      },
+      {
+        "id": "fx-regulatory",
+        "title": "Force FX generators: indications and 510(k) summary, K143161",
+        "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf14/K143161.pdf",
+        "publisher": "FDA / Covidien",
+        "kind": "regulatory filing",
+        "published": "2014-12-19",
+        "accessed": "2026-10-18",
+        "evidence": "Five-page filing read, including indications and manufacturer summary. Establishes historical monopolar/bipolar cutting and coagulation role and model variations; not current service availability, offered-unit condition, warranty or remaining-life evidence."
+      },
+      {
+        "id": "go-generation",
+        "title": "GlideScope Go 2",
+        "url": "https://www.verathon.com/glidescope-visualization-systems/glidescope-go?frm=vb-fmly",
+        "publisher": "Verathon",
+        "kind": "manufacturer",
+        "accessed": "2026-10-18",
+        "evidence": "Manufacturer comparison read again: Go 2 uses Spectrum QC eco/Spectrum QC; earlier Go uses Spectrum. Distinct video-baton arrangements and published runtime are product specifications, not comparative durability evidence."
       }
     ],
     "related": [

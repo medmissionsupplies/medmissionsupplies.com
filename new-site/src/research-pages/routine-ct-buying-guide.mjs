@@ -78,14 +78,14 @@ export default {
     "quickCompare": [
       {
         "option": "go.Now example",
-        "capability": "Lower-tier configuration.",
+        "capability": "32-slice label; 16 × 0.7 mm physical z-coverage, 32 kW and a 70 cm bore.",
         "costDriver": "Required applications and installed scope.",
         "bestFit": "Routine brief accepted by clinical team."
       },
       {
         "option": "go.Top example",
-        "capability": "Different coverage, power and options.",
-        "costDriver": "Useful incremental capability.",
+        "capability": "128-slice label; 64 × 0.6 mm physical z-coverage, 75 kW and a 70 cm bore.",
+        "costDriver": "Fastest rotation and higher table capacity are options; compare the installed package.",
         "bestFit": "A named limitation justifies spending."
       },
       {

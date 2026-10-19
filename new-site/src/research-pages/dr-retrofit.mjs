@@ -48,7 +48,7 @@ export default {
     ],
     [
       "Compare repairs retained as well as equipment replaced",
-      "For retrofit, total the detector, workstation, licences, batteries, integration, commissioning and known repairs to retained hardware. For replacement, include the configured room, building work, removal, installation and the same handover requirements. Keep common costs in both columns and identify costs genuinely avoided. Then add a major-repair scenario: detector exchange on one side, and the relevant generator, tube or positioning exposure on the other. Use actual terms for damage exclusions, freight and temporary equipment. Keep the old room when its continuing usefulness supports the investment. Replace it when the underlying limitation survives the panel upgrade."
+      "For retrofit, total the detector, workstation, licences, batteries, integration, commissioning and known repairs to retained hardware. For replacement, include the configured room, building work, removal, installation and the same handover requirements. Keep common costs in both columns and identify costs genuinely avoided. Run the same failure scenarios against both offers. A detector can fail in either a retrofit or a new room; the retrofit also retains the existing generator, tube and positioning equipment. Compare the uncovered repair bill and interruption under each actual warranty or service plan. Giving one option a detector failure and the other an unrelated fault produces an uneven comparison. A retrofit earns its saving when the retained room still has useful work to do and the hospital can support it. Replacement earns its premium when it removes the limitation that would survive a detector upgrade. Use that distinction to decide where the money goes, then fund the remaining repair exposure."
     ]
   ],
   "related": [
@@ -229,7 +229,8 @@ export default {
         "heading": "Compare repairs retained as well as equipment replaced",
         "paragraphs": [
           "For retrofit, total the detector, workstation, licences, batteries, integration, commissioning and known repairs to retained hardware. For replacement, include the configured room, building work, removal, installation and the same handover requirements. Keep common costs in both columns and identify costs genuinely avoided.",
-          "Then add a major-repair scenario: detector exchange on one side, and the relevant generator, tube or positioning exposure on the other. Use actual terms for damage exclusions, freight and temporary equipment. Keep the old room when its continuing usefulness supports the investment. Replace it when the underlying limitation survives the panel upgrade."
+          "Run the same failure scenarios against both offers. A detector can fail in either a retrofit or a new room; the retrofit also retains the existing generator, tube and positioning equipment. Compare the uncovered repair bill and interruption under each actual warranty or service plan. Giving one option a detector failure and the other an unrelated fault produces an uneven comparison.",
+          "A retrofit earns its saving when the retained room still has useful work to do and the hospital can support it. Replacement earns its premium when it removes the limitation that would survive a detector upgrade. Use that distinction to decide where the money goes, then fund the remaining repair exposure."
         ],
         "sourceIds": []
       }
@@ -308,16 +309,6 @@ export default {
         "accessed": "2026-10-17",
         "published": "2023",
         "evidence": "Human Health Series No. 47 includes digital-radiography exposure-index checks, commissioning baselines and system-specific AEC assessment. The publication is 2023 despite the filename's number."
-      },
-      {
-        "id": "block-dr",
-        "title": "Automated Digital X-Ray vs. Analog X-Ray with Digital Panel Upgrade",
-        "url": "https://www.blockimaging.com/blog/automated-digital-x-ray-vs.-analog-x-ray-with-digital-panel-upgrade",
-        "publisher": "Block Imaging",
-        "kind": "seller perspective",
-        "accessed": "2026-10-17",
-        "updated": "2024-10-01",
-        "evidence": "Frames detector retrofit versus automated-room purchase. Its general cost and remodeling claims are not adopted as project-specific facts."
       }
     ],
     "related": [

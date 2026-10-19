@@ -766,8 +766,8 @@ export const researchGuides = [
     "key": "anesthesia",
     "kind": "research-guide",
     "equipmentId": "anesthesia",
-    "title": "Buying anesthesia equipment: compare the complete working theatre",
-    "summary": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
+    "title": "Anesthesia machines: choose for the hospital you actually have",
+    "summary": "Compare UAM, Carestation 620, keeping a supported Aestiva and a complete traveling setup. Spend on the constraint that interrupts surgery, then compare the full installed cost.",
     "categoryId": "surgical",
     "category": "Surgery & anesthesia",
     "image": "guides/anesthesia",
@@ -787,43 +787,43 @@ export const researchGuides = [
       "verifiedAt": "2026-10-17",
       "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
     },
-    "minutes": 4,
+    "minutes": 5,
     "sections": [
       [
-        "Let the interrupted operating list define the upgrade",
+        "Start with the reason the operating list stops",
         ""
       ],
       [
-        "Turn “complete” into a named configuration",
+        "Price the same working theatre",
         ""
       ],
       [
-        "Trace what continues working when power fails",
+        "Check which functions survive a power failure",
         ""
       ],
       [
-        "Compare retention with the cost of changing platforms",
+        "Make a fair case for keeping the machine you know",
         ""
       ],
       [
-        "Choose portability for repeated travel",
+        "Judge portability by the kit that actually travels",
         ""
       ]
     ],
     "related": [
       "anesthesia"
     ],
-    "socialTitle": "Buying anesthesia equipment: compare the complete working theatre",
-    "socialDescription": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
-    "socialHeadline": "Buying anesthesia equipment: compare the complete working theatre",
-    "socialStrapline": "The workstation price is only the opening figure.",
+    "socialTitle": "Anesthesia machines: choose for the hospital you actually have",
+    "socialDescription": "Compare UAM, Carestation 620, keeping a supported Aestiva and a complete traveling setup. Spend on the constraint that interrupts surgery, then compare the full installed cost.",
+    "socialHeadline": "Anesthesia machines: choose for the hospital you actually have",
+    "socialStrapline": "A better workstation pays off when the rest of the theatre can use it.",
     "reviewedAt": "2026-10-18",
     "sheet": {
       "id": "anesthesia",
-      "title": "Buying anesthesia equipment: compare the complete working theatre",
-      "summary": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded."
+      "title": "Anesthesia machines: choose for the hospital you actually have",
+      "summary": "Compare UAM, Carestation 620, keeping a supported Aestiva and a complete traveling setup. Spend on the constraint that interrupts surgery, then compare the full installed cost."
     },
-    "searchTerms": "Buying anesthesia equipment: compare the complete working theatre Conventional anesthesia workstations Infrastructure-adapted anesthesia Portable/tabletop systems Legacy inspection, service and recalls Gradian Universal Anesthesia Machine (UAM) GE HealthCare Carestation 620 Avante Integra SP VSO2 GE Aestiva/5 7900 SmartVent",
+    "searchTerms": "Anesthesia machines: choose for the hospital you actually have Conventional anesthesia workstations Infrastructure-adapted anesthesia Portable/tabletop systems Legacy inspection, service and recalls Gradian Universal Anesthesia Machine (UAM) GE HealthCare Carestation 620 Complete portable anesthesia setup GE Aestiva/5 7900 SmartVent",
     "librarySection": "equipment"
   },
   {
@@ -948,7 +948,7 @@ export const researchGuides = [
       "title": "Electrosurgery: the generator price is only the first bill",
       "summary": "Compare Force FX, IDS-310, Hyfrecator 2000 and FT10 by the procedures they support, the accessories supplied and the continuing instrument bill."
     },
-    "searchTerms": "Electrosurgery: the generator price is only the first bill General monopolar/bipolar electrosurgery Office electrosurgery Advanced vessel sealing Approved accessories, electrical testing and smoke evacuation Valleylab Force FX Bovie IDS-310 300W Electrosurgical Generator CONMED Hyfrecator 2000, 7-900-115 Medtronic Valleylab FT10, VLFT10GEN",
+    "searchTerms": "Electrosurgery: the generator price is only the first bill General monopolar/bipolar electrosurgery Office electrosurgery Advanced vessel sealing Approved accessories, electrical testing and smoke evacuation Valleylab Force FX Bovie IDS-310 300W Electrosurgical Generator CONMED Hyfrecator 2000, voltage variant specified Medtronic Valleylab FT10, VLFT10GEN",
     "librarySection": "equipment"
   },
   {
@@ -1009,7 +1009,7 @@ export const researchGuides = [
       "title": "Buying airway equipment: the next blade matters as much as the handle",
       "summary": "Compare McGRATH, GlideScope and flexible-scope packages by blade compatibility, power, processing and the supplies that keep the kit ready."
     },
-    "searchTerms": "Buying airway equipment: the next blade matters as much as the handle Compact video laryngoscopes Reusable flexible intubation scopes Single-use flexible scopes and displays Legacy model disposition Battery and recall exposure Consumable supply and reprocessing economics Medtronic McGRATH MAC, next-generation 301-000-000 Verathon GlideScope Go 2 Ambu aScope 4 Broncho with aView 2 Advance Olympus PORTAVIEW LF-GP Magaw CoPilot VL",
+    "searchTerms": "Buying airway equipment: the next blade matters as much as the handle Compact video laryngoscopes Reusable flexible intubation scopes Single-use flexible scopes and displays Legacy model disposition Battery and recall exposure Consumable supply and reprocessing economics Medtronic McGRATH MAC, next-generation 301-000-000 Verathon GlideScope Go 2 Ambu aScope 4 Broncho with aView 2 Advance Olympus PORTAVIEW LF-GP",
     "librarySection": "equipment"
   },
   {
@@ -1112,7 +1112,7 @@ export const researchGuides = [
         ""
       ],
       [
-        "A $13.90 disc can cost $21.13 per usable panel",
+        "When US$24 becomes US$32 per patient panel",
         ""
       ],
       [
@@ -1180,7 +1180,7 @@ export const researchGuides = [
         ""
       ],
       [
-        "Keep the dated prices attached to their conditions",
+        "Compare the package and the repair promise",
         ""
       ],
       [
@@ -1201,7 +1201,7 @@ export const researchGuides = [
       "title": "Buying a sterilizer: choose the cycle before the chamber",
       "summary": "Compare Tuttnauer 2540M, Midmark M11 and T-Top by compatible loads, complete turnaround and the staff work the purchase actually changes."
     },
-    "searchTerms": "Buying a sterilizer: choose the cycle before the chamber sterilization Tuttnauer 2540M Midmark M11-050 / M11-051, current generation Tuttnauer T-Top 10 / 11 with Class B configuration",
+    "searchTerms": "Buying a sterilizer: choose the cycle before the chamber sterilization Tuttnauer 2540M Midmark M11-050, current medical catalog example Tuttnauer T-Top 10 / 11 with Class B configuration",
     "librarySection": "equipment"
   },
   {
@@ -1724,7 +1724,7 @@ export const researchGuides = [
         ""
       ],
       [
-        "Treat supply endings as planning evidence",
+        "Check the supply that remains after the repair",
         ""
       ],
       [
@@ -4533,44 +4533,48 @@ export const researchGuides = [
     "kind": "research-guide",
     "equipmentId": null,
     "title": "Monitor sensors, cables and cuffs: buy the complete connection",
-    "summary": "A matching plug can still leave the wrong sensor, missing trunk cable or unsuitable cuff in the box. Three exact Philips examples show how to compare the complete order.",
+    "summary": "A matching plug is only the start. Compare the approved sensor, cable and cuff combination, then check what each box contains and how much of it the hospital will use.",
     "categoryId": "decisions",
     "category": "Procurement & service",
-    "minutes": 3,
+    "minutes": 4,
     "sections": [
       [
-        "Identify the failed item before replacing the chain",
+        "Replace the failed part with confidence",
         ""
       ],
       [
-        "SpO2: follow the technology through the extension cable",
+        "SpO2: one extension cable does not complete the order",
         ""
       ],
       [
-        "ECG: distinguish the trunk cable from the lead set",
+        "ECG: count the lead sets and identify the trunk",
         ""
       ],
       [
-        "Blood-pressure cuffs: use the patient range and the connection",
+        "A lower unit price can still be the wrong-sized order",
         ""
       ],
       [
-        "Standardize only after the complete combination is accepted",
+        "Cuffs: buy for the patient range as well as the hose",
+        ""
+      ],
+      [
+        "Standardize the combinations the hospital can actually share",
         ""
       ]
     ],
     "related": [
       "ekg"
     ],
-    "socialTitle": "Why the right-looking monitor accessory can be the wrong order",
-    "socialDescription": "Check SpO2 technology, ECG trunk and lead sets, and cuff size and connectors before comparing component prices.",
-    "socialHeadline": "Why the right-looking monitor accessory can be the wrong order",
-    "socialStrapline": "Part number, connection chain and pack quantity belong on the same order.",
+    "socialTitle": "Monitor sensors, cables and cuffs: buy the complete connection",
+    "socialDescription": "A matching plug is only the start. Compare the approved sensor, cable and cuff combination, then check what each box contains and how much of it the hospital will use.",
+    "socialHeadline": "Monitor sensors, cables and cuffs: buy the complete connection",
+    "socialStrapline": "The right component, in the right quantity, is the useful bargain.",
     "reviewedAt": "2026-10-18",
     "sheet": {
       "id": "sensor-cable-cuff-compatibility",
       "title": "Monitor sensors, cables and cuffs: buy the complete connection",
-      "summary": "A matching plug can still leave the wrong sensor, missing trunk cable or unsuitable cuff in the box. Three exact Philips examples show how to compare the complete order."
+      "summary": "A matching plug is only the start. Compare the approved sensor, cable and cuff combination, then check what each box contains and how much of it the hospital will use."
     },
     "searchTerms": "Monitor sensors, cables and cuffs: buy the complete connection SpO2 technology and extension ECG trunk versus lead set Cuff limb range and hose connection Sales unit versus usable quantity Approved fleet standardization Replace the diagnosed component Order a complete approved chain Standardize approved fleet combinations",
     "librarySection": "decisions",
