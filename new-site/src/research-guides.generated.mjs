@@ -375,7 +375,7 @@ export const researchGuides = [
       ],
       [
         "Mini C-arm: prove the views fit",
-        "Orthoscan TAU 1512 and Hologic InSight FD Flex offer concrete positioning differences to assess. Demonstrate the intended anatomy and patient positions with the actual table. A compact extremity system should not inherit a full-size C-arm's role simply because both provide fluoroscopy. The FD Flex evidence cited here is a dealer's offering. Its advertised sale and service are not an OEM lifecycle or overseas-coverage commitment. Identify the generation, repair location and exclusions. Neither a current product page nor flat-panel construction establishes a lower field failure rate."
+        "Orthoscan TAU 1512 specifies 160-degree orbital rotation; Hologic InSight FD Flex specifies 120 degrees. FD Flex also rotates its detector through 180 degrees. Do not compare that detector figure with the other system’s orbital range: they describe different movements. Demonstrate the required views with the actual table and patient positions before paying for a geometry advantage. A compact extremity system should not inherit a full-size C-arm’s role simply because both provide fluoroscopy. The Hologic specification documents capability, while current availability and service need their own evidence. Confirm the generation and repair route. Neither a product page nor flat-panel construction establishes a lower field failure rate."
       ],
       [
         "Protect the component that can stop the service",
@@ -411,7 +411,7 @@ export const researchGuides = [
         "x-9900",
         "x-elite",
         "x-tau",
-        "x-insight"
+        "x-hologic-fd-spec"
       ]
     },
     "research": {
@@ -513,14 +513,14 @@ export const researchGuides = [
         },
         {
           "model": "Hologic InSight FD Flex",
-          "position": "Mini C-arm alternative with explicit support conditions",
-          "bestFor": "Extremity work fitting the detector geometry and seller’s repair arrangements.",
-          "why": "The dealer’s own offering describes a rotating flat panel and service coverage, a specific alternative to an unspecified InSight II.",
-          "tradeoff": "Dealer-advertised support is not a manufacturer lifecycle commitment or overseas coverage. Confirm exact generation, supply status, repair location and exclusions before accepting a savings claim.",
+          "position": "Mini C-arm with rotating detector",
+          "bestFor": "Extremity work fitting its demonstrated geometry, with a documented repair route.",
+          "why": "Hologic specifies 120-degree orbital movement and 180-degree detector rotation. Those describe different positioning adjustments.",
+          "tradeoff": "The published 2022 specification does not establish current country availability or serial-specific service. Identify the exact generation, enabled software, repair route and support horizon.",
           "price": "Quote required; no numeric asking price verified.",
-          "support": "Dealer sale/service advertised; OEM lifecycle and destination eligibility unconfirmed.",
+          "support": "Manufacturer technical documentation verified; current destination availability and exact-unit service eligibility remain unconfirmed.",
           "sourceIds": [
-            "x-insight"
+            "x-hologic-fd-spec"
           ]
         }
       ],
@@ -571,12 +571,12 @@ export const researchGuides = [
         {
           "heading": "Mini C-arm: prove the views fit",
           "paragraphs": [
-            "Orthoscan TAU 1512 and Hologic InSight FD Flex offer concrete positioning differences to assess. Demonstrate the intended anatomy and patient positions with the actual table. A compact extremity system should not inherit a full-size C-arm's role simply because both provide fluoroscopy.",
-            "The FD Flex evidence cited here is a dealer's offering. Its advertised sale and service are not an OEM lifecycle or overseas-coverage commitment. Identify the generation, repair location and exclusions. Neither a current product page nor flat-panel construction establishes a lower field failure rate."
+            "Orthoscan TAU 1512 specifies 160-degree orbital rotation; Hologic InSight FD Flex specifies 120 degrees. FD Flex also rotates its detector through 180 degrees. Do not compare that detector figure with the other system’s orbital range: they describe different movements. Demonstrate the required views with the actual table and patient positions before paying for a geometry advantage.",
+            "A compact extremity system should not inherit a full-size C-arm’s role simply because both provide fluoroscopy. The Hologic specification documents capability, while current availability and service need their own evidence. Confirm the generation and repair route. Neither a product page nor flat-panel construction establishes a lower field failure rate."
           ],
           "sourceIds": [
             "x-tau",
-            "x-insight"
+            "x-hologic-fd-spec"
           ]
         },
         {
@@ -671,17 +671,8 @@ export const researchGuides = [
           "url": "https://orthoscan.com/tau-1512/",
           "publisher": "Orthoscan",
           "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "Flat-panel mini C-arm, 160-degree orbital rotation, 20-inch arc depth and service links."
-        },
-        {
-          "id": "x-insight",
-          "title": "Minicarm.com InSight FD Flex offering and service description",
-          "url": "https://www.minicarm.com/hologic-fluoroscan-insight-fd-flex/",
-          "publisher": "Minicarm.com",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Dealer's own product/service offering; rotating detector described. No numeric asking price or export support verified."
+          "accessed": "2026-10-18",
+          "evidence": "Manufacturer page rechecked: 160-degree orbital rotation and 20-inch arc depth. No comparative reliability or delivered-price claim established."
         },
         {
           "id": "x-9900",
@@ -700,6 +691,15 @@ export const researchGuides = [
           "kind": "manufacturer",
           "accessed": "2026-10-16",
           "evidence": "Manufacturer describes OEC contracts and on-demand service. Stated response commitments have US contract/geographic conditions and do not establish overseas or specific OEC 9900 coverage."
+        },
+        {
+          "id": "x-hologic-fd-spec",
+          "title": "Hologic InSight FD Flex technical specifications, DS-09521 Rev 003 (August 2022)",
+          "url": "https://www.hologic.com/file/575496/download?token=rJ3GWQi2",
+          "publisher": "Hologic",
+          "kind": "manufacturer",
+          "accessed": "2026-10-18",
+          "evidence": "Both pages read and visually inspected. Specifications distinguish 120-degree orbital motion from 180-degree detector rotation. This document does not confirm current regional availability or serial-specific support."
         }
       ],
       "decision": {
@@ -741,7 +741,7 @@ export const researchGuides = [
         },
         {
           "option": "Orthoscan TAU 1512 / Hologic InSight FD Flex",
-          "capability": "Extremity mini C-arms; TAU offers 160° orbital rotation, while FD Flex has a rotating flat panel.",
+          "capability": "Extremity mini C-arms: TAU 1512 has 160-degree orbital movement; FD Flex has 120-degree orbital movement plus separate 180-degree detector rotation.",
           "costDriver": "Exact generation, accessories and an enforceable repair arrangement.",
           "bestFit": "Extremity procedures whose required views fit the demonstrated field and geometry."
         }
@@ -2567,7 +2567,7 @@ export const researchGuides = [
       ],
       [
         "The battery option can change the usable package",
-        "Specify the battery as carefully as the patient cables. EDAN lists a standard 2,550 mAh battery and an optional 5,100 mAh battery, with respective operating-time claims of at least four and eight hours. Those figures use a new, fully charged battery at 20–30°C, low screen brightness, continuous SpO2 and NIBP every 15 minutes. They are test conditions, not guaranteed endurance for a worn battery or another configuration. For an existing monitor, complete and assess the station before replacing it: suitable patient-size cuffs, compatible probes, intact leads, a mount and a usable battery may recover more service than another bare chassis. For a new purchase, compare that same basket. Spare accessories can be a better use of a limited budget than expansion slots the ward will never equip."
+        "Specify the battery as carefully as the patient cables. EDAN Diagnostics advertises up to eight hours for the X series, but that headline does not identify the battery fitted to an offered unit or establish its remaining capacity. Have the supplier identify the battery and applicable test conditions, then require an endurance check under the intended monitoring configuration. A longer runtime is useful only if the delivered station can reproduce it. For an existing monitor, complete and assess the station before replacing it: suitable patient-size cuffs, compatible probes, intact leads, a mount and a usable battery may recover more service than another bare chassis. For a new purchase, compare that same basket. Spare accessories can be a better use of a limited budget than expansion slots the ward will never equip."
       ],
       [
         "Buy an ECG result the clinic can retrieve",
@@ -2633,12 +2633,12 @@ export const researchGuides = [
           "bestFor": "A ward needing a defined ECG, SpO2, NIBP and temperature package",
           "why": "A defined basic station can leave more budget for spare leads, probes and batteries.",
           "tradeoff": "X8 does not provide the optional invasive-pressure expansion shown for X10/X12. Specify CO2, patient accessories and battery configuration separately.",
-          "price": "PartsSource displayed USD 3,358.06 each on October 16, 2026 for OEM X8, New OEM Original, with 8-inch touchscreen/Wi-Fi, 3/5-lead ECG, RESP, NIBP, EDAN SpO2 and one temperature channel. Price required CO2/printer options separately and confirm accessories. The item is nonreturnable, with a ship date only after order confirmation; freight, tax, export warranty and commissioning remain additional or unverified.",
-          "support": "Current EDAN USA by MDPro product offering found. This establishes an identifiable supply channel, not service coverage at the destination.",
+          "price": "Compare the required parameters, patient-size cuffs, probes, leads, battery and mount as one station. Itemize any CO2 or recorder option; an unequipped console is not an equivalent offer.",
+          "support": "Manufacturer documentation identifies the platform. Check whether the offered unit is covered by FDA recall Z-1148-2026 and obtain evidence that the applicable cybersecurity labeling and configuration correction is complete; destination service remains unconfirmed.",
           "sourceIds": [
             "e1",
-            "e-partssource-x8",
-            "e-edan-configuration"
+            "e-edan-configuration",
+            "e-edan-correction"
           ]
         },
         {
@@ -2745,11 +2745,10 @@ export const researchGuides = [
         {
           "heading": "The battery option can change the usable package",
           "paragraphs": [
-            "Specify the battery as carefully as the patient cables. EDAN lists a standard 2,550 mAh battery and an optional 5,100 mAh battery, with respective operating-time claims of at least four and eight hours. Those figures use a new, fully charged battery at 20–30°C, low screen brightness, continuous SpO2 and NIBP every 15 minutes. They are test conditions, not guaranteed endurance for a worn battery or another configuration.",
+            "Specify the battery as carefully as the patient cables. EDAN Diagnostics advertises up to eight hours for the X series, but that headline does not identify the battery fitted to an offered unit or establish its remaining capacity. Have the supplier identify the battery and applicable test conditions, then require an endurance check under the intended monitoring configuration. A longer runtime is useful only if the delivered station can reproduce it.",
             "For an existing monitor, complete and assess the station before replacing it: suitable patient-size cuffs, compatible probes, intact leads, a mount and a usable battery may recover more service than another bare chassis. For a new purchase, compare that same basket. Spare accessories can be a better use of a limited budget than expansion slots the ward will never equip."
           ],
           "sourceIds": [
-            "e-edan-configuration",
             "e1",
             "e2"
           ]
@@ -2806,15 +2805,6 @@ export const researchGuides = [
         "Manufacturer runtime claims do not establish the endurance of an offered used battery."
       ],
       "sources": [
-        {
-          "id": "e1",
-          "title": "EDAN X8 patient monitor",
-          "url": "https://edanusa.com/edanusa-x8-patient-monitor/",
-          "publisher": "EDAN USA by MDPro",
-          "kind": "manufacturer / distributor",
-          "accessed": "2026-10-16",
-          "evidence": "Identified X8 offering and available basic and optional parameters."
-        },
         {
           "id": "e2",
           "title": "GE B1x5M patient monitor family",
@@ -2933,22 +2923,31 @@ export const researchGuides = [
           "evidence": "Specified serviced LIFEPAK serials lacked objective evidence of completed performance inspection; corrective action required."
         },
         {
-          "id": "e-partssource-x8",
-          "title": "PartsSource EDAN X8 standard configuration offer",
-          "url": "https://www.partssource.com/parts/edan-usa/X8",
-          "publisher": "PartsSource",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Product page body identifies OEM X8, standard parameters, new condition, $3,358.06, nonreturnable status and a ship date only after order confirmation. Page title metadata is inconsistent; the price is tied to the model named in the body."
+          "id": "e1",
+          "title": "EDAN Diagnostics X-series patient monitors",
+          "url": "https://www.edandiagnostics.com/product/m/PM_X_Series.html",
+          "publisher": "EDAN Diagnostics",
+          "kind": "manufacturer",
+          "accessed": "2026-10-18",
+          "evidence": "Manufacturer page identifies the X-series platform and an up-to-eight-hour battery claim; the page does not establish an offered battery configuration or used-battery endurance."
         },
         {
           "id": "e-edan-configuration",
-          "title": "EDAN X8–X12 function-configuration comparison, page 2",
-          "url": "https://edanusa.com/wp-content/uploads/sites/12/2020/11/x8-x12-PM-spec-sheet.pdf",
-          "publisher": "EDAN USA",
+          "title": "EDAN X-series brochure, version 1.1 (2024)",
+          "url": "https://www.edan.com/Uploads/20241018050700_417993.pdf",
+          "publisher": "EDAN Instruments",
           "kind": "manufacturer",
           "accessed": "2026-10-18",
-          "evidence": "The visual configuration table assigns optional invasive blood pressure to X10/X12, not X8. X8 includes optional CO2, ECG configuration, Wi-Fi and recorder choices."
+          "evidence": "Manufacturer-indexed configuration text assigns optional IBP to X10/X12, not X8. The directly hosted PDF was inaccessible during this check; the narrow configuration passage was available through search indexing."
+        },
+        {
+          "id": "e-edan-correction",
+          "title": "FDA EDAN X8/X10/X12 correction, Z-1148-2026",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfRES/res.cfm?id=217962",
+          "publisher": "FDA",
+          "kind": "regulator",
+          "accessed": "2026-10-18",
+          "evidence": "January 22, 2026 record identifies specified X-series units and correction of cybersecurity labeling/IP configuration. Applicability and completion must be checked for the offered unit."
         }
       ],
       "decision": {
@@ -3581,12 +3580,11 @@ export const researchGuides = [
           "bestFor": "A continuous-flow requirement within the approved output and environment",
           "why": "Drive specifies 2–10 L/min for the 1025DS. Buy the electrical variant suited to the destination, with its oxygen-sensing configuration identified.",
           "tradeoff": "Rated output does not establish compatibility with every downstream device.",
-          "price": "Dated retail anchor: The CPAP Shop listed the 1025DS-bundle at USD 1,399 on October 16, 2026, with AC cord, installed filters, adapter, manual and five cannulas. Overseas freight, import charges and export warranty remain separate.",
+          "price": "Compare the correct voltage variant with its required patient accessories, replacement filters, delivery and destination service. The manufacturer store requires sign-in for pricing; no public complete-package price is established here.",
           "support": "Confirm service eligibility for the exact unit and destination.",
           "sourceIds": [
             "o1",
-            "o2",
-            "o-cpap-1025"
+            "o2"
           ]
         },
         {
@@ -3620,11 +3618,10 @@ export const researchGuides = [
           "bestFor": "A service with compatible supplies and a defined mains-powered high-flow station",
           "why": "An established flow generator and humidifier with a defined tube, chamber and interface ecosystem.",
           "tradeoff": "Separate oxygen, power continuity, water, reprocessing and patient supplies remain necessary.",
-          "price": "Request a complete station price; an unconfigured seller listing is not a usable-system budget.",
+          "price": "Price the regional unit, compatible heated tube and chamber, patient interfaces, stand and required reprocessing supplies as a complete station. Include the oxygen source and power provision in the service budget.",
           "support": "Require evidence addressing the applicable 2025 disinfection-manual correction.",
           "sourceIds": [
             "o6",
-            "o7",
             "o8"
           ]
         },
@@ -3787,8 +3784,8 @@ export const researchGuides = [
       "gaps": [
         "Actual patient eligibility and device/source compatibility require the applicable current instructions and qualified clinical approval.",
         "Some retained Airvo specifications come from FDA and MSF documentation; current OEM instructions for the offered regional configuration remain necessary.",
-        "The October 16 retail anchor is dated seller evidence, not an October 18 refresh or a delivered export quote.",
-        "No comparative measured failure rates or confirmed destination service agreements support a brand reliability ranking."
+        "No comparative measured failure rates or confirmed destination service agreements support a brand reliability ranking.",
+        "Public complete-package purchase prices and destination delivery costs were not established; the electricity example is explicitly hypothetical operating-cost arithmetic."
       ],
       "sources": [
         {
@@ -3798,7 +3795,7 @@ export const researchGuides = [
           "publisher": "Drive DeVilbiss",
           "kind": "manufacturer",
           "accessed": "2026-10-18",
-          "evidence": "Current 10 L platform, flow range and outlet pressure."
+          "evidence": "Manufacturer 1025DS product/specification page: 2–10 L/min, electrical variant and oxygen-sensing details. The direct store requires sign-in to view price; no public price or dealer bundle is adopted."
         },
         {
           "id": "o2",
@@ -3844,15 +3841,6 @@ export const researchGuides = [
           "kind": "institutional procurement",
           "accessed": "2026-10-16",
           "evidence": "Airvo 2 specifications and separately listed accessories; not a public sales offer."
-        },
-        {
-          "id": "o7",
-          "title": "Unconfigured new Airvo 2 seller lead",
-          "url": "https://ilapbiomed.com/products/fisher-paykel-airvo-2-high-flow-humidifier-new",
-          "publisher": "ILAP Biomed",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Opened body displays a $3,305 asking amount for an item labeled new Airvo 2. Electrical variant, kit, stock and warranty scope unresolved; retain only as an unconfigured seller lead, not a configured budget or comparison price."
         },
         {
           "id": "o8",
@@ -3997,15 +3985,6 @@ export const researchGuides = [
           "kind": "regulator",
           "accessed": "2026-10-16",
           "evidence": "Foam-recall information; exact device identity and remediation matter."
-        },
-        {
-          "id": "o-cpap-1025",
-          "title": "The CPAP Shop 1025DS concentrator offer and supplies",
-          "url": "https://www.thecpapshop.com/devilbiss-10-liter-home-oxygen-concentrator",
-          "publisher": "The CPAP Shop",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Opened page shows SKU 1025DS-bundle, $1,399.00 base unit, listed box contents and $33.99 optional intake filter. Seller asking price, not landed total."
         }
       ],
       "decision": {
@@ -4435,7 +4414,7 @@ export const researchGuides = [
     "sections": [
       [
         "Start with the power source the job requires",
-        "Vacu-Aide 7325P-D provides a compact battery-equipped comparison; Walton Medical’s October 16, 2026 offer was US$398 with a carrying case. The similar 7325D-D lacks the battery. Confirm the suffix and complete collection package before comparing the number on the invoice. SSCOR VX-2 has another important distinction: its supplied AC charger cannot power the pump. The documented vehicle-power and charging/retention-bracket arrangement is a separate operating route. An AC cord therefore does not establish that a unit with a failed battery is ready for portable service. Select the back, mount and power accessories as one configuration. Laerdal LSU deserves comparison when tool-less battery access, a suitable mount and its particular collection system improve the transport service. Have qualified personnel verify the delivered system using the manufacturer’s procedure. A motor that runs briefly does not establish battery endurance; maximum blocked vacuum does not establish flow through the working tubing and filter."
+        "Vacu-Aide 7325P-D provides a compact battery-equipped comparison with a carry bag. Drive lists the similar 7325D-D without a battery. The suffix also identifies collection and filter configuration, so compare the complete working kit before judging the invoice total. A cheaper mains-only unit cannot stand in for the portable function the service needs. SSCOR VX-2 has another important distinction: its supplied AC charger cannot power the pump. The documented vehicle-power and charging/retention-bracket arrangement is a separate operating route. An AC cord therefore does not establish that a unit with a failed battery is ready for portable service. Select the back, mount and power accessories as one configuration. Laerdal LSU deserves comparison when tool-less battery access, a suitable mount and its particular collection system improve the transport service. Have qualified personnel verify the delivered system using the manufacturer’s procedure. A motor that runs briefly does not establish battery endurance; maximum blocked vacuum does not establish flow through the working tubing and filter."
       ],
       [
         "Standardize the collection kit before accumulating pumps",
@@ -4486,7 +4465,7 @@ export const researchGuides = [
       "id": "suction",
       "title": "Buying suction: the missing filter can idle the whole pump",
       "dek": "Compare complete portable kits and surgical stations, including batteries, mounts, canisters and filters. Higher vacuum alone does not prove usable suction at the point of care.",
-      "verdict": "For compact portable suction, Vacu-Aide 7325P-D supplies a concrete USD 398 retail benchmark for the battery model. Move toward S-SCORT VX-2 when its selected mounting and parts arrangement suit transport, or LSU when battery access, canister choice and service support earn the difference. VX-2's charger cannot run the pump through a failed battery. For mains surgical suction, Basic's 30 L/min class is the starting point when sufficient; Dominant Flex adds selectable 40/50/60 L/min for a defined higher-flow need. Buy the canister, filters, tubing and power arrangement as part of each station.",
+      "verdict": "For compact portable suction, compare the battery-equipped Vacu-Aide 7325P-D as a complete working kit; the similar 7325D-D is not a battery-powered substitute. Move toward S-SCORT VX-2 when its selected mounting and parts arrangement suit transport, or LSU when battery access, canister choice and service support earn the difference. VX-2's charger cannot run the pump through a failed battery. For mains surgical suction, Basic's 30 L/min class is the starting point when sufficient; Dominant Flex adds selectable 40/50/60 L/min for a defined higher-flow need. Buy the canister, filters, tubing and power arrangement as part of each station.",
       "coverage": [
         "Portable airway suction",
         "Transport mounting and power",
@@ -4502,12 +4481,12 @@ export const researchGuides = [
           "bestFor": "A service requiring a compact battery-equipped suction unit within its labeled use",
           "why": "The published 7325P-D package includes a battery, disposable container and carry bag. Drive documents compatible collection-system parts shared with older Vacu-Aide families, which may preserve useful existing supply arrangements.",
           "tradeoff": "7325D-D has no battery; similar names are not interchangeable. Container/filter configuration also differs by suffix. Confirm the actual pressure/flow requirement rather than choosing solely on portability.",
-          "price": "Walton Medical displayed USD 398.00 for SKU 7325P-D on October 16, 2026: the battery model with carrying case, distinct from nonbattery 7325D-D. Confirm complete canister/filter/tubing contents, freight, tax and export support. This retail asking price is not a delivered mission quote.",
+          "price": "Compare the battery-equipped unit, complete collection and filter system, tubing, replacement battery and delivery. A lower price for the nonbattery version does not buy the same portable service. No public manufacturer price was available without sign-in.",
           "support": "Manufacturer specification and accessory list found. Destination repair service, replacement battery availability and warranty coverage remain open.",
           "sourceIds": [
             "s1",
             "s2",
-            "s-walton-7325"
+            "s-drive-7325"
           ]
         },
         {
@@ -4566,14 +4545,14 @@ export const researchGuides = [
         {
           "heading": "Start with the power source the job requires",
           "paragraphs": [
-            "Vacu-Aide 7325P-D provides a compact battery-equipped comparison; Walton Medical’s October 16, 2026 offer was US$398 with a carrying case. The similar 7325D-D lacks the battery. Confirm the suffix and complete collection package before comparing the number on the invoice.",
+            "Vacu-Aide 7325P-D provides a compact battery-equipped comparison with a carry bag. Drive lists the similar 7325D-D without a battery. The suffix also identifies collection and filter configuration, so compare the complete working kit before judging the invoice total. A cheaper mains-only unit cannot stand in for the portable function the service needs.",
             "SSCOR VX-2 has another important distinction: its supplied AC charger cannot power the pump. The documented vehicle-power and charging/retention-bracket arrangement is a separate operating route. An AC cord therefore does not establish that a unit with a failed battery is ready for portable service. Select the back, mount and power accessories as one configuration.",
             "Laerdal LSU deserves comparison when tool-less battery access, a suitable mount and its particular collection system improve the transport service. Have qualified personnel verify the delivered system using the manufacturer’s procedure. A motor that runs briefly does not establish battery endurance; maximum blocked vacuum does not establish flow through the working tubing and filter."
           ],
           "sourceIds": [
             "s1",
             "s2",
-            "s-walton-7325",
+            "s-drive-7325",
             "s3",
             "s4",
             "s5"
@@ -4713,13 +4692,13 @@ export const researchGuides = [
           "evidence": "Mains power, selectable flow and approved accessory requirements."
         },
         {
-          "id": "s-walton-7325",
-          "title": "Walton Medical Vacu-Aide SKU 7325P-D offer",
-          "url": "https://www.waltonmedical.com/en-us/products/vacu-aide-suction-machine",
-          "publisher": "Walton Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Opened USD page displays SKU 7325P-D and $398.00; product text identifies battery and included case. Shipping and import totals not established."
+          "id": "s-drive-7325",
+          "title": "Drive Vacu-Aide 7325 configurations",
+          "url": "https://shop.drivemedical.com/us/en/products/respiratory/suction-therapy/suction-machines/vacu-aide-suction-machine/p/7325P-D",
+          "publisher": "Drive DeVilbiss Healthcare",
+          "kind": "manufacturer",
+          "accessed": "2026-10-18",
+          "evidence": "Direct manufacturer store identifies 7325P-D with battery and carry bag and 7325D-D without battery, plus internal/external filter variants. Sign-in is required to view price."
         }
       ],
       "decision": {
@@ -4775,8 +4754,8 @@ export const researchGuides = [
     "key": "anesthesia",
     "kind": "research-guide",
     "equipmentId": "anesthesia",
-    "title": "Buying anesthesia equipment: compare the complete working theatre",
-    "summary": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
+    "title": "Anesthesia machines: choose for the hospital you actually have",
+    "summary": "Compare UAM, Carestation 620, keeping a supported Aestiva and a complete traveling setup. Spend on the constraint that interrupts surgery, then compare the full installed cost.",
     "categoryId": "surgical",
     "category": "Surgery & anesthesia",
     "image": "guides/anesthesia",
@@ -4796,41 +4775,41 @@ export const researchGuides = [
       "verifiedAt": "2026-10-17",
       "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
     },
-    "minutes": 4,
+    "minutes": 5,
     "sections": [
       [
-        "Let the interrupted operating list define the upgrade",
-        "A new anesthesia machine earns its cost when it removes a real limit: inadequate ventilation capability, unreliable oxygen, unavailable monitoring or a machine that cannot be repaired in time. If the installed workstation remains suitable and supported, keeping it is a serious option. Replacing a familiar machine while leaving the same gas or service problem untouched is an expensive way to preserve the interruption. Compare Gradian UAM where oxygen infrastructure is the constraint; compare Carestation 620 where dependable utilities and GE service are already available. These are different purchasing situations. Neither a product-family name nor a supplier’s quality certificate establishes the condition or reliability of the unit offered."
+        "Start with the reason the operating list stops",
+        "Before comparing machines, look at the cases the hospital cannot complete as planned. Is the limit ventilation capability, oxygen supply, missing monitoring or the time needed to obtain a repair? Each points to a different use of the budget. A new cart is poor value if the same unfunded gas supply or missing module will keep it idle. The Gradian UAM belongs on the shortlist where oxygen infrastructure is a central problem. A Carestation 620 can fit an established operating room with dependable utilities and accessible GE service. A suitable installed Aestiva may be worth keeping when its service route is sound. These are purchasing situations to compare, not a ranking of brand reliability."
       ],
       [
-        "Turn “complete” into a named configuration",
-        "Put two proposed systems beside the same clinical requirement. Identify the workstation and ventilation functions, each vaporizer and agent, gas-analysis module, patient monitor, circuits, scavenging arrangement and gas connections. Separate equipment already owned and approved for reuse from equipment included in the offer. A mounting position or a photograph of a monitor is not an included functioning accessory. The comparison can change before any brand ranking is needed. If one offer includes the required gas-analysis module and compatible vaporizer while another supplies only the workstation, add those omissions before comparing totals. Then add installation, training and the first year’s approved supplies. Do the same for ongoing sampling lines, water traps, sensors, absorbent and circuits according to the selected system’s instructions."
+        "Price the same working theatre",
+        "Start both offers with the clinical team’s required configuration: ventilation functions, vaporizers and agents, gas analysis, patient monitoring, circuits, scavenging and gas connections. Mark which approved items are already owned, which are supplied and which still need buying. A mounting position or a monitor in a photograph is not an included working accessory. Suppose two hypothetical offers meet the same approved requirement once completed. One is US$45,000 for the workstation, US$12,000 for missing modules and US$4,000 for installation: US$61,000 in total. Another is US$54,000 including those modules, plus US$3,000 for installation: US$57,000. The lower headline price costs US$4,000 more to install. These invented figures illustrate the comparison; they are not prices for the named models. Next compare ownership over the same service period and expected workload. Add approved consumables, maintenance, repairs, technician travel and backup provision. State whether freight, taxes and training are included. A lower installed total is only the first comparison; an incomplete supply or repair plan can still make it the wrong purchase."
       ],
       [
-        "Trace what continues working when power fails",
-        "Gradian publishes six-hour backup for the UAM ventilator and vital-sign monitor. Its concentrator requires mains electricity; the concentrator’s small alarm battery does not generate oxygen. Room-air fallback does not maintain oxygen-enriched delivery. Backup oxygen and the approved interruption response therefore remain part of the funded service. For Carestation, the FDA’s December 2025 communication concerns certain 600/700-series power-management boards that can prevent automatic transfer to battery after AC loss. It is an instruction correction, not a blanket removal of every machine. Require the offered configuration’s applicable correction evidence and manufacturer-directed acceptance checks. A battery fitted to the cart does not, by itself, prove continuity."
+        "Check which functions survive a power failure",
+        "Gradian publishes six-hour backup for the UAM ventilator and vital-sign monitor. Its concentrator requires mains electricity; the concentrator’s small alarm battery does not generate oxygen. Room-air fallback does not maintain oxygen-enriched delivery. Backup oxygen and the approved interruption response therefore remain part of the funded service. For Carestation, the FDA’s December 2025 communication concerns certain 600/700-series power-management boards that can prevent automatic transfer to battery after AC loss. It is an instruction correction, not a blanket removal of every machine. Before acceptance, establish whether the offered unit is affected and require evidence that the applicable manufacturer-directed actions have been addressed. A battery fitted to the cart does not, by itself, prove continuity."
       ],
       [
-        "Compare retention with the cost of changing platforms",
-        "For an existing Aestiva/5 7900 SmartVent, compare the next supportable service period with an installed replacement over that same period. Include scheduled work, likely identified repairs, vaporizer servicing, batteries, sensors, technician travel and the approved contingency during downtime. Record the condition as received and the accepted condition after work; a generic “refurbished” label cannot replace those reports. A different platform may require new accessories, staff training and additional spare stock. Count that transition before valuing extra features. The historical Aestiva interlock recall is specific to affected units and is listed as terminated; it neither condemns every Aestiva nor proves a particular one is ready. Present support for older Narkomed, Fabius GS, Apollo, Aespire and Aisys systems remains an exact-unit purchasing question."
+        "Make a fair case for keeping the machine you know",
+        "For an installed Aestiva/5 7900 SmartVent, compare its next supportable service period with an installed replacement over that same period. Include scheduled work, identified repairs, vaporizer servicing, sensors, batteries and the contingency during downtime. Existing ownership is not a reason to keep an unsuitable machine, but neither is age alone a reason to discard useful, supportable equipment. Changing platforms also costs staff training, approved accessories and spare stock. If a replacement does not add a needed capability or improve the documented support arrangement, those transition costs may buy little practical benefit. Obtain condition and service reports before and after refurbishment; the word “refurbished” cannot describe the work by itself. The historical Aestiva interlock recall concerns specified units and is listed as terminated. That status is not an acceptance certificate for an individual machine. Current support for older Narkomed, Fabius GS, Apollo, Aespire and Aisys systems also needs exact-unit confirmation."
       ],
       [
-        "Choose portability for repeated travel",
-        "Avante Integra SP VSO2’s published 26-pound base can matter when a team repeatedly moves between sites. Pack the complete service on paper first: required ventilation, monitoring, vaporizers, oxygen, connectors, circuits, cases and power provision. The base weight is not the traveling system’s weight. For a permanent hospital, moving a cart once is a different problem. Choose the portable arrangement when the completed kit meets the approved clinical requirement and its repeated transport advantage survives the added equipment. Otherwise, spend on the supported fixed system and its continuity arrangements."
+        "Judge portability by the kit that actually travels",
+        "A team moving between sites has a different problem from a hospital installing a workstation once. Compare the entire proposed traveling setup: the delivery unit, required ventilation and monitoring, vaporizers, oxygen arrangements, connectors, circuits, cases and power provision. Record the packed weights, number of cases and handling needs. A compact base can still leave a substantial load around it. Give portability a purchasing advantage when repeated transport and setup are real constraints and the complete combination meets the approved clinical requirement. Include the cost of replacing a damaged component away from the home workshop. For a permanent theatre, preserving a familiar service route and an accepted configuration may be more valuable than reducing a move that happens only once."
       ]
     ],
     "related": [
       "anesthesia"
     ],
-    "socialTitle": "Buying anesthesia equipment: compare the complete working theatre",
-    "socialDescription": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
-    "socialHeadline": "Buying anesthesia equipment: compare the complete working theatre",
-    "socialStrapline": "The workstation price is only the opening figure.",
+    "socialTitle": "Anesthesia machines: choose for the hospital you actually have",
+    "socialDescription": "Compare UAM, Carestation 620, keeping a supported Aestiva and a complete traveling setup. Spend on the constraint that interrupts surgery, then compare the full installed cost.",
+    "socialHeadline": "Anesthesia machines: choose for the hospital you actually have",
+    "socialStrapline": "A better workstation pays off when the rest of the theatre can use it.",
     "reviewedAt": "2026-10-18",
     "sheet": {
       "id": "anesthesia",
-      "title": "Buying anesthesia equipment: compare the complete working theatre",
-      "summary": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
+      "title": "Anesthesia machines: choose for the hospital you actually have",
+      "summary": "Compare UAM, Carestation 620, keeping a supported Aestiva and a complete traveling setup. Spend on the constraint that interrupts surgery, then compare the full installed cost.",
       "firstChoice": "Compare a complete UAM package for an oxygen-infrastructure gap, a Carestation 620 for a supported conventional OR, and retention of a suitable installed workstation.",
       "upgradeWhen": "The complete configuration removes a documented capability, infrastructure or repair constraint.",
       "budgetWatch": "UAM's published six-hour backup covers the ventilator and vital-sign monitor. Its concentrator needs mains power; room-air fallback does not preserve oxygen-enriched delivery. Fund backup oxygen separately.",
@@ -4845,15 +4824,14 @@ export const researchGuides = [
         "uam-manual",
         "ge",
         "ge-recall",
-        "aestiva-recall",
-        "avante"
+        "aestiva-recall"
       ]
     },
     "research": {
       "id": "anesthesia",
-      "title": "Buying anesthesia equipment: compare the complete working theatre",
-      "dek": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
-      "verdict": "Consider the Gradian UAM where interruption resilience is a priority and the site can maintain the system. Its published six-hour backup covers ventilation and the vital-sign monitor, not oxygen generation; fund backup oxygen and an approved interruption response separately. Choose Carestation 620 where dependable utilities and GE service already exist. Keep an accepted, supportable Aestiva when replacement would add little usable capability. Integra SP VSO2 belongs in a repeatedly transported kit whose ventilation, monitoring and gas arrangements are separately funded.",
+      "title": "Anesthesia machines: choose for the hospital you actually have",
+      "dek": "Compare UAM, Carestation 620, keeping a supported Aestiva and a complete traveling setup. Spend on the constraint that interrupts surgery, then compare the full installed cost.",
+      "verdict": "Shortlist the Gradian UAM where oxygen infrastructure is the constraint and the site can maintain the system. Its published six-hour backup covers ventilation and the vital-sign monitor, not oxygen generation; fund backup oxygen and an approved interruption response separately. Compare Carestation 620 where dependable utilities and GE service already exist. Keep an accepted, supportable Aestiva when replacement adds little usable capability. For repeated travel, assess the packed weight, setup and support of the complete approved kit.",
       "coverage": [
         "Conventional anesthesia workstations",
         "Infrastructure-adapted anesthesia",
@@ -4888,16 +4866,14 @@ export const researchGuides = [
           ]
         },
         {
-          "model": "Avante Integra SP VSO2",
-          "position": "For a complete traveling kit",
-          "bestFor": "A team with a documented transport requirement and a complete anesthesia infrastructure plan",
-          "why": "The manufacturer’s 2025 presentation describes a 26-pound tabletop delivery base. Repeated transport can justify this format.",
-          "tradeoff": "Ventilation, monitoring, oxygen and transport protection must be priced as a complete kit.",
-          "price": "Quote required as of 2026-10-16 for a specified human-use configuration and transport case.",
-          "support": "Confirm approved pairing, intended use and parts access.",
-          "sourceIds": [
-            "avante"
-          ]
+          "model": "Complete portable anesthesia setup",
+          "position": "For repeated travel between sites",
+          "bestFor": "A mobile team whose approved clinical requirement can be met by a fully specified transportable kit",
+          "why": "Lets the buyer compare the packed load and setup of the whole service against a fixed installation.",
+          "tradeoff": "The delivery base alone does not establish complete-kit weight, monitoring, ventilation, gas supply or service access.",
+          "price": "Compare a complete itemized kit, including transport protection and site setup; no model-specific price is asserted.",
+          "support": "Require documented compatibility, intended use, acceptance and a repair route for every critical component.",
+          "sourceIds": []
         },
         {
           "model": "GE Aestiva/5 7900 SmartVent",
@@ -4914,10 +4890,10 @@ export const researchGuides = [
       ],
       "sections": [
         {
-          "heading": "Let the interrupted operating list define the upgrade",
+          "heading": "Start with the reason the operating list stops",
           "paragraphs": [
-            "A new anesthesia machine earns its cost when it removes a real limit: inadequate ventilation capability, unreliable oxygen, unavailable monitoring or a machine that cannot be repaired in time. If the installed workstation remains suitable and supported, keeping it is a serious option. Replacing a familiar machine while leaving the same gas or service problem untouched is an expensive way to preserve the interruption.",
-            "Compare Gradian UAM where oxygen infrastructure is the constraint; compare Carestation 620 where dependable utilities and GE service are already available. These are different purchasing situations. Neither a product-family name nor a supplier’s quality certificate establishes the condition or reliability of the unit offered."
+            "Before comparing machines, look at the cases the hospital cannot complete as planned. Is the limit ventilation capability, oxygen supply, missing monitoring or the time needed to obtain a repair? Each points to a different use of the budget. A new cart is poor value if the same unfunded gas supply or missing module will keep it idle.",
+            "The Gradian UAM belongs on the shortlist where oxygen infrastructure is a central problem. A Carestation 620 can fit an established operating room with dependable utilities and accessible GE service. A suitable installed Aestiva may be worth keeping when its service route is sound. These are purchasing situations to compare, not a ranking of brand reliability."
           ],
           "sourceIds": [
             "uam",
@@ -4926,10 +4902,11 @@ export const researchGuides = [
           ]
         },
         {
-          "heading": "Turn “complete” into a named configuration",
+          "heading": "Price the same working theatre",
           "paragraphs": [
-            "Put two proposed systems beside the same clinical requirement. Identify the workstation and ventilation functions, each vaporizer and agent, gas-analysis module, patient monitor, circuits, scavenging arrangement and gas connections. Separate equipment already owned and approved for reuse from equipment included in the offer. A mounting position or a photograph of a monitor is not an included functioning accessory.",
-            "The comparison can change before any brand ranking is needed. If one offer includes the required gas-analysis module and compatible vaporizer while another supplies only the workstation, add those omissions before comparing totals. Then add installation, training and the first year’s approved supplies. Do the same for ongoing sampling lines, water traps, sensors, absorbent and circuits according to the selected system’s instructions."
+            "Start both offers with the clinical team’s required configuration: ventilation functions, vaporizers and agents, gas analysis, patient monitoring, circuits, scavenging and gas connections. Mark which approved items are already owned, which are supplied and which still need buying. A mounting position or a monitor in a photograph is not an included working accessory.",
+            "Suppose two hypothetical offers meet the same approved requirement once completed. One is US$45,000 for the workstation, US$12,000 for missing modules and US$4,000 for installation: US$61,000 in total. Another is US$54,000 including those modules, plus US$3,000 for installation: US$57,000. The lower headline price costs US$4,000 more to install. These invented figures illustrate the comparison; they are not prices for the named models.",
+            "Next compare ownership over the same service period and expected workload. Add approved consumables, maintenance, repairs, technician travel and backup provision. State whether freight, taxes and training are included. A lower installed total is only the first comparison; an incomplete supply or repair plan can still make it the wrong purchase."
           ],
           "sourceIds": [
             "ge",
@@ -4937,10 +4914,10 @@ export const researchGuides = [
           ]
         },
         {
-          "heading": "Trace what continues working when power fails",
+          "heading": "Check which functions survive a power failure",
           "paragraphs": [
             "Gradian publishes six-hour backup for the UAM ventilator and vital-sign monitor. Its concentrator requires mains electricity; the concentrator’s small alarm battery does not generate oxygen. Room-air fallback does not maintain oxygen-enriched delivery. Backup oxygen and the approved interruption response therefore remain part of the funded service.",
-            "For Carestation, the FDA’s December 2025 communication concerns certain 600/700-series power-management boards that can prevent automatic transfer to battery after AC loss. It is an instruction correction, not a blanket removal of every machine. Require the offered configuration’s applicable correction evidence and manufacturer-directed acceptance checks. A battery fitted to the cart does not, by itself, prove continuity."
+            "For Carestation, the FDA’s December 2025 communication concerns certain 600/700-series power-management boards that can prevent automatic transfer to battery after AC loss. It is an instruction correction, not a blanket removal of every machine. Before acceptance, establish whether the offered unit is affected and require evidence that the applicable manufacturer-directed actions have been addressed. A battery fitted to the cart does not, by itself, prove continuity."
           ],
           "sourceIds": [
             "uam",
@@ -4949,10 +4926,11 @@ export const researchGuides = [
           ]
         },
         {
-          "heading": "Compare retention with the cost of changing platforms",
+          "heading": "Make a fair case for keeping the machine you know",
           "paragraphs": [
-            "For an existing Aestiva/5 7900 SmartVent, compare the next supportable service period with an installed replacement over that same period. Include scheduled work, likely identified repairs, vaporizer servicing, batteries, sensors, technician travel and the approved contingency during downtime. Record the condition as received and the accepted condition after work; a generic “refurbished” label cannot replace those reports.",
-            "A different platform may require new accessories, staff training and additional spare stock. Count that transition before valuing extra features. The historical Aestiva interlock recall is specific to affected units and is listed as terminated; it neither condemns every Aestiva nor proves a particular one is ready. Present support for older Narkomed, Fabius GS, Apollo, Aespire and Aisys systems remains an exact-unit purchasing question."
+            "For an installed Aestiva/5 7900 SmartVent, compare its next supportable service period with an installed replacement over that same period. Include scheduled work, identified repairs, vaporizer servicing, sensors, batteries and the contingency during downtime. Existing ownership is not a reason to keep an unsuitable machine, but neither is age alone a reason to discard useful, supportable equipment.",
+            "Changing platforms also costs staff training, approved accessories and spare stock. If a replacement does not add a needed capability or improve the documented support arrangement, those transition costs may buy little practical benefit. Obtain condition and service reports before and after refurbishment; the word “refurbished” cannot describe the work by itself.",
+            "The historical Aestiva interlock recall concerns specified units and is listed as terminated. That status is not an acceptance certificate for an individual machine. Current support for older Narkomed, Fabius GS, Apollo, Aespire and Aisys systems also needs exact-unit confirmation."
           ],
           "sourceIds": [
             "aestiva-recall",
@@ -4960,14 +4938,12 @@ export const researchGuides = [
           ]
         },
         {
-          "heading": "Choose portability for repeated travel",
+          "heading": "Judge portability by the kit that actually travels",
           "paragraphs": [
-            "Avante Integra SP VSO2’s published 26-pound base can matter when a team repeatedly moves between sites. Pack the complete service on paper first: required ventilation, monitoring, vaporizers, oxygen, connectors, circuits, cases and power provision. The base weight is not the traveling system’s weight.",
-            "For a permanent hospital, moving a cart once is a different problem. Choose the portable arrangement when the completed kit meets the approved clinical requirement and its repeated transport advantage survives the added equipment. Otherwise, spend on the supported fixed system and its continuity arrangements."
+            "A team moving between sites has a different problem from a hospital installing a workstation once. Compare the entire proposed traveling setup: the delivery unit, required ventilation and monitoring, vaporizers, oxygen arrangements, connectors, circuits, cases and power provision. Record the packed weights, number of cases and handling needs. A compact base can still leave a substantial load around it.",
+            "Give portability a purchasing advantage when repeated transport and setup are real constraints and the complete combination meets the approved clinical requirement. Include the cost of replacing a damaged component away from the home workshop. For a permanent theatre, preserving a familiar service route and an accepted configuration may be more valuable than reducing a move that happens only once."
           ],
-          "sourceIds": [
-            "avante"
-          ]
+          "sourceIds": []
         }
       ],
       "ownership": {
@@ -4990,7 +4966,7 @@ export const researchGuides = [
         "No comparative field failure rates establish a reliability winner.",
         "Complete installed prices and destination service eligibility remain transaction-specific.",
         "Current support for older platforms must be confirmed by exact model, configuration and unit.",
-        "Published portable-base information does not establish a complete approved traveling anesthesia service."
+        "A portable arrangement must be assessed as an exact complete configuration; no portable model, kit weight or market price is endorsed here."
       ],
       "sources": [
         {
@@ -5000,7 +4976,7 @@ export const researchGuides = [
           "publisher": "Gradian Health",
           "kind": "manufacturer",
           "accessed": "2026-10-18",
-          "evidence": "Integrated concentrator, electrically driven ventilator and stated battery backup; package and quote pathway."
+          "evidence": "Manufacturer product page re-read 2026-10-18: integrated concentrator, electrically driven ventilator and separate six-hour ventilator/vital-sign-monitor battery statements. Oxygen-generation power dependency remains supported by the previously read user manual."
         },
         {
           "id": "ge",
@@ -5009,7 +4985,7 @@ export const researchGuides = [
           "publisher": "GE HealthCare",
           "kind": "manufacturer",
           "accessed": "2026-10-18",
-          "evidence": "Current conventional-workstation features and documentation."
+          "evidence": "Manufacturer Carestation 620 page re-read 2026-10-18: compact conventional workstation, guided checkout and modular respiratory monitoring. No comparative reliability or destination service eligibility inferred."
         },
         {
           "id": "ge-recall",
@@ -5018,16 +4994,7 @@ export const researchGuides = [
           "publisher": "FDA",
           "kind": "regulator",
           "accessed": "2026-10-18",
-          "evidence": "December 2025 Class I instruction correction for certain 600/700-series power boards and AC-loss shutdown risk."
-        },
-        {
-          "id": "avante",
-          "title": "Integra SP VSO2 first-party introduction",
-          "url": "https://avantehs.com/learn/expert-advice/intro-to-the-integra-sp-vso2",
-          "publisher": "Avante Health Solutions",
-          "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "2025 description of 26-pound tabletop delivery system, Selectatec mount and carrying arrangements."
+          "evidence": "FDA correction page re-read 2026-10-18, including affected products, board/AC-loss issue, actions and December 2025 classification dates. Correction of instructions is not blanket device removal or proof that an offered unit is unaffected."
         },
         {
           "id": "aestiva-recall",
@@ -5037,15 +5004,6 @@ export const researchGuides = [
           "kind": "regulator",
           "accessed": "2026-10-16",
           "evidence": "2012 recall affecting specified serials with missing three-vaporizer manifold interlock; listed as terminated."
-        },
-        {
-          "id": "draeger",
-          "title": "Regional Fabius Tiro D-M lifecycle page",
-          "url": "https://www.draeger.com/en_sa/Products/Fabius-Tiro-D-M",
-          "publisher": "Dräger",
-          "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "Saudi regional page labels this exact variant End of Sales; not a global statement about all Tiro models."
         },
         {
           "id": "uam-manual",
@@ -5083,20 +5041,20 @@ export const researchGuides = [
           "bestFit": "Retention within a maintained fleet that already meets the service's needs."
         },
         {
-          "option": "Avante Integra SP VSO2",
-          "capability": "26-pound tabletop delivery base; complete ventilation and monitoring must be specified.",
-          "costDriver": "The equipment and gas supply needed to complete the portable kit.",
-          "bestFit": "Repeated travel between sites with a funded complete operating setup."
+          "option": "Complete portable setup",
+          "capability": "A proposed transportable combination assessed against the clinical requirement.",
+          "costDriver": "Complete packed kit, protective cases, destination setup and repairs away from base.",
+          "bestFit": "Repeated travel where the complete approved setup is practical to transport."
         }
       ],
       "social": {
-        "title": "Buying anesthesia equipment: compare the complete working theatre",
-        "description": "UAM, Carestation 620, a supported Aestiva or a portable base? Choose the package that solves your service’s actual constraint without leaving monitoring, gases or repairs unfunded.",
-        "hook": "The workstation price is only the opening figure."
+        "title": "Anesthesia machines: choose for the hospital you actually have",
+        "description": "Compare UAM, Carestation 620, keeping a supported Aestiva and a complete traveling setup. Spend on the constraint that interrupts surgery, then compare the full installed cost.",
+        "hook": "A better workstation pays off when the rest of the theatre can use it."
       },
       "researchedAt": "2026-10-18"
     },
-    "searchTerms": "Buying anesthesia equipment: compare the complete working theatre Conventional anesthesia workstations Infrastructure-adapted anesthesia Portable/tabletop systems Legacy inspection, service and recalls Gradian Universal Anesthesia Machine (UAM) GE HealthCare Carestation 620 Avante Integra SP VSO2 GE Aestiva/5 7900 SmartVent",
+    "searchTerms": "Anesthesia machines: choose for the hospital you actually have Conventional anesthesia workstations Infrastructure-adapted anesthesia Portable/tabletop systems Legacy inspection, service and recalls Gradian Universal Anesthesia Machine (UAM) GE HealthCare Carestation 620 Complete portable anesthesia setup GE Aestiva/5 7900 SmartVent",
     "librarySection": "equipment"
   },
   {
@@ -5174,8 +5132,7 @@ export const researchGuides = [
         "fuji",
         "pentax",
         "matrix",
-        "steris-p6700-ifu",
-        "dealer"
+        "steris-p6700-ifu"
       ]
     },
     "research": {
@@ -5200,8 +5157,7 @@ export const researchGuides = [
           "support": "Confirm repair acceptance and support horizon for each offered serial number.",
           "sourceIds": [
             "olympus",
-            "olympus-brochure",
-            "dealer"
+            "olympus-brochure"
           ]
         },
         {
@@ -5295,7 +5251,6 @@ export const researchGuides = [
             "Compare installed capital, recurring processing supplies, repairs and continuity over one service period. There is no verified universal price or reliability winner among these brands. Favor the package that keeps the required examinations available within a funded workflow. If neither the fleet nor its processing can be sustained, phase the service around a feasible workload instead of buying an incomplete room."
           ],
           "sourceIds": [
-            "dealer",
             "matrix"
           ]
         }
@@ -5319,7 +5274,7 @@ export const researchGuides = [
       ],
       "gaps": [
         "No current destination-specific manufacturer support commitment or head-to-head reliability dataset established.",
-        "No verified numeric complete-system price; online processor listings did not supply a complete comparable offer.",
+        "No verified numeric complete-system price is established; compare configured tower, scope-fleet and support offers.",
         "No current CV-160/EPK-1000 lifecycle statement verified.",
         "Exact proposed scope/reprocessor combinations remain to be validated."
       ],
@@ -5330,8 +5285,8 @@ export const researchGuides = [
           "url": "https://www.medical.olympusamerica.com/products/evis-exera-endoscopy",
           "publisher": "Olympus",
           "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "CV-190/CLV-190 platform and named GI scope features."
+          "accessed": "2026-10-18",
+          "evidence": "Direct platform page re-read, including named gastroscope/colonoscope families and CV-190/CLV-190 pairing. Supports platform identity; not current serial-specific repair acceptance or remaining support duration."
         },
         {
           "id": "olympus-brochure",
@@ -5359,15 +5314,6 @@ export const researchGuides = [
           "kind": "manufacturer",
           "accessed": "2026-10-16",
           "evidence": "i10c scope pairing, distal-tip LED architecture, 1080p output and documentation features."
-        },
-        {
-          "id": "dealer",
-          "title": "Refurbished CV-190 and CLV-190 listing",
-          "url": "https://shop.victorimedical.com/products/olympus-cv-190-and-clv-190-evis-exera-iii-video-system-refurbished",
-          "publisher": "Victori Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "First-party refurbished listing; no verified numerical configured offer retrieved."
         },
         {
           "id": "steris",
@@ -5479,7 +5425,7 @@ export const researchGuides = [
     "sections": [
       [
         "Keep the refurbished saving in perspective",
-        "A refurbished Force FX can be a sensible routine-OR purchase when the hospital already has compatible approved accessories, competent support and a unit that passes the required output and electrical checks. Victori Medical’s October 16, 2026 listing offered a certified-refurbished Force FX for US$3,195 with a stated 90-day warranty. Treat that as a dated seller offer, not the cost of a completed room or a prediction of remaining service life. Compare the installed package with a new IDS-310: generator, required controls and accessories, commissioning, repair freight and usable backup. A short warranty can be valuable locally yet awkward after export if the buyer funds transport both ways. A higher new-system price is justified when its actual service terms reduce that exposure; a new label alone does not prove lower failure rates."
+        "A refurbished Force FX can be a sensible routine-OR purchase when the hospital already has compatible approved accessories, competent support and a unit that passes the required output and electrical checks. Historical primary documentation identifies its monopolar and bipolar surgical role. It does not establish what condition a particular used generator is in, which accessories come with it or who will repair it. Compare the installed package with a new IDS-310: generator, required controls and accessories, commissioning, repair freight and usable backup. A short warranty can be valuable locally yet awkward after export if the buyer funds transport both ways. A higher new-system price is justified when its actual service terms reduce that exposure; a new label alone does not prove lower failure rates. For an original hypothetical comparison, a US$3,000 used generator needing US$1,200 of accessories and US$800 of delivery and acceptance reaches US$5,000. A US$6,400 complete new package leaves a US$1,400 initial premium. These invented figures are not Force FX or IDS-310 prices. Decide what that premium actually buys in support and continuity; do not turn it into an assumed failure-rate advantage."
       ],
       [
         "An accessory catalogue is not the contents of the box",
@@ -5491,7 +5437,7 @@ export const researchGuides = [
       ],
       [
         "Give the office procedure its own shortlist",
-        "Hyfrecator 2000 is a focused office option within its labeled scope, rather than a substitute for every general surgical generator. The dated MFI offer is for 115 V model 7-900-115; bipolar accessories and a foot control can change the completed price. Electrical version, required functions and replenishable tips matter more than comparing its power rating with a full OR platform. Keep a supported Force FX when it performs the required job and its repair plan works. Move to IDS-310 when the completed new-system offer improves continuity at a defensible cost. Fund FT10 when the advanced instrument capability has a defined use and a recurring budget. These choices follow the work and supply chain, without pretending the evidence identifies a universal reliability winner."
+        "Hyfrecator 2000 is a focused office option within its labeled scope, rather than a substitute for every general surgical generator. The manufacturer lists distinct supply-voltage versions, including 7-900-115 for 115 V and 7-900-230 for 230–240 V. The right electrical version and required accessories belong in the first price comparison; a low basic-unit price is of little use if the completed package will not suit the site. Keep a supported Force FX when it performs the required job and its repair plan works. Move to IDS-310 when the completed new-system offer improves continuity at a defensible cost. Fund FT10 when the advanced instrument capability has a defined use and a recurring budget. These choices follow the work and supply chain, without pretending the evidence identifies a universal reliability winner."
       ]
     ],
     "related": [
@@ -5508,7 +5454,7 @@ export const researchGuides = [
       "summary": "Compare Force FX, IDS-310, Hyfrecator 2000 and FT10 by the procedures they support, the accessories supplied and the continuing instrument bill.",
       "firstChoice": "List the procedures and compatible instruments the team intends to use. Separate the office Hyfrecator requirement from general OR cut/coagulation and advanced vessel sealing.",
       "upgradeWhen": "A new IDS-310 reduces a documented repair dependency, or FT10 enables a needed instrument capability whose continuing supply is funded.",
-      "budgetWatch": "A generator price can omit pedals, pencils, forceps and return electrodes. Include smoke evacuation and supplies. Confirm voltage; the reviewed Hyfrecator seller package was specifically 115 V.",
+      "budgetWatch": "A generator price can omit pedals, pencils, forceps and return electrodes. Include smoke evacuation and supplies. Confirm voltage: CONMED lists separate 100, 115, 220 and 230–240 V Hyfrecator 2000 versions.",
       "supportCheck": "A cheap generator has no serial-specific testing or service scope, an incomplete accessory set, or an advanced instrument supply the hospital cannot replenish.",
       "askSupplier": [
         "Which generator suffix, voltage, modes and pedals are supplied?",
@@ -5516,10 +5462,10 @@ export const researchGuides = [
         "What is the recurring instrument cost for our intended advanced-energy cases?"
       ],
       "sourceIds": [
-        "fx-price",
+        "fx-regulatory",
         "bovie",
         "hyf",
-        "hyf-price",
+        "hyf-platform",
         "ft10"
       ]
     },
@@ -5541,10 +5487,10 @@ export const researchGuides = [
           "bestFor": "Routine operating-room use with a tested unit and established repair access",
           "why": "A documented refurbished unit can make economic sense where the hospital already owns approved compatible accessories and can obtain practical repairs.",
           "tradeoff": "Refurbishment quality varies by serial; age and a familiar name do not establish output accuracy or remaining service life. Confirm the actual model suffix, voltage and included pedals.",
-          "price": "Victori Medical displayed US$3,195 on 2026-10-16 for its certified-refurbished Force FX listing, with a stated 90-day warranty. This is that seller’s offer, not a market average or delivered mission package; accessory inclusions and international warranty need written confirmation.",
-          "support": "Seller refurbishment and warranty statements were published. Current OEM service commitment at the destination was not confirmed.",
+          "price": "Request a serial-specific refurbished package price, including the required accessories, acceptance testing and delivery. No verified manufacturer-direct refurbished offer is established.",
+          "support": "Historical primary documentation establishes the platform’s role. Current OEM repair acceptance, independent repair scope, parts and any warranty require confirmation for the offered unit.",
           "sourceIds": [
-            "fx-price"
+            "fx-regulatory"
           ]
         },
         {
@@ -5560,16 +5506,16 @@ export const researchGuides = [
           ]
         },
         {
-          "model": "CONMED Hyfrecator 2000, 7-900-115",
+          "model": "CONMED Hyfrecator 2000, voltage variant specified",
           "position": "Office shortlist",
           "bestFor": "The office-procedure role specifically supported by its instructions",
           "why": "Monopolar and bipolar functions with fine low-power adjustment suit the office-procedure scope in its instructions. Its focused role should determine the accessory basket.",
-          "tradeoff": "The 115 V seller configuration is not appropriate for every destination supply. Bipolar forceps, foot control and other accessories can add materially to the basic package. Do not assume it replaces a general cut/coag generator.",
-          "price": "MFI Medical displayed US$1,035.90 on 2026-10-16 for factory-new 7-900-115. Listed contents include hand-switching pencil, wall mount and small starter quantities of nonsterile tips; freight/export, extra electrodes and bipolar accessories require confirmation.",
-          "support": "Current CONMED manual and product materials exist. MFI lists a one-year warranty; applicability overseas and any extension must be confirmed with the actual seller.",
+          "tradeoff": "CONMED lists separate 100, 115, 220 and 230–240 V versions. Select for the destination supply; include the required bipolar accessories and foot control. Do not assume it replaces a general cut/coag generator.",
+          "price": "No public manufacturer-direct price was established on October 18, 2026. Price the correct voltage version with the required controls, electrodes, smoke-control supplies and delivery.",
+          "support": "CONMED publishes the product, accessories and operator resources. Confirm destination service and warranty terms for the exact supplied configuration.",
           "sourceIds": [
             "hyf",
-            "hyf-price"
+            "hyf-platform"
           ]
         },
         {
@@ -5589,11 +5535,12 @@ export const researchGuides = [
         {
           "heading": "Keep the refurbished saving in perspective",
           "paragraphs": [
-            "A refurbished Force FX can be a sensible routine-OR purchase when the hospital already has compatible approved accessories, competent support and a unit that passes the required output and electrical checks. Victori Medical’s October 16, 2026 listing offered a certified-refurbished Force FX for US$3,195 with a stated 90-day warranty. Treat that as a dated seller offer, not the cost of a completed room or a prediction of remaining service life.",
-            "Compare the installed package with a new IDS-310: generator, required controls and accessories, commissioning, repair freight and usable backup. A short warranty can be valuable locally yet awkward after export if the buyer funds transport both ways. A higher new-system price is justified when its actual service terms reduce that exposure; a new label alone does not prove lower failure rates."
+            "A refurbished Force FX can be a sensible routine-OR purchase when the hospital already has compatible approved accessories, competent support and a unit that passes the required output and electrical checks. Historical primary documentation identifies its monopolar and bipolar surgical role. It does not establish what condition a particular used generator is in, which accessories come with it or who will repair it.",
+            "Compare the installed package with a new IDS-310: generator, required controls and accessories, commissioning, repair freight and usable backup. A short warranty can be valuable locally yet awkward after export if the buyer funds transport both ways. A higher new-system price is justified when its actual service terms reduce that exposure; a new label alone does not prove lower failure rates.",
+            "For an original hypothetical comparison, a US$3,000 used generator needing US$1,200 of accessories and US$800 of delivery and acceptance reaches US$5,000. A US$6,400 complete new package leaves a US$1,400 initial premium. These invented figures are not Force FX or IDS-310 prices. Decide what that premium actually buys in support and continuity; do not turn it into an assumed failure-rate advantage."
           ],
           "sourceIds": [
-            "fx-price",
+            "fx-regulatory",
             "bovie"
           ]
         },
@@ -5623,13 +5570,13 @@ export const researchGuides = [
         {
           "heading": "Give the office procedure its own shortlist",
           "paragraphs": [
-            "Hyfrecator 2000 is a focused office option within its labeled scope, rather than a substitute for every general surgical generator. The dated MFI offer is for 115 V model 7-900-115; bipolar accessories and a foot control can change the completed price. Electrical version, required functions and replenishable tips matter more than comparing its power rating with a full OR platform.",
+            "Hyfrecator 2000 is a focused office option within its labeled scope, rather than a substitute for every general surgical generator. The manufacturer lists distinct supply-voltage versions, including 7-900-115 for 115 V and 7-900-230 for 230–240 V. The right electrical version and required accessories belong in the first price comparison; a low basic-unit price is of little use if the completed package will not suit the site.",
             "Keep a supported Force FX when it performs the required job and its repair plan works. Move to IDS-310 when the completed new-system offer improves continuity at a defensible cost. Fund FT10 when the advanced instrument capability has a defined use and a recurring budget. These choices follow the work and supply chain, without pretending the evidence identifies a universal reliability winner."
           ],
           "sourceIds": [
             "hyf",
-            "hyf-price",
-            "fx-price",
+            "hyf-platform",
+            "fx-regulatory",
             "bovie",
             "ft10"
           ]
@@ -5653,19 +5600,10 @@ export const researchGuides = [
       ],
       "gaps": [
         "No comparative field reliability or remaining-life estimates established.",
-        "Current manufacturer repair support for Force FX and A2350 not confirmed.",
+        "Current manufacturer repair support for Force FX not confirmed.",
         "New IDS-310 and FT10 complete-package pricing remains quote-dependent."
       ],
       "sources": [
-        {
-          "id": "fx-price",
-          "title": "Force FX certified-refurbished offer",
-          "url": "https://shop.victorimedical.com/products/valleylab-force-fx-refurbished",
-          "publisher": "Victori Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "US$3,195 asking price, certified-refurbished condition and seller-stated 90-day warranty on access date."
-        },
         {
           "id": "bovie",
           "title": "Bovie IDS-310 product and service resources",
@@ -5685,15 +5623,6 @@ export const researchGuides = [
           "evidence": "Modes, accessories, inspections, single-use restrictions and smoke-removal cautions."
         },
         {
-          "id": "hyf-price",
-          "title": "Factory-new Hyfrecator 2000 7-900-115 offer",
-          "url": "https://mfimedical.com/products/conmed-hyfrecator-2000",
-          "publisher": "MFI Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "US$1,035.90, factory-new 115 V package, listed contents and seller warranty."
-        },
-        {
           "id": "ft10",
           "title": "Valleylab FT10 human-use energy platform",
           "url": "https://www.medtronic.com/en-ca/healthcare-professionals/products/surgical-energy/electrosurgical-hardware/electrosurgical-generators-monitors/valleylab-ft10-energy-platform.html",
@@ -5701,6 +5630,25 @@ export const researchGuides = [
           "kind": "manufacturer",
           "accessed": "2026-10-18",
           "evidence": "Human-use VLFT10GEN, LigaSure and software-update resources; regional availability qualification."
+        },
+        {
+          "id": "fx-regulatory",
+          "title": "Force FX generators: indications and 510(k) summary, K143161",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf14/K143161.pdf",
+          "publisher": "FDA / Covidien",
+          "kind": "regulatory filing",
+          "published": "2014-12-19",
+          "accessed": "2026-10-18",
+          "evidence": "Five-page filing read, including indications and manufacturer summary. Establishes historical monopolar/bipolar cutting and coagulation role and model variations; not current service availability, offered-unit condition, warranty or remaining-life evidence."
+        },
+        {
+          "id": "hyf-platform",
+          "title": "Hyfrecator 2000 product, voltage variants and accessories",
+          "url": "https://www.conmed.com/en/Products/Electrosurgical-Units/electrosurgical-units/the-hyfrecator-2000-electrosurgical-system",
+          "publisher": "CONMED",
+          "kind": "manufacturer",
+          "accessed": "2026-10-18",
+          "evidence": "Product description and capital-unit/accessory SKU lists read. Confirms monopolar/bipolar office role and 100, 115, 220 and 230–240 V variants. No public price or complete destination package established."
         }
       ],
       "decision": {
@@ -5713,7 +5661,7 @@ export const researchGuides = [
         {
           "option": "Valleylab Force FX",
           "capability": "Routine OR electrosurgery, subject to exact version, condition and approved accessories.",
-          "costDriver": "US$3,195 seller offer dated October 16, 2026; accessories, repairs and export warranty logistics add cost.",
+          "costDriver": "Complete approved accessories, acceptance testing, repair access and freight; compare these with the installed new-system package.",
           "bestFit": "A supported routine service, especially one retaining compatible equipment."
         },
         {
@@ -5723,9 +5671,9 @@ export const researchGuides = [
           "bestFit": "A hospital gaining practical value from the available new-equipment service package."
         },
         {
-          "option": "Hyfrecator 2000, 7-900-115",
+          "option": "Hyfrecator 2000, voltage variant specified",
           "capability": "Office monopolar/bipolar functions with fine low-power control.",
-          "costDriver": "US$1,035.90 seller offer dated October 16, 2026 for the new 115 V version; extra accessories and smoke evacuation add cost.",
+          "costDriver": "Correct voltage version, required controls and electrodes, smoke evacuation and replenishment.",
           "bestFit": "Office work within its intended use, with the correct electrical supply."
         },
         {
@@ -5742,7 +5690,7 @@ export const researchGuides = [
       },
       "researchedAt": "2026-10-18"
     },
-    "searchTerms": "Electrosurgery: the generator price is only the first bill General monopolar/bipolar electrosurgery Office electrosurgery Advanced vessel sealing Approved accessories, electrical testing and smoke evacuation Valleylab Force FX Bovie IDS-310 300W Electrosurgical Generator CONMED Hyfrecator 2000, 7-900-115 Medtronic Valleylab FT10, VLFT10GEN",
+    "searchTerms": "Electrosurgery: the generator price is only the first bill General monopolar/bipolar electrosurgery Office electrosurgery Advanced vessel sealing Approved accessories, electrical testing and smoke evacuation Valleylab Force FX Bovie IDS-310 300W Electrosurgical Generator CONMED Hyfrecator 2000, voltage variant specified Medtronic Valleylab FT10, VLFT10GEN",
     "librarySection": "equipment"
   },
   {
@@ -5779,7 +5727,7 @@ export const researchGuides = [
       ],
       [
         "Do not order blades by the display’s family name",
-        "Verathon distinguishes Go 2, using Spectrum QC eco and Spectrum QC single-use blades, from the earlier Go, using Spectrum blades. Its product page also identifies different video-baton arrangements. Specify the exact display and compatible patient-contact components together; a mixed-generation lot can require another supply basket rather than supplying inexpensive spare blades. Go 2’s published operation time is a manufacturer claim for the product, not measured endurance of an offered used battery. Runtime per charge, time to recharge and battery service life are three different quantities. Compare them separately against the service’s readiness routine, without treating a charge-cycle count as if it were minutes of operation. Public asking prices are similarly incomplete. Denova’s October 16, 2026 catalog showed US$3,500 for McGRATH 301-000-000; Bell listed CoPilot at US$3,975. Included blades, power components, condition and destination terms were not established as equivalent. Complete those baskets before calling one offer cheaper."
+        "Verathon distinguishes Go 2, using Spectrum QC eco and Spectrum QC single-use blades, from the earlier Go, using Spectrum blades. Its product page also identifies different video-baton arrangements. Specify the exact display and compatible patient-contact components together; a mixed-generation lot can require another supply basket rather than supplying inexpensive spare blades. Go 2’s published operation time is a manufacturer claim for the product, not measured endurance of an offered used battery. Runtime per charge, time to recharge and battery service life are three different quantities. Compare them separately against the service’s readiness routine, without treating a charge-cycle count as if it were minutes of operation. Make the first-year basket visible. In an original hypothetical comparison, a US$3,200 handle with US$600 of power and starter supplies costs US$3,800 before replenishment; a US$3,700 kit that includes those same items begins US$100 lower. Neither figure is a product price. Carry the comparison through the same procedure volume, including blades by size, replacement power and backup, before deciding which package is cheaper."
       ],
       [
         "A quiet flexible-scope service has a different cost problem",
@@ -5787,7 +5735,7 @@ export const researchGuides = [
       ],
       [
         "Provenance can decide a seemingly good offer",
-        "The FDA’s 2024 McGRATH action removes specified serials of older 300-000-000 and 300-200-000 handles, while 301-000-000 receives updated battery instructions. A separate 2023 action concerns defective next-generation units stolen before destruction and sold through unauthorized channels. The newer model number alone therefore does not clear an offer: verify provenance, serial identity and applicable actions. King Vision’s December 2023 manufacturer communication describes component discontinuations and a phased depletion of remaining products. That is a reason to avoid new standardization without a credible finite-supply plan, rather than proof that every item is currently unavailable. Keep CoPilot conditional on documented supply and service as well. A reachable repair route and confirmed compatible stock are decision evidence; neither establishes comparative clinical success or field reliability."
+        "The FDA’s 2024 McGRATH action removes specified serials of older 300-000-000 and 300-200-000 handles, while 301-000-000 receives updated battery instructions. A separate 2023 action concerns defective next-generation units stolen before destruction and sold through unauthorized channels. The newer model number alone therefore does not clear an offer: verify provenance, serial identity and applicable actions. A ready kit needs a continuing supply plan as well as an acceptable handle. Before adding another display to an older fleet, establish how the required blades, batteries and repair parts will be replenished. Stock already on the shelf has a finite useful quantity and, where applicable, expiry. A reachable repair route and confirmed compatible supplies support a purchasing decision; they do not establish comparative clinical success or field reliability."
       ]
     ],
     "related": [
@@ -5817,15 +5765,14 @@ export const researchGuides = [
         "ambu",
         "lfgp",
         "mcgrath-recall",
-        "mcgrath-stolen",
-        "king"
+        "mcgrath-stolen"
       ]
     },
     "research": {
       "id": "airway",
       "title": "Buying airway equipment: the next blade matters as much as the handle",
       "dek": "Compare McGRATH, GlideScope and flexible-scope packages by blade compatibility, power, processing and the supplies that keep the kit ready.",
-      "verdict": "For a compact video kit, favor McGRATH MAC 301-000-000 where approved replacement batteries and blades are dependable; favor GlideScope Go 2 where charging and battery service are better supported. For intermittent flexible-scope work, compare the complete aScope 4 Broncho/aView 2 Advance supply plan with maintaining an existing LF-GP. Keep a sound LF-GP in a functioning reusable-scope service. King Vision's documented phase-out makes it a weak foundation for new standardization.",
+      "verdict": "For a compact video kit, favor McGRATH MAC 301-000-000 where approved replacement batteries and blades are dependable; favor GlideScope Go 2 where charging and battery service are better supported. For intermittent flexible-scope work, compare the complete aScope 4 Broncho/aView 2 Advance supply plan with maintaining an existing LF-GP. Keep a sound LF-GP in a functioning reusable-scope service.",
       "coverage": [
         "Compact video laryngoscopes",
         "Reusable flexible intubation scopes",
@@ -5841,11 +5788,10 @@ export const researchGuides = [
           "bestFor": "A portable kit with predictable access to approved blades and replacement batteries.",
           "why": "The current platform uses single-use blades and an integrated display; this limits the amount of patient-contact hardware requiring reuse. Standardizing one handle and an appropriate size range can make stock control practical.",
           "tradeoff": "Its proprietary battery and recurring blades remain dependencies. The 2024 action treated older handles differently from this model, while battery-handling instructions still matter.",
-          "price": "Denova Medical displayed US$3,500 for Enhanced McGRATH MAC, part 301-000-000, accessed 2026-10-16. Condition, battery/blade quantities, warranty, taxes and delivery were not established by the catalog listing; request an itemized package.",
-          "support": "Current Medtronic product and safety information were opened. A local service agreement and this seller's authorized provenance were not confirmed.",
+          "price": "Request a complete price for the exact 301-000-000 handle, approved battery, required blade sizes, backup provision and delivery. No verified manufacturer-direct public package price is established.",
+          "support": "Medtronic product and safety information are available. Verify the offered serial’s lawful provenance, applicable corrective actions and destination service before purchase.",
           "sourceIds": [
             "mcgrath",
-            "mcgrath-price",
             "mcgrath-recall",
             "mcgrath-stolen"
           ]
@@ -5885,18 +5831,6 @@ export const researchGuides = [
           "sourceIds": [
             "lfgp"
           ]
-        },
-        {
-          "model": "Magaw CoPilot VL",
-          "position": "Conditional legacy alternative",
-          "bestFor": "An existing CoPilot service or a buyer offered a documented supported package.",
-          "why": "Bell Medical lists the device and its introducer ecosystem, preserving a conditional comparison where a complete supported package can be documented.",
-          "tradeoff": "Dealer marketing is not comparative clinical evidence. Current manufacturer support duration, replacement blade supply and exact supplied configuration remain open.",
-          "price": "Bell Medical's opened category page displayed US$3,975 for CoPilot Video Laryngoscope on 2026-10-16. Included components, warranty, export delivery and stock were not verified; do not compare this directly with a bare handle price.",
-          "support": "Seller listing verified; current manufacturer production and regional service not confirmed.",
-          "sourceIds": [
-            "copilot"
-          ]
         }
       ],
       "sections": [
@@ -5918,12 +5852,10 @@ export const researchGuides = [
           "paragraphs": [
             "Verathon distinguishes Go 2, using Spectrum QC eco and Spectrum QC single-use blades, from the earlier Go, using Spectrum blades. Its product page also identifies different video-baton arrangements. Specify the exact display and compatible patient-contact components together; a mixed-generation lot can require another supply basket rather than supplying inexpensive spare blades.",
             "Go 2’s published operation time is a manufacturer claim for the product, not measured endurance of an offered used battery. Runtime per charge, time to recharge and battery service life are three different quantities. Compare them separately against the service’s readiness routine, without treating a charge-cycle count as if it were minutes of operation.",
-            "Public asking prices are similarly incomplete. Denova’s October 16, 2026 catalog showed US$3,500 for McGRATH 301-000-000; Bell listed CoPilot at US$3,975. Included blades, power components, condition and destination terms were not established as equivalent. Complete those baskets before calling one offer cheaper."
+            "Make the first-year basket visible. In an original hypothetical comparison, a US$3,200 handle with US$600 of power and starter supplies costs US$3,800 before replenishment; a US$3,700 kit that includes those same items begins US$100 lower. Neither figure is a product price. Carry the comparison through the same procedure volume, including blades by size, replacement power and backup, before deciding which package is cheaper."
           ],
           "sourceIds": [
-            "go2",
-            "mcgrath-price",
-            "copilot"
+            "go2"
           ]
         },
         {
@@ -5942,13 +5874,11 @@ export const researchGuides = [
           "heading": "Provenance can decide a seemingly good offer",
           "paragraphs": [
             "The FDA’s 2024 McGRATH action removes specified serials of older 300-000-000 and 300-200-000 handles, while 301-000-000 receives updated battery instructions. A separate 2023 action concerns defective next-generation units stolen before destruction and sold through unauthorized channels. The newer model number alone therefore does not clear an offer: verify provenance, serial identity and applicable actions.",
-            "King Vision’s December 2023 manufacturer communication describes component discontinuations and a phased depletion of remaining products. That is a reason to avoid new standardization without a credible finite-supply plan, rather than proof that every item is currently unavailable. Keep CoPilot conditional on documented supply and service as well. A reachable repair route and confirmed compatible stock are decision evidence; neither establishes comparative clinical success or field reliability."
+            "A ready kit needs a continuing supply plan as well as an acceptable handle. Before adding another display to an older fleet, establish how the required blades, batteries and repair parts will be replenished. Stock already on the shelf has a finite useful quantity and, where applicable, expiry. A reachable repair route and confirmed compatible supplies support a purchasing decision; they do not establish comparative clinical success or field reliability."
           ],
           "sourceIds": [
             "mcgrath-recall",
-            "mcgrath-stolen",
-            "king",
-            "copilot"
+            "mcgrath-stolen"
           ]
         }
       ],
@@ -5982,22 +5912,13 @@ export const researchGuides = [
           "evidence": "Current next-generation platform, proprietary battery and single-use blade range."
         },
         {
-          "id": "mcgrath-price",
-          "title": "McGRATH catalog with part numbers and prices",
-          "url": "https://www.denovamedical.com/laryngoscope",
-          "publisher": "Denova Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Opened body displayed Enhanced 301-000-000 at $3,500; package terms not established."
-        },
-        {
           "id": "go2",
           "title": "GlideScope Go 2",
           "url": "https://www.verathon.com/glidescope-visualization-systems/glidescope-go?frm=vb-fmly",
           "publisher": "Verathon",
           "kind": "manufacturer",
           "accessed": "2026-10-18",
-          "evidence": "Rechargeable operation up to 100 minutes and IP67; specifications are not comparative durability data."
+          "evidence": "Manufacturer comparison read again: Go 2 uses Spectrum QC eco/Spectrum QC; earlier Go uses Spectrum. Distinct video-baton arrangements and published runtime are product specifications, not comparative durability evidence."
         },
         {
           "id": "ambu",
@@ -6034,24 +5955,6 @@ export const researchGuides = [
           "kind": "regulator",
           "accessed": "2026-10-18",
           "evidence": "2023 notice identifies unauthorized distribution of defective next-generation devices."
-        },
-        {
-          "id": "king",
-          "title": "King Vision December 2023 customer communication",
-          "url": "https://www.medline.com/media/assets/pdf/vendor-list/King-Vision-Video-Laryngoscope-Customer-Communication-December-2023.pdf",
-          "publisher": "Ambu, hosted by Medline",
-          "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "Component discontinuations; some codes immediately unavailable and remaining portfolio phased out as inventory depletes."
-        },
-        {
-          "id": "copilot",
-          "title": "Video laryngoscopy catalog",
-          "url": "https://bellmedical.com/airway-management/video-laryngoscopes",
-          "publisher": "Bell Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Opened body lists CoPilot VL at $3,975 and related accessories; not manufacturer support confirmation."
         }
       ],
       "decision": {
@@ -6064,7 +5967,7 @@ export const researchGuides = [
         {
           "option": "McGRATH MAC 301-000-000",
           "capability": "Compact integrated display with single-use blades.",
-          "costDriver": "Proprietary battery and blades; US$3,500 catalog example dated October 16, 2026 has unconfirmed contents.",
+          "costDriver": "Approved replacement batteries, blades by size, backup provision and delivery; price the complete ready kit.",
           "bestFit": "Portable work with dependable approved battery and blade supplies."
         },
         {
@@ -6084,12 +5987,6 @@ export const researchGuides = [
           "capability": "Reusable portable tracheal intubation fiberscope.",
           "costDriver": "Condition, leak testing, validated processing/storage, repairs and downtime.",
           "bestFit": "An existing maintained reusable-scope service."
-        },
-        {
-          "option": "Magaw CoPilot VL",
-          "capability": "Dealer-listed video platform with its own introducer/accessory ecosystem.",
-          "costDriver": "US$3,975 seller example dated October 16, 2026; complete package and manufacturer support unresolved.",
-          "bestFit": "A documented supported existing installation or fully specified offer."
         }
       ],
       "social": {
@@ -6099,7 +5996,7 @@ export const researchGuides = [
       },
       "researchedAt": "2026-10-18"
     },
-    "searchTerms": "Buying airway equipment: the next blade matters as much as the handle Compact video laryngoscopes Reusable flexible intubation scopes Single-use flexible scopes and displays Legacy model disposition Battery and recall exposure Consumable supply and reprocessing economics Medtronic McGRATH MAC, next-generation 301-000-000 Verathon GlideScope Go 2 Ambu aScope 4 Broncho with aView 2 Advance Olympus PORTAVIEW LF-GP Magaw CoPilot VL",
+    "searchTerms": "Buying airway equipment: the next blade matters as much as the handle Compact video laryngoscopes Reusable flexible intubation scopes Single-use flexible scopes and displays Legacy model disposition Battery and recall exposure Consumable supply and reprocessing economics Medtronic McGRATH MAC, next-generation 301-000-000 Verathon GlideScope Go 2 Ambu aScope 4 Broncho with aView 2 Advance Olympus PORTAVIEW LF-GP",
     "librarySection": "equipment"
   },
   {
@@ -6637,8 +6534,8 @@ export const researchGuides = [
         "An urgent blood-gas service, a routine chemistry clinic and an intermittent diabetes clinic have different purchasing jobs. Select the required analytes, intended patient population and acceptable turnaround first. A broader panel adds value only when the results are needed and the staff can maintain its quality program. Compare epoc for an urgent service whose menu fits its combined card; compare i-STAT 1 when particular supported cartridges supply needed assays. Epoc card storage is 15–30°C, not unrestricted tropical storage, and calibration precedes sample analysis. Piccolo Xpress belongs in routine chemistry with 2–8°C disc storage. A short published analysis time does not include every preparation, calibration or reporting step."
       ],
       [
-        "A $13.90 disc can cost $21.13 per usable panel",
-        "A US CLIAwaived offer dated October 16, 2026 listed ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08) for $139, plus $30 shipping/handling per item. One such pack therefore costs $169 before other expenses: $16.90 per purchased disc. If only eight discs produce accepted patient panels, that same purchase costs $21.13 per usable patient panel before controls, collection supplies and instrument expense. Eight usable panels is an illustration, not an observed waste rate; this is not a price per individual analyte. MedicalRite’s dated CHEM8+ offer was $537.99 for 25 cartridges, about $21.52 each before other charges. Different menus and uses prevent a price-only winner between these products. The seller also displayed conflicting availability text. The Piccolo offer required a US CLIA number; neither listing establishes destination-country supply. Build the annual basket from delivered packs and expected accepted results, including the quiet months. Count all purchased packs once: reagent used for controls, repeats or lost to expiry is already inside that expenditure. Add separate controls and other costs where genuinely additional, then divide by results from the same period."
+        "When US$24 becomes US$32 per patient panel",
+        "Consider an original hypothetical example, not a product offer: 12 single-use panel tests cost US$240 plus US$48 delivery. The US$288 purchase costs US$24 per panel if all 12 produce accepted patient panels. If only nine do so, the purchase cost becomes US$32 per accepted patient panel. The prices, pack quantity and nine-panel yield are invented inputs, not a forecast or a quotation for any named assay. This is a cost per patient panel, not per individual analyte. Separately purchased control material, collection supplies, storage and instrument costs remain additional. Apply that calculation to one defined testing job at a time. CHEM8+ and Piccolo panels have different menus and uses; they cannot be ranked by a cartridge or disc price alone. Select the required assays first, then compare equivalent accepted results with the laboratory team. Build the annual basket from delivered packs and expected accepted results, including the quiet months. Count all purchased packs once: reagent used for controls, repeats or lost to expiry is already inside that expenditure. Add separate controls and other costs where genuinely additional, then divide by results from the same period."
       ],
       [
         "Small dedicated tests can be the better first investment",
@@ -6719,12 +6616,12 @@ export const researchGuides = [
           "bestFor": "A service that specifically needs supported i-STAT cartridge assays and can maintain their individual storage/QC requirements.",
           "why": "Its cartridge families allow selection around the required test menu. This can justify its recurring consumable cost when the result serves a time-sensitive need that another shortlisted platform cannot meet.",
           "tradeoff": "Each cartridge has its own intended use and storage instructions. Multiple cartridge families create separate stock, expiry and QC obligations; compare the exact assay basket the service needs.",
-          "price": "Hardware quote required. MedicalRite's listing on 2026-10-16 listed CHEM8+ 09P31-26, box of 25, at US$537.99 (about $21.52 each before waste and any additional charges). The page simultaneously said sold out and in stock, so availability is unconfirmed.",
+          "price": "Compare the reader/host package, exact cartridge quantities, controls, storage and reporting costs. No current package or cartridge price is asserted here.",
           "support": "Current Abbott product/documentation resources verified. Regional cartridge availability and servicing of a donated or used handheld need confirmation.",
           "sourceIds": [
             "istat",
             "istat-docs",
-            "istat-price"
+            "istat-chem8"
           ]
         },
         {
@@ -6733,11 +6630,10 @@ export const researchGuides = [
           "bestFor": "A low-volume fixed clinic that benefits from a chemistry panel and can refrigerate discs.",
           "why": "Manufacturer information describes a compact panel-based chemistry workflow using 100 µL samples and approximately 12-minute analysis. It can reduce manual reagent preparation for a small service.",
           "tradeoff": "Discs require 2–8°C storage; the instrument is not a substitute for a blood-gas analyzer. External QC, expired stock and the exact desired panel affect cost.",
-          "price": "Analyzer quote required. CLIAwaived's listing on 2026-10-16 listed Comprehensive Metabolic discs ABBT-07P02-08 at US$139/10 plus $30 shipping/handling per item, and required a valid CLIA number. This US offer is not a destination-country supply commitment.",
+          "price": "Compare the analyzer, selected reagent panels, controls and cold-chain delivery at the same usable workload. No current analyzer or disc price is asserted here.",
           "support": "Official product FAQ and support information verified. Destination supply, regulatory status, warranty and cold-chain delivery remain unconfirmed.",
           "sourceIds": [
-            "piccolo",
-            "piccolo-price"
+            "piccolo"
           ]
         },
         {
@@ -6805,12 +6701,11 @@ export const researchGuides = [
           "model": "McKesson Consult 120, 121-120",
           "position": "Conditional retention/budget quote",
           "bestFor": "A clinic already using the system with reliable access to the exact McKesson strips and controls.",
-          "why": "McKesson's guide identifies the 121-120, and its catalog still lists compatible reagents including 121-10SG. Retaining an accepted working reader can preserve a familiar workflow.",
-          "tradeoff": "A current reagent listing does not establish ongoing new-analyzer production or indefinite repairs. Confirm the exact reader; do not treat 121-120 and U120 accessories as universally interchangeable.",
-          "price": "McKesson catalog pricing requires login; quote required as of 2026-10-16 for the applicable reader, reagent pack sizes and controls.",
-          "support": "Official guide and current reagent catalog verified. New-system availability, support duration and destination distribution unconfirmed.",
+          "why": "The brand owner’s quick-start guide identifies the 121-120 reader. Retaining an accepted working reader can preserve a familiar workflow when its approved supplies and support remain obtainable.",
+          "tradeoff": "An accessible guide does not establish ongoing new-analyzer production or indefinite repairs. Confirm the exact reader and its approved consumables; do not treat 121-120 and U120 accessories as universally interchangeable.",
+          "price": "Compare the exact reader, approved reagent packs and controls against usable demand and delivered expiry. No current public complete-package price is used here.",
+          "support": "Official model-identification guide retained. New-system availability, replenishment, support duration and destination distribution remain unconfirmed.",
           "sourceIds": [
-            "mckesson",
             "mckesson-guide"
           ]
         },
@@ -6880,15 +6775,16 @@ export const researchGuides = [
           ]
         },
         {
-          "heading": "A $13.90 disc can cost $21.13 per usable panel",
+          "heading": "When US$24 becomes US$32 per patient panel",
           "paragraphs": [
-            "A US CLIAwaived offer dated October 16, 2026 listed ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08) for $139, plus $30 shipping/handling per item. One such pack therefore costs $169 before other expenses: $16.90 per purchased disc. If only eight discs produce accepted patient panels, that same purchase costs $21.13 per usable patient panel before controls, collection supplies and instrument expense. Eight usable panels is an illustration, not an observed waste rate; this is not a price per individual analyte.",
-            "MedicalRite’s dated CHEM8+ offer was $537.99 for 25 cartridges, about $21.52 each before other charges. Different menus and uses prevent a price-only winner between these products. The seller also displayed conflicting availability text. The Piccolo offer required a US CLIA number; neither listing establishes destination-country supply.",
+            "Consider an original hypothetical example, not a product offer: 12 single-use panel tests cost US$240 plus US$48 delivery. The US$288 purchase costs US$24 per panel if all 12 produce accepted patient panels. If only nine do so, the purchase cost becomes US$32 per accepted patient panel.",
+            "The prices, pack quantity and nine-panel yield are invented inputs, not a forecast or a quotation for any named assay. This is a cost per patient panel, not per individual analyte. Separately purchased control material, collection supplies, storage and instrument costs remain additional.",
+            "Apply that calculation to one defined testing job at a time. CHEM8+ and Piccolo panels have different menus and uses; they cannot be ranked by a cartridge or disc price alone. Select the required assays first, then compare equivalent accepted results with the laboratory team.",
             "Build the annual basket from delivered packs and expected accepted results, including the quiet months. Count all purchased packs once: reagent used for controls, repeats or lost to expiry is already inside that expenditure. Add separate controls and other costs where genuinely additional, then divide by results from the same period."
           ],
           "sourceIds": [
-            "piccolo-price",
-            "istat-price"
+            "istat-chem8",
+            "piccolo"
           ]
         },
         {
@@ -6915,7 +6811,6 @@ export const researchGuides = [
           ],
           "sourceIds": [
             "clinitek",
-            "mckesson",
             "mckesson-guide",
             "hcg",
             "a1c",
@@ -6986,31 +6881,13 @@ export const researchGuides = [
           "evidence": "Current documentation/software resources; consult cartridge-specific instructions."
         },
         {
-          "id": "istat-price",
-          "title": "CHEM8+ box-of-25 offer",
-          "url": "https://medicalrite.com/products/reagent_i-stat_chem_8-_cartridge_test",
-          "publisher": "MedicalRite",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Dated seller offer: 09P31-26 at $537.99/25; conflicting sold-out/in-stock statements."
-        },
-        {
           "id": "piccolo",
           "title": "Piccolo Xpress product FAQs",
           "url": "https://www.abaxis.com/faqs/",
           "publisher": "Abbott/Abaxis",
           "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "100 µL panel chemistry, approximately 12 minutes, refrigerated discs and external QC considerations."
-        },
-        {
-          "id": "piccolo-price",
-          "title": "Comprehensive Metabolic disc offer",
-          "url": "https://www.cliawaived.com/comp-metabolic-reagent-disc.html",
-          "publisher": "CLIAwaived",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Dated seller offer: ABBT-07P02-08 at $139/10 plus $30 fee per item and CLIA-license requirement."
+          "accessed": "2026-10-18",
+          "evidence": "Fresh FAQ check: single-use discs produce a panel from one sample; refrigerated storage, external-control considerations and expiry constraints remain relevant. No public disc or analyzer price established."
         },
         {
           "id": "hb301",
@@ -7067,15 +6944,6 @@ export const researchGuides = [
           "evidence": "Specified Siemens strips and CLINITEST hCG compatibility; reader features."
         },
         {
-          "id": "mckesson",
-          "title": "McKesson Consult reagent catalog",
-          "url": "https://mms.mckesson.com/catalog?node=28001+42548429",
-          "publisher": "McKesson",
-          "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "Current compatible-strip listings including 121-10SG; login required for price."
-        },
-        {
           "id": "mckesson-guide",
           "title": "McKesson Consult 120 quick-start guide",
           "url": "https://imgcdn.mckesson.com/CumulusWeb/Click_and_learn/QuickStartGuide.pdf",
@@ -7128,6 +6996,15 @@ export const researchGuides = [
           "kind": "manufacturer",
           "accessed": "2026-10-16",
           "evidence": "Current product families; ICT collection cards, test devices/buffer and controls are separate kit components."
+        },
+        {
+          "id": "istat-chem8",
+          "title": "i-STAT CHEM8+ cartridge: assay menu and product code",
+          "url": "https://www.globalpointofcare.abbott/us/en/product-details/apoc/istat-chem8.html",
+          "publisher": "Abbott",
+          "kind": "manufacturer",
+          "accessed": "2026-10-18",
+          "evidence": "Official page identifies the chemistry/electrolyte/hematology menu and product code 09P31-26. Ordering leads to e-Abbott; no public current cartridge price established in this check."
         }
       ],
       "decision": {
@@ -7224,8 +7101,8 @@ export const researchGuides = [
         "M11’s automatic cycle records and device-care reminders can justify a premium when recording and managing cycles consume scarce staff time. Compare the actual workflow, including retrieving records and maintaining the system. A screen alone is a weak reason to replace a manual sterilizer that is consistently managed and supportable. For illustration, six minutes of documentation time saved per working day across 250 days equals 25 staff hours a year. Those are invented inputs, not a Midmark performance claim. The benefit may be time available for inspection or other work; it becomes cash savings only if an actual expenditure falls. Do not multiply manufacturer cycle-life claims into an assumed field lifespan."
       ],
       [
-        "Keep the dated prices attached to their conditions",
-        "Two October 16, 2026 retail anchors illustrate the package problem. Duraline listed a refurbished previous-model RT2540M at USD 3,099, shipping extra, with conflicting three- and six-month warranty wording. MFI listed a new M11 at USD 7,562.82 plus USD 495 displayed shipping. These are different generations and conditions, not matched installed offers. The cited MFI M11-050/-051 listing is expressly for medical facilities and excludes dental applications. A dental practice needs an appropriate model and quote. Resolve the exact voltage, refurbishment work, warranty and return-freight obligations before award. Add suitable water, installation, approved packaging, monitoring supplies and training to both alternatives."
+        "Compare the package and the repair promise",
+        "Midmark’s Medical Guide Book, effective November 1, 2025 and checked October 18, 2026, lists M11-050 with a six-slot pouch rack. It also distinguishes parts-only from parts-and-labor extended plans. Those are different support purchases; the offered unit’s eligibility, term and destination coverage still need to be established. Compare a new unit and a refurbished previous generation with condition and scope visible. Record the actual refurbishment work, electrical variant, included racks and accessories, acceptance responsibilities and return-freight obligations. Add suitable water, installation, approved packaging, monitoring supplies and training to each. A lower machine price remains useful only if the completed arrangement meets the same approved workload."
       ],
       [
         "A repair route can be worth more than simple controls",
@@ -7246,8 +7123,8 @@ export const researchGuides = [
       "summary": "Compare Tuttnauer 2540M, Midmark M11 and T-Top by compatible loads, complete turnaround and the staff work the purchase actually changes.",
       "firstChoice": "Map the busiest day's instrument sets, packaging and complete turnaround; match the validated cycle before choosing a chamber size.",
       "upgradeWhen": "M11 automation relieves a real documentation burden, or the load requires an enabled T-Top Class B configuration.",
-      "budgetWatch": "Add suitable water, packaging, monitoring supplies and enough instrument sets. The reviewed M11-050/-051 offer is medical-only, excluding dental use. The refurbished 2540M listing had conflicting warranty lengths needing resolution.",
-      "supportCheck": "Reject an incompatible cycle, an upgradeable T-Top sold without required Class B capability, or the reviewed medical M11 SKUs for dental use.",
+      "budgetWatch": "Add suitable water, packaging, monitoring supplies and enough instrument sets. Compare the exact electrical variant, included accessories and parts-only versus parts-and-labor cover; none establishes the full installed cost.",
+      "supportCheck": "Reject an incompatible cycle, a T-Top supplied without required Class B capability, or an unresolved model, electrical or service mismatch for the receiving practice.",
       "askSupplier": [
         "Identify the enabled cycle and load evidence for our instruments and packaging.",
         "Show the complete busiest-day turnaround, including work outside the chamber.",
@@ -7257,15 +7134,14 @@ export const researchGuides = [
         "tutt",
         "midmark",
         "ttop",
-        "refurb",
-        "mfi"
+        "midmark-guide"
       ]
     },
     "research": {
       "id": "sterilization",
       "title": "Buying a sterilizer: choose the cycle before the chamber",
       "dek": "Compare Tuttnauer 2540M, Midmark M11 and T-Top by compatible loads, complete turnaround and the staff work the purchase actually changes.",
-      "verdict": "Tuttnauer 2540M is a sensible starting point for a modest workload whose instruments fit its validated cycles and whose staff can run and document them consistently. Midmark M11 earns its higher price when cycle management and recordkeeping consume scarce staff time. If the load needs vacuum processing, compare a T-Top with Class B actually enabled before comparing prices. The M11-050/-051 offer reviewed here is medical-only, not a dental configuration. Spend against the number of complete sets the clinic can release, rather than chamber size alone.",
+      "verdict": "Tuttnauer 2540M is a sensible starting point for a modest workload whose instruments fit its validated cycles and whose staff can run and document them consistently. Midmark M11 automation can justify extra spending when cycle management and recordkeeping consume scarce staff time. If the load needs vacuum processing, compare a T-Top with Class B actually enabled before comparing prices. Spend against the number of complete sets the clinic can release, rather than chamber size alone.",
       "coverage": [
         "sterilization"
       ],
@@ -7276,24 +7152,23 @@ export const researchGuides = [
           "bestFor": "Clinics able to operate and document manual cycles consistently.",
           "why": "The manufacturer lists a 23 L manual unit; familiar controls can be a practical match for a technician-led maintenance program.",
           "tradeoff": "Manual operation shifts work to staff. Chamber volume alone does not establish throughput or suitability for a particular wrapped or hollow instrument.",
-          "price": "Quote a new unit. Budget reference: Duraline displays USD 3,099 for its previous-model refurbished RT2540M listing, reviewed Oct 16, 2026; shipping extra.",
-          "support": "OEM manuals and service routes are published. Serial-specific parts, country support and refurbishment must be confirmed. Dealer page mixes three- and six-month warranty language.",
+          "price": "Compare new and documented refurbished offers with the same delivered accessories, installation, acceptance and service scope. No current purchase price is asserted here.",
+          "support": "OEM manuals and service routes are published. Confirm the offered serial, actual refurbishment work, parts access, warranty terms and country support; a new-unit warranty does not establish cover for a used offer.",
           "sourceIds": [
-            "tutt",
-            "refurb"
+            "tutt"
           ]
         },
         {
-          "model": "Midmark M11-050 / M11-051, current generation",
+          "model": "Midmark M11-050, current medical catalog example",
           "position": "Automation for a busy medical clinic",
           "bestFor": "Busy medical clinics with dependable utilities and staff time tied up in recording and managing cycles.",
           "why": "The current M11 provides automatic cycle records and care reminders. That is an operational reason to consider it, rather than paying for a screen alone.",
-          "tradeoff": "The cited MFI M11-050/-051 offer is medical-only and excludes dental applications. Choose the appropriate configuration for the practice; automated records do not replace quality assurance.",
-          "price": "Dated retail anchor, October 16, 2026: MFI listed a factory-new M11 at USD 7,562.82 plus USD 495 displayed shipping, with 115 V and 230 V variants. Requote the exact model and destination.",
-          "support": "Manufacturer has technical documentation and repair channels. A published support route is not confirmation of field coverage at the recipient hospital.",
+          "tradeoff": "Choose the exact model, electrical configuration and supported load for the receiving practice. Automatic records do not replace the required quality-assurance process.",
+          "price": "Compare the complete delivered package, required accessories and selected support plan. No current installed or unit price is asserted here.",
+          "support": "The medical catalog lists distinct parts-only and parts-and-labor extended plans. Confirm actual unit eligibility, period, travel and destination coverage rather than assuming that either plan applies.",
           "sourceIds": [
             "midmark",
-            "mfi"
+            "midmark-guide"
           ]
         },
         {
@@ -7343,14 +7218,15 @@ export const researchGuides = [
           ]
         },
         {
-          "heading": "Keep the dated prices attached to their conditions",
+          "heading": "Compare the package and the repair promise",
           "paragraphs": [
-            "Two October 16, 2026 retail anchors illustrate the package problem. Duraline listed a refurbished previous-model RT2540M at USD 3,099, shipping extra, with conflicting three- and six-month warranty wording. MFI listed a new M11 at USD 7,562.82 plus USD 495 displayed shipping. These are different generations and conditions, not matched installed offers.",
-            "The cited MFI M11-050/-051 listing is expressly for medical facilities and excludes dental applications. A dental practice needs an appropriate model and quote. Resolve the exact voltage, refurbishment work, warranty and return-freight obligations before award. Add suitable water, installation, approved packaging, monitoring supplies and training to both alternatives."
+            "Midmark’s Medical Guide Book, effective November 1, 2025 and checked October 18, 2026, lists M11-050 with a six-slot pouch rack. It also distinguishes parts-only from parts-and-labor extended plans. Those are different support purchases; the offered unit’s eligibility, term and destination coverage still need to be established.",
+            "Compare a new unit and a refurbished previous generation with condition and scope visible. Record the actual refurbishment work, electrical variant, included racks and accessories, acceptance responsibilities and return-freight obligations. Add suitable water, installation, approved packaging, monitoring supplies and training to each. A lower machine price remains useful only if the completed arrangement meets the same approved workload."
           ],
           "sourceIds": [
-            "refurb",
-            "mfi"
+            "midmark-guide",
+            "midmark",
+            "tutt"
           ]
         },
         {
@@ -7384,7 +7260,7 @@ export const researchGuides = [
       "gaps": [
         "No comparative field failure-rate data established for these choices.",
         "No current Pelton & Crane serial-specific support commitment established.",
-        "Public US offers are not export or installed-system quotes."
+        "No current comparable purchase prices or installed-system quotations are asserted here."
       ],
       "sources": [
         {
@@ -7393,8 +7269,8 @@ export const researchGuides = [
           "url": "https://tuttnauer.com/us/dental-practices/tabletop-sterilizers/manual/2540m",
           "publisher": "Tuttnauer",
           "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "Manual 23 L platform; US page lists 120 V, 1400 W and service/documentation routes."
+          "accessed": "2026-10-18",
+          "evidence": "Fresh product-page check confirms manual 23 L platform, 120 V/1400 W specification and documentation/service routes. No public unit price established."
         },
         {
           "id": "midmark",
@@ -7403,7 +7279,7 @@ export const researchGuides = [
           "publisher": "Midmark",
           "kind": "manufacturer",
           "accessed": "2026-10-18",
-          "evidence": "Current model includes cycle recordkeeping and device-care support."
+          "evidence": "Fresh medical product-page check confirms automatic cycle records, device-care features and separate 115/230 V electrical specifications. No public complete-unit price established."
         },
         {
           "id": "ttop",
@@ -7415,29 +7291,21 @@ export const researchGuides = [
           "evidence": "21/27 L line with Class S and upgradeable Class B configurations; distinct cycle tables."
         },
         {
-          "id": "refurb",
-          "title": "Refurbished previous-model 2540M offer",
-          "url": "https://duralinesystems.com/collections/refurbished-sterilizers/products/rt2540m",
-          "publisher": "Duraline Systems",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Opened price USD 3,099; warranty selector says three months while description mentions six. Shipping calculated separately."
-        },
-        {
-          "id": "mfi",
-          "title": "Factory-new current M11 offer",
-          "url": "https://mfimedical.com/products/midmark-m11-steam-sterilizer",
-          "publisher": "MFI Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Opened price USD 7,562.82 plus displayed USD 495 shipping; exact voltage and delivery terms require confirmation. The listing identifies M11-050 / M11-051 and expressly states medical-facility use only, excluding dental applications."
+          "id": "midmark-guide",
+          "title": "Midmark Medical Guide Book: M11 and sterilizer accessories, pp. 86–87",
+          "url": "https://www.midmark.com/docs/default-source/pricebooks/medical/2025-medical-guide-book.pdf?sfvrsn=1816663e_6",
+          "publisher": "Midmark",
+          "kind": "manufacturer",
+          "published": "2025-11-01",
+          "accessed": "2026-10-18",
+          "evidence": "Relevant pages 86–87 fully read and visually inspected. M11-050 includes a six-slot pouch rack; separate extended parts-only and parts-and-labor plans are listed. No price shown. This does not establish eligibility or geographic cover for an offered unit."
         }
       ],
       "decision": {
         "firstMove": "Map the busiest day's instrument sets, packaging and complete turnaround; match the validated cycle before choosing a chamber size.",
         "spendMoreWhen": "M11 automation relieves a real documentation burden, or the load requires an enabled T-Top Class B configuration.",
         "keepExistingWhen": "Keep a verified manual sterilizer when its cycles fit the instruments and seals, valves, heaters and competent service remain available.",
-        "walkAwayWhen": "Reject an incompatible cycle, an upgradeable T-Top sold without required Class B capability, or the reviewed medical M11 SKUs for dental use."
+        "walkAwayWhen": "Reject an incompatible cycle, a T-Top supplied without required Class B capability, or an unresolved model, electrical or service mismatch for the receiving practice."
       },
       "quickCompare": [
         {
@@ -7447,9 +7315,9 @@ export const researchGuides = [
           "bestFit": "A modest predictable instrument workload"
         },
         {
-          "option": "Midmark M11-050 / M11-051",
-          "capability": "Current medical configurations with automatic cycle records and care reminders",
-          "costDriver": "Capital premium, electrical variant and regional service",
+          "option": "Midmark M11-050 example",
+          "capability": "Medical catalog example with automatic cycle records and care reminders",
+          "costDriver": "Any automation premium, exact electrical variant and selected repair cover",
           "bestFit": "Medical clinics with a recurring cycle-management burden"
         },
         {
@@ -7466,7 +7334,7 @@ export const researchGuides = [
       },
       "researchedAt": "2026-10-18"
     },
-    "searchTerms": "Buying a sterilizer: choose the cycle before the chamber sterilization Tuttnauer 2540M Midmark M11-050 / M11-051, current generation Tuttnauer T-Top 10 / 11 with Class B configuration",
+    "searchTerms": "Buying a sterilizer: choose the cycle before the chamber sterilization Tuttnauer 2540M Midmark M11-050, current medical catalog example Tuttnauer T-Top 10 / 11 with Class B configuration",
     "librarySection": "equipment"
   },
   {
@@ -7506,7 +7374,7 @@ export const researchGuides = [
       ],
       [
         "A refurbished bed is strongest inside a supported fleet",
-        "An Advanta 2 can be an economical addition where technicians already maintain the platform and have compatible spares. Familiarity has purchasing value, but it does not certify the offered unit’s brakes, rails, controls or surface. Record its identity and condition and demonstrate the required functions before accepting it. Victori Medical’s October 16, 2026 offer listed a refurbished P1190 at US$3,295 with a mattress and named scale, patient-control and bed-exit features, freight extra. Its stated 90-day warranty still needs a usable geographic repair arrangement. Compare that delivered, inspected package with a new bed; a return that requires expensive international freight can erase the saving. Baxter describes Advanta 2 for low-to-moderate acuity med-surg use. A dealer’s broader ICU label does not expand that intended role. Buy for the care the documented configuration supports."
+        "An Advanta 2 can be an economical addition where technicians already maintain the platform and have compatible spares. Familiarity has purchasing value, but it does not certify the offered unit’s brakes, rails, controls or surface. Record its identity and condition and demonstrate the required functions before accepting it. Consider an original hypothetical comparison: a US$2,800 refurbished frame plus US$700 for its compatible surface and US$900 for delivery and acceptance totals US$4,400. A new complete package at US$5,200 delivered leaves a US$800 initial saving, not US$2,400. These are invented planning figures, not bed prices. That US$800 must be weighed against the actual support terms and any additional work needed; it is not a forecast of repair cost. Baxter describes Advanta 2 for low-to-moderate acuity med-surg use. Buy for that documented role and the functions demonstrated on the individual unit. A familiar model name does not establish which options are present."
       ],
       [
         "Walk the transfer route before choosing the stretcher",
@@ -7531,7 +7399,7 @@ export const researchGuides = [
       "summary": "Compare manual, electric and refurbished beds as complete mattress-and-rail systems. For stretchers, pay for the loaded transfer route the staff actually use.",
       "firstChoice": "Match patient weight, positioning and transfer needs to a complete bed, surface and rail configuration; compare Praktika 2 where manual adjustment is workable.",
       "upgradeWhen": "Frequent repositioning justifies electric adjustment, or the transport route benefits from a specified steering and accessory package.",
-      "budgetWatch": "Include the compatible mattress and freight before judging a frame price. P8005's Steering Plus is optional. An Advanta 2 seller's ICU description does not change the manufacturer's med-surg scope.",
+      "budgetWatch": "Include the compatible mattress and freight before judging a frame price. P8005's Steering Plus is optional. Advanta 2’s documented role is low-to-moderate acuity med-surg care; match the offered configuration to the ward.",
       "supportCheck": "Reject a load-rating mismatch, an incompatible bed/mattress/rail combination, or a refurbished offer whose condition and included surface cannot be established.",
       "askSupplier": [
         "Does this bed, mattress and rail combination meet the intended patient requirements?",
@@ -7542,7 +7410,6 @@ export const researchGuides = [
         "praktika",
         "eleganza",
         "advanta",
-        "bedoffer",
         "st1",
         "hillrom-transport"
       ]
@@ -7586,12 +7453,11 @@ export const researchGuides = [
           "position": "Refurbished value within a supported fleet",
           "bestFor": "A hospital whose technicians already maintain the platform and can obtain compatible parts.",
           "why": "An established local fleet can make training and spares simpler than introducing another bed family.",
-          "tradeoff": "Condition, serial range and mattress compatibility control value. The OEM describes low-to-moderate acuity med-surg use; a dealer calling it an ICU bed does not change that.",
-          "price": "Victori Medical lists USD 3,295 for refurbished SKU P1190 with patient controls, scale, bed-exit functions and a mattress; freight extra, viewed Oct 16, 2026.",
-          "support": "Baxter maintains a product/support route. The dealer lists a 90-day warranty; obtain written geographic coverage and parts terms.",
+          "tradeoff": "Condition, serial range and mattress compatibility control value. Baxter identifies low-to-moderate acuity med-surg use; verify the required functions on the offered bed.",
+          "price": "Request a delivered price for the inspected bed, compatible mattress and required functions. No verified manufacturer-direct public price for a complete refurbished package is established.",
+          "support": "Baxter provides a product and support route. Acceptance for repair, parts availability and warranty coverage must be established for the offered serial and destination.",
           "sourceIds": [
-            "advanta",
-            "bedoffer"
+            "advanta"
           ]
         },
         {
@@ -7645,12 +7511,11 @@ export const researchGuides = [
           "heading": "A refurbished bed is strongest inside a supported fleet",
           "paragraphs": [
             "An Advanta 2 can be an economical addition where technicians already maintain the platform and have compatible spares. Familiarity has purchasing value, but it does not certify the offered unit’s brakes, rails, controls or surface. Record its identity and condition and demonstrate the required functions before accepting it.",
-            "Victori Medical’s October 16, 2026 offer listed a refurbished P1190 at US$3,295 with a mattress and named scale, patient-control and bed-exit features, freight extra. Its stated 90-day warranty still needs a usable geographic repair arrangement. Compare that delivered, inspected package with a new bed; a return that requires expensive international freight can erase the saving.",
-            "Baxter describes Advanta 2 for low-to-moderate acuity med-surg use. A dealer’s broader ICU label does not expand that intended role. Buy for the care the documented configuration supports."
+            "Consider an original hypothetical comparison: a US$2,800 refurbished frame plus US$700 for its compatible surface and US$900 for delivery and acceptance totals US$4,400. A new complete package at US$5,200 delivered leaves a US$800 initial saving, not US$2,400. These are invented planning figures, not bed prices. That US$800 must be weighed against the actual support terms and any additional work needed; it is not a forecast of repair cost.",
+            "Baxter describes Advanta 2 for low-to-moderate acuity med-surg use. Buy for that documented role and the functions demonstrated on the individual unit. A familiar model name does not establish which options are present."
           ],
           "sourceIds": [
-            "advanta",
-            "bedoffer"
+            "advanta"
           ]
         },
         {
@@ -7718,17 +7583,8 @@ export const researchGuides = [
           "url": "https://catalog.baxter.com/baxterUS/en/Products/Beds-&-Patient-Mobility/Smart-Beds-&-Surfaces/Advanta%E2%84%A2-2-Med-Surg-Bed/p/210133F1-BEFE-4D84-8801-A761FC2303E4",
           "publisher": "Baxter",
           "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "OEM describes low-to-moderate acuity med-surg use."
-        },
-        {
-          "id": "bedoffer",
-          "title": "Refurbished Advanta 2 package offer",
-          "url": "https://shop.victorimedical.com/products/hill-rom-advanta2-hospital-bed",
-          "publisher": "Victori Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "USD 3,295; package includes mattress and named controls; freight extra and 90-day listed warranty."
+          "accessed": "2026-10-18",
+          "evidence": "Direct Baxter catalogue body re-read: low-to-moderate acuity med-surg intended role and support link. No numeric public bed price, included used-unit options or geographic warranty established."
         },
         {
           "id": "st1",
@@ -9246,11 +9102,11 @@ export const researchGuides = [
       ],
       [
         "A refurbished offer needs a defined scope",
-        "“Refurbished” should describe work tied to the offered unit. Ask what was inspected, repaired and verified, which accessories are included, and what happens if acceptance reveals a problem. A cosmetic cleanup, a power-on photograph and a documented technical refurbishment are different levels of evidence. The asking price cannot tell the buyer which one is supplied. Victori Medical's Force FX listing provided a concrete anchor during the October 16, 2026 review: US$3,195, certified-refurbished, with a stated 90-day warranty. That is a seller's offer, not a population reliability result or a delivered mission package. Its economic value still depends on the exact unit, complete accessories and usable warranty terms."
+        "“Refurbished” should describe work tied to the offered unit. Ask what was inspected, repaired and verified, which accessories are included, and what happens if acceptance reveals a problem. A cosmetic cleanup, a power-on photograph and a documented technical refurbishment are different levels of evidence. The asking price cannot tell the buyer which one is supplied. Suppose, in an original hypothetical comparison, a donated generator needs US$1,500 of accessories, US$900 of packing and delivery, and US$600 of inspection and commissioning. Its completion price is US$3,000. A refurbished package at US$4,200 delivered and accepted has a US$1,200 initial premium if it supplies the same required capability and accessories. These are invented figures, not offers. The premium may be worthwhile for a defined repair scope or usable support, but the label alone does not establish either."
       ],
       [
         "Read the warranty as a transport arrangement",
-        "Find out who receives a failed unit, who pays each freight leg, whether diagnosis happens locally and whether anything covers the service while it waits. A warranty that requires overseas shipment can have a very different practical value from local support. Neither arrangement should be assumed from a warranty's length. The October 16, 2026 OMAX M82ES-A188V storefront snapshot illustrates the tradeoff at a smaller scale: its US$317.99 asking price came with buyer-paid return freight and warranty exclusions. That historical offer may have suited an accepted backup instrument; it was not a delivered overseas price or a promise of local repair. Price the consequence of failure as carefully as the first shipment."
+        "Find out who receives a failed unit, who pays each freight leg, whether diagnosis happens locally and whether anything covers the service while it waits. A warranty that requires overseas shipment can have a very different practical value from local support. Neither arrangement should be assumed from a warranty's length. OMAX’s own storefront displayed US$317.99 for the M82ES-A188V microscope package when checked on October 18, 2026. Its published warranty terms assign return shipping and handling to the buyer and include exclusions. That gives a concrete transport question even for a relatively small purchase: would a warranty return cost enough to change the backup plan? The price is a dated manufacturer-store example, not a delivered overseas total or evidence that the microscope suits a particular clinical task."
       ],
       [
         "Pay the premium for a named advantage",
@@ -9286,7 +9142,6 @@ export const researchGuides = [
         "donations",
         "olympus-platform",
         "scope-compatibility",
-        "force-fx-offer",
         "omax-terms"
       ]
     },
@@ -9339,17 +9194,15 @@ export const researchGuides = [
           "heading": "A refurbished offer needs a defined scope",
           "paragraphs": [
             "“Refurbished” should describe work tied to the offered unit. Ask what was inspected, repaired and verified, which accessories are included, and what happens if acceptance reveals a problem. A cosmetic cleanup, a power-on photograph and a documented technical refurbishment are different levels of evidence. The asking price cannot tell the buyer which one is supplied.",
-            "Victori Medical's Force FX listing provided a concrete anchor during the October 16, 2026 review: US$3,195, certified-refurbished, with a stated 90-day warranty. That is a seller's offer, not a population reliability result or a delivered mission package. Its economic value still depends on the exact unit, complete accessories and usable warranty terms."
+            "Suppose, in an original hypothetical comparison, a donated generator needs US$1,500 of accessories, US$900 of packing and delivery, and US$600 of inspection and commissioning. Its completion price is US$3,000. A refurbished package at US$4,200 delivered and accepted has a US$1,200 initial premium if it supplies the same required capability and accessories. These are invented figures, not offers. The premium may be worthwhile for a defined repair scope or usable support, but the label alone does not establish either."
           ],
-          "sourceIds": [
-            "force-fx-offer"
-          ]
+          "sourceIds": []
         },
         {
           "heading": "Read the warranty as a transport arrangement",
           "paragraphs": [
             "Find out who receives a failed unit, who pays each freight leg, whether diagnosis happens locally and whether anything covers the service while it waits. A warranty that requires overseas shipment can have a very different practical value from local support. Neither arrangement should be assumed from a warranty's length.",
-            "The October 16, 2026 OMAX M82ES-A188V storefront snapshot illustrates the tradeoff at a smaller scale: its US$317.99 asking price came with buyer-paid return freight and warranty exclusions. That historical offer may have suited an accepted backup instrument; it was not a delivered overseas price or a promise of local repair. Price the consequence of failure as carefully as the first shipment."
+            "OMAX’s own storefront displayed US$317.99 for the M82ES-A188V microscope package when checked on October 18, 2026. Its published warranty terms assign return shipping and handling to the buyer and include exclusions. That gives a concrete transport question even for a relatively small purchase: would a warranty return cost enough to change the backup plan? The price is a dated manufacturer-store example, not a delivered overseas total or evidence that the microscope suits a particular clinical task."
           ],
           "sourceIds": [
             "omax-terms"
@@ -9418,8 +9271,8 @@ export const researchGuides = [
           "url": "https://www.medical.olympusamerica.com/products/evis-exera-endoscopy",
           "publisher": "Olympus",
           "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "CV-190/CLV-190 platform and named GI scope features."
+          "accessed": "2026-10-18",
+          "evidence": "Direct Olympus portfolio re-read: named scopes and CV-190/CLV-190 processor/light-source pairing. Supports the system-dependency illustration, not a current service commitment."
         },
         {
           "id": "scope-compatibility",
@@ -9431,22 +9284,13 @@ export const researchGuides = [
           "evidence": "Compatibility must be checked by exact model; excluded or unlisted devices must not be processed."
         },
         {
-          "id": "force-fx-offer",
-          "title": "Force FX certified-refurbished offer",
-          "url": "https://shop.victorimedical.com/products/valleylab-force-fx-refurbished",
-          "publisher": "Victori Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "US$3,195 asking price, certified-refurbished condition and seller-stated 90-day warranty on access date."
-        },
-        {
           "id": "omax-terms",
           "title": "M82ES-A188V microscope package",
           "url": "https://omaxmicroscope.com/products/m82es-a188v",
           "publisher": "OMAX",
           "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "Opened store body: $317.99, binocular LED microscope, four objectives and case; return-shipping warranty terms."
+          "accessed": "2026-10-18",
+          "evidence": "Manufacturer storefront SKU/price and warranty body re-read: US$317.99 for M82ES-A188V; buyer pays return shipping and handling; exclusions apply. No overseas landed price, local service or clinical suitability established."
         }
       ],
       "related": [
@@ -9494,7 +9338,7 @@ export const researchGuides = [
       ],
       [
         "Add the spending between delivery and first use",
-        "Give accessories, software, freight, tax or import costs, installation, acceptance, training and initial supplies their own lines. “Included” should describe the item and quantity. “Unpriced” is an unresolved exposure, not zero. If one essential item has no credible cost or delivery route, keep that uncertainty visible instead of presenting a precise but incomplete total. A dated public offer can anchor part of the comparison. On October 16, 2026, MFI’s M11 listing displayed US$7,562.82 plus US$495 shipping, totaling US$8,057.82 by addition. It identified medical M11-050/M11-051 configurations and voltage variants, not a dental configuration. That snapshot was not a destination-specific landed quotation and is not a promise of today’s price. The model, voltage, delivery scope and date belong beside the amount."
+        "Give accessories, software, freight, tax or import costs, installation, acceptance, training and initial supplies their own lines. “Included” should describe the item and quantity. “Unpriced” is an unresolved exposure, not zero. If one essential item has no credible cost or delivery route, keep that uncertainty visible instead of presenting a precise but incomplete total. A parts-only repair promise can leave the hospital paying for labor, engineer travel and return freight. Put those responsibilities beside the actual destination and service route. Keep optional accessories out of the base package until their need is clear. The next example shows how apparently small omissions can erase a large console discount."
       ],
       [
         "Watch a US$3,000 saving almost disappear",
@@ -9506,7 +9350,7 @@ export const researchGuides = [
       ],
       [
         "Buy usable output, not an attractive pack price",
-        "Pack size, usable expiry, storage, control consumption and minimum orders determine how much of a consumable purchase becomes useful work. A larger pack can reduce freight yet increase unused stock at a quiet service. Compare equivalent tasks or assays, and separate routine patient use from controls and other consumption. A CLIAwaived offer checked on October 16, 2026 provides a specific example: US$139 for ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08), plus a US$30 fee per item. If all ten discs produced usable patient panels, US$169 divided by ten would be US$16.90 per panel. If only eight did so in an illustrative scenario, it would be US$21.13 per usable patient panel, rounded to cents. These are assumed yields, not observed wastage or prices per individual analyte. Control use, repeats, discarded discs, tax and other costs must be included in a real comparison. The seller’s CLIA-license requirement and other ordering conditions still apply."
+        "Pack size, usable expiry, storage, control consumption and minimum orders determine how much of a consumable purchase becomes useful work. A larger pack can reduce freight yet increase unused stock at a quiet service. Compare equivalent tasks or assays, and separate routine patient use from controls and other consumption. In an original hypothetical example, 24 single-use panel tests cost US$360 plus US$72 delivery: US$432. If all 24 produce usable patient panels, that purchase costs US$18 per panel. If only 18 do, it costs US$24. These invented prices and quantities are not an offer for any named test. Count control runs, repeats and expiry when estimating the usable yield, and count each purchased pack only once. Add separately purchased control material, collection supplies, storage and instrument costs where applicable. The denominator is accepted patient panels from the same period, not individual analytes or every test purchased."
       ],
       [
         "Close the omissions that can still change the winner",
@@ -9537,8 +9381,6 @@ export const researchGuides = [
       "sourceIds": [
         "edan-config",
         "ttop-config",
-        "m11-offer",
-        "piccolo-offer",
         "ultrasound-config",
         "pc-ecg"
       ]
@@ -9581,11 +9423,9 @@ export const researchGuides = [
           "heading": "Add the spending between delivery and first use",
           "paragraphs": [
             "Give accessories, software, freight, tax or import costs, installation, acceptance, training and initial supplies their own lines. “Included” should describe the item and quantity. “Unpriced” is an unresolved exposure, not zero. If one essential item has no credible cost or delivery route, keep that uncertainty visible instead of presenting a precise but incomplete total.",
-            "A dated public offer can anchor part of the comparison. On October 16, 2026, MFI’s M11 listing displayed US$7,562.82 plus US$495 shipping, totaling US$8,057.82 by addition. It identified medical M11-050/M11-051 configurations and voltage variants, not a dental configuration. That snapshot was not a destination-specific landed quotation and is not a promise of today’s price. The model, voltage, delivery scope and date belong beside the amount."
+            "A parts-only repair promise can leave the hospital paying for labor, engineer travel and return freight. Put those responsibilities beside the actual destination and service route. Keep optional accessories out of the base package until their need is clear. The next example shows how apparently small omissions can erase a large console discount."
           ],
-          "sourceIds": [
-            "m11-offer"
-          ]
+          "sourceIds": []
         },
         {
           "heading": "Watch a US$3,000 saving almost disappear",
@@ -9607,11 +9447,10 @@ export const researchGuides = [
           "heading": "Buy usable output, not an attractive pack price",
           "paragraphs": [
             "Pack size, usable expiry, storage, control consumption and minimum orders determine how much of a consumable purchase becomes useful work. A larger pack can reduce freight yet increase unused stock at a quiet service. Compare equivalent tasks or assays, and separate routine patient use from controls and other consumption.",
-            "A CLIAwaived offer checked on October 16, 2026 provides a specific example: US$139 for ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08), plus a US$30 fee per item. If all ten discs produced usable patient panels, US$169 divided by ten would be US$16.90 per panel. If only eight did so in an illustrative scenario, it would be US$21.13 per usable patient panel, rounded to cents. These are assumed yields, not observed wastage or prices per individual analyte. Control use, repeats, discarded discs, tax and other costs must be included in a real comparison. The seller’s CLIA-license requirement and other ordering conditions still apply."
+            "In an original hypothetical example, 24 single-use panel tests cost US$360 plus US$72 delivery: US$432. If all 24 produce usable patient panels, that purchase costs US$18 per panel. If only 18 do, it costs US$24. These invented prices and quantities are not an offer for any named test.",
+            "Count control runs, repeats and expiry when estimating the usable yield, and count each purchased pack only once. Add separately purchased control material, collection supplies, storage and instrument costs where applicable. The denominator is accepted patient panels from the same period, not individual analytes or every test purchased."
           ],
-          "sourceIds": [
-            "piccolo-offer"
-          ]
+          "sourceIds": []
         },
         {
           "heading": "Close the omissions that can still change the winner",
@@ -9650,8 +9489,8 @@ export const researchGuides = [
         "Does the preference survive lower utilization?"
       ],
       "gaps": [
-        "Illustrative prices are not market estimates.",
-        "Public offers do not establish destination delivery, tax, regulatory eligibility or service terms."
+        "Illustrative prices and yields are invented inputs, not market estimates or observed waste rates.",
+        "The comparison does not establish destination delivery, tax, regulatory eligibility or service terms for any real offer."
       ],
       "sources": [
         {
@@ -9671,24 +9510,6 @@ export const researchGuides = [
           "kind": "manufacturer",
           "accessed": "2026-10-16",
           "evidence": "21/27 L line with Class S and upgradeable Class B configurations; distinct cycle tables."
-        },
-        {
-          "id": "m11-offer",
-          "title": "Factory-new current M11 offer",
-          "url": "https://mfimedical.com/products/midmark-m11-steam-sterilizer",
-          "publisher": "MFI Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Opened price USD 7,562.82 plus displayed USD 495 shipping; exact voltage and delivery terms require confirmation. The listing identifies M11-050 / M11-051 and expressly states medical-facility use only, excluding dental applications."
-        },
-        {
-          "id": "piccolo-offer",
-          "title": "Comprehensive Metabolic disc offer",
-          "url": "https://www.cliawaived.com/comp-metabolic-reagent-disc.html",
-          "publisher": "CLIAwaived",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "Opened body: ABBT-07P02-08 at $139/10 plus $30 fee per item and CLIA-license requirement."
         },
         {
           "id": "ultrasound-config",
@@ -10096,8 +9917,8 @@ export const researchGuides = [
         "Inspect the dependencies that remain after the proposed fix. A repaired console still relies on its probes, sensors, cables, software and supplies. For ultrasound, identify the exact probes needed and the support available for each before spending heavily on the console. Restoring the main box can leave the service exposed to one unreplaceable accessory. The same issue is concrete with an Olympus LF-GP. Continued value depends on the scope's fiber condition, angulation, leak integrity, channel condition and complete reusable-processing pathway. A repair may make sense in an established service with those resources. It is less attractive if the scope returns to a site that still cannot process or maintain it appropriately."
       ],
       [
-        "Treat supply endings as planning evidence",
-        "A component or consumable phase-out can change the repair calculation even when the machine works today. Ambu's December 2023 King Vision communication describes component discontinuations and phased stock depletion. It does not prove every blade is unavailable now, but it gives the buyer a reason to examine the remaining supply horizon before investing in another display. Be precise about what is known. An accessible manual does not prove that a manufacturer accepts the exact serial for repair. A missing website listing does not prove formal discontinuation. Obtain a written service response, identify a credible alternative provider where appropriate, and record any unresolved essential part. Age alone is an unreliable substitute for that evidence."
+        "Check the supply that remains after the repair",
+        "A working display still needs the correct patient-contact components. Verathon identifies Spectrum blades for the earlier GlideScope Go, while Go 2 uses Spectrum QC eco and Spectrum QC. Owning a cupboard of blades for a newer generation does not make an older display supportable. Before paying for repair, identify the exact compatible stock and how it will be replenished; before replacement, identify which stock cannot transfer. Be precise about what is known. An accessible manual does not prove that a manufacturer accepts the exact serial for repair. A missing website listing does not prove formal discontinuation. Obtain a written service response, identify a credible alternative provider where appropriate, and record any unresolved essential part. Age alone is an unreliable substitute for that evidence."
       ],
       [
         "Price downtime without pretending to know it",
@@ -10105,7 +9926,7 @@ export const researchGuides = [
       ],
       [
         "Set a clear condition for returning or retiring the unit",
-        "Agree what successful repair must demonstrate and who accepts it. If that condition cannot be met, decide whether a further bounded attempt has a credible purpose. Avoid continuing small payments without a stopping decision. The Force FX example illustrates a sensible retention case: keep an accepted unit that performs the required work and has practical repairs and accessories. Compare replacement with an appropriately configured IDS-310 when the existing repair burden or support gap becomes unfavorable. Neither published product documentation nor a refurbished seller's warranty supplies a universal remaining-lifespan estimate."
+        "Agree what successful repair must demonstrate and who accepts it. If that condition cannot be met, decide whether a further bounded attempt has a credible purpose. Avoid continuing small payments without a stopping decision. Force FX provides a conditional retention example: keep an accepted unit that performs the required work and has practical repairs and compatible accessories. Compare a complete IDS-310 replacement when the existing repair burden or support gap becomes unfavorable. The historical Force FX filing and current IDS-310 resources establish product roles; they do not estimate the remaining life of the hospital’s generator."
       ]
     ],
     "related": [
@@ -10123,7 +9944,7 @@ export const researchGuides = [
       "firstChoice": "Obtain a diagnosis, bounded repair scope and agreed acceptance test. Compare that with a complete replacement, including retained accessories, software, training and the cost of keeping work available during either route.",
       "upgradeWhen": "Replace or reassign equipment when it cannot supply required functions or its essential parts cannot be supported. Repairing an X8 does not add invasive-pressure capability; a working basic monitor may still have a suitable role.",
       "budgetWatch": "A repaired ultrasound console can remain dependent on an unreplaceable probe. An LF-GP still needs a complete processing route. Include repair freight and longer-turnaround scenarios without inventing failure probabilities.",
-      "supportCheck": "Use fault history and written repair acceptance. King Vision's component phase-out is a reason to verify remaining supplies before further investment; an accessible manual alone does not establish support.",
+      "supportCheck": "Use fault history and written repair acceptance. Check the exact generation of essential accessories: Go and Go 2 use different blade families. An accessible manual alone does not establish ongoing supply or repair support.",
       "askSupplier": [
         "What specific fault will this repair resolve and how will you prove it?",
         "Which essential accessory or part remains unsupported afterward?",
@@ -10133,9 +9954,9 @@ export const researchGuides = [
         "edan-capability",
         "ultrasound-probes",
         "lfgp-platform",
-        "king-supply",
-        "force-fx-offer",
-        "ids310-resources"
+        "ids310-resources",
+        "fx-regulatory",
+        "go-generation"
       ]
     },
     "research": {
@@ -10191,13 +10012,13 @@ export const researchGuides = [
           ]
         },
         {
-          "heading": "Treat supply endings as planning evidence",
+          "heading": "Check the supply that remains after the repair",
           "paragraphs": [
-            "A component or consumable phase-out can change the repair calculation even when the machine works today. Ambu's December 2023 King Vision communication describes component discontinuations and phased stock depletion. It does not prove every blade is unavailable now, but it gives the buyer a reason to examine the remaining supply horizon before investing in another display.",
+            "A working display still needs the correct patient-contact components. Verathon identifies Spectrum blades for the earlier GlideScope Go, while Go 2 uses Spectrum QC eco and Spectrum QC. Owning a cupboard of blades for a newer generation does not make an older display supportable. Before paying for repair, identify the exact compatible stock and how it will be replenished; before replacement, identify which stock cannot transfer.",
             "Be precise about what is known. An accessible manual does not prove that a manufacturer accepts the exact serial for repair. A missing website listing does not prove formal discontinuation. Obtain a written service response, identify a credible alternative provider where appropriate, and record any unresolved essential part. Age alone is an unreliable substitute for that evidence."
           ],
           "sourceIds": [
-            "king-supply"
+            "go-generation"
           ]
         },
         {
@@ -10213,10 +10034,10 @@ export const researchGuides = [
           "heading": "Set a clear condition for returning or retiring the unit",
           "paragraphs": [
             "Agree what successful repair must demonstrate and who accepts it. If that condition cannot be met, decide whether a further bounded attempt has a credible purpose. Avoid continuing small payments without a stopping decision.",
-            "The Force FX example illustrates a sensible retention case: keep an accepted unit that performs the required work and has practical repairs and accessories. Compare replacement with an appropriately configured IDS-310 when the existing repair burden or support gap becomes unfavorable. Neither published product documentation nor a refurbished seller's warranty supplies a universal remaining-lifespan estimate."
+            "Force FX provides a conditional retention example: keep an accepted unit that performs the required work and has practical repairs and compatible accessories. Compare a complete IDS-310 replacement when the existing repair burden or support gap becomes unfavorable. The historical Force FX filing and current IDS-310 resources establish product roles; they do not estimate the remaining life of the hospital’s generator."
           ],
           "sourceIds": [
-            "force-fx-offer",
+            "fx-regulatory",
             "ids310-resources"
           ]
         }
@@ -10278,31 +10099,32 @@ export const researchGuides = [
           "evidence": "Regional page describes portable tracheal intubation fiberscope; does not establish current repairs."
         },
         {
-          "id": "king-supply",
-          "title": "King Vision December 2023 customer communication",
-          "url": "https://www.medline.com/media/assets/pdf/vendor-list/King-Vision-Video-Laryngoscope-Customer-Communication-December-2023.pdf",
-          "publisher": "Ambu, hosted by Medline",
-          "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "Component discontinuations; some codes immediately unavailable and remaining portfolio phased out as inventory depletes."
-        },
-        {
-          "id": "force-fx-offer",
-          "title": "Force FX certified-refurbished offer",
-          "url": "https://shop.victorimedical.com/products/valleylab-force-fx-refurbished",
-          "publisher": "Victori Medical",
-          "kind": "seller listing",
-          "accessed": "2026-10-16",
-          "evidence": "US$3,195 asking price, certified-refurbished condition and seller-stated 90-day warranty on access date."
-        },
-        {
           "id": "ids310-resources",
           "title": "Bovie IDS-310 product and service resources",
           "url": "https://www.aspensurgical.com/Product/IDS-310",
           "publisher": "Aspen Surgical",
           "kind": "manufacturer",
-          "accessed": "2026-10-16",
-          "evidence": "300W model, accessory listings and user/service guides."
+          "accessed": "2026-10-18",
+          "evidence": "Aspen’s product body, included-items table and resource links re-read. Confirms 300 W platform, generator/power-cord list and user/service resource route; no open public price or destination service promise established."
+        },
+        {
+          "id": "fx-regulatory",
+          "title": "Force FX generators: indications and 510(k) summary, K143161",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf14/K143161.pdf",
+          "publisher": "FDA / Covidien",
+          "kind": "regulatory filing",
+          "published": "2014-12-19",
+          "accessed": "2026-10-18",
+          "evidence": "Five-page filing read, including indications and manufacturer summary. Establishes historical monopolar/bipolar cutting and coagulation role and model variations; not current service availability, offered-unit condition, warranty or remaining-life evidence."
+        },
+        {
+          "id": "go-generation",
+          "title": "GlideScope Go 2",
+          "url": "https://www.verathon.com/glidescope-visualization-systems/glidescope-go?frm=vb-fmly",
+          "publisher": "Verathon",
+          "kind": "manufacturer",
+          "accessed": "2026-10-18",
+          "evidence": "Manufacturer comparison read again: Go 2 uses Spectrum QC eco/Spectrum QC; earlier Go uses Spectrum. Distinct video-baton arrangements and published runtime are product specifications, not comparative durability evidence."
         }
       ],
       "related": [
@@ -10659,7 +10481,7 @@ export const researchGuides = [
       ],
       [
         "Compare the repair exposure on both sides",
-        "Both offers need a credible major-component plan. Price detector or intensifier replacement with diagnosis, freight, installation and calibration, then add the tube exposure. Establish what the contract covers, which replacement condition is acceptable and what happens if the compatible component cannot be obtained. Seller lifespan and price comparisons can suggest questions, but they cannot establish a failure rate or the cost of repairing this unit in your country. Compare a normal operating year and an early major-repair scenario without inventing probabilities. Choose the flat panel when its demonstrated gain and support justify the premium; retain accepted equipment when the upgrade leaves the important limitation unchanged."
+        "Both offers need a credible major-component plan. Price detector or intensifier replacement with diagnosis, freight, installation and calibration, then add the tube exposure. Establish what the contract covers, which replacement condition is acceptable and what happens if the compatible component cannot be obtained. Put the upgrade premium beside two separate repair totals: one for the current system and one for the proposed replacement. A lower purchase price is not useful if its first major repair would exhaust the service budget. Equally, paying more for a flat panel buys no financial protection unless the warranty or service agreement actually provides it. Compare a normal operating year and an early major-repair scenario without assigning invented failure probabilities. Choose the flat panel when its demonstrated clinical or workflow gain and support justify the premium. Keep accepted equipment when the upgrade leaves the important limitation unchanged."
       ]
     ],
     "related": [
@@ -10832,11 +10654,10 @@ export const researchGuides = [
           "heading": "Compare the repair exposure on both sides",
           "paragraphs": [
             "Both offers need a credible major-component plan. Price detector or intensifier replacement with diagnosis, freight, installation and calibration, then add the tube exposure. Establish what the contract covers, which replacement condition is acceptable and what happens if the compatible component cannot be obtained.",
-            "Seller lifespan and price comparisons can suggest questions, but they cannot establish a failure rate or the cost of repairing this unit in your country. Compare a normal operating year and an early major-repair scenario without inventing probabilities. Choose the flat panel when its demonstrated gain and support justify the premium; retain accepted equipment when the upgrade leaves the important limitation unchanged."
+            "Put the upgrade premium beside two separate repair totals: one for the current system and one for the proposed replacement. A lower purchase price is not useful if its first major repair would exhaust the service budget. Equally, paying more for a flat panel buys no financial protection unless the warranty or service agreement actually provides it.",
+            "Compare a normal operating year and an early major-repair scenario without assigning invented failure probabilities. Choose the flat panel when its demonstrated clinical or workflow gain and support justify the premium. Keep accepted equipment when the upgrade leaves the important limitation unchanged."
           ],
-          "sourceIds": [
-            "block-detectors"
-          ]
+          "sourceIds": []
         }
       ],
       "checklist": [
@@ -10868,22 +10689,12 @@ export const researchGuides = [
       ],
       "sources": [
         {
-          "id": "block-detectors",
-          "title": "Flat Panel Detector C-Arms vs. Image Intensifier C-Arms",
-          "url": "https://www.blockimaging.com/blog/flat-panel-detector-c-arms-vs.-image-intensifier-c-arms",
-          "publisher": "Block Imaging",
-          "kind": "seller perspective",
-          "accessed": "2026-10-17",
-          "updated": "2025-04-30",
-          "evidence": "Seller discusses detector selection, software and service costs. Its market-wide price, lifespan and sufficiency claims are not treated as verified comparative evidence."
-        },
-        {
           "id": "cios-us",
           "title": "Cios Select: United States specifications",
           "url": "https://www.siemens-healthineers.com/en-us/surgical-c-arms-and-navigation/mobile-c-arms/cios-select",
           "publisher": "Siemens Healthineers",
           "kind": "manufacturer",
-          "accessed": "2026-10-17",
+          "accessed": "2026-10-18",
           "evidence": "US page specifies a 23 cm image intensifier, 2.5 kW output and separately identified optional DICOM and vascular functions."
         },
         {
@@ -10892,7 +10703,7 @@ export const researchGuides = [
           "url": "https://www.siemens-healthineers.com/en-in/surgical-c-arms-and-navigation/mobile-c-arms/cios-select",
           "publisher": "Siemens Healthineers",
           "kind": "manufacturer",
-          "accessed": "2026-10-17",
+          "accessed": "2026-10-18",
           "evidence": "Regional page identifies both image-intensifier and flat-detector configurations; the model name alone does not establish the supplied detector."
         },
         {
@@ -10961,7 +10772,7 @@ export const researchGuides = [
       ],
       [
         "Use the counter as evidence, not a countdown",
-        "Usage records belong beside faults, corrective work and current performance. They cannot promise how many examinations remain. Seller experience may help identify questions about a tube family, but subtracting a used tube's count from a published lifespan estimate produces a misleadingly precise answer. Keep two financial scenarios separate: the normal operating plan and an early major repair. Use a quoted installed replacement and realistic local transport arrangements for the second. Do not turn that stress test into an expected-cost calculation by inventing a probability of failure."
+        "Usage records belong beside faults, corrective work and current performance. Subtracting the counter from a supposed lifetime total does not establish how many examinations this tube has left. Ask the engineer to explain the evidence for the offered unit, including unresolved faults and missing history. Monitoring is a separate capability. Siemens describes TubeGuard as addressing predictable and detectable tube failures on selected systems, with stable Smart Remote Services connectivity required. That scope is narrower than a promise to predict every failure. For an eligible scanner, establish who acts on an alert and whether the agreement pays for the repair or replacement. Keep two financial scenarios separate: the normal operating plan and an early major repair. Use a quoted installed replacement and realistic local transport arrangements for the second. This is a test of whether the budget can absorb the repair, not a forecast of when it will happen."
       ],
       [
         "Read the remedy behind the warranty",
@@ -11124,11 +10935,12 @@ export const researchGuides = [
         {
           "heading": "Use the counter as evidence, not a countdown",
           "paragraphs": [
-            "Usage records belong beside faults, corrective work and current performance. They cannot promise how many examinations remain. Seller experience may help identify questions about a tube family, but subtracting a used tube's count from a published lifespan estimate produces a misleadingly precise answer.",
-            "Keep two financial scenarios separate: the normal operating plan and an early major repair. Use a quoted installed replacement and realistic local transport arrangements for the second. Do not turn that stress test into an expected-cost calculation by inventing a probability of failure."
+            "Usage records belong beside faults, corrective work and current performance. Subtracting the counter from a supposed lifetime total does not establish how many examinations this tube has left. Ask the engineer to explain the evidence for the offered unit, including unresolved faults and missing history.",
+            "Monitoring is a separate capability. Siemens describes TubeGuard as addressing predictable and detectable tube failures on selected systems, with stable Smart Remote Services connectivity required. That scope is narrower than a promise to predict every failure. For an eligible scanner, establish who acts on an alert and whether the agreement pays for the repair or replacement.",
+            "Keep two financial scenarios separate: the normal operating plan and an early major repair. Use a quoted installed replacement and realistic local transport arrangements for the second. This is a test of whether the budget can absorb the repair, not a forecast of when it will happen."
           ],
           "sourceIds": [
-            "block-tube"
+            "siemens-tubeguard"
           ]
         },
         {
@@ -11192,16 +11004,6 @@ export const researchGuides = [
       ],
       "sources": [
         {
-          "id": "block-tube",
-          "title": "CT Tube Lifespan and Cost: MRC 600, MRC 800",
-          "url": "https://www.blockimaging.com/blog/ct-tube-lifespan-mrc-600-mrc-800",
-          "publisher": "Block Imaging",
-          "kind": "seller perspective",
-          "accessed": "2026-10-17",
-          "updated": "2025-05-28",
-          "evidence": "Publishes seller/customer experience and replacement-cost ranges; used as context for due-diligence questions, not a guaranteed life or current price estimate."
-        },
-        {
           "id": "ge-tubes",
           "title": "CT tubes and replacement CT tubes",
           "url": "https://services.gehealthcare.com/gehcstorefront/ct-tubes",
@@ -11237,6 +11039,15 @@ export const researchGuides = [
           "accessed": "2026-10-17",
           "published": "2012",
           "evidence": "Human Health Series No. 19, section 4: acceptance verifies purchase specifications; commissioning establishes baseline performance with medical-physics involvement. Publication year is 2012, not the search crawl date."
+        },
+        {
+          "id": "siemens-tubeguard",
+          "title": "Guardian Program: TubeGuard scope and prerequisites",
+          "url": "https://www.siemens-healthineers.com/en-uk/services/customer-services/upspeed-services/guardian-program",
+          "publisher": "Siemens Healthineers",
+          "kind": "manufacturer",
+          "accessed": "2026-10-18",
+          "evidence": "Describes monitoring for predictable and detectable tube failures on selected systems; stable Smart Remote Services connectivity and regional eligibility are prerequisites. Does not establish an individual used tube’s remaining life or paid replacement coverage."
         }
       ],
       "related": [
@@ -11296,7 +11107,7 @@ export const researchGuides = [
       ],
       [
         "A loaner promise needs a compatible probe behind it",
-        "A loaner is useful only when the correct model can reach the hospital and work with its console and required modes. GE's diagnostic page states that its loaner service depends on inventory and does not cover every probe model. Ask for the proposed substitute, compatibility, delivery arrangements, charges and return deadline. Review probe coverage separately from the console contract. Block Imaging's published terms provide a concrete seller example in which ultrasound transducers require specific endorsement. That document does not determine another provider's coverage. It does demonstrate why the actual probe list and applicable conditions belong in the agreement rather than in a verbal assurance that the scanner is covered."
+        "A loaner is useful only when the correct model can reach the hospital and work with its console and required modes. GE's diagnostic page states that its loaner service depends on inventory and does not cover every probe model. Ask for the proposed substitute, compatibility, delivery arrangements, charges and return deadline. Coverage for a failed probe and coverage for accidental damage are separate buying questions. GE’s US probe-contract page describes accidental probe coverage within its full-maintenance offering and separately lists on-demand services. That is evidence that the scope can be specified, not proof that every GE agreement or every probe is covered. Name the probes in the agreement, then work through one ordinary fault and one accidental-damage case. Establish the remedy, any claim limit, freight and the compatible temporary probe. A broad console contract does not answer those questions by itself."
       ],
       [
         "Choose a package that stays useful after one failure",
@@ -11327,13 +11138,14 @@ export const researchGuides = [
         "ge-diagnosis",
         "philips-care",
         "ge-probe-terms",
-        "ge-vscan"
+        "ge-vscan",
+        "ge-probe-contracts"
       ]
     },
     "research": {
       "kind": "feature",
       "id": "ultrasound-probes",
-      "researchedAt": "2026-10-17",
+      "researchedAt": "2026-10-18",
       "coverage": [
         "required transducer bundle",
         "used probe inspection and compatibility",
@@ -11474,11 +11286,12 @@ export const researchGuides = [
           "heading": "A loaner promise needs a compatible probe behind it",
           "paragraphs": [
             "A loaner is useful only when the correct model can reach the hospital and work with its console and required modes. GE's diagnostic page states that its loaner service depends on inventory and does not cover every probe model. Ask for the proposed substitute, compatibility, delivery arrangements, charges and return deadline.",
-            "Review probe coverage separately from the console contract. Block Imaging's published terms provide a concrete seller example in which ultrasound transducers require specific endorsement. That document does not determine another provider's coverage. It does demonstrate why the actual probe list and applicable conditions belong in the agreement rather than in a verbal assurance that the scanner is covered."
+            "Coverage for a failed probe and coverage for accidental damage are separate buying questions. GE’s US probe-contract page describes accidental probe coverage within its full-maintenance offering and separately lists on-demand services. That is evidence that the scope can be specified, not proof that every GE agreement or every probe is covered.",
+            "Name the probes in the agreement, then work through one ordinary fault and one accidental-damage case. Establish the remedy, any claim limit, freight and the compatible temporary probe. A broad console contract does not answer those questions by itself."
           ],
           "sourceIds": [
             "ge-diagnosis",
-            "block-probe-terms"
+            "ge-probe-contracts"
           ]
         },
         {
@@ -11527,7 +11340,7 @@ export const researchGuides = [
           "url": "https://services.gehealthcare.com/gehcstorefront/ultrasound-probe-management/diagnose",
           "publisher": "GE HealthCare",
           "kind": "manufacturer",
-          "accessed": "2026-10-17",
+          "accessed": "2026-10-18",
           "evidence": "Describes visual and technical evaluation for repair versus replacement; loaners depend on inventory and are not offered for every model."
         },
         {
@@ -11545,7 +11358,7 @@ export const researchGuides = [
           "url": "https://www.gehealthcare.com/en-us/about/terms-and-conditions/on-demand-quotation-systems",
           "publisher": "GE HealthCare",
           "kind": "manufacturer terms",
-          "accessed": "2026-10-17",
+          "accessed": "2026-10-18",
           "published": "2026-03",
           "evidence": "US terms identify separate evaluation/loaner charges, customer-paid shipping, exchange-core value and a defined repair warranty; exact purchased scope still governs."
         },
@@ -11559,13 +11372,13 @@ export const researchGuides = [
           "evidence": "Identifies CL curved/linear and SL sector/linear arrays as distinct dual-ended configurations."
         },
         {
-          "id": "block-probe-terms",
-          "title": "Published service contract terms: PSC/SCMX5",
-          "url": "https://www.blockimaging.com/terms/pscscmx5",
-          "publisher": "Block Imaging",
-          "kind": "seller terms",
-          "accessed": "2026-10-17",
-          "evidence": "The published exclusions specifically name ultrasound transducers unless endorsed; used only as an example of component-specific contract scope."
+          "id": "ge-probe-contracts",
+          "title": "Ultrasound Probe Contract Solutions",
+          "url": "https://services.gehealthcare.com/gehcstorefront/ultrasound-probe-management/servicecontracts",
+          "publisher": "GE HealthCare",
+          "kind": "manufacturer",
+          "accessed": "2026-10-18",
+          "evidence": "US public offering distinguishes a full-maintenance solution with accidental probe coverage from on-demand services. The page is not a purchased agreement and does not establish eligible models, claim limits or availability at a particular hospital."
         }
       ],
       "related": [
@@ -11615,7 +11428,7 @@ export const researchGuides = [
       ],
       [
         "Read the expensive exclusions first",
-        "Use an inclusion table for labor, travel, overtime, freight, detectors, tubes, probes, software support and relevant external equipment. Mark limits and conditions as carefully as exclusions. Block Imaging's CT guidance highlights that tube replacement may be outside an agreement even when tube-related maintenance is covered. That is a seller's example, not a universal contract rule. Ask how pre-existing faults, accidental damage and site-related failures are handled. Determine whether the remedy is repair, exchange or another arrangement and whether prior approval is required. A lower fee with an excluded major component can still be sensible, provided the hospital explicitly funds that remaining exposure."
+        "Use an inclusion table for labour, travel, overtime, freight, detectors, tubes, probes, software support and relevant external equipment. Mark limits and conditions as carefully as exclusions. “Parts included” still leaves a question: which parts, how many and up to what value? Philips’ 2021 RightFit brochure makes the distinction visible. Value describes maintenance labour coverage; Select can allocate a limited quantity or value of parts and repair work. These are published examples of different arrangements, not the terms offered today in every country. Apply that distinction to the failure that concerns your hospital. Ask the provider to show the clause that pays for the component, its installation and the journey to your site. If a parts allowance can be exhausted, calculate what remains payable after it is used. A capped plan and an uncapped plan can share a reassuring name while leaving very different bills. Ask how pre-existing faults, accidental damage and site-related failures are handled. Determine whether the remedy is repair, exchange or another arrangement and whether prior approval is required. A lower fee with an excluded major component can still be sensible, provided the hospital explicitly funds that remaining exposure."
       ],
       [
         "A response clock is not a restoration clock",
@@ -11627,7 +11440,7 @@ export const researchGuides = [
       ],
       [
         "Stress-test the fee and preserve the maintenance record",
-        "Stress-test each offer over the same term without pretending to know failure probabilities. In a hypothetical one-year comparison, Plan A costs US$3,000 but excludes an US$8,000 component; Plan B costs US$5,000 and includes that component and its replacement work. With no failure, A costs US$2,000 less. With one covered failure under the stated assumptions, A costs US$11,000 against B’s US$5,000. This is an illustration, not market pricing; travel, deductibles and other differences must be included when they are not equal. Review renewal pricing, cancellation, equipment removal and the consequences of parts or software support ending. Require usable service reports and maintain the hospital's own asset history; WHO's 2025 inventory guidance places maintenance within the device lifecycle. Choose the arrangement that transfers the risks the hospital needs transferred while leaving clearly funded responsibilities."
+        "Compare the same term and failure event. In this hypothetical one-year example, Plan A costs US$3,000 but excludes a repair whose complete installed cost is US$8,000. Plan B costs US$5,000 and covers that same repair. Assume other costs are equal and there are no applicable deductibles or limits. These figures illustrate the calculation; they are not market prices. With no failure, A costs US$2,000 less. With that one covered repair, A costs US$11,000 against B’s US$5,000. The decision is therefore about both the extra fee and access to US$8,000 when the repair is needed. Do not label B the cheaper plan on average without evidence for the failure probability. Add travel, deductibles and temporary service where the real offers differ. Review renewal pricing, cancellation, equipment removal and the consequences of parts or software support ending. Require usable service reports and maintain the hospital's own asset history; WHO's 2025 inventory guidance places maintenance within the device lifecycle. Choose the arrangement that transfers the risks the hospital needs transferred while leaving clearly funded responsibilities."
       ]
     ],
     "related": [
@@ -11654,13 +11467,13 @@ export const researchGuides = [
         "who-maintenance",
         "who-inventory",
         "philips-rightfit",
-        "block-ct"
+        "philips-service-portfolio"
       ]
     },
     "research": {
       "kind": "feature",
       "id": "service-contracts",
-      "researchedAt": "2026-10-17",
+      "researchedAt": "2026-10-18",
       "coverage": [
         "full service versus time and materials",
         "preventive maintenance",
@@ -11700,12 +11513,12 @@ export const researchGuides = [
           "model": "Time-and-materials corrective service",
           "position": "Pay for defined repair events",
           "bestFor": "A facility with reserves, an established provider and acceptable interruption arrangements.",
-          "why": "Block's service-selection guidance explicitly identifies this as an alternative to full coverage.",
+          "why": "Philips’ published RightFit portfolio lists time-and-materials service alongside its contract options.",
           "tradeoff": "Engineer availability, authorization delays and expensive parts remain buyer exposures unless otherwise agreed.",
           "price": "Obtain labor, minimum call, travel, after-hours and parts terms.",
           "support": "Establish the escalation and approval route before a breakdown.",
           "sourceIds": [
-            "block-questions"
+            "philips-service-portfolio"
           ]
         },
         {
@@ -11728,10 +11541,7 @@ export const researchGuides = [
           "tradeoff": "Tubes, detectors, probes, environmental failures and overtime must each be resolved in the actual scope.",
           "price": "Compare the fee plus deductibles, caps and exclusions.",
           "support": "Specify destination coverage, response clock, repair completion and any interim service.",
-          "sourceIds": [
-            "block-questions",
-            "block-ct"
-          ]
+          "sourceIds": []
         }
       ],
       "quickCompare": [
@@ -11782,11 +11592,13 @@ export const researchGuides = [
         {
           "heading": "Read the expensive exclusions first",
           "paragraphs": [
-            "Use an inclusion table for labor, travel, overtime, freight, detectors, tubes, probes, software support and relevant external equipment. Mark limits and conditions as carefully as exclusions. Block Imaging's CT guidance highlights that tube replacement may be outside an agreement even when tube-related maintenance is covered. That is a seller's example, not a universal contract rule.",
+            "Use an inclusion table for labour, travel, overtime, freight, detectors, tubes, probes, software support and relevant external equipment. Mark limits and conditions as carefully as exclusions. “Parts included” still leaves a question: which parts, how many and up to what value?",
+            "Philips’ 2021 RightFit brochure makes the distinction visible. Value describes maintenance labour coverage; Select can allocate a limited quantity or value of parts and repair work. These are published examples of different arrangements, not the terms offered today in every country.",
+            "Apply that distinction to the failure that concerns your hospital. Ask the provider to show the clause that pays for the component, its installation and the journey to your site. If a parts allowance can be exhausted, calculate what remains payable after it is used. A capped plan and an uncapped plan can share a reassuring name while leaving very different bills.",
             "Ask how pre-existing faults, accidental damage and site-related failures are handled. Determine whether the remedy is repair, exchange or another arrangement and whether prior approval is required. A lower fee with an excluded major component can still be sensible, provided the hospital explicitly funds that remaining exposure."
           ],
           "sourceIds": [
-            "block-ct"
+            "philips-service-portfolio"
           ]
         },
         {
@@ -11811,7 +11623,8 @@ export const researchGuides = [
         {
           "heading": "Stress-test the fee and preserve the maintenance record",
           "paragraphs": [
-            "Stress-test each offer over the same term without pretending to know failure probabilities. In a hypothetical one-year comparison, Plan A costs US$3,000 but excludes an US$8,000 component; Plan B costs US$5,000 and includes that component and its replacement work. With no failure, A costs US$2,000 less. With one covered failure under the stated assumptions, A costs US$11,000 against B’s US$5,000. This is an illustration, not market pricing; travel, deductibles and other differences must be included when they are not equal.",
+            "Compare the same term and failure event. In this hypothetical one-year example, Plan A costs US$3,000 but excludes a repair whose complete installed cost is US$8,000. Plan B costs US$5,000 and covers that same repair. Assume other costs are equal and there are no applicable deductibles or limits. These figures illustrate the calculation; they are not market prices.",
+            "With no failure, A costs US$2,000 less. With that one covered repair, A costs US$11,000 against B’s US$5,000. The decision is therefore about both the extra fee and access to US$8,000 when the repair is needed. Do not label B the cheaper plan on average without evidence for the failure probability. Add travel, deductibles and temporary service where the real offers differ.",
             "Review renewal pricing, cancellation, equipment removal and the consequences of parts or software support ending. Require usable service reports and maintain the hospital's own asset history; WHO's 2025 inventory guidance places maintenance within the device lifecycle. Choose the arrangement that transfers the risks the hospital needs transferred while leaving clearly funded responsibilities."
           ],
           "sourceIds": [
@@ -11879,24 +11692,14 @@ export const researchGuides = [
           "evidence": "Patient-monitoring portfolio identifies Protection, Support, Assist and Value approaches; applicability must not be generalized to other equipment."
         },
         {
-          "id": "block-questions",
-          "title": "5 Questions to Ask Before Signing a Service Contract",
-          "url": "https://www.blockimaging.com/blog/5-things-to-ask-before-signing-an-imaging-equipment-service-contract",
-          "publisher": "Block Imaging",
-          "kind": "seller perspective",
-          "accessed": "2026-10-17",
-          "updated": "2025-10-23",
-          "evidence": "Raises service scope, engineer location, parts, cancellation/payment terms, and maintenance-only or time-and-materials alternatives."
-        },
-        {
-          "id": "block-ct",
-          "title": "CT Service Contracts: What is NOT Included?",
-          "url": "https://www.blockimaging.com/blog/bid/80328/ct-service-contracts-what-is-not-included",
-          "publisher": "Block Imaging",
-          "kind": "seller perspective",
-          "accessed": "2026-10-17",
-          "updated": "2025-05-28",
-          "evidence": "Explains that tube upkeep and tube replacement can have different coverage; treated as supplier perspective rather than universal contract terms."
+          "id": "philips-service-portfolio",
+          "title": "Discover the Philips RightFit for you",
+          "url": "https://www.philips.com/c-dam/b2bhc/master/services/rightfit-equipment-maintenance/RightFit_Service_Agreements_Brochure.pdf",
+          "publisher": "Philips",
+          "kind": "manufacturer",
+          "accessed": "2026-10-18",
+          "evidence": "2021 brochure, printed pp. 10–11, 18–21: distinguishes on-demand time and materials, Value labour coverage and Select quantity/value-limited arrangements. Used as examples of scope, not current regional entitlements or comparative reliability.",
+          "published": "2021"
         }
       ],
       "related": [
@@ -11930,7 +11733,7 @@ export const researchGuides = [
           }
         ],
         "insertAfterHeading": "Stress-test the fee and preserve the maintenance record",
-        "caption": "Hypothetical one-year USD example: A excludes an $8,000 component; B includes that component and its replacement work. No failure probability is assumed. Unequal travel, deductibles or other exclusions must be added."
+        "caption": "Hypothetical one-year USD example: A excludes a repair costing $8,000 fully installed; B covers that same repair. No failure probability is assumed. Add unequal travel, deductibles and other exclusions in a real comparison."
       }
     },
     "searchTerms": "full service versus time and materials preventive maintenance parts and in-house support coverage exclusions response and restoration renewal and support horizon Preventive-maintenance-only arrangement Time-and-materials corrective service Parts and specialist support for an in-house team Full-service agreement with named major components",
@@ -11978,7 +11781,7 @@ export const researchGuides = [
       ],
       [
         "Know which dependency a different magnet removes",
-        "Philips describes BlueSeal as a sealed-helium technology that does not require a quench pipe. Where vent routing or helium logistics is a material constraint, it deserves comparison with a clinically suitable conventional design. Avoid extending that specific feature to every system described as low-helium. The useful question is which documented work disappears and which remains. Confirm power, cooling, shielding, access and support separately. A premium may be justified by avoided construction or an operating dependency, but an economic winner requires the actual scopes and costs. Reusing an existing suite can also be attractive when the proposed replacement is verified for it."
+        "Philips describes BlueSeal as a sealed-helium technology that does not require a quench pipe. Where vent routing or helium logistics is a material constraint, it deserves comparison with a clinically suitable conventional design. Avoid extending that specific feature to every system described as low-helium. Consider two sites. In an existing MRI suite with a usable vent route, removing the quench-pipe requirement may avoid little new work. In a building where the proposed vent route requires substantial construction, that difference can change which scanner is affordable. These are comparison cases, not a claim that either design always costs less. Give each clinically suitable scanner its own site-work schedule. Credit only the work its documented design removes; retain the power, cooling, shielding, delivery and support requirements that still apply. Then compare the equipment premium with the construction and operating costs actually avoided. A feature becomes a saving only when it removes an expense this hospital would otherwise incur."
       ],
       [
         "Include the equipment that makes the room usable",
@@ -12139,7 +11942,8 @@ export const researchGuides = [
           "heading": "Know which dependency a different magnet removes",
           "paragraphs": [
             "Philips describes BlueSeal as a sealed-helium technology that does not require a quench pipe. Where vent routing or helium logistics is a material constraint, it deserves comparison with a clinically suitable conventional design. Avoid extending that specific feature to every system described as low-helium.",
-            "The useful question is which documented work disappears and which remains. Confirm power, cooling, shielding, access and support separately. A premium may be justified by avoided construction or an operating dependency, but an economic winner requires the actual scopes and costs. Reusing an existing suite can also be attractive when the proposed replacement is verified for it."
+            "Consider two sites. In an existing MRI suite with a usable vent route, removing the quench-pipe requirement may avoid little new work. In a building where the proposed vent route requires substantial construction, that difference can change which scanner is affordable. These are comparison cases, not a claim that either design always costs less.",
+            "Give each clinically suitable scanner its own site-work schedule. Credit only the work its documented design removes; retain the power, cooling, shielding, delivery and support requirements that still apply. Then compare the equipment premium with the construction and operating costs actually avoided. A feature becomes a saving only when it removes an expense this hospital would otherwise incur."
           ],
           "sourceIds": [
             "philips-blueseal"
@@ -12218,7 +12022,7 @@ export const researchGuides = [
           "url": "https://www.usa.philips.com/healthcare/technology/blueseal-helium-free-mri",
           "publisher": "Philips",
           "kind": "manufacturer",
-          "accessed": "2026-10-17",
+          "accessed": "2026-10-18",
           "evidence": "Describes permanently sealed helium and elimination of a quench pipe for this technology; no general clinical, reliability or project-price superiority is inferred."
         },
         {
@@ -12229,16 +12033,6 @@ export const researchGuides = [
           "kind": "regulator",
           "accessed": "2026-10-18",
           "evidence": "Professional guidance rechecked: MR Conditional devices require every stated condition; unknown MR safety status is assumed unsafe. Used narrowly for procurement of support equipment."
-        },
-        {
-          "id": "block-mri",
-          "title": "What to Expect During Your MRI Scanner Project",
-          "url": "https://www.blockimaging.com/blog/what-to-expect-during-your-mri-scanner-project",
-          "publisher": "Block Imaging",
-          "kind": "seller perspective",
-          "accessed": "2026-10-17",
-          "updated": "2024-03-15",
-          "evidence": "Public overview separates selection, budgeting, installation and upkeep. Gated checklists were not requested or downloaded."
         }
       ],
       "related": [
@@ -12300,7 +12094,7 @@ export const researchGuides = [
       ],
       [
         "Compare repairs retained as well as equipment replaced",
-        "For retrofit, total the detector, workstation, licences, batteries, integration, commissioning and known repairs to retained hardware. For replacement, include the configured room, building work, removal, installation and the same handover requirements. Keep common costs in both columns and identify costs genuinely avoided. Then add a major-repair scenario: detector exchange on one side, and the relevant generator, tube or positioning exposure on the other. Use actual terms for damage exclusions, freight and temporary equipment. Keep the old room when its continuing usefulness supports the investment. Replace it when the underlying limitation survives the panel upgrade."
+        "For retrofit, total the detector, workstation, licences, batteries, integration, commissioning and known repairs to retained hardware. For replacement, include the configured room, building work, removal, installation and the same handover requirements. Keep common costs in both columns and identify costs genuinely avoided. Run the same failure scenarios against both offers. A detector can fail in either a retrofit or a new room; the retrofit also retains the existing generator, tube and positioning equipment. Compare the uncovered repair bill and interruption under each actual warranty or service plan. Giving one option a detector failure and the other an unrelated fault produces an uneven comparison. A retrofit earns its saving when the retained room still has useful work to do and the hospital can support it. Replacement earns its premium when it removes the limitation that would survive a detector upgrade. Use that distinction to decide where the money goes, then fund the remaining repair exposure."
       ]
     ],
     "related": [
@@ -12481,7 +12275,8 @@ export const researchGuides = [
           "heading": "Compare repairs retained as well as equipment replaced",
           "paragraphs": [
             "For retrofit, total the detector, workstation, licences, batteries, integration, commissioning and known repairs to retained hardware. For replacement, include the configured room, building work, removal, installation and the same handover requirements. Keep common costs in both columns and identify costs genuinely avoided.",
-            "Then add a major-repair scenario: detector exchange on one side, and the relevant generator, tube or positioning exposure on the other. Use actual terms for damage exclusions, freight and temporary equipment. Keep the old room when its continuing usefulness supports the investment. Replace it when the underlying limitation survives the panel upgrade."
+            "Run the same failure scenarios against both offers. A detector can fail in either a retrofit or a new room; the retrofit also retains the existing generator, tube and positioning equipment. Compare the uncovered repair bill and interruption under each actual warranty or service plan. Giving one option a detector failure and the other an unrelated fault produces an uneven comparison.",
+            "A retrofit earns its saving when the retained room still has useful work to do and the hospital can support it. Replacement earns its premium when it removes the limitation that would survive a detector upgrade. Use that distinction to decide where the money goes, then fund the remaining repair exposure."
           ],
           "sourceIds": []
         }
@@ -12560,16 +12355,6 @@ export const researchGuides = [
           "accessed": "2026-10-17",
           "published": "2023",
           "evidence": "Human Health Series No. 47 includes digital-radiography exposure-index checks, commissioning baselines and system-specific AEC assessment. The publication is 2023 despite the filename's number."
-        },
-        {
-          "id": "block-dr",
-          "title": "Automated Digital X-Ray vs. Analog X-Ray with Digital Panel Upgrade",
-          "url": "https://www.blockimaging.com/blog/automated-digital-x-ray-vs.-analog-x-ray-with-digital-panel-upgrade",
-          "publisher": "Block Imaging",
-          "kind": "seller perspective",
-          "accessed": "2026-10-17",
-          "updated": "2024-10-01",
-          "evidence": "Frames detector retrofit versus automated-room purchase. Its general cost and remodeling claims are not adopted as project-specific facts."
         }
       ],
       "related": [
@@ -14155,7 +13940,7 @@ export const researchGuides = [
       ],
       [
         "Compare complete usable packages",
-        "List required capabilities, accessories, consumables, software, connectivity and operator familiarity. For each proposal, confirm the actual model or acceptable substitute, condition documentation, delivery location and acceptance process. A rental that arrives without a required probe, cable or compatible supply cannot fill the stated gap. Agiliti's public rental portfolio demonstrates that multiple equipment categories are available through rental arrangements; it does not establish local availability for a particular configuration. Obtain a dated offer for the specific need. Have the clinical and technical teams approve any substitute and identify training or setup work before counting the first day as usable service."
+        "List required capabilities, accessories, consumables, software, connectivity and operator familiarity. For each proposal, confirm the actual model or acceptable substitute, condition documentation, delivery location and acceptance process. A rental that arrives without a required probe, cable or compatible supply cannot fill the stated gap. Obtain a dated offer for the specific configuration and destination. Have the clinical and technical teams approve any substitute and identify training or setup work before counting the first day as usable service. Compare the date the package becomes usable with the date rental billing begins; a low daily rate can still buy days when the hospital cannot use the equipment."
       ],
       [
         "Check the loaner before treating it as backup",
@@ -14195,7 +13980,6 @@ export const researchGuides = [
         "What would the complete cost be if the need lasts longer?"
       ],
       "sourceIds": [
-        "agiliti-rental",
         "ge-loaner",
         "who-procurement"
       ]
@@ -14230,13 +14014,11 @@ export const researchGuides = [
           "model": "Rent a specified equipment package",
           "position": "Defined temporary capacity",
           "bestFor": "A repair interval, temporary demand increase or planned replacement gap.",
-          "why": "Agiliti publicly offers rental categories including infusion, respiratory, beds and surgical equipment.",
-          "tradeoff": "Public catalog presence does not reserve the required model at the destination.",
+          "why": "Pay for capacity during the defined gap without taking on the same long-term ownership commitment.",
+          "tradeoff": "Delivery, acceptance and the actual billing interval determine how much useful cover the rental buys.",
           "price": "Quote the actual term, accessories, transport and return charges.",
           "support": "Confirm maintenance, exchange response and the available configuration.",
-          "sourceIds": [
-            "agiliti-rental"
-          ]
+          "sourceIds": []
         },
         {
           "model": "Service-linked loaner",
@@ -14314,11 +14096,9 @@ export const researchGuides = [
           "heading": "Compare complete usable packages",
           "paragraphs": [
             "List required capabilities, accessories, consumables, software, connectivity and operator familiarity. For each proposal, confirm the actual model or acceptable substitute, condition documentation, delivery location and acceptance process. A rental that arrives without a required probe, cable or compatible supply cannot fill the stated gap.",
-            "Agiliti's public rental portfolio demonstrates that multiple equipment categories are available through rental arrangements; it does not establish local availability for a particular configuration. Obtain a dated offer for the specific need. Have the clinical and technical teams approve any substitute and identify training or setup work before counting the first day as usable service."
+            "Obtain a dated offer for the specific configuration and destination. Have the clinical and technical teams approve any substitute and identify training or setup work before counting the first day as usable service. Compare the date the package becomes usable with the date rental billing begins; a low daily rate can still buy days when the hospital cannot use the equipment."
           ],
-          "sourceIds": [
-            "agiliti-rental"
-          ]
+          "sourceIds": []
         },
         {
           "heading": "Check the loaner before treating it as backup",
@@ -14386,15 +14166,6 @@ export const researchGuides = [
         "Provider descriptions are evidence of offered arrangements, not independent performance comparisons."
       ],
       "sources": [
-        {
-          "id": "agiliti-rental",
-          "title": "Medical equipment rental",
-          "url": "https://www.agilitihealth.com/medical-equipment-rental/",
-          "publisher": "Agiliti",
-          "kind": "service-provider primary source",
-          "accessed": "2026-10-17",
-          "evidence": "Documents offered rental categories; does not establish a specific unit's local availability, cost or comparative performance."
-        },
         {
           "id": "ge-loaner",
           "title": "Ultrasound probe diagnostics and loaner availability",
@@ -18834,14 +18605,14 @@ export const researchGuides = [
       "quickCompare": [
         {
           "option": "go.Now example",
-          "capability": "Lower-tier configuration.",
+          "capability": "32-slice label; 16 × 0.7 mm physical z-coverage, 32 kW and a 70 cm bore.",
           "costDriver": "Required applications and installed scope.",
           "bestFit": "Routine brief accepted by clinical team."
         },
         {
           "option": "go.Top example",
-          "capability": "Different coverage, power and options.",
-          "costDriver": "Useful incremental capability.",
+          "capability": "128-slice label; 64 × 0.6 mm physical z-coverage, 75 kW and a 70 cm bore.",
+          "costDriver": "Fastest rotation and higher table capacity are options; compare the installed package.",
           "bestFit": "A named limitation justifies spending."
         },
         {
@@ -20523,8 +20294,8 @@ export const researchGuides = [
           "bestFor": "A hospital whose local supporting capacity is not ready.",
           "why": "Avoids an incomplete equipment investment while the actual service plan is developed.",
           "tradeoff": "Access, continuity and full service costs still need comparison.",
-          "price": "Compare the complete configured package; no current matched price established.",
-          "support": "Confirm exact release, probe condition and destination repair eligibility.",
+          "price": "Compare referral or shared-service charges, transport and continuity costs over the same period; no current matched offer established.",
+          "support": "Agree access to the provider, return of reports and contingency arrangements when the planned service is unavailable.",
           "sourceIds": []
         }
       ],
@@ -22221,47 +21992,51 @@ export const researchGuides = [
     "kind": "research-guide",
     "equipmentId": null,
     "title": "Monitor sensors, cables and cuffs: buy the complete connection",
-    "summary": "A matching plug can still leave the wrong sensor, missing trunk cable or unsuitable cuff in the box. Three exact Philips examples show how to compare the complete order.",
+    "summary": "A matching plug is only the start. Compare the approved sensor, cable and cuff combination, then check what each box contains and how much of it the hospital will use.",
     "categoryId": "decisions",
     "category": "Procurement & service",
-    "minutes": 3,
+    "minutes": 4,
     "sections": [
       [
-        "Identify the failed item before replacing the chain",
-        "Start with the technical team’s diagnosis and the identity of the installed monitor and measurement module. Record the working accessory chain before ordering a replacement. Replacing a damaged sensor does not necessarily require a new extension cable, while buying another sensor will not resolve a failed cable or incompatible module. Then compare like-for-like complete orders. A low component price becomes poor value when the hospital must order a missing connector or replace an unsuitable patient interface. A photograph and a broad brand name are useful identification aids, but they should not substitute for documented compatibility with the actual equipment."
+        "Replace the failed part with confidence",
+        "A working monitor can sit unused because one small item is missing. The tempting response is to order a complete accessory kit and move on. First establish what failed: a new sensor will not repair a damaged extension cable, and a sound trunk cable need not be replaced just because its lead set is worn. Start with the technical team’s diagnosis and the exact monitor and measurement module. Record the approved accessory combination already in use. Then choose between a replacement component, a complete missing combination or extra stock for an accepted fleet. Those are different purchases, even when the catalogue photographs look similar."
       ],
       [
-        "SpO2: follow the technology through the extension cable",
-        "Philips lists M1941A as a 2-metre, 8-pin-to-8-pin extension cable for Philips FAST sockets. Its compatible sensor list includes M1191B and M1192A, among other specified parts. The package contains one cable; the listing does not promise a sensor or make this an extension for every Philips monitoring configuration. The practical buying chain is monitor or module technology, approved extension if required, then approved sensor for the intended patient and use. Check every link. An apparent connector match alone cannot settle that chain, and a generic “SpO2 cable included” description is too vague to establish what a monitor quotation actually supplies."
+        "SpO2: one extension cable does not complete the order",
+        "Philips M1941A is a 2-metre extension cable with 8-pin connections for Philips FAST sockets. The manufacturer names compatible sensors including M1191B and M1192A. The package contains one cable. It does not supply a sensor or establish compatibility with every Philips monitoring configuration. If the existing sensor and module are suitable and the extension is the diagnosed failure, the cable may complete the repair. For a newly acquired monitor missing all patient accessories, the same order is incomplete. Follow the connection from the actual module, through any required approved extension, to the appropriate sensor. This is why “SpO2 cable included” is too vague to compare two equipment offers."
       ],
       [
-        "ECG: distinguish the trunk cable from the lead set",
-        "Philips 989803173131 is a five-lead, AAMI grabber, 1-metre disposable bedside lead set. The product page names compatible trunk cables including M1668A, M1663A and M1949A. The lead set and trunk are separate purchasing items; a new set of leads is not a complete patient-cable system by itself. Quantity matters just as much as connection. This sales unit contains 20 individually wrapped single-patient sets. Compare a box price with a box price, or divide by the actual usable quantity before comparing unit costs. Do not mistake one sales unit for one lead set or assume that single-patient and reusable products have the same ongoing cost."
+        "ECG: count the lead sets and identify the trunk",
+        "Philips 989803173131 is a five-lead disposable bedside set with AAMI grabbers and 1-metre wires. Its product page identifies compatible trunk cables including M1668A, M1663A and M1949A. The patient lead set and the trunk are separate items: buying one does not necessarily supply the other. There are 20 individually wrapped single-patient lead sets in this sales unit. That matters both for price and for stocking. A quote for one sales unit is a quote for 20 sets, not one set. Reusable and single-patient products also need different ownership comparisons; include approved processing and actual replacement needs over the same period rather than assuming that a lower purchase price wins."
       ],
       [
-        "Blood-pressure cuffs: use the patient range and the connection",
-        "The M1574A adult cuff, also identified as 989803104171, is specified for a limb circumference of 27–35cm. Philips separately lists bladder dimensions of 13cm by 28cm. Those dimensions are not an alternative patient-size range. “Adult” alone is therefore an inadequate line item for an order serving a particular patient population. The same specification identifies a single-hose, bayonet connection and one cuff per sales unit. Confirm the approved hose and monitor connection as well as the intended size range. A page listing other supplies does not mean they arrive in the cuff package. Keep the cuff, any required hose and their quantities explicit."
+        "A lower unit price can still be the wrong-sized order",
+        "Consider a hypothetical comparison between two otherwise suitable single-patient lead-set offers. Twenty sets at US$240 plus US$30 freight cost US$13.50 per supplied set. Ten sets at US$210 plus US$10 freight cost US$22 each. These are invented figures, not Philips prices. The larger order has the better unit cost, but it takes US$50 more cash today: US$270 instead of US$220. If the hospital needs only ten and has little prospect of using the rest, the smaller order can be the better use of the budget. If all twenty are needed, compare the full twenty-set delivery cost and any repeat freight. Unit cost and the amount of useful stock bought answer different questions."
       ],
       [
-        "Standardize only after the complete combination is accepted",
-        "For a mixed fleet, build a short approved ordering record for each actual configuration. Include the exact accessory chain, intended patient range, reusable or single-patient status, package quantity and replacement part numbers. Have technical and clinical staff approve any proposed substitute and its model-specific handling and processing requirements. Where practical, accept a small initial order before buying a large stock. Confirm identity, completeness and function through the hospital’s normal release process. Standardization can simplify replenishment when equipment really shares an approved chain; forcing a similar-looking accessory across incompatible modules simply creates a larger wrong order."
+        "Cuffs: buy for the patient range as well as the hose",
+        "Philips specifies M1574A, also numbered 989803104171, for a limb circumference of 27–35 cm. Its bladder dimensions are separately listed as 13 cm by 28 cm. Those describe the cuff bladder, not a second patient-size range. An order labelled simply “adult cuff” loses the distinction that determines whether the item fits the intended population. This model has a single hose, a bayonet connection and one cuff per sales unit. Confirm the approved hose and monitor combination as well as the size. A ward needing several patient sizes gains little from a large order of one size that does not cover its needs. Likewise, a list of related supplies on the product page is not a packing list for the cuff."
+      ],
+      [
+        "Standardize the combinations the hospital can actually share",
+        "For a mixed fleet, keep a short ordering record for each accepted configuration: exact accessory parts, patient range, reusable or single-patient status and pack quantity. Equipment can share a brand name yet require separate stock. Where the combinations really match, a common replenishment item can simplify ordering without forcing a substitute onto another module. Have clinical and technical staff assess substitutions and the applicable handling and processing instructions. Where practical, release a small first order through the hospital’s normal identity, completeness and function checks before buying a larger quantity. Spend more on a complete kit when it closes a verified gap; preserve suitable working components when it does not."
       ]
     ],
     "related": [
       "ekg"
     ],
-    "socialTitle": "Why the right-looking monitor accessory can be the wrong order",
-    "socialDescription": "Check SpO2 technology, ECG trunk and lead sets, and cuff size and connectors before comparing component prices.",
-    "socialHeadline": "Why the right-looking monitor accessory can be the wrong order",
-    "socialStrapline": "Part number, connection chain and pack quantity belong on the same order.",
+    "socialTitle": "Monitor sensors, cables and cuffs: buy the complete connection",
+    "socialDescription": "A matching plug is only the start. Compare the approved sensor, cable and cuff combination, then check what each box contains and how much of it the hospital will use.",
+    "socialHeadline": "Monitor sensors, cables and cuffs: buy the complete connection",
+    "socialStrapline": "The right component, in the right quantity, is the useful bargain.",
     "reviewedAt": "2026-10-18",
     "sheet": {
       "id": "sensor-cable-cuff-compatibility",
       "title": "Monitor sensors, cables and cuffs: buy the complete connection",
-      "summary": "A matching plug can still leave the wrong sensor, missing trunk cable or unsuitable cuff in the box. Three exact Philips examples show how to compare the complete order.",
+      "summary": "A matching plug is only the start. Compare the approved sensor, cable and cuff combination, then check what each box contains and how much of it the hospital will use.",
       "firstChoice": "Identify the actual monitor/module and failed component, then order the approved chain with explicit sizes and package quantities.",
       "upgradeWhen": "A complete kit or additional stock closes a verified missing-component or availability gap.",
-      "budgetWatch": "Accessory cost per usable item = complete order, freight and applicable charges divided by the usable supplied quantity; include required replacement and processing costs over a common period.",
+      "budgetWatch": "Landed cost per usable supplied item = (order price + freight + applicable charges) / usable items delivered. For reuse comparisons, divide purchase, replacement and approved processing costs by patient uses over the same period.",
       "supportCheck": "Compatibility rests only on a photograph, broad brand name or connector appearance.",
       "askSupplier": [
         "What exact monitor/module and accessory chain does this part support?",
@@ -22278,7 +22053,7 @@ export const researchGuides = [
       "id": "sensor-cable-cuff-compatibility",
       "kind": "feature",
       "title": "Monitor sensors, cables and cuffs: buy the complete connection",
-      "dek": "A matching plug can still leave the wrong sensor, missing trunk cable or unsuitable cuff in the box. Three exact Philips examples show how to compare the complete order.",
+      "dek": "A matching plug is only the start. Compare the approved sensor, cable and cuff combination, then check what each box contains and how much of it the hospital will use.",
       "verdict": "Order from the exact monitor/module and approved accessory chain, with patient size and sales quantity stated. Replace the failed component when the remaining chain is suitable; do not buy a whole kit or a cheap look-alike by default.",
       "coverage": [
         "SpO2 technology and extension",
@@ -22325,54 +22100,62 @@ export const researchGuides = [
       ],
       "sections": [
         {
-          "heading": "Identify the failed item before replacing the chain",
+          "heading": "Replace the failed part with confidence",
           "paragraphs": [
-            "Start with the technical team’s diagnosis and the identity of the installed monitor and measurement module. Record the working accessory chain before ordering a replacement. Replacing a damaged sensor does not necessarily require a new extension cable, while buying another sensor will not resolve a failed cable or incompatible module.",
-            "Then compare like-for-like complete orders. A low component price becomes poor value when the hospital must order a missing connector or replace an unsuitable patient interface. A photograph and a broad brand name are useful identification aids, but they should not substitute for documented compatibility with the actual equipment."
+            "A working monitor can sit unused because one small item is missing. The tempting response is to order a complete accessory kit and move on. First establish what failed: a new sensor will not repair a damaged extension cable, and a sound trunk cable need not be replaced just because its lead set is worn.",
+            "Start with the technical team’s diagnosis and the exact monitor and measurement module. Record the approved accessory combination already in use. Then choose between a replacement component, a complete missing combination or extra stock for an accepted fleet. Those are different purchases, even when the catalogue photographs look similar."
           ],
           "sourceIds": []
         },
         {
-          "heading": "SpO2: follow the technology through the extension cable",
+          "heading": "SpO2: one extension cable does not complete the order",
           "paragraphs": [
-            "Philips lists M1941A as a 2-metre, 8-pin-to-8-pin extension cable for Philips FAST sockets. Its compatible sensor list includes M1191B and M1192A, among other specified parts. The package contains one cable; the listing does not promise a sensor or make this an extension for every Philips monitoring configuration.",
-            "The practical buying chain is monitor or module technology, approved extension if required, then approved sensor for the intended patient and use. Check every link. An apparent connector match alone cannot settle that chain, and a generic “SpO2 cable included” description is too vague to establish what a monitor quotation actually supplies."
+            "Philips M1941A is a 2-metre extension cable with 8-pin connections for Philips FAST sockets. The manufacturer names compatible sensors including M1191B and M1192A. The package contains one cable. It does not supply a sensor or establish compatibility with every Philips monitoring configuration.",
+            "If the existing sensor and module are suitable and the extension is the diagnosed failure, the cable may complete the repair. For a newly acquired monitor missing all patient accessories, the same order is incomplete. Follow the connection from the actual module, through any required approved extension, to the appropriate sensor. This is why “SpO2 cable included” is too vague to compare two equipment offers."
           ],
           "sourceIds": [
             "philips-m1941a"
           ]
         },
         {
-          "heading": "ECG: distinguish the trunk cable from the lead set",
+          "heading": "ECG: count the lead sets and identify the trunk",
           "paragraphs": [
-            "Philips 989803173131 is a five-lead, AAMI grabber, 1-metre disposable bedside lead set. The product page names compatible trunk cables including M1668A, M1663A and M1949A. The lead set and trunk are separate purchasing items; a new set of leads is not a complete patient-cable system by itself.",
-            "Quantity matters just as much as connection. This sales unit contains 20 individually wrapped single-patient sets. Compare a box price with a box price, or divide by the actual usable quantity before comparing unit costs. Do not mistake one sales unit for one lead set or assume that single-patient and reusable products have the same ongoing cost."
+            "Philips 989803173131 is a five-lead disposable bedside set with AAMI grabbers and 1-metre wires. Its product page identifies compatible trunk cables including M1668A, M1663A and M1949A. The patient lead set and the trunk are separate items: buying one does not necessarily supply the other.",
+            "There are 20 individually wrapped single-patient lead sets in this sales unit. That matters both for price and for stocking. A quote for one sales unit is a quote for 20 sets, not one set. Reusable and single-patient products also need different ownership comparisons; include approved processing and actual replacement needs over the same period rather than assuming that a lower purchase price wins."
           ],
           "sourceIds": [
             "philips-ecg-leads"
           ]
         },
         {
-          "heading": "Blood-pressure cuffs: use the patient range and the connection",
+          "heading": "A lower unit price can still be the wrong-sized order",
           "paragraphs": [
-            "The M1574A adult cuff, also identified as 989803104171, is specified for a limb circumference of 27–35cm. Philips separately lists bladder dimensions of 13cm by 28cm. Those dimensions are not an alternative patient-size range. “Adult” alone is therefore an inadequate line item for an order serving a particular patient population.",
-            "The same specification identifies a single-hose, bayonet connection and one cuff per sales unit. Confirm the approved hose and monitor connection as well as the intended size range. A page listing other supplies does not mean they arrive in the cuff package. Keep the cuff, any required hose and their quantities explicit."
+            "Consider a hypothetical comparison between two otherwise suitable single-patient lead-set offers. Twenty sets at US$240 plus US$30 freight cost US$13.50 per supplied set. Ten sets at US$210 plus US$10 freight cost US$22 each. These are invented figures, not Philips prices.",
+            "The larger order has the better unit cost, but it takes US$50 more cash today: US$270 instead of US$220. If the hospital needs only ten and has little prospect of using the rest, the smaller order can be the better use of the budget. If all twenty are needed, compare the full twenty-set delivery cost and any repeat freight. Unit cost and the amount of useful stock bought answer different questions."
+          ],
+          "sourceIds": []
+        },
+        {
+          "heading": "Cuffs: buy for the patient range as well as the hose",
+          "paragraphs": [
+            "Philips specifies M1574A, also numbered 989803104171, for a limb circumference of 27–35 cm. Its bladder dimensions are separately listed as 13 cm by 28 cm. Those describe the cuff bladder, not a second patient-size range. An order labelled simply “adult cuff” loses the distinction that determines whether the item fits the intended population.",
+            "This model has a single hose, a bayonet connection and one cuff per sales unit. Confirm the approved hose and monitor combination as well as the size. A ward needing several patient sizes gains little from a large order of one size that does not cover its needs. Likewise, a list of related supplies on the product page is not a packing list for the cuff."
           ],
           "sourceIds": [
             "philips-m1574a"
           ]
         },
         {
-          "heading": "Standardize only after the complete combination is accepted",
+          "heading": "Standardize the combinations the hospital can actually share",
           "paragraphs": [
-            "For a mixed fleet, build a short approved ordering record for each actual configuration. Include the exact accessory chain, intended patient range, reusable or single-patient status, package quantity and replacement part numbers. Have technical and clinical staff approve any proposed substitute and its model-specific handling and processing requirements.",
-            "Where practical, accept a small initial order before buying a large stock. Confirm identity, completeness and function through the hospital’s normal release process. Standardization can simplify replenishment when equipment really shares an approved chain; forcing a similar-looking accessory across incompatible modules simply creates a larger wrong order."
+            "For a mixed fleet, keep a short ordering record for each accepted configuration: exact accessory parts, patient range, reusable or single-patient status and pack quantity. Equipment can share a brand name yet require separate stock. Where the combinations really match, a common replenishment item can simplify ordering without forcing a substitute onto another module.",
+            "Have clinical and technical staff assess substitutions and the applicable handling and processing instructions. Where practical, release a small first order through the hospital’s normal identity, completeness and function checks before buying a larger quantity. Spend more on a complete kit when it closes a verified gap; preserve suitable working components when it does not."
           ],
           "sourceIds": []
         }
       ],
       "ownership": {
-        "equation": "Accessory cost per usable item = complete order, freight and applicable charges divided by the usable supplied quantity; include required replacement and processing costs over a common period.",
+        "equation": "Landed cost per usable supplied item = (order price + freight + applicable charges) / usable items delivered. For reuse comparisons, divide purchase, replacement and approved processing costs by patient uses over the same period.",
         "drivers": [
           "SpO2 technology and extension",
           "ECG trunk versus lead set",
@@ -22389,7 +22172,6 @@ export const researchGuides = [
       "gaps": [
         "The three OEM examples are specific products, not a compatibility matrix for all monitors or regions.",
         "Actual module/revision and approved handling need confirmation before order or use.",
-        "The previously reviewed Avante catalogue p.95 patient-range discrepancy remains unresolved for those catalogue entries; no disputed ranges copied or guessed.",
         "No current matched prices or claims of superior third-party/OEM reliability established."
       ],
       "sources": [
@@ -22400,7 +22182,7 @@ export const researchGuides = [
           "publisher": "Philips",
           "kind": "manufacturer",
           "accessed": "2026-10-18",
-          "evidence": "Product and specification table read: 2m, 8-pin to 8-pin, Philips FAST sockets, named compatible sensors and one cable per package. Marketing-text M1141A typo not adopted; identity follows title/specification. Not universal Philips compatibility."
+          "evidence": "Product page and specification table re-read 2026-10-18: 2 m, 8-pin connections, Philips FAST sockets, named sensors and one cable per package. The marketing paragraph contains a differing part number; identity and stated facts follow the product title and specification table."
         },
         {
           "id": "philips-ecg-leads",
@@ -22409,7 +22191,7 @@ export const researchGuides = [
           "publisher": "Philips",
           "kind": "manufacturer",
           "accessed": "2026-10-18",
-          "evidence": "Product/specifications read: 5-lead bedside AAMI grabber, 1m, shielded, single-patient use; sales unit 20 individually wrapped sets. Named compatible trunks include M1668A, M1663A and M1949A. This does not establish compatibility with every monitor or trunk."
+          "evidence": "Product description and specifications re-read 2026-10-18: five-lead AAMI grabber bedside set, 1 m, single-patient use, 20 sets per sales unit. Listed compatible trunks include M1668A, M1663A and M1949A. No universal compatibility inferred."
         },
         {
           "id": "philips-m1574a",
@@ -22418,7 +22200,7 @@ export const researchGuides = [
           "publisher": "Philips",
           "kind": "manufacturer",
           "accessed": "2026-10-18",
-          "evidence": "Full specification table read: M1574A/989803104171 adult multi-patient cuff, limb circumference 27–35cm, single hose/bayonet, one cuff per sales unit. Bladder width 13cm and length 28cm are different fields. No assumption that listed other supplies are included."
+          "evidence": "Full product table re-read 2026-10-18: M1574A/989803104171, limb range 27–35 cm, bladder dimensions 13 by 28 cm, single hose/bayonet, one cuff per sales unit. Related supplies are not an included-items claim."
         }
       ],
       "decision": {
@@ -22429,28 +22211,28 @@ export const researchGuides = [
       },
       "quickCompare": [
         {
-          "option": "Replace the diagnosed component",
-          "capability": "Preserves suitable existing cables and patient interfaces.",
-          "costDriver": "The diagnosis and exact part must be established first.",
-          "bestFit": "A verified compatible chain with one failed or missing item."
+          "option": "Philips M1941A extension",
+          "capability": "One 2-metre, 8-pin extension for the specified Philips FAST combination.",
+          "costDriver": "An approved sensor is a separate item; check whether the existing sensor can remain.",
+          "bestFit": "Replacing the diagnosed extension or completing a documented compatible chain."
         },
         {
-          "option": "Order a complete approved chain",
-          "capability": "Makes sensor, extension or trunk, patient interface and quantities explicit.",
-          "costDriver": "Do not pay twice for working components already present.",
-          "bestFit": "New installations or a chain with missing or unsuitable components."
+          "option": "Philips 989803173131 ECG lead sets",
+          "capability": "Twenty single-patient five-lead sets in one sales unit.",
+          "costDriver": "Compatible trunk required separately; compare landed cost and the quantity actually needed.",
+          "bestFit": "Replenishing the accepted bedside lead-set configuration."
         },
         {
-          "option": "Standardize approved fleet combinations",
-          "capability": "Can reduce ordering ambiguity and stock fragmentation.",
-          "costDriver": "Shared brand or connector appearance is insufficient evidence.",
-          "bestFit": "Several units with documented matching configurations."
+          "option": "Philips M1574A / 989803104171 cuff",
+          "capability": "One cuff; 27–35 cm limb range, single hose and bayonet connection.",
+          "costDriver": "Patient-size coverage and any required approved hose.",
+          "bestFit": "A documented matching monitor/hose combination and patient range."
         }
       ],
       "social": {
-        "title": "Why the right-looking monitor accessory can be the wrong order",
-        "description": "Check SpO2 technology, ECG trunk and lead sets, and cuff size and connectors before comparing component prices.",
-        "hook": "Part number, connection chain and pack quantity belong on the same order."
+        "title": "Monitor sensors, cables and cuffs: buy the complete connection",
+        "description": "A matching plug is only the start. Compare the approved sensor, cable and cuff combination, then check what each box contains and how much of it the hospital will use.",
+        "hook": "The right component, in the right quantity, is the useful bargain."
       }
     },
     "searchTerms": "Monitor sensors, cables and cuffs: buy the complete connection SpO2 technology and extension ECG trunk versus lead set Cuff limb range and hose connection Sales unit versus usable quantity Approved fleet standardization Replace the diagnosed component Order a complete approved chain Standardize approved fleet combinations",

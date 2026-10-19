@@ -35,7 +35,7 @@ export default {
     ],
     [
       "A refurbished bed is strongest inside a supported fleet",
-      "An Advanta 2 can be an economical addition where technicians already maintain the platform and have compatible spares. Familiarity has purchasing value, but it does not certify the offered unit’s brakes, rails, controls or surface. Record its identity and condition and demonstrate the required functions before accepting it. Victori Medical’s October 16, 2026 offer listed a refurbished P1190 at US$3,295 with a mattress and named scale, patient-control and bed-exit features, freight extra. Its stated 90-day warranty still needs a usable geographic repair arrangement. Compare that delivered, inspected package with a new bed; a return that requires expensive international freight can erase the saving. Baxter describes Advanta 2 for low-to-moderate acuity med-surg use. A dealer’s broader ICU label does not expand that intended role. Buy for the care the documented configuration supports."
+      "An Advanta 2 can be an economical addition where technicians already maintain the platform and have compatible spares. Familiarity has purchasing value, but it does not certify the offered unit’s brakes, rails, controls or surface. Record its identity and condition and demonstrate the required functions before accepting it. Consider an original hypothetical comparison: a US$2,800 refurbished frame plus US$700 for its compatible surface and US$900 for delivery and acceptance totals US$4,400. A new complete package at US$5,200 delivered leaves a US$800 initial saving, not US$2,400. These are invented planning figures, not bed prices. That US$800 must be weighed against the actual support terms and any additional work needed; it is not a forecast of repair cost. Baxter describes Advanta 2 for low-to-moderate acuity med-surg use. Buy for that documented role and the functions demonstrated on the individual unit. A familiar model name does not establish which options are present."
     ],
     [
       "Walk the transfer route before choosing the stretcher",
@@ -60,7 +60,7 @@ export default {
     "summary": "Compare manual, electric and refurbished beds as complete mattress-and-rail systems. For stretchers, pay for the loaded transfer route the staff actually use.",
     "firstChoice": "Match patient weight, positioning and transfer needs to a complete bed, surface and rail configuration; compare Praktika 2 where manual adjustment is workable.",
     "upgradeWhen": "Frequent repositioning justifies electric adjustment, or the transport route benefits from a specified steering and accessory package.",
-    "budgetWatch": "Include the compatible mattress and freight before judging a frame price. P8005's Steering Plus is optional. An Advanta 2 seller's ICU description does not change the manufacturer's med-surg scope.",
+    "budgetWatch": "Include the compatible mattress and freight before judging a frame price. P8005's Steering Plus is optional. Advanta 2’s documented role is low-to-moderate acuity med-surg care; match the offered configuration to the ward.",
     "supportCheck": "Reject a load-rating mismatch, an incompatible bed/mattress/rail combination, or a refurbished offer whose condition and included surface cannot be established.",
     "askSupplier": [
       "Does this bed, mattress and rail combination meet the intended patient requirements?",
@@ -71,7 +71,6 @@ export default {
       "praktika",
       "eleganza",
       "advanta",
-      "bedoffer",
       "st1",
       "hillrom-transport"
     ]
@@ -115,12 +114,11 @@ export default {
         "position": "Refurbished value within a supported fleet",
         "bestFor": "A hospital whose technicians already maintain the platform and can obtain compatible parts.",
         "why": "An established local fleet can make training and spares simpler than introducing another bed family.",
-        "tradeoff": "Condition, serial range and mattress compatibility control value. The OEM describes low-to-moderate acuity med-surg use; a dealer calling it an ICU bed does not change that.",
-        "price": "Victori Medical lists USD 3,295 for refurbished SKU P1190 with patient controls, scale, bed-exit functions and a mattress; freight extra, viewed Oct 16, 2026.",
-        "support": "Baxter maintains a product/support route. The dealer lists a 90-day warranty; obtain written geographic coverage and parts terms.",
+        "tradeoff": "Condition, serial range and mattress compatibility control value. Baxter identifies low-to-moderate acuity med-surg use; verify the required functions on the offered bed.",
+        "price": "Request a delivered price for the inspected bed, compatible mattress and required functions. No verified manufacturer-direct public price for a complete refurbished package is established.",
+        "support": "Baxter provides a product and support route. Acceptance for repair, parts availability and warranty coverage must be established for the offered serial and destination.",
         "sourceIds": [
-          "advanta",
-          "bedoffer"
+          "advanta"
         ]
       },
       {
@@ -174,12 +172,11 @@ export default {
         "heading": "A refurbished bed is strongest inside a supported fleet",
         "paragraphs": [
           "An Advanta 2 can be an economical addition where technicians already maintain the platform and have compatible spares. Familiarity has purchasing value, but it does not certify the offered unit’s brakes, rails, controls or surface. Record its identity and condition and demonstrate the required functions before accepting it.",
-          "Victori Medical’s October 16, 2026 offer listed a refurbished P1190 at US$3,295 with a mattress and named scale, patient-control and bed-exit features, freight extra. Its stated 90-day warranty still needs a usable geographic repair arrangement. Compare that delivered, inspected package with a new bed; a return that requires expensive international freight can erase the saving.",
-          "Baxter describes Advanta 2 for low-to-moderate acuity med-surg use. A dealer’s broader ICU label does not expand that intended role. Buy for the care the documented configuration supports."
+          "Consider an original hypothetical comparison: a US$2,800 refurbished frame plus US$700 for its compatible surface and US$900 for delivery and acceptance totals US$4,400. A new complete package at US$5,200 delivered leaves a US$800 initial saving, not US$2,400. These are invented planning figures, not bed prices. That US$800 must be weighed against the actual support terms and any additional work needed; it is not a forecast of repair cost.",
+          "Baxter describes Advanta 2 for low-to-moderate acuity med-surg use. Buy for that documented role and the functions demonstrated on the individual unit. A familiar model name does not establish which options are present."
         ],
         "sourceIds": [
-          "advanta",
-          "bedoffer"
+          "advanta"
         ]
       },
       {
@@ -247,17 +244,8 @@ export default {
         "url": "https://catalog.baxter.com/baxterUS/en/Products/Beds-&-Patient-Mobility/Smart-Beds-&-Surfaces/Advanta%E2%84%A2-2-Med-Surg-Bed/p/210133F1-BEFE-4D84-8801-A761FC2303E4",
         "publisher": "Baxter",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "OEM describes low-to-moderate acuity med-surg use."
-      },
-      {
-        "id": "bedoffer",
-        "title": "Refurbished Advanta 2 package offer",
-        "url": "https://shop.victorimedical.com/products/hill-rom-advanta2-hospital-bed",
-        "publisher": "Victori Medical",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "USD 3,295; package includes mattress and named controls; freight extra and 90-day listed warranty."
+        "accessed": "2026-10-18",
+        "evidence": "Direct Baxter catalogue body re-read: low-to-moderate acuity med-surg intended role and support link. No numeric public bed price, included used-unit options or geographic warranty established."
       },
       {
         "id": "st1",

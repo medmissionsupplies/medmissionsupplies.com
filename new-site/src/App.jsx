@@ -277,9 +277,9 @@ export function inquiryFromSearch(search = "") {
   };
   const title = aliases[requested] || requested;
   const topic = params.get("topic");
-  const guide = articles.find(item => item.id === params.get("guide") && item.kind === "research-guide");
+  const guide = articles.find(item => item.id === params.get("guide"));
   if (guide)
-    return "I’d like to discuss your guide: " + guide.title + ".\n\nFacility and location:\nMy question:\nBudget and timing:\n";
+    return "I’d like to discuss your guide: " + guide.title + "\n\nFacility and location:\nMy question:\nBudget and timing:\n";
   if (equipment.some((item) => item.title === title))
     return topic === "service"
       ? "I’d like to discuss service for " +

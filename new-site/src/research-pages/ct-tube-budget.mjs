@@ -36,7 +36,7 @@ export default {
     ],
     [
       "Use the counter as evidence, not a countdown",
-      "Usage records belong beside faults, corrective work and current performance. They cannot promise how many examinations remain. Seller experience may help identify questions about a tube family, but subtracting a used tube's count from a published lifespan estimate produces a misleadingly precise answer. Keep two financial scenarios separate: the normal operating plan and an early major repair. Use a quoted installed replacement and realistic local transport arrangements for the second. Do not turn that stress test into an expected-cost calculation by inventing a probability of failure."
+      "Usage records belong beside faults, corrective work and current performance. Subtracting the counter from a supposed lifetime total does not establish how many examinations this tube has left. Ask the engineer to explain the evidence for the offered unit, including unresolved faults and missing history. Monitoring is a separate capability. Siemens describes TubeGuard as addressing predictable and detectable tube failures on selected systems, with stable Smart Remote Services connectivity required. That scope is narrower than a promise to predict every failure. For an eligible scanner, establish who acts on an alert and whether the agreement pays for the repair or replacement. Keep two financial scenarios separate: the normal operating plan and an early major repair. Use a quoted installed replacement and realistic local transport arrangements for the second. This is a test of whether the budget can absorb the repair, not a forecast of when it will happen."
     ],
     [
       "Read the remedy behind the warranty",
@@ -199,11 +199,12 @@ export default {
       {
         "heading": "Use the counter as evidence, not a countdown",
         "paragraphs": [
-          "Usage records belong beside faults, corrective work and current performance. They cannot promise how many examinations remain. Seller experience may help identify questions about a tube family, but subtracting a used tube's count from a published lifespan estimate produces a misleadingly precise answer.",
-          "Keep two financial scenarios separate: the normal operating plan and an early major repair. Use a quoted installed replacement and realistic local transport arrangements for the second. Do not turn that stress test into an expected-cost calculation by inventing a probability of failure."
+          "Usage records belong beside faults, corrective work and current performance. Subtracting the counter from a supposed lifetime total does not establish how many examinations this tube has left. Ask the engineer to explain the evidence for the offered unit, including unresolved faults and missing history.",
+          "Monitoring is a separate capability. Siemens describes TubeGuard as addressing predictable and detectable tube failures on selected systems, with stable Smart Remote Services connectivity required. That scope is narrower than a promise to predict every failure. For an eligible scanner, establish who acts on an alert and whether the agreement pays for the repair or replacement.",
+          "Keep two financial scenarios separate: the normal operating plan and an early major repair. Use a quoted installed replacement and realistic local transport arrangements for the second. This is a test of whether the budget can absorb the repair, not a forecast of when it will happen."
         ],
         "sourceIds": [
-          "block-tube"
+          "siemens-tubeguard"
         ]
       },
       {
@@ -267,16 +268,6 @@ export default {
     ],
     "sources": [
       {
-        "id": "block-tube",
-        "title": "CT Tube Lifespan and Cost: MRC 600, MRC 800",
-        "url": "https://www.blockimaging.com/blog/ct-tube-lifespan-mrc-600-mrc-800",
-        "publisher": "Block Imaging",
-        "kind": "seller perspective",
-        "accessed": "2026-10-17",
-        "updated": "2025-05-28",
-        "evidence": "Publishes seller/customer experience and replacement-cost ranges; used as context for due-diligence questions, not a guaranteed life or current price estimate."
-      },
-      {
         "id": "ge-tubes",
         "title": "CT tubes and replacement CT tubes",
         "url": "https://services.gehealthcare.com/gehcstorefront/ct-tubes",
@@ -312,6 +303,15 @@ export default {
         "accessed": "2026-10-17",
         "published": "2012",
         "evidence": "Human Health Series No. 19, section 4: acceptance verifies purchase specifications; commissioning establishes baseline performance with medical-physics involvement. Publication year is 2012, not the search crawl date."
+      },
+      {
+        "id": "siemens-tubeguard",
+        "title": "Guardian Program: TubeGuard scope and prerequisites",
+        "url": "https://www.siemens-healthineers.com/en-uk/services/customer-services/upspeed-services/guardian-program",
+        "publisher": "Siemens Healthineers",
+        "kind": "manufacturer",
+        "accessed": "2026-10-18",
+        "evidence": "Describes monitoring for predictable and detectable tube failures on selected systems; stable Smart Remote Services connectivity and regional eligibility are prerequisites. Does not establish an individual used tube’s remaining life or paid replacement coverage."
       }
     ],
     "related": [

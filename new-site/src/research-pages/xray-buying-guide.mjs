@@ -43,7 +43,7 @@ export default {
     ],
     [
       "Mini C-arm: prove the views fit",
-      "Orthoscan TAU 1512 and Hologic InSight FD Flex offer concrete positioning differences to assess. Demonstrate the intended anatomy and patient positions with the actual table. A compact extremity system should not inherit a full-size C-arm's role simply because both provide fluoroscopy. The FD Flex evidence cited here is a dealer's offering. Its advertised sale and service are not an OEM lifecycle or overseas-coverage commitment. Identify the generation, repair location and exclusions. Neither a current product page nor flat-panel construction establishes a lower field failure rate."
+      "Orthoscan TAU 1512 specifies 160-degree orbital rotation; Hologic InSight FD Flex specifies 120 degrees. FD Flex also rotates its detector through 180 degrees. Do not compare that detector figure with the other system’s orbital range: they describe different movements. Demonstrate the required views with the actual table and patient positions before paying for a geometry advantage. A compact extremity system should not inherit a full-size C-arm’s role simply because both provide fluoroscopy. The Hologic specification documents capability, while current availability and service need their own evidence. Confirm the generation and repair route. Neither a product page nor flat-panel construction establishes a lower field failure rate."
     ],
     [
       "Protect the component that can stop the service",
@@ -79,7 +79,7 @@ export default {
       "x-9900",
       "x-elite",
       "x-tau",
-      "x-insight"
+      "x-hologic-fd-spec"
     ]
   },
   "research": {
@@ -181,14 +181,14 @@ export default {
       },
       {
         "model": "Hologic InSight FD Flex",
-        "position": "Mini C-arm alternative with explicit support conditions",
-        "bestFor": "Extremity work fitting the detector geometry and seller’s repair arrangements.",
-        "why": "The dealer’s own offering describes a rotating flat panel and service coverage, a specific alternative to an unspecified InSight II.",
-        "tradeoff": "Dealer-advertised support is not a manufacturer lifecycle commitment or overseas coverage. Confirm exact generation, supply status, repair location and exclusions before accepting a savings claim.",
+        "position": "Mini C-arm with rotating detector",
+        "bestFor": "Extremity work fitting its demonstrated geometry, with a documented repair route.",
+        "why": "Hologic specifies 120-degree orbital movement and 180-degree detector rotation. Those describe different positioning adjustments.",
+        "tradeoff": "The published 2022 specification does not establish current country availability or serial-specific service. Identify the exact generation, enabled software, repair route and support horizon.",
         "price": "Quote required; no numeric asking price verified.",
-        "support": "Dealer sale/service advertised; OEM lifecycle and destination eligibility unconfirmed.",
+        "support": "Manufacturer technical documentation verified; current destination availability and exact-unit service eligibility remain unconfirmed.",
         "sourceIds": [
-          "x-insight"
+          "x-hologic-fd-spec"
         ]
       }
     ],
@@ -239,12 +239,12 @@ export default {
       {
         "heading": "Mini C-arm: prove the views fit",
         "paragraphs": [
-          "Orthoscan TAU 1512 and Hologic InSight FD Flex offer concrete positioning differences to assess. Demonstrate the intended anatomy and patient positions with the actual table. A compact extremity system should not inherit a full-size C-arm's role simply because both provide fluoroscopy.",
-          "The FD Flex evidence cited here is a dealer's offering. Its advertised sale and service are not an OEM lifecycle or overseas-coverage commitment. Identify the generation, repair location and exclusions. Neither a current product page nor flat-panel construction establishes a lower field failure rate."
+          "Orthoscan TAU 1512 specifies 160-degree orbital rotation; Hologic InSight FD Flex specifies 120 degrees. FD Flex also rotates its detector through 180 degrees. Do not compare that detector figure with the other system’s orbital range: they describe different movements. Demonstrate the required views with the actual table and patient positions before paying for a geometry advantage.",
+          "A compact extremity system should not inherit a full-size C-arm’s role simply because both provide fluoroscopy. The Hologic specification documents capability, while current availability and service need their own evidence. Confirm the generation and repair route. Neither a product page nor flat-panel construction establishes a lower field failure rate."
         ],
         "sourceIds": [
           "x-tau",
-          "x-insight"
+          "x-hologic-fd-spec"
         ]
       },
       {
@@ -339,17 +339,8 @@ export default {
         "url": "https://orthoscan.com/tau-1512/",
         "publisher": "Orthoscan",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "Flat-panel mini C-arm, 160-degree orbital rotation, 20-inch arc depth and service links."
-      },
-      {
-        "id": "x-insight",
-        "title": "Minicarm.com InSight FD Flex offering and service description",
-        "url": "https://www.minicarm.com/hologic-fluoroscan-insight-fd-flex/",
-        "publisher": "Minicarm.com",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Dealer's own product/service offering; rotating detector described. No numeric asking price or export support verified."
+        "accessed": "2026-10-18",
+        "evidence": "Manufacturer page rechecked: 160-degree orbital rotation and 20-inch arc depth. No comparative reliability or delivered-price claim established."
       },
       {
         "id": "x-9900",
@@ -368,6 +359,15 @@ export default {
         "kind": "manufacturer",
         "accessed": "2026-10-16",
         "evidence": "Manufacturer describes OEC contracts and on-demand service. Stated response commitments have US contract/geographic conditions and do not establish overseas or specific OEC 9900 coverage."
+      },
+      {
+        "id": "x-hologic-fd-spec",
+        "title": "Hologic InSight FD Flex technical specifications, DS-09521 Rev 003 (August 2022)",
+        "url": "https://www.hologic.com/file/575496/download?token=rJ3GWQi2",
+        "publisher": "Hologic",
+        "kind": "manufacturer",
+        "accessed": "2026-10-18",
+        "evidence": "Both pages read and visually inspected. Specifications distinguish 120-degree orbital motion from 180-degree detector rotation. This document does not confirm current regional availability or serial-specific support."
       }
     ],
     "decision": {
@@ -409,7 +409,7 @@ export default {
       },
       {
         "option": "Orthoscan TAU 1512 / Hologic InSight FD Flex",
-        "capability": "Extremity mini C-arms; TAU offers 160° orbital rotation, while FD Flex has a rotating flat panel.",
+        "capability": "Extremity mini C-arms: TAU 1512 has 160-degree orbital movement; FD Flex has 120-degree orbital movement plus separate 180-degree detector rotation.",
         "costDriver": "Exact generation, accessories and an enforceable repair arrangement.",
         "bestFit": "Extremity procedures whose required views fit the demonstrated field and geometry."
       }

@@ -36,11 +36,11 @@ export default {
     ],
     [
       "A refurbished offer needs a defined scope",
-      "“Refurbished” should describe work tied to the offered unit. Ask what was inspected, repaired and verified, which accessories are included, and what happens if acceptance reveals a problem. A cosmetic cleanup, a power-on photograph and a documented technical refurbishment are different levels of evidence. The asking price cannot tell the buyer which one is supplied. Victori Medical's Force FX listing provided a concrete anchor during the October 16, 2026 review: US$3,195, certified-refurbished, with a stated 90-day warranty. That is a seller's offer, not a population reliability result or a delivered mission package. Its economic value still depends on the exact unit, complete accessories and usable warranty terms."
+      "“Refurbished” should describe work tied to the offered unit. Ask what was inspected, repaired and verified, which accessories are included, and what happens if acceptance reveals a problem. A cosmetic cleanup, a power-on photograph and a documented technical refurbishment are different levels of evidence. The asking price cannot tell the buyer which one is supplied. Suppose, in an original hypothetical comparison, a donated generator needs US$1,500 of accessories, US$900 of packing and delivery, and US$600 of inspection and commissioning. Its completion price is US$3,000. A refurbished package at US$4,200 delivered and accepted has a US$1,200 initial premium if it supplies the same required capability and accessories. These are invented figures, not offers. The premium may be worthwhile for a defined repair scope or usable support, but the label alone does not establish either."
     ],
     [
       "Read the warranty as a transport arrangement",
-      "Find out who receives a failed unit, who pays each freight leg, whether diagnosis happens locally and whether anything covers the service while it waits. A warranty that requires overseas shipment can have a very different practical value from local support. Neither arrangement should be assumed from a warranty's length. The October 16, 2026 OMAX M82ES-A188V storefront snapshot illustrates the tradeoff at a smaller scale: its US$317.99 asking price came with buyer-paid return freight and warranty exclusions. That historical offer may have suited an accepted backup instrument; it was not a delivered overseas price or a promise of local repair. Price the consequence of failure as carefully as the first shipment."
+      "Find out who receives a failed unit, who pays each freight leg, whether diagnosis happens locally and whether anything covers the service while it waits. A warranty that requires overseas shipment can have a very different practical value from local support. Neither arrangement should be assumed from a warranty's length. OMAX’s own storefront displayed US$317.99 for the M82ES-A188V microscope package when checked on October 18, 2026. Its published warranty terms assign return shipping and handling to the buyer and include exclusions. That gives a concrete transport question even for a relatively small purchase: would a warranty return cost enough to change the backup plan? The price is a dated manufacturer-store example, not a delivered overseas total or evidence that the microscope suits a particular clinical task."
     ],
     [
       "Pay the premium for a named advantage",
@@ -76,7 +76,6 @@ export default {
       "donations",
       "olympus-platform",
       "scope-compatibility",
-      "force-fx-offer",
       "omax-terms"
     ]
   },
@@ -129,17 +128,15 @@ export default {
         "heading": "A refurbished offer needs a defined scope",
         "paragraphs": [
           "“Refurbished” should describe work tied to the offered unit. Ask what was inspected, repaired and verified, which accessories are included, and what happens if acceptance reveals a problem. A cosmetic cleanup, a power-on photograph and a documented technical refurbishment are different levels of evidence. The asking price cannot tell the buyer which one is supplied.",
-          "Victori Medical's Force FX listing provided a concrete anchor during the October 16, 2026 review: US$3,195, certified-refurbished, with a stated 90-day warranty. That is a seller's offer, not a population reliability result or a delivered mission package. Its economic value still depends on the exact unit, complete accessories and usable warranty terms."
+          "Suppose, in an original hypothetical comparison, a donated generator needs US$1,500 of accessories, US$900 of packing and delivery, and US$600 of inspection and commissioning. Its completion price is US$3,000. A refurbished package at US$4,200 delivered and accepted has a US$1,200 initial premium if it supplies the same required capability and accessories. These are invented figures, not offers. The premium may be worthwhile for a defined repair scope or usable support, but the label alone does not establish either."
         ],
-        "sourceIds": [
-          "force-fx-offer"
-        ]
+        "sourceIds": []
       },
       {
         "heading": "Read the warranty as a transport arrangement",
         "paragraphs": [
           "Find out who receives a failed unit, who pays each freight leg, whether diagnosis happens locally and whether anything covers the service while it waits. A warranty that requires overseas shipment can have a very different practical value from local support. Neither arrangement should be assumed from a warranty's length.",
-          "The October 16, 2026 OMAX M82ES-A188V storefront snapshot illustrates the tradeoff at a smaller scale: its US$317.99 asking price came with buyer-paid return freight and warranty exclusions. That historical offer may have suited an accepted backup instrument; it was not a delivered overseas price or a promise of local repair. Price the consequence of failure as carefully as the first shipment."
+          "OMAX’s own storefront displayed US$317.99 for the M82ES-A188V microscope package when checked on October 18, 2026. Its published warranty terms assign return shipping and handling to the buyer and include exclusions. That gives a concrete transport question even for a relatively small purchase: would a warranty return cost enough to change the backup plan? The price is a dated manufacturer-store example, not a delivered overseas total or evidence that the microscope suits a particular clinical task."
         ],
         "sourceIds": [
           "omax-terms"
@@ -208,8 +205,8 @@ export default {
         "url": "https://www.medical.olympusamerica.com/products/evis-exera-endoscopy",
         "publisher": "Olympus",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "CV-190/CLV-190 platform and named GI scope features."
+        "accessed": "2026-10-18",
+        "evidence": "Direct Olympus portfolio re-read: named scopes and CV-190/CLV-190 processor/light-source pairing. Supports the system-dependency illustration, not a current service commitment."
       },
       {
         "id": "scope-compatibility",
@@ -221,22 +218,13 @@ export default {
         "evidence": "Compatibility must be checked by exact model; excluded or unlisted devices must not be processed."
       },
       {
-        "id": "force-fx-offer",
-        "title": "Force FX certified-refurbished offer",
-        "url": "https://shop.victorimedical.com/products/valleylab-force-fx-refurbished",
-        "publisher": "Victori Medical",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "US$3,195 asking price, certified-refurbished condition and seller-stated 90-day warranty on access date."
-      },
-      {
         "id": "omax-terms",
         "title": "M82ES-A188V microscope package",
         "url": "https://omaxmicroscope.com/products/m82es-a188v",
         "publisher": "OMAX",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "Opened store body: $317.99, binocular LED microscope, four objectives and case; return-shipping warranty terms."
+        "accessed": "2026-10-18",
+        "evidence": "Manufacturer storefront SKU/price and warranty body re-read: US$317.99 for M82ES-A188V; buyer pays return shipping and handling; exclusions apply. No overseas landed price, local service or clinical suitability established."
       }
     ],
     "related": [

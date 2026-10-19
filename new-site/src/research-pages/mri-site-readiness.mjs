@@ -40,7 +40,7 @@ export default {
     ],
     [
       "Know which dependency a different magnet removes",
-      "Philips describes BlueSeal as a sealed-helium technology that does not require a quench pipe. Where vent routing or helium logistics is a material constraint, it deserves comparison with a clinically suitable conventional design. Avoid extending that specific feature to every system described as low-helium. The useful question is which documented work disappears and which remains. Confirm power, cooling, shielding, access and support separately. A premium may be justified by avoided construction or an operating dependency, but an economic winner requires the actual scopes and costs. Reusing an existing suite can also be attractive when the proposed replacement is verified for it."
+      "Philips describes BlueSeal as a sealed-helium technology that does not require a quench pipe. Where vent routing or helium logistics is a material constraint, it deserves comparison with a clinically suitable conventional design. Avoid extending that specific feature to every system described as low-helium. Consider two sites. In an existing MRI suite with a usable vent route, removing the quench-pipe requirement may avoid little new work. In a building where the proposed vent route requires substantial construction, that difference can change which scanner is affordable. These are comparison cases, not a claim that either design always costs less. Give each clinically suitable scanner its own site-work schedule. Credit only the work its documented design removes; retain the power, cooling, shielding, delivery and support requirements that still apply. Then compare the equipment premium with the construction and operating costs actually avoided. A feature becomes a saving only when it removes an expense this hospital would otherwise incur."
     ],
     [
       "Include the equipment that makes the room usable",
@@ -201,7 +201,8 @@ export default {
         "heading": "Know which dependency a different magnet removes",
         "paragraphs": [
           "Philips describes BlueSeal as a sealed-helium technology that does not require a quench pipe. Where vent routing or helium logistics is a material constraint, it deserves comparison with a clinically suitable conventional design. Avoid extending that specific feature to every system described as low-helium.",
-          "The useful question is which documented work disappears and which remains. Confirm power, cooling, shielding, access and support separately. A premium may be justified by avoided construction or an operating dependency, but an economic winner requires the actual scopes and costs. Reusing an existing suite can also be attractive when the proposed replacement is verified for it."
+          "Consider two sites. In an existing MRI suite with a usable vent route, removing the quench-pipe requirement may avoid little new work. In a building where the proposed vent route requires substantial construction, that difference can change which scanner is affordable. These are comparison cases, not a claim that either design always costs less.",
+          "Give each clinically suitable scanner its own site-work schedule. Credit only the work its documented design removes; retain the power, cooling, shielding, delivery and support requirements that still apply. Then compare the equipment premium with the construction and operating costs actually avoided. A feature becomes a saving only when it removes an expense this hospital would otherwise incur."
         ],
         "sourceIds": [
           "philips-blueseal"
@@ -280,7 +281,7 @@ export default {
         "url": "https://www.usa.philips.com/healthcare/technology/blueseal-helium-free-mri",
         "publisher": "Philips",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Describes permanently sealed helium and elimination of a quench pipe for this technology; no general clinical, reliability or project-price superiority is inferred."
       },
       {
@@ -291,16 +292,6 @@ export default {
         "kind": "regulator",
         "accessed": "2026-10-18",
         "evidence": "Professional guidance rechecked: MR Conditional devices require every stated condition; unknown MR safety status is assumed unsafe. Used narrowly for procurement of support equipment."
-      },
-      {
-        "id": "block-mri",
-        "title": "What to Expect During Your MRI Scanner Project",
-        "url": "https://www.blockimaging.com/blog/what-to-expect-during-your-mri-scanner-project",
-        "publisher": "Block Imaging",
-        "kind": "seller perspective",
-        "accessed": "2026-10-17",
-        "updated": "2024-03-15",
-        "evidence": "Public overview separates selection, budgeting, installation and upkeep. Gated checklists were not requested or downloaded."
       }
     ],
     "related": [

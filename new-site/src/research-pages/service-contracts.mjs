@@ -36,7 +36,7 @@ export default {
     ],
     [
       "Read the expensive exclusions first",
-      "Use an inclusion table for labor, travel, overtime, freight, detectors, tubes, probes, software support and relevant external equipment. Mark limits and conditions as carefully as exclusions. Block Imaging's CT guidance highlights that tube replacement may be outside an agreement even when tube-related maintenance is covered. That is a seller's example, not a universal contract rule. Ask how pre-existing faults, accidental damage and site-related failures are handled. Determine whether the remedy is repair, exchange or another arrangement and whether prior approval is required. A lower fee with an excluded major component can still be sensible, provided the hospital explicitly funds that remaining exposure."
+      "Use an inclusion table for labour, travel, overtime, freight, detectors, tubes, probes, software support and relevant external equipment. Mark limits and conditions as carefully as exclusions. “Parts included” still leaves a question: which parts, how many and up to what value? Philips’ 2021 RightFit brochure makes the distinction visible. Value describes maintenance labour coverage; Select can allocate a limited quantity or value of parts and repair work. These are published examples of different arrangements, not the terms offered today in every country. Apply that distinction to the failure that concerns your hospital. Ask the provider to show the clause that pays for the component, its installation and the journey to your site. If a parts allowance can be exhausted, calculate what remains payable after it is used. A capped plan and an uncapped plan can share a reassuring name while leaving very different bills. Ask how pre-existing faults, accidental damage and site-related failures are handled. Determine whether the remedy is repair, exchange or another arrangement and whether prior approval is required. A lower fee with an excluded major component can still be sensible, provided the hospital explicitly funds that remaining exposure."
     ],
     [
       "A response clock is not a restoration clock",
@@ -48,7 +48,7 @@ export default {
     ],
     [
       "Stress-test the fee and preserve the maintenance record",
-      "Stress-test each offer over the same term without pretending to know failure probabilities. In a hypothetical one-year comparison, Plan A costs US$3,000 but excludes an US$8,000 component; Plan B costs US$5,000 and includes that component and its replacement work. With no failure, A costs US$2,000 less. With one covered failure under the stated assumptions, A costs US$11,000 against B’s US$5,000. This is an illustration, not market pricing; travel, deductibles and other differences must be included when they are not equal. Review renewal pricing, cancellation, equipment removal and the consequences of parts or software support ending. Require usable service reports and maintain the hospital's own asset history; WHO's 2025 inventory guidance places maintenance within the device lifecycle. Choose the arrangement that transfers the risks the hospital needs transferred while leaving clearly funded responsibilities."
+      "Compare the same term and failure event. In this hypothetical one-year example, Plan A costs US$3,000 but excludes a repair whose complete installed cost is US$8,000. Plan B costs US$5,000 and covers that same repair. Assume other costs are equal and there are no applicable deductibles or limits. These figures illustrate the calculation; they are not market prices. With no failure, A costs US$2,000 less. With that one covered repair, A costs US$11,000 against B’s US$5,000. The decision is therefore about both the extra fee and access to US$8,000 when the repair is needed. Do not label B the cheaper plan on average without evidence for the failure probability. Add travel, deductibles and temporary service where the real offers differ. Review renewal pricing, cancellation, equipment removal and the consequences of parts or software support ending. Require usable service reports and maintain the hospital's own asset history; WHO's 2025 inventory guidance places maintenance within the device lifecycle. Choose the arrangement that transfers the risks the hospital needs transferred while leaving clearly funded responsibilities."
     ]
   ],
   "related": [
@@ -75,13 +75,13 @@ export default {
       "who-maintenance",
       "who-inventory",
       "philips-rightfit",
-      "block-ct"
+      "philips-service-portfolio"
     ]
   },
   "research": {
     "kind": "feature",
     "id": "service-contracts",
-    "researchedAt": "2026-10-17",
+    "researchedAt": "2026-10-18",
     "coverage": [
       "full service versus time and materials",
       "preventive maintenance",
@@ -121,12 +121,12 @@ export default {
         "model": "Time-and-materials corrective service",
         "position": "Pay for defined repair events",
         "bestFor": "A facility with reserves, an established provider and acceptable interruption arrangements.",
-        "why": "Block's service-selection guidance explicitly identifies this as an alternative to full coverage.",
+        "why": "Philips’ published RightFit portfolio lists time-and-materials service alongside its contract options.",
         "tradeoff": "Engineer availability, authorization delays and expensive parts remain buyer exposures unless otherwise agreed.",
         "price": "Obtain labor, minimum call, travel, after-hours and parts terms.",
         "support": "Establish the escalation and approval route before a breakdown.",
         "sourceIds": [
-          "block-questions"
+          "philips-service-portfolio"
         ]
       },
       {
@@ -149,10 +149,7 @@ export default {
         "tradeoff": "Tubes, detectors, probes, environmental failures and overtime must each be resolved in the actual scope.",
         "price": "Compare the fee plus deductibles, caps and exclusions.",
         "support": "Specify destination coverage, response clock, repair completion and any interim service.",
-        "sourceIds": [
-          "block-questions",
-          "block-ct"
-        ]
+        "sourceIds": []
       }
     ],
     "quickCompare": [
@@ -203,11 +200,13 @@ export default {
       {
         "heading": "Read the expensive exclusions first",
         "paragraphs": [
-          "Use an inclusion table for labor, travel, overtime, freight, detectors, tubes, probes, software support and relevant external equipment. Mark limits and conditions as carefully as exclusions. Block Imaging's CT guidance highlights that tube replacement may be outside an agreement even when tube-related maintenance is covered. That is a seller's example, not a universal contract rule.",
+          "Use an inclusion table for labour, travel, overtime, freight, detectors, tubes, probes, software support and relevant external equipment. Mark limits and conditions as carefully as exclusions. “Parts included” still leaves a question: which parts, how many and up to what value?",
+          "Philips’ 2021 RightFit brochure makes the distinction visible. Value describes maintenance labour coverage; Select can allocate a limited quantity or value of parts and repair work. These are published examples of different arrangements, not the terms offered today in every country.",
+          "Apply that distinction to the failure that concerns your hospital. Ask the provider to show the clause that pays for the component, its installation and the journey to your site. If a parts allowance can be exhausted, calculate what remains payable after it is used. A capped plan and an uncapped plan can share a reassuring name while leaving very different bills.",
           "Ask how pre-existing faults, accidental damage and site-related failures are handled. Determine whether the remedy is repair, exchange or another arrangement and whether prior approval is required. A lower fee with an excluded major component can still be sensible, provided the hospital explicitly funds that remaining exposure."
         ],
         "sourceIds": [
-          "block-ct"
+          "philips-service-portfolio"
         ]
       },
       {
@@ -232,7 +231,8 @@ export default {
       {
         "heading": "Stress-test the fee and preserve the maintenance record",
         "paragraphs": [
-          "Stress-test each offer over the same term without pretending to know failure probabilities. In a hypothetical one-year comparison, Plan A costs US$3,000 but excludes an US$8,000 component; Plan B costs US$5,000 and includes that component and its replacement work. With no failure, A costs US$2,000 less. With one covered failure under the stated assumptions, A costs US$11,000 against B’s US$5,000. This is an illustration, not market pricing; travel, deductibles and other differences must be included when they are not equal.",
+          "Compare the same term and failure event. In this hypothetical one-year example, Plan A costs US$3,000 but excludes a repair whose complete installed cost is US$8,000. Plan B costs US$5,000 and covers that same repair. Assume other costs are equal and there are no applicable deductibles or limits. These figures illustrate the calculation; they are not market prices.",
+          "With no failure, A costs US$2,000 less. With that one covered repair, A costs US$11,000 against B’s US$5,000. The decision is therefore about both the extra fee and access to US$8,000 when the repair is needed. Do not label B the cheaper plan on average without evidence for the failure probability. Add travel, deductibles and temporary service where the real offers differ.",
           "Review renewal pricing, cancellation, equipment removal and the consequences of parts or software support ending. Require usable service reports and maintain the hospital's own asset history; WHO's 2025 inventory guidance places maintenance within the device lifecycle. Choose the arrangement that transfers the risks the hospital needs transferred while leaving clearly funded responsibilities."
         ],
         "sourceIds": [
@@ -300,24 +300,14 @@ export default {
         "evidence": "Patient-monitoring portfolio identifies Protection, Support, Assist and Value approaches; applicability must not be generalized to other equipment."
       },
       {
-        "id": "block-questions",
-        "title": "5 Questions to Ask Before Signing a Service Contract",
-        "url": "https://www.blockimaging.com/blog/5-things-to-ask-before-signing-an-imaging-equipment-service-contract",
-        "publisher": "Block Imaging",
-        "kind": "seller perspective",
-        "accessed": "2026-10-17",
-        "updated": "2025-10-23",
-        "evidence": "Raises service scope, engineer location, parts, cancellation/payment terms, and maintenance-only or time-and-materials alternatives."
-      },
-      {
-        "id": "block-ct",
-        "title": "CT Service Contracts: What is NOT Included?",
-        "url": "https://www.blockimaging.com/blog/bid/80328/ct-service-contracts-what-is-not-included",
-        "publisher": "Block Imaging",
-        "kind": "seller perspective",
-        "accessed": "2026-10-17",
-        "updated": "2025-05-28",
-        "evidence": "Explains that tube upkeep and tube replacement can have different coverage; treated as supplier perspective rather than universal contract terms."
+        "id": "philips-service-portfolio",
+        "title": "Discover the Philips RightFit for you",
+        "url": "https://www.philips.com/c-dam/b2bhc/master/services/rightfit-equipment-maintenance/RightFit_Service_Agreements_Brochure.pdf",
+        "publisher": "Philips",
+        "kind": "manufacturer",
+        "accessed": "2026-10-18",
+        "evidence": "2021 brochure, printed pp. 10–11, 18–21: distinguishes on-demand time and materials, Value labour coverage and Select quantity/value-limited arrangements. Used as examples of scope, not current regional entitlements or comparative reliability.",
+        "published": "2021"
       }
     ],
     "related": [
@@ -351,7 +341,7 @@ export default {
         }
       ],
       "insertAfterHeading": "Stress-test the fee and preserve the maintenance record",
-      "caption": "Hypothetical one-year USD example: A excludes an $8,000 component; B includes that component and its replacement work. No failure probability is assumed. Unequal travel, deductibles or other exclusions must be added."
+      "caption": "Hypothetical one-year USD example: A excludes a repair costing $8,000 fully installed; B covers that same repair. No failure probability is assumed. Add unequal travel, deductibles and other exclusions in a real comparison."
     }
   },
   "searchTerms": "full service versus time and materials preventive maintenance parts and in-house support coverage exclusions response and restoration renewal and support horizon Preventive-maintenance-only arrangement Time-and-materials corrective service Parts and specialist support for an in-house team Full-service agreement with named major components",

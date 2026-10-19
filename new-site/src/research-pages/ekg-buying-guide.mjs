@@ -32,7 +32,7 @@ export default {
     ],
     [
       "The battery option can change the usable package",
-      "Specify the battery as carefully as the patient cables. EDAN lists a standard 2,550 mAh battery and an optional 5,100 mAh battery, with respective operating-time claims of at least four and eight hours. Those figures use a new, fully charged battery at 20–30°C, low screen brightness, continuous SpO2 and NIBP every 15 minutes. They are test conditions, not guaranteed endurance for a worn battery or another configuration. For an existing monitor, complete and assess the station before replacing it: suitable patient-size cuffs, compatible probes, intact leads, a mount and a usable battery may recover more service than another bare chassis. For a new purchase, compare that same basket. Spare accessories can be a better use of a limited budget than expansion slots the ward will never equip."
+      "Specify the battery as carefully as the patient cables. EDAN Diagnostics advertises up to eight hours for the X series, but that headline does not identify the battery fitted to an offered unit or establish its remaining capacity. Have the supplier identify the battery and applicable test conditions, then require an endurance check under the intended monitoring configuration. A longer runtime is useful only if the delivered station can reproduce it. For an existing monitor, complete and assess the station before replacing it: suitable patient-size cuffs, compatible probes, intact leads, a mount and a usable battery may recover more service than another bare chassis. For a new purchase, compare that same basket. Spare accessories can be a better use of a limited budget than expansion slots the ward will never equip."
     ],
     [
       "Buy an ECG result the clinic can retrieve",
@@ -98,12 +98,12 @@ export default {
         "bestFor": "A ward needing a defined ECG, SpO2, NIBP and temperature package",
         "why": "A defined basic station can leave more budget for spare leads, probes and batteries.",
         "tradeoff": "X8 does not provide the optional invasive-pressure expansion shown for X10/X12. Specify CO2, patient accessories and battery configuration separately.",
-        "price": "PartsSource displayed USD 3,358.06 each on October 16, 2026 for OEM X8, New OEM Original, with 8-inch touchscreen/Wi-Fi, 3/5-lead ECG, RESP, NIBP, EDAN SpO2 and one temperature channel. Price required CO2/printer options separately and confirm accessories. The item is nonreturnable, with a ship date only after order confirmation; freight, tax, export warranty and commissioning remain additional or unverified.",
-        "support": "Current EDAN USA by MDPro product offering found. This establishes an identifiable supply channel, not service coverage at the destination.",
+        "price": "Compare the required parameters, patient-size cuffs, probes, leads, battery and mount as one station. Itemize any CO2 or recorder option; an unequipped console is not an equivalent offer.",
+        "support": "Manufacturer documentation identifies the platform. Check whether the offered unit is covered by FDA recall Z-1148-2026 and obtain evidence that the applicable cybersecurity labeling and configuration correction is complete; destination service remains unconfirmed.",
         "sourceIds": [
           "e1",
-          "e-partssource-x8",
-          "e-edan-configuration"
+          "e-edan-configuration",
+          "e-edan-correction"
         ]
       },
       {
@@ -210,11 +210,10 @@ export default {
       {
         "heading": "The battery option can change the usable package",
         "paragraphs": [
-          "Specify the battery as carefully as the patient cables. EDAN lists a standard 2,550 mAh battery and an optional 5,100 mAh battery, with respective operating-time claims of at least four and eight hours. Those figures use a new, fully charged battery at 20–30°C, low screen brightness, continuous SpO2 and NIBP every 15 minutes. They are test conditions, not guaranteed endurance for a worn battery or another configuration.",
+          "Specify the battery as carefully as the patient cables. EDAN Diagnostics advertises up to eight hours for the X series, but that headline does not identify the battery fitted to an offered unit or establish its remaining capacity. Have the supplier identify the battery and applicable test conditions, then require an endurance check under the intended monitoring configuration. A longer runtime is useful only if the delivered station can reproduce it.",
           "For an existing monitor, complete and assess the station before replacing it: suitable patient-size cuffs, compatible probes, intact leads, a mount and a usable battery may recover more service than another bare chassis. For a new purchase, compare that same basket. Spare accessories can be a better use of a limited budget than expansion slots the ward will never equip."
         ],
         "sourceIds": [
-          "e-edan-configuration",
           "e1",
           "e2"
         ]
@@ -271,15 +270,6 @@ export default {
       "Manufacturer runtime claims do not establish the endurance of an offered used battery."
     ],
     "sources": [
-      {
-        "id": "e1",
-        "title": "EDAN X8 patient monitor",
-        "url": "https://edanusa.com/edanusa-x8-patient-monitor/",
-        "publisher": "EDAN USA by MDPro",
-        "kind": "manufacturer / distributor",
-        "accessed": "2026-10-16",
-        "evidence": "Identified X8 offering and available basic and optional parameters."
-      },
       {
         "id": "e2",
         "title": "GE B1x5M patient monitor family",
@@ -398,22 +388,31 @@ export default {
         "evidence": "Specified serviced LIFEPAK serials lacked objective evidence of completed performance inspection; corrective action required."
       },
       {
-        "id": "e-partssource-x8",
-        "title": "PartsSource EDAN X8 standard configuration offer",
-        "url": "https://www.partssource.com/parts/edan-usa/X8",
-        "publisher": "PartsSource",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Product page body identifies OEM X8, standard parameters, new condition, $3,358.06, nonreturnable status and a ship date only after order confirmation. Page title metadata is inconsistent; the price is tied to the model named in the body."
+        "id": "e1",
+        "title": "EDAN Diagnostics X-series patient monitors",
+        "url": "https://www.edandiagnostics.com/product/m/PM_X_Series.html",
+        "publisher": "EDAN Diagnostics",
+        "kind": "manufacturer",
+        "accessed": "2026-10-18",
+        "evidence": "Manufacturer page identifies the X-series platform and an up-to-eight-hour battery claim; the page does not establish an offered battery configuration or used-battery endurance."
       },
       {
         "id": "e-edan-configuration",
-        "title": "EDAN X8–X12 function-configuration comparison, page 2",
-        "url": "https://edanusa.com/wp-content/uploads/sites/12/2020/11/x8-x12-PM-spec-sheet.pdf",
-        "publisher": "EDAN USA",
+        "title": "EDAN X-series brochure, version 1.1 (2024)",
+        "url": "https://www.edan.com/Uploads/20241018050700_417993.pdf",
+        "publisher": "EDAN Instruments",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "The visual configuration table assigns optional invasive blood pressure to X10/X12, not X8. X8 includes optional CO2, ECG configuration, Wi-Fi and recorder choices."
+        "evidence": "Manufacturer-indexed configuration text assigns optional IBP to X10/X12, not X8. The directly hosted PDF was inaccessible during this check; the narrow configuration passage was available through search indexing."
+      },
+      {
+        "id": "e-edan-correction",
+        "title": "FDA EDAN X8/X10/X12 correction, Z-1148-2026",
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfRES/res.cfm?id=217962",
+        "publisher": "FDA",
+        "kind": "regulator",
+        "accessed": "2026-10-18",
+        "evidence": "January 22, 2026 record identifies specified X-series units and correction of cybersecurity labeling/IP configuration. Applicability and completion must be checked for the offered unit."
       }
     ],
     "decision": {

@@ -18,7 +18,9 @@ The build produces a portable static site in `dist/`: 134 canonical pages, 133 d
 
 The footer displays the package version. Bump it before preparing a release.
 
-## Version 1.8.0 buyer library
+## Version 1.8.2 buyer library
+
+Version 1.8.2 removes competing-dealer references and replaces dependent examples with primary manufacturer evidence or clearly labelled original purchasing calculations. Manufacturer and model names remain where they help buyers compare actual configurations. Narrower narrative lines and a prominent MMS inquiry before the references improve reading and the next step; both research and introductory articles preserve their inquiry context. Public dealer references are checked in the content tests.
 
 Version 1.8.1 bundles the original IBM Plex desktop font for share-card rendering on Linux and Windows. Pull requests now regenerate every card and verify the complete production build on Linux before release; the existing main-branch deployment remains unchanged.
 

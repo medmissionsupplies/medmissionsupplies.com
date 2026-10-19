@@ -112,7 +112,7 @@ function AtAGlance({ item, sources }) {
   return <section className="rg-at-a-glance" aria-labelledby="rg-glance-heading" id="guide-sheet">
     <div className="rg-sheet-heading"><div><span className="rg-kicker">Your buying summary</span><h2 id="rg-glance-heading">The decision at a glance.</h2></div></div>
     <dl className="rg-sheet-points">{points.map(([label, text]) => <div key={label}><dt>{label}</dt><dd>{text}</dd></div>)}</dl>
-    {!!sheet.askSupplier?.length && <div className="rg-sheet-questions"><h3>Ask the supplier</h3><ol>{sheet.askSupplier.map((question, index) => <li key={index}>{question}</li>)}</ol></div>}
+    {!!sheet.askSupplier?.length && <div className="rg-sheet-questions"><h3>Questions for your quote</h3><ol>{sheet.askSupplier.map((question, index) => <li key={index}>{question}</li>)}</ol></div>}
     <References ids={sheet.sourceIds} sources={sources} />
   </section>;
 }
@@ -221,10 +221,10 @@ export function ResearchArticle({ item }) {
           {!!research.gaps?.length && <><h3>What the evidence does not establish</h3><ul>{research.gaps.map((text, index) => <li key={index}>{text}</li>)}</ul></>}
           {research.legacy?.assessment && <><h3>Earlier equipment recommendations</h3><p>{research.legacy.assessment}</p></>}
         </details>}
-        {!!publicSources.length && <section className="rg-source-list" id="sources"><h2>Sources & supporting evidence.</h2><p className="rg-sources-intro">Manufacturer claims and seller offers are identified below. Prices apply to the stated offer and review date; confirm availability, configuration and delivered cost.</p>
+        <GuideInquiry href={inquiryUrl} />
+        {!!publicSources.length && <section className="rg-source-list" id="sources"><h2>Sources & supporting evidence.</h2><p className="rg-sources-intro">The specifications and guidance behind this comparison. Confirm the current configuration, support and delivered cost for any equipment you are considering.</p>
           <ol>{publicSources.map(source => <li id={sourceAnchor(source.id)} key={source.id}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}<ArrowUpRight size={14} aria-hidden="true" /></a><span>{source.publisher}{source.kind ? ` · ${source.kind}` : ""}{source.accessed ? ` · checked ${displayDate(source.accessed)}` : ""}</span>{source.evidence && <p>{source.evidence}</p>}</li>)}</ol>
         </section>}
-        <div className="rg-article-contact"><h2>Put the guide to work.</h2><p>Send MMS your equipment list, destination and budget. We can help you compare a complete package.</p><a className="mms-action" href={inquiryUrl}>Discuss your equipment <ArrowUpRight size={18} aria-hidden="true" /></a></div>
       </article>
       <aside className="rg-article-aside"><nav aria-label="On this page"><h2>In this guide</h2>{item.sheet && <a href="#guide-sheet">The decision at a glance</a>}{sections.map(([heading], index) => <a href={`#section-${index + 1}`} key={index}>{heading}</a>)}{hasModels && <a href="#model-comparison">Compare the options</a>}{research.ownership && <a href="#ownership-cost">Whole-service costs</a>}{!!publicSources.length && <a href="#sources">Sources & evidence</a>}</nav>
         {!!relatedGuides.length && <div className="rg-related"><h2>More on this purchase</h2>{relatedGuides.map(guide => <a key={guide.id} href={resourceUrl(guide)}>{guide.sheet?.title || guide.title}<ArrowRight size={15} aria-hidden="true" /></a>)}</div>}
@@ -232,4 +232,12 @@ export function ResearchArticle({ item }) {
       </aside>
     </div>
   </div>;
+}
+
+export function GuideInquiry({ href }) {
+  return <aside className="rg-article-contact" aria-label="Discuss this purchase with MMS">
+    <h2>Compare your options with MMS.</h2>
+    <p>Share your equipment list, destination and budget. We can help you compare the complete package and plan your next step.</p>
+    <a className="mms-action" href={href}>Discuss this purchase with MMS <ArrowUpRight size={18} aria-hidden="true" /></a>
+  </aside>;
 }

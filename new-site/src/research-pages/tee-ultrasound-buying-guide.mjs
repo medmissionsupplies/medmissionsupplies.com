@@ -99,8 +99,8 @@ export default {
         "bestFor": "A hospital whose local supporting capacity is not ready.",
         "why": "Avoids an incomplete equipment investment while the actual service plan is developed.",
         "tradeoff": "Access, continuity and full service costs still need comparison.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Confirm exact release, probe condition and destination repair eligibility.",
+        "price": "Compare referral or shared-service charges, transport and continuity costs over the same period; no current matched offer established.",
+        "support": "Agree access to the provider, return of reports and contingency arrangements when the planned service is unavailable.",
         "sourceIds": []
       }
     ],

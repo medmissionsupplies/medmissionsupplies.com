@@ -32,7 +32,7 @@ export default {
     ],
     [
       "Add the spending between delivery and first use",
-      "Give accessories, software, freight, tax or import costs, installation, acceptance, training and initial supplies their own lines. “Included” should describe the item and quantity. “Unpriced” is an unresolved exposure, not zero. If one essential item has no credible cost or delivery route, keep that uncertainty visible instead of presenting a precise but incomplete total. A dated public offer can anchor part of the comparison. On October 16, 2026, MFI’s M11 listing displayed US$7,562.82 plus US$495 shipping, totaling US$8,057.82 by addition. It identified medical M11-050/M11-051 configurations and voltage variants, not a dental configuration. That snapshot was not a destination-specific landed quotation and is not a promise of today’s price. The model, voltage, delivery scope and date belong beside the amount."
+      "Give accessories, software, freight, tax or import costs, installation, acceptance, training and initial supplies their own lines. “Included” should describe the item and quantity. “Unpriced” is an unresolved exposure, not zero. If one essential item has no credible cost or delivery route, keep that uncertainty visible instead of presenting a precise but incomplete total. A parts-only repair promise can leave the hospital paying for labor, engineer travel and return freight. Put those responsibilities beside the actual destination and service route. Keep optional accessories out of the base package until their need is clear. The next example shows how apparently small omissions can erase a large console discount."
     ],
     [
       "Watch a US$3,000 saving almost disappear",
@@ -44,7 +44,7 @@ export default {
     ],
     [
       "Buy usable output, not an attractive pack price",
-      "Pack size, usable expiry, storage, control consumption and minimum orders determine how much of a consumable purchase becomes useful work. A larger pack can reduce freight yet increase unused stock at a quiet service. Compare equivalent tasks or assays, and separate routine patient use from controls and other consumption. A CLIAwaived offer checked on October 16, 2026 provides a specific example: US$139 for ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08), plus a US$30 fee per item. If all ten discs produced usable patient panels, US$169 divided by ten would be US$16.90 per panel. If only eight did so in an illustrative scenario, it would be US$21.13 per usable patient panel, rounded to cents. These are assumed yields, not observed wastage or prices per individual analyte. Control use, repeats, discarded discs, tax and other costs must be included in a real comparison. The seller’s CLIA-license requirement and other ordering conditions still apply."
+      "Pack size, usable expiry, storage, control consumption and minimum orders determine how much of a consumable purchase becomes useful work. A larger pack can reduce freight yet increase unused stock at a quiet service. Compare equivalent tasks or assays, and separate routine patient use from controls and other consumption. In an original hypothetical example, 24 single-use panel tests cost US$360 plus US$72 delivery: US$432. If all 24 produce usable patient panels, that purchase costs US$18 per panel. If only 18 do, it costs US$24. These invented prices and quantities are not an offer for any named test. Count control runs, repeats and expiry when estimating the usable yield, and count each purchased pack only once. Add separately purchased control material, collection supplies, storage and instrument costs where applicable. The denominator is accepted patient panels from the same period, not individual analytes or every test purchased."
     ],
     [
       "Close the omissions that can still change the winner",
@@ -75,8 +75,6 @@ export default {
     "sourceIds": [
       "edan-config",
       "ttop-config",
-      "m11-offer",
-      "piccolo-offer",
       "ultrasound-config",
       "pc-ecg"
     ]
@@ -119,11 +117,9 @@ export default {
         "heading": "Add the spending between delivery and first use",
         "paragraphs": [
           "Give accessories, software, freight, tax or import costs, installation, acceptance, training and initial supplies their own lines. “Included” should describe the item and quantity. “Unpriced” is an unresolved exposure, not zero. If one essential item has no credible cost or delivery route, keep that uncertainty visible instead of presenting a precise but incomplete total.",
-          "A dated public offer can anchor part of the comparison. On October 16, 2026, MFI’s M11 listing displayed US$7,562.82 plus US$495 shipping, totaling US$8,057.82 by addition. It identified medical M11-050/M11-051 configurations and voltage variants, not a dental configuration. That snapshot was not a destination-specific landed quotation and is not a promise of today’s price. The model, voltage, delivery scope and date belong beside the amount."
+          "A parts-only repair promise can leave the hospital paying for labor, engineer travel and return freight. Put those responsibilities beside the actual destination and service route. Keep optional accessories out of the base package until their need is clear. The next example shows how apparently small omissions can erase a large console discount."
         ],
-        "sourceIds": [
-          "m11-offer"
-        ]
+        "sourceIds": []
       },
       {
         "heading": "Watch a US$3,000 saving almost disappear",
@@ -145,11 +141,10 @@ export default {
         "heading": "Buy usable output, not an attractive pack price",
         "paragraphs": [
           "Pack size, usable expiry, storage, control consumption and minimum orders determine how much of a consumable purchase becomes useful work. A larger pack can reduce freight yet increase unused stock at a quiet service. Compare equivalent tasks or assays, and separate routine patient use from controls and other consumption.",
-          "A CLIAwaived offer checked on October 16, 2026 provides a specific example: US$139 for ten Abbott Piccolo Comprehensive Metabolic reagent discs (seller SKU ABBT-07P02-08), plus a US$30 fee per item. If all ten discs produced usable patient panels, US$169 divided by ten would be US$16.90 per panel. If only eight did so in an illustrative scenario, it would be US$21.13 per usable patient panel, rounded to cents. These are assumed yields, not observed wastage or prices per individual analyte. Control use, repeats, discarded discs, tax and other costs must be included in a real comparison. The seller’s CLIA-license requirement and other ordering conditions still apply."
+          "In an original hypothetical example, 24 single-use panel tests cost US$360 plus US$72 delivery: US$432. If all 24 produce usable patient panels, that purchase costs US$18 per panel. If only 18 do, it costs US$24. These invented prices and quantities are not an offer for any named test.",
+          "Count control runs, repeats and expiry when estimating the usable yield, and count each purchased pack only once. Add separately purchased control material, collection supplies, storage and instrument costs where applicable. The denominator is accepted patient panels from the same period, not individual analytes or every test purchased."
         ],
-        "sourceIds": [
-          "piccolo-offer"
-        ]
+        "sourceIds": []
       },
       {
         "heading": "Close the omissions that can still change the winner",
@@ -188,8 +183,8 @@ export default {
       "Does the preference survive lower utilization?"
     ],
     "gaps": [
-      "Illustrative prices are not market estimates.",
-      "Public offers do not establish destination delivery, tax, regulatory eligibility or service terms."
+      "Illustrative prices and yields are invented inputs, not market estimates or observed waste rates.",
+      "The comparison does not establish destination delivery, tax, regulatory eligibility or service terms for any real offer."
     ],
     "sources": [
       {
@@ -209,24 +204,6 @@ export default {
         "kind": "manufacturer",
         "accessed": "2026-10-16",
         "evidence": "21/27 L line with Class S and upgradeable Class B configurations; distinct cycle tables."
-      },
-      {
-        "id": "m11-offer",
-        "title": "Factory-new current M11 offer",
-        "url": "https://mfimedical.com/products/midmark-m11-steam-sterilizer",
-        "publisher": "MFI Medical",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Opened price USD 7,562.82 plus displayed USD 495 shipping; exact voltage and delivery terms require confirmation. The listing identifies M11-050 / M11-051 and expressly states medical-facility use only, excluding dental applications."
-      },
-      {
-        "id": "piccolo-offer",
-        "title": "Comprehensive Metabolic disc offer",
-        "url": "https://www.cliawaived.com/comp-metabolic-reagent-disc.html",
-        "publisher": "CLIAwaived",
-        "kind": "seller listing",
-        "accessed": "2026-10-16",
-        "evidence": "Opened body: ABBT-07P02-08 at $139/10 plus $30 fee per item and CLIA-license requirement."
       },
       {
         "id": "ultrasound-config",

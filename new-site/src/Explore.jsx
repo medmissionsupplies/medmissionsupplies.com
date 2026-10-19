@@ -30,7 +30,7 @@ import { guideSources } from "./guide-sources.mjs";
 import { equipmentGuidance } from "./editorial-guidance.mjs";
 import { EquipmentEditorial, Takeaways, SourceLinks, SourceNotes } from "./EditorialContent.jsx";
 import ShareTools from "./ShareTools.jsx";
-import { ResearchLibrary } from "./ResearchLibrary.jsx";
+import { ResearchLibrary, GuideInquiry } from "./ResearchLibrary.jsx";
 import ResearchArticleRoute from "./ResearchArticleRoute.jsx";
 import { researchGuides } from "./research-guide-index.generated.mjs";
 
@@ -664,11 +664,9 @@ export function ArticleDetail({ item }) {
               ))}
             </ul>
           </div>
+          <GuideInquiry href={`/contact.html?${new URLSearchParams({ topic: 'procure', guide: item.id })}`} />
           <SourceNotes ids={item.sources} />
           <RelatedReading item={item} />
-          <div className="article-next">
-            <Action href="/contact.html">Talk to our team</Action>
-          </div>
         </div>
         <aside className="article-aside">
           <h2>On this page</h2>

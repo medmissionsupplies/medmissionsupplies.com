@@ -46,7 +46,7 @@ export default {
     ],
     [
       "A loaner promise needs a compatible probe behind it",
-      "A loaner is useful only when the correct model can reach the hospital and work with its console and required modes. GE's diagnostic page states that its loaner service depends on inventory and does not cover every probe model. Ask for the proposed substitute, compatibility, delivery arrangements, charges and return deadline. Review probe coverage separately from the console contract. Block Imaging's published terms provide a concrete seller example in which ultrasound transducers require specific endorsement. That document does not determine another provider's coverage. It does demonstrate why the actual probe list and applicable conditions belong in the agreement rather than in a verbal assurance that the scanner is covered."
+      "A loaner is useful only when the correct model can reach the hospital and work with its console and required modes. GE's diagnostic page states that its loaner service depends on inventory and does not cover every probe model. Ask for the proposed substitute, compatibility, delivery arrangements, charges and return deadline. Coverage for a failed probe and coverage for accidental damage are separate buying questions. GE’s US probe-contract page describes accidental probe coverage within its full-maintenance offering and separately lists on-demand services. That is evidence that the scope can be specified, not proof that every GE agreement or every probe is covered. Name the probes in the agreement, then work through one ordinary fault and one accidental-damage case. Establish the remedy, any claim limit, freight and the compatible temporary probe. A broad console contract does not answer those questions by itself."
     ],
     [
       "Choose a package that stays useful after one failure",
@@ -77,13 +77,14 @@ export default {
       "ge-diagnosis",
       "philips-care",
       "ge-probe-terms",
-      "ge-vscan"
+      "ge-vscan",
+      "ge-probe-contracts"
     ]
   },
   "research": {
     "kind": "feature",
     "id": "ultrasound-probes",
-    "researchedAt": "2026-10-17",
+    "researchedAt": "2026-10-18",
     "coverage": [
       "required transducer bundle",
       "used probe inspection and compatibility",
@@ -224,11 +225,12 @@ export default {
         "heading": "A loaner promise needs a compatible probe behind it",
         "paragraphs": [
           "A loaner is useful only when the correct model can reach the hospital and work with its console and required modes. GE's diagnostic page states that its loaner service depends on inventory and does not cover every probe model. Ask for the proposed substitute, compatibility, delivery arrangements, charges and return deadline.",
-          "Review probe coverage separately from the console contract. Block Imaging's published terms provide a concrete seller example in which ultrasound transducers require specific endorsement. That document does not determine another provider's coverage. It does demonstrate why the actual probe list and applicable conditions belong in the agreement rather than in a verbal assurance that the scanner is covered."
+          "Coverage for a failed probe and coverage for accidental damage are separate buying questions. GE’s US probe-contract page describes accidental probe coverage within its full-maintenance offering and separately lists on-demand services. That is evidence that the scope can be specified, not proof that every GE agreement or every probe is covered.",
+          "Name the probes in the agreement, then work through one ordinary fault and one accidental-damage case. Establish the remedy, any claim limit, freight and the compatible temporary probe. A broad console contract does not answer those questions by itself."
         ],
         "sourceIds": [
           "ge-diagnosis",
-          "block-probe-terms"
+          "ge-probe-contracts"
         ]
       },
       {
@@ -277,7 +279,7 @@ export default {
         "url": "https://services.gehealthcare.com/gehcstorefront/ultrasound-probe-management/diagnose",
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "Describes visual and technical evaluation for repair versus replacement; loaners depend on inventory and are not offered for every model."
       },
       {
@@ -295,7 +297,7 @@ export default {
         "url": "https://www.gehealthcare.com/en-us/about/terms-and-conditions/on-demand-quotation-systems",
         "publisher": "GE HealthCare",
         "kind": "manufacturer terms",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "published": "2026-03",
         "evidence": "US terms identify separate evaluation/loaner charges, customer-paid shipping, exchange-core value and a defined repair warranty; exact purchased scope still governs."
       },
@@ -309,13 +311,13 @@ export default {
         "evidence": "Identifies CL curved/linear and SL sector/linear arrays as distinct dual-ended configurations."
       },
       {
-        "id": "block-probe-terms",
-        "title": "Published service contract terms: PSC/SCMX5",
-        "url": "https://www.blockimaging.com/terms/pscscmx5",
-        "publisher": "Block Imaging",
-        "kind": "seller terms",
-        "accessed": "2026-10-17",
-        "evidence": "The published exclusions specifically name ultrasound transducers unless endorsed; used only as an example of component-specific contract scope."
+        "id": "ge-probe-contracts",
+        "title": "Ultrasound Probe Contract Solutions",
+        "url": "https://services.gehealthcare.com/gehcstorefront/ultrasound-probe-management/servicecontracts",
+        "publisher": "GE HealthCare",
+        "kind": "manufacturer",
+        "accessed": "2026-10-18",
+        "evidence": "US public offering distinguishes a full-maintenance solution with accidental probe coverage from on-demand services. The page is not a purchased agreement and does not establish eligible models, claim limits or availability at a particular hospital."
       }
     ],
     "related": [
