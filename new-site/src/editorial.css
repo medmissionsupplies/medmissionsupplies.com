@@ -2819,6 +2819,7 @@ a.cds--header__menu-item[aria-current="page"] { background: transparent; box-sha
 .credited-banner-media > div > img { width: 100%; height: 300px; object-fit: contain; }
 .credited-banner-media .rg-photo-credit { color: #42546a; background: #f4f7fa; padding: 9px 15px 12px; }
 .guide-item-top .rg-photo-credit { display: grid; text-align: left; font-size: 11px; line-height: 1.4; }
+.guide-item-top .rg-photo-credit > details > span { display: block; margin-top: 3px; }
 .guide-item-top img[data-photo^="guides/"] { object-fit: contain; }
 @media (max-width: 640px) {
   .credited-banner-media > div { min-height: 0; padding: 12px; }
