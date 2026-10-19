@@ -39,7 +39,7 @@ export default {
     ],
     [
       "Use the same years on both sides of the calculation",
-      "For an illustrative three-year comparison, assume $60,000 total installed equipment and water-system capital, plus $90,000 recurring service expense each year, delivering 3,000 treatments annually. Three-year cost is $330,000 for 9,000 treatments, or $36.67 each. These are hypothetical accounting inputs, not a market quote or a proposed clinical service budget. If the same annual expense supported only 2,000 treatments, the result would be $330,000 divided by 6,000, or $55.00. In practice some supplies would fall with activity; recalculate that variable portion while retaining real fixed commitments. Do not divide several years of costs by one year of treatments or combine annualized machines with the full water-plant capital without adjustment. Price equivalent approved bloodlines, dialyzers, concentrates, filters, disinfectants, scheduled parts and labor for the chosen modality. Make Dialog iQ’s dedicated DiaStream iQ bloodlines visible in the basket. An extra $1 per treatment at 3,000 treatments a year adds $9,000 over three years: enough to change the meaning of a capital discount."
+      "For an illustrative three-year comparison, assume $60,000 total installed equipment and water-system capital, plus $90,000 recurring service expense each year, delivering 3,000 treatments annually. Three-year cost is $330,000 for 9,000 treatments, or $36.67 each. These are hypothetical accounting inputs, not a market quote or a proposed clinical service budget. If the same annual expense supported only 2,000 treatments, the result would be $330,000 divided by 6,000, or $55.00. In practice some supplies would fall with activity; recalculate that variable portion while retaining real fixed commitments. Do not divide several years of costs by one year of treatments or combine annualized machines with the full water-plant capital without adjustment. Price equivalent approved bloodlines, dialyzers, concentrates, filters, disinfectants, scheduled parts and labor for the chosen modality. Make Dialog iQ’s dedicated DiaStream iQ bloodlines visible in the basket. An extra $1 per treatment at 3,000 treatments a year adds $9,000 over three years: enough to change the meaning of a capital discount. Read the volume terms beside the per-treatment price. A minimum annual purchase, expiring stock or freight charged on small orders can erase the apparent advantage of a discounted consumable. Request prices at the likely starting volume and at the planned mature volume, with the same modality and supply basket. A new program should survive the lower-volume case before committing to an expansion contract."
     ],
     [
       "Add refurbished capacity where the support already works",
@@ -60,7 +60,7 @@ export default {
     "summary": "Compare 4008S classix, Dialog iQ and Surdial X as complete treatment services. Water, consumables and repair coverage decide what the capital purchase can deliver.",
     "firstChoice": "Set the intended treatment volume and clinical service, then compare complete 4008S classix, Dialog iQ and Surdial X proposals on that basis.",
     "upgradeWhen": "The program will use and maintain Dialog iQ biofeedback or configured HDF capability, or a stronger supply/service contract solves a real availability problem.",
-    "budgetWatch": "Include water treatment and distribution, chemical and microbiological monitoring, approved bloodlines, concentrates, filters and disinfectants. Price Dialog iQ's dedicated DiaStream iQ lines explicitly at the same treatment volume as competing offers.",
+    "budgetWatch": "Compare the same years and treatment volume, including minimum consumable purchases, expiry, freight and shared water-system costs.",
     "supportCheck": "Reject a machine-only deal when the water system, recurring consumables, qualified staff or local repairs are still unfunded.",
     "askSupplier": [
       "What complete per-treatment basket does this modality require?",
@@ -163,7 +163,8 @@ export default {
         "paragraphs": [
           "For an illustrative three-year comparison, assume $60,000 total installed equipment and water-system capital, plus $90,000 recurring service expense each year, delivering 3,000 treatments annually. Three-year cost is $330,000 for 9,000 treatments, or $36.67 each. These are hypothetical accounting inputs, not a market quote or a proposed clinical service budget.",
           "If the same annual expense supported only 2,000 treatments, the result would be $330,000 divided by 6,000, or $55.00. In practice some supplies would fall with activity; recalculate that variable portion while retaining real fixed commitments. Do not divide several years of costs by one year of treatments or combine annualized machines with the full water-plant capital without adjustment.",
-          "Price equivalent approved bloodlines, dialyzers, concentrates, filters, disinfectants, scheduled parts and labor for the chosen modality. Make Dialog iQ’s dedicated DiaStream iQ bloodlines visible in the basket. An extra $1 per treatment at 3,000 treatments a year adds $9,000 over three years: enough to change the meaning of a capital discount."
+          "Price equivalent approved bloodlines, dialyzers, concentrates, filters, disinfectants, scheduled parts and labor for the chosen modality. Make Dialog iQ’s dedicated DiaStream iQ bloodlines visible in the basket. An extra $1 per treatment at 3,000 treatments a year adds $9,000 over three years: enough to change the meaning of a capital discount.",
+          "Read the volume terms beside the per-treatment price. A minimum annual purchase, expiring stock or freight charged on small orders can erase the apparent advantage of a discounted consumable. Request prices at the likely starting volume and at the planned mature volume, with the same modality and supply basket. A new program should survive the lower-volume case before committing to an expansion contract."
         ],
         "sourceIds": [
           "braun-iq"
@@ -287,6 +288,6 @@ export default {
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying dialysis machines: fund the next thousand treatments dialysis Fresenius 4008S classix B. Braun Dialog iQ Nipro Surdial X",
+  "searchTerms": "Buying dialysis machines: fund the next thousand treatments dialysis",
   "librarySection": "equipment"
 };

@@ -100,7 +100,7 @@ export default {
         "heading": "Two-in-one describes a capability, not a complete order",
         "paragraphs": [
           "A combined radiography/fluoroscopy room can be a sensible way to use space and equipment. Its value depends on the exact examinations, positioning and schedule it can support. Write the radiography work and fluoroscopy work as two separate requirements before asking a supplier to combine them.",
-          "Siemens describes LUMINOS Impulse as a digital R/F system, but marks the Bucky wall stand, wireless MAX wi-D detector and stitching among its options. A base-system price and a fully configured radiography package can therefore describe different purchases. Require the components needed for both parts of the brief."
+          "For LUMINOS Impulse, Siemens marks the Bucky wall stand, wireless MAX wi-D detector and stitching as options. Obtain two totals: the installed base room and the room equipped for every required radiography view. If standing or stitched work in the brief depends on an omitted option, it belongs in the required total before the combined room can be compared with separate equipment."
         ],
         "sourceIds": [
           "impulse"
@@ -144,7 +144,7 @@ export default {
         "heading": "Count common failures once, and separate components honestly",
         "paragraphs": [
           "List tube/generator, detector or image intensifier, table mechanisms, controls, workstation and software in the service schedule. Ask whether a shared component failure would stop both radiography and fluoroscopy. Build the continuity plan around that dependency rather than assuming two advertised functions provide redundancy.",
-          "Remote support is also conditional: Siemens' Impulse page specifies connectivity and service-contract prerequisites. It is not a substitute for an on-site restoration route. Choose the complete package whose useful capability, support and scheduled availability fit the hospital. Retain an accepted older room when a targeted remedy makes that the stronger economic choice."
+          "Siemens conditions Remote Assist on the relevant service contract and SRS connection. Confirm those prerequisites with hospital IT, then separately establish who can attend when a tube, detector or table mechanism needs work. Remote advice and on-site restoration are different costs. Retain an accepted older room when the remaining components are supportable and a targeted remedy meets both workloads; replace when the complete new scope earns the expense."
         ],
         "sourceIds": [
           "impulse"
@@ -186,7 +186,7 @@ export default {
         "publisher": "Siemens Healthineers",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Full relevant written feature/option footnotes read: dynamic flat-detector R/F, optional MAX wi-D, wall stand and stitching; remote service has infrastructure/contract prerequisites. No technical image-derived dimensions or dose claim."
+        "evidence": "Primary feature list and final option/service footnotes read 18 October 2026: MAX wi-D, wall stand and stitching optional; Remote Assist requires SRS infrastructure and a qualifying contract. No image-derived dimensions, dose reduction or measured uptime adopted."
       },
       {
         "id": "fusion",
@@ -205,10 +205,10 @@ export default {
   "sheet": {
     "title": "Buying an R/F room: what does the two-in-one package leave out?",
     "summary": "Compare radiography and fluoroscopy configurations, optional wall-stand equipment and the cost of sharing one room.",
-    "firstChoice": "Price the exact components needed for both workloads.",
-    "upgradeWhen": "The accepted work or schedule justifies the complete upgrade.",
-    "budgetWatch": "Add options and shared-capacity costs.",
-    "supportCheck": "Name common failure points and restoration responsibilities.",
+    "firstChoice": "Separate the radiography and fluoroscopy workload and positioning needs.",
+    "upgradeWhen": "The complete package resolves accepted capability or capacity limitations.",
+    "budgetWatch": "R/F value depends on accepted work delivered by the complete room, including options, support and the cost of shared capacity.",
+    "supportCheck": "The offered configuration cannot perform both promised workflows or has an unresolved support gap.",
     "askSupplier": [
       "Which wall-stand, detector and software options are included?",
       "What happens to each workload during a long session or shared-system failure?",
@@ -222,7 +222,7 @@ export default {
   "sections": [
     [
       "Two-in-one describes a capability, not a complete order",
-      "A combined radiography/fluoroscopy room can be a sensible way to use space and equipment. Its value depends on the exact examinations, positioning and schedule it can support. Write the radiography work and fluoroscopy work as two separate requirements before asking a supplier to combine them. Siemens describes LUMINOS Impulse as a digital R/F system, but marks the Bucky wall stand, wireless MAX wi-D detector and stitching among its options. A base-system price and a fully configured radiography package can therefore describe different purchases. Require the components needed for both parts of the brief."
+      "A combined radiography/fluoroscopy room can be a sensible way to use space and equipment. Its value depends on the exact examinations, positioning and schedule it can support. Write the radiography work and fluoroscopy work as two separate requirements before asking a supplier to combine them. For LUMINOS Impulse, Siemens marks the Bucky wall stand, wireless MAX wi-D detector and stitching as options. Obtain two totals: the installed base room and the room equipped for every required radiography view. If standing or stitched work in the brief depends on an omitted option, it belongs in the required total before the combined room can be compared with separate equipment."
     ],
     [
       "Identify the installed imaging chain",
@@ -242,11 +242,11 @@ export default {
     ],
     [
       "Count common failures once, and separate components honestly",
-      "List tube/generator, detector or image intensifier, table mechanisms, controls, workstation and software in the service schedule. Ask whether a shared component failure would stop both radiography and fluoroscopy. Build the continuity plan around that dependency rather than assuming two advertised functions provide redundancy. Remote support is also conditional: Siemens' Impulse page specifies connectivity and service-contract prerequisites. It is not a substitute for an on-site restoration route. Choose the complete package whose useful capability, support and scheduled availability fit the hospital. Retain an accepted older room when a targeted remedy makes that the stronger economic choice."
+      "List tube/generator, detector or image intensifier, table mechanisms, controls, workstation and software in the service schedule. Ask whether a shared component failure would stop both radiography and fluoroscopy. Build the continuity plan around that dependency rather than assuming two advertised functions provide redundancy. Siemens conditions Remote Assist on the relevant service contract and SRS connection. Confirm those prerequisites with hospital IT, then separately establish who can attend when a tube, detector or table mechanism needs work. Remote advice and on-site restoration are different costs. Retain an accepted older room when the remaining components are supportable and a targeted remedy meets both workloads; replace when the complete new scope earns the expense."
     ]
   ],
   "minutes": 3,
-  "searchTerms": "radiography fluoroscopy room buying two in one R F configuration dynamic detector and wall stand shared room capacity LUMINOS Impulse with required radiography options Luminos Fusion, exact installed version Retain room with targeted repair or eligible DR retrofit",
+  "searchTerms": "Buying an R/F room: what does the two-in-one package leave out? radiography fluoroscopy room buying two in one R F configuration dynamic detector and wall stand shared room capacity LUMINOS Impulse with required radiography options Luminos Fusion, exact installed version Retain room with targeted repair or eligible DR retrofit",
   "librarySection": "equipment",
   "image": "guides/radiography-fluoroscopy-room",
   "photo": {

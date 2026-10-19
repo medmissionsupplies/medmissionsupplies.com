@@ -3,7 +3,7 @@ export default {
   "key": "ct-mri",
   "kind": "research-guide",
   "equipmentId": "ct-mri",
-  "title": "Buying CT or MRI? Budget for the studies you can finish",
+  "title": "CT or MRI purchase: the scanner price is only the opening bill",
   "summary": "Compare scanner capability with the room, people, software and repair capacity needed to keep the service running.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
@@ -31,7 +31,7 @@ export default {
     ],
     [
       "Read beyond the CT slice badge",
-      "GE Revolution Advance and Siemens SOMATOM go.Now provide concrete routine-CT examples. GE's cited brochure distinguishes a 16-slice platform from optional 32-slice post-reconstruction. Siemens lists 32 slices alongside 16 × 0.7 mm z-coverage. A reconstructed slice number is not acquired detector coverage. Have radiologists assess the exact protocol and reconstruction package. Include table capacity, patient access and the actual installation plan. Generator ratings such as the cited 42 kW and 32 kW do not describe building energy consumption. Use site requirements to price electrical supply and environmental control; a compact scanner footprint does not describe the entire department."
+      "GE Revolution Advance and Siemens SOMATOM go.Now provide concrete routine-CT examples. GE's cited brochure distinguishes a 16-slice platform from optional 32-slice post-reconstruction. Siemens lists 32 slices alongside 16 × 0.7 mm z-coverage. A reconstructed slice number is not acquired detector coverage. The go.Now table lists a 160 kg table load with a 227 kg option. If the approved patient range needs that option, compare it as required equipment rather than a future upgrade. Have radiologists assess the examination and reconstruction package, then use the site plan to cost electrical and environmental work. The cited generator ratings of 42 kW and 32 kW are not building electricity-consumption estimates."
     ],
     [
       "Compare MRI capability and siting together",
@@ -47,29 +47,31 @@ export default {
     ],
     [
       "Fund the normal year and the interruption",
-      "Compare all offers over the same planning period, including staff, software, energy, maintenance and major-component exposure. For CT, make tube condition and replacement terms explicit. For MRI, identify coils and the exact maintenance, replacement and upgrade obligations in the service agreement. Philips' cited annual-package language is tied to contract terms, not free lifetime upkeep. Run a separate early-repair scenario without inventing failure probabilities. Identify funds, travel and interim service. Keep an accepted scanner when it remains supportable and useful; replace it when the new package solves a material limitation at a sustainable total cost. Public brochures identify candidates, not an installed-price winner."
+      "Compare all offers over the same planning period, including staff, software, energy, maintenance and major-component exposure. For CT, make tube condition and replacement terms explicit. For MRI, identify coils and the exact maintenance, replacement and upgrade obligations in the service agreement. Philips' cited annual-package language is tied to contract terms, not free lifetime upkeep. Run a separate early-major-repair scenario without assigning an invented failure probability. For a CT, put the quoted tube remedy, engineer travel and temporary referral into that scenario; for MRI, use the actual coil or subsystem exposure in the contract. This reveals whether a cheaper acquisition leaves a fundable recovery route. Keep an accepted scanner when that route remains credible; replace it when the new installation resolves a material clinical or support limitation."
     ]
   ],
   "related": [
     "ct-mri"
   ],
-  "socialTitle": "Buying CT or MRI? Budget for the studies you can finish",
+  "socialTitle": "CT or MRI purchase: the scanner price is only the opening bill",
   "socialDescription": "Compare scanner capability with the room, people, software and repair capacity needed to keep the service running.",
-  "socialHeadline": "Buying CT or MRI? Budget for the studies you can finish",
+  "socialHeadline": "CT or MRI purchase: the scanner price is only the opening bill",
   "socialStrapline": "A low equipment price is only useful inside a funded service.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "ct-mri",
-    "title": "Buying CT or MRI? Budget for the studies you can finish",
-    "summary": "A first scanner is a new service: fund accepted examinations, staffing, installation and continuing repairs together before committing to the machine.",
-    "firstChoice": "Define accepted examinations and a funded operating service, then compare clinically suitable routine-CT or MRI configurations with keep/repair, donation and referral alternatives.",
-    "upgradeWhen": "Pay for additional protocols, coils or capacity when radiologists accept the results and the complete examination workflow demonstrates a useful gain. A larger slice number alone cannot settle the CT choice.",
-    "budgetWatch": "A donated scanner still needs relocation, room work, installation, software rights and service. CT reconstructed slice counts differ from acquired coverage; low-helium MRI still has substantial operating obligations.",
-    "supportCheck": "Name the organization that will repair the exact relocated system. Price major-component exposure and service continuity before treating a low equipment price as a saving.",
+    "title": "CT or MRI purchase: the scanner price is only the opening bill",
+    "summary": "Compare scanner capability with the room, people, software and repair capacity needed to keep the service running.",
+    "firstChoice": "Have the radiology team define the examinations and acceptance criteria, then obtain a site-specific installed comparison for the matching platforms. Include service and expected completed-study volume from the start.",
+    "upgradeWhen": "Pay for the higher-capability platform when required protocols, coils or demonstrated throughput justify it. Choose a 1.5T MRI because the clinical service needs its offered capabilities, not because field strength alone appears better.",
+    "budgetWatch": "Cost per completed, accepted study = (acquisition or donation relocation + construction/site systems + coils or tube provision + installation/acceptance + staffing/training + software + service + energy/cooling + downtime/referrals) / accepted studies completed over the funded period.",
+    "supportCheck": "Decline a donated or used scanner whose relocation, software rights, missing coils, installation or serial-specific repair cover remain unresolved. A zero equipment price cannot fund those obligations.",
     "askSupplier": [
-      "Which protocols and coils are included in acceptance?",
-      "What is the complete installed price and annual fixed cost?",
-      "Who covers the tube or magnet and recovery after power interruption?"
+      "Which exact examinations and protocols must be accepted before purchase?",
+      "What is the installed price and annual fixed cost at the actual site?",
+      "Is each quoted slice number acquired coverage or post-reconstruction?",
+      "Which coils, software options and tube/magnet coverage are included?",
+      "Who can restore this serial-numbered system locally, including after a power event?"
     ],
     "sourceIds": [
       "c-advance",
@@ -81,7 +83,7 @@ export default {
   },
   "research": {
     "id": "ct-mri",
-    "title": "Buying CT or MRI? Budget for the studies you can finish",
+    "title": "CT or MRI purchase: the scanner price is only the opening bill",
     "dek": "Compare scanner capability with the room, people, software and repair capacity needed to keep the service running.",
     "verdict": "For routine CT, compare Revolution Advance and SOMATOM go.Now against the required examinations before paying for a higher slice badge. For MRI, Free.Star’s 0.55T low-helium design deserves evaluation where siting and helium logistics constrain the service; MR 5300 offers a 1.5T alternative. A donation earns its place only after relocation, installation, software, major components and service are priced alongside those options. No installed-cost winner is established here.",
     "coverage": [
@@ -155,7 +157,7 @@ export default {
         "heading": "Read beyond the CT slice badge",
         "paragraphs": [
           "GE Revolution Advance and Siemens SOMATOM go.Now provide concrete routine-CT examples. GE's cited brochure distinguishes a 16-slice platform from optional 32-slice post-reconstruction. Siemens lists 32 slices alongside 16 × 0.7 mm z-coverage. A reconstructed slice number is not acquired detector coverage.",
-          "Have radiologists assess the exact protocol and reconstruction package. Include table capacity, patient access and the actual installation plan. Generator ratings such as the cited 42 kW and 32 kW do not describe building energy consumption. Use site requirements to price electrical supply and environmental control; a compact scanner footprint does not describe the entire department."
+          "The go.Now table lists a 160 kg table load with a 227 kg option. If the approved patient range needs that option, compare it as required equipment rather than a future upgrade. Have radiologists assess the examination and reconstruction package, then use the site plan to cost electrical and environmental work. The cited generator ratings of 42 kW and 32 kW are not building electricity-consumption estimates."
         ],
         "sourceIds": [
           "c-advance",
@@ -195,7 +197,7 @@ export default {
         "heading": "Fund the normal year and the interruption",
         "paragraphs": [
           "Compare all offers over the same planning period, including staff, software, energy, maintenance and major-component exposure. For CT, make tube condition and replacement terms explicit. For MRI, identify coils and the exact maintenance, replacement and upgrade obligations in the service agreement. Philips' cited annual-package language is tied to contract terms, not free lifetime upkeep.",
-          "Run a separate early-repair scenario without inventing failure probabilities. Identify funds, travel and interim service. Keep an accepted scanner when it remains supportable and useful; replace it when the new package solves a material limitation at a sustainable total cost. Public brochures identify candidates, not an installed-price winner."
+          "Run a separate early-major-repair scenario without assigning an invented failure probability. For a CT, put the quoted tube remedy, engineer travel and temporary referral into that scenario; for MRI, use the actual coil or subsystem exposure in the contract. This reveals whether a cheaper acquisition leaves a fundable recovery route. Keep an accepted scanner when that route remains credible; replace it when the new installation resolves a material clinical or support limitation."
         ],
         "sourceIds": [
           "c-mr5300"
@@ -241,7 +243,7 @@ export default {
         "publisher": "Siemens Healthineers",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "US technical table rechecked: 32 slices versus 16 × 0.7 mm z-coverage, 32 kW, 70 cm bore and separately identified table option. No advertised dose or reliability advantage adopted."
+        "evidence": "Primary US technical table read 18 October 2026: 32 slices, 16 x 0.7 mm coverage, 32 kW, 70 cm bore and 160 kg table with 227 kg option. Generator output not treated as facility consumption."
       },
       {
         "id": "c-freestar",
@@ -304,12 +306,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Buying CT or MRI? Budget for the studies you can finish",
+      "title": "CT or MRI purchase: the scanner price is only the opening bill",
       "description": "Compare scanner capability with the room, people, software and repair capacity needed to keep the service running.",
       "hook": "A low equipment price is only useful inside a funded service."
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Routine CT Low-helium 0.55T MRI Low-helium 1.5T MRI Refurbished/donated scanner comparison Installation, utilization and cost per completed study GE Revolution Advance Siemens SOMATOM go.Now Siemens MAGNETOM Free.Star Philips MR 5300",
+  "searchTerms": "CT or MRI purchase: the scanner price is only the opening bill Routine CT Low-helium 0.55T MRI Low-helium 1.5T MRI Refurbished/donated scanner comparison Installation, utilization and cost per completed study GE Revolution Advance Siemens SOMATOM go.Now Siemens MAGNETOM Free.Star Philips MR 5300",
   "librarySection": "equipment"
 };

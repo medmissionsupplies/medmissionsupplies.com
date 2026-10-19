@@ -11,7 +11,7 @@ export default {
   "sheet": {
     "title": "Buying fetal monitors: make every channel in the quote usable",
     "summary": "Compare the required fetal and maternal functions, then complete the transducers, mobility and recording package. The family name does not tell you what the offered monitor can do.",
-    "firstChoice": "Specify the clinically required fetal channels, maternal parameters, recording route and mobility before comparing exact configured packages.",
+    "firstChoice": "Define the required fetal/maternal channels, then count stations with enough working transducers to use those channels simultaneously.",
     "upgradeWhen": "Required functions, usable mobility or support continuity justify the full accessory and recurring-supply cost.",
     "supportCheck": "An essential channel cannot be demonstrated, compatible accessories are missing, or applicable correction status is unresolved.",
     "askSupplier": [
@@ -143,7 +143,8 @@ export default {
         "heading": "Count the accessories that make simultaneous monitoring possible",
         "paragraphs": [
           "Build the delivered list around the intended use: compatible ultrasound and uterine-activity transducers, belts, maternal cuffs and sensors where required, cables, paper and the correct mounting arrangement. A console may support multiple channels while the offered kit contains only enough working transducers for one. That difference belongs in the price comparison.",
-          "Document the replacement route and turnaround for the transducers most likely to stop the planned service when unavailable. A spare can protect capacity, but it is not evidence that a brand fails less often. Inspect actual cable, connector and housing condition through the qualified acceptance process; a freshly printed trace is only one part of that process."
+          "Document the replacement route and turnaround for the transducers most likely to stop the planned service when unavailable. A spare can protect capacity, but it is not evidence that a brand fails less often. Inspect actual cable, connector and housing condition through the qualified acceptance process; a freshly printed trace is only one part of that process.",
+          "Before replacing consoles, split unavailable stations into three groups: missing or failed transducers, missing enabled functions, and failed monitors. These lead to different purchases. Two complete twin-monitoring stations may serve the plan better than three consoles sharing too few transducers. Ask for a per-station accessory schedule and a separate spare-transducer price so the decision is visible instead of buried in a bundle."
         ],
         "sourceIds": []
       },
@@ -216,7 +217,7 @@ export default {
     ],
     [
       "Count the accessories that make simultaneous monitoring possible",
-      "Build the delivered list around the intended use: compatible ultrasound and uterine-activity transducers, belts, maternal cuffs and sensors where required, cables, paper and the correct mounting arrangement. A console may support multiple channels while the offered kit contains only enough working transducers for one. That difference belongs in the price comparison. Document the replacement route and turnaround for the transducers most likely to stop the planned service when unavailable. A spare can protect capacity, but it is not evidence that a brand fails less often. Inspect actual cable, connector and housing condition through the qualified acceptance process; a freshly printed trace is only one part of that process."
+      "Build the delivered list around the intended use: compatible ultrasound and uterine-activity transducers, belts, maternal cuffs and sensors where required, cables, paper and the correct mounting arrangement. A console may support multiple channels while the offered kit contains only enough working transducers for one. That difference belongs in the price comparison. Document the replacement route and turnaround for the transducers most likely to stop the planned service when unavailable. A spare can protect capacity, but it is not evidence that a brand fails less often. Inspect actual cable, connector and housing condition through the qualified acceptance process; a freshly printed trace is only one part of that process. Before replacing consoles, split unavailable stations into three groups: missing or failed transducers, missing enabled functions, and failed monitors. These lead to different purchases. Two complete twin-monitoring stations may serve the plan better than three consoles sharing too few transducers. Ask for a per-station accessory schedule and a separate spare-transducer price so the decision is visible instead of buried in a bundle."
     ],
     [
       "Mobility adds a second equipment and supply decision",

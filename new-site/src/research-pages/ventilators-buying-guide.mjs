@@ -36,11 +36,11 @@ export default {
     ],
     [
       "Compare the same usable station",
-      "Price the patient-group licenses, enabled modes, gas connection, trolley or mount, humidifier arrangement, sensors, expiratory valves, circuits, filters and batteries together. An adult configuration with a small starter box is not comparable to a neonatal-ready station with the required sensors and supplies. Check the replenishment route as carefully as the initial contents. For pNeuton Model A, pneumatic operation shifts the continuity problem toward compressed-gas logistics. Include the specified regulator, gas provision, compatible circuit and monitoring. For all candidates, obtain qualified acceptance results for the actual delivered setup, including its approved battery and alarm checks. Record battery condition, test conditions and recharge requirements so an attractive runtime is tied to evidence."
+      "Price the patient-group licenses, enabled modes, gas connection, trolley or mount, humidifier arrangement, sensors, expiratory valves, circuits, filters and batteries together. An adult configuration with a small starter box is not comparable to a neonatal-ready station with the required sensors and supplies. Check the replenishment route as carefully as the initial contents. For pNeuton Model A, pneumatic operation shifts the continuity problem toward compressed-gas logistics. Include the specified regulator, gas provision, compatible circuit and monitoring. For all candidates, obtain qualified acceptance results for the actual delivered setup, including its approved battery and alarm checks. Record battery condition, test conditions and recharge requirements so an attractive runtime is tied to evidence. For a fleet proposal, price the required bedside stations, transport-ready stations and complete reserve separately. A shared transport unit can be economical only if it is available when the route needs it; giving every bed transport hardware can waste capital when only a few journeys overlap. Use the actual movement schedule and accepted backup plan to choose the mix, then retain enough compatible circuits and sensors for the reserve to be usable."
     ],
     [
       "Price legacy equipment over its remaining supportable period",
-      "Vyaire’s September 2024 letter ended AVEA, ReVel, SiPAP and VELA capital equipment, technical training, field service and factory orders, with remaining parts and consumables subject to availability. An established hospital may manage a staged transition of known AVEA units. Starting a new fleet around a low acquisition price creates a different maintenance exposure. LTV has a current ZOLL technical-support route to investigate, but that does not guarantee acceptance of every LTV 1000 or 1200. Confirm the exact serial, parts and remaining service horizon. AHP300 support and ambiguous Esprit designations remain unresolved. Keep an older unit only for a documented supportable role, with a funded replacement and continuity plan."
+      "Vyaire’s September 2024 letter withdrew new capital equipment, technical training, field-service and factory-order purchasing for AVEA, ReVel, SiPAP and VELA, with remaining parts and consumables subject to availability. It separately says existing service contracts would be canceled or updated according to their terms. An established hospital may manage a staged transition of known AVEA units; a new fleet built around a low acquisition price creates a different maintenance exposure. LTV has a current ZOLL technical-support route to investigate, but that does not guarantee acceptance of every LTV 1000 or 1200. Confirm the exact serial, parts and remaining service horizon. AHP300 support and ambiguous Esprit designations remain unresolved. Keep an older unit only for a documented supportable role, with a funded replacement and continuity plan."
     ],
     [
       "Check the consumable and the console separately",
@@ -174,7 +174,8 @@ export default {
         "heading": "Compare the same usable station",
         "paragraphs": [
           "Price the patient-group licenses, enabled modes, gas connection, trolley or mount, humidifier arrangement, sensors, expiratory valves, circuits, filters and batteries together. An adult configuration with a small starter box is not comparable to a neonatal-ready station with the required sensors and supplies. Check the replenishment route as carefully as the initial contents.",
-          "For pNeuton Model A, pneumatic operation shifts the continuity problem toward compressed-gas logistics. Include the specified regulator, gas provision, compatible circuit and monitoring. For all candidates, obtain qualified acceptance results for the actual delivered setup, including its approved battery and alarm checks. Record battery condition, test conditions and recharge requirements so an attractive runtime is tied to evidence."
+          "For pNeuton Model A, pneumatic operation shifts the continuity problem toward compressed-gas logistics. Include the specified regulator, gas provision, compatible circuit and monitoring. For all candidates, obtain qualified acceptance results for the actual delivered setup, including its approved battery and alarm checks. Record battery condition, test conditions and recharge requirements so an attractive runtime is tied to evidence.",
+          "For a fleet proposal, price the required bedside stations, transport-ready stations and complete reserve separately. A shared transport unit can be economical only if it is available when the route needs it; giving every bed transport hardware can waste capital when only a few journeys overlap. Use the actual movement schedule and accepted backup plan to choose the mix, then retain enough compatible circuits and sensors for the reserve to be usable."
         ],
         "sourceIds": [
           "v-c1",
@@ -187,7 +188,7 @@ export default {
       {
         "heading": "Price legacy equipment over its remaining supportable period",
         "paragraphs": [
-          "Vyaire’s September 2024 letter ended AVEA, ReVel, SiPAP and VELA capital equipment, technical training, field service and factory orders, with remaining parts and consumables subject to availability. An established hospital may manage a staged transition of known AVEA units. Starting a new fleet around a low acquisition price creates a different maintenance exposure.",
+          "Vyaire’s September 2024 letter withdrew new capital equipment, technical training, field-service and factory-order purchasing for AVEA, ReVel, SiPAP and VELA, with remaining parts and consumables subject to availability. It separately says existing service contracts would be canceled or updated according to their terms. An established hospital may manage a staged transition of known AVEA units; a new fleet built around a low acquisition price creates a different maintenance exposure.",
           "LTV has a current ZOLL technical-support route to investigate, but that does not guarantee acceptance of every LTV 1000 or 1200. Confirm the exact serial, parts and remaining service horizon. AHP300 support and ambiguous Esprit designations remain unresolved. Keep an older unit only for a documented supportable role, with a funded replacement and continuity plan."
         ],
         "sourceIds": [
@@ -281,10 +282,10 @@ export default {
         "id": "v-vyaire",
         "title": "Vyaire ventilation product update, September 23, 2024",
         "url": "https://www.medline.com/media/assets/pdf/vendor-list/Vyaire_Ventilation_Product_Update_USCustomers_vfinal.pdf",
-        "publisher": "Vyaire, manufacturer letter hosted by Medline",
+        "publisher": "Vyaire",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
-        "evidence": "AVEA, ReVel, SiPAP and VELA capital equipment, technical training, field service and factory orders ended; limited parts/consumables subject to availability."
+        "accessed": "2026-10-18",
+        "evidence": "September 23, 2024 OEM letter: legacy product purchasing withdrawal, remaining stock while supplies last, and existing contracts canceled/updated according to their terms. It does not establish the status of an individual contract today."
       },
       {
         "id": "v-zoll",
@@ -368,6 +369,6 @@ export default {
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying a ventilator: fund the whole bed, not just the console Adult and pediatric bedside invasive ventilation Neonatal configuration limits Transport ventilation Legacy Esprit, AVEA, AHP300 and LTV Gas, power, circuits, service and recalls HAMILTON-C1, quoted with required patient-group and therapy options Dräger Savina 300 Classic HAMILTON-T1, with required transport and neonatal options Airon pNeuton Model A",
+  "searchTerms": "Buying a ventilator: fund the whole bed, not just the console Adult and pediatric bedside invasive ventilation Neonatal configuration limits Transport ventilation Legacy Esprit, AVEA, AHP300 and LTV Gas, power, circuits, service and recalls",
   "librarySection": "equipment"
 };

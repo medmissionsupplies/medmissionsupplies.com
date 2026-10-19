@@ -23,13 +23,13 @@ export default {
     ],
     [
       "Count supply interruptions as lost capacity",
-      "Build the budget around complete available systems and the expected garment demand over one stated period. Include controller acquisition or rental, hoses, garments, cleaning permitted by the instructions, maintenance and replacement cover. Separate stock held for immediate use from deliveries that depend on an uncertain lead time. A rental can bridge a defined shortage, but specify who supplies the correct garments and replacement tubing, what condition testing accompanies each pump and how quickly a failed unit is exchanged. An exchange promise is not useful if the replacement arrives without a required accessory. Buy the package whose clinical fit, continuing supplies and support can be sustained. Reject comparisons based on controller count alone, unsupported claims of near-zero failure or a universal hours-per-day rule. Those statements do not answer the purchasing question."
+      "Build the budget around complete available systems and the expected garment demand over one stated period. Include controller acquisition or rental, hoses, garments, cleaning permitted by the instructions, maintenance and replacement cover. Separate stock held for immediate use from deliveries that depend on an uncertain lead time. A small garment difference can outweigh a pump discount. In a hypothetical three-year comparison, 800 patient garment sets each year at an additional US$4 per equivalent approved set add US$9,600. That exceeds a US$6,000 controller saving by US$3,600 before hoses, service and waste. Use patient sets only after confirming how many individual garments the quoted pack actually supplies. Keep the sizing mix and permitted use equivalent on both sides. A rental can bridge a defined shortage, but specify who supplies the correct garments and replacement tubing, what condition testing accompanies each pump and how quickly a failed unit is exchanged. An exchange promise is not useful if the replacement arrives without a required accessory. Buy the package whose clinical fit, continuing supplies and support can be sustained. Reject comparisons based on controller count alone, unsupported claims of near-zero failure or a universal hours-per-day rule. Those statements do not answer the purchasing question."
     ]
   ],
   "related": [],
-  "socialTitle": "The compression pump is only the start of the bill",
-  "socialDescription": "Compare Kendall SCD packages by approved garments, sizes, tubing, replenishment and meaningful controller features—not a bare pump price.",
-  "socialHeadline": "The compression pump is only the start of the bill",
+  "socialTitle": "Compression devices: price the sleeves before buying the pumps",
+  "socialDescription": "A low pump price can hide a continuing garment bill or an unusable size mix. Compare the approved controller, tubing and patient garments as one service.",
+  "socialHeadline": "Compression devices: price the sleeves before buying the pumps",
   "socialStrapline": "A working pump without the right sleeve is unavailable capacity.",
   "reviewedAt": "2026-10-18",
   "sheet": {
@@ -71,8 +71,8 @@ export default {
         "bestFor": "A service whose clinical requirement is already met.",
         "why": "Targets missing garments, repair and reserve capacity before replacing all pumps.",
         "tradeoff": "Current exact compatibility and support must be established.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Cost repairs, replacement hoses, a usable reserve and the annual garment basket for the existing accepted fleet.",
+        "support": "Confirm which provider accepts the actual controller generation and supplies approved hoses and garments.",
         "sourceIds": []
       },
       {
@@ -81,8 +81,8 @@ export default {
         "bestFor": "A ward where the evaluated sensing/alert workflow resolves a defined problem.",
         "why": "Manufacturer describes a specific patient-sensing function to assess.",
         "tradeoff": "Do not infer better clinical outcomes or assume old stock transfers.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Compare controller conversion plus the same three-year patient-set volume; include sizes, training and stock written off during conversion.",
+        "support": "Demonstrate the offered alert workflow and document the approved controller/garment/tubing combinations.",
         "sourceIds": [
           "scd-launch",
           "scd-fda"
@@ -94,8 +94,8 @@ export default {
         "bestFor": "A temporary shortage with a clear expected end.",
         "why": "Can supply capacity without an immediate full fleet purchase.",
         "tradeoff": "Include garments, hoses, condition checks and complete replacement cover.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Request the daily or monthly system charge, minimum term, garment price and collection/exchange charges separately.",
+        "support": "State the replacement response time and require a complete usable system, including compatible hoses.",
         "sourceIds": []
       }
     ],
@@ -137,6 +137,7 @@ export default {
         "heading": "Count supply interruptions as lost capacity",
         "paragraphs": [
           "Build the budget around complete available systems and the expected garment demand over one stated period. Include controller acquisition or rental, hoses, garments, cleaning permitted by the instructions, maintenance and replacement cover. Separate stock held for immediate use from deliveries that depend on an uncertain lead time.",
+          "A small garment difference can outweigh a pump discount. In a hypothetical three-year comparison, 800 patient garment sets each year at an additional US$4 per equivalent approved set add US$9,600. That exceeds a US$6,000 controller saving by US$3,600 before hoses, service and waste. Use patient sets only after confirming how many individual garments the quoted pack actually supplies. Keep the sizing mix and permitted use equivalent on both sides.",
           "A rental can bridge a defined shortage, but specify who supplies the correct garments and replacement tubing, what condition testing accompanies each pump and how quickly a failed unit is exchanged. An exchange promise is not useful if the replacement arrives without a required accessory.",
           "Buy the package whose clinical fit, continuing supplies and support can be sustained. Reject comparisons based on controller count alone, unsupported claims of near-zero failure or a universal hours-per-day rule. Those statements do not answer the purchasing question."
         ],
@@ -223,12 +224,12 @@ export default {
       }
     ],
     "social": {
-      "title": "The compression pump is only the start of the bill",
-      "description": "Compare Kendall SCD packages by approved garments, sizes, tubing, replenishment and meaningful controller features—not a bare pump price.",
+      "title": "Compression devices: price the sleeves before buying the pumps",
+      "description": "A low pump price can hide a continuing garment bill or an unusable size mix. Compare the approved controller, tubing and patient garments as one service.",
       "hook": "A working pump without the right sleeve is unavailable capacity."
     }
   },
-  "searchTerms": "Compression devices: price the sleeves before buying the pumps Approved controller/garment chain Size mix and pack quantities Single-patient use Feature versus fleet conversion Purchase versus defined-gap rental Maintain the accepted SCD 700 or Express fleet SmartFlow with an approved garment package Short-term rental of complete usable systems",
+  "searchTerms": "Compression devices: price the sleeves before buying the pumps Approved controller/garment chain Size mix and pack quantities Single-patient use Feature versus fleet conversion Purchase versus defined-gap rental",
   "librarySection": "equipment",
   "image": "guides/us-compression-system",
   "photo": {

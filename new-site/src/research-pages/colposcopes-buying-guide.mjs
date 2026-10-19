@@ -3,7 +3,7 @@ export default {
   "key": "colposcopes",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Colposcopes: pay for the view you need—and the images you must keep",
+  "title": "Colposcopes: choose the optics, then price the image record",
   "summary": "Optical examination, image capture and connected reporting are different purchases. Compare magnification, clinician fit and the complete documentation package before upgrading.",
   "categoryId": "surgical",
   "category": "Surgery & anesthesia",
@@ -19,7 +19,7 @@ export default {
     ],
     [
       "Price the route from image to patient record",
-      "For documentation, list the camera, compatible adapters, capture hardware, software, workstation and required connections. A photo/video-capable head does not establish that these are included. Demonstrate capture, correct patient identification, retrieval and the required export using the offered combination before accepting a complete recording package. Leisegang’s MediaWorkStation page separates recording and file/report functions from optional DICOM Push and Worklist capabilities. Do not assume a quoted software name includes those options, or that DICOM alone proves it will work with the receiving system. Have the local information team test the intended workflow and establish the relevant licences. Budget current supported operating systems, access controls, backups, recovery and continuing technical help. An older workstation that shows a live picture may still be a poor purchase if its software cannot be maintained or its records cannot be recovered. Keep those questions tied to the exact offered release, without assuming that a public product page guarantees current support."
+      "For documentation, list the camera, compatible adapters, capture hardware, software, workstation and required connections. A photo/video-capable head does not establish that these are included. Demonstrate capture, correct patient identification, retrieval and the required export using the offered combination before accepting a complete recording package. Leisegang’s MediaWorkStation separates Basic and Classic editions from optional DICOM interfaces. Basic includes file and HTML-report export; Classic adds functions including image comparison and user administration. DICOM Push and Worklist are separate options. Choose the least complex supported combination that meets the actual record requirement, then have the receiving system accept a sample examination before purchase. An optical-only quote, a capture bundle and a connected reporting station should therefore have different budgets. Itemize camera and adapter, PC, software edition, DICOM options, installation and annual support. Ask who owns the image database and how it moves to a replacement PC. A live picture on an old workstation is little comfort if the clinic cannot recover its earlier examinations."
     ],
     [
       "The stand and room can decide what is usable",
@@ -27,14 +27,14 @@ export default {
     ]
   ],
   "related": [],
-  "socialTitle": "Does your colposcope need better optics or better documentation?",
-  "socialDescription": "Compare Leisegang optical, photo/video and reporting configurations without assuming a camera, stand or DICOM option is included.",
-  "socialHeadline": "Does your colposcope need better optics or better documentation?",
+  "socialTitle": "Colposcopes: choose the optics, then price the image record",
+  "socialDescription": "Optical examination, image capture and connected reporting are different purchases. Compare magnification, clinician fit and the complete documentation package before upgrading.",
+  "socialHeadline": "Colposcopes: choose the optics, then price the image record",
   "socialStrapline": "The camera-ready head is not the complete recording system.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "colposcopes",
-    "title": "Colposcopes: pay for the view you need—and the images you must keep",
+    "title": "Colposcopes: choose the optics, then price the image record",
     "summary": "Optical examination, image capture and connected reporting are different purchases. Compare magnification, clinician fit and the complete documentation package before upgrading.",
     "firstChoice": "Define the required optical examination and image-recording workflow as separate purchasing decisions.",
     "upgradeWhen": "Required selectable optics or a supported documentation workflow supplies useful missing capability.",
@@ -55,7 +55,7 @@ export default {
   "research": {
     "id": "colposcopes",
     "kind": "feature",
-    "title": "Colposcopes: pay for the view you need—and the images you must keep",
+    "title": "Colposcopes: choose the optics, then price the image record",
     "dek": "Optical examination, image capture and connected reporting are different purchases. Compare magnification, clinician fit and the complete documentation package before upgrading.",
     "verdict": "Choose the optical configuration the clinician needs, then add image capture or connected reporting only when it serves the service’s documentation requirement. Keep a suitable optical instrument when imaging is unnecessary or an approved supported addition meets the need.",
     "coverage": [
@@ -72,8 +72,8 @@ export default {
         "bestFor": "A service whose documentation requirement does not need recorded images.",
         "why": "Separates fixed 15× from selectable 7.5×/15×/30× optics.",
         "tradeoff": "Clinician evaluation determines fit; confirm the complete stand package.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Price the head, appropriate stand or chair fittings, illumination and acceptance together; exclude recording costs when recording is unnecessary.",
+        "support": "Confirm optical alignment, illumination and mechanical repair access for this model and mounting arrangement.",
         "sourceIds": [
           "leisegang-standard",
           "leisegang-stands"
@@ -85,8 +85,8 @@ export default {
         "bestFor": "A service requiring supported retained images.",
         "why": "Manufacturer identifies an external-camera configuration.",
         "tradeoff": "Camera, adapters and recording components must be explicitly included.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Add camera, optical adapter, capture interface, PC and required software to the head/stand price.",
+        "support": "Specify who supports the complete camera-to-computer combination and restores it after a PC replacement.",
         "sourceIds": [
           "leisegang-video"
         ]
@@ -97,8 +97,8 @@ export default {
         "bestFor": "A service with a defined patient-record integration requirement.",
         "why": "Separates capture from optional DICOM functions and the full records workflow.",
         "tradeoff": "Current software support, licences and receiving-system acceptance remain essential.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Separate software edition, optional interfaces, integration work and recurring support; no matched current offer established.",
+        "support": "Confirm supported operating system, database backup/recovery, licence transfer and receiving-system acceptance.",
         "sourceIds": [
           "leisegang-mws"
         ]
@@ -132,8 +132,8 @@ export default {
         "heading": "Price the route from image to patient record",
         "paragraphs": [
           "For documentation, list the camera, compatible adapters, capture hardware, software, workstation and required connections. A photo/video-capable head does not establish that these are included. Demonstrate capture, correct patient identification, retrieval and the required export using the offered combination before accepting a complete recording package.",
-          "Leisegang’s MediaWorkStation page separates recording and file/report functions from optional DICOM Push and Worklist capabilities. Do not assume a quoted software name includes those options, or that DICOM alone proves it will work with the receiving system. Have the local information team test the intended workflow and establish the relevant licences.",
-          "Budget current supported operating systems, access controls, backups, recovery and continuing technical help. An older workstation that shows a live picture may still be a poor purchase if its software cannot be maintained or its records cannot be recovered. Keep those questions tied to the exact offered release, without assuming that a public product page guarantees current support."
+          "Leisegang’s MediaWorkStation separates Basic and Classic editions from optional DICOM interfaces. Basic includes file and HTML-report export; Classic adds functions including image comparison and user administration. DICOM Push and Worklist are separate options. Choose the least complex supported combination that meets the actual record requirement, then have the receiving system accept a sample examination before purchase.",
+          "An optical-only quote, a capture bundle and a connected reporting station should therefore have different budgets. Itemize camera and adapter, PC, software edition, DICOM options, installation and annual support. Ask who owns the image database and how it moves to a replacement PC. A live picture on an old workstation is little comfort if the clinic cannot recover its earlier examinations."
         ],
         "sourceIds": [
           "leisegang-video",
@@ -237,12 +237,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Does your colposcope need better optics or better documentation?",
-      "description": "Compare Leisegang optical, photo/video and reporting configurations without assuming a camera, stand or DICOM option is included.",
+      "title": "Colposcopes: choose the optics, then price the image record",
+      "description": "Optical examination, image capture and connected reporting are different purchases. Compare magnification, clinician fit and the complete documentation package before upgrading.",
       "hook": "The camera-ready head is not the complete recording system."
     }
   },
-  "searchTerms": "Colposcopes: pay for the view you need—and the images you must keep Fixed versus selectable magnification Angled ocular/filter tradeoff Camera-ready versus complete capture Optional reporting integration Stand and installed-room fit Optical-only 1E LED or 1D LED configuration 3ML LED with a complete capture package Connected capture/reporting package with required MWS options",
+  "searchTerms": "Colposcopes: choose the optics, then price the image record Fixed versus selectable magnification Angled ocular/filter tradeoff Camera-ready versus complete capture Optional reporting integration Stand and installed-room fit",
   "librarySection": "equipment",
   "image": "guides/colposcopes",
   "photo": {

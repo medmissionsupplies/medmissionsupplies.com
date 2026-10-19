@@ -20,7 +20,7 @@ export default {
       "What exact current instructions and installed options establish each proposed route?",
       "Which one-time and recurring costs are included, and what capacity remains during cutover?"
     ],
-    "budgetWatch": "Compare the full usable configuration and recurring supplies over one common period.",
+    "budgetWatch": "Include any old platform or external processing route that must remain after conversion, as well as qualification and recurring released-load cost.",
     "sourceIds": [
       "asp",
       "fda-reprocessing",
@@ -140,7 +140,8 @@ export default {
         "heading": "Price the changeover as well as the recurring load",
         "paragraphs": [
           "Separate one-time work from continuing expense. One-time costs can include site changes, racks and accessories, qualification, staff training, tracking-system changes, initial stock and overlap with the old service. Recurring costs include the exact sterilant, indicators, packaging, maintenance, utilities and rework. The two systems have their own consumable and record-management arrangements; do not assume existing stock transfers.",
-          "Use the same period and accepted workload for both proposals. For illustration, an extra $30,000 of changeover cost cannot be repaid within three years by a $5 saving on 1,500 released loads annually: the saving totals $22,500. That does not prove the change is poor value if it adds a required capability. It does show that a consumables-saving argument alone has not covered the premium."
+          "Use the same period and accepted workload for both proposals. For illustration, an extra $30,000 of changeover cost cannot be repaid within three years by a $5 saving on 1,500 released loads annually: the saving totals $22,500. That does not prove the change is poor value if it adds a required capability. It does show that a consumables-saving argument alone has not covered the premium.",
+          "Identify the instruments that would still need the old platform or an external processor after the purchase. If even one essential device lacks an accepted route on the replacement, the hospital may have to retain two service contracts and two consumable stocks. Put that residual cost into the proposal. Conversely, a new system that genuinely lets the hospital retire a separate route may justify a premium even when its individual cycles cost more."
         ],
         "sourceIds": [
           "vpro",
@@ -198,7 +199,7 @@ export default {
     ],
     [
       "Price the changeover as well as the recurring load",
-      "Separate one-time work from continuing expense. One-time costs can include site changes, racks and accessories, qualification, staff training, tracking-system changes, initial stock and overlap with the old service. Recurring costs include the exact sterilant, indicators, packaging, maintenance, utilities and rework. The two systems have their own consumable and record-management arrangements; do not assume existing stock transfers. Use the same period and accepted workload for both proposals. For illustration, an extra $30,000 of changeover cost cannot be repaid within three years by a $5 saving on 1,500 released loads annually: the saving totals $22,500. That does not prove the change is poor value if it adds a required capability. It does show that a consumables-saving argument alone has not covered the premium."
+      "Separate one-time work from continuing expense. One-time costs can include site changes, racks and accessories, qualification, staff training, tracking-system changes, initial stock and overlap with the old service. Recurring costs include the exact sterilant, indicators, packaging, maintenance, utilities and rework. The two systems have their own consumable and record-management arrangements; do not assume existing stock transfers. Use the same period and accepted workload for both proposals. For illustration, an extra $30,000 of changeover cost cannot be repaid within three years by a $5 saving on 1,500 released loads annually: the saving totals $22,500. That does not prove the change is poor value if it adds a required capability. It does show that a consumables-saving argument alone has not covered the premium. Identify the instruments that would still need the old platform or an external processor after the purchase. If even one essential device lacks an accepted route on the replacement, the hospital may have to retain two service contracts and two consumable stocks. Put that residual cost into the proposal. Conversely, a new system that genuinely lets the hospital retire a separate route may justify a premium even when its individual cycles cost more."
     ],
     [
       "Keep an accepted route until the new one is ready",

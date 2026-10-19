@@ -7,22 +7,21 @@ export default {
   "summary": "Choose image storage by what clinicians can retrieve, recover and move elsewhere—not by a successful send alone.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
-  "image": "guides/ultrasound",
+  "image": "guides/pacs-server",
   "photo": {
-    "id": "ultrasound",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:3rd_Medical_Battalion_Mass_Casualty_Training_(9634378).jpg",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/3rd_Medical_Battalion_Mass_Casualty_Training_%289634378%29.jpg",
-    "photographer": "U.S. Marine Corps photo by Cpl. Jonathan Rodriguez Pastrana",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "caption": "A SonoSite M-Turbo during medical training in Okinawa, Japan, April 2026. Equipment example.",
-    "captionContext": "Illustrative equipment photograph: A SonoSite M-Turbo during medical training in Okinawa, Japan, April 2026. Equipment example.",
-    "alt": "A SonoSite M-Turbo portable ultrasound with its screen and controls visible during a medical training exercise.",
-    "fit": "cover",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:PACS-Server_and_Archive.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/PACS-Server_and_Archive.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "photographer": "Hg6996",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "caption": "PACS server and archive hardware, photographed in 2010. Archive equipment example.",
+    "captionContext": "PACS server and archive hardware, photographed in 2010. Archive equipment example.",
+    "alt": "PACS server and archive hardware, photographed in 2010. Archive equipment example.",
+    "fit": "contain",
     "modelMatch": "category",
-    "verifiedAt": "2026-10-17",
-    "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
-    "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
+    "modelMatchNote": "Illustrative archive photograph; not evidence of MMS inventory, staff or a specific configuration offered for sale.",
+    "verifiedAt": "2026-10-18",
+    "changes": "Resized and converted to WebP; photographic content retained."
   },
   "minutes": 3,
   "sections": [
@@ -44,11 +43,11 @@ export default {
     ],
     [
       "Purchase retention, recovery and a way out",
-      "Have the hospital set retention requirements and locate complete studies, reports and associated objects. Record capacity limits, deletion behavior, backup ownership and restoration responsibilities. A capacity dashboard is not a restoration test. Select a study and verify that the agreed recovery process makes it usable again. Then test leaving. A screenshot is not a complete archive migration. Ask the receiving team to open an example export and verify identity, completeness and required objects. Specify routine referrals and future bulk export separately, including format, assistance, turnaround and charges. Subscription expiry should not leave the hospital discovering its exit requirements for the first time."
+      "Have the hospital set retention requirements and locate complete studies, reports and associated objects. Record capacity limits, deletion behavior, backup ownership and restoration responsibilities. A capacity dashboard is not a restoration test. Select a study and verify that the agreed recovery process makes it usable again. Test leaving before signing the full migration plan. Have the receiving team open an export containing the required images, reports and associated objects, then reconcile it against the source study. Price a routine referral export separately from bulk extraction of the entire archive. Request the charges for assistance, transfer, temporary overlap and access after contract expiry; an inexpensive subscription can become expensive to leave even when individual studies export successfully."
     ],
     [
       "Compare one workload over one period",
-      "Price local, hosted and hybrid proposals against the same activity and retention assumptions. Include interfaces, viewers, storage growth, connectivity, support, replacement infrastructure, recovery testing and migration. Separate fixed commitments from volume-dependent fees so a low starting subscription does not hide the later workload. The deciding question is which arrangement can deliver the tested study journey within the hospital's operating capacity. Extend a sound existing service when that resolves the gap. Buy a different platform when it demonstrably improves access, recovery or support enough to justify both transition and ongoing cost."
+      "Put local, hosted and hybrid offers into the same workload model: starting archive, annual additions, required retention and expected users. Add interfaces, viewer licences, connectivity, support, hardware replacement, restore testing and eventual migration. In a hosted quote, separate storage, retrieval, transfer and exit charges. In a local quote, include the next infrastructure replacement rather than comparing its first purchase with only one year of hosted fees. The deciding question is which arrangement can deliver the tested study journey within the hospital's operating capacity. Extend a sound existing service when that resolves the gap. Buy a different platform when it demonstrably improves access, recovery or support enough to justify both transition and ongoing cost."
     ]
   ],
   "related": [
@@ -61,15 +60,15 @@ export default {
   "reviewedAt": "2026-10-18",
   "sheet": {
     "title": "Buying PACS? Test the outage and the exit",
-    "summary": "A successful send does not establish a complete archive service. Compare the journey from registration to reading, retention, recovery and eventual export.",
-    "firstChoice": "Test the existing supported workflow first. Map each step to its responsible system, person and acceptance evidence before buying additional software or storage.",
-    "upgradeWhen": "A demonstrated access, capacity, integration or recovery gap requires a different local, hosted or hybrid arrangement that the team can maintain.",
-    "budgetWatch": "Include interfaces, viewers, storage growth, connectivity, support, backup verification, infrastructure replacement and a future bulk export. Compare identical workload assumptions.",
-    "supportCheck": "Match conformance statements to actual versions. Demonstrate current and prior study access during the agreed outage, then verify restoration and reconciliation.",
+    "summary": "Choose image storage by what clinicians can retrieve, recover and move elsewhere—not by a successful send alone.",
+    "firstChoice": "Map one representative study from patient registration to reading, long-term retrieval and external export.",
+    "upgradeWhen": "A tested local, hosted or hybrid arrangement resolves a material access or recovery requirement.",
+    "budgetWatch": "Comparable image-workflow cost = integration + viewing and archive services + storage growth + connectivity and recovery + support + eventual migration.",
+    "supportCheck": "The proposal leaves retention, restoration, compatibility or data-exit responsibilities unspecified.",
     "askSupplier": [
-      "Which exact versions and licensed services will you test together?",
-      "What remains accessible during an internet or local-network interruption?",
-      "How do we receive a complete usable export when the agreement ends?"
+      "Can both suppliers demonstrate the complete study journey using the offered versions?",
+      "What remains usable during each relevant outage?",
+      "What does a complete export cost, and who verifies it?"
     ],
     "sourceIds": [
       "dicom-conformance",
@@ -94,7 +93,7 @@ export default {
       "firstMove": "Map one representative study from patient registration to reading, long-term retrieval and external export.",
       "spendMoreWhen": "A tested local, hosted or hybrid arrangement resolves a material access or recovery requirement.",
       "keepExistingWhen": "The current workflow remains supported and passes retrieval, outage and export checks.",
-      "walkAwayWhen": "The proposal leaves retention, restoration, compatibility or data-exit responsibilities undefined."
+      "walkAwayWhen": "The proposal leaves retention, restoration, compatibility or data-exit responsibilities unspecified."
     },
     "social": {
       "title": "Buying PACS? Test the outage and the exit",
@@ -222,7 +221,7 @@ export default {
         "heading": "Purchase retention, recovery and a way out",
         "paragraphs": [
           "Have the hospital set retention requirements and locate complete studies, reports and associated objects. Record capacity limits, deletion behavior, backup ownership and restoration responsibilities. A capacity dashboard is not a restoration test. Select a study and verify that the agreed recovery process makes it usable again.",
-          "Then test leaving. A screenshot is not a complete archive migration. Ask the receiving team to open an example export and verify identity, completeness and required objects. Specify routine referrals and future bulk export separately, including format, assistance, turnaround and charges. Subscription expiry should not leave the hospital discovering its exit requirements for the first time."
+          "Test leaving before signing the full migration plan. Have the receiving team open an export containing the required images, reports and associated objects, then reconcile it against the source study. Price a routine referral export separately from bulk extraction of the entire archive. Request the charges for assistance, transfer, temporary overlap and access after contract expiry; an inexpensive subscription can become expensive to leave even when individual studies export successfully."
         ],
         "sourceIds": [
           "dicom-storage",
@@ -232,7 +231,7 @@ export default {
       {
         "heading": "Compare one workload over one period",
         "paragraphs": [
-          "Price local, hosted and hybrid proposals against the same activity and retention assumptions. Include interfaces, viewers, storage growth, connectivity, support, replacement infrastructure, recovery testing and migration. Separate fixed commitments from volume-dependent fees so a low starting subscription does not hide the later workload.",
+          "Put local, hosted and hybrid offers into the same workload model: starting archive, annual additions, required retention and expected users. Add interfaces, viewer licences, connectivity, support, hardware replacement, restore testing and eventual migration. In a hosted quote, separate storage, retrieval, transfer and exit charges. In a local quote, include the next infrastructure replacement rather than comparing its first purchase with only one year of hosted fees.",
           "The deciding question is which arrangement can deliver the tested study journey within the hospital's operating capacity. Extend a sound existing service when that resolves the gap. Buy a different platform when it demonstrably improves access, recovery or support enough to justify both transition and ongoing cost."
         ],
         "sourceIds": []
@@ -281,7 +280,7 @@ export default {
         "publisher": "DICOM Standards Committee",
         "kind": "primary standard",
         "accessed": "2026-10-18",
-        "evidence": "Distinguishes acceptance of transmitted objects from explicit storage commitment and documented retention/retrieval capabilities."
+        "evidence": "DICOM PS3.4 2026d chapter J overview read 18 October 2026. Storage acceptance differs from commitment; retention period, retrieval capabilities/latency and capacity are implementation-specific and documented in conformance. No assumption of permanent retention."
       },
       {
         "id": "ge-dicom",
@@ -309,6 +308,6 @@ export default {
       "dr-retrofit"
     ]
   },
-  "searchTerms": "DICOM conformance and acceptance PACS and archive responsibilities offline access and recovery image export and supplier exit Extend the existing PACS and archive Local PACS and archive Hosted image-management service Hybrid arrangement with defined local access",
+  "searchTerms": "Buying PACS? Test the outage and the exit DICOM conformance and acceptance PACS and archive responsibilities offline access and recovery image export and supplier exit Extend the existing PACS and archive Local PACS and archive Hosted image-management service Hybrid arrangement with defined local access",
   "librarySection": "decisions"
 };

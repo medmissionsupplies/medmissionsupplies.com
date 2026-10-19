@@ -120,7 +120,7 @@ export default {
       {
         "heading": "Specify PET, CT and applications separately",
         "paragraphs": [
-          "Write three parts of the offer: the exact PET detector configuration, the CT subsystem, and the enabled applications. Biograph Vision's published table includes CT options as well as PET specifications. GE's Omni page identifies Dynamic IQ as required for its whole-body dynamic processing example. A family brochure can describe features absent from the offered system.",
+          "Specify three parts of the offer: PET detector configuration, CT subsystem and enabled applications. Biograph Vision’s published table includes CT choices; GE identifies Dynamic IQ as required for its whole-body dynamic acquisition example. Have the seller demonstrate the purchased application and show the licence that will remain with the delivered system. A product family’s clinical gallery cannot supply a missing software entitlement.",
           "The clinical brief should say what the CT component must do, including whether diagnostic CT work is intended. Price the necessary injector, protocols, reporting and supporting workflow accordingly. Do not assume that paying for a PET/CT system automatically buys the same usable CT service as a separately specified diagnostic scanner."
         ],
         "sourceIds": [
@@ -142,7 +142,7 @@ export default {
         "heading": "Compare a complete service with external access",
         "paragraphs": [
           "Referral or contracted PET/CT access deserves a serious comparison when demand is uncertain or supplies are fragile. Include transport, waiting, interpretation, records and continuity of care. A locally owned system can improve access only if its recurring operation is sustainable.",
-          "For ownership, separate fixed costs from the costs of each completed examination and from losses when an appointment cannot proceed. Include tracer commitments, staffing, quality work, premises, PET and CT maintenance, software and interruption provision. Record who absorbs a missed delivery, scanner failure or late cancellation rather than assuming the machine's warranty covers it."
+          "Build a cancellation column beside the usual cost per completed examination. Name who pays for tracer already ordered when the scanner fails, who bears a late delivery, and what referral capacity remains. Then compare fixed staffing, premises, PET and CT maintenance, software and quality work over one period. A scanner warranty can repair hardware without reimbursing an unusable tracer order or funding a replacement appointment."
         ],
         "sourceIds": []
       },
@@ -200,7 +200,7 @@ export default {
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Digital dBGO detector and Precision DL description; named Q.Clear, MotionFree and Dynamic IQ dependency footnote. Phantom and model-observer marketing not converted into clinical savings."
+        "evidence": "Primary Omni Legend detector/software body and footnotes read 18 October 2026: dBGO, Precision DL described separately from hardware TOF, and Dynamic IQ required for named whole-body dynamic acquisition. Phantom/model-observer results not adopted as local clinical savings."
       },
       {
         "id": "vision",
@@ -219,10 +219,10 @@ export default {
   "sheet": {
     "title": "PET/CT: prove the tracer route before buying the scanner",
     "summary": "Compare PET/CT packages only after testing the radiopharmaceutical supply, usable schedule and full facility cost.",
-    "firstChoice": "Prove the accepted tracer route and schedule first.",
-    "upgradeWhen": "The proposed configuration solves an accepted clinical or capacity need.",
-    "budgetWatch": "Include tracer commitments, supporting spaces and both imaging subsystems.",
-    "supportCheck": "Verify PET, CT and software coverage separately.",
+    "firstChoice": "Test the intended tracer supply and patient pathway with the nuclear medicine team.",
+    "upgradeWhen": "An accepted hardware or software capability changes work the service can actually complete.",
+    "budgetWatch": "PET/CT cost per completed study = annualized site, equipment, staff, quality, support and tracer costs / completed accepted studies.",
+    "supportCheck": "Tracer supply, authorized staffing or facility feasibility remains unproven.",
     "askSupplier": [
       "Which tracer deliveries and backup arrangements support the real schedule?",
       "What exact PET, CT and application configuration is included?",
@@ -245,7 +245,7 @@ export default {
     ],
     [
       "Specify PET, CT and applications separately",
-      "Write three parts of the offer: the exact PET detector configuration, the CT subsystem, and the enabled applications. Biograph Vision's published table includes CT options as well as PET specifications. GE's Omni page identifies Dynamic IQ as required for its whole-body dynamic processing example. A family brochure can describe features absent from the offered system. The clinical brief should say what the CT component must do, including whether diagnostic CT work is intended. Price the necessary injector, protocols, reporting and supporting workflow accordingly. Do not assume that paying for a PET/CT system automatically buys the same usable CT service as a separately specified diagnostic scanner."
+      "Specify three parts of the offer: PET detector configuration, CT subsystem and enabled applications. Biograph Vision’s published table includes CT choices; GE identifies Dynamic IQ as required for its whole-body dynamic acquisition example. Have the seller demonstrate the purchased application and show the licence that will remain with the delivered system. A product family’s clinical gallery cannot supply a missing software entitlement. The clinical brief should say what the CT component must do, including whether diagnostic CT work is intended. Price the necessary injector, protocols, reporting and supporting workflow accordingly. Do not assume that paying for a PET/CT system automatically buys the same usable CT service as a separately specified diagnostic scanner."
     ],
     [
       "Buy usable appointments, not a short demonstration scan",
@@ -253,7 +253,7 @@ export default {
     ],
     [
       "Compare a complete service with external access",
-      "Referral or contracted PET/CT access deserves a serious comparison when demand is uncertain or supplies are fragile. Include transport, waiting, interpretation, records and continuity of care. A locally owned system can improve access only if its recurring operation is sustainable. For ownership, separate fixed costs from the costs of each completed examination and from losses when an appointment cannot proceed. Include tracer commitments, staffing, quality work, premises, PET and CT maintenance, software and interruption provision. Record who absorbs a missed delivery, scanner failure or late cancellation rather than assuming the machine's warranty covers it."
+      "Referral or contracted PET/CT access deserves a serious comparison when demand is uncertain or supplies are fragile. Include transport, waiting, interpretation, records and continuity of care. A locally owned system can improve access only if its recurring operation is sustainable. Build a cancellation column beside the usual cost per completed examination. Name who pays for tracer already ordered when the scanner fails, who bears a late delivery, and what referral capacity remains. Then compare fixed staffing, premises, PET and CT maintenance, software and quality work over one period. A scanner warranty can repair hardware without reimbursing an unusable tracer order or funding a replacement appointment."
     ],
     [
       "Where extra spending can earn its place",
@@ -261,7 +261,7 @@ export default {
     ]
   ],
   "minutes": 3,
-  "searchTerms": "PET CT service feasibility radiopharmaceutical supply digital detector and time of flight comparison complete PET CT package Biograph Vision, exact PET/CT configuration Omni Legend, exact detector and software configuration Contracted PET/CT access",
+  "searchTerms": "PET/CT: prove the tracer route before buying the scanner PET CT service feasibility radiopharmaceutical supply digital detector and time of flight comparison complete PET CT package Biograph Vision, exact PET/CT configuration Omni Legend, exact detector and software configuration Contracted PET/CT access",
   "librarySection": "equipment",
   "image": "guides/pet-ct",
   "photo": {

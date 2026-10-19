@@ -35,7 +35,7 @@ export default {
     ],
     [
       "Pay for the movement and view the work requires",
-      "OM-6 offers a compact outpatient arrangement with three-step optics and focus foot control. Takagi qualifies cataract suitability by the hospital or clinic environment; the label should not be extended to every ophthalmic workload. Evaluate the actual objective, mounting and controls with the responsible surgeon. For M220 F12, an upgradable XY feature is not necessarily installed. Identify XY, the foot controller and assistant observation in the offer. A teaching camera should earn its place after the operating and assistant views are satisfactory. If recording is required, include the capture hardware and a usable storage/export arrangement; the presence of a camera port is not a complete teaching system. A donation described simply as OPMI or Leica Wild also needs its exact head, stand, illuminator and controls identified. Family names span configurations. Completing a missing objective or foot control can cost more than the apparent saving, especially when the matching part is difficult to obtain."
+      "OM-6 offers a compact outpatient arrangement with three-step optics and focus foot control. Takagi qualifies cataract suitability by the hospital or clinic environment; the label should not be extended to every ophthalmic workload. Evaluate the actual objective, mounting and controls with the responsible surgeon. For M220 F12, an upgradable XY feature is not necessarily installed. Identify XY, the foot controller and assistant observation in the offer. A teaching camera should earn its place after the operating and assistant views are satisfactory. If recording is required, include the capture hardware and a usable storage/export arrangement; the presence of a camera port is not a complete teaching system. A donation described simply as OPMI or Leica Wild also needs its exact head, stand, illuminator and controls identified. Family names span configurations. Completing a missing objective or foot control can cost more than the apparent saving, especially when the matching part is difficult to obtain. Compare the surgeon-only configuration with the proposed teaching configuration as two complete offers. Assistant optics, camera, adapter and recorder should each have an identified purpose and compatible mounting. If teaching is occasional, a supported later addition may preserve the immediate budget for the working view and stand. Obtain that upgrade path in writing; an unused port does not establish that a future accessory will remain available."
     ],
     [
       "Keep an accepted microscope before buying an assembly project",
@@ -88,7 +88,7 @@ export default {
         "bestFor": "Transport-constrained work accepting manual focus and two magnifications.",
         "why": "Manual 5x/10x optics, coaxial LED, table mounting and universal AC/12 V battery input address portability.",
         "tradeoff": "Manual adjustment is a material workflow difference from motorized focus/zoom. Confirm clamp fit, stable mounting and the packed configuration; battery capacity and runtime need a specific offer.",
-        "price": "Quote required: battery, case, mount and any assistant optics.",
+        "price": "Quote the complete packed kit: approved table mount or floor stand, battery/power supply, case and any assistant optics; include delivery and return-repair freight.",
         "support": "Technical-support channel exists; destination service, horizon and accessories unconfirmed.",
         "sourceIds": [
           "m-scan"
@@ -100,7 +100,7 @@ export default {
         "bestFor": "Compact outpatient ophthalmic work.",
         "why": "Three-step optics, LED, focus foot control and compact mounting options provide a defined outpatient configuration.",
         "tradeoff": "The manufacturer emphasizes outpatient applications and states cataract use depends on the hospital/clinic environment. Do not infer suitability for every cataract or posterior-segment workflow without surgeon review of the exact configuration.",
-        "price": "Quote required: stand/chair connection, controls and accessories.",
+        "price": "Quote the exact stand/chair attachment, objective, foot control and required observation accessories, with installation.",
         "support": "Current page and 2025 specification links available; local service, covers and future parts unconfirmed.",
         "sourceIds": [
           "m-takagi"
@@ -112,7 +112,7 @@ export default {
         "bestFor": "A fixed service needing hands-free magnification and focus changes.",
         "why": "Motorized five-step magnification/focus and LED red-reflex illumination distinguish it from the manual portable option; XY is upgradable.",
         "tradeoff": "A stand-mounted system adds transport and service commitments. Confirm whether the offered configuration actually includes XY, assistant observation and the required foot control; an upgradable feature is not necessarily installed.",
-        "price": "Quote required: complete configuration, transport and service.",
+        "price": "Separate base optical/stand package from installed XY, assistant view and recording; include controls, transport, commissioning and service.",
         "support": "Page/manual available; active production, destination service and future parts unconfirmed.",
         "sourceIds": [
           "m-leica",
@@ -147,7 +147,8 @@ export default {
         "paragraphs": [
           "OM-6 offers a compact outpatient arrangement with three-step optics and focus foot control. Takagi qualifies cataract suitability by the hospital or clinic environment; the label should not be extended to every ophthalmic workload. Evaluate the actual objective, mounting and controls with the responsible surgeon.",
           "For M220 F12, an upgradable XY feature is not necessarily installed. Identify XY, the foot controller and assistant observation in the offer. A teaching camera should earn its place after the operating and assistant views are satisfactory. If recording is required, include the capture hardware and a usable storage/export arrangement; the presence of a camera port is not a complete teaching system.",
-          "A donation described simply as OPMI or Leica Wild also needs its exact head, stand, illuminator and controls identified. Family names span configurations. Completing a missing objective or foot control can cost more than the apparent saving, especially when the matching part is difficult to obtain."
+          "A donation described simply as OPMI or Leica Wild also needs its exact head, stand, illuminator and controls identified. Family names span configurations. Completing a missing objective or foot control can cost more than the apparent saving, especially when the matching part is difficult to obtain.",
+          "Compare the surgeon-only configuration with the proposed teaching configuration as two complete offers. Assistant optics, camera, adapter and recorder should each have an identified purpose and compatible mounting. If teaching is occasional, a supported later addition may preserve the immediate budget for the working view and stand. Obtain that upgrade path in writing; an unused port does not establish that a future accessory will remain available."
         ],
         "sourceIds": [
           "m-takagi",
@@ -262,6 +263,6 @@ export default {
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying a surgical microscope: pay for the working view Portable ophthalmic microscopes Compact outpatient microscopes Fixed ophthalmic surgical microscopes Complete donated optics and stands Scan Optics SO-111T Takagi OM-6 Leica M220 F12",
+  "searchTerms": "Buying a surgical microscope: pay for the working view Portable ophthalmic microscopes Compact outpatient microscopes Fixed ophthalmic surgical microscopes Complete donated optics and stands",
   "librarySection": "equipment"
 };

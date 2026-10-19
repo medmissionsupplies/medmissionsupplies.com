@@ -19,7 +19,7 @@ export default {
     ],
     [
       "Reusable and disposable cuffs shift different costs",
-      "The manufacturer catalogue includes reusable and disposable cuff families. Compare only combinations approved for the intended system and clinical use. A reusable purchase brings its specified cleaning, inspection, storage and replacement obligations; a disposable route brings continuing orders and sufficient stock for the planned activity. A box price should therefore become a usable-case supply cost before it enters the comparison. Include the actual required items and wastage assumptions, with those assumptions visible. Do not assign a universal number of reuses or assume that sterilizing an accessory makes it approved for another use."
+      "The manufacturer catalogue includes reusable and disposable cuff families. Compare only combinations approved for the intended system and clinical use. A reusable purchase brings its specified cleaning, inspection, storage and replacement obligations; a disposable route brings continuing orders and sufficient stock for the planned activity. A box price should therefore become a usable-case supply cost before it enters the comparison. Include the actual required items and wastage assumptions, with those assumptions visible. Do not assign a universal number of reuses or assume that sterilizing an accessory makes it approved for another use. For a proposed upgrade, divide current cuff stock into confirmed transferable, unconfirmed and incompatible items. Credit only the first group in the new-system budget. Price the most frequently needed sizes individually and compare a year of the actual case mix; an attractive starter assortment can conceal expensive replenishment of the size used every day. If the added console function requires a different approved cuff, its continuing premium belongs in the cost of that function."
     ],
     [
       "Pay for an accepted workflow and a serviceable system",
@@ -27,9 +27,9 @@ export default {
     ]
   ],
   "related": [],
-  "socialTitle": "The tourniquet console price leaves out a major buying decision",
-  "socialDescription": "Distinguish single/dual ports, cuff capacity and exact Zimmer package codes before comparing the complete surgical tourniquet service.",
-  "socialHeadline": "The tourniquet console price leaves out a major buying decision",
+  "socialTitle": "Surgical tourniquets: the cuff system can change the best buy",
+  "socialDescription": "Compare the required controls, cuff connections and replenishment costs together. Zimmer’s named packages show why “with hoses” is a different offer from “with cuffs and hoses.”",
+  "socialHeadline": "Surgical tourniquets: the cuff system can change the best buy",
   "socialStrapline": "A lower console price can bring a different cuff inventory.",
   "reviewedAt": "2026-10-18",
   "sheet": {
@@ -69,8 +69,8 @@ export default {
         "bestFor": "A team requiring its supported dual-port and measurement workflow.",
         "why": "The manufacturer identifies separate inflation/measurement paths and cuff-dependent features.",
         "tradeoff": "Include compatible cuffs and required accessories rather than the console alone.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Itemize the 5000 console, required hoses, compatible feature-enabled cuffs and replenishment at the hospital’s actual size mix.",
+        "support": "Confirm console testing/repair, hose replacements and continuing supply of the cuffs needed for the selected functions.",
         "sourceIds": [
           "ats-current"
         ]
@@ -81,8 +81,8 @@ export default {
         "bestFor": "A service whose agreed work is met by the exact offered configuration.",
         "why": "Keeps the cuff ecosystem and required controls in the selection.",
         "tradeoff": "Confirm model-specific capacity; do not reuse the older 2200 table as a 3200 specification.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Compare the complete 3200 configuration and same annual cuff demand; do not use a historical 2200 bundle as the current offer.",
+        "support": "Obtain the exact model instructions, configured cuff capacity, battery assessment and local repair terms.",
         "sourceIds": [
           "ats-current",
           "ats-family"
@@ -94,8 +94,8 @@ export default {
         "bestFor": "Adequate capability with sustainable cuffs and qualified service.",
         "why": "Can avoid replacing useful stock and staff familiarity.",
         "tradeoff": "Unsupported parts or a required missing function can reverse the decision.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Compare required repair, hoses and replacement cuffs with full conversion and the value of stock that cannot transfer.",
+        "support": "Retain only while accepted condition, required inspections and approved cuff supply remain practical.",
         "sourceIds": []
       }
     ],
@@ -127,7 +127,8 @@ export default {
         "heading": "Reusable and disposable cuffs shift different costs",
         "paragraphs": [
           "The manufacturer catalogue includes reusable and disposable cuff families. Compare only combinations approved for the intended system and clinical use. A reusable purchase brings its specified cleaning, inspection, storage and replacement obligations; a disposable route brings continuing orders and sufficient stock for the planned activity.",
-          "A box price should therefore become a usable-case supply cost before it enters the comparison. Include the actual required items and wastage assumptions, with those assumptions visible. Do not assign a universal number of reuses or assume that sterilizing an accessory makes it approved for another use."
+          "A box price should therefore become a usable-case supply cost before it enters the comparison. Include the actual required items and wastage assumptions, with those assumptions visible. Do not assign a universal number of reuses or assume that sterilizing an accessory makes it approved for another use.",
+          "For a proposed upgrade, divide current cuff stock into confirmed transferable, unconfirmed and incompatible items. Credit only the first group in the new-system budget. Price the most frequently needed sizes individually and compare a year of the actual case mix; an attractive starter assortment can conceal expensive replenishment of the size used every day. If the added console function requires a different approved cuff, its continuing premium belongs in the cost of that function."
         ],
         "sourceIds": [
           "ats-family"
@@ -195,29 +196,29 @@ export default {
       {
         "option": "A.T.S. 5000 with the required cuff package",
         "capability": "The manufacturer identifies separate inflation/measurement paths and cuff-dependent features.",
-        "costDriver": "Include compatible cuffs and required accessories rather than the console alone.",
+        "costDriver": "Required cuffs, hose package and recurring premium for the selected features",
         "bestFit": "A team requiring its supported dual-port and measurement workflow."
       },
       {
         "option": "A.T.S. 3200 or an accepted single-port alternative",
         "capability": "Keeps the cuff ecosystem and required controls in the selection.",
-        "costDriver": "Confirm model-specific capacity; do not reuse the older 2200 table as a 3200 specification.",
+        "costDriver": "Exact model configuration and the same annual patient-size cuff mix",
         "bestFit": "A service whose agreed work is met by the exact offered configuration."
       },
       {
         "option": "Retain the accepted installed system",
         "capability": "Can avoid replacing useful stock and staff familiarity.",
-        "costDriver": "Unsupported parts or a required missing function can reverse the decision.",
+        "costDriver": "Qualified repair and replenishment versus conversion and stranded stock",
         "bestFit": "Adequate capability with sustainable cuffs and qualified service."
       }
     ],
     "social": {
-      "title": "The tourniquet console price leaves out a major buying decision",
-      "description": "Distinguish single/dual ports, cuff capacity and exact Zimmer package codes before comparing the complete surgical tourniquet service.",
+      "title": "Surgical tourniquets: the cuff system can change the best buy",
+      "description": "Compare the required controls, cuff connections and replenishment costs together. Zimmer’s named packages show why “with hoses” is a different offer from “with cuffs and hoses.”",
       "hook": "A lower console price can bring a different cuff inventory."
     }
   },
-  "searchTerms": "Surgical tourniquets: the cuff system can change the best buy Port configuration versus cuff capacity Exact package codes Reusable/disposable replenishment Qualified tests and battery condition A.T.S. 5000 with the required cuff package A.T.S. 3200 or an accepted single-port alternative Retain the accepted installed system",
+  "searchTerms": "Surgical tourniquets: the cuff system can change the best buy Port configuration versus cuff capacity Exact package codes Reusable/disposable replenishment Qualified tests and battery condition",
   "librarySection": "equipment",
   "image": "guides/us-tourniquet-system",
   "photo": {

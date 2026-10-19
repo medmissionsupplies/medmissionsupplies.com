@@ -3,8 +3,8 @@ export default {
   "key": "pediatric-echo",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Pediatric echo: an adult cardiac package may leave a gap",
-  "summary": "Compare the exact probes and analysis for the children and neonatal work the service will cover. A pediatric preset is not a complete package.",
+  "title": "Pediatric echo: the right probe can change the purchase",
+  "summary": "Compare a supported pediatric upgrade with a dedicated system by patient coverage, analysis and access. An adult cardiac probe bundle may leave the decisive gap.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "minutes": 3,
@@ -23,25 +23,25 @@ export default {
     ],
     [
       "Make the demonstration reach the reviewing clinician",
-      "Use the responsible team’s approved evaluation arrangements to assess the defined work on the exact configuration. Follow acquisition into measurements, saved studies and the report received by the interpreting clinician. Record any task that depends on an absent option or separate workstation. The buyer needs the result of the evaluation, not an instruction to reproduce clinical examinations from a sales guide. Assess how the equipment will reach and fit the actual care area, with the needed accessories stored and protected. Include cleaning and charging arrangements, the availability of an appropriate cart and the staff handover between users. A compact specification is useful only if it makes the intended service easier to deliver."
+      "Ask the pediatric echo lead to evaluate the exact configuration across the agreed patient range, then follow the required measurements into the interpreting clinician’s report. Include the smallest patients the service intends to accept instead of evaluating only the easiest demonstration case. Record which probe, software and workstation produced the result so the delivered package can be checked against it. Assess how the equipment will reach and fit the actual care area, with the needed accessories stored and protected. Include cleaning and charging arrangements, the availability of an appropriate cart and the staff handover between users. A compact specification is useful only if it makes the intended service easier to deliver."
     ],
     [
       "Budget for the pediatric probe that stops the service",
-      "Separate the probe’s condition and repair route from the console’s. A provider able to repair the scanner may have no compatible temporary pediatric probe. Establish the actual substitute or alternative service before counting a loaner promise as cover. If one probe is indispensable, its replacement cost and access can matter more than a modest console discount. Keep the installed platform when a complete supported addition passes the defined evaluation and access is adequate. Choose a dedicated or different system when it closes a demonstrated population, function or scheduling gap. Neither brochure provides a measured reliability ranking or current price comparison, so those claims should not decide the shortlist."
+      "Separate the probe’s condition and repair route from the console’s. A provider able to repair the scanner may have no compatible temporary pediatric probe. Establish the actual substitute or alternative service before counting a loaner promise as cover. If one probe is indispensable, its replacement cost and access can matter more than a modest console discount. Keep the installed platform when a supported pediatric addition passes that evaluation and shared access works. Choose a separate system when it supplies needed patient coverage or prevents adult and pediatric work from competing for the same console. Pay for the correct probe and a usable interruption plan before extra analysis that the service cannot yet use."
     ]
   ],
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "Does the echo package cover your smallest patients?",
-  "socialDescription": "Separate adult, pediatric and neonatal probe configurations before choosing a shared or dedicated system.",
-  "socialHeadline": "Does the echo package cover your smallest patients?",
+  "socialTitle": "Pediatric echo: the right probe can change the purchase",
+  "socialDescription": "Compare a supported pediatric upgrade with a dedicated system by patient coverage, analysis and access. An adult cardiac probe bundle may leave the decisive gap.",
+  "socialHeadline": "Pediatric echo: the right probe can change the purchase",
   "socialStrapline": "A family name cannot tell you which patients the supplied package can serve.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "pediatric-echo",
-    "title": "Pediatric echo: an adult cardiac package may leave a gap",
-    "summary": "Compare the exact probes and analysis for the children and neonatal work the service will cover. A pediatric preset is not a complete package.",
+    "title": "Pediatric echo: the right probe can change the purchase",
+    "summary": "Compare a supported pediatric upgrade with a dedicated system by patient coverage, analysis and access. An adult cardiac probe bundle may leave the decisive gap.",
     "firstChoice": "Define the patient range and required examinations, then compare the complete supported probe/analysis package.",
     "upgradeWhen": "A dedicated or different system resolves a demonstrated clinical-coverage or availability gap.",
     "budgetWatch": "Pediatric echo cost = required probe and platform + analysis/reporting + accessories and acceptance + service and continuity over the chosen period.",
@@ -60,8 +60,8 @@ export default {
   "research": {
     "id": "pediatric-echo",
     "kind": "feature",
-    "title": "Pediatric echo: an adult cardiac package may leave a gap",
-    "dek": "Compare the exact probes and analysis for the children and neonatal work the service will cover. A pediatric preset is not a complete package.",
+    "title": "Pediatric echo: the right probe can change the purchase",
+    "dek": "Compare a supported pediatric upgrade with a dedicated system by patient coverage, analysis and access. An adult cardiac probe bundle may leave the decisive gap.",
     "verdict": "First test whether a supported pediatric probe and analysis package on the installed platform meets the defined service. Buy a separate system when patient coverage, access or a required function makes the difference.",
     "coverage": [
       "Patient and examination range",
@@ -76,7 +76,7 @@ export default {
         "bestFor": "A suitable platform with sufficient shared availability.",
         "why": "Preserves existing workflow when the required addition is accepted.",
         "tradeoff": "Include analysis and probe support, not a preset alone.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Required pediatric probe, analysis/ECG additions, integration and probe-specific temporary cover.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": []
       },
@@ -86,7 +86,7 @@ export default {
         "bestFor": "Assessment of a specific used configuration.",
         "why": "OEM documentation distinguishes S8-3 and S12-4 applications.",
         "tradeoff": "The 2016 table does not establish current serial support.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Exact S8-3 or S12-4 package, needed software/accessories and an evidenced repair route.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "cx50-2016"
@@ -98,7 +98,7 @@ export default {
         "bestFor": "A service evaluating the exact release and its pediatric probes.",
         "why": "Historical OEM documentation names 6S-RS and 12S-RS.",
         "tradeoff": "Current compatibility and local acceptance remain separate checks.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Required pediatric probe(s), licensed analysis, cart/battery arrangement and reporting.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "vivid-pediatric"
@@ -138,7 +138,7 @@ export default {
       {
         "heading": "Make the demonstration reach the reviewing clinician",
         "paragraphs": [
-          "Use the responsible team’s approved evaluation arrangements to assess the defined work on the exact configuration. Follow acquisition into measurements, saved studies and the report received by the interpreting clinician. Record any task that depends on an absent option or separate workstation. The buyer needs the result of the evaluation, not an instruction to reproduce clinical examinations from a sales guide.",
+          "Ask the pediatric echo lead to evaluate the exact configuration across the agreed patient range, then follow the required measurements into the interpreting clinician’s report. Include the smallest patients the service intends to accept instead of evaluating only the easiest demonstration case. Record which probe, software and workstation produced the result so the delivered package can be checked against it.",
           "Assess how the equipment will reach and fit the actual care area, with the needed accessories stored and protected. Include cleaning and charging arrangements, the availability of an appropriate cart and the staff handover between users. A compact specification is useful only if it makes the intended service easier to deliver."
         ],
         "sourceIds": []
@@ -147,7 +147,7 @@ export default {
         "heading": "Budget for the pediatric probe that stops the service",
         "paragraphs": [
           "Separate the probe’s condition and repair route from the console’s. A provider able to repair the scanner may have no compatible temporary pediatric probe. Establish the actual substitute or alternative service before counting a loaner promise as cover. If one probe is indispensable, its replacement cost and access can matter more than a modest console discount.",
-          "Keep the installed platform when a complete supported addition passes the defined evaluation and access is adequate. Choose a dedicated or different system when it closes a demonstrated population, function or scheduling gap. Neither brochure provides a measured reliability ranking or current price comparison, so those claims should not decide the shortlist."
+          "Keep the installed platform when a supported pediatric addition passes that evaluation and shared access works. Choose a separate system when it supplies needed patient coverage or prevents adult and pediatric work from competing for the same console. Pay for the correct probe and a usable interruption plan before extra analysis that the service cannot yet use."
         ],
         "sourceIds": []
       }
@@ -179,7 +179,7 @@ export default {
         "publisher": "American Society of Echocardiography",
         "kind": "professional-society guidance",
         "accessed": "2026-10-18",
-        "evidence": "Official overview read: pediatric traditional and adjunct modalities plus organizational/quality topics. This is not a full read of the linked clinical guideline or approval of a purchasing brief.",
+        "evidence": "Official 2024 overview rechecked 18 October 2026: traditional and adjunct imaging plus operations, infection-control and quality subjects. Linked clinical guideline not fully read; no patient selection or minimum equipment protocol inferred.",
         "published": "2024-02-01"
       },
       {
@@ -230,12 +230,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Does the echo package cover your smallest patients?",
-      "description": "Separate adult, pediatric and neonatal probe configurations before choosing a shared or dedicated system.",
+      "title": "Pediatric echo: the right probe can change the purchase",
+      "description": "Compare a supported pediatric upgrade with a dedicated system by patient coverage, analysis and access. An adult cardiac probe bundle may leave the decisive gap.",
       "hook": "A family name cannot tell you which patients the supplied package can serve."
     }
   },
-  "searchTerms": "Pediatric echo: an adult cardiac package may leave a gap Patient and examination range Pediatric versus neonatal probes Shared versus dedicated access Probe continuity Add a supported pediatric package to the installed system CX50 xMATRIX with the required pediatric/neonatal probe Vivid iq with the verified pediatric package",
+  "searchTerms": "Pediatric echo: the right probe can change the purchase Patient and examination range Pediatric versus neonatal probes Shared versus dedicated access Probe continuity Add a supported pediatric package to the installed system CX50 xMATRIX with the required pediatric/neonatal probe Vivid iq with the verified pediatric package",
   "librarySection": "equipment",
   "image": "guides/pediatric-echo",
   "photo": {

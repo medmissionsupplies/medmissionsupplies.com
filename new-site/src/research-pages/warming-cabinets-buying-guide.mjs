@@ -19,7 +19,7 @@ export default {
       "What usable load and replenishment cycle meet the peak?",
       "How will temperature records and warmed-stock expiry be managed?"
     ],
-    "budgetWatch": "Compare the full usable configuration and recurring supplies over one common period.",
+    "budgetWatch": "Compare usable stock by compartment and location, including duplicate monitoring, installation, replenishment and discarded contents.",
     "sourceIds": [
       "dual",
       "fluids",
@@ -163,7 +163,8 @@ export default {
         "heading": "Location can be worth more than extra capacity",
         "paragraphs": [
           "Measure door swing, working space, transport route, electrical service and access for maintenance. Recessing a cabinet can save visible floor space but adds building and service-access work. A convenient cabinet may reduce retrieval time; quantify that workflow with staff rather than assuming every relocation creates usable labour savings.",
-          "STERIS offers glass or solid doors and optional electronic recording on these models. Visual inventory and recorded temperatures serve different tasks. If recording is part of the purchase, include retrieval software or access, retention and an owner who reviews exceptions. A USB socket alone does not establish a functioning monitoring process."
+          "STERIS offers glass or solid doors and optional electronic recording on these models. Visual inventory and recorded temperatures serve different tasks. If recording is part of the purchase, include retrieval software or access, retention and an owner who reviews exceptions. A USB socket alone does not establish a functioning monitoring process.",
+          "Compare one large cabinet with two smaller cabinets using the actual stock movements. Two locations may reduce retrieval distance and preserve some capacity while one unit is serviced, but also require two monitoring and maintenance arrangements. One central cabinet can simplify replenishment when staff can reach it quickly. Record the shelf stock required at each location before paying for duplicate capacity; splitting inventory is useful only when neither location repeatedly runs empty."
         ],
         "sourceIds": [
           "single",
@@ -223,7 +224,7 @@ export default {
     ],
     [
       "Location can be worth more than extra capacity",
-      "Measure door swing, working space, transport route, electrical service and access for maintenance. Recessing a cabinet can save visible floor space but adds building and service-access work. A convenient cabinet may reduce retrieval time; quantify that workflow with staff rather than assuming every relocation creates usable labour savings. STERIS offers glass or solid doors and optional electronic recording on these models. Visual inventory and recorded temperatures serve different tasks. If recording is part of the purchase, include retrieval software or access, retention and an owner who reviews exceptions. A USB socket alone does not establish a functioning monitoring process."
+      "Measure door swing, working space, transport route, electrical service and access for maintenance. Recessing a cabinet can save visible floor space but adds building and service-access work. A convenient cabinet may reduce retrieval time; quantify that workflow with staff rather than assuming every relocation creates usable labour savings. STERIS offers glass or solid doors and optional electronic recording on these models. Visual inventory and recorded temperatures serve different tasks. If recording is part of the purchase, include retrieval software or access, retention and an owner who reviews exceptions. A USB socket alone does not establish a functioning monitoring process. Compare one large cabinet with two smaller cabinets using the actual stock movements. Two locations may reduce retrieval distance and preserve some capacity while one unit is serviced, but also require two monitoring and maintenance arrangements. One central cabinet can simplify replenishment when staff can reach it quickly. Record the shelf stock required at each location before paying for duplicate capacity; splitting inventory is useful only when neither location repeatedly runs empty."
     ],
     [
       "Compare waste and installation over one period",

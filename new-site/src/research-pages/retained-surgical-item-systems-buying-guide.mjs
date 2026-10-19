@@ -17,7 +17,7 @@ export default {
       "Can every required supply remain available in clinically suitable sizes and packs?",
       "How does a completed case reach the patient record, including during an outage?"
     ],
-    "budgetWatch": "Compare the full usable configuration and recurring supplies over one common period.",
+    "budgetWatch": "Compare the compatible supply premium, pack waste, minimum commitments, software and exit terms across the same covered case volume.",
     "sourceIds": [
       "situate-guide",
       "situate-page",
@@ -174,7 +174,8 @@ export default {
         "heading": "The supply premium follows every covered case",
         "paragraphs": [
           "Use the difference between compatible supplies and the accepted alternative, not the total price of cotton alone. Include pack sizes, opened-but-unused items, wastage, minimum commitments and the clinical suitability of the available range. A nominally free reader can still create a substantial recurring obligation.",
-          "For a hypothetical annual comparison, 1,500 cases using 20 items each means 30,000 items. An assumed US$0.65 premium adds US$19,500; US$5,000 in annual software and service brings the recurring increment to US$24,500, or US$16.33 per case. At 3,000 otherwise equivalent cases it becomes US$44,000, or US$14.67 each. Initial equipment, implementation and training would be additional. These are planning assumptions, not quotes or proof of cost effectiveness."
+          "For a hypothetical annual comparison, 1,500 cases using 20 items each means 30,000 items. An assumed US$0.65 premium adds US$19,500; US$5,000 in annual software and service brings the recurring increment to US$24,500, or US$16.33 per case. At 3,000 otherwise equivalent cases it becomes US$44,000, or US$14.67 each. Initial equipment, implementation and training would be additional. These are planning assumptions, not quotes or proof of cost effectiveness.",
+          "Request supply prices by the hospital’s actual pack mix and contract term. Include minimum annual purchases, price-escalation terms and what happens to readers or software if the supply agreement ends. A low initial reader price can be poor value when the service cannot change an unsuitable sponge range without replacing the system. This is purchasing flexibility to price, not a reason to substitute unapproved supplies."
         ],
         "sourceIds": []
       },
@@ -233,7 +234,7 @@ export default {
     ],
     [
       "The supply premium follows every covered case",
-      "Use the difference between compatible supplies and the accepted alternative, not the total price of cotton alone. Include pack sizes, opened-but-unused items, wastage, minimum commitments and the clinical suitability of the available range. A nominally free reader can still create a substantial recurring obligation. For a hypothetical annual comparison, 1,500 cases using 20 items each means 30,000 items. An assumed US$0.65 premium adds US$19,500; US$5,000 in annual software and service brings the recurring increment to US$24,500, or US$16.33 per case. At 3,000 otherwise equivalent cases it becomes US$44,000, or US$14.67 each. Initial equipment, implementation and training would be additional. These are planning assumptions, not quotes or proof of cost effectiveness."
+      "Use the difference between compatible supplies and the accepted alternative, not the total price of cotton alone. Include pack sizes, opened-but-unused items, wastage, minimum commitments and the clinical suitability of the available range. A nominally free reader can still create a substantial recurring obligation. For a hypothetical annual comparison, 1,500 cases using 20 items each means 30,000 items. An assumed US$0.65 premium adds US$19,500; US$5,000 in annual software and service brings the recurring increment to US$24,500, or US$16.33 per case. At 3,000 otherwise equivalent cases it becomes US$44,000, or US$14.67 each. Initial equipment, implementation and training would be additional. These are planning assumptions, not quotes or proof of cost effectiveness. Request supply prices by the hospital’s actual pack mix and contract term. Include minimum annual purchases, price-escalation terms and what happens to readers or software if the supply agreement ends. A low initial reader price can be poor value when the service cannot change an unsuitable sponge range without replacing the system. This is purchasing flexibility to price, not a reason to substitute unapproved supplies."
     ],
     [
       "Approve a supported workflow, then monitor it",

@@ -3,8 +3,8 @@ export default {
   "key": "contrast-injectors",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Cheap contrast injector? Price the supplies and support",
-  "summary": "Compare the correct modality, complete hardware, licensed interfaces and approved consumables before accepting an injector offer.",
+  "title": "Used contrast injectors: check the support deadline first",
+  "summary": "A low injector price can hide a short support horizon. Compare the exact CT, MR or angiography system, approved disposables and remaining manufacturer support.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "related": [
@@ -12,9 +12,9 @@ export default {
     "xray"
   ],
   "reviewedAt": "2026-10-18",
-  "socialTitle": "Cheap contrast injector? Price the supplies and support",
-  "socialDescription": "Compare the correct modality, complete hardware, licensed interfaces and approved consumables before accepting an injector offer.",
-  "socialHeadline": "Cheap contrast injector? Price the supplies and support",
+  "socialTitle": "Used contrast injectors: check the support deadline first",
+  "socialDescription": "A low injector price can hide a short support horizon. Compare the exact CT, MR or angiography system, approved disposables and remaining manufacturer support.",
+  "socialHeadline": "Used contrast injectors: check the support deadline first",
   "socialStrapline": "The supply basket and support deadline can change the purchase.",
   "research": {
     "kind": "feature",
@@ -26,8 +26,8 @@ export default {
       "approved consumable cost",
       "manufacturer lifecycle notices"
     ],
-    "title": "Cheap contrast injector? Price the supplies and support",
-    "dek": "Compare the correct modality, complete hardware, licensed interfaces and approved consumables before accepting an injector offer.",
+    "title": "Used contrast injectors: check the support deadline first",
+    "dek": "A low injector price can hide a short support horizon. Compare the exact CT, MR or angiography system, approved disposables and remaining manufacturer support.",
     "verdict": "Choose an injector within the required imaging modality, then compare complete hardware, approved supplies and support over the planned period. A low used-unit price loses its attraction when essential consumables or a usable service route are missing.",
     "decision": {
       "firstMove": "Define the modality and exact approved injection workflow with the clinical team.",
@@ -36,8 +36,8 @@ export default {
       "walkAwayWhen": "The modality, approved disposables, completeness or support horizon cannot be established."
     },
     "social": {
-      "title": "Cheap contrast injector? Price the supplies and support",
-      "description": "Compare the correct modality, complete hardware, licensed interfaces and approved consumables before accepting an injector offer.",
+      "title": "Used contrast injectors: check the support deadline first",
+      "description": "A low injector price can hide a short support horizon. Compare the exact CT, MR or angiography system, approved disposables and remaining manufacturer support.",
       "hook": "The supply basket and support deadline can change the purchase."
     },
     "choices": [
@@ -46,7 +46,7 @@ export default {
         "position": "CT example",
         "bestFor": "Approved CT workflow.",
         "why": "Separate component and interface specifications support a complete offer.",
-        "tradeoff": "Some connected functions cost extra.",
+        "tradeoff": "Distinguish Stellant FLEX from the classic Stellant models named in the lifecycle notice; optional connectivity is additional.",
         "price": "Hardware plus licences and compatible supply basket.",
         "support": "Confirm region, versions and purchased terms.",
         "sourceIds": [
@@ -144,7 +144,7 @@ export default {
         "heading": "Check the support deadline before buying used",
         "paragraphs": [
           "Bayer's US lifecycle page, checked on 18 October 2026, lists Mark V ProVis at end of life on 31 December 2025. It lists classic Stellant models and Spectris Solaris EP at 31 December 2028. Its FAQ describes the end of manufacturer service, parts, technical support and consumables for the relevant installed base.",
-          "Those notices materially change how an old bargain should be assessed. Confirm the exact model, regional notice and applicable terms; a third-party repair offer is not continued manufacturer support. A consumable stockpile also needs a credible expiry and replacement plan. Do not let an older seller article stand in for the current lifecycle position."
+          "For a purchase assessed in October 2026, the 2028 dates fall within a three-year ownership plan. Include a replacement and changeover allowance if that notice applies to the proposed unit. Confirm the exact model and destination terms: third-party repair is a different support proposition, and stockpiled consumables still expire. Classic Stellant notices must not be silently applied to Stellant FLEX merely because both carry the Stellant name."
         ],
         "sourceIds": [
           "bayer-eol"
@@ -221,7 +221,7 @@ export default {
         "publisher": "Bayer",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "US page lists Mark V ProVis end of life 2025-12-31, classic Stellant and Spectris Solaris EP 2028-12-31, with service/parts/consumables FAQ. Linked letters and destination entitlement not audited."
+        "evidence": "US lifecycle body and FAQ rechecked 18 October 2026: Mark V ProVis 2025-12-31; specified classic Stellant models and Spectris Solaris EP 2028-12-31. FAQ includes service, parts, technical support and consumables. No destination entitlement or linked-letter audit claimed."
       }
     ],
     "related": [
@@ -230,12 +230,12 @@ export default {
     ]
   },
   "sheet": {
-    "title": "Cheap contrast injector? Price the supplies and support",
-    "summary": "Compare the correct modality, complete hardware, licensed interfaces and approved consumables before accepting an injector offer.",
-    "firstChoice": "Select the modality, then compare complete supported packages.",
-    "upgradeWhen": "The new system resolves a specific support or workflow limitation.",
-    "budgetWatch": "Model the same approved supply basket and period.",
-    "supportCheck": "Check current exact-model lifecycle notices and destination terms.",
+    "title": "Used contrast injectors: check the support deadline first",
+    "summary": "A low injector price can hide a short support horizon. Compare the exact CT, MR or angiography system, approved disposables and remaining manufacturer support.",
+    "firstChoice": "Define the modality and exact approved injection workflow with the clinical team.",
+    "upgradeWhen": "A supported package resolves an actual interface, supply or lifecycle constraint.",
+    "budgetWatch": "Injector ownership cost = complete installed system + integration + approved supplies + maintenance + interruption provision.",
+    "supportCheck": "The modality, approved disposables, completeness or support horizon cannot be established.",
     "askSupplier": [
       "Which components and licences are included?",
       "What is our approved annual consumable basket?",
@@ -267,7 +267,7 @@ export default {
     ],
     [
       "Check the support deadline before buying used",
-      "Bayer's US lifecycle page, checked on 18 October 2026, lists Mark V ProVis at end of life on 31 December 2025. It lists classic Stellant models and Spectris Solaris EP at 31 December 2028. Its FAQ describes the end of manufacturer service, parts, technical support and consumables for the relevant installed base. Those notices materially change how an old bargain should be assessed. Confirm the exact model, regional notice and applicable terms; a third-party repair offer is not continued manufacturer support. A consumable stockpile also needs a credible expiry and replacement plan. Do not let an older seller article stand in for the current lifecycle position."
+      "Bayer's US lifecycle page, checked on 18 October 2026, lists Mark V ProVis at end of life on 31 December 2025. It lists classic Stellant models and Spectris Solaris EP at 31 December 2028. Its FAQ describes the end of manufacturer service, parts, technical support and consumables for the relevant installed base. For a purchase assessed in October 2026, the 2028 dates fall within a three-year ownership plan. Include a replacement and changeover allowance if that notice applies to the proposed unit. Confirm the exact model and destination terms: third-party repair is a different support proposition, and stockpiled consumables still expire. Classic Stellant notices must not be silently applied to Stellant FLEX merely because both carry the Stellant name."
     ],
     [
       "Choose the package that keeps examinations possible",
@@ -275,7 +275,7 @@ export default {
     ]
   ],
   "minutes": 3,
-  "searchTerms": "CT MR and angiography injector selection complete hardware and interfaces approved consumable cost manufacturer lifecycle notices Stellant FLEX, exact CT package Mark 7 Arterion, exact angiography package MRXperion, exact MR package",
+  "searchTerms": "Used contrast injectors: check the support deadline first CT MR and angiography injector selection complete hardware and interfaces approved consumable cost manufacturer lifecycle notices Stellant FLEX, exact CT package Mark 7 Arterion, exact angiography package MRXperion, exact MR package",
   "librarySection": "equipment",
   "image": "guides/contrast-injector-ct",
   "photo": {

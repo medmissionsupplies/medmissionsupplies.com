@@ -1,17 +1,17 @@
 export const legacyArticleRevisions = [
   {
     "id": "imaging-equipment-buying-guide",
-    "title": "Buying imaging equipment: compare the whole system",
+    "title": "Imaging equipment: which missing piece changes the price?",
     "category": "Imaging & radiology",
     "department": "imaging",
-    "image": "reference/ultrasound-portable",
-    "summary": "Choose ultrasound, X-ray, C-arm, CT and MRI packages around the examinations, accessories and support your team needs.",
-    "intro": "Start with the examinations your team needs to complete. Then compare the entire imaging package: probes or detectors, software, patient positioning, room works and support. Use the equipment sections below to identify the decision that matters first; the lowest console or scanner price may leave much of the service unfunded.",
+    "image": "guides/ultrasound",
+    "summary": "Compare ultrasound probes, X-ray detectors, C-arm table fit and CT/MRI site work before choosing the lowest equipment quote.",
+    "intro": "The best-value imaging purchase depends on what prevents your team from completing the required work. For ultrasound it may be a missing probe; for X-ray, a detector or room component; for a C-arm, the table; for CT or MRI, an unfunded installation or repair. Start with that constraint, then compare keeping, adapting and replacing the equipment on the same scope and ownership period.",
     "entries": [
       {
         "id": "ultrasound",
         "title": "Ultrasound systems",
-        "image": "reference/ultrasound-portable",
+        "image": "guides/ultrasound",
         "listing": "ultrasound",
         "summary": "Choose the required probes before the console. A supported system with the right transducers may be better value than a newer machine with an incomplete probe package.",
         "explanation": "Ultrasound uses sound waves to create images. The probe is the part placed against the patient; different probes suit different examinations, so the machine and probe need to be chosen together.",
@@ -30,18 +30,33 @@ export const legacyArticleRevisions = [
           "Ask for images from the offered unit and a documented probe inspection. Review the cable, lens, connector, and image uniformity with a qualified technician.",
           "Check battery condition, image export, DICOM options, and approved cleaning products. For a handheld, verify account transfer and ongoing membership terms."
         ],
-        "cost": "Price every required probe, software option, cart, battery and reprocessing supply over the same ownership period. Compare repairing a suitable existing probe or system before replacing the whole platform.",
+        "cost": "Compare the required probe bundle before console prices. Add software, reporting, cart, battery and probe processing. When the existing scanner is accepted, price the supported replacement probe and temporary cover against changing the platform.",
         "sources": [
           "ultrasoundBasics",
           "probes",
           "probeCare",
           "handheld"
-        ]
+        ],
+        "photo": {
+          "id": "ultrasound",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:3rd_Medical_Battalion_Mass_Casualty_Training_(9634378).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/3rd_Medical_Battalion_Mass_Casualty_Training_%289634378%29.jpg",
+          "photographer": "U.S. Marine Corps photo by Cpl. Jonathan Rodriguez Pastrana",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "caption": "A SonoSite M-Turbo during medical training in Okinawa, Japan, April 2026. Equipment example.",
+          "captionContext": "A SonoSite M-Turbo during medical training in Okinawa, Japan, in April 2026. Shows portable ultrasound in use; the models compared below differ.",
+          "alt": "A SonoSite M-Turbo portable ultrasound with its screen and controls visible during a medical training exercise.",
+          "fit": "cover",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "xray",
         "title": "Digital X-ray systems",
-        "image": "reference/digital-xray",
+        "image": "guides/xray",
         "listing": "xray",
         "summary": "Compare mobile and fixed X-ray around patient access and the complete installed chain. A detector-only offer cannot be compared directly with a room package.",
         "explanation": "Digital radiography uses X-rays and a detector to produce an image. The detector captures it, while a workstation displays and stores it. A detector alone is only one part of the system.",
@@ -60,12 +75,27 @@ export const legacyArticleRevisions = [
           "Request detector condition and calibration records, battery and charger details, and replacement coverage. Ask specifically how accidental damage is handled.",
           "Have the installation team review electrical supply, shielding, delivery access, networking, and local acceptance requirements before freight is booked."
         ],
-        "cost": "Itemize tube, detector, workstation, image storage, software rights, installation and training. Separate detector damage and tube exclusions from general warranty wording.",
+        "cost": "Separate the tube/generator, detector, workstation and installed room. Include detector damage terms and a replacement route: a warranty excluding the only detector can leave the entire X-ray service without a usable system.",
         "sources": [
           "xrayBasics",
           "imagingSite",
           "refurbished"
-        ]
+        ],
+        "photo": {
+          "id": "xray",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Mobile_X-Ray_Unit_Sirius_Star_Mobile.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Mobile_X-Ray_Unit_Sirius_Star_Mobile.jpg",
+          "photographer": "Syced",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "caption": "A Sirius Star Mobile X-ray unit with its arm in the parked position. Equipment example.",
+          "captionContext": "A Sirius Star Mobile X-ray unit in its parked position. Illustrates mobile radiography; not a MinXray or Carestream system.",
+          "alt": "A Sirius Star Mobile X-ray machine with its tube arm folded over the wheeled base.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "c-arm",
@@ -91,7 +121,7 @@ export const legacyArticleRevisions = [
           "Request documented image-quality and equipment checks, service history, and a plan for specialist installation and local acceptance.",
           "The linked GE reference illustrates a full-size C-arm. Request the proposed mini C-arm's own manufacturer documentation when evaluating a mini system."
         ],
-        "cost": "Compare the C-arm and table as a working package. Include detector or image-intensifier exposure, tube support, missing controls, freight and engineer travel; model year alone does not establish value.",
+        "cost": "If image quality is accepted but a required view cannot be reached, locate the obstruction first. Compare a supported table accessory with a new table or C-arm, including the resulting load limits, pad, controls, delivery and paired demonstration.",
         "sources": [
           "carm"
         ]
@@ -118,7 +148,7 @@ export const legacyArticleRevisions = [
           "Obtain serial numbers, service records, transferable software rights, and a complete accessory list. Request a specialist review of the offered system.",
           "Assign responsibility for deinstallation, rigging, freight, reinstallation, commissioning, acceptance, and training. Establish who supports the site after handover."
         ],
-        "cost": "Compare installed project cost and recurring operation over one period. Manufacturer refurbishment bundles can illustrate scope, but their coverage does not transfer automatically to an independent seller’s unit.",
+        "cost": "Price the installed project, annual operation and one explicit major-repair scenario. For CT, identify tube exclusions; for MRI, name the supplied coils and magnet-specific maintenance obligations. A donation must still fund relocation, missing applications and an achievable restoration route.",
         "sources": [
           "ctBasics",
           "mriBasics",
@@ -134,7 +164,7 @@ export const legacyArticleRevisions = [
       "Unit-specific records and written service terms"
     ],
     "kind": "buying-guide",
-    "reviewed": "2026-10-02",
+    "reviewed": "2026-10-18",
     "sections": [],
     "related": [
       "ultrasound",
@@ -143,38 +173,53 @@ export const legacyArticleRevisions = [
     ],
     "minutes": 5,
     "updated": "2026-10-18",
-    "socialTitle": "Buying imaging equipment: compare the whole system",
-    "socialDescription": "Choose ultrasound, X-ray, C-arm, CT and MRI packages around the examinations, accessories and support your team needs.",
-    "socialHeadline": "Buying imaging equipment: compare the whole system",
-    "socialStrapline": "The missing probe, detector or installation can change the bargain.",
+    "socialTitle": "Imaging equipment: which missing piece changes the price?",
+    "socialDescription": "Compare ultrasound probes, X-ray detectors, C-arm table fit and CT/MRI site work before choosing the lowest equipment quote.",
+    "socialHeadline": "Imaging equipment: which missing piece changes the price?",
+    "socialStrapline": "Find the missing component before paying to replace the whole system.",
     "relatedArticles": [
       "ultrasound-buying-guide",
       "xray-buying-guide",
       "c-arm-table-fit-buying-guide",
       "ct-mri-buying-guide",
       "routine-ct-buying-guide"
-    ]
+    ],
+    "photo": {
+      "id": "ultrasound",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:3rd_Medical_Battalion_Mass_Casualty_Training_(9634378).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/3rd_Medical_Battalion_Mass_Casualty_Training_%289634378%29.jpg",
+      "photographer": "U.S. Marine Corps photo by Cpl. Jonathan Rodriguez Pastrana",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "caption": "A SonoSite M-Turbo during medical training in Okinawa, Japan, April 2026. Equipment example.",
+      "captionContext": "A SonoSite M-Turbo during medical training in Okinawa, Japan, in April 2026. Shows portable ultrasound in use; the models compared below differ.",
+      "alt": "A SonoSite M-Turbo portable ultrasound with its screen and controls visible during a medical training exercise.",
+      "fit": "cover",
+      "modelMatch": "category",
+      "verifiedAt": "2026-10-17",
+      "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+    }
   },
   {
     "id": "surgical-equipment-buying-guide",
-    "title": "Buying operating-room equipment: complete the procedure package",
+    "title": "Operating-room equipment: six choices that change the bill",
     "category": "Surgery & anesthesia",
     "department": "surgical",
-    "image": "reference/anesthesia-workstation",
+    "image": "guides/anesthesia",
     "summary": "Compare anesthesia, tables, lights, endoscopy and surgical instruments by the procedures and recurring supplies they must support.",
     "intro": "Build the purchase around the procedures the team is equipped to provide. Anesthesia needs the right gas and monitoring package; imaging needs table access; reusable instruments need processing capacity. Keep those dependencies in the same budget so one attractive equipment price does not leave the room unable to do its intended work.",
     "entries": [
       {
         "id": "anesthesia",
         "title": "Anesthesia workstations",
-        "image": "reference/anesthesia-workstation",
+        "image": "guides/anesthesia",
         "listing": "anesthesia",
         "summary": "Compare the complete workstation, monitoring, vaporizer and breathing-system configuration against the facility’s gas, power and support arrangements.",
         "explanation": "An anesthesia workstation brings together gas delivery, breathing-system components, and usually a ventilator. Monitoring and vaporizers may be separate parts of the quoted package, so a workstation should be assessed as a complete configuration.",
         "options": [
           [
             "Established cart platform",
-            "A candidate when the required configuration is supported locally. Judge the actual unit, documentation and service access rather than age or brand alone."
+            "Start with a supported cart platform when it meets the approved cases and the site can supply its gases, power and scavenging. Retaining a serviceable workstation may be better value than changing platforms to obtain a feature the team will rarely use."
           ],
           [
             "Compact or transportable",
@@ -186,15 +231,31 @@ export const legacyArticleRevisions = [
           "Itemize vaporizers, gas monitoring, breathing components, absorber, hoses, sensors, and compatible accessories; do not assume they are included in a photograph.",
           "Request documented functional and safety testing, maintenance history, and acceptance by the receiving anesthesia and biomedical teams."
         ],
-        "cost": "Include gas infrastructure, consumables, sensors, maintenance and training. Give both suppliers the same functional configuration before deciding whether the lower cart price saves money.",
+        "cost": "Compare the installed anesthesia and monitoring package over the same case workload. Include gases, absorber material, circuits, sensors, scheduled service and the response to a ventilator or vaporizer fault. If the lower-priced unit needs new site infrastructure, include that before valuing its saving.",
         "sources": [
           "anesthesia"
-        ]
+        ],
+        "photo": {
+          "id": "anesthesia",
+          "sourcePage": "https://www.pexels.com/photo/equipment-at-hospital-13697732/",
+          "imageUrl": "https://images.pexels.com/photos/13697732/pexels-photo-13697732.jpeg",
+          "photographer": "Jonathan Borba",
+          "license": "Pexels License",
+          "licenseUrl": "https://www.pexels.com/license/",
+          "caption": "GE Carestation 620 anesthesia workstation in a hospital operating room.",
+          "captionContext": "GE Carestation 620 anesthesia workstation in a hospital operating room. Model photograph; not MMS inventory.",
+          "alt": "GE Carestation 620 anesthesia workstation with flow controls, vaporizer, breathing circuit and patient monitor.",
+          "fit": "contain",
+          "modelMatch": "exact",
+          "modelMatchNote": "Exact discussed model: Carestation 620, visible on the photographed machine; accessories and monitor are the pictured configuration.",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "surgical-tables",
         "title": "Surgical tables and lights",
-        "image": "xray",
+        "image": "guides/surgical-tables",
         "listing": "surgical-tables",
         "summary": "Choose table movement and accessories around the procedures and imaging views. Price lighting as its own installed package.",
         "explanation": "A surgical table supports and positions the patient; surgical lights illuminate the working area. Table movement, accessories, and lighting need to suit the procedures and the room together.",
@@ -205,7 +266,7 @@ export const legacyArticleRevisions = [
           ],
           [
             "Specialty or imaging table",
-            "Pay more when a demonstrated positioning or imaging limitation requires it. Check load and movement limits in the intended setup."
+            "Pay for a specialty or imaging table when the required position, C-arm access or load cannot be achieved with the approved general-purpose setup. Demonstrate that difficult position with the intended accessories and imaging equipment before selecting the premium model."
           ],
           [
             "Surgical lighting",
@@ -218,23 +279,38 @@ export const legacyArticleRevisions = [
           "For lights, ask for an installation survey covering mounting, ceiling height, electrical work, movement through the required positions, and access for service.",
           "Itemize the lighting heads, arms or mobile stand, controls, compatible handles, and any specified backup equipment. Confirm handle reprocessing instructions and replacement-parts availability for the exact system."
         ],
-        "cost": "Separate complete table and installed-lighting totals. Include attachments, controllers, mattresses, handles, mounting and structural works so the options are comparable.",
+        "cost": "Price the complete table and installed lighting separately. Compare repairing a suitable frame, controller or light system with replacing it when the fault and support route are known. Include attachments, mattresses, handles, mounting and structural work; a cheaper table with unavailable clamps may be the dearer package.",
         "sources": [
           "tables",
           "lights"
-        ]
+        ],
+        "photo": {
+          "id": "surgical-tables",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%A1-%D0%B4%D1%83%D0%B3%D0%B0_%D0%B8_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB_ALPHAMAQUET_1150_%D1%81_%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E_%D1%80%D0%B5%D0%BD%D1%82%D0%B3%D0%B5%D0%BD%D0%BF%D1%80%D0%BE%D0%B7%D1%80%D0%B0%D1%87%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%88%D0%BD%D0%B8%D1%86%D0%B5%D0%B9.jpg",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1-%D0%B4%D1%83%D0%B3%D0%B0_%D0%B8_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB_ALPHAMAQUET_1150_%D1%81_%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E_%D1%80%D0%B5%D0%BD%D1%82%D0%B3%D0%B5%D0%BD%D0%BF%D1%80%D0%BE%D0%B7%D1%80%D0%B0%D1%87%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%88%D0%BD%D0%B8%D1%86%D0%B5%D0%B9.jpg",
+          "photographer": "Михаил Митин",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "caption": "An ALPHAMAQUET 1150 operating table positioned with a C-arm for imaging access. Equipment example.",
+          "captionContext": "An ALPHAMAQUET 1150 operating table positioned with a C-arm. Shows imaging access around the table, not one of the models shortlisted below.",
+          "alt": "An ALPHAMAQUET 1150 radiolucent operating table positioned inside a mobile C-arm.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "endoscopy",
         "title": "Endoscopy systems",
-        "image": "reference/endoscopy-system",
+        "image": "guides/endoscopy",
         "listing": "endoscopy",
         "summary": "An economical processor can be a costly starting point if the scopes, repairs or reprocessing capacity are missing. Choose the complete scope workflow.",
         "explanation": "An endoscope lets clinicians view inside the body. A video system may include a scope, processor, light source, and display. These components must work together, and reusable scopes need their specified reprocessing workflow.",
         "options": [
           [
             "Expand the existing platform",
-            "Often worth evaluating when approved compatible scopes can use the current processor, light source and processing pathway. Verify the exact combination."
+            "Add a compatible accepted scope when scope turnaround or repair cover is the bottleneck and the processor still meets the brief. Buying another processor will not increase the number of procedures if the only usable scope is being reprocessed."
           ],
           [
             "Replace the complete system",
@@ -246,17 +322,32 @@ export const legacyArticleRevisions = [
           "Budget for the complete reprocessing workflow: trained staff, cleaning accessories, compatible chemicals, water requirements, drying, storage, and documentation.",
           "If an automated reprocessor is proposed, confirm validation for the exact scope and required connectors. Automation does not justify skipping manufacturer-specified cleaning."
         ],
-        "cost": "Use cost per usable procedure, including repairs, spare scopes, supplies and reprocessing. A lower processor price matters less if the required scopes are scarce or incompatible.",
+        "cost": "Compare the scope mix, repair quotation and any loaner terms before negotiating the processor price. Budget enough compatible scopes for the schedule and approved reprocessing turnaround. Retain the platform when that targeted purchase solves the shortage; replace when required scopes or support are no longer practical.",
         "sources": [
           "endoscopy",
           "reprocessing",
           "aer"
-        ]
+        ],
+        "photo": {
+          "id": "endoscopy",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Endo_tower.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Endo_tower.jpg",
+          "photographer": "Samir",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "An Olympus endoscopy tower in a procedure room, photographed in 2008. Archive equipment example.",
+          "captionContext": "An Olympus endoscopy tower in a procedure room, photographed in 2008. An archive view of the equipment category, not the CV-190 system compared below.",
+          "alt": "An endoscopy room with an Olympus equipment tower, procedure trolley and display monitors.",
+          "fit": "cover",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "electrosurgery",
         "title": "Electrosurgical generators",
-        "image": "reference/electrosurgery",
+        "image": "guides/electrosurgery",
         "listing": "electrosurgery",
         "summary": "Match the required energy functions to compatible instruments. The disposable or reusable instrument bill can outweigh a generator-price difference.",
         "explanation": "An electrosurgical generator supplies electrical energy to compatible instruments for functions such as cutting or coagulation. The available functions depend on the generator, mode, instrument, and accessories—not just the wattage on the label.",
@@ -267,7 +358,7 @@ export const legacyArticleRevisions = [
           ],
           [
             "Advanced energy",
-            "Add capability for a specific procedural need. Price the required instrument family, software and recurring supplies before paying for the platform."
+            "Pay for advanced energy when the surgeon identifies procedures that need it and the compatible instruments can be replenished. Quote the same annual case mix with those instruments and with the accepted alternative; added generator capability alone does not establish a saving."
           ]
         ],
         "checks": [
@@ -275,15 +366,31 @@ export const legacyArticleRevisions = [
           "Have a qualified biomedical service provider document output and safety checks for the offered generator; a power-on demonstration alone is insufficient evidence of condition.",
           "Review reprocessing or single-use requirements and the availability of consumables with the receiving team."
         ],
-        "cost": "Compare complete generators and compatible instruments over the same workload. Include reprocessing where specified; a proprietary instrument commitment is part of the purchase.",
+        "cost": "Compare generator, reusable accessories and recurring instruments over one agreed case volume. Ask which required functions or instrument connections depend on software or added modules. Keep a supported basic generator when it meets the approved work; add a platform when the extra capability will actually be used.",
         "sources": [
           "energy"
-        ]
+        ],
+        "photo": {
+          "id": "electrosurgery",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Electrocauter_00.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Electrocauter_00.jpg/1280px-Electrocauter_00.jpg",
+          "photographer": "SnowBink",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "caption": "An electrosurgical handpiece with its cable and connector laid out for viewing. Equipment example.",
+          "captionContext": "Electrosurgical handpiece with its cable and connector. Accessory illustration; compatibility must be checked against the exact generator and instructions.",
+          "alt": "Electrosurgical pencil with yellow and blue buttons, blue cable and three-pin connector.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "modelMatchNote": "Actual category accessory, exact manufacturer and compatibility not established; no claim it is a recommended generator.",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "surgical-microscopes",
         "title": "Surgical microscopes",
-        "image": "reference/surgical-microscope",
+        "image": "guides/surgical-microscopes",
         "listing": "surgical-microscopes",
         "summary": "Pay first for the optics, positioning and working distance the surgeon needs. Add recording or teaching equipment when there is a real use for it.",
         "explanation": "A surgical microscope gives the operating team a magnified, illuminated view. The stand, optics, working distance, and viewing accessories affect how it fits a particular specialty and operating room.",
@@ -294,7 +401,7 @@ export const legacyArticleRevisions = [
           ],
           [
             "Imaging or teaching package",
-            "Worth extra spending when assistant viewing, recording or teaching is required. Itemize adapters, camera, display and recording components."
+            "Add assistant viewing, recording or teaching equipment for a named workflow. Demonstrate the complete optical and camera arrangement with the surgeon. An inexpensive microscope requiring scarce adapters, another camera and unsupported recording software may lose its price advantage."
           ]
         ],
         "checks": [
@@ -302,26 +409,41 @@ export const legacyArticleRevisions = [
           "Inspect the optics, focus and zoom movement, stand, brakes, counterbalance, controls, and included power supplies through a qualified service review.",
           "Check compatible sterile covers, spare illumination components, packing requirements, and availability of repairs at the destination."
         ],
-        "cost": "Include the complete viewing package, compatible covers, service and protective freight packaging. Unusable camera accessories add cost without improving the operative view.",
+        "cost": "Prioritize accepted optics, positioning and service access. Compare repairing the existing stand or illumination with replacement before buying a whole microscope. Price covers, any viewing accessories, packing and installation together; defer recording extras when they do not improve the intended work.",
         "sources": [
           "microscope"
-        ]
+        ],
+        "photo": {
+          "id": "surgical-microscopes",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:US_Navy_080607-N-9689V-008_Cmdr._Kenneth_Kubis_and_U.S._Air_Force_Capt._Tighe_Richardson_use_an_operating_microscope_while_performing_cataract_eye_surgery_to_return_sight_to_Marylin_Kansi,_a_12-year-old_girl_from_Cotabato.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/US_Navy_080607-N-9689V-008_Cmdr._Kenneth_Kubis_and_U.S._Air_Force_Capt._Tighe_Richardson_use_an_operating_microscope_while_performing_cataract_eye_surgery_to_return_sight_to_Marylin_Kansi%2C_a_12-year-old_girl_from_Cotabato.jpg",
+          "photographer": "U.S. Navy photo by Mass Communication Specialist 3rd Class Joshua Valcarcel",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "caption": "A ZEISS operating microscope during cataract surgery aboard USNS Mercy in the Philippines, June 2008. Archive equipment example.",
+          "captionContext": "A ZEISS operating microscope during cataract surgery aboard USNS Mercy in the Philippines, June 2008. Clinical context; not one of the models compared below.",
+          "alt": "Surgeons using a ZEISS operating microscope in an operating room aboard a hospital ship.",
+          "fit": "cover",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "airway",
         "title": "Video laryngoscopes and airway scopes",
-        "image": "reference/airway",
+        "image": "guides/airway",
         "listing": "airway",
         "summary": "Buy the exact monitor, cable and blade or scope combination. Reusable and single-use routes move costs between processing, repairs and recurring supply.",
         "explanation": "Video laryngoscopes and airway scopes help clinicians see airway structures. The monitor, blade or scope, and cable form a system; reusable components and disposable parts have different supply and reprocessing needs.",
         "options": [
           [
             "Reusable components",
-            "Compare when the facility can sustain the specified reprocessing, inspection and repair pathway. Include turnaround and backup equipment."
+            "Reusable components can suit regular work when validated processing, turnaround and repair cover are already available. Count the extra units needed while one is being processed or repaired, not just the first scope’s purchase price."
           ],
           [
             "Single-use blades or scopes",
-            "Compare when the approved clinical configuration and dependable supply support this route. Budget each use, storage, expiry and waste handling."
+            "Single-use components can suit an approved service whose low or variable demand makes a reusable processing pathway difficult to sustain. Confirm dependable supplies, sizes and expiry; occasional use does not make an empty or expired reserve useful."
           ]
         ],
         "checks": [
@@ -329,11 +451,27 @@ export const legacyArticleRevisions = [
           "List the sizes required by the team and include the right chargers, batteries, protective cases, and compatible accessories.",
           "Confirm that the facility can follow the full reprocessing instructions for reusable parts. Choose equipment intended for the clinical application, not a general-purpose inspection camera."
         ],
-        "cost": "Model both routes at realistic use. Include reusable processing and repair, or single-use supply and expiry, plus the clinical team’s backup arrangement.",
+        "cost": "Compare cost per supported procedure at expected and lower use, counting processing and repair for reusable components or replenishment and expiry for single-use components. Keep monitor, cable and blade or scope compatibility fixed. A mixed fleet adds its own chargers, stock and training.",
         "sources": [
           "airway",
           "reprocessing"
-        ]
+        ],
+        "photo": {
+          "id": "airway",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Videolaryngoskop_McGRATH%C2%AE_MAC.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Videolaryngoskop_McGRATH%C2%AE_MAC.jpg",
+          "photographer": "Jack7011",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "caption": "A McGRATH MAC video laryngoscope photographed in 2019, showing an earlier generation. Archive equipment example.",
+          "captionContext": "McGRATH MAC video laryngoscope, photographed in 2019. Earlier-generation model shown; the current 301-000-000 configuration discussed below must be verified separately.",
+          "alt": "McGRATH MAC video laryngoscope with its screen, handle and curved blade against a blue background.",
+          "fit": "contain",
+          "modelMatch": "family",
+          "modelMatchNote": "Discussed product family, earlier generation; not claimed to show the new-generation 301-000-000.",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       }
     ],
     "checklist": [
@@ -353,11 +491,11 @@ export const legacyArticleRevisions = [
       "surgical-microscopes",
       "airway"
     ],
-    "minutes": 6,
+    "minutes": 7,
     "updated": "2026-10-18",
-    "socialTitle": "Buying operating-room equipment: complete the procedure package",
+    "socialTitle": "Operating-room equipment: six choices that change the bill",
     "socialDescription": "Compare anesthesia, tables, lights, endoscopy and surgical instruments by the procedures and recurring supplies they must support.",
-    "socialHeadline": "Buying operating-room equipment: complete the procedure package",
+    "socialHeadline": "Operating-room equipment: six choices that change the bill",
     "socialStrapline": "The cart price is only one part of a usable operating room.",
     "relatedArticles": [
       "anesthesia-buying-guide",
@@ -366,28 +504,44 @@ export const legacyArticleRevisions = [
       "electrosurgery-buying-guide",
       "surgical-microscopes-buying-guide",
       "airway-buying-guide"
-    ]
+    ],
+    "photo": {
+      "id": "anesthesia",
+      "sourcePage": "https://www.pexels.com/photo/equipment-at-hospital-13697732/",
+      "imageUrl": "https://images.pexels.com/photos/13697732/pexels-photo-13697732.jpeg",
+      "photographer": "Jonathan Borba",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "caption": "GE Carestation 620 anesthesia workstation in a hospital operating room.",
+      "captionContext": "GE Carestation 620 anesthesia workstation in a hospital operating room. Model photograph; not MMS inventory.",
+      "alt": "GE Carestation 620 anesthesia workstation with flow controls, vaporizer, breathing circuit and patient monitor.",
+      "fit": "contain",
+      "modelMatch": "exact",
+      "modelMatchNote": "Exact discussed model: Carestation 620, visible on the photographed machine; accessories and monitor are the pictured configuration.",
+      "verifiedAt": "2026-10-17",
+      "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+    }
   },
   {
     "id": "critical-care-buying-guide",
-    "title": "Buying patient-care equipment: budget for the working bedside",
+    "title": "Patient-care equipment: the accessories that decide its value",
     "category": "Critical & patient care",
     "department": "critical-care",
-    "image": "reference/patient-monitor",
+    "image": "guides/ventilators",
     "summary": "Compare ventilation, oxygen, monitoring, pumps and neonatal equipment with the accessories, supplies and backup each service needs.",
     "intro": "Start with the patient groups and care setting, then specify the complete bedside or transport package. Batteries, modules, circuits, sensors and recurring supplies often decide whether an apparently inexpensive device is usable. Keep clinical suitability, local support and backup capacity ahead of optional features that the team will not use.",
     "entries": [
       {
         "id": "ventilators",
         "title": "Ventilators and respiratory support",
-        "image": "reference/icu-ventilator",
+        "image": "guides/ventilators",
         "listing": "ventilators",
         "summary": "Choose patient groups and required modes first. Then compare the actual unit’s gas needs, enabled functions, monitoring and battery condition.",
         "explanation": "A ventilator supports breathing by delivering controlled breaths or assisting a patient’s own breathing. Models differ in patient groups, modes, gas requirements, and portability. The clinical team should define the specification.",
         "options": [
           [
-            "ICU platform",
-            "A candidate for the accepted intensive-care workload when gas, humidification, monitoring and trained support are available. Price those dependencies together."
+            "Compact or full-size ICU platform",
+            "Compare the required patient groups, modes and interfaces first. HAMILTON-C1 illustrates a turbine-based compact ICU option. Its air supply does not remove oxygen, humidification or accessory obligations, and current product features do not prove the configuration of an older used unit."
           ],
           [
             "Transport platform",
@@ -397,25 +551,42 @@ export const legacyArticleRevisions = [
         "checks": [
           "Verify whether neonatal capabilities, noninvasive ventilation, CO₂ monitoring, and other requested functions are included, optional, or unavailable on the exact unit.",
           "Confirm whether the system requires compressed air or uses a turbine, and separately establish its oxygen requirements. A turbine does not generate oxygen.",
-          "Request documented testing, battery assessment, alarm checks, service history, and the compatible circuit, sensor, and filter list."
+          "Request documented testing, battery assessment, alarm checks, service history, and the compatible circuit, sensor, and filter list.",
+          "For a HAMILTON-C1 package with a HAMILTON-H900 humidifier, note that Hamilton states the H900 is not approved for transport. Require the clinical team’s accepted transport configuration rather than moving the entire bedside package by assumption."
         ],
-        "cost": "Include circuits, sensors, filters, humidification, batteries, gases and training. Extra modes have value only when enabled, clinically required and supported by the receiving service.",
+        "cost": "Compare a complete new unit with restoring a supported existing unit, including batteries, circuits, sensors and humidification. Pay for transport capability when the hospital needs that workflow; verify the full moving package, not the ventilation unit alone.",
         "sources": [
           "ventilation",
           "recalls"
-        ]
+        ],
+        "photo": {
+          "id": "ventilators",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Hamilton_C6.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Hamilton_C6.jpg",
+          "photographer": "BreathDriver",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "A HAMILTON-C6 ventilator with its screen and control unit on a wheeled cart. Equipment example.",
+          "captionContext": "HAMILTON-C6 ventilator. Category illustration; this is a different model from the C1 and T1 compared in this guide.",
+          "alt": "HAMILTON-C6 ventilator with a large screen and control unit on a wheeled cart.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "modelMatchNote": "HAMILTON-C6, not the recommended C1 or T1; configuration and options not established.",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "oxygen",
         "title": "Oxygen concentrators and supply",
-        "image": "reference/oxygen",
+        "image": "guides/oxygen",
         "listing": "oxygen",
         "summary": "Match concentration, flow and pressure to the planned use. Buy the power, reserve and maintenance plan alongside the concentrator.",
         "explanation": "An oxygen concentrator takes in room air and produces oxygen-enriched gas. It needs electricity and maintenance. Its flow, concentration, and outlet pressure must match the planned use and connected equipment.",
         "options": [
           [
             "Bedside concentrator",
-            "Compare when the rated output and operating environment meet the approved bedside need. Include quality checks and power-loss arrangements."
+            "Choose only when documented output and operating conditions meet the approved bedside need. Compare restoring an existing concentrator and its backup with adding another machine. More flow on a label is not a solution to unsuitable outlet pressure or an unreliable power supply."
           ],
           [
             "Facility oxygen project",
@@ -427,10 +598,27 @@ export const legacyArticleRevisions = [
           "Check outlet pressure and compatibility with any connected device. Do not assume a concentrator can power every ventilator or anesthesia workstation.",
           "Include filters, maintenance tools, oxygen-quality checks, replacement parts, and a qualified plan for backup supply and power outages."
         ],
-        "cost": "Compare delivered oxygen capability and continuity over the same period. Maximum flow alone does not price electricity, upkeep, reserve supply or compatibility with connected equipment.",
+        "cost": "Compare delivered oxygen capability and continuity over one period, including electricity, servicing, quality verification and reserve supply. If delivery or maintenance is the limiting issue, price a better supply arrangement before replacing otherwise suitable devices.",
         "sources": [
           "oxygen"
-        ]
+        ],
+        "photo": {
+          "id": "oxygen",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Invacare_Perfecto_2_Oxygen_Concentrator.JPG",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Invacare_Perfecto_2_Oxygen_Concentrator.JPG",
+          "photographer": "BrokenSphere",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "caption": "An Invacare Perfecto 2 oxygen concentrator, showing the unit and front controls. Equipment example.",
+          "captionContext": "Invacare Perfecto 2 oxygen concentrator. Category illustration; the model and flow configuration differ from the units compared below.",
+          "alt": "Invacare Perfecto 2 oxygen concentrator with a flow meter and controls on its front panel.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "modelMatchNote": "Actual Invacare Perfecto 2; not represented as a Drive DeVilbiss 1025 or an AirSep unit.",
+          "creditNote": "© BrokenSphere / Wikimedia Commons",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "high-flow",
@@ -442,7 +630,7 @@ export const legacyArticleRevisions = [
         "options": [
           [
             "Humidified high-flow",
-            "Evaluate for the team’s approved high-flow service. Itemize flow source, humidifier, heated tubing, interfaces and oxygen connection."
+            "For approved high-flow care, compare the complete flow source, humidifier, heated circuit, interfaces and oxygen supply. A discounted Airvo-type unit is useful only if its required patient kits and support can be sustained locally."
           ],
           [
             "Noninvasive ventilation",
@@ -455,7 +643,7 @@ export const legacyArticleRevisions = [
           "Ask for model-specific manuals, service records, training, and the receiving team’s backup arrangements.",
           "The linked Airvo reference illustrates a high-flow platform. For noninvasive ventilation, obtain the offered model's own instructions, supported modes, circuit and interface list, and monitoring specification."
         ],
-        "cost": "Price complete patient kits at the manufacturer’s specified replacement pattern and realistic workload. A low unit price cannot offset supplies that the facility cannot replenish.",
+        "cost": "Price complete patient kits under the model’s instructions at expected and lower use, including storage and expiry. Before changing platforms, compare a better supply agreement for the supported existing units. A machine offered free with a recurring-supply commitment still needs a full-period comparison.",
         "sources": [
           "highFlow"
         ]
@@ -466,7 +654,7 @@ export const legacyArticleRevisions = [
         "image": "reference/patient-monitor",
         "listing": "ekg",
         "summary": "Compare measurements actually enabled, with their modules, sensors and cuffs. A display layout is not an inventory of included capability.",
-        "explanation": "A patient monitor displays selected measurements and alarms. What it can measure depends on the fitted modules, sensors, and accessories; a screen with empty parameter slots does not include every monitoring function.",
+        "explanation": "A patient monitor’s usable measurements depend on modules, sensors and licensed configuration. Philips IntelliVue MMX is a concrete example of a measurement module used with IntelliVue monitors; it does not mean every display or generation accepts every module without checks.",
         "options": [
           [
             "Basic bedside monitoring",
@@ -474,7 +662,7 @@ export const legacyArticleRevisions = [
           ],
           [
             "Critical care or transport",
-            "Add the measurements, battery and network capability required by that workflow. Test movement between departments and any central-station connection."
+            "Add the measurements, battery and network capability the critical-care or transport workflow needs. For an existing fleet, compare a supported module upgrade with full replacement. Test compatibility with the actual central station and the patient-size accessories, not a demonstration system."
           ]
         ],
         "checks": [
@@ -501,7 +689,7 @@ export const legacyArticleRevisions = [
           ],
           [
             "Computer-based ECG",
-            "Worth comparing when integration fits the facility’s IT plan. Include supported computer hardware, software-transfer rights and any connectivity licences."
+            "Choose when supported computers, legitimate software rights and integration fit the facility’s IT plan. Compare restoring a compatible computer or patient cable with replacing the ECG system. Include licence transfer and reinstallation before valuing a used interface."
           ]
         ],
         "checks": [
@@ -509,7 +697,7 @@ export const legacyArticleRevisions = [
           "For used computer-based systems, establish software-transfer rights, supported computers, and whether optional connectivity needs an additional license.",
           "Request a representative report and a demonstration of saving, reviewing, exporting, and backing up recordings without patient-identifying sample data."
         ],
-        "cost": "Price recorder or interface, leads, computer, software, printer and ongoing support together. Demonstrate report retrieval and export before accepting the package.",
+        "cost": "Price the complete acquisition-to-report workflow: leads, computer, software, print/export and support. A standalone recorder can suit limited IT support; a computer-based system earns its integration cost when reports can be retrieved and shared through the accepted workflow.",
         "sources": [
           "ecg"
         ]
@@ -528,7 +716,7 @@ export const legacyArticleRevisions = [
           ],
           [
             "Monitor-defibrillator",
-            "Specify the monitoring, manual functions, pacing or other options the trained team needs. Verify each function on the offered unit."
+            "Pay for manual control, pacing or added monitoring only where the trained team and care setting require them. Compare the exact enabled functions and included accessories. A broad feature list on a used unit is not evidence that the required channels are operational."
           ]
         ],
         "checks": [
@@ -536,7 +724,7 @@ export const legacyArticleRevisions = [
           "Check compatible batteries, chargers, pads, cables, and expiry dates. Confirm which accessories are reusable and which are single-use from their instructions.",
           "Verify service availability, manufacturer notices, and any outstanding corrective actions for the serial number before accepting an older unit."
         ],
-        "cost": "Include pads, batteries, testing, training and service. Expired or missing accessories belong in the opening budget, while their future replacement belongs in the recurring one.",
+        "cost": "Separate opening costs for missing pads, tested batteries and chargers from scheduled replenishment. For an older unit, obtain the price and lead time of the next battery and essential cable before purchase. Retain a supported accepted system when renewal of those components meets the need.",
         "sources": [
           "defibrillation",
           "recalls"
@@ -545,7 +733,7 @@ export const legacyArticleRevisions = [
       {
         "id": "infusion",
         "title": "Infusion and syringe pumps",
-        "image": "reference/infusion",
+        "image": "guides/infusion",
         "listing": "infusion",
         "summary": "Check approved tubing or syringe supply before choosing the pump. A donated unit can carry an expensive recurring supply commitment.",
         "explanation": "Infusion pumps deliver fluids at controlled rates. A syringe pump drives a compatible syringe, while a volumetric pump uses an approved administration set. Those recurring supplies are part of the equipment decision.",
@@ -564,11 +752,27 @@ export const legacyArticleRevisions = [
           "Request documented delivery-performance and alarm checks, battery testing, maintenance history, and software or drug-library configuration.",
           "Calculate realistic ongoing set consumption and confirm local supply, lead times, shelf life, and an alternative procurement route."
         ],
-        "cost": "Use the same period and realistic set consumption for each offer. Include pump, docks, batteries, testing, software and supplies, with expiry and replenishment costs visible.",
+        "cost": "Compare the approved annual tubing or syringe basket alongside pumps, docks, batteries, testing and software. If the supported fleet is suitable, renegotiating deliveries or stock quantities may be better value than conversion. A new family must repay its training, opening stock and stranded old-supply costs or provide another justified benefit.",
         "sources": [
           "pumpSets",
           "infusion"
-        ]
+        ],
+        "photo": {
+          "id": "infusion",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Infusomat_BBraun.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Infusomat_BBraun.jpg",
+          "photographer": "Dctrzl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Inside a B. Braun Infusomat infusion pump, showing the tubing path. Archive equipment example.",
+          "captionContext": "Inside a B. Braun Infusomat pump, showing the tubing path. Earlier equipment illustration; the exact model is not identified as compactplus.",
+          "alt": "An open B. Braun Infusomat infusion pump showing the loaded tubing path and door.",
+          "fit": "contain",
+          "modelMatch": "family",
+          "modelMatchNote": "Infusomat family identified by source; exact version unknown. This is a close-up tubing-path illustration, not a compactplus model photograph.",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "suction",
@@ -580,7 +784,7 @@ export const legacyArticleRevisions = [
         "options": [
           [
             "Portable",
-            "Choose for the actual transport need. Test battery performance and include charging, case, canisters and the permitted operating pattern."
+            "Pay for battery portability when the actual route needs it. Ask the receiving team to demonstrate the complete carried kit and obtain a battery-condition assessment. A mains-only model can be sensible for fixed use but does not become transport cover because a carrying case is supplied."
           ],
           [
             "Ward or procedure unit",
@@ -592,7 +796,7 @@ export const legacyArticleRevisions = [
           "Identify the correct canisters, lids, filters, tubing, overflow protection, and accessories, including their reuse or replacement instructions.",
           "Ask for functional testing, battery assessment where applicable, and a practical replacement-parts list."
         ],
-        "cost": "Include filters, canisters and collection supplies as recurring costs. A mains-only variant may be good value for one setting and unsuitable for a battery-dependent one.",
+        "cost": "A replacement collection bottle, lid or filter may restore a suitable unit more cheaply than buying another pump. Compare that complete repair with replacement when the fault is known. Include recurring collection supplies and enough compatible stock to keep the unit ready.",
         "sources": [
           "suction"
         ]
@@ -600,7 +804,7 @@ export const legacyArticleRevisions = [
       {
         "id": "neonatal",
         "title": "Maternal and neonatal equipment",
-        "image": "neonatal",
+        "image": "guides/neonatal",
         "listing": "neonatal",
         "summary": "Specify thermal care, phototherapy and fetal monitoring as distinct purchases. Each needs its own performance evidence and accessory package.",
         "explanation": "Incubators and radiant warmers provide different ways to support an infant’s thermal environment. Phototherapy equipment delivers specified light for prescribed treatment, while maternal and fetal monitors perform separate monitoring roles.",
@@ -625,11 +829,26 @@ export const legacyArticleRevisions = [
           "For maternal or fetal monitors, obtain the exact transducer and accessory compatibility list, included measurements, recording supplies or software, and the receiving team's acceptance requirements.",
           "The linked GE references cover incubator and phototherapy examples. Request separate manufacturer documentation for any proposed warmer or maternal or fetal monitoring system."
         ],
-        "cost": "Include exact sensors, mattresses, mounts, cleaning supplies and support. Preserve compatible configurations rather than assembling a bargain from unrelated generations.",
+        "cost": "Price thermal care, phototherapy and maternal/fetal monitoring separately so funds go to the missing service. Compare restoring a supported unit with replacing it, including its exact probes, mattress, seals and controls. For phototherapy, include appropriate measured-output verification and compatible delivery accessories; a light that turns on is insufficient acceptance evidence.",
         "sources": [
           "neonatal",
           "phototherapy"
-        ]
+        ],
+        "photo": {
+          "id": "neonatal",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Incubator_04.jpg",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Incubator_04.jpg",
+          "photographer": "Amuzujoe",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "caption": "A neonatal incubator with a transparent enclosure and bedside access ports. Equipment example.",
+          "captionContext": "A neonatal incubator. Category illustration; this photograph does not identify the models compared below.",
+          "alt": "A neonatal incubator with a transparent enclosure and access ports.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       }
     ],
     "checklist": [
@@ -649,11 +868,11 @@ export const legacyArticleRevisions = [
       "suction",
       "neonatal"
     ],
-    "minutes": 8,
+    "minutes": 9,
     "updated": "2026-10-18",
-    "socialTitle": "Buying patient-care equipment: budget for the working bedside",
+    "socialTitle": "Patient-care equipment: the accessories that decide its value",
     "socialDescription": "Compare ventilation, oxygen, monitoring, pumps and neonatal equipment with the accessories, supplies and backup each service needs.",
-    "socialHeadline": "Buying patient-care equipment: budget for the working bedside",
+    "socialHeadline": "Patient-care equipment: the accessories that decide its value",
     "socialStrapline": "A powered-on device can still be an incomplete bedside package.",
     "relatedArticles": [
       "ventilators-buying-guide",
@@ -662,28 +881,44 @@ export const legacyArticleRevisions = [
       "infusion-buying-guide",
       "suction-buying-guide",
       "neonatal-buying-guide"
-    ]
+    ],
+    "photo": {
+      "id": "ventilators",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hamilton_C6.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Hamilton_C6.jpg",
+      "photographer": "BreathDriver",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "A HAMILTON-C6 ventilator with its screen and control unit on a wheeled cart. Equipment example.",
+      "captionContext": "HAMILTON-C6 ventilator. Category illustration; this is a different model from the C1 and T1 compared in this guide.",
+      "alt": "HAMILTON-C6 ventilator with a large screen and control unit on a wheeled cart.",
+      "fit": "contain",
+      "modelMatch": "category",
+      "modelMatchNote": "HAMILTON-C6, not the recommended C1 or T1; configuration and options not established.",
+      "verifiedAt": "2026-10-17",
+      "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+    }
   },
   {
     "id": "diagnostic-equipment-buying-guide",
-    "title": "Buying diagnostic equipment: pay for usable results",
+    "title": "Diagnostic equipment: the real cost of a usable result",
     "category": "Laboratory & diagnostics",
     "department": "diagnostics",
-    "image": "reference/chemistry",
+    "image": "guides/laboratory",
     "summary": "Compare laboratory and eye-care equipment by the tests, supplies, quality work and complete configurations your service can sustain.",
     "intro": "Choose the results the service needs to deliver before choosing an analyzer or examination device. For laboratory equipment, workload, pack size, expiry and quality-control use can change the cost per reportable result. For optical and imaging equipment, missing accessories or software can change the whole package. Use these comparisons to narrow the brief before choosing individual models.",
     "entries": [
       {
         "id": "laboratory",
         "title": "Chemistry and hematology analyzers",
-        "image": "reference/chemistry",
+        "image": "guides/laboratory",
         "listing": "laboratory",
         "summary": "Start with the test menu and realistic daily volume. Compare cost per reportable result after controls, calibration, repeats and unused reagent.",
         "explanation": "Chemistry analyzers measure substances in samples; hematology analyzers assess blood cells. Each instrument depends on its test menu, reagents, controls, calibration, and maintenance to form a working laboratory service.",
         "options": [
           [
             "Lower-volume laboratory",
-            "Favour a package whose batch size, reagent packs and startup workload suit actual demand. Higher advertised throughput may add little value."
+            "Choose around the test menu, small batches and packs the laboratory will actually finish. Compare a supported smaller analyzer with a faster model at the same workload. Startup, controls and reagent waste can erase a lower nominal reagent cost."
           ],
           [
             "Higher-volume laboratory",
@@ -695,16 +930,32 @@ export const legacyArticleRevisions = [
           "Obtain reagent, calibrator, control, cleaner, and consumable lists with storage requirements, shelf life, minimum orders, and local supply arrangements.",
           "Have the laboratory team review water quality, room conditions, utilities, waste, quality-control work, training, and performance verification before acceptance."
         ],
-        "cost": "Include quality control, calibration, repeats, reagent waste, maintenance and staff time. Keep open-reagent claims conditional on method validation and local laboratory approval.",
+        "cost": "Compare reagent purchase with reagent-rental or placement terms where offered. Include minimum purchases, unused reagents, controls, calibration, service and exit charges. A low-capital arrangement can be costly at low volume. Keep a suitable supported analyzer when its real problem is replenishment or a repairable accessory.",
         "sources": [
           "laboratory",
           "chemistry"
-        ]
+        ],
+        "photo": {
+          "id": "laboratory",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Sysmex_XT-4000i.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sysmex_XT-4000i.jpg",
+          "photographer": "Ptrump16",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "caption": "A Sysmex XT-4000i hematology analyzer photographed in a working laboratory. Equipment example.",
+          "captionContext": "Sysmex XT-4000i hematology analyzer in a working laboratory. Category illustration; it is not one of the compact analyzers compared in this guide.",
+          "alt": "Sysmex XT-4000i hematology analyzer with sample racks and its connected laboratory workstation.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "modelMatchNote": "Related equipment category; XT-4000i is explicitly identified, not presented as XQ-320, pocH-100i or XW-100.",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "point-of-care",
         "title": "Cartridge and point-of-care analyzers",
-        "image": "reference/point-of-care",
+        "image": "guides/point-of-care",
         "listing": "point-of-care",
         "summary": "Price the required cartridge panels and their usable shelf life before the reader. Compare near-patient testing with the actual laboratory alternative.",
         "explanation": "Point-of-care analyzers bring selected tests closer to the patient. Many use cartridges containing the materials for a particular test or panel. Cartridge supply, storage, and quality control are as important as the reader.",
@@ -715,7 +966,7 @@ export const legacyArticleRevisions = [
           ],
           [
             "Central laboratory alternative",
-            "Compare when reliable transport and reporting can meet the clinical need. Use the whole turnaround and cost, not just analyzer acquisition time."
+            "Keep dependable laboratory referral on the shortlist when its sample transport and result return meet the clinical need. Near-patient testing earns its additional supplies and quality work when the faster usable result changes the service, not merely because the reader is portable."
           ]
         ],
         "checks": [
@@ -723,10 +974,28 @@ export const legacyArticleRevisions = [
           "Check refrigerated and room-temperature storage limits for each cartridge. Do not apply one cartridge’s shelf-life rules to the entire range.",
           "Include quality-control materials, operator training, connectivity, maintenance, and the process for reviewing results in the purchase plan."
         ],
-        "cost": "Calculate cost per usable panel after controls, repeats and expiry. A larger discounted order may be poor value if the service cannot use it before expiry.",
+        "cost": "Use cost per reported panel after controls, repeats and expiry. Compare the panel the clinician needs, not the advertised number of analytes. An inexpensive reader bundled with a minimum cartridge commitment can cost more than a higher-priced reader with smaller replenishment orders.",
         "sources": [
           "pointOfCare"
-        ]
+        ],
+        "photo": {
+          "id": "point-of-care",
+          "sourcePage": "https://www.dvidshub.net/image/6190761/istat",
+          "imageUrl": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2004/6190761/2000w_q95.jpg",
+          "photographer": "Sgt. Tim Clopp / U.S. Army",
+          "license": "Public domain (U.S. federal government work)",
+          "licenseUrl": "https://www.dvidshub.net/about/copyright",
+          "caption": "An i-STAT handheld blood analyzer during the COVID-19 response in Detroit, April 2020. Documentary equipment photograph.",
+          "captionContext": "An i-STAT handheld blood analyzer in use during the COVID-19 response in Detroit, April 2020. Documentary equipment photograph; not MMS staff or inventory.",
+          "alt": "Medical personnel in protective equipment holding an i-STAT 1 handheld blood analyzer.",
+          "fit": "contain",
+          "modelMatch": "family",
+          "modelMatchNote": "i-STAT 1 family visible in photograph; exact installed software, cartridge configuration and regulatory market not established.",
+          "creditNote": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.",
+          "usageNote": "Use as editorial equipment illustration, not an MMS endorsement or testimonial. Retain source attribution and disclaimer in photo credits; do not use this personnel image for a paid promotional campaign.",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "small-analyzers",
@@ -734,7 +1003,7 @@ export const legacyArticleRevisions = [
         "image": "reference/hemoglobin",
         "listing": "point-of-care",
         "summary": "Buy the reader and its recurring tests together. Small packs and dependable replenishment can matter more than a discount on the instrument.",
-        "explanation": "Hemoglobin readers, glucose meters, and urine analyzers answer different testing questions. Each uses specified sample types and consumables. A low-cost reader still needs a dependable supply of the correct tests and controls.",
+        "explanation": "A dedicated reader can keep a small test menu manageable, but its supplies determine whether it works at the destination. For example, HemoCue’s Hb 201+ page specifies 15–30°C storage for unopened microcuvettes and a three-month opened-vial period. Those limits require a real storage and consumption plan; they are not rules for other hemoglobin, glucose or urine products.",
         "options": [
           [
             "Single-purpose reader",
@@ -751,7 +1020,7 @@ export const legacyArticleRevisions = [
           "Include control materials, sampling supplies, cleaning, batteries or power supplies, and an acceptance demonstration using the approved process.",
           "The linked HemoCue example covers hemoglobin testing, while the WHO reference addresses laboratory procurement. Obtain separate model-specific instructions for proposed glucose meters and urine analyzers."
         ],
-        "cost": "Compare complete testing costs at expected volume and a lower-use scenario. Consider individual packaging where it reduces likely waste, without assuming it always gives the lowest cost.",
+        "cost": "Compare vials and individual packs at the clinic’s actual testing frequency. Count expected unused open-vial stock as waste, while retaining unexpired sealed stock as inventory. Choose a simpler single-test system when it meets the need; add separate platforms only when staff can support their controls and replenishment.",
         "sources": [
           "hemoglobin",
           "laboratory"
@@ -767,7 +1036,7 @@ export const legacyArticleRevisions = [
         "options": [
           [
             "Microscope",
-            "Put optical condition and the required objectives first. Add camera or teaching accessories when they serve an actual workflow."
+            "Prioritize accepted optical condition, objectives and stable mechanics. Repairing a supported microscope’s illumination or stand can be worthwhile when its optics meet the methods. Add a camera only for a defined reporting, consultation or teaching task."
           ],
           [
             "Centrifuge",
@@ -780,7 +1049,7 @@ export const legacyArticleRevisions = [
           "Request rotor condition and service records, lid and safety-interlock checks, and the manufacturer’s applicable service-life limits.",
           "The linked Thermo Fisher guide covers centrifuges. Obtain the proposed microscope's manufacturer documentation for its optics, accessories, cleaning, and service requirements."
         ],
-        "cost": "Include rotors, buckets, adapters, illumination and support. A low-priced instrument missing the required working components may cost more to complete than a suitable package.",
+        "cost": "Compare the complete rotor, buckets and tube adapters before comparing centrifuge price or RPM. For a used unit, a missing or unacceptable rotor can change the purchase entirely. Include the manufacturer’s rotor-life requirements and a local service route in the decision; do not assume a replacement rotor is affordable or interchangeable.",
         "sources": [
           "centrifuge"
         ]
@@ -795,7 +1064,7 @@ export const legacyArticleRevisions = [
         "options": [
           [
             "Replace one instrument",
-            "Match the existing methods, consumables and service route. Check whether the proposed replacement resolves the actual bottleneck."
+            "Replace the step that limits accepted specimen output. If sectioning is constrained by a worn microtome, compare qualified repair with replacement. If specimens are waiting for processing, another microtome may not improve turnaround."
           ],
           [
             "Open a new service",
@@ -807,7 +1076,7 @@ export const legacyArticleRevisions = [
           "Request mechanical and functional assessment of used equipment and a demonstration appropriate to the laboratory’s work.",
           "Include reagent handling, ventilation and waste planning, preventive maintenance, and training in the project budget."
         ],
-        "cost": "Price the complete pathway, recurring reagents and consumables, ventilation needs, training and verification. Assign responsibility for installation and acceptance across the equipment chain.",
+        "cost": "Price the whole pathway, including reagents, blades, cassettes, ventilation, waste handling and verification. For low initial volume, compare an approved referral arrangement with opening every step at once. A phased service should have a clear route for the work it cannot yet perform.",
         "sources": [
           "histology"
         ]
@@ -815,14 +1084,14 @@ export const legacyArticleRevisions = [
       {
         "id": "ophthalmology",
         "title": "Retinal cameras, slit lamps, and tonometers",
-        "image": "reference/retinal-camera",
+        "image": "guides/ophthalmology",
         "listing": "ophthalmology",
         "summary": "Separate retinal imaging, slit-lamp examination and pressure measurement. Then compare complete optics, software and patient-contact accessories.",
         "explanation": "A retinal camera captures images of the back of the eye. A slit lamp supports a magnified eye examination, and a tonometer measures eye pressure. They perform different jobs and need different accessories.",
         "options": [
           [
             "Retinal camera",
-            "Choose handheld or desktop around the examination and review workflow. Include capture hardware, computer, software rights and export."
+            "Choose handheld capture when mobility is a real requirement and the team can obtain accepted images and return them for review. Choose a desktop arrangement when the fixed examination workflow justifies it. Demonstrate capture, transfer, retrieval and review before valuing an older camera body."
           ],
           [
             "Slit lamp and tonometer",
@@ -834,12 +1103,27 @@ export const legacyArticleRevisions = [
           "For a slit lamp, check the optics, movement, illumination, table or mount, and any specified accessories with the eye-care team.",
           "For tonometry, confirm probe or tip compatibility and the manufacturer’s cleaning or single-use requirements. Include recurring supplies in every comparison."
         ],
-        "cost": "Compare a demonstrated examination package, including software, camera adapters, probes or tips, service and transport protection. A cheap camera body is not necessarily a usable imaging system.",
+        "cost": "Quote camera software and adapters, slit-lamp mounting, and tonometer supplies separately. iCare TP01 probes, for example, are specified for IC100, IC200, ST500 and TA01i and are single-use. Confirm the exact model and recurrent probe bill; a same-brand accessory is not automatically interchangeable.",
         "sources": [
           "retinal",
           "tonometry",
           "slitLamp"
-        ]
+        ],
+        "photo": {
+          "id": "ophthalmology",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Keeler_slitlamp_on_unit.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Keeler_slitlamp_on_unit.jpg",
+          "photographer": "Phoropter99",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "A Keeler table-mounted slit lamp beside a Medmont corneal topographer. Equipment example.",
+          "captionContext": "A Keeler table-mounted slit lamp beside a Medmont corneal topographer. This shows the equipment category, not the handheld Keeler PSL discussed below.",
+          "alt": "A Keeler table-mounted slit lamp with binocular eyepieces, chin rest and illumination arm.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       }
     ],
     "checklist": [
@@ -856,38 +1140,54 @@ export const legacyArticleRevisions = [
       "point-of-care",
       "ophthalmology"
     ],
-    "minutes": 6,
+    "minutes": 7,
     "updated": "2026-10-18",
-    "socialTitle": "Buying diagnostic equipment: pay for usable results",
+    "socialTitle": "Diagnostic equipment: the real cost of a usable result",
     "socialDescription": "Compare laboratory and eye-care equipment by the tests, supplies, quality work and complete configurations your service can sustain.",
-    "socialHeadline": "Buying diagnostic equipment: pay for usable results",
+    "socialHeadline": "Diagnostic equipment: the real cost of a usable result",
     "socialStrapline": "A low instrument price can hide an expensive test.",
     "relatedArticles": [
       "laboratory-buying-guide",
       "point-of-care-buying-guide",
       "ophthalmology-buying-guide"
-    ]
+    ],
+    "photo": {
+      "id": "laboratory",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sysmex_XT-4000i.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sysmex_XT-4000i.jpg",
+      "photographer": "Ptrump16",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "caption": "A Sysmex XT-4000i hematology analyzer photographed in a working laboratory. Equipment example.",
+      "captionContext": "Sysmex XT-4000i hematology analyzer in a working laboratory. Category illustration; it is not one of the compact analyzers compared in this guide.",
+      "alt": "Sysmex XT-4000i hematology analyzer with sample racks and its connected laboratory workstation.",
+      "fit": "contain",
+      "modelMatch": "category",
+      "modelMatchNote": "Related equipment category; XT-4000i is explicitly identified, not presented as XQ-320, pocH-100i or XW-100.",
+      "verifiedAt": "2026-10-17",
+      "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+    }
   },
   {
     "id": "hospital-essentials-buying-guide",
-    "title": "Hospital essentials: find the costs behind the equipment",
+    "title": "Hospital essentials: the costs hiding behind the machine price",
     "category": "Hospital essentials",
     "department": "hospital",
-    "image": "reference/autoclave",
+    "image": "guides/sterilization",
     "summary": "Compare sterilization, beds, refrigeration and dialysis as complete working systems with utilities, accessories and ongoing support.",
     "intro": "A sterilizer needs a workable processing pathway; a bed needs a compatible mattress; a refrigerator needs a response when temperature control fails. These dependencies can decide value before the equipment brand does. Compare the complete installed and recurring commitment, then spend more where it solves a real limitation in the service.",
     "entries": [
       {
         "id": "sterilization",
         "title": "Autoclaves and sterile processing",
-        "image": "reference/autoclave",
+        "image": "guides/sterilization",
         "listing": "sterilization",
         "summary": "Choose around accepted loads and usable turnaround. Chamber volume alone does not tell you how many required instrument sets the service can process.",
         "explanation": "A steam autoclave sterilizes compatible items using a validated cycle. Cleaning, preparation, packaging, loading, and monitoring are part of the process; a sterilizer is one component of a complete instrument-processing workflow.",
         "options": [
           [
             "Tabletop sterilizer",
-            "Compare when the permitted loads, usable chamber and cycle workflow meet demand. Include drying, documentation and the specified utilities."
+            "Choose when the approved loads and daily released-set demand fit the complete workflow. Current Midmark M11 documentation illustrates features such as automated cycle records and USB export. Pay for those when they improve the team’s documentation work; they do not prove that every instrument load is suitable."
           ],
           [
             "Department-scale system",
@@ -899,23 +1199,38 @@ export const legacyArticleRevisions = [
           "Check the exact water-quality, electrical, ventilation, and maintenance requirements. Do not assume that tap water or a shared socket is suitable.",
           "Request service records, a sound chamber and door assessment, installation qualification as applicable, and a facility-approved monitoring and release process."
         ],
-        "cost": "Include cleaning, packaging, indicators, water preparation, maintenance and trained operators. Compare usable accepted loads over the working day, not an unqualified promise of universal sterilization.",
+        "cost": "Compare released instrument sets over the working day, including cleaning, packaging, indicators, water and maintenance. If too few complete sets are the problem, quote additional instruments before another chamber. A larger sterilizer helps only when its approved loads and the upstream preparation can use the capacity.",
         "sources": [
           "sterilizer",
           "sterilizerCare"
-        ]
+        ],
+        "photo": {
+          "id": "sterilization",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:AUTOCLAVE_4210.jpg",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AUTOCLAVE_4210.jpg",
+          "photographer": "Fernando A. Rivetti Suelotto",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/File:AUTOCLAVE_4210.jpg",
+          "caption": "A steam autoclave with its chamber door and front controls visible. Equipment example.",
+          "captionContext": "A steam autoclave. Category illustration; not a Midmark M11 or other specific model shortlisted below.",
+          "alt": "A steam autoclave with its chamber door and front controls visible.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "beds",
         "title": "Hospital beds and patient transport",
-        "image": "beds",
+        "image": "guides/beds",
         "listing": "beds",
         "summary": "Compare frame, mattress, rails and accessories as one system. A frame-only price can hide the cost of a usable bed.",
         "explanation": "Hospital beds support positioning and bedside care; stretchers and transport equipment help move patients. Mattress, rails, controls, brakes, and accessories should be evaluated as a compatible system.",
         "options": [
           [
             "Manual or basic powered bed",
-            "Choose the functions that staff and patients need, with practical height, transfer and repair arrangements. More powered functions are not automatically better value."
+            "Choose the functions needed for patient positioning, transfer and staff work. Compare restoring suitable frames with replacing them, including the approved mattress and rails. A powered height adjustment may justify extra spending when the actual care workflow needs it; unused advanced functions do not."
           ],
           [
             "Specialty bed or stretcher",
@@ -927,15 +1242,30 @@ export const legacyArticleRevisions = [
           "Ask the receiving team to assess the complete bed and mattress combination for entrapment risks; substituting a mattress can change the system.",
           "Inspect brakes, wheels, rails, controls, cables, motors, batteries where fitted, and surfaces that must be cleaned."
         ],
-        "cost": "Include a suitable mattress, accessories, freight volume, assembly and parts. An inexpensive bed that cannot travel the intended route or use the accepted mattress is the wrong package.",
+        "cost": "Price ready-to-use bed systems, freight volume, assembly and replacement parts. Obtain costs for likely planned replacements such as mattresses, hand controls and batteries where fitted. A cheap frame with no practical compatible mattress or service route can consume the initial saving before use.",
         "sources": [
           "beds"
-        ]
+        ],
+        "photo": {
+          "id": "beds",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Hospital_Bed_2011.JPG",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hospital_Bed_2011.JPG",
+          "photographer": "Blogotron",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "caption": "A hospital bed with side rails and mattress, photographed in 2011. Archive equipment example.",
+          "captionContext": "A hospital bed photographed in 2011. An archive category illustration, not a current offer or a shortlisted model.",
+          "alt": "A hospital bed with side rails, mattress and attached controls.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "refrigeration",
         "title": "Medical refrigeration and cold chain",
-        "image": "refrigeration",
+        "image": "guides/refrigeration",
         "listing": "refrigeration",
         "summary": "Specify the products and their storage requirements first. Compare usable capacity, monitoring and the failure-response plan together.",
         "explanation": "Medical refrigeration maintains the storage conditions required by the products inside it. Vaccines, reagents, medicines, and blood products can need different storage systems, monitoring, and backup arrangements.",
@@ -946,7 +1276,7 @@ export const legacyArticleRevisions = [
           ],
           [
             "Remote-site installation",
-            "Choose around the actual power and ambient environment. Budget backup arrangements and an actionable response when equipment or power fails."
+            "Compare an appropriate solar or backup-power installation when electricity is the unresolved constraint. Use the proposed refrigerator’s ambient limits and usable storage layout. Protecting the equipment alone is insufficient if the temperature monitor, alarm response or emergency transfer route is missing."
           ]
         ],
         "checks": [
@@ -954,22 +1284,37 @@ export const legacyArticleRevisions = [
           "Include continuous temperature monitoring, alarm response, probe placement, calibration arrangements, and record access in the purchase plan.",
           "Check installation clearance, service access, power interruption behavior, transport protection, and destination support."
         ],
-        "cost": "Include monitoring, maintenance, backup and potential stock loss. Use guidance for the actual product: vaccine storage guidance does not establish a blood-storage specification.",
+        "cost": "Compare the accepted usable storage capacity and the complete monitoring/response arrangement. Keeping a supported cabinet can be sensible when a repair or room improvement restores its required performance. A lower-priced larger cabinet is poor value if its operating environment cannot be met. Apply vaccine, reagent and blood guidance only to the relevant products.",
         "sources": [
           "coldChain"
-        ]
+        ],
+        "photo": {
+          "id": "refrigeration",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Vaccine;_Temperature;_Refrigerator_(5941076542).jpg",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vaccine%3B_Temperature%3B_Refrigerator_%285941076542%29.jpg",
+          "photographer": "National Institute of Standards and Technology",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vaccine;_Temperature;_Refrigerator_(5941076542).jpg",
+          "caption": "A refrigerator used in a NIST vaccine-temperature study, shown with measurement equipment. Research photograph.",
+          "captionContext": "A refrigerator used in a NIST vaccine-temperature study. Research context, not a recommendation for this refrigerator or a validated storage setup.",
+          "alt": "A refrigerator containing vaccine-study materials and temperature measurement equipment.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "dialysis",
         "title": "Hemodialysis equipment and water systems",
-        "image": "dialysis",
+        "image": "guides/dialysis",
         "listing": "dialysis",
         "summary": "For conventional hemodialysis, the water system and ongoing supplies belong in the same decision as the treatment machine.",
         "explanation": "Hemodialysis uses a machine and dialyzer to remove wastes and excess fluid from blood. Conventional hemodialysis also depends on a properly designed water-treatment and distribution system, consumables, and specialist support.",
         "options": [
           [
             "Replacement machine",
-            "Compare with the accepted existing infrastructure, consumables and maintenance capability. Confirm the offered configuration fits that service."
+            "Start with the existing accepted water and distribution capacity, treatment configuration, consumables and service skills. A replacement that fits this system may avoid unnecessary change, but compatibility must be verified for the actual machine and installation."
           ],
           [
             "New dialysis service",
@@ -981,10 +1326,25 @@ export const legacyArticleRevisions = [
           "Confirm compatible consumables, concentrate supply, service documentation, spare parts, and the exact offered configuration.",
           "Assign commissioning and ongoing performance checks to qualified clinical and technical personnel, with clear responsibility for the whole installation."
         ],
-        "cost": "Compare installed and recurring costs, including water-system upkeep, testing, consumables, training and repair response. Do not open the service budget with the machine price alone.",
+        "cost": "Compare installed and recurring cost per planned treatment using the same schedule. Include water-system upkeep, testing, disinfection, consumables, training and repair cover. Check how many stations can operate when a machine or shared water component is unavailable; another machine cannot solve a shared infrastructure failure.",
         "sources": [
           "dialysis"
-        ]
+        ],
+        "photo": {
+          "id": "dialysis",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Dialog-dialysis-machine-b-braun.jpg",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dialog-dialysis-machine-b-braun.jpg",
+          "photographer": "Jonas@sodratornet.se",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "caption": "A B. Braun Dialog dialysis machine with its display and treatment controls. Archive equipment example.",
+          "captionContext": "A B. Braun Dialog dialysis machine. This archive photograph is not the Dialog iQ model compared below.",
+          "alt": "A B. Braun Dialog dialysis machine with its display and front treatment controls.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       }
     ],
     "checklist": [
@@ -1002,39 +1362,54 @@ export const legacyArticleRevisions = [
       "refrigeration",
       "dialysis"
     ],
-    "minutes": 4,
+    "minutes": 5,
     "updated": "2026-10-18",
-    "socialTitle": "Hospital essentials: find the costs behind the equipment",
+    "socialTitle": "Hospital essentials: the costs hiding behind the machine price",
     "socialDescription": "Compare sterilization, beds, refrigeration and dialysis as complete working systems with utilities, accessories and ongoing support.",
-    "socialHeadline": "Hospital essentials: find the costs behind the equipment",
+    "socialHeadline": "Hospital essentials: the costs hiding behind the machine price",
     "socialStrapline": "The room, water supply or mattress can decide the better purchase.",
     "relatedArticles": [
       "sterilization-buying-guide",
       "beds-buying-guide",
       "refrigeration-buying-guide",
       "dialysis-buying-guide"
-    ]
+    ],
+    "photo": {
+      "id": "sterilization",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:AUTOCLAVE_4210.jpg",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AUTOCLAVE_4210.jpg",
+      "photographer": "Fernando A. Rivetti Suelotto",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:AUTOCLAVE_4210.jpg",
+      "caption": "A steam autoclave with its chamber door and front controls visible. Equipment example.",
+      "captionContext": "A steam autoclave. Category illustration; not a Midmark M11 or other specific model shortlisted below.",
+      "alt": "A steam autoclave with its chamber door and front controls visible.",
+      "fit": "contain",
+      "modelMatch": "category",
+      "verifiedAt": "2026-10-17",
+      "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+    }
   },
   {
     "id": "mission-clinic-equipment-guide",
-    "title": "Mission-clinic equipment: build a kit you can keep using",
+    "title": "Mission-clinic equipment: what earns a place in the kit?",
     "category": "Mission planning",
     "department": null,
-    "image": "reference/otoscope",
+    "image": "guides/clinical-essentials",
     "summary": "Plan examination, testing and procedure equipment around trained users, recurring supplies, power and a dependable referral pathway.",
     "intro": "Build the kit around services the receiving team can sustain. For each item, include the accessories, consumables, storage, training and maintenance needed after delivery. Choose additions that improve those services; a portable device or a donated machine should earn its place by the work it will actually support.",
     "entries": [
       {
         "id": "clinical-essentials",
         "title": "Examination and vital-sign equipment",
-        "image": "reference/otoscope",
+        "image": "guides/clinical-essentials",
         "listing": "clinical-essentials",
         "summary": "Complete the examination kit for the patients you serve. Correct cuffs, specula, chargers and replacements make the headline device useful.",
         "explanation": "Examination tools and vital-sign devices help clinicians gather basic information. Otoscopes, blood-pressure monitors, thermometers, and pulse oximeters do different jobs, with patient-size and accessory requirements to consider.",
         "options": [
           [
             "Core examination kit",
-            "Start with the clinician-approved examination and vital-sign tools. Choose compatible accessories and a practical stock of replacements."
+            "Complete the approved core kit before adding features: the patient-size cuffs, specula, charging and replacement supplies must travel with it. A supported existing otoscope or monitor may need a charger or accessory rather than replacement."
           ],
           [
             "Connected instruments",
@@ -1046,11 +1421,26 @@ export const legacyArticleRevisions = [
           "Match blood-pressure cuffs and other patient-contact accessories to the intended population. Ask the team to evaluate usability and cleaning before standardizing.",
           "For pulse oximeters, assess intended medical use, probe suitability, and known accuracy limitations. Do not assume every inexpensive consumer device is suitable for clinical purchasing."
         ],
-        "cost": "Compare complete kits and recurring supplies, including batteries. Maintain compatible part numbers and reorder points so a missing cuff or charger does not disable the service.",
+        "cost": "Compare usable kits for the actual patient groups. Budget duplicate essential accessories or an accepted spare where one loss would stop the service. Pay for connectivity when somebody can use the resulting records; otherwise preserve funds for equipment readiness and supplies.",
         "sources": [
           "exam",
           "oximetry"
-        ]
+        ],
+        "photo": {
+          "id": "clinical-essentials",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:2023_Stetoskop.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/2023_Stetoskop.jpg",
+          "photographer": "Jacek Halicki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "caption": "An acoustic stethoscope with its tubing, earpieces and chestpiece, photographed in 2023. Equipment example.",
+          "captionContext": "An acoustic stethoscope, photographed in 2023. A category illustration; not a Littmann or Eko model.",
+          "alt": "An acoustic stethoscope with black tubing, metal earpieces and a round chestpiece against a light background.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "verifiedAt": "2026-10-17",
+          "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+        }
       },
       {
         "id": "portable-testing",
@@ -1066,7 +1456,7 @@ export const legacyArticleRevisions = [
           ],
           [
             "More complex testing",
-            "Compare a cartridge platform with dependable laboratory referral. Include actual turnaround, sample transport and the cost of unused panels."
+            "Add a cartridge platform when its required result and timing justify the supply, storage and quality work. Keep a dependable laboratory referral option for infrequent or more complex tests. Carrying a larger menu creates little value if results cannot be reviewed or acted on."
           ]
         ],
         "checks": [
@@ -1074,7 +1464,7 @@ export const legacyArticleRevisions = [
           "Confirm transport and storage requirements, including opened-container limits and the environmental conditions at the clinic.",
           "Include operator training, quality-control responsibilities, recording, and an appropriate result-review process."
         ],
-        "cost": "Request small-pack and replenishment prices. Count waste, repeats, controls and transport when comparing cost per usable result.",
+        "cost": "Price small replenishment orders and their freight against bulk purchases with likely waste. HemoCue Hb 201+ illustrates why storage matters: its stated microcuvette conditions are not the analyzer’s wider storage limits. Keep the device, consumables and controls within their own instructions throughout transport and clinic use.",
         "sources": [
           "hemoglobin",
           "laboratory",
@@ -1091,11 +1481,11 @@ export const legacyArticleRevisions = [
         "options": [
           [
             "Spirometer",
-            "Compare the required measurement and reporting workflow with sensor, mouthpiece, filter and quality-assurance costs. Include usable software rights."
+            "Choose a spirometer when trained operators can produce and review acceptable tests and maintain the specified verification process. Demonstrate the reporting software on the actual supported computer. A second device does not fix a training or software-access gap."
           ],
           [
             "Audiometer",
-            "Choose screening or diagnostic capability for the approved service. Match transducers, calibration support and room-noise conditions to that task."
+            "Choose hearing screening or diagnostic capability for the approved service and room. Include the matched calibrated transducers. If the outreach venue cannot support the required conditions, compare referral or a suitable testing location before buying a more elaborate audiometer."
           ]
         ],
         "checks": [
@@ -1119,7 +1509,7 @@ export const legacyArticleRevisions = [
         "options": [
           [
             "Portable slit lamp",
-            "Compare optics and illumination in the actual working position. Include charging, protective transport and a repair route."
+            "Choose portability when it enables the intended examination at the actual outreach position. Ask the eye-care team to assess optics, illumination, handling and charging. A small device that is awkward for the team may be less useful than a supported fixed setup at the receiving clinic."
           ],
           [
             "Tonometer or retinal camera",
@@ -1131,7 +1521,7 @@ export const legacyArticleRevisions = [
           "Budget for the exact probes, tips, batteries, chargers, and cleaning supplies the chosen device requires.",
           "Include protective cases and a service route. Confirm data export and software support for any connected camera."
         ],
-        "cost": "Price the whole examination package and continuing supplies. Preserve single-use instructions for contact accessories and include a way to repair or replace failed components.",
+        "cost": "Compare the whole examination and review route. For tonometry, budget the exact permitted probes or tips; for imaging, include software, export and the clinician who reviews the images. Fixing missing accessories on accepted existing equipment may deliver more useful examinations than adding another camera body.",
         "sources": [
           "slitLamp",
           "tonometry",
@@ -1141,18 +1531,18 @@ export const legacyArticleRevisions = [
       {
         "id": "procedure-kits",
         "title": "Procedure instruments and emergency readiness",
-        "image": "reference/instruments",
+        "image": "guides/surgical-instruments",
         "listing": "clinical-essentials",
         "summary": "Build complete sets for the approved procedures, with reprocessing and emergency readiness funded alongside the instruments.",
         "explanation": "A procedure kit groups the instruments and supplies for an agreed service. Reusable instruments need compatible processing and storage. Emergency equipment should be planned separately with the clinical team’s scope and training in mind.",
         "options": [
           [
             "Reusable instrument sets",
-            "Choose when the full specified processing, inspection and storage pathway can be sustained. Include enough sets for the schedule and turnaround."
+            "Choose reusable sets when the receiving service can sustain the full specified processing, inspection and storage pathway. Count complete sets available during turnaround and repair. Repair or replace missing instruments that keep an otherwise useful set out of service before buying a larger assortment."
           ],
           [
             "Single-use supplies",
-            "Compare when appropriate for the service and reliably replenishable. Include expiry, storage and waste handling in the recurring budget."
+            "Compare approved single-use supplies when replenishment is reliable and the alternative processing investment is disproportionate to the planned work. Include expiry, freight and waste handling. Do not justify the choice by assuming single-use items can be reprocessed."
           ]
         ],
         "checks": [
@@ -1164,7 +1554,23 @@ export const legacyArticleRevisions = [
         "sources": [
           "reprocessing",
           "donations"
-        ]
+        ],
+        "photo": {
+          "id": "surgical-instruments",
+          "photographer": "آرمین",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "caption": "Surgical instruments, photographed in December 2012. Archive equipment example.",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Surgical_Instruments_01.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Surgical_Instruments_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "captionContext": "Surgical instruments, photographed in December 2012. Archive equipment example. Illustrative photograph; the exact configuration discussed may differ.",
+          "alt": "Surgical instruments, photographed in December 2012. Archive equipment example.",
+          "fit": "contain",
+          "modelMatch": "category",
+          "modelMatchNote": "Not evidence of MMS stock, recommended options, current support, performance or endorsement.",
+          "verifiedAt": "2026-10-18",
+          "changes": "Resized and converted to WebP; photographic content retained. The stated licence remains applicable."
+        }
       },
       {
         "id": "mission-planning",
@@ -1176,11 +1582,11 @@ export const legacyArticleRevisions = [
         "options": [
           [
             "Permanent facility",
-            "Plan standardization, utilities and continuing supply around the local service. Name who maintains the asset and its records after handover."
+            "For a permanent service, prioritize local replenishment, stable utilities and a named maintenance budget. Ask the receiving team which supported equipment can be repaired or completed before shipping another platform with new supplies and training."
           ],
           [
             "Mobile team",
-            "Plan packing, charging, transport, consumable quantities and offline access. Agree what stays with local partners and who supports it."
+            "For a mobile team, price the complete packed kit, charging, transport, storage and return plan. Decide which equipment stays with the local service and transfer its instructions, accessories and support responsibilities explicitly."
           ]
         ],
         "checks": [
@@ -1188,7 +1594,7 @@ export const legacyArticleRevisions = [
           "Have qualified personnel assess power and installation needs. Select any backup supply around the equipment’s documented requirements rather than an improvised arrangement.",
           "For electronic records, assess offline workflow, access controls, backups, export, local support, and privacy obligations; software availability alone is not an implementation plan."
         ],
-        "cost": "Compare delivered usable cost and continuing operation. Assign a response for accessory failure, supply interruption or delayed repair before equipment leaves the donor.",
+        "cost": "Compare delivered usable cost with a smaller funded kit and an established referral route. A donation should pass the same continuing-cost test as a purchase. Release shipment after the recipient has accepted the exact package and essential site, supply and maintenance commitments are funded.",
         "sources": [
           "donations"
         ]
@@ -1208,31 +1614,46 @@ export const legacyArticleRevisions = [
       "point-of-care",
       "ophthalmology"
     ],
-    "minutes": 5,
+    "minutes": 6,
     "updated": "2026-10-18",
-    "socialTitle": "Mission-clinic equipment: build a kit you can keep using",
+    "socialTitle": "Mission-clinic equipment: what earns a place in the kit?",
     "socialDescription": "Plan examination, testing and procedure equipment around trained users, recurring supplies, power and a dependable referral pathway.",
-    "socialHeadline": "Mission-clinic equipment: build a kit you can keep using",
+    "socialHeadline": "Mission-clinic equipment: what earns a place in the kit?",
     "socialStrapline": "A smaller complete kit can be more useful than a longer equipment list.",
     "relatedArticles": [
       "clinical-essentials-buying-guide",
       "point-of-care-buying-guide",
       "ophthalmology-buying-guide",
       "sterilization-buying-guide"
-    ]
+    ],
+    "photo": {
+      "id": "clinical-essentials",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023_Stetoskop.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/2023_Stetoskop.jpg",
+      "photographer": "Jacek Halicki",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "caption": "An acoustic stethoscope with its tubing, earpieces and chestpiece, photographed in 2023. Equipment example.",
+      "captionContext": "An acoustic stethoscope, photographed in 2023. A category illustration; not a Littmann or Eko model.",
+      "alt": "An acoustic stethoscope with black tubing, metal earpieces and a round chestpiece against a light background.",
+      "fit": "contain",
+      "modelMatch": "category",
+      "verifiedAt": "2026-10-17",
+      "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+    }
   },
   {
     "id": "planning-hospital-equipment",
-    "title": "Get comparable equipment quotes: write a better brief",
+    "title": "Better medical equipment quotes start with a sharper brief",
     "category": "Procurement",
     "image": "operating-room",
-    "minutes": 2,
+    "minutes": 3,
     "summary": "Give every supplier the same requirements, installed scope and opening date so the price comparison means something.",
     "intro": "A useful equipment brief explains the service you need and what must be included to make it work. It gives suppliers room to propose suitable alternatives while keeping essential requirements fixed. Use one version for every bidder, and record any changes so the final offers still describe the same purchase.",
     "sections": [
       [
         "Define the work and the minimum package",
-        "Start with the department, patient groups and work the equipment must support. For each item, record quantity, essential functions, required accessories and the date it must be operational. Ask clinical and technical owners to separate essentials from preferences. For example, an ultrasound request should name the examination and probe requirements rather than simply asking for the newest console. This makes it possible to consider a simpler suitable configuration without losing the required capability."
+        "Start with the department, patient groups and work the equipment must support. For each item, record quantity, essential functions, required accessories and the date it must be operational. Ask clinical and technical owners to separate essentials from preferences. For example, an ultrasound request should name the examination and probe requirements rather than simply asking for the newest console. This makes it possible to consider a simpler suitable configuration without losing the required capability.\n\nFor example, specify the approved examinations, patient groups, probe types, image export and service requirements for an ultrasound purchase. Let suppliers quote a base package that meets those needs, then price optional features separately. This makes a newer console with fewer essential probes visibly different from an older supported package that can do the work."
       ],
       [
         "Describe the destination and what is ready",
@@ -1240,11 +1661,15 @@ export const legacyArticleRevisions = [
       ],
       [
         "Require an itemized offer and visible exclusions",
-        "Ask each supplier to mark equipment, accessories, software rights, documentation, packing, freight, installation, training and support as included, separately priced or excluded. Identify the offered configuration and any proposed substitution. Keep unresolved costs visible until an owner supplies a defensible estimate. A photograph of a complete system should not substitute for an accessory list, and an unknown cost should not enter the comparison as zero."
+        "Ask each supplier to mark equipment, accessories, software rights, documentation, packing, freight, installation, training and support as included, separately priced or excluded. Identify the offered configuration and any proposed substitution. Keep unresolved costs visible until an owner supplies a defensible estimate. A photograph of a complete system should not substitute for an accessory list, and an unknown cost should not enter the comparison as zero.\n\nPut each offer into three totals: delivered equipment, installed and accepted equipment, and the first agreed period of operation. A supplier can win on one and lose on another. Ask for the recurring prices that matter to the category, such as infusion sets, test cartridges, probe repairs or maintenance visits, with validity and quantity assumptions."
       ],
       [
         "Use the budget and deadline to choose a workable route",
         "Share the available budget and funding status, distinguishing equipment funds from site and continuing-operation funds. State whether the opening date is firm or preferred and which approvals remain. Request a sequence covering preparation, delivery, installation, acceptance and training. Before ordering, agree who accepts the equipment and how missing items or a different configuration will be resolved. The strongest offer is the suitable package whose cost, responsibilities and timing the team can explain."
+      ],
+      [
+        "Make the demonstration decide something",
+        "Give shortlisted suppliers the same practical demonstration brief. Have the intended users judge the tasks that made the shortlist: obtaining the required image, fitting the accessories, moving the complete unit or transferring the result. Have technical staff examine service access and configuration evidence. Record any gap that requires another purchase. A demonstration is useful when it can remove a candidate or justify an option; a tour of every feature rarely settles the budget."
       ]
     ],
     "checklist": [
@@ -1260,9 +1685,9 @@ export const legacyArticleRevisions = [
       "ct-mri"
     ],
     "updated": "2026-10-18",
-    "socialTitle": "Get comparable equipment quotes: write a better brief",
+    "socialTitle": "Better medical equipment quotes start with a sharper brief",
     "socialDescription": "Give every supplier the same requirements, installed scope and opening date so the price comparison means something.",
-    "socialHeadline": "Get comparable equipment quotes: write a better brief",
+    "socialHeadline": "Better medical equipment quotes start with a sharper brief",
     "socialStrapline": "A clear brief exposes omissions before they become another purchase order.",
     "takeaways": [
       "Specify the work and complete minimum package before naming a preferred model.",
@@ -1276,10 +1701,10 @@ export const legacyArticleRevisions = [
   },
   {
     "id": "refurbished-equipment-questions",
-    "title": "New or refurbished equipment: what must the quote prove?",
+    "title": "New or refurbished equipment: compare the complete offer",
     "category": "Procurement",
     "image": "ultrasound",
-    "minutes": 2,
+    "minutes": 3,
     "summary": "Use condition records, exact configuration, support and acceptance terms to compare the actual equipment being offered.",
     "intro": "Compare the offered unit and the complete terms, whether the label says new, used or refurbished. A lower price can be good value when the required configuration, condition and support are clear. Use these four checks to identify evidence worth requesting before committing funds or arranging freight.",
     "sections": [
@@ -1289,7 +1714,7 @@ export const legacyArticleRevisions = [
       ],
       [
         "Turn the model name into a configuration",
-        "List hardware, software version, enabled functions, accessories and excluded items. Have the receiving technical team review compatibility with existing equipment and the destination. For example, an ultrasound console with one probe and a console with the required full probe set are different packages. A brochure or general photograph does not prove that an option is installed, licensed or included. Record accepted substitutions explicitly instead of leaving them for delivery day."
+        "List hardware, software version, enabled functions, accessories and excluded items. Have the receiving technical team review compatibility with existing equipment and the destination. For example, an ultrasound console with one probe and a console with the required full probe set are different packages. A brochure or general photograph does not prove that an option is installed, licensed or included. Record accepted substitutions explicitly instead of leaving them for delivery day.\n\nFor a monitor, require the measurement modules, patient-size sensors, cuffs and mounting needed at the bedside. For endoscopy, identify the scopes as well as the processor. A lower main-unit price can remain good value, but only after missing components are quoted and compatibility is accepted."
       ],
       [
         "Compare support at the destination",
@@ -1298,6 +1723,10 @@ export const legacyArticleRevisions = [
       [
         "Agree acceptance and remedies before shipment",
         "Define the records and tests required at dispatch and after delivery, the qualified reviewers and the deadline for reporting a problem. Include differences in configuration, missing accessories and freight damage in the agreed process. Record the warranty start, installation responsibilities and any return or correction arrangements. The clinical and technical teams determine readiness for use. Proceed when the evidence and complete cost support the choice; pause when an essential compatibility, software or acceptance question remains unanswered."
+      ],
+      [
+        "Give the saving a fair test",
+        "Consider an illustrative comparison, not current pricing. A refurbished package costs US$8,000 plus US$2,000 for required accessories and US$1,000 for assessment, installation and training: US$11,000 ready for acceptance. A comparable new package costs US$14,000 including those items. The meaningful initial difference is US$3,000, not US$6,000.\n\nCompare the remaining US$3,000 with quoted differences in service, expected planned replacements and software support over the same period. Do not turn an unknown major repair into a guessed average. If the refurbished option still has a workable support route and satisfies the clinical brief, the lower cost deserves consideration. Pay more when the extra money buys required capability or a materially more usable remedy."
       ]
     ],
     "checklist": [
@@ -1313,9 +1742,9 @@ export const legacyArticleRevisions = [
       "laboratory"
     ],
     "updated": "2026-10-18",
-    "socialTitle": "New or refurbished equipment: what must the quote prove?",
+    "socialTitle": "New or refurbished equipment: compare the complete offer",
     "socialDescription": "Use condition records, exact configuration, support and acceptance terms to compare the actual equipment being offered.",
-    "socialHeadline": "New or refurbished equipment: what must the quote prove?",
+    "socialHeadline": "New or refurbished equipment: compare the complete offer",
     "socialStrapline": "The condition label starts the discussion; the unit’s evidence settles it.",
     "takeaways": [
       "Compare actual units with the same required configuration.",
@@ -1330,11 +1759,11 @@ export const legacyArticleRevisions = [
   },
   {
     "id": "prepare-service-request",
-    "title": "Equipment down? Send a service request that can be acted on",
+    "title": "Medical equipment repair: send a fault report that gets a useful quote",
     "category": "Service & support",
-    "image": "equipment-detail",
-    "minutes": 2,
-    "summary": "Identify the exact unit, observed fault and service impact, then agree the diagnostic scope and next responsible person.",
+    "image": "guides/monitor-board-repair",
+    "minutes": 3,
+    "summary": "Send a service request with the exact unit, observed fault and service impact, then agree the diagnostic scope and next responsible person.",
     "intro": "A good service request gives the technical team enough information to identify the equipment, understand the reported problem and propose the next step. Gather what is safely available from the label, records and normal interface. Follow the facility’s procedures for equipment use and fault handling; this is a reporting checklist, not a repair procedure.",
     "sections": [
       [
@@ -1343,7 +1772,7 @@ export const legacyArticleRevisions = [
       ],
       [
         "Report observations in a short timeline",
-        "Record the exact error text, when the issue began and whether it is intermittent or continuous. Describe what was happening when it appeared and any recent service or configuration changes known from the record. List checks already completed under approved procedures and their results; avoid presenting a suspected failed part as a confirmed diagnosis. Attach readable equipment-label or error-screen images only when they contain no patient-identifying information. Include software version if it is readily available."
+        "Record the exact error text, when the issue began and whether it is intermittent or continuous. Describe what was happening when it appeared and any recent service or configuration changes known from the record. List checks already completed under approved procedures and their results; avoid presenting a suspected failed part as a confirmed diagnosis. Attach readable equipment-label or error-screen images only when they contain no patient-identifying information. Include software version if it is readily available.\n\nA useful hypothetical report is: “Ultrasound asset US-04, model and serial attached. Since Monday, the linear probe is intermittently not recognized; the convex probe remains recognized. The unit is held under our local fault procedure. No covers have been opened. We need assessment of the probe/connector issue and a quotation for the next step.” This gives observations without declaring that a particular board must be replaced."
       ],
       [
         "Explain the effect on the service",
@@ -1351,7 +1780,7 @@ export const legacyArticleRevisions = [
       ],
       [
         "Approve a defined next step",
-        "Before chargeable work proceeds, establish the proposed diagnostic scope, location, estimate and timing. Ask whether travel, parts, freight and post-repair checks are included, and set the authorization process for additional work. Agree who will update the facility and what evidence will be supplied when work is completed. Return to service remains subject to the facility’s approved procedures and required checks. Keep the report and resulting service record with the asset so the next fault does not start from an empty history."
+        "Before chargeable work proceeds, establish the proposed diagnostic scope, location, estimate and timing. Ask whether travel, parts, freight and post-repair checks are included, and set the authorization process for additional work. Agree who will update the facility and what evidence will be supplied when work is completed. Return to service remains subject to the facility’s approved procedures and required checks. Keep the report and resulting service record with the asset so the next fault does not start from an empty history.\n\nIf the next step is paid diagnosis, ask whether that charge is credited toward repair and what report is supplied if you decline further work. Compare an on-site visit with approved return-to-workshop assessment using freight, packing, loaner cost and elapsed time. Agree a spending ceiling or approval checkpoint before additional parts are ordered. The cheapest call-out can become expensive if every return visit is separately charged."
       ]
     ],
     "checklist": [
@@ -1367,9 +1796,9 @@ export const legacyArticleRevisions = [
       "ekg"
     ],
     "updated": "2026-10-18",
-    "socialTitle": "Equipment down? Send a service request that can be acted on",
+    "socialTitle": "Medical equipment repair: send a fault report that gets a useful quote",
     "socialDescription": "Identify the exact unit, observed fault and service impact, then agree the diagnostic scope and next responsible person.",
-    "socialHeadline": "Equipment down? Send a service request that can be acted on",
+    "socialHeadline": "Medical equipment repair: send a fault report that gets a useful quote",
     "socialStrapline": "A clear fault report saves the support team from rebuilding the story.",
     "takeaways": [
       "Report observations and equipment identity before guessing the failed part.",
@@ -1379,14 +1808,29 @@ export const legacyArticleRevisions = [
     "relatedArticles": [
       "service-starts-before-delivery",
       "repair-or-replace"
-    ]
+    ],
+    "photo": {
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n,_Panama_(8601110).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n%2C_Panama_%288601110%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "photographer": "Mark Logico / U.S. Navy",
+      "license": "Public domain (U.S.)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "caption": "A biomedical technician examines patient-monitor circuit boards in Colón, Panama, in August 2024. Equipment-service example.",
+      "captionContext": "A biomedical technician examines patient-monitor circuit boards in Colón, Panama, in August 2024. Equipment-service example.",
+      "alt": "A biomedical technician examines patient-monitor circuit boards in Colón, Panama, in August 2024. Equipment-service example.",
+      "fit": "contain",
+      "modelMatch": "category",
+      "modelMatchNote": "Illustrative archive photograph; not evidence of MMS inventory, staff or a specific configuration offered for sale.",
+      "verifiedAt": "2026-10-18",
+      "changes": "Resized and converted to WebP; photographic content retained."
+    }
   },
   {
     "id": "wholesale-charitable-pricing",
-    "title": "Stretch a mission equipment budget: prepare a pricing request",
+    "title": "Mission equipment on a tight budget: ask for the right package",
     "category": "Mission planning",
     "image": "laboratory",
-    "minutes": 2,
+    "minutes": 3,
     "summary": "Show the priorities, approved alternatives and complete delivery budget behind a wholesale or charitable pricing request.",
     "intro": "Med Mission Supplies offers wholesale pricing and considers charitable pricing for mission-driven projects. A useful request connects the equipment list to the receiving team’s priorities, available funds and support plan. Share where a suitable alternative could help, while keeping the clinical and technical essentials clear. Pricing and availability are assessed for the actual request.",
     "sections": [
@@ -1396,11 +1840,11 @@ export const legacyArticleRevisions = [
       ],
       [
         "Separate essentials from acceptable alternatives",
-        "List quantities, required functions and essential accessories. Mark where the receiving team can consider another model, an appropriate refurbished unit or a staged purchase. Keep approval of any substitution with that team. Flexibility can help a budget, but removing a required probe, sensor or processing component can leave the purchase incomplete. Ask for each proposed alternative to show its included configuration and the difference from the original brief."
+        "List quantities, required functions and essential accessories. Mark where the receiving team can consider another model, an appropriate refurbished unit or a staged purchase. Keep approval of any substitution with that team. Flexibility can help a budget, but removing a required probe, sensor or processing component can leave the purchase incomplete. Ask for each proposed alternative to show its included configuration and the difference from the original brief.\n\nAsk for a minimum useful package and a priced second phase. For a small clinic, that might mean completing examination equipment, approved basic testing and replenishment before adding a more complex instrument. The receiving clinicians decide the priorities. An optional addition should not displace the cuffs, probes, controls or processing equipment that make the first phase usable."
       ],
       [
         "Show what the available funds must cover",
-        "State whether funding is confirmed, being raised or awaiting approval, and whether a proposal is needed for an application. Separate equipment funds from packing, freight, destination charges, site work, installation, training and initial supplies. Mark costs that another party has agreed to fund and those still unresolved. Charitable pricing is considered case by case; a particular discount, donation or delivery date should not be assumed. Compare the complete funded package rather than the percentage reduction alone."
+        "State whether funding is confirmed, being raised or awaiting approval, and whether a proposal is needed for an application. Separate equipment funds from packing, freight, destination charges, site work, installation, training and initial supplies. Mark costs that another party has agreed to fund and those still unresolved. Charitable pricing is considered case by case; a particular discount, donation or delivery date should not be assumed. Compare the complete funded package rather than the percentage reduction alone.\n\nA hypothetical US$20,000 project with US$5,000 already needed for delivery and installation has US$15,000 left for equipment and any other unfunded essentials. A US$17,000 equipment offer is still over budget even if it has a large discount. Show the supplier the true equipment allowance and ask what complete configuration fits it; do not rely on another donor appearing after the order."
       ],
       [
         "Agree what happens after delivery",
@@ -1420,9 +1864,9 @@ export const legacyArticleRevisions = [
       "sterilization"
     ],
     "updated": "2026-10-18",
-    "socialTitle": "Stretch a mission equipment budget: prepare a pricing request",
+    "socialTitle": "Mission equipment on a tight budget: ask for the right package",
     "socialDescription": "Show the priorities, approved alternatives and complete delivery budget behind a wholesale or charitable pricing request.",
-    "socialHeadline": "Stretch a mission equipment budget: prepare a pricing request",
+    "socialHeadline": "Mission equipment on a tight budget: ask for the right package",
     "socialStrapline": "A discount helps most when it completes a service the recipient can sustain.",
     "takeaways": [
       "Let the receiving team rank needs and approve alternatives.",
@@ -1436,7 +1880,7 @@ export const legacyArticleRevisions = [
   },
   {
     "id": "the-price-of-a-working-service",
-    "title": "The lowest equipment quote: bargain or missing costs?",
+    "title": "The lowest equipment quote: a bargain only after the missing costs",
     "summary": "Compare the same complete service, test the workload assumptions and decide whether the lower quote still offers better value.",
     "intro": "The lowest quote may be the best choice. First establish what it buys. Two proposals can name the same machine while leaving very different bills for probes, software, installation and support. Compare a complete required package, then look for simpler suitable options and test the assumptions that could change the winner.",
     "sections": [
@@ -1458,7 +1902,7 @@ export const legacyArticleRevisions = [
       ],
       [
         "Find the assumption that changes the decision",
-        "Use one comparison sheet with each required component, installation task, recurring cost and service commitment marked included, separately priced or unresolved. Run expected-use and lower-use cases over the same period. A hypothetical supply pack with 100 tests is not worth 100 completed results if only 40 can be used before expiry; include quality-control use and repeats as well. If a realistic change in workload or an excluded repair reverses the preferred quote, resolve that uncertainty before ordering. Finish with the reason the chosen package meets the need and the risks the facility has agreed to carry."
+        "Find the single uncertain cost most likely to change the choice. Suppose two otherwise suitable, complete offers differ by US$2,000. The cheaper one excludes an interface whose actual price is unknown. Resolve that interface before negotiating a small discount on freight: any interface charge above US$2,000 reverses the initial-price ranking. This is a hypothetical threshold, not a market quote or a prediction.\n\nThen test lower use over the same planning period. A supply pack with 100 tests is not worth 100 completed results if only 40 can be used before expiry; include quality-control use and repeats too. Keep the distinction between cash paid, stock still usable and stock discarded. Choose the lower complete cost when the capabilities and obligations meet the brief; spend more only for a benefit the department can name and use."
       ]
     ],
     "checklist": [
@@ -1479,14 +1923,14 @@ export const legacyArticleRevisions = [
     "category": "Procurement & service",
     "status": "Integration-ready editorial draft",
     "updated": "2026-10-18",
-    "socialTitle": "The lowest equipment quote: bargain or missing costs?",
+    "socialTitle": "The lowest equipment quote: a bargain only after the missing costs",
     "socialDescription": "Compare the same complete service, test the workload assumptions and decide whether the lower quote still offers better value.",
     "takeaways": [
       "Give every supplier the same required configuration and installation scope.",
       "Mark costs as included, separately priced or unresolved; unknown does not mean zero.",
       "Compare expected and lower workload before accepting recurring commitments."
     ],
-    "image": "reference/ultrasound-portable",
+    "image": "guides/echo-system",
     "minutes": 3,
     "sectionSources": [
       [],
@@ -1497,18 +1941,34 @@ export const legacyArticleRevisions = [
       [],
       []
     ],
-    "socialHeadline": "The lowest equipment quote: bargain or missing costs?",
+    "socialHeadline": "The lowest equipment quote: a bargain only after the missing costs",
     "socialStrapline": "Keep unknown costs visible; they are not savings.",
     "relatedArticles": [
       "quote-gaps",
       "service-contracts"
-    ]
+    ],
+    "photo": {
+      "id": "echo-system",
+      "photographer": "Dr D. Malleswara Rao",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "caption": "An echocardiography system and examination table, photographed in June 2022. Equipment example.",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2D_ECHOCARDIOGRAM_MACHINE_WITH_A_TABLE_AND_A_STETHOSCOPE.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/2D_ECHOCARDIOGRAM_MACHINE_WITH_A_TABLE_AND_A_STETHOSCOPE.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "captionContext": "An echocardiography system and examination table, photographed in June 2022. Equipment example. Illustrative photograph; the exact configuration discussed may differ.",
+      "alt": "An echocardiography system and examination table, photographed in June 2022. Equipment example.",
+      "fit": "contain",
+      "modelMatch": "category",
+      "modelMatchNote": "Not evidence of MMS stock, recommended options, current support, performance or endorsement.",
+      "verifiedAt": "2026-10-18",
+      "changes": "Resized and converted to WebP; photographic content retained. The stated licence remains applicable."
+    }
   },
   {
     "id": "refurbished-is-a-question-not-a-verdict",
-    "title": "Refurbished equipment: buy the unit’s evidence",
+    "title": "When refurbished medical equipment is the better buy",
     "summary": "Judge a refurbished candidate by its documented work, complete configuration, acceptance terms and support at the destination.",
-    "intro": "A supportable refurbished package deserves a fair comparison with new equipment. The useful questions concern the particular unit: what was done, what is included, what remains uncertain and who can restore it where it will be used. Let those answers decide whether to proceed, fund further assessment or choose another option.",
+    "intro": "Refurbished equipment is worth buying when the lower complete cost preserves the capability and support the hospital needs. It is a weaker offer when the saving depends on missing accessories, uncertain software rights or a repair route that stops at the seller’s border. Compare the particular unit with a suitable new option and with repairing what the hospital already owns.",
     "sections": [
       [
         "Ask what happened to this unit",
@@ -1528,7 +1988,7 @@ export const legacyArticleRevisions = [
       ],
       [
         "Proceed, investigate or choose another route",
-        "Proceed when the candidate meets the clinical brief, its condition is evidenced, support is workable and its complete cost compares well. Investigate when a defined assessment can resolve missing evidence at an acceptable cost. Choose another route when essential compatibility, software transfer, parts access or acceptance rights cannot be established. A new unit may justify more spending through useful capability or clearer support, but compare its actual terms with the same care. Neither a condition label nor a manufacturer name proves measured reliability."
+        "Proceed when the candidate meets the clinical brief, its condition is evidenced, support is workable and its complete cost compares well. Investigate when a defined assessment can settle a material uncertainty before commitment. Choose another route when essential compatibility, software transfer, parts access or acceptance rights cannot be established.\n\nA supported familiar platform can be attractive where the hospital already has compatible accessories, trained users and a credible engineer. Count only items confirmed suitable for the offered generation. A new platform may deserve the premium when it provides a needed function or resolves the old fleet’s support limit. Repairing the existing unit remains a third option if its fault is understood and the restored service meets the same brief. Compare future spending; past repair bills are useful history, not a reason to keep paying indefinitely."
       ]
     ],
     "checklist": [
@@ -1550,14 +2010,14 @@ export const legacyArticleRevisions = [
     "category": "Procurement & service",
     "status": "Integration-ready editorial draft",
     "updated": "2026-10-18",
-    "socialTitle": "Refurbished equipment: buy the unit’s evidence",
+    "socialTitle": "When refurbished medical equipment is the better buy",
     "socialDescription": "Judge a refurbished candidate by its documented work, complete configuration, acceptance terms and support at the destination.",
     "takeaways": [
       "Request the exact unit’s work records and complete configuration.",
       "Price the assessment that could resolve a specific uncertainty.",
       "Compare actual support and acceptance terms for both new and refurbished candidates."
     ],
-    "image": "reference/patient-monitor",
+    "image": "guides/monitor-service",
     "minutes": 3,
     "sectionSources": [
       [],
@@ -1570,16 +2030,31 @@ export const legacyArticleRevisions = [
       [],
       []
     ],
-    "socialHeadline": "Refurbished equipment: buy the unit’s evidence",
+    "socialHeadline": "When refurbished medical equipment is the better buy",
     "socialStrapline": "A refurbishment label is a starting point for evidence.",
     "relatedArticles": [
       "refurbished-equipment-questions",
       "equipment-handover"
-    ]
+    ],
+    "photo": {
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n,_Panama_(8601112).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n%2C_Panama_%288601112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "photographer": "Mark Logico / U.S. Navy",
+      "license": "Public domain (U.S.)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "caption": "Biomedical technicians assess a patient monitor in Colón, Panama, in August 2024. Equipment-service example.",
+      "captionContext": "Biomedical technicians assess a patient monitor in Colón, Panama, in August 2024. Equipment-service example.",
+      "alt": "Biomedical technicians assess a patient monitor in Colón, Panama, in August 2024. Equipment-service example.",
+      "fit": "contain",
+      "modelMatch": "category",
+      "modelMatchNote": "Illustrative archive photograph; not evidence of MMS inventory, staff or a specific configuration offered for sale.",
+      "verifiedAt": "2026-10-18",
+      "changes": "Resized and converted to WebP; photographic content retained."
+    }
   },
   {
     "id": "a-donation-should-start-with-the-recipient",
-    "title": "A useful donation starts with the receiving team",
+    "title": "A free medical device can be the wrong donation",
     "summary": "Let the recipient define the need, approve the exact equipment and accept a funded plan for installation and continuing use.",
     "intro": "A donated machine can create a substantial bill for freight, site works, supplies and repairs. The receiving team should lead the specification and be able to decline an unsuitable offer. Judge the donation by the service it helps sustain, including what happens after installation and who will support it when something fails.",
     "sections": [
@@ -1593,7 +2068,7 @@ export const legacyArticleRevisions = [
       ],
       [
         "Separate funded commitments from hoped-for help",
-        "Build one budget covering packing, freight, local transport, destination charges, site preparation, installation, orientation and initial supplies. Then identify recurring consumables, maintenance and retirement costs. For each, name an owner and state whether funding is committed or still being sought. If the donor can provide only the machine, make that boundary clear while the recipient can still decide. A lower-value equipment donation with funded installation may enable more useful service than a larger unfunded package."
+        "Build one budget covering packing, freight, local transport, destination charges, site preparation, installation, orientation and initial supplies. Then identify recurring consumables, maintenance and retirement costs. For each, name an owner and state whether funding is committed or still being sought. If the donor can provide only the machine, make that boundary clear while the recipient can still decide. A lower-value equipment donation with funded installation may enable more useful service than a larger unfunded package.\n\nCompare the offered donation with spending the same available funds on the recipient’s first choice. If freight and installation for a donated analyzer would consume the money needed to restore a useful existing analyzer and buy its supplies, the recipient should see both options. This is an opportunity-cost decision: the donated asset’s stated value does not pay the operating bills."
       ],
       [
         "Make the handover useful after the visitors leave",
@@ -1601,7 +2076,7 @@ export const legacyArticleRevisions = [
       ],
       [
         "Make shipment a readiness decision",
-        "Approve shipment when the recipient has accepted the exact equipment, the site is ready and essential responsibilities have funded owners. Delay when a missing dependency would prevent operation. If the offered machine does not fit, compare funding a requested repair, supplies or training instead. Agree proportionate follow-up: whether the unit was installed and accepted, whether the intended service is operating and which support problems remain. These observations reveal the donation’s practical result without turning delivery itself into the measure of success."
+        "Approve shipment when the recipient has accepted the exact equipment, the site is ready and essential responsibilities have funded owners. Delay when a missing dependency would prevent operation. If the offered machine does not fit, compare funding a requested repair, supplies or training instead. Agree proportionate follow-up: whether the unit was installed and accepted, whether the intended service is operating and which support problems remain. These observations reveal the donation’s practical result without turning delivery itself into the measure of success.\n\nUse a phased commitment when readiness is uncertain: approve the specification first, release site or repair funding next, and dispatch only after the receiving conditions are met. Agree where the equipment remains and who pays storage if the project pauses. A donor should be able to fund a smaller useful contribution without pressuring the recipient to accept an unaffordable machine."
       ]
     ],
     "checklist": [
@@ -1622,14 +2097,14 @@ export const legacyArticleRevisions = [
     "category": "Procurement & service",
     "status": "Integration-ready editorial draft",
     "updated": "2026-10-18",
-    "socialTitle": "A useful donation starts with the receiving team",
+    "socialTitle": "A free medical device can be the wrong donation",
     "socialDescription": "Let the recipient define the need, approve the exact equipment and accept a funded plan for installation and continuing use.",
     "takeaways": [
       "Use the recipient’s ranked service needs to assess the offer.",
       "Make every essential cost and responsibility visible before shipment.",
       "Follow installation, accepted use and support after delivery."
     ],
-    "image": "reference/otoscope",
+    "image": "guides/ultrasound-handover",
     "minutes": 3,
     "sectionSources": [
       [],
@@ -1640,17 +2115,32 @@ export const legacyArticleRevisions = [
       [],
       []
     ],
-    "socialHeadline": "A useful donation starts with the receiving team",
+    "socialHeadline": "A free medical device can be the wrong donation",
     "socialStrapline": "A free machine still needs a workable service budget.",
     "relatedArticles": [
       "wholesale-charitable-pricing",
       "equipment-handover",
       "equipment-exit-buying-guide"
-    ]
+    ],
+    "photo": {
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:CP24_Biomedical_Equipment_Technicians_Repair_Medical_Equipment_in_Puerto_Cort%C3%A9s_Public_Hospital,_Honduras_(8559636).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/CP24_Biomedical_Equipment_Technicians_Repair_Medical_Equipment_in_Puerto_Cort%C3%A9s_Public_Hospital%2C_Honduras_%288559636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "photographer": "Mark Logico / U.S. Navy",
+      "license": "Public domain (U.S.)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "caption": "Hospital staff receive ultrasound training in Puerto Cortés, Honduras, in July 2024. Equipment-training example.",
+      "captionContext": "Hospital staff receive ultrasound training in Puerto Cortés, Honduras, in July 2024. Equipment-training example.",
+      "alt": "Hospital staff receive ultrasound training in Puerto Cortés, Honduras, in July 2024. Equipment-training example.",
+      "fit": "contain",
+      "modelMatch": "category",
+      "modelMatchNote": "Illustrative archive photograph; not evidence of MMS inventory, staff or a specific configuration offered for sale.",
+      "verifiedAt": "2026-10-18",
+      "changes": "Resized and converted to WebP; photographic content retained."
+    }
   },
   {
     "id": "standardize-with-an-exit-plan",
-    "title": "Standardize equipment without trapping the next buyer",
+    "title": "Standardizing medical equipment: simplify today without locking in tomorrow",
     "summary": "Reduce real training and stock burdens while preserving clinical exceptions, supply resilience and a costed route to change platforms.",
     "intro": "A common equipment platform can simplify training, accessories and spare parts. It can also concentrate the service’s dependence on one supply or support route. Standardize where the practical gains are visible, keep justified exceptions and plan how a future team could change course. Repeating the previous purchase should remain a reasoned decision.",
     "sections": [
@@ -1664,7 +2154,7 @@ export const legacyArticleRevisions = [
       ],
       [
         "Test the supply commitment at lower demand",
-        "A pump or testing platform may concentrate purchases on a particular set or cartridge family. Review supplier capacity, available delivery history, minimum orders, shelf life and approved alternatives. Compare expected demand with a lower-use scenario so a volume discount does not conceal expiry or unused stock. Any buffer needs suitable storage and a replenishment plan. The useful question is whether the facility can manage the dependence, including the interruption it is trying to cover."
+        "A pump or testing platform may concentrate purchases on a particular set or cartridge family. Review supplier capacity, available delivery history, minimum orders, shelf life and approved alternatives. Compare expected demand with a lower-use scenario so a volume discount does not conceal expiry or unused stock. Any buffer needs suitable storage and a replenishment plan. The useful question is whether the facility can manage the dependence, including the interruption it is trying to cover.\n\nCheck whether the proposed second source actually uses another manufacturer or supply route. Two distributors obtaining the same proprietary cartridge from the same factory may offer purchasing choice without covering a manufacturing interruption. Conversely, adding a whole second platform brings training, stock and service costs. Pay for that diversity when it preserves a defined service through a plausible interruption, not simply to increase the brand count."
       ],
       [
         "Allow clinically justified exceptions",
@@ -1672,7 +2162,7 @@ export const legacyArticleRevisions = [
       ],
       [
         "Put a costed exit beside the fleet plan",
-        "Before a large commitment, establish records export, continuing software access and ownership of configuration and training records. At renewal, compare staying with a defined transition rather than imagining an instant whole-fleet replacement. Include retraining, remaining consumables, overlapping stock, accessories and integration. Set a review trigger such as loss of parts support, an unmanageable supply problem or an unmet clinical requirement. A staged transition may be easier to fund, but it temporarily preserves some complexity; include that cost rather than calling the change free."
+        "Before a large commitment, establish records export, continuing software access and ownership of configuration and training records. At renewal, compare staying with a defined transition rather than imagining an instant whole-fleet replacement. Include retraining, remaining consumables, overlapping stock, accessories and integration. Set a review trigger such as loss of parts support, an unmanageable supply problem or an unmet clinical requirement. A staged transition may be easier to fund, but it temporarily preserves some complexity; include that cost rather than calling the change free.\n\nFor a renewal, ask for a priced small expansion, a supported upgrade and a phased migration. A familiar platform may remain the better buy after those comparisons. Preserve the comparison and its trigger for review so the next team can tell whether staying was a deliberate choice or simply the only option anybody priced."
       ]
     ],
     "checklist": [
@@ -1693,15 +2183,15 @@ export const legacyArticleRevisions = [
     "category": "Procurement & service",
     "status": "Integration-ready editorial draft",
     "updated": "2026-10-18",
-    "socialTitle": "Standardize equipment without trapping the next buyer",
+    "socialTitle": "Standardizing medical equipment: simplify today without locking in tomorrow",
     "socialDescription": "Reduce real training and stock burdens while preserving clinical exceptions, supply resilience and a costed route to change platforms.",
     "takeaways": [
       "Measure the work a common configuration would remove.",
       "Review exact compatibility, recurring supply and justified exceptions.",
       "Price a practical transition and define when to reconsider the standard."
     ],
-    "image": "reference/airway",
-    "minutes": 2,
+    "image": "guides/infusion",
+    "minutes": 3,
     "sectionSources": [
       [],
       [
@@ -1711,16 +2201,32 @@ export const legacyArticleRevisions = [
       [],
       []
     ],
-    "socialHeadline": "Standardize equipment without trapping the next buyer",
+    "socialHeadline": "Standardizing medical equipment: simplify today without locking in tomorrow",
     "socialStrapline": "A common fleet should remain a choice the hospital can defend.",
     "relatedArticles": [
       "equipment-exit-buying-guide",
       "sensor-cable-cuff-compatibility-buying-guide"
-    ]
+    ],
+    "photo": {
+      "id": "infusion",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Infusomat_BBraun.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Infusomat_BBraun.jpg",
+      "photographer": "Dctrzl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Inside a B. Braun Infusomat infusion pump, showing the tubing path. Archive equipment example.",
+      "captionContext": "Inside a B. Braun Infusomat pump, showing the tubing path. Earlier equipment illustration; the exact model is not identified as compactplus.",
+      "alt": "An open B. Braun Infusomat infusion pump showing the loaded tubing path and door.",
+      "fit": "contain",
+      "modelMatch": "family",
+      "modelMatchNote": "Infusomat family identified by source; exact version unknown. This is a close-up tubing-path illustration, not a compactplus model photograph.",
+      "verifiedAt": "2026-10-17",
+      "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+    }
   },
   {
     "id": "service-starts-before-delivery",
-    "title": "Equipment service: what happens after the first call?",
+    "title": "Medical equipment service contracts: buy a route back to work",
     "summary": "Compare maintenance, repair coverage and restoration responsibilities against the disruption your department can manage.",
     "intro": "A prompt answer is useful, but the department also needs to know how diagnosis, parts, attendance and return to service will happen. Settle those responsibilities while the purchase is negotiable. Compare the written coverage with the facility’s repair capacity, backup equipment and ability to absorb an excluded bill.",
     "sections": [
@@ -1742,7 +2248,7 @@ export const legacyArticleRevisions = [
       ],
       [
         "Buy the coverage the department can use",
-        "Compare broader coverage with planned maintenance plus separately billed repairs using the same labor, parts, travel and freight scope. Separate billing can be workable where qualified support, funds and contingency capacity exist. Broader coverage deserves consideration when an excluded major repair or prolonged interruption would threaten the service. Neither arrangement guarantees a restoration time unless the terms establish it. Agree the required post-repair checks and who authorizes return to service under local procedures, then keep that evidence with the asset record."
+        "Compare broad coverage with planned maintenance plus separately billed repairs using the same labour, parts, travel and freight scope. In a hypothetical annual comparison, broad cover costs US$6,000 and planned maintenance costs US$2,000. The additional US$4,000 buys the specified transfer of repair costs and service commitments. It is not automatically a saving: test what one quoted excluded repair would cost under each option, and whether that repair is actually covered. Do not invent a failure probability to force a winner.\n\nSeparate billing can work where qualified support, reserve funds and acceptable cover are available. Broader coverage is more attractive where a large repair bill would be difficult to fund and the provider can deliver the promised local work. A contract that excludes the expensive probe, tube or detector may leave the main financial exposure unchanged. Keep the return-to-service checks and loaner terms explicit whichever route is chosen."
       ]
     ],
     "checklist": [
@@ -1763,15 +2269,15 @@ export const legacyArticleRevisions = [
     "category": "Procurement & service",
     "status": "Integration-ready editorial draft",
     "updated": "2026-10-18",
-    "socialTitle": "Equipment service: what happens after the first call?",
+    "socialTitle": "Medical equipment service contracts: buy a route back to work",
     "socialDescription": "Compare maintenance, repair coverage and restoration responsibilities against the disruption your department can manage.",
     "takeaways": [
       "Itemize maintenance, diagnosis, repair, parts and major exclusions.",
       "Separate response, attendance, parts delivery and restoration milestones.",
       "Choose coverage against a realistic backup and return-to-service plan."
     ],
-    "image": "reference/anesthesia-workstation",
-    "minutes": 2,
+    "image": "guides/monitor-service",
+    "minutes": 3,
     "sectionSources": [
       [],
       [],
@@ -1781,12 +2287,27 @@ export const legacyArticleRevisions = [
       ],
       []
     ],
-    "socialHeadline": "Equipment service: what happens after the first call?",
+    "socialHeadline": "Medical equipment service contracts: buy a route back to work",
     "socialStrapline": "A response time is only the first milestone in a repair.",
     "relatedArticles": [
       "service-contracts",
       "prepare-service-request",
       "equipment-handover"
-    ]
+    ],
+    "photo": {
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n,_Panama_(8601112).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n%2C_Panama_%288601112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "photographer": "Mark Logico / U.S. Navy",
+      "license": "Public domain (U.S.)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "caption": "Biomedical technicians assess a patient monitor in Colón, Panama, in August 2024. Equipment-service example.",
+      "captionContext": "Biomedical technicians assess a patient monitor in Colón, Panama, in August 2024. Equipment-service example.",
+      "alt": "Biomedical technicians assess a patient monitor in Colón, Panama, in August 2024. Equipment-service example.",
+      "fit": "contain",
+      "modelMatch": "category",
+      "modelMatchNote": "Illustrative archive photograph; not evidence of MMS inventory, staff or a specific configuration offered for sale.",
+      "verifiedAt": "2026-10-18",
+      "changes": "Resized and converted to WebP; photographic content retained."
+    }
   }
 ];

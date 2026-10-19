@@ -3,7 +3,7 @@ export default {
   "key": "needle-guidance-ultrasound",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Needle guidance ultrasound: buy visibility and availability",
+  "title": "Needle guidance ultrasound: upgrade the image or free the scanner?",
   "summary": "A dedicated procedural scanner can be worth more than an advanced shared system that is elsewhere. Compare the exact probe, controls and approved accessory setup.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
@@ -11,7 +11,7 @@ export default {
   "sections": [
     [
       "Decide whether the problem is capability or access",
-      "A shared scanner may produce acceptable images yet be unavailable when the procedural team needs it. Before buying an upgrade, record the actual constraint: missing probe capability, awkward handling, preparation delays or competition for the machine. Each can point to a different purchase. If the current scanner is accepted for the procedure and usually available, a dedicated unit may add more maintenance than value. If access repeatedly prevents the planned service, a simpler complete dedicated package may be a better investment than more advanced functions on the shared cart. The responsible clinical team must define the approved task and acceptance requirements."
+      "A shared scanner may produce acceptable images yet be unavailable when the procedural team needs it. Before buying an upgrade, record the actual constraint: missing probe capability, awkward handling, preparation delays or competition for the machine. Each can point to a different purchase. Use a short record of planned sessions to separate those problems. Count occasions when the accepted scanner was elsewhere, when its probe was unavailable, and when the team needed a function it could not provide. A booking change may solve the first; a supported spare probe may solve the second. A dedicated system earns its cost when it makes the approved work reliably available after those smaller remedies have been compared."
     ],
     [
       "Make the named probe and controls part of the comparison",
@@ -33,14 +33,14 @@ export default {
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "The best procedural ultrasound must also be in the room",
-  "socialDescription": "Compare a shared system with a dedicated Sonosite PX or other accepted package by task, handling and availability.",
-  "socialHeadline": "The best procedural ultrasound must also be in the room",
+  "socialTitle": "Needle guidance ultrasound: upgrade the image or free the scanner?",
+  "socialDescription": "A dedicated procedural scanner can be worth more than an advanced shared system that is elsewhere. Compare the exact probe, controls and approved accessory setup.",
+  "socialHeadline": "Needle guidance ultrasound: upgrade the image or free the scanner?",
   "socialStrapline": "A needle-enhancement label is not proof of an accepted procedure setup.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "needle-guidance-ultrasound",
-    "title": "Needle guidance ultrasound: buy visibility and availability",
+    "title": "Needle guidance ultrasound: upgrade the image or free the scanner?",
     "summary": "A dedicated procedural scanner can be worth more than an advanced shared system that is elsewhere. Compare the exact probe, controls and approved accessory setup.",
     "firstChoice": "Identify whether the service lacks accepted imaging, suitable handling or reliable access to a complete scanner.",
     "upgradeWhen": "A dedicated accepted package or demonstrated feature resolves the actual constraint.",
@@ -58,7 +58,7 @@ export default {
   "research": {
     "id": "needle-guidance-ultrasound",
     "kind": "feature",
-    "title": "Needle guidance ultrasound: buy visibility and availability",
+    "title": "Needle guidance ultrasound: upgrade the image or free the scanner?",
     "dek": "A dedicated procedural scanner can be worth more than an advanced shared system that is elsewhere. Compare the exact probe, controls and approved accessory setup.",
     "verdict": "Keep a shared scanner when it is accepted for the work and reliably available. Buy a dedicated package when access or handling prevents the service from working well, after qualified users evaluate the actual configuration.",
     "coverage": [
@@ -74,17 +74,17 @@ export default {
         "bestFor": "Adequate task performance with manageable availability.",
         "why": "Preserves an existing probe, reporting and maintenance arrangement.",
         "tradeoff": "Confirm that sharing does not create a repeated access gap.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Confirm exact release, probe condition and destination repair eligibility.",
+        "price": "Scheduling/preparation changes, required accessories and any second accepted probe.",
+        "support": "Confirm a working booking and repair-cover arrangement for the shared unit.",
         "sourceIds": []
       },
       {
-        "model": "Sonosite PX with the required probe/options",
+        "model": "Sonosite PX with the accepted L19-5 and required options",
         "position": "Dedicated procedural candidate",
         "bestFor": "A team evaluating the documented handling and needle features.",
         "why": "OEM material identifies L19-5 and specific control/work-surface features.",
         "tradeoff": "Current manual and exact enabled configuration must govern acceptance.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Scanner, L19-5, stand/cart, enabled functions and recurring covers/other approved supplies.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "sonosite-px"
@@ -96,8 +96,8 @@ export default {
         "bestFor": "A defined use where the complete mobile workflow is suitable.",
         "why": "Can be compared with the existing scanner on the same task.",
         "tradeoff": "Display, cleaning, supplies, charging and recording belong in the bundle.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Confirm exact release, probe condition and destination repair eligibility.",
+        "price": "Complete scanner/display/charging setup, required software and recurring approved supplies.",
+        "support": "Check display replacement, software/account continuity and probe repair as one workflow.",
         "sourceIds": []
       }
     ],
@@ -106,7 +106,7 @@ export default {
         "heading": "Decide whether the problem is capability or access",
         "paragraphs": [
           "A shared scanner may produce acceptable images yet be unavailable when the procedural team needs it. Before buying an upgrade, record the actual constraint: missing probe capability, awkward handling, preparation delays or competition for the machine. Each can point to a different purchase.",
-          "If the current scanner is accepted for the procedure and usually available, a dedicated unit may add more maintenance than value. If access repeatedly prevents the planned service, a simpler complete dedicated package may be a better investment than more advanced functions on the shared cart. The responsible clinical team must define the approved task and acceptance requirements."
+          "Use a short record of planned sessions to separate those problems. Count occasions when the accepted scanner was elsewhere, when its probe was unavailable, and when the team needed a function it could not provide. A booking change may solve the first; a supported spare probe may solve the second. A dedicated system earns its cost when it makes the approved work reliably available after those smaller remedies have been compared."
         ],
         "sourceIds": []
       },
@@ -174,7 +174,7 @@ export default {
         "publisher": "FUJIFILM Sonosite",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Full public written product body read, copyright 2020: L19-5, Auto Steep Needle Profiling, touch/physical controls and adjustable work surface. Performance claims not adopted; current manual attempts failed, so no mode table or needle-angle instruction asserted.",
+        "evidence": "Full public written PX page rechecked 18 October 2026; copyright remains 2020. L19-5, Auto Steep Needle Profiling and physical/touch control/work-surface features verified. Not a current instruction manual; no angles, mode table, outcomes or visibility guarantees asserted.",
         "published": "2020 (copyright)"
       }
     ],
@@ -192,7 +192,7 @@ export default {
         "bestFit": "Adequate task performance with manageable availability."
       },
       {
-        "option": "Sonosite PX with the required probe/options",
+        "option": "Sonosite PX with the accepted L19-5 and required options",
         "capability": "OEM material identifies L19-5 and specific control/work-surface features.",
         "costDriver": "Current manual and exact enabled configuration must govern acceptance.",
         "bestFit": "A team evaluating the documented handling and needle features."
@@ -205,12 +205,12 @@ export default {
       }
     ],
     "social": {
-      "title": "The best procedural ultrasound must also be in the room",
-      "description": "Compare a shared system with a dedicated Sonosite PX or other accepted package by task, handling and availability.",
+      "title": "Needle guidance ultrasound: upgrade the image or free the scanner?",
+      "description": "A dedicated procedural scanner can be worth more than an advanced shared system that is elsewhere. Compare the exact probe, controls and approved accessory setup.",
       "hook": "A needle-enhancement label is not proof of an accepted procedure setup."
     }
   },
-  "searchTerms": "Needle guidance ultrasound: buy visibility and availability Shared versus dedicated access Exact probe and controls Approved accessory setup Preparation and continuity Keep the accepted shared scanner Sonosite PX with the required probe/options Another accepted compact or handheld package",
+  "searchTerms": "Needle guidance ultrasound: upgrade the image or free the scanner? Shared versus dedicated access Exact probe and controls Approved accessory setup Preparation and continuity Keep the accepted shared scanner Sonosite PX with the accepted L19-5 and required options Another accepted compact or handheld package",
   "librarySection": "equipment",
   "image": "guides/us-needle-guidance",
   "photo": {

@@ -152,8 +152,8 @@ export default {
       {
         "heading": "A cost example that does not assume a pad lasts forever",
         "paragraphs": [
-          "Suppose a disposable interface costs 18 per case. A hypothetical reusable pad costs 600, achieves 120 accepted uses before replacement and needs 8 of cleaning and handling per use. Its allocated interface cost is 600 ÷ 120 + 8 = 13 per case. At 800 comparable cases, that is 10,400 versus 14,400 for disposables, before controller, inventory, service and other differences.",
-          "If the pad achieves only 50 accepted uses, its cost becomes 600 ÷ 50 + 8 = 20 per case, exceeding the disposable assumption. These figures are illustrative, not product prices or predicted service lives. Use an evidence-based replacement allowance and test a shorter-life scenario before presenting savings to a budget committee."
+          "Suppose a disposable interface costs US$18 per case. A hypothetical reusable pad costs US$600, achieves 120 accepted uses before replacement and needs US$8 of cleaning and handling per use. Its allocated interface cost is 600 ÷ 120 + 8 = US$13 per case. At 800 comparable cases, that is US$10,400 versus US$14,400 for disposables, before controller, inventory, service and other differences.",
+          "If the pad achieves only 50 accepted uses, its cost becomes 600 ÷ 50 + 8 = US$20 per case, exceeding the disposable assumption. These figures are illustrative, not product prices or predicted service lives. Use observed replacement history where available and test a shorter-life scenario before presenting savings to a budget committee."
         ],
         "sourceIds": []
       },
@@ -161,6 +161,7 @@ export default {
         "heading": "Choose on demonstrated fit",
         "paragraphs": [
           "Observe setup, patient access, cable or hose routing, cleaning and return to service with the proposed package. Include the people responsible for anesthesia, nursing, infection prevention and equipment maintenance. Record whether additional stock or a different interface fixes the problem before replacing a suitable controller.",
+          "Standardizing one system across every location is useful only if its approved interfaces meet those different jobs. A recovery-area gown requirement and an operating-room access requirement may justify separate configurations. Compare the extra stocking and training burden with the cost of forcing every case onto an unsuitable layout. Where the existing controller already works, changing blanket shapes or adding enough reusable pads may be the smallest effective investment.",
           "Avoid declaring either technology safer from a seller’s infection claim, or more economical from the absence of a disposable blanket alone. The defensible choice is the accepted system that delivers the required warming workflow with sustainable staffing, supplies and support. Retain functioning equipment where it still meets that standard."
         ],
         "sourceIds": []
@@ -210,11 +211,11 @@ export default {
     ],
     [
       "A cost example that does not assume a pad lasts forever",
-      "Suppose a disposable interface costs 18 per case. A hypothetical reusable pad costs 600, achieves 120 accepted uses before replacement and needs 8 of cleaning and handling per use. Its allocated interface cost is 600 ÷ 120 + 8 = 13 per case. At 800 comparable cases, that is 10,400 versus 14,400 for disposables, before controller, inventory, service and other differences. If the pad achieves only 50 accepted uses, its cost becomes 600 ÷ 50 + 8 = 20 per case, exceeding the disposable assumption. These figures are illustrative, not product prices or predicted service lives. Use an evidence-based replacement allowance and test a shorter-life scenario before presenting savings to a budget committee."
+      "Suppose a disposable interface costs US$18 per case. A hypothetical reusable pad costs US$600, achieves 120 accepted uses before replacement and needs US$8 of cleaning and handling per use. Its allocated interface cost is 600 ÷ 120 + 8 = US$13 per case. At 800 comparable cases, that is US$10,400 versus US$14,400 for disposables, before controller, inventory, service and other differences. If the pad achieves only 50 accepted uses, its cost becomes 600 ÷ 50 + 8 = US$20 per case, exceeding the disposable assumption. These figures are illustrative, not product prices or predicted service lives. Use observed replacement history where available and test a shorter-life scenario before presenting savings to a budget committee."
     ],
     [
       "Choose on demonstrated fit",
-      "Observe setup, patient access, cable or hose routing, cleaning and return to service with the proposed package. Include the people responsible for anesthesia, nursing, infection prevention and equipment maintenance. Record whether additional stock or a different interface fixes the problem before replacing a suitable controller. Avoid declaring either technology safer from a seller’s infection claim, or more economical from the absence of a disposable blanket alone. The defensible choice is the accepted system that delivers the required warming workflow with sustainable staffing, supplies and support. Retain functioning equipment where it still meets that standard."
+      "Observe setup, patient access, cable or hose routing, cleaning and return to service with the proposed package. Include the people responsible for anesthesia, nursing, infection prevention and equipment maintenance. Record whether additional stock or a different interface fixes the problem before replacing a suitable controller. Standardizing one system across every location is useful only if its approved interfaces meet those different jobs. A recovery-area gown requirement and an operating-room access requirement may justify separate configurations. Compare the extra stocking and training burden with the cost of forcing every case onto an unsuitable layout. Where the existing controller already works, changing blanket shapes or adding enough reusable pads may be the smallest effective investment. Avoid declaring either technology safer from a seller’s infection claim, or more economical from the absence of a disposable blanket alone. The defensible choice is the accepted system that delivers the required warming workflow with sustainable staffing, supplies and support. Retain functioning equipment where it still meets that standard."
     ]
   ],
   "socialTitle": "Patient warming: choose the blanket before the box",

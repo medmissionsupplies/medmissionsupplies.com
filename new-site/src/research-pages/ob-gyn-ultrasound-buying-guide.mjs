@@ -19,7 +19,7 @@ export default {
     ],
     [
       "A second probe can be more useful than another rendering option",
-      "Compare what happens during the planned working day. If a necessary endocavity probe is unavailable during processing or repair, another console with the same single probe does not add complete capacity. A compatible second probe may be the more useful purchase, provided its processing, storage and inspection can be supported. Have infection-prevention and technical staff establish the model-specific care route before committing to the bundle. Price the ongoing supplies and staff work as well as any processing equipment. The demonstration should leave the hospital with a practical way to prepare the probe for its next approved use, not simply a successful image on the screen."
+      "Compare what happens during the planned working day. If a necessary endocavity probe is unavailable during processing or repair, another console with the same single probe does not add complete capacity. A compatible second probe may be the more useful purchase, provided its processing, storage and inspection can be supported. Before buying a second probe, check whether processing capacity can turn both around at the intended pace. Include the approved model-specific care products, staff time, storage and any processing equipment in the price. A second transducer can reduce waiting; buying it without the capacity to prepare it for the next use can simply move the queue. The receiving team should follow the exact probe’s manufacturer instructions, not another brand’s generic care page."
     ],
     [
       "Follow measurements into the report",
@@ -33,9 +33,9 @@ export default {
   "related": [
     "ultrasound"
   ],
-  "socialTitle": "The 4D upgrade should earn its place in the OB/GYN budget",
-  "socialDescription": "Use the Voluson P8 probe and release distinctions to compare complete routine and volume-imaging packages.",
-  "socialHeadline": "The 4D upgrade should earn its place in the OB/GYN budget",
+  "socialTitle": "OB/GYN ultrasound: buy the everyday probes before the 4D promise",
+  "socialDescription": "Compare the routine abdominal and endocavity package first. Add volume imaging when it serves a defined clinical need and the complete workflow is funded.",
+  "socialHeadline": "OB/GYN ultrasound: buy the everyday probes before the 4D promise",
   "socialStrapline": "A volume option cannot compensate for a missing everyday probe.",
   "reviewedAt": "2026-10-18",
   "sheet": {
@@ -72,12 +72,12 @@ export default {
     ],
     "choices": [
       {
-        "model": "Complete routine OB/GYN package",
+        "model": "Voluson P8 with the accepted routine probe and reporting package",
         "position": "First comparison",
         "bestFor": "A service funding its agreed everyday examinations.",
         "why": "Prioritizes the required abdominal/endocavity work and reporting.",
         "tradeoff": "The exact release, probes and care costs must be included.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Required abdominal/endocavity probes, enabled modes, reports and the complete probe-care route.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "voluson-p8",
@@ -90,7 +90,7 @@ export default {
         "bestFor": "A clinical brief that requires volume acquisition or analysis.",
         "why": "Makes additional probes and software a separate buying decision.",
         "tradeoff": "The advertised model name does not establish option entitlement.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Additional accepted volume probe, volume applications and any separate analysis workstation.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": [
           "voluson-p8"
@@ -102,7 +102,7 @@ export default {
         "bestFor": "An accepted system missing a supported probe or workflow element.",
         "why": "Can preserve existing accessories, training and reporting.",
         "tradeoff": "Confirm compatibility and remaining support before adding cost.",
-        "price": "Compare the complete configured package; no current matched price established.",
+        "price": "Compatible replacement/second probe, supported software change and temporary cover.",
         "support": "Confirm exact release, probe condition and destination repair eligibility.",
         "sourceIds": []
       }
@@ -131,7 +131,7 @@ export default {
         "heading": "A second probe can be more useful than another rendering option",
         "paragraphs": [
           "Compare what happens during the planned working day. If a necessary endocavity probe is unavailable during processing or repair, another console with the same single probe does not add complete capacity. A compatible second probe may be the more useful purchase, provided its processing, storage and inspection can be supported.",
-          "Have infection-prevention and technical staff establish the model-specific care route before committing to the bundle. Price the ongoing supplies and staff work as well as any processing equipment. The demonstration should leave the hospital with a practical way to prepare the probe for its next approved use, not simply a successful image on the screen."
+          "Before buying a second probe, check whether processing capacity can turn both around at the intended pace. Include the approved model-specific care products, staff time, storage and any processing equipment in the price. A second transducer can reduce waiting; buying it without the capacity to prepare it for the next use can simply move the queue. The receiving team should follow the exact probe’s manufacturer instructions, not another brand’s generic care page."
         ],
         "sourceIds": [
           "philips-care"
@@ -193,7 +193,7 @@ export default {
         "publisher": "GE HealthCare",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Product overview and compatibility warning read: Voluson P8 is listed but not every release is necessarily compatible. No stock or current price inferred."
+        "evidence": "Primary IC9-RS 5722023 product overview read 18 October 2026: Voluson P8 listed, with explicit warning that compatibility may not extend to every system release. Current price, stock, particular software functions and processing instructions not established."
       },
       {
         "id": "philips-care",
@@ -222,7 +222,7 @@ export default {
     },
     "quickCompare": [
       {
-        "option": "Complete routine OB/GYN package",
+        "option": "Voluson P8 with the accepted routine probe and reporting package",
         "capability": "Prioritizes the required abdominal/endocavity work and reporting.",
         "costDriver": "The exact release, probes and care costs must be included.",
         "bestFit": "A service funding its agreed everyday examinations."
@@ -241,12 +241,12 @@ export default {
       }
     ],
     "social": {
-      "title": "The 4D upgrade should earn its place in the OB/GYN budget",
-      "description": "Use the Voluson P8 probe and release distinctions to compare complete routine and volume-imaging packages.",
+      "title": "OB/GYN ultrasound: buy the everyday probes before the 4D promise",
+      "description": "Compare the routine abdominal and endocavity package first. Add volume imaging when it serves a defined clinical need and the complete workflow is funded.",
       "hook": "A volume option cannot compensate for a missing everyday probe."
     }
   },
-  "searchTerms": "OB/GYN ultrasound: buy the everyday probes before the 4D promise Routine versus volume requirements Exact endocavity compatibility Processing capacity Reporting and service economics Complete routine OB/GYN package Routine package plus justified volume capability Complete the installed platform",
+  "searchTerms": "OB/GYN ultrasound: buy the everyday probes before the 4D promise Routine versus volume requirements Exact endocavity compatibility Processing capacity Reporting and service economics Voluson P8 with the accepted routine probe and reporting package Routine package plus justified volume capability Complete the installed platform",
   "librarySection": "equipment",
   "image": "guides/curvilinear-probe",
   "photo": {

@@ -3,7 +3,7 @@ export default {
   "key": "ophthalmology",
   "kind": "research-guide",
   "equipmentId": "ophthalmology",
-  "title": "Buying eye-care equipment: pay for the view the clinic needs",
+  "title": "Eye-care equipment: buy for the missing examination, not the bigger kit",
   "summary": "Compare fixed and handheld retinal cameras, slit lamps and tonometers by patient access and complete usable configurations. Portability and extra pixels are not universal upgrades.",
   "categoryId": "diagnostics",
   "category": "Laboratory & diagnostics",
@@ -27,7 +27,7 @@ export default {
   "sections": [
     [
       "Judge the retinal camera by the images that can be used",
-      "For a fixed station, compare Topcon NW500 and iCare DRSplus with representative patients and the staff who will operate them. Record gradable images, repeat attempts, time and the route to interpretation. A fast capture that cannot be graded has not completed the service. NW500 specifies a 50-degree field and automated capture; its 2.0 mm pupil claim is qualified by model-eye testing. DRSplus offers confocal imaging and mosaic capture with a 2.5 mm minimum-pupil specification. A mosaic’s field is not a single-frame field, and NW500’s 12 MP sensor differs from its 7.1 MP actual image. Those distinctions support a demonstration, not a claim that one camera produces universally better clinical images. Volk Pictor Prestige addresses patients and locations a fixed station cannot reach. Buy the retinal-only kit unless the full kit’s anterior module performs needed additional work. Demonstrate handheld capture and export on the intended computer. An anterior module is not automatically a replacement for slit-lamp examination."
+      "For a fixed station, compare Topcon NW500 and iCare DRSplus with representative patients and the staff who will operate them. Record gradable images, repeat attempts, time and the route to interpretation. A fast capture that cannot be graded has not completed the service. Include the interpretation and patient follow-up route in the camera budget. If images already accumulate without timely review, faster capture is unlikely to solve the immediate constraint. In a demonstration, follow a representative examination through capture, grading, report delivery and the agreed next step. Compare the cost per completed reported examination, while recording ungradable images separately; hiding them from the denominator makes a cheap camera look better than the service it delivers. NW500 specifies a 50-degree field and automated capture; its 2.0 mm pupil claim is qualified by model-eye testing. DRSplus offers confocal imaging and mosaic capture with a 2.5 mm minimum-pupil specification. A mosaic’s field is not a single-frame field, and NW500’s 12 MP sensor differs from its 7.1 MP actual image. Those distinctions support a demonstration, not a claim that one camera produces universally better clinical images. Volk Pictor Prestige addresses patients and locations a fixed station cannot reach. Buy the retinal-only kit unless the full kit’s anterior module performs needed additional work. Demonstrate handheld capture and export on the intended computer. An anterior module is not automatically a replacement for slit-lamp examination."
     ],
     [
       "The fixed slit lamp is a whole station",
@@ -49,18 +49,18 @@ export default {
   "related": [
     "ophthalmology"
   ],
-  "socialTitle": "Buying eye-care equipment: pay for the view the clinic needs",
+  "socialTitle": "Eye-care equipment: buy for the missing examination, not the bigger kit",
   "socialDescription": "Compare fixed and handheld retinal cameras, slit lamps and tonometers by patient access and complete usable configurations. Portability and extra pixels are not universal upgrades.",
-  "socialHeadline": "Buying eye-care equipment: pay for the view the clinic needs",
+  "socialHeadline": "Eye-care equipment: buy for the missing examination, not the bigger kit",
   "socialStrapline": "A better purchase completes the examination the clinic cannot do today.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "ophthalmology",
-    "title": "Buying eye-care equipment: pay for the view the clinic needs",
+    "title": "Eye-care equipment: buy for the missing examination, not the bigger kit",
     "summary": "Compare fixed and handheld retinal cameras, slit lamps and tonometers by patient access and complete usable configurations. Portability and extra pixels are not universal upgrades.",
     "firstChoice": "Identify whether the gap is retinal documentation, slit-lamp examination or pressure measurement, and whether patients can reach a fixed station. Demonstrate the matching tools with the intended operators and patients.",
     "upgradeWhen": "Choose IC200 when supine/reclined measurements are needed, or a fixed automated retinal camera when capture workflow and daily volume justify it. Add portable equipment for patients the fixed station cannot serve.",
-    "budgetWatch": "Include slit-lamp table/head support, camera software and the actual tonometry supplies. TP01 probes are single-use and must not be cleaned for reuse. Pictor's anterior module does not automatically replace a slit lamp.",
+    "budgetWatch": "Compare completed, reported examinations and recurring probe/cover supply; include image interpretation, software rights and repair cover.",
     "supportCheck": "Reject an unidentified camera or slit-lamp offer, a phone attachment without confirmed compatibility, or a tonometer budget that depends on cleaning and reusing iCare’s single-use TP01 probes.",
     "askSupplier": [
       "How many representative retinal images are gradable, including repeat attempts?",
@@ -83,7 +83,7 @@ export default {
   },
   "research": {
     "id": "ophthalmology",
-    "title": "Buying eye-care equipment: pay for the view the clinic needs",
+    "title": "Eye-care equipment: buy for the missing examination, not the bigger kit",
     "dek": "Compare fixed and handheld retinal cameras, slit lamps and tonometers by patient access and complete usable configurations. Portability and extra pixels are not universal upgrades.",
     "verdict": "Build the kit around the missing task. For a fixed retinal station, compare NW500 with DRSplus; for handheld imaging, evaluate Pictor Prestige. SL-2G and an inspected BM 900 are fixed slit-lamp candidates, while PSL Classic and SL-19 address bedside or outreach access. IC100 suits seated/standing tonometry; IC200 adds positional flexibility, and AVIA offers a different supply workflow. Buy each tool for its own job rather than treating portability or a newer generation as an automatic upgrade.",
     "coverage": [
@@ -224,6 +224,7 @@ export default {
         "heading": "Judge the retinal camera by the images that can be used",
         "paragraphs": [
           "For a fixed station, compare Topcon NW500 and iCare DRSplus with representative patients and the staff who will operate them. Record gradable images, repeat attempts, time and the route to interpretation. A fast capture that cannot be graded has not completed the service.",
+          "Include the interpretation and patient follow-up route in the camera budget. If images already accumulate without timely review, faster capture is unlikely to solve the immediate constraint. In a demonstration, follow a representative examination through capture, grading, report delivery and the agreed next step. Compare the cost per completed reported examination, while recording ungradable images separately; hiding them from the denominator makes a cheap camera look better than the service it delivers.",
           "NW500 specifies a 50-degree field and automated capture; its 2.0 mm pupil claim is qualified by model-eye testing. DRSplus offers confocal imaging and mosaic capture with a 2.5 mm minimum-pupil specification. A mosaic’s field is not a single-frame field, and NW500’s 12 MP sensor differs from its 7.1 MP actual image. Those distinctions support a demonstration, not a claim that one camera produces universally better clinical images.",
           "Volk Pictor Prestige addresses patients and locations a fixed station cannot reach. Buy the retinal-only kit unless the full kit’s anterior module performs needed additional work. Demonstrate handheld capture and export on the intended computer. An anterior module is not automatically a replacement for slit-lamp examination."
         ],
@@ -475,12 +476,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Buying eye-care equipment: pay for the view the clinic needs",
+      "title": "Eye-care equipment: buy for the missing examination, not the bigger kit",
       "description": "Compare fixed and handheld retinal cameras, slit lamps and tonometers by patient access and complete usable configurations. Portability and extra pixels are not universal upgrades.",
       "hook": "A better purchase completes the examination the clinic cannot do today."
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying eye-care equipment: pay for the view the clinic needs Fixed retinal cameras Handheld retinal imaging Fixed slit lamps Portable slit lamps Rebound and applanation tonometry PanOptic and smartphone documentation Legacy identification and ongoing consumables Topcon NW500 iCare DRSplus Volk Pictor Prestige, fundus kit or full ophthalmic kit Topcon SL-2G Haag-Streit BM 900 Keeler PSL Classic, SKU 3010-P-2000 Kowa SL-19 iCare IC100 iCare IC200 Reichert Tono-Pen AVIA",
+  "searchTerms": "Eye-care equipment: buy for the missing examination, not the bigger kit Fixed retinal cameras Handheld retinal imaging Fixed slit lamps Portable slit lamps Rebound and applanation tonometry PanOptic and smartphone documentation Legacy identification and ongoing consumables",
   "librarySection": "equipment"
 };

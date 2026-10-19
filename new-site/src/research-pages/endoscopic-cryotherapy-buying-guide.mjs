@@ -3,7 +3,7 @@ export default {
   "key": "endoscopic-cryotherapy",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Endoscopic cryotherapy: budget beyond the console",
+  "title": "Endoscopic cryotherapy: what a console-only quote leaves out",
   "summary": "A truFreeze console needs the right catheter and venting package, dependable liquid-nitrogen supply and a prepared specialist service. Test those costs before committing to the machine.",
   "categoryId": "surgical",
   "category": "Surgery & anesthesia",
@@ -23,20 +23,20 @@ export default {
     ],
     [
       "Cost the treatment pathway and the alternative",
-      "Build the economic comparison around the specialist team’s planned pathway, including repeat sessions where that pathway requires them. Count staff time, consumables, nitrogen, scope processing, maintenance, training and continuity over a common period. A charge per session multiplied by patient numbers is neither net income nor proof of adequate demand. For an established service, compare repairing or completing the installed equipment with replacing it. For a new program with uncertain activity or unresolved logistics, compare an appropriate referral arrangement while those constraints are settled. Include the patient-access consequences of referral; a distant alternative can have costs that a console-only calculation misses. Proceed when the intended application is justified and the complete service has a funded, accepted operating route. Defer when essential supplies, qualified staff or the required facility arrangement remain unestablished. A manufacturer bibliography is a useful route to evidence, but the number of citations is not an outcome comparison and should not be used to promise a superior treatment."
+      "Build the economic comparison around the specialist team’s planned pathway, including repeat sessions where that pathway requires them. Count staff time, consumables, nitrogen, scope processing, maintenance, training and continuity over a common period. A charge per session multiplied by patient numbers is neither net income nor proof of adequate demand. For a small program, request the minimum order, shelf life on delivery and lead time for every single-use component. Budget the packs the hospital must buy, not only the pieces it expects to use. If a box covers five planned sessions but only two occur before its remaining items expire, the usable-case cost changes sharply. This is a demand and stock-management question; do not stretch expiry or reuse restrictions to make the spreadsheet work. For an established service, compare repairing or completing the installed equipment with replacing it. For a new program with uncertain activity or unresolved logistics, compare an appropriate referral arrangement while those constraints are settled. Include the patient-access consequences of referral; a distant alternative can have costs that a console-only calculation misses. Proceed when the intended application is justified and the complete service has a funded, accepted operating route. Defer when essential supplies, qualified staff or the required facility arrangement remain unestablished. A manufacturer bibliography is a useful route to evidence, but the number of citations is not an outcome comparison and should not be used to promise a superior treatment."
     ]
   ],
   "related": [
     "endoscopy"
   ],
-  "socialTitle": "Can the hospital sustain a spray-cryotherapy service?",
-  "socialDescription": "Separate the console and fill kit from catheters, venting, nitrogen logistics and the cost of the planned treatment pathway.",
-  "socialHeadline": "Can the hospital sustain a spray-cryotherapy service?",
+  "socialTitle": "Endoscopic cryotherapy: what a console-only quote leaves out",
+  "socialDescription": "A truFreeze console needs the right catheter and venting package, dependable liquid-nitrogen supply and a prepared specialist service. Test those costs before committing to the machine.",
+  "socialHeadline": "Endoscopic cryotherapy: what a console-only quote leaves out",
   "socialStrapline": "A low console price cannot supply the missing treatment service.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "endoscopic-cryotherapy",
-    "title": "Endoscopic cryotherapy: budget beyond the console",
+    "title": "Endoscopic cryotherapy: what a console-only quote leaves out",
     "summary": "A truFreeze console needs the right catheter and venting package, dependable liquid-nitrogen supply and a prepared specialist service. Test those costs before committing to the machine.",
     "firstChoice": "Define the justified application and complete authorized treatment pathway before costing the console.",
     "upgradeWhen": "Required supplies, staffing, facilities or continuity make the accepted service sustainable.",
@@ -57,7 +57,7 @@ export default {
   "research": {
     "id": "endoscopic-cryotherapy",
     "kind": "feature",
-    "title": "Endoscopic cryotherapy: budget beyond the console",
+    "title": "Endoscopic cryotherapy: what a console-only quote leaves out",
     "dek": "A truFreeze console needs the right catheter and venting package, dependable liquid-nitrogen supply and a prepared specialist service. Test those costs before committing to the machine.",
     "verdict": "Proceed only when the specialist team has justified the intended application and the complete authorized service can be sustained. Compare ownership with an established referral arrangement when supply, training or case volume remains uncertain.",
     "coverage": [
@@ -74,8 +74,8 @@ export default {
         "bestFor": "A qualified service with a justified application and sustainable supplies.",
         "why": "Focuses investment on the actual missing or failed part of the accepted package.",
         "tradeoff": "Console repair alone may leave a catheter, venting or nitrogen gap.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Compare authorized console repair with replacement, then add the exact missing venting, filling and case-supply components.",
+        "support": "Confirm console service, loaner availability and continuing supply of the procedure-specific disposables.",
         "sourceIds": [
           "trufreeze-console",
           "trufreeze-cdt"
@@ -87,8 +87,8 @@ export default {
         "bestFor": "A defined specialist pathway with approved logistics and staffing.",
         "why": "Includes the treatment system and the recurring costs needed to keep it usable.",
         "tradeoff": "A console and fill kit are only the starting package.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Separate console/fill kit, accepted nitrogen installation, training, per-case supplies and recurring delivery/storage charges.",
+        "support": "Identify owners for equipment service, nitrogen supply and specialist training before starting the program.",
         "sourceIds": [
           "trufreeze-console"
         ]
@@ -99,8 +99,8 @@ export default {
         "bestFor": "A service without a complete sustainable local operating route.",
         "why": "Can avoid owning an idle or incomplete specialist system.",
         "tradeoff": "Clinical suitability and patient-access burdens must be assessed locally.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Compare the complete referral pathway, transport and repeat visits with local fixed and per-case costs at realistic activity.",
+        "support": "Establish a receiving service and workable scheduling/records handoff; equipment service terms do not answer referral access.",
         "sourceIds": []
       }
     ],
@@ -140,6 +140,7 @@ export default {
         "heading": "Cost the treatment pathway and the alternative",
         "paragraphs": [
           "Build the economic comparison around the specialist team’s planned pathway, including repeat sessions where that pathway requires them. Count staff time, consumables, nitrogen, scope processing, maintenance, training and continuity over a common period. A charge per session multiplied by patient numbers is neither net income nor proof of adequate demand.",
+          "For a small program, request the minimum order, shelf life on delivery and lead time for every single-use component. Budget the packs the hospital must buy, not only the pieces it expects to use. If a box covers five planned sessions but only two occur before its remaining items expire, the usable-case cost changes sharply. This is a demand and stock-management question; do not stretch expiry or reuse restrictions to make the spreadsheet work.",
           "For an established service, compare repairing or completing the installed equipment with replacing it. For a new program with uncertain activity or unresolved logistics, compare an appropriate referral arrangement while those constraints are settled. Include the patient-access consequences of referral; a distant alternative can have costs that a console-only calculation misses.",
           "Proceed when the intended application is justified and the complete service has a funded, accepted operating route. Defer when essential supplies, qualified staff or the required facility arrangement remain unestablished. A manufacturer bibliography is a useful route to evidence, but the number of citations is not an outcome comparison and should not be used to promise a superior treatment."
         ],
@@ -233,12 +234,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Can the hospital sustain a spray-cryotherapy service?",
-      "description": "Separate the console and fill kit from catheters, venting, nitrogen logistics and the cost of the planned treatment pathway.",
+      "title": "Endoscopic cryotherapy: what a console-only quote leaves out",
+      "description": "A truFreeze console needs the right catheter and venting package, dependable liquid-nitrogen supply and a prepared specialist service. Test those costs before committing to the machine.",
       "hook": "A low console price cannot supply the missing treatment service."
     }
   },
-  "searchTerms": "Endoscopic cryotherapy: budget beyond the console Application-specific configuration Console versus case basket Liquid-nitrogen logistics Treatment-pathway cost Ownership versus referral Complete an established truFreeze service Fund a complete new spray-cryotherapy program Use an established referral route while resolving gaps",
+  "searchTerms": "Endoscopic cryotherapy: what a console-only quote leaves out Application-specific configuration Console versus case basket Liquid-nitrogen logistics Treatment-pathway cost Ownership versus referral",
   "librarySection": "equipment",
   "image": "guides/endoscopy",
   "photo": {

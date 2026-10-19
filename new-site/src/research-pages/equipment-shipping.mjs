@@ -3,7 +3,7 @@ export default {
   "key": "equipment-shipping",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Where does your equipment delivery quote stop?",
+  "title": "Shipping medical equipment: does the quote reach the final room?",
   "summary": "Compare the journey from the seller’s room to an accepted installation. Unloading, clearance and the final move can sit outside a cheap freight quote.",
   "categoryId": "decisions",
   "category": "Procurement & service",
@@ -28,7 +28,7 @@ export default {
   "sections": [
     [
       "Draw the journey before accepting a freight price",
-      "A freight offer can end at a port, loading dock or kerb while the hospital still needs unloading, rigging and installation. Start the comparison inside the seller’s room and finish at the accepted installation. Mark who handles de-installation, packing, collection, clearance, the final move and commissioning; then compare prices for the same journey. For each stage, record the provider, required documents, equipment condition evidence, price and contingency if the next party is unavailable. GE's published relocation terms illustrate why this matters: engineering work, site preparation, electrical work and transport have distinct responsibilities. Another supplier's agreement may allocate them differently."
+      "A freight offer can end at a port, loading dock or kerb while the hospital still needs unloading, rigging and installation. Start the comparison inside the seller’s room and finish at the accepted installation. Mark who handles de-installation, packing, collection, clearance, the final move and commissioning; then compare prices for the same journey. For each stage, record the provider, required documents, equipment condition evidence, price and contingency if the next party is unavailable. GE's published relocation terms illustrate why this matters: engineering work, site preparation, electrical work and transport have distinct responsibilities. Another supplier's agreement may allocate them differently. Choose one coordinator when the equipment needs specialist dismantling and reinstallation and your team cannot manage the interfaces. Separate contracts can make sense when the hospital has a capable project lead and each handover is explicit. Compare both structures using the same endpoints; “door-to-door” is insufficient unless the doors, unloading and internal movement are identified."
     ],
     [
       "Make equipment preparation a specialist task",
@@ -48,19 +48,19 @@ export default {
     ],
     [
       "Finish the move with acceptance evidence",
-      "Use a handover worksheet with distinct signatures for shipment receipt, unpacking and condition inspection, installation and technical acceptance. Identify who investigates damage or missing accessories before the equipment is put into service. Agree the required tests and documentation with the hospital's technical and clinical teams before shipment. Close the project only when open discrepancies, costs and responsibilities are resolved. Preserve the origin report, packing record, transport documents, receiving photographs and commissioning evidence together. The best shipping proposal is the one that gets the specified equipment through this complete journey with clear accountability, not simply the one with the lowest line-haul charge."
+      "Link payment and completion milestones to the agreed stages: collection, delivery, installation and acceptance. For a used system, retain evidence of working condition before dismantling and the agreed post-installation checks. If a fault appears on arrival, these records help determine whether the issue was disclosed, arose during the move or remains unresolved; they do not guarantee who will pay. Assign one person to coordinate the engineer, carrier and seller while the equipment is unavailable. Close the project only when open discrepancies, costs and responsibilities are resolved. Preserve the origin report, packing record, transport documents, receiving photographs and commissioning evidence together. The best shipping proposal is the one that gets the specified equipment through this complete journey with clear accountability, not simply the one with the lowest line-haul charge."
     ]
   ],
   "related": [
     "beds"
   ],
-  "socialTitle": "The last few metres may be outside the freight quote",
+  "socialTitle": "Shipping medical equipment: does the quote reach the final room?",
   "socialDescription": "Compare packing, clearance, unloading, rigging and installation before choosing the lowest transport price.",
-  "socialHeadline": "The last few metres may be outside the freight quote",
+  "socialHeadline": "Shipping medical equipment: does the quote reach the final room?",
   "socialStrapline": "Delivered to the address is not the same as installed in the room.",
   "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Where does your equipment delivery quote stop?",
+    "title": "Shipping medical equipment: does the quote reach the final room?",
     "summary": "Compare the journey from the seller’s room to an accepted installation. Unloading, clearance and the final move can sit outside a cheap freight quote.",
     "firstChoice": "Build an origin-to-room worksheet naming the equipment engineer, packer, carrier, broker, receiving team and installer, with evidence and handover points for each.",
     "upgradeWhen": "Specialist packing, handling or coordination resolves a material gap in the route, equipment requirements or the hospital's ability to manage contractors.",
@@ -89,7 +89,7 @@ export default {
       "condition evidence and transit claims",
       "installation after delivery"
     ],
-    "title": "Where does your equipment delivery quote stop?",
+    "title": "Shipping medical equipment: does the quote reach the final room?",
     "dek": "Compare the journey from the seller’s room to an accepted installation. Unloading, clearance and the final move can sit outside a cheap freight quote.",
     "verdict": "Choose a transport arrangement with a capable owner for every handover, including equipment preparation and final installation. Hold dispatch when unresolved destination work would turn delivery into storage, rehandling or a failed visit.",
     "decision": {
@@ -99,7 +99,7 @@ export default {
       "walkAwayWhen": "The offer leaves packing, import readiness, unloading, loss exposure or commissioning ownership unclear."
     },
     "social": {
-      "title": "The last few metres may be outside the freight quote",
+      "title": "Shipping medical equipment: does the quote reach the final room?",
       "description": "Compare packing, clearance, unloading, rigging and installation before choosing the lowest transport price.",
       "hook": "Delivered to the address is not the same as installed in the room."
     },
@@ -166,7 +166,8 @@ export default {
         "heading": "Draw the journey before accepting a freight price",
         "paragraphs": [
           "A freight offer can end at a port, loading dock or kerb while the hospital still needs unloading, rigging and installation. Start the comparison inside the seller’s room and finish at the accepted installation. Mark who handles de-installation, packing, collection, clearance, the final move and commissioning; then compare prices for the same journey.",
-          "For each stage, record the provider, required documents, equipment condition evidence, price and contingency if the next party is unavailable. GE's published relocation terms illustrate why this matters: engineering work, site preparation, electrical work and transport have distinct responsibilities. Another supplier's agreement may allocate them differently."
+          "For each stage, record the provider, required documents, equipment condition evidence, price and contingency if the next party is unavailable. GE's published relocation terms illustrate why this matters: engineering work, site preparation, electrical work and transport have distinct responsibilities. Another supplier's agreement may allocate them differently.",
+          "Choose one coordinator when the equipment needs specialist dismantling and reinstallation and your team cannot manage the interfaces. Separate contracts can make sense when the hospital has a capable project lead and each handover is explicit. Compare both structures using the same endpoints; “door-to-door” is insufficient unless the doors, unloading and internal movement are identified."
         ],
         "sourceIds": [
           "ge-relocation"
@@ -214,7 +215,7 @@ export default {
       {
         "heading": "Finish the move with acceptance evidence",
         "paragraphs": [
-          "Use a handover worksheet with distinct signatures for shipment receipt, unpacking and condition inspection, installation and technical acceptance. Identify who investigates damage or missing accessories before the equipment is put into service. Agree the required tests and documentation with the hospital's technical and clinical teams before shipment.",
+          "Link payment and completion milestones to the agreed stages: collection, delivery, installation and acceptance. For a used system, retain evidence of working condition before dismantling and the agreed post-installation checks. If a fault appears on arrival, these records help determine whether the issue was disclosed, arose during the move or remains unresolved; they do not guarantee who will pay. Assign one person to coordinate the engineer, carrier and seller while the equipment is unavailable.",
           "Close the project only when open discrepancies, costs and responsibilities are resolved. Preserve the origin report, packing record, transport documents, receiving photographs and commissioning evidence together. The best shipping proposal is the one that gets the specified equipment through this complete journey with clear accountability, not simply the one with the lowest line-haul charge."
         ],
         "sourceIds": []
@@ -255,7 +256,7 @@ export default {
         "publisher": "GE HealthCare",
         "kind": "manufacturer terms",
         "published": "2026-03",
-        "accessed": "2026-10-17",
+        "accessed": "2026-10-18",
         "evidence": "US relocation terms separate de-installation/reinstallation, site and electrical preparation, loading/unloading and transportation risk. Cited as one contractual example."
       },
       {

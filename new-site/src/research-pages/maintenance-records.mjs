@@ -3,26 +3,25 @@ export default {
   "key": "maintenance-records",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Before replacing equipment, find out why it was unavailable",
+  "title": "Repair, replace or buy a spare? Let the downtime record decide",
   "summary": "A useful maintenance record separates a failing machine from delays for parts, supplies or service—and shows where the next purchase will help.",
   "categoryId": "decisions",
   "category": "Procurement & service",
-  "image": "guides/anesthesia",
+  "image": "guides/monitor-service",
   "photo": {
-    "id": "anesthesia",
-    "sourcePage": "https://www.pexels.com/photo/equipment-at-hospital-13697732/",
-    "imageUrl": "https://images.pexels.com/photos/13697732/pexels-photo-13697732.jpeg",
-    "photographer": "Jonathan Borba",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "caption": "GE Carestation 620 anesthesia workstation in a hospital operating room.",
-    "captionContext": "Illustrative equipment photograph: GE Carestation 620 anesthesia workstation in a hospital operating room.",
-    "alt": "GE Carestation 620 anesthesia workstation with flow controls, vaporizer, breathing circuit and patient monitor.",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n,_Panama_(8601112).jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Continuing_Promise_2024_BMET_repair_equipment_at_Manuel_Amador_Guerrero_Hospital_Complex_in_Col%C3%B3n%2C_Panama_%288601112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "photographer": "Mark Logico / U.S. Navy",
+    "license": "Public domain (U.S.)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "caption": "Biomedical technicians assess a patient monitor in Colón, Panama, in August 2024. Equipment-service example.",
+    "captionContext": "Biomedical technicians assess a patient monitor in Colón, Panama, in August 2024. Equipment-service example.",
+    "alt": "Biomedical technicians assess a patient monitor in Colón, Panama, in August 2024. Equipment-service example.",
     "fit": "contain",
     "modelMatch": "category",
-    "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide.",
-    "verifiedAt": "2026-10-17",
-    "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license."
+    "modelMatchNote": "Illustrative archive photograph; not evidence of MMS inventory, staff or a specific configuration offered for sale.",
+    "verifiedAt": "2026-10-18",
+    "changes": "Resized and converted to WebP; photographic content retained."
   },
   "minutes": 4,
   "sections": [
@@ -40,11 +39,11 @@ export default {
     ],
     [
       "Turn the record into next year's spending choices",
-      "Create a budget view showing planned work, unresolved repairs, required accessories, expiring support and proposed replacement for each asset. Put the next action, responsible person and current quotation beside each item. Add freight, travel and testing costs where applicable. Leave an unquoted cost marked unknown so that it cannot quietly become zero in a total. Compare the service the hospital needs with the reason it is unavailable. A second suction unit may improve continuity; it will not solve missing collection accessories for both units. Repeated delays waiting for one specialist may justify a different support arrangement. Use documented cases to develop the purchasing question before selecting another model."
+      "Create a budget view showing planned work, unresolved repairs, required accessories, expiring support and proposed replacement for each asset. Put the next action, responsible person and current quotation beside each item. Add freight, travel and testing costs where applicable. Leave an unquoted cost marked unknown so that it cannot quietly become zero in a total. Compare the service the hospital needs with the reason it is unavailable. A second suction unit may improve continuity; it will not solve missing collection accessories for both units. Repeated delays waiting for one specialist may justify a different support arrangement. Use documented cases to develop the purchasing question before selecting another model. Choose the response that matches the record. One recurring, confirmed component failure may support an approved stocked spare. Long delays after a technician finishes may call for faster testing or sign-off. Frequent moves between wards may call for allocation and charging changes. Replacement is stronger when the required capability or support cannot be restored economically. Compare repairs already paid with future costs separately: money spent last year does not make the next repair worthwhile."
     ],
     [
       "Make software earn its setup and upkeep cost",
-      "WHO describes a computerized maintenance management system as a tool combining inventory with information such as service history, planned procedures, performance indicators and costs. Those are the records to demonstrate during a software evaluation. Ask the vendor to enter a sample asset, schedule work, attach a report, record a repair and export the complete history. A controlled spreadsheet may suit a small team. A larger fleet may need permissions, reminders and multiple users. Either approach needs an owner, a backup and a usable handover when staff change. Include data entry, migration and training in the cost comparison; an attractive dashboard cannot repair an inaccurate starting inventory."
+      "WHO describes a computerized maintenance management system as a tool combining inventory with information such as service history, planned procedures, performance indicators and costs. Those are the records to demonstrate during a software evaluation. Ask the vendor to enter a sample asset, schedule work, attach a report, record a repair and export the complete history. A controlled spreadsheet may suit a small team. A larger fleet may need permissions, reminders and multiple users. Either approach needs an owner, a backup and a usable handover when staff change. Include data entry, migration and training in the cost comparison; an attractive dashboard cannot repair an inaccurate starting inventory. Before buying maintenance software, export the trial asset with its attachments, dates and work history, then have another person retrieve it. Price user licences, mobile access, asset labels, data cleanup and support as well as the subscription. A small accurate register can be a better first purchase than a large system whose records the hospital cannot maintain or recover."
     ],
     [
       "Bring the actual history to the next budget decision",
@@ -54,13 +53,13 @@ export default {
   "related": [
     "anesthesia"
   ],
-  "socialTitle": "Broken equipment—or a broken support arrangement?",
+  "socialTitle": "Repair, replace or buy a spare? Let the downtime record decide",
   "socialDescription": "Use maintenance histories to choose the next repair, spare, support contract or replacement.",
-  "socialHeadline": "Broken equipment—or a broken support arrangement?",
+  "socialHeadline": "Repair, replace or buy a spare? Let the downtime record decide",
   "socialStrapline": "Ten days unavailable does not necessarily mean ten days under repair.",
   "reviewedAt": "2026-10-18",
   "sheet": {
-    "title": "Before replacing equipment, find out why it was unavailable",
+    "title": "Repair, replace or buy a spare? Let the downtime record decide",
     "summary": "A useful maintenance record separates a failing machine from delays for parts, supplies or service—and shows where the next purchase will help.",
     "firstChoice": "Separate the recorded interruption into diagnosis, technical work and waiting where known. Use that history to decide whether repair, parts availability, support or replacement addresses the real problem.",
     "upgradeWhen": "Buy a maintenance management system when several users, scheduled work or a larger fleet exceed the current record's practical limits.",
@@ -88,7 +87,7 @@ export default {
       "service history and downtime",
       "procurement and replacement evidence"
     ],
-    "title": "Before replacing equipment, find out why it was unavailable",
+    "title": "Repair, replace or buy a spare? Let the downtime record decide",
     "dek": "A useful maintenance record separates a failing machine from delays for parts, supplies or service—and shows where the next purchase will help.",
     "verdict": "Start with verified assets and a service history that someone maintains. Spend on software when coordination has become the problem; use the records to decide whether the hospital needs repair, supplies, better support or another machine.",
     "decision": {
@@ -98,7 +97,7 @@ export default {
       "walkAwayWhen": "A proposed system cannot export usable records or lacks a person responsible for maintaining them."
     },
     "social": {
-      "title": "Broken equipment—or a broken support arrangement?",
+      "title": "Repair, replace or buy a spare? Let the downtime record decide",
       "description": "Use maintenance histories to choose the next repair, spare, support contract or replacement.",
       "hook": "Ten days unavailable does not necessarily mean ten days under repair."
     },
@@ -195,7 +194,8 @@ export default {
         "heading": "Turn the record into next year's spending choices",
         "paragraphs": [
           "Create a budget view showing planned work, unresolved repairs, required accessories, expiring support and proposed replacement for each asset. Put the next action, responsible person and current quotation beside each item. Add freight, travel and testing costs where applicable. Leave an unquoted cost marked unknown so that it cannot quietly become zero in a total.",
-          "Compare the service the hospital needs with the reason it is unavailable. A second suction unit may improve continuity; it will not solve missing collection accessories for both units. Repeated delays waiting for one specialist may justify a different support arrangement. Use documented cases to develop the purchasing question before selecting another model."
+          "Compare the service the hospital needs with the reason it is unavailable. A second suction unit may improve continuity; it will not solve missing collection accessories for both units. Repeated delays waiting for one specialist may justify a different support arrangement. Use documented cases to develop the purchasing question before selecting another model.",
+          "Choose the response that matches the record. One recurring, confirmed component failure may support an approved stocked spare. Long delays after a technician finishes may call for faster testing or sign-off. Frequent moves between wards may call for allocation and charging changes. Replacement is stronger when the required capability or support cannot be restored economically. Compare repairs already paid with future costs separately: money spent last year does not make the next repair worthwhile."
         ],
         "sourceIds": []
       },
@@ -203,7 +203,8 @@ export default {
         "heading": "Make software earn its setup and upkeep cost",
         "paragraphs": [
           "WHO describes a computerized maintenance management system as a tool combining inventory with information such as service history, planned procedures, performance indicators and costs. Those are the records to demonstrate during a software evaluation. Ask the vendor to enter a sample asset, schedule work, attach a report, record a repair and export the complete history.",
-          "A controlled spreadsheet may suit a small team. A larger fleet may need permissions, reminders and multiple users. Either approach needs an owner, a backup and a usable handover when staff change. Include data entry, migration and training in the cost comparison; an attractive dashboard cannot repair an inaccurate starting inventory."
+          "A controlled spreadsheet may suit a small team. A larger fleet may need permissions, reminders and multiple users. Either approach needs an owner, a backup and a usable handover when staff change. Include data entry, migration and training in the cost comparison; an attractive dashboard cannot repair an inaccurate starting inventory.",
+          "Before buying maintenance software, export the trial asset with its attachments, dates and work history, then have another person retrieve it. Price user licences, mobile access, asset labels, data cleanup and support as well as the subscription. A small accurate register can be a better first purchase than a large system whose records the hospital cannot maintain or recover."
         ],
         "sourceIds": [
           "who-cmms"

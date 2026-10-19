@@ -3,8 +3,8 @@ export default {
   "key": "mammography",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Buying mammography? Fund what happens after the image",
-  "summary": "Choose a mammography system around interpretation, follow-up and a sustainable breast service, then decide which imaging capabilities deserve extra spending.",
+  "title": "Mammography upgrades: price the reading room too",
+  "summary": "A tomosynthesis gantry changes only part of the service. Compare acquisition, reading, prior images, biopsy access and support before committing to an upgrade.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
   "related": [
@@ -12,9 +12,9 @@ export default {
     "ultrasound"
   ],
   "reviewedAt": "2026-10-18",
-  "socialTitle": "Buying mammography? Fund what happens after the image",
-  "socialDescription": "Choose a mammography system around interpretation, follow-up and a sustainable breast service, then decide which imaging capabilities deserve extra spending.",
-  "socialHeadline": "Buying mammography? Fund what happens after the image",
+  "socialTitle": "Mammography upgrades: price the reading room too",
+  "socialDescription": "A tomosynthesis gantry changes only part of the service. Compare acquisition, reading, prior images, biopsy access and support before committing to an upgrade.",
+  "socialHeadline": "Mammography upgrades: price the reading room too",
   "socialStrapline": "A screening appointment needs a route to a completed diagnosis.",
   "research": {
     "kind": "feature",
@@ -26,8 +26,8 @@ export default {
       "reading and follow-up pathway",
       "breast imaging lifecycle costs"
     ],
-    "title": "Buying mammography? Fund what happens after the image",
-    "dek": "Choose a mammography system around interpretation, follow-up and a sustainable breast service, then decide which imaging capabilities deserve extra spending.",
+    "title": "Mammography upgrades: price the reading room too",
+    "dek": "A tomosynthesis gantry changes only part of the service. Compare acquisition, reading, prior images, biopsy access and support before committing to an upgrade.",
     "verdict": "First secure an achievable imaging-to-follow-up pathway. Then choose the accepted mammography configuration and support package that fits it; more advanced imaging is useful when the surrounding service can use the added capability.",
     "decision": {
       "firstMove": "Map the intended population, clinical service and diagnostic follow-up route.",
@@ -36,8 +36,8 @@ export default {
       "walkAwayWhen": "Reading, quality assurance or follow-up remains an unfunded assumption."
     },
     "social": {
-      "title": "Buying mammography? Fund what happens after the image",
-      "description": "Choose a mammography system around interpretation, follow-up and a sustainable breast service, then decide which imaging capabilities deserve extra spending.",
+      "title": "Mammography upgrades: price the reading room too",
+      "description": "A tomosynthesis gantry changes only part of the service. Compare acquisition, reading, prior images, biopsy access and support before committing to an upgrade.",
       "hook": "A screening appointment needs a route to a completed diagnosis."
     },
     "choices": [
@@ -52,12 +52,12 @@ export default {
         "sourceIds": []
       },
       {
-        "model": "Specified tomosynthesis package",
+        "model": "Hologic 3Dimensions with the specified acquisition and reading package",
         "position": "Add accepted capability",
         "bestFor": "The clinical service can use and fund it.",
         "why": "Makes acquisition, reading and options part of one brief.",
         "tradeoff": "Licence, reading and storage assumptions can hide costs.",
-        "price": "Complete installed and interpreted workflow.",
+        "price": "Gantry, enabled modes, reader workstation/displays, storage, integration and any accepted CEM/biopsy additions.",
         "support": "Confirm exact generation and destination terms.",
         "sourceIds": [
           "hologic-3d"
@@ -137,9 +137,11 @@ export default {
         "heading": "Keep biopsy and extra applications visible",
         "paragraphs": [
           "An upright biopsy attachment, a dedicated biopsy system and an external referral arrangement are separate ways to support a diagnostic pathway. They differ in room occupancy, patient positioning, equipment dependence and recurring supplies. Do not assume a mammography package includes sampling equipment or that every attachment fits every generation.",
-          "Likewise, add contrast-enhanced or other advanced applications only against a specific approved service plan. Include the associated training, supplies, supporting equipment and workflow. A capability that remains unused should not inflate the expected number of completed examinations."
+          "For contrast-enhanced mammography, Hologic currently names I-View CEM software with a MEDRAD Stellant FLEX injection system. That is a concrete reminder to cost the application and its supporting equipment together. Have the clinical team establish the accepted system, supplies, staff preparation and workflow; do not treat a CEM software line as the complete service or assume a used 3Dimensions has it enabled."
         ],
-        "sourceIds": []
+        "sourceIds": [
+          "hologic-3d"
+        ]
       },
       {
         "heading": "Choose sustainable coverage over a bare bargain",
@@ -203,7 +205,7 @@ export default {
         "publisher": "Hologic",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Current US written product page identifies tomosynthesis system and separately named software capabilities; comparative detection and comfort claims not adopted."
+        "evidence": "Primary US product page read 18 October 2026: 3Dimensions tomosynthesis and named Clarity HD+, Quantra 2.2 and I-View CEM with Stellant FLEX offerings. No comparative detection/comfort claims adopted and no all-unit option inclusion inferred."
       }
     ],
     "related": [
@@ -212,12 +214,12 @@ export default {
     ]
   },
   "sheet": {
-    "title": "Buying mammography? Fund what happens after the image",
-    "summary": "Choose a mammography system around interpretation, follow-up and a sustainable breast service, then decide which imaging capabilities deserve extra spending.",
-    "firstChoice": "Fund interpretation and follow-up alongside acquisition.",
-    "upgradeWhen": "The service can use a defined additional capability.",
-    "budgetWatch": "Include reading systems, quality work and follow-up.",
-    "supportCheck": "Verify the exact offered generation and local repair route.",
+    "title": "Mammography upgrades: price the reading room too",
+    "summary": "A tomosynthesis gantry changes only part of the service. Compare acquisition, reading, prior images, biopsy access and support before committing to an upgrade.",
+    "firstChoice": "Map the intended population, clinical service and diagnostic follow-up route.",
+    "upgradeWhen": "The clinical team can identify and sustain the additional imaging capability.",
+    "budgetWatch": "Service cost = acquisition and reading infrastructure + staff + quality work + support + funded follow-up.",
+    "supportCheck": "Reading, quality assurance or follow-up remains an unfunded assumption.",
     "askSupplier": [
       "Who completes interpretation and follow-up?",
       "Which exact modes, licences and reading components are included?",
@@ -248,7 +250,7 @@ export default {
     ],
     [
       "Keep biopsy and extra applications visible",
-      "An upright biopsy attachment, a dedicated biopsy system and an external referral arrangement are separate ways to support a diagnostic pathway. They differ in room occupancy, patient positioning, equipment dependence and recurring supplies. Do not assume a mammography package includes sampling equipment or that every attachment fits every generation. Likewise, add contrast-enhanced or other advanced applications only against a specific approved service plan. Include the associated training, supplies, supporting equipment and workflow. A capability that remains unused should not inflate the expected number of completed examinations."
+      "An upright biopsy attachment, a dedicated biopsy system and an external referral arrangement are separate ways to support a diagnostic pathway. They differ in room occupancy, patient positioning, equipment dependence and recurring supplies. Do not assume a mammography package includes sampling equipment or that every attachment fits every generation. For contrast-enhanced mammography, Hologic currently names I-View CEM software with a MEDRAD Stellant FLEX injection system. That is a concrete reminder to cost the application and its supporting equipment together. Have the clinical team establish the accepted system, supplies, staff preparation and workflow; do not treat a CEM software line as the complete service or assume a used 3Dimensions has it enabled."
     ],
     [
       "Choose sustainable coverage over a bare bargain",
@@ -256,7 +258,7 @@ export default {
     ]
   ],
   "minutes": 3,
-  "searchTerms": "mammography service purchase digital mammography and tomosynthesis reading and follow-up pathway breast imaging lifecycle costs Keep accepted digital mammography Specified tomosynthesis package Contracted imaging and follow-up",
+  "searchTerms": "Mammography upgrades: price the reading room too mammography service purchase digital mammography and tomosynthesis reading and follow-up pathway breast imaging lifecycle costs Keep accepted digital mammography Hologic 3Dimensions with the specified acquisition and reading package Contracted imaging and follow-up",
   "librarySection": "equipment",
   "image": "guides/mammography",
   "photo": {

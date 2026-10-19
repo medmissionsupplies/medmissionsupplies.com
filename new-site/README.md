@@ -18,7 +18,9 @@ The build produces a portable static site in `dist/`: 134 canonical pages, 133 d
 
 The footer displays the package version. Bump it before preparing a release.
 
-## Version 1.8.2 buyer library
+## Version 1.8.3 buyer library
+
+Version 1.8.3 reviews and strengthens the remaining 80 articles after the 24 targeted revisions in 1.8.2. It adds concrete package comparisons, ownership-cost decisions, current primary-source checks and more specific titles, retaining all 104 article routes and department anchors. Four newly cleared real photographs improve PACS, handover and equipment-service coverage; department and planning pages reuse larger cleared equipment photographs with individual credits. Legacy narratives support separate paragraphs, and the visible sharing menu is labelled “Share this guide.” Existing responsive WebP, social previews, source distinctions and MMS inquiry context remain in place.
 
 Version 1.8.2 removes competing-dealer references and replaces dependent examples with primary manufacturer evidence or clearly labelled original purchasing calculations. Manufacturer and model names remain where they help buyers compare actual configurations. Narrower narrative lines and a prominent MMS inquiry before the references improve reading and the next step; both research and introductory articles preserve their inquiry context. Public dealer references are checked in the content tests.
 

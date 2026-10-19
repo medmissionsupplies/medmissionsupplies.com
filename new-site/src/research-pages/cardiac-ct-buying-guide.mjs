@@ -3,7 +3,7 @@ export default {
   "key": "cardiac-ct",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Cardiac CT: what does the cardiac package actually include?",
+  "title": "Cardiac CT: buy the cardiac package, not the slice count",
   "summary": "Separate calcium scoring from coronary CTA, then compare acquisition, ECG equipment, reconstruction and the team needed to deliver the service.",
   "categoryId": "imaging",
   "category": "Imaging & radiology",
@@ -11,9 +11,9 @@ export default {
     "ct-mri"
   ],
   "reviewedAt": "2026-10-18",
-  "socialTitle": "Cardiac CT: what does the cardiac package actually include?",
+  "socialTitle": "Cardiac CT: buy the cardiac package, not the slice count",
   "socialDescription": "Separate calcium scoring from coronary CTA, then compare acquisition, ECG equipment, reconstruction and the team needed to deliver the service.",
-  "socialHeadline": "Cardiac CT: what does the cardiac package actually include?",
+  "socialHeadline": "Cardiac CT: buy the cardiac package, not the slice count",
   "socialStrapline": "A cardiac badge is not a complete coronary CT service.",
   "research": {
     "kind": "feature",
@@ -25,7 +25,7 @@ export default {
       "single versus dual source configuration",
       "ECG gating and cardiac software"
     ],
-    "title": "Cardiac CT: what does the cardiac package actually include?",
+    "title": "Cardiac CT: buy the cardiac package, not the slice count",
     "dek": "Separate calcium scoring from coronary CTA, then compare acquisition, ECG equipment, reconstruction and the team needed to deliver the service.",
     "verdict": "Buy cardiac CT capability for a defined examination programme and patient population. A faster or dual-source scanner can change acquisition capability, but its value depends on the complete package, clinical acceptance and sustainable specialist workload.",
     "decision": {
@@ -35,7 +35,7 @@ export default {
       "walkAwayWhen": "The offered package cannot demonstrate the required acquisition, processing or clinical-service readiness."
     },
     "social": {
-      "title": "Cardiac CT: what does the cardiac package actually include?",
+      "title": "Cardiac CT: buy the cardiac package, not the slice count",
       "description": "Separate calcium scoring from coronary CTA, then compare acquisition, ECG equipment, reconstruction and the team needed to deliver the service.",
       "hook": "A cardiac badge is not a complete coronary CT service."
     },
@@ -46,7 +46,7 @@ export default {
         "bestFor": "An accepted programme matched to the exact configuration.",
         "why": "Shows cardiac capability depends on selected options.",
         "tradeoff": "Family demonstrations do not prove installed licences.",
-        "price": "Scanner, ECG, injector and processing package.",
+        "price": "Separate optional rotation/cardiac functions from ECG hardware, injector and analysis workstation.",
         "support": "Verify all cardiac accessories and software.",
         "sourceIds": [
           "top"
@@ -121,7 +121,7 @@ export default {
         "heading": "Price the cardiac package from acquisition through reporting",
         "paragraphs": [
           "The purchase schedule should identify the ECG equipment and synchronization capability, injector, cardiac reconstruction, analysis workstation, enabled applications and reporting route. IAC's framework includes task-specific reconstruction capabilities and recommends including ancillary equipment in maintenance planning. A scanner that acquires the data is only part of the chain.",
-          "For a used machine, demonstrate the required application on its actual software version. Record which functions run at the console, which require another workstation and which have a recurring or transferable licence. A demonstration performed on the seller's separate workstation does not establish what will arrive at the hospital."
+          "For a used machine, demonstrate the required application on its actual software version, first at acquisition and then at the analysis workstation that will be supplied. Record ECG hardware, reconstruction and analysis separately. If the seller’s workstation makes the demonstration possible but is excluded from delivery, add its licence, hardware and integration before comparing the two offers."
         ],
         "sourceIds": [
           "iac"
@@ -197,7 +197,7 @@ export default {
         "publisher": "Siemens Healthineers",
         "kind": "manufacturer",
         "accessed": "2026-10-18",
-        "evidence": "Current product page gives an ECG-synchronized cardiac example and optional 0.33-second rotation; actual supplied package remains configuration-specific."
+        "evidence": "Current primary technical table and optional footnote read 18 October 2026: go.Top rotation up to 0.33 s is optional. Previously qualified cardiac example retained; slice count does not establish installed cardiac functions."
       },
       {
         "id": "force",
@@ -215,12 +215,12 @@ export default {
     ]
   },
   "sheet": {
-    "title": "Cardiac CT: what does the cardiac package actually include?",
+    "title": "Cardiac CT: buy the cardiac package, not the slice count",
     "summary": "Separate calcium scoring from coronary CTA, then compare acquisition, ECG equipment, reconstruction and the team needed to deliver the service.",
-    "firstChoice": "Define the actual cardiac programme before choosing hardware.",
-    "upgradeWhen": "The clinical evaluation shows what extra capability changes.",
-    "budgetWatch": "Include ECG, injection, analysis and specialist operation.",
-    "supportCheck": "Price every acquisition chain and application.",
+    "firstChoice": "Define calcium scoring, coronary CTA and any other proposed cardiac work separately.",
+    "upgradeWhen": "A documented acquisition or processing limitation justifies the higher configuration.",
+    "budgetWatch": "Cardiac CT ownership adds the required acquisition options, processing, specialist team and quality programme to the complete CT cost.",
+    "supportCheck": "The offered package cannot demonstrate the required acquisition, processing or clinical-service readiness.",
     "askSupplier": [
       "Which cardiac examinations and patients define the brief?",
       "Which ECG, injector and analysis functions are included on the offered unit?",
@@ -243,7 +243,7 @@ export default {
     ],
     [
       "Price the cardiac package from acquisition through reporting",
-      "The purchase schedule should identify the ECG equipment and synchronization capability, injector, cardiac reconstruction, analysis workstation, enabled applications and reporting route. IAC's framework includes task-specific reconstruction capabilities and recommends including ancillary equipment in maintenance planning. A scanner that acquires the data is only part of the chain. For a used machine, demonstrate the required application on its actual software version. Record which functions run at the console, which require another workstation and which have a recurring or transferable licence. A demonstration performed on the seller's separate workstation does not establish what will arrive at the hospital."
+      "The purchase schedule should identify the ECG equipment and synchronization capability, injector, cardiac reconstruction, analysis workstation, enabled applications and reporting route. IAC's framework includes task-specific reconstruction capabilities and recommends including ancillary equipment in maintenance planning. A scanner that acquires the data is only part of the chain. For a used machine, demonstrate the required application on its actual software version, first at acquisition and then at the analysis workstation that will be supplied. Record ECG hardware, reconstruction and analysis separately. If the seller’s workstation makes the demonstration possible but is excluded from delivery, add its licence, hardware and integration before comparing the two offers."
     ],
     [
       "Use representative work to justify the premium",
@@ -259,7 +259,7 @@ export default {
     ]
   ],
   "minutes": 3,
-  "searchTerms": "cardiac CT buying calcium scoring and coronary CTA single versus dual source configuration ECG gating and cardiac software go.Top with specified cardiac options SOMATOM Force, exact generation and software Routine CT plus specialist cardiac access",
+  "searchTerms": "Cardiac CT: buy the cardiac package, not the slice count cardiac CT buying calcium scoring and coronary CTA single versus dual source configuration ECG gating and cardiac software go.Top with specified cardiac options SOMATOM Force, exact generation and software Routine CT plus specialist cardiac access",
   "librarySection": "equipment",
   "image": "guides/ct-scanner",
   "photo": {

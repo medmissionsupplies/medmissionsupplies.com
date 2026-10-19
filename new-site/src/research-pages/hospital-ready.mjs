@@ -3,7 +3,7 @@ export default {
   "key": "hospital-ready",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "The equipment fits the budget. Will it work at your hospital?",
+  "title": "Before buying hospital equipment, price the missing infrastructure",
   "summary": "A UAM battery, an Airvo oxygen supply and a refrigerator’s ambient limit expose the costs that a machine-only quote can miss.",
   "categoryId": "decisions",
   "category": "Procurement & service",
@@ -24,11 +24,11 @@ export default {
     "changes": "Resized and converted to WebP. Original photographic content retained; display framing may vary. Each image retains its stated license.",
     "modelMatchNote": "This photograph illustrates the equipment context. It is not evidence of a product, supplier, software configuration or service package recommended in this guide."
   },
-  "minutes": 3,
+  "minutes": 4,
   "sections": [
     [
       "Follow the service through an ordinary day",
-      "A machine can fit the purchase budget and still be unaffordable to operate at the destination. Follow the proposed service through preparation, use, cleaning or replenishment and return to readiness. Then repeat that journey during a power interruption or delayed supply delivery. The missing item may be an oxygen source, cold storage, treated water or technical support rather than a better machine. Give each unresolved dependency an owner and a decision: the site already meets it, a funded change will meet it, or the proposed service needs a different design. A readiness review should produce an installation plan the receiving team can use. It should not leave a list of important tasks that everyone assumes someone else will handle."
+      "A machine can fit the purchase budget and still be unaffordable to operate at the destination. Follow the proposed service through preparation, use, cleaning or replenishment and return to readiness. Then repeat that journey during a power interruption or delayed supply delivery. The missing item may be an oxygen source, cold storage, treated water or technical support rather than a better machine. Make the first spending decision about the limiting dependency. If a working chemistry analyzer lacks the required water supply, compare restoring that supply with a different testing architecture and laboratory referral. If the ward lacks dependable oxygen, another oxygen-dependent device may add little usable capacity. Give each unresolved item a named owner, quoted cost and completion date before treating the equipment offer as affordable."
     ],
     [
       "A battery claim may cover only part of the machine",
@@ -48,20 +48,20 @@ export default {
     ],
     [
       "Decide who owns readiness after the handover",
-      "Name the person who orders supplies, the team that maintains the equipment, the service provider who accepts repairs and the budget paying for each. Confirm that documentation and training remain with the receiving service. Where software is involved, establish usable access and support rather than relying on a visitor's personal laptop or account. Compare the equipment plus its missing dependencies with a smaller service, a different architecture or an established referral arrangement. A funded water or power improvement may make the existing equipment useful; another console may not. Complete the purchase when the receiving team has both the accepted installation and the means to keep it working after the visitors leave."
+      "Name the person who orders supplies, the team that maintains the equipment, the service provider who accepts repairs and the budget paying for each. Confirm that documentation and training remain with the receiving service. Where software is involved, establish usable access and support rather than relying on a visitor's personal laptop or account. Compare the equipment plus its missing dependencies with a smaller service, a different architecture or an established referral arrangement. A funded water or power improvement may make the existing equipment useful; another console may not. Complete the purchase when the receiving team has both the accepted installation and the means to keep it working after the visitors leave. Ask for two totals: the smallest complete installation that can open the agreed service, and the expansion that would improve it. This protects the essentials from being squeezed out by optional equipment. Keep a supported existing machine when fixing its room, utilities or supply route delivers the needed work; replace it when the site changes required to sustain it cost more than a suitable alternative."
     ]
   ],
   "related": [
     "sterilization"
   ],
-  "socialTitle": "Can your hospital sustain the equipment you can afford?",
+  "socialTitle": "Before buying hospital equipment, price the missing infrastructure",
   "socialDescription": "Check the power, oxygen, water and storage dependencies that can change the buying decision.",
-  "socialHeadline": "Can your hospital sustain the equipment you can afford?",
+  "socialHeadline": "Before buying hospital equipment, price the missing infrastructure",
   "socialStrapline": "The missing purchase may be infrastructure, not another machine.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "hospital-ready",
-    "title": "The equipment fits the budget. Will it work at your hospital?",
+    "title": "Before buying hospital equipment, price the missing infrastructure",
     "summary": "A UAM battery, an Airvo oxygen supply and a refrigerator’s ambient limit expose the costs that a machine-only quote can miss.",
     "firstChoice": "Use the exact installation documents to match equipment with power, oxygen, water, room conditions and storage. Fund the missing enabling infrastructure before adding capacity that cannot operate reliably at the site.",
     "upgradeWhen": "Change equipment architecture when it solves a documented constraint: solar-direct-drive vaccine refrigeration can address building-power dependence, while its site, monitoring and installation requirements still need funding.",
@@ -93,7 +93,7 @@ export default {
     "choices": [],
     "quickCompare": [],
     "id": "hospital-ready",
-    "title": "The equipment fits the budget. Will it work at your hospital?",
+    "title": "Before buying hospital equipment, price the missing infrastructure",
     "dek": "A UAM battery, an Airvo oxygen supply and a refrigerator’s ambient limit expose the costs that a machine-only quote can miss.",
     "verdict": "Buy the service the site can sustain. Fund the missing power, oxygen, water, environmental control or supply route before adding equipment that depends on it.",
     "decision": {
@@ -103,7 +103,7 @@ export default {
       "walkAwayWhen": "Required utilities, room conditions or technical support cannot be sustained."
     },
     "social": {
-      "title": "Can your hospital sustain the equipment you can afford?",
+      "title": "Before buying hospital equipment, price the missing infrastructure",
       "description": "Check the power, oxygen, water and storage dependencies that can change the buying decision.",
       "hook": "The missing purchase may be infrastructure, not another machine."
     },
@@ -112,7 +112,7 @@ export default {
         "heading": "Follow the service through an ordinary day",
         "paragraphs": [
           "A machine can fit the purchase budget and still be unaffordable to operate at the destination. Follow the proposed service through preparation, use, cleaning or replenishment and return to readiness. Then repeat that journey during a power interruption or delayed supply delivery. The missing item may be an oxygen source, cold storage, treated water or technical support rather than a better machine.",
-          "Give each unresolved dependency an owner and a decision: the site already meets it, a funded change will meet it, or the proposed service needs a different design. A readiness review should produce an installation plan the receiving team can use. It should not leave a list of important tasks that everyone assumes someone else will handle."
+          "Make the first spending decision about the limiting dependency. If a working chemistry analyzer lacks the required water supply, compare restoring that supply with a different testing architecture and laboratory referral. If the ward lacks dependable oxygen, another oxygen-dependent device may add little usable capacity. Give each unresolved item a named owner, quoted cost and completion date before treating the equipment offer as affordable."
         ],
         "sourceIds": []
       },
@@ -166,7 +166,8 @@ export default {
         "heading": "Decide who owns readiness after the handover",
         "paragraphs": [
           "Name the person who orders supplies, the team that maintains the equipment, the service provider who accepts repairs and the budget paying for each. Confirm that documentation and training remain with the receiving service. Where software is involved, establish usable access and support rather than relying on a visitor's personal laptop or account.",
-          "Compare the equipment plus its missing dependencies with a smaller service, a different architecture or an established referral arrangement. A funded water or power improvement may make the existing equipment useful; another console may not. Complete the purchase when the receiving team has both the accepted installation and the means to keep it working after the visitors leave."
+          "Compare the equipment plus its missing dependencies with a smaller service, a different architecture or an established referral arrangement. A funded water or power improvement may make the existing equipment useful; another console may not. Complete the purchase when the receiving team has both the accepted installation and the means to keep it working after the visitors leave.",
+          "Ask for two totals: the smallest complete installation that can open the agreed service, and the expansion that would improve it. This protects the essentials from being squeezed out by optional equipment. Keep a supported existing machine when fixing its room, utilities or supply route delivers the needed work; replace it when the site changes required to sustain it cost more than a suitable alternative."
         ],
         "sourceIds": []
       }
@@ -206,7 +207,7 @@ export default {
         "url": "https://www.gradianhealth.org/product/uam/",
         "publisher": "Gradian Health",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Integrated oxygen concentrator and oxygen monitoring; stated six-hour rechargeable backup for the ventilator and vital-sign monitor, and room-air fallback."
       },
       {
@@ -215,7 +216,7 @@ export default {
         "url": "https://www.who.int/publications/i/item/9789240101616",
         "publisher": "World Health Organization",
         "kind": "institutional procurement",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "Facility oxygen-source, storage and distribution specification framework."
       },
       {
@@ -251,7 +252,7 @@ export default {
         "url": "https://www.bmedicalsystems.com/en/product/b51/",
         "publisher": "B Medical Systems",
         "kind": "manufacturer",
-        "accessed": "2026-10-16",
+        "accessed": "2026-10-18",
         "evidence": "45 L net; ambient +10 to +32°C; specified holdover endpoint is +10°C."
       },
       {

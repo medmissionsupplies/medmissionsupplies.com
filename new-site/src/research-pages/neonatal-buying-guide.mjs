@@ -3,7 +3,7 @@ export default {
   "key": "neonatal",
   "kind": "research-guide",
   "equipmentId": "neonatal",
-  "title": "Buying newborn equipment: finish one useful station first",
+  "title": "Newborn equipment: which station should the hospital fund first?",
   "summary": "Compare incubators, open warmers and phototherapy by the care function, complete accessories and repair route. Integrated features earn their price when they close a real gap.",
   "categoryId": "critical-care",
   "category": "Critical & patient care",
@@ -27,11 +27,11 @@ export default {
   "sections": [
     [
       "A station is a care function, not a machine count",
-      "Begin with the function the clinical service needs: enclosed care, open access with warming, phototherapy or maternity monitoring. These are separate requirements, even when some functions share a workstation. A donated incubator does not replace an open warmer simply because both provide heat. Nor does an open warmer supply the enclosed environment required by a different care plan. For enclosed care, compare Isolette 8000 plus with Giraffe Incubator Carestation using complete configurations. Isolette’s removable humidity subsystem offers a practical cleaning and service consideration; Giraffe may fit existing staff and engineering familiarity. Include doors, seals, latches, probes and humidity assemblies in a used-unit inspection. A missing proprietary enclosure part can stop a purchase that looks attractive on freight and console price alone."
+      "Begin with the function the clinical service needs: enclosed care, open access with warming, phototherapy or maternity monitoring. These are separate requirements, even when some functions share a workstation. A donated incubator does not replace an open warmer simply because both provide heat. Nor does an open warmer supply the enclosed environment required by a different care plan. Rank the gaps by which planned care cannot be provided with the equipment already accepted on the ward. Then cost one complete station for that gap, including its care-bed arrangement, required probes, power provision and support. A second incomplete station creates no useful reserve. Where capital is limited, a funded repair plus replacement accessories may restore a function sooner than accepting another donated chassis with missing proprietary parts. For enclosed care, compare Isolette 8000 plus with Giraffe Incubator Carestation using complete configurations. Isolette’s removable humidity subsystem offers a practical cleaning and service consideration; Giraffe may fit existing staff and engineering familiarity. Include doors, seals, latches, probes and humidity assemblies in a used-unit inspection. A missing proprietary enclosure part can stop a purchase that looks attractive on freight and console price alone."
     ],
     [
       "Pay for integration when it replaces something needed",
-      "Wallaby WLB-1000 provides a defined open-warming comparison with manual, servo and prewarm functions and a published 220–240 V requirement. It may be economical where the hospital already owns the separate monitoring and resuscitation equipment it needs. Panda or Babyroo becomes more attractive when the selected integrated functions complete an otherwise unfinished station or improve an evaluated working layout. Compare two actual arrangements: the warmer plus retained equipment, and the integrated package with every required option installed. Include the recurring probes and supplies in both. Then consider the repair consequence: which functions remain available if a component is removed for service, and what complete alternative station covers the gap? Integration should be valued for useful work, not the number of features on a brochure."
+      "Wallaby WLB-1000 provides a defined open-warming comparison with manual, servo and prewarm functions and a published 220–240 V requirement. It may be economical where the hospital already owns the separate monitoring and resuscitation equipment it needs. Panda or Babyroo becomes more attractive when the selected integrated functions complete an otherwise unfinished station or improve an evaluated working layout. Compare two actual arrangements: the warmer plus retained equipment, and the integrated package with every required option installed. Include the recurring probes and supplies in both. Then consider the repair consequence: which functions remain available if a component is removed for service, and what complete alternative station covers the gap? Integration should be valued for useful work, not the number of features on a brochure. Ask for both a basic-warmer quote and the fully specified integrated quote. Deduct only separate purchases the hospital can actually avoid; existing equipment is not a new cash saving. If a claimed integrated option is absent from the offered used unit, price its approved addition before crediting it in the comparison."
     ],
     [
       "Choose the phototherapy layout before the light",
@@ -49,14 +49,14 @@ export default {
   "related": [
     "neonatal"
   ],
-  "socialTitle": "Buying newborn equipment: finish one useful station first",
+  "socialTitle": "Newborn equipment: which station should the hospital fund first?",
   "socialDescription": "Compare incubators, open warmers and phototherapy by the care function, complete accessories and repair route. Integrated features earn their price when they close a real gap.",
-  "socialHeadline": "Buying newborn equipment: finish one useful station first",
+  "socialHeadline": "Newborn equipment: which station should the hospital fund first?",
   "socialStrapline": "Several incomplete machines can still leave the next baby without a usable station.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "neonatal",
-    "title": "Buying newborn equipment: finish one useful station first",
+    "title": "Newborn equipment: which station should the hospital fund first?",
     "summary": "Compare incubators, open warmers and phototherapy by the care function, complete accessories and repair route. Integrated features earn their price when they close a real gap.",
     "firstChoice": "Identify the missing station function: enclosed care, open warming, phototherapy or maternity monitoring. Compare complete systems within that job.",
     "upgradeWhen": "Panda or Babyroo integration replaces needed separate equipment, or the fetal-monitor configuration adds maternal/internal measurements the service actually requires.",
@@ -85,7 +85,7 @@ export default {
   },
   "research": {
     "id": "neonatal",
-    "title": "Buying newborn equipment: finish one useful station first",
+    "title": "Newborn equipment: which station should the hospital fund first?",
     "dek": "Compare incubators, open warmers and phototherapy by the care function, complete accessories and repair route. Integrated features earn their price when they close a real gap.",
     "verdict": "Fund the missing care function first. For enclosed care, compare Isolette 8000 plus and Giraffe Incubator Carestation on completeness, humidity-system upkeep and the hospital's existing service skills. For a dedicated open warmer, Wallaby WLB-1000 is the simpler starting point if 220–240 V fits; Panda or Babyroo earns more spending when its integrated functions replace equipment the unit otherwise needs. Firefly fits a standalone phototherapy station, while an overhead neoBLUE arrangement may suit a different workflow. For maternity monitoring, pay for maternal parameters or internal monitoring only when the service needs them.",
     "coverage": [
@@ -217,6 +217,7 @@ export default {
         "heading": "A station is a care function, not a machine count",
         "paragraphs": [
           "Begin with the function the clinical service needs: enclosed care, open access with warming, phototherapy or maternity monitoring. These are separate requirements, even when some functions share a workstation. A donated incubator does not replace an open warmer simply because both provide heat. Nor does an open warmer supply the enclosed environment required by a different care plan.",
+          "Rank the gaps by which planned care cannot be provided with the equipment already accepted on the ward. Then cost one complete station for that gap, including its care-bed arrangement, required probes, power provision and support. A second incomplete station creates no useful reserve. Where capital is limited, a funded repair plus replacement accessories may restore a function sooner than accepting another donated chassis with missing proprietary parts.",
           "For enclosed care, compare Isolette 8000 plus with Giraffe Incubator Carestation using complete configurations. Isolette’s removable humidity subsystem offers a practical cleaning and service consideration; Giraffe may fit existing staff and engineering familiarity. Include doors, seals, latches, probes and humidity assemblies in a used-unit inspection. A missing proprietary enclosure part can stop a purchase that looks attractive on freight and console price alone."
         ],
         "sourceIds": [
@@ -228,7 +229,8 @@ export default {
         "heading": "Pay for integration when it replaces something needed",
         "paragraphs": [
           "Wallaby WLB-1000 provides a defined open-warming comparison with manual, servo and prewarm functions and a published 220–240 V requirement. It may be economical where the hospital already owns the separate monitoring and resuscitation equipment it needs. Panda or Babyroo becomes more attractive when the selected integrated functions complete an otherwise unfinished station or improve an evaluated working layout.",
-          "Compare two actual arrangements: the warmer plus retained equipment, and the integrated package with every required option installed. Include the recurring probes and supplies in both. Then consider the repair consequence: which functions remain available if a component is removed for service, and what complete alternative station covers the gap? Integration should be valued for useful work, not the number of features on a brochure."
+          "Compare two actual arrangements: the warmer plus retained equipment, and the integrated package with every required option installed. Include the recurring probes and supplies in both. Then consider the repair consequence: which functions remain available if a component is removed for service, and what complete alternative station covers the gap? Integration should be valued for useful work, not the number of features on a brochure.",
+          "Ask for both a basic-warmer quote and the fully specified integrated quote. Deduct only separate purchases the hospital can actually avoid; existing equipment is not a new cash saving. If a claimed integrated option is absent from the offered used unit, price its approved addition before crediting it in the comparison."
         ],
         "sourceIds": [
           "n3",
@@ -468,12 +470,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Buying newborn equipment: finish one useful station first",
+      "title": "Newborn equipment: which station should the hospital fund first?",
       "description": "Compare incubators, open warmers and phototherapy by the care function, complete accessories and repair route. Integrated features earn their price when they close a real gap.",
       "hook": "Several incomplete machines can still leave the next baby without a usable station."
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying newborn equipment: finish one useful station first Incubators Open radiant warmers Phototherapy External and internal fetal monitoring Maternal vital-sign options 2026 model/accessory corrections Dräger Isolette 8000 plus GE Giraffe Incubator Carestation MTTS Wallaby WLB-1000 GE Panda warmer Dräger Babyroo TN300 MTTS Firefly Natus neoBLUE LED Phototherapy System EDAN F6 / F6 Express Philips Avalon FM20 / FM30",
+  "searchTerms": "Newborn equipment: which station should the hospital fund first? Incubators Open radiant warmers Phototherapy External and internal fetal monitoring Maternal vital-sign options 2026 model/accessory corrections",
   "librarySection": "equipment"
 };

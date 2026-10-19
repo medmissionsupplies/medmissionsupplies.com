@@ -3,7 +3,7 @@ export default {
   "key": "clinical-essentials",
   "kind": "research-guide",
   "equipmentId": "clinical-essentials",
-  "title": "Buying the clinic kit: spend on the tools that finish the visit",
+  "title": "Clinic equipment: what to buy first, and which upgrades earn their place",
   "summary": "Choose examination tools and selected additions individually. Patient fit, replenishable supplies, supported software and a usable referral pathway matter more than the number of devices in the bag.",
   "categoryId": "diagnostics",
   "category": "Laboratory & diagnostics",
@@ -27,11 +27,11 @@ export default {
   "sections": [
     [
       "Fund the everyday examination first",
-      "Build from the work the clinic already performs: listening, ear and eye examination, blood pressure, temperature, oximetry and appropriate basic measurements. Match cuff, probe and tip sizes to the patients. A tidy bundled case can still omit the part needed for the next visit. Assess each proposed addition on its own. A digital stethoscope, spirometer, dermatoscope and audiometer create different obligations. Rank them by the specific service gap, usable results and ability to maintain supplies. Keep weight and height/length equipment, examination lights and other frequently used basic tools in that same spending discussion."
+      "Build from the work the clinic already performs: listening, ear and eye examination, blood pressure, temperature, oximetry and appropriate basic measurements. Match cuff, probe and tip sizes to the patients. A tidy bundled case can still omit the part needed for the next visit. Separate the order into three priorities: missing everyday measurements, replacements for unreliable or unsupported essentials, and genuinely new services. A spirometer earns its place when trained staff can produce and interpret useful tests; it should not consume the budget needed for cuffs, thermometer covers or a working examination light. Put scales and height or length measurement in the core list as well. The right starter kit follows the clinic’s actual visits, not the number of instruments bundled in a case."
     ],
     [
       "Keep useful acoustics; buy digital sound for a defined job",
-      "A working Littmann Cardiology III does not need replacement merely because Classic III and Cardiology IV are current acoustic options. Let the clinician assess listening, comfort and genuine replacement parts. An acoustic primary instrument avoids charging and software dependencies. Eko CORE 500 deserves a separate decision for amplification, recording or teaching. Its three-lead ECG capability does not replace diagnostic 12-lead ECG. Price the required membership and confirm the chosen functions at the destination. A useful digital workflow can justify spending; a feature unavailable under the purchased entitlement cannot."
+      "A working Littmann Cardiology III does not need replacement merely because Classic III and Cardiology IV are current acoustic options. Let the clinician assess listening, comfort and genuine replacement parts. An acoustic primary instrument avoids charging and software dependencies. Eko CORE 500 deserves a separate decision for amplification, recording or teaching. Its three-lead ECG does not replace diagnostic 12-lead ECG. Eko places ongoing recording, patient profiles and PDF reports within its Eko+ membership offering; confirm the purchased entitlement and country availability. Demonstrate the exact task that justifies the upgrade, including retrieving the recording later. Paying for digital sound alone does not complete a documentation service."
     ],
     [
       "Buy the optical head and the supplies it needs",
@@ -65,14 +65,14 @@ export default {
   "related": [
     "clinical-essentials"
   ],
-  "socialTitle": "Buying the clinic kit: spend on the tools that finish the visit",
+  "socialTitle": "Clinic equipment: what to buy first, and which upgrades earn their place",
   "socialDescription": "Choose examination tools and selected additions individually. Patient fit, replenishable supplies, supported software and a usable referral pathway matter more than the number of devices in the bag.",
-  "socialHeadline": "Buying the clinic kit: spend on the tools that finish the visit",
+  "socialHeadline": "Clinic equipment: what to buy first, and which upgrades earn their place",
   "socialStrapline": "The missing cuff or supply pack may be the most useful upgrade.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "clinical-essentials",
-    "title": "Buying the clinic kit: spend on the tools that finish the visit",
+    "title": "Clinic equipment: what to buy first, and which upgrades earn their place",
     "summary": "Choose examination tools and selected additions individually. Patient fit, replenishable supplies, supported software and a usable referral pathway matter more than the number of devices in the bag.",
     "firstChoice": "Complete the everyday examination kit, including patient-size accessories and replenishable supplies, before adding a new testing service.",
     "upgradeWhen": "A digital stethoscope, better optical workflow or guided testing system removes a specific teaching, documentation or screening bottleneck.",
@@ -100,7 +100,7 @@ export default {
   },
   "research": {
     "id": "clinical-essentials",
-    "title": "Buying the clinic kit: spend on the tools that finish the visit",
+    "title": "Clinic equipment: what to buy first, and which upgrades earn their place",
     "dek": "Choose examination tools and selected additions individually. Patient fit, replenishable supplies, supported software and a usable referral pathway matter more than the number of devices in the bag.",
     "verdict": "Start with a dependable acoustic stethoscope, purpose-built examination optics and vital-sign instruments with the right cuffs, tips, probes and covers. Keep a working Cardiology III rather than replacing it for a model-name upgrade. For new optics, choose HEINE mini 3000 for a compact kit or build on compatible Welch Allyn equipment already owned. Add spirometry, dermoscopy or audiometry when trained staff can act on the results and maintain the supplies. Digital features earn their place by improving a defined task—not by making the kit look more advanced.",
     "coverage": [
@@ -232,7 +232,7 @@ export default {
         "heading": "Fund the everyday examination first",
         "paragraphs": [
           "Build from the work the clinic already performs: listening, ear and eye examination, blood pressure, temperature, oximetry and appropriate basic measurements. Match cuff, probe and tip sizes to the patients. A tidy bundled case can still omit the part needed for the next visit.",
-          "Assess each proposed addition on its own. A digital stethoscope, spirometer, dermatoscope and audiometer create different obligations. Rank them by the specific service gap, usable results and ability to maintain supplies. Keep weight and height/length equipment, examination lights and other frequently used basic tools in that same spending discussion."
+          "Separate the order into three priorities: missing everyday measurements, replacements for unreliable or unsupported essentials, and genuinely new services. A spirometer earns its place when trained staff can produce and interpret useful tests; it should not consume the budget needed for cuffs, thermometer covers or a working examination light. Put scales and height or length measurement in the core list as well. The right starter kit follows the clinic’s actual visits, not the number of instruments bundled in a case."
         ],
         "sourceIds": []
       },
@@ -240,7 +240,7 @@ export default {
         "heading": "Keep useful acoustics; buy digital sound for a defined job",
         "paragraphs": [
           "A working Littmann Cardiology III does not need replacement merely because Classic III and Cardiology IV are current acoustic options. Let the clinician assess listening, comfort and genuine replacement parts. An acoustic primary instrument avoids charging and software dependencies.",
-          "Eko CORE 500 deserves a separate decision for amplification, recording or teaching. Its three-lead ECG capability does not replace diagnostic 12-lead ECG. Price the required membership and confirm the chosen functions at the destination. A useful digital workflow can justify spending; a feature unavailable under the purchased entitlement cannot."
+          "Eko CORE 500 deserves a separate decision for amplification, recording or teaching. Its three-lead ECG does not replace diagnostic 12-lead ECG. Eko places ongoing recording, patient profiles and PDF reports within its Eko+ membership offering; confirm the purchased entitlement and country availability. Demonstrate the exact task that justifies the upgrade, including retrieving the recording later. Paying for digital sound alone does not complete a documentation service."
         ],
         "sourceIds": [
           "littmann",
@@ -380,7 +380,7 @@ export default {
         "publisher": "Eko Health",
         "kind": "manufacturer",
         "accessed": "2026-10-16",
-        "evidence": "Digital stethoscope with three-lead ECG and app/membership distinctions; no stable exact quote asserted."
+        "evidence": "Product membership section rechecked 2026-10-18: ongoing recording, profiles and PDF-report features described under Eko+; basic features remain without membership. Regional functions vary. No clinical-superiority or local-price claim adopted."
       },
       {
         "id": "heine",
@@ -752,12 +752,12 @@ export default {
       }
     ],
     "social": {
-      "title": "Buying the clinic kit: spend on the tools that finish the visit",
+      "title": "Clinic equipment: what to buy first, and which upgrades earn their place",
       "description": "Choose examination tools and selected additions individually. Patient fit, replenishable supplies, supported software and a usable referral pathway matter more than the number of devices in the bag.",
       "hook": "The missing cuff or supply pack may be the most useful upgrade."
     },
     "researchedAt": "2026-10-18"
   },
-  "searchTerms": "Buying the clinic kit: spend on the tools that finish the visit clinical-essentials spirometry procedure-kits mission-planning Littmann Classic III / Cardiology IV Eko CORE 500 HEINE mini 3000 LED F.O. otoscope / Welch Allyn MacroView Plus Omron HBP-1320 / Welch Allyn DuraShock DS58-11 Nonin Onyx Vantage 9590 / Welch Allyn SureTemp Plus 690 MIR Spirobank II Basic / NDD Easy on-PC DermLite DL100 / DL200 Hybrid MAICO MA27 / easyTone Sklar 98-1637 instrument tray / Sklar Sterile 96-1710A disposable kit",
+  "searchTerms": "Clinic equipment: what to buy first, and which upgrades earn their place clinical-essentials spirometry procedure-kits mission-planning",
   "librarySection": "equipment"
 };

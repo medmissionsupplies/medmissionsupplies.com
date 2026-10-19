@@ -3,7 +3,7 @@ export default {
   "key": "equipment-exit",
   "kind": "research-guide",
   "equipmentId": null,
-  "title": "Selling medical equipment: the highest bid can leave less behind",
+  "title": "Selling medical equipment: compare the money left after removal",
   "summary": "Compare sale, donation, redeployment and retirement after removal, data handling and transition costs. A simple net-proceeds example shows why the biggest offer may be the weaker deal.",
   "categoryId": "decisions",
   "category": "Procurement & service",
@@ -19,7 +19,7 @@ export default {
     ],
     [
       "Describe what is actually available to transfer",
-      "Prepare an accurate equipment identity and condition record: model and serial, installed options, included accessories, known faults, maintenance history and any relevant restrictions. Distinguish what has been tested from what is merely present. Useful documentation helps the recipient judge the package; it does not guarantee a resale premium. Check ownership, outstanding obligations and the rights associated with software and hosted services. Possession of the machine should not be treated as proof that every licence or service account transfers with it. Resolve the permitted handover and recovery route before promising a working software package to a buyer or recipient."
+      "Prepare an accurate equipment identity and condition record: model and serial, installed options, included accessories, known faults, maintenance history and any relevant restrictions. Distinguish what has been tested from what is merely present. Useful documentation helps the recipient judge the package; it does not guarantee a resale premium. Check ownership, outstanding obligations and the rights associated with software and hosted services. Possession of the machine should not be treated as proof that every licence or service account transfers with it. Resolve the permitted handover and recovery route before promising a working software package to a buyer or recipient. Decide whether to repair before selling by requesting two real proposals: the current disclosed condition and the proposed repaired condition. Compare the difference in proceeds with repair, verification, holding and extra removal costs. A repair is not automatically recovered in the selling price. When a quotation depends on inspection, state whether the offer can change, who pays inspection and what happens if the buyer declines."
     ],
     [
       "Patient-data deletion needs its own completion evidence",
@@ -31,14 +31,14 @@ export default {
     ]
   ],
   "related": [],
-  "socialTitle": "The medical-equipment bid that leaves more money behind",
+  "socialTitle": "Selling medical equipment: compare the money left after removal",
   "socialDescription": "Compare net proceeds, removal scope and transition obligations across selling, donating, redeploying or retiring equipment.",
-  "socialHeadline": "The medical-equipment bid that leaves more money behind",
+  "socialHeadline": "Selling medical equipment: compare the money left after removal",
   "socialStrapline": "Gross price is only the start of the exit decision.",
   "reviewedAt": "2026-10-18",
   "sheet": {
     "id": "equipment-exit",
-    "title": "Selling medical equipment: the highest bid can leave less behind",
+    "title": "Selling medical equipment: compare the money left after removal",
     "summary": "Compare sale, donation, redeployment and retirement after removal, data handling and transition costs. A simple net-proceeds example shows why the biggest offer may be the weaker deal.",
     "firstChoice": "Compare sale, redeployment, donation and retirement with the same removal, data and transition obligations.",
     "upgradeWhen": "Qualified removal, data handling or temporary cover prevents a defined unresolved obligation or service gap.",
@@ -58,7 +58,7 @@ export default {
   "research": {
     "id": "equipment-exit",
     "kind": "feature",
-    "title": "Selling medical equipment: the highest bid can leave less behind",
+    "title": "Selling medical equipment: compare the money left after removal",
     "dek": "Compare sale, donation, redeployment and retirement after removal, data handling and transition costs. A simple net-proceeds example shows why the biggest offer may be the weaker deal.",
     "verdict": "Choose the exit route by its net result and remaining obligations. Confirm what the recipient receives, who removes it and how records and data are handled before treating a sale price or donation acceptance as completion.",
     "coverage": [
@@ -125,7 +125,8 @@ export default {
         "heading": "Describe what is actually available to transfer",
         "paragraphs": [
           "Prepare an accurate equipment identity and condition record: model and serial, installed options, included accessories, known faults, maintenance history and any relevant restrictions. Distinguish what has been tested from what is merely present. Useful documentation helps the recipient judge the package; it does not guarantee a resale premium.",
-          "Check ownership, outstanding obligations and the rights associated with software and hosted services. Possession of the machine should not be treated as proof that every licence or service account transfers with it. Resolve the permitted handover and recovery route before promising a working software package to a buyer or recipient."
+          "Check ownership, outstanding obligations and the rights associated with software and hosted services. Possession of the machine should not be treated as proof that every licence or service account transfers with it. Resolve the permitted handover and recovery route before promising a working software package to a buyer or recipient.",
+          "Decide whether to repair before selling by requesting two real proposals: the current disclosed condition and the proposed repaired condition. Compare the difference in proceeds with repair, verification, holding and extra removal costs. A repair is not automatically recovered in the selling price. When a quotation depends on inspection, state whether the offer can change, who pays inspection and what happens if the buyer declines."
         ],
         "sourceIds": []
       },
@@ -229,7 +230,7 @@ export default {
       }
     ],
     "social": {
-      "title": "The medical-equipment bid that leaves more money behind",
+      "title": "Selling medical equipment: compare the money left after removal",
       "description": "Compare net proceeds, removal scope and transition obligations across selling, donating, redeploying or retiring equipment.",
       "hook": "Gross price is only the start of the exit decision."
     },

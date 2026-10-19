@@ -23,13 +23,13 @@ export default {
     ],
     [
       "A spare tip cannot replace an unavailable handpiece",
-      "Consider two planned cases that require the same handpiece. Establish whether the first complete set can finish its approved processing route in time. If it cannot, another accepted prepared set may address the bottleneck more directly than a newer console. Extra disposable tips alone do not create a second ready handpiece. Include sterile-processing capacity, the prescribed trays and accessories, inspection and qualified maintenance in the budget. Have the technical team assess the system’s required aspiration, irrigation and cooling arrangements for the offered model. Do not improvise cleaning or operating instructions from a sales brochure. Service coverage should identify the console, handpieces and accessories separately and state what temporary replacement equipment actually contains. Compare a complete repair/backup arrangement with buying another incomplete unit. The better purchase is the sustainable surgical capability, with supplies for subsequent cases and an accepted return-to-service process."
+      "Consider two planned cases that require the same handpiece. Establish whether the first complete set can finish its approved processing route in time. If it cannot, another accepted prepared set may address the bottleneck more directly than a newer console. Extra disposable tips alone do not create a second ready handpiece. Include sterile-processing capacity, the prescribed trays and accessories, inspection and qualified maintenance in the budget. Have the technical team assess the system’s required aspiration, irrigation and cooling arrangements for the offered model. Do not improvise cleaning or operating instructions from a sales brochure. Service coverage should identify the console, handpieces and accessories separately and state what temporary replacement equipment actually contains. Compare a complete repair/backup arrangement with buying another incomplete unit. The better purchase is the sustainable surgical capability, with supplies for subsequent cases and an accepted return-to-service process. Before buying a second console as insurance, request separate repair/exchange prices and lead times for the required handpiece and console. If the current console works and the handpiece is the constraint, a complete compatible prepared handpiece package may buy more usable cover. If service excludes handpiece damage, make that exclusion visible beside the warranty headline. Price the ordinary case supplies at the same volume after any platform change; unneeded specialist tips should not inflate the bundle’s apparent value."
     ]
   ],
   "related": [],
-  "socialTitle": "A cheap CUSA console may leave the costly parts missing",
-  "socialDescription": "Compare ultrasonic surgical aspirators by handpiece, frequency-specific tips, tubing, processing and complete backup—not console price alone.",
-  "socialHeadline": "A cheap CUSA console may leave the costly parts missing",
+  "socialTitle": "CUSA and ultrasonic aspirators: the handpiece can change the deal",
+  "socialDescription": "A console-only price misses the tools, tips and processing needed for surgery. Compare the exact application package and a sustainable supply of every case item.",
+  "socialHeadline": "CUSA and ultrasonic aspirators: the handpiece can change the deal",
   "socialStrapline": "Price a prepared surgical system, including the next case.",
   "reviewedAt": "2026-10-18",
   "sheet": {
@@ -70,8 +70,8 @@ export default {
         "bestFor": "A service already meeting its clinical brief.",
         "why": "May target an unavailable handpiece or other real constraint without a full conversion.",
         "tradeoff": "Current parts, instructions and qualified support must remain sustainable.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Price the actual failed component, complete handpiece accessories, acceptance and continuing Excel+ case supplies against a full conversion.",
+        "support": "Confirm separate console and handpiece repair eligibility, approved processing and a complete compatible exchange package.",
         "sourceIds": []
       },
       {
@@ -79,9 +79,9 @@ export default {
         "position": "Configuration comparison",
         "bestFor": "A defined approved application requiring its documented system.",
         "why": "Makes console, handpiece, application options and case supplies visible.",
-        "tradeoff": "Do not price a2017 regional parts list as a current complete offer.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "tradeoff": "The 2017 regional parts list identifies omissions; it is not a current complete offer.",
+        "price": "Quote current local console/footswitch, chosen handpiece, tips, tubing, torque accessories, processing tray, cart and service separately.",
+        "support": "Verify exact application compatibility and country documentation, plus handpiece coverage and continuing disposable availability.",
         "sourceIds": [
           "cusa-ca-2017",
           "cusa-us"
@@ -93,8 +93,8 @@ export default {
         "bestFor": "An accepted platform constrained by turnaround or repairs.",
         "why": "Addresses missing ready equipment for a subsequent case.",
         "tradeoff": "Must include every required component and the approved processing route.",
-        "price": "Compare the complete configured package; no current matched price established.",
-        "support": "Establish exact equipment, accessory and destination support; public documentation does not guarantee unit eligibility.",
+        "price": "Compare another accepted handpiece/set with contracted complete cover, including preparation, transport and replenishment.",
+        "support": "Specify exactly what arrives and its preparation state; a spare console or tip alone does not restore a missing handpiece.",
         "sourceIds": []
       }
     ],
@@ -135,7 +135,8 @@ export default {
         "paragraphs": [
           "Consider two planned cases that require the same handpiece. Establish whether the first complete set can finish its approved processing route in time. If it cannot, another accepted prepared set may address the bottleneck more directly than a newer console. Extra disposable tips alone do not create a second ready handpiece.",
           "Include sterile-processing capacity, the prescribed trays and accessories, inspection and qualified maintenance in the budget. Have the technical team assess the system’s required aspiration, irrigation and cooling arrangements for the offered model. Do not improvise cleaning or operating instructions from a sales brochure.",
-          "Service coverage should identify the console, handpieces and accessories separately and state what temporary replacement equipment actually contains. Compare a complete repair/backup arrangement with buying another incomplete unit. The better purchase is the sustainable surgical capability, with supplies for subsequent cases and an accepted return-to-service process."
+          "Service coverage should identify the console, handpieces and accessories separately and state what temporary replacement equipment actually contains. Compare a complete repair/backup arrangement with buying another incomplete unit. The better purchase is the sustainable surgical capability, with supplies for subsequent cases and an accepted return-to-service process.",
+          "Before buying a second console as insurance, request separate repair/exchange prices and lead times for the required handpiece and console. If the current console works and the handpiece is the constraint, a complete compatible prepared handpiece package may buy more usable cover. If service excludes handpiece damage, make that exclusion visible beside the warranty headline. Price the ordinary case supplies at the same volume after any platform change; unneeded specialist tips should not inflate the bundle’s apparent value."
         ],
         "sourceIds": []
       }
@@ -192,29 +193,29 @@ export default {
       {
         "option": "Repair or complete an accepted Excel+ installation",
         "capability": "May target an unavailable handpiece or other real constraint without a full conversion.",
-        "costDriver": "Current parts, instructions and qualified support must remain sustainable.",
+        "costDriver": "Failed-part repair, compatible handpiece accessories and continuing case basket",
         "bestFit": "A service already meeting its clinical brief."
       },
       {
         "option": "Complete Clarity application package",
         "capability": "Makes console, handpiece, application options and case supplies visible.",
-        "costDriver": "Do not price a2017 regional parts list as a current complete offer.",
+        "costDriver": "Current local complete system, processing accessories and required tip quantities",
         "bestFit": "A defined approved application requiring its documented system."
       },
       {
         "option": "Add a prepared compatible set or contracted backup",
         "capability": "Addresses missing ready equipment for a subsequent case.",
-        "costDriver": "Must include every required component and the approved processing route.",
+        "costDriver": "Ready set versus complete exchange cover, including processing and transport",
         "bestFit": "An accepted platform constrained by turnaround or repairs."
       }
     ],
     "social": {
-      "title": "A cheap CUSA console may leave the costly parts missing",
-      "description": "Compare ultrasonic surgical aspirators by handpiece, frequency-specific tips, tubing, processing and complete backup—not console price alone.",
+      "title": "CUSA and ultrasonic aspirators: the handpiece can change the deal",
+      "description": "A console-only price misses the tools, tips and processing needed for surgery. Compare the exact application package and a sustainable supply of every case item.",
       "hook": "Price a prepared surgical system, including the next case."
     }
   },
-  "searchTerms": "CUSA and ultrasonic aspirators: the handpiece can change the deal Application-specific handpiece Frequency and option compatibility Single versus box-of-five tips Prepared-set capacity Handpiece service and backup Repair or complete an accepted Excel+ installation Complete Clarity application package Add a prepared compatible set or contracted backup",
+  "searchTerms": "CUSA and ultrasonic aspirators: the handpiece can change the deal Application-specific handpiece Frequency and option compatibility Single versus box-of-five tips Prepared-set capacity Handpiece service and backup",
   "librarySection": "equipment",
   "image": "guides/us-neurosurgical-context",
   "photo": {
