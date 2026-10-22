@@ -22,7 +22,7 @@ def main():
  data=json.loads(result.stdout)
  ledger=json.loads(Path(a.ledger).read_text(encoding='utf-8-sig'))
  # Whitelist business aggregates; never include credentials or unrelated state in the dashboard.
- data['ads']=[{k:x.get(k) for k in ['site','platform_campaign_id','status','allocated_cash_cap','media_lifetime_cap','media_spend','reported_impressions','reported_clicks','reported_link_clicks','last_observed_at','outcome_status']} for x in ledger['items']]
+ data['ads']=[{k:x.get(k) for k in ['campaign','platform','site','platform_campaign_id','status','allocated_cash_cap','media_lifetime_cap','media_spend','reported_impressions','reported_clicks','reported_link_clicks','last_observed_at','outcome_status']} for x in ledger['items']]
  data['budget']={'ceiling':ledger['cash_ceiling'],'continuation_hold':ledger.get('held_unallocated_continuation'),'essential_reserve':ledger['reserve']['allocated'],'combined_remaining':'Unknown until OpenAI allocation and current Meta settlement are reconciled.'}
  data['coverage']=json.loads(Path(a.coverage).read_text(encoding='utf-8-sig')) if a.coverage and Path(a.coverage).exists() else {}
  output=Path(a.output);output.mkdir(parents=True,exist_ok=True)
