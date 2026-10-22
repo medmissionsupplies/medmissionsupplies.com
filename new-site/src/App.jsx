@@ -166,6 +166,7 @@ function SiteFooter() {
             <a href="/about.html">About us</a>
             <a href="/employment.html">Careers</a>
             <a href="/articles.html">Buying guides</a>
+            <a href="/measurement.html">Privacy &amp; measurement</a>
             <a href="/contact.html">Contact</a>
             <a
               href="https://www.linkedin.com/company/med-mission-supplies"
@@ -195,7 +196,6 @@ function About() {
       <header className="about-editorial-masthead">
         <p className="about-eyebrow">About Med Mission Supplies</p>
         <h1>Equipment that helps<br />care go further.</h1>
-        <p><a href="/measurement.html">Privacy and site measurement</a></p>
         <p>Serving clinics and mission hospitals with essential medical equipment, practical support and a shared purpose.</p>
       </header>
       <div className="about-editorial-story">

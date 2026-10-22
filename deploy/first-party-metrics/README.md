@@ -19,3 +19,7 @@ Deploy tested sources to a new server staging directory and run `sudo python3 in
 - `?traffic_test=1` on each site sets a browser-local internal-test flag and displays a badge. Test counts stay separate. `?traffic_test=0` removes it. Known QA campaign codes and WebDriver also use the test bucket. Team members must enable this on each browser they use. Old legacy campaign counters and Bible read counts remain separate; historical totals cannot be reconstructed as humans or source-level traffic.
 
 Run `python -m unittest test_server.py` and `node --test test-client.mjs`. The private dashboard refresh tool exports only aggregate rows and builds a local HTML dashboard. No public analytics credentials, cron jobs, extra advertising or account permissions are introduced.
+
+## Dashboard refresh
+
+Run `python refresh_dashboard.py --output <private-output-folder> --ledger <traffic-spend-ledger.json> --coverage <coverage.json>` from the authorized workstation. It uses the existing `meetingstone-vps` SSH alias, reads only daily aggregate tables and the separately labeled legacy counters, and writes `Website-Traffic-Dashboard.html` plus `Website-Traffic-Data.json`. Open the HTML locally; never deploy the report or its data under a public website. The ad table is a separately dated ledger snapshot, not a live billing feed. Website statistics update when the refresh command runs.
