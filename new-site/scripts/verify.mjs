@@ -31,6 +31,11 @@ for (const [file, html] of rendered) {
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const target = localReference(match[1], file)?.path;
     if (!target) continue;
+    // This exact same-origin asset is served by the private metrics proxy, outside static releases.
+    if (target === '__metrics/v1/client.js') {
+      await access(resolve(import.meta.dirname, '../../deploy/first-party-metrics/client.js'));
+      continue;
+    }
     await access(resolve(root, target));
     links++;
   }

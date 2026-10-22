@@ -195,6 +195,7 @@ function About() {
       <header className="about-editorial-masthead">
         <p className="about-eyebrow">About Med Mission Supplies</p>
         <h1>Equipment that helps<br />care go further.</h1>
+        <p><a href="/measurement.html">Privacy and site measurement</a></p>
         <p>Serving clinics and mission hospitals with essential medical equipment, practical support and a shared purpose.</p>
       </header>
       <div className="about-editorial-story">
@@ -345,6 +346,7 @@ function ContactForm({ search, draft }) {
     setState("submitting");
     try {
       await sendInquiry(data);
+      window.dispatchEvent(new CustomEvent("site-metric", { detail: "inquiry_accepted" }));
       setState("success");
       form.reset();
       setInquiry("");
@@ -426,6 +428,7 @@ function ContactForm({ search, draft }) {
       />
       <details className="form-privacy">
         <summary>Privacy and inquiry handling</summary>
+          <p>We keep private daily page, article and click totals and counts of accepted form submissions. These counters contain no names, contact details, message text or visitor IDs. Accepted does not confirm mailbox receipt or a qualified lead. Do Not Track and Global Privacy Control disable optional counting.</p>
         <p>
           We use Formspree to process your inquiry. When you arrive through one of
           our marketing links, a general source label may accompany your message so
