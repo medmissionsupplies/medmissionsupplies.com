@@ -16,10 +16,11 @@
     internal = internal || localStorage.getItem('site-metrics-internal') === '1';
   } catch { /* Explicit QA stays excluded for this page even without storage. */ }
   if (internal) {
-    const badge = document.createElement('a');
-    badge.href = location.pathname+'?traffic_test=0';
-    badge.textContent = 'Internal test mode · excluded · Turn off';
-    badge.style.cssText='position:fixed;bottom:8px;left:8px;z-index:2147483646;background:#112a35;color:#fff;padding:8px 12px;border-radius:8px;font:12px system-ui;box-shadow:0 2px 8px #0005';
+    // An informational label must not intercept navigation or discard in-progress answers.
+    // End testing explicitly with ?traffic_test=0 after the current task is finished.
+    const badge = document.createElement('div');
+    badge.textContent = 'Internal test mode · excluded';
+    badge.style.cssText='position:fixed;top:4px;right:4px;z-index:2147483646;pointer-events:none;background:#112a35;color:#fff;padding:3px 6px;border-radius:4px;font:10px system-ui;box-shadow:0 2px 8px #0005';
     document.body.appendChild(badge);
   }
   const permitted = () => navigator.doNotTrack !== '1' && navigator.globalPrivacyControl !== true;
