@@ -59,3 +59,16 @@ test('assessment milestones do not carry answers or repeat in the page',()=>{
   assert.equal(h.sent.filter(e=>e.event==='test_completed').length,1);
   assert.ok(!JSON.stringify(h.sent).includes('private'));
 });
+
+test('email-report milestones remain separate test events without contact or token data',()=>{
+  const h=harness({host:'psychologytestai.com',path:'/',search:'?traffic_test=1'});
+  for(const event of ['report_preview','email_verified','report_viewed','report_linked']){
+    h.listeners['site-metric']({detail:event});h.listeners['site-metric']({detail:event});
+    h.listeners['site-metric']({detail:{event,email:'private',token:'secret'}});
+    const rows=h.sent.filter(e=>e.event===event);
+    assert.equal(rows.length,1);assert.equal(rows[0].quality,'test');
+  }
+  assert.ok(!h.sent.some(e=>e.event==='profile_saved'));
+  assert.ok(!JSON.stringify(h.sent).includes('private'));
+  assert.ok(!JSON.stringify(h.sent).includes('secret'));
+});

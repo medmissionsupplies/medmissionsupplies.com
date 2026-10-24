@@ -8,6 +8,15 @@ def payload(**kw):
     return dict(page='/question/what-happens-after-death',target='none',source='google_paid',event='article_view',quality='visitor',receipt='aaaaaaaa-aaaa-4aaa-aaaa-aaaaaaaaaaaa',**kw)
 
 class Counters(unittest.TestCase):
+    def test_email_report_stages_are_brand_scoped_and_nonidentifying(self):
+        for event in ['report_preview','email_verified','report_viewed','report_linked']:
+            p=dict(payload(),page='/',event=event,quality='test')
+            for host in ['personalitytestai.com','psychologytestai.com']:
+                row=validate(host,'https://'+host,p)
+                self.assertEqual(row[4:6],(event,'test'))
+                with self.assertRaises(ValueError):validate(host,'https://'+host,dict(p,email='private@example.test'))
+                with self.assertRaises(ValueError):validate(host,'https://'+host,dict(p,report_token='private'))
+            with self.assertRaises(ValueError):validate('thepracticalbible.com','https://thepracticalbible.com',p)
     def test_privacy_and_input_boundary(self):
         p=payload()
         for bad in [dict(p,phone='123'),dict(p,page='/question/topic?email=private'),dict(p,event='answers'),dict(p,source='raw-search-term'),dict(p,target='https://external.test/private'),dict(p,receipt='person-id')]:

@@ -23,10 +23,11 @@ SOURCES = {"direct_unknown", "google_paid", "meta_paid", "other_paid", "search_o
 EVENTS = {"page_view", "visit_start", "article_view", "engaged_visit", "engaged_article",
           "link_click", "article_click", "cta_click", "outbound_click", "share_click", "app_store_click",
           "test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded",
+          "report_preview", "email_verified", "report_viewed", "report_linked",
           "inquiry_accepted", "pathway_click"}
 SITE_EVENTS = {
-    "personality": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded"},
-    "psychology": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded"},
+    "personality": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded", "report_preview", "email_verified", "report_viewed", "report_linked"},
+    "psychology": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded", "report_preview", "email_verified", "report_viewed", "report_linked"},
     "mms": {"inquiry_accepted"}, "doctors": {"pathway_click"}}
 SPECIAL = set().union(*SITE_EVENTS.values())
 BOT = re.compile(r"bot|crawler|spider|headless|lighthouse|facebookexternalhit|preview|curl|python|wget|uptime", re.I)

@@ -109,7 +109,7 @@
     lastClick.set(key,Date.now());send(event,target);
     if(site==='doctors'&&/^\/(hospitals|apply)(\/|$)/.test(current)&&event==='outbound_click'&&seconds>=60&&interacted)once('pathway_click');
   },true);
-  const outcomes=new Set(['test_started','first_answer','test_completed','profile_saved','existing_profile_loaded','inquiry_accepted']);
+  const outcomes=new Set(['test_started','first_answer','test_completed','profile_saved','existing_profile_loaded','report_preview','email_verified','report_viewed','report_linked','inquiry_accepted']);
   addEventListener('site-metric',e=>{const event=e.detail;if(typeof event==='string'&&outcomes.has(event))once(event)});
   if(isNew)send('visit_start');
   view();
