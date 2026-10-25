@@ -2,12 +2,37 @@ import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from server import Store, validate, page
+from server import Store, validate, page, EMAIL_ATTEMPT_EVENTS, ASSESSMENT_PROGRESS_EVENTS
 
 def payload(**kw):
     return dict(page='/question/what-happens-after-death',target='none',source='google_paid',event='article_view',quality='visitor',receipt='aaaaaaaa-aaaa-4aaa-aaaa-aaaaaaaaaaaa',**kw)
 
 class Counters(unittest.TestCase):
+    def test_email_milestones_are_scoped_and_private(self):
+        self.assertEqual(len(EMAIL_ATTEMPT_EVENTS),9)
+        self.assertEqual(ASSESSMENT_PROGRESS_EVENTS,{'test_progress_25','test_progress_50','test_progress_75'})
+        for event in EMAIL_ATTEMPT_EVENTS | ASSESSMENT_PROGRESS_EVENTS:
+            for host in ['personalitytestai.com','psychologytestai.com']:
+                for quality in ['visitor','test']:
+                    p=dict(payload(),page='/',event=event,quality=quality)
+                    row=validate(host,'https://'+host,p)
+                    self.assertEqual(row[4:6],(event,quality))
+                    for key in ['email','code','answers','error','report_id']:
+                        with self.assertRaises(ValueError):validate(host,'https://'+host,dict(p,**{key:'private'}))
+            for host in ['thepracticalbible.com','medmissionsupplies.com','missionarydoctors.com','meetingstoneai.com']:
+                with self.assertRaises(ValueError):validate(host,'https://'+host,dict(payload(),page='/',event=event))
+    def test_email_milestones_preserve_retry_dedup_and_test_separation(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as tmp:
+            s=Store(str(Path(tmp)/'data.sqlite'))
+            for n,event in enumerate(sorted(EMAIL_ATTEMPT_EVENTS | ASSESSMENT_PROGRESS_EVENTS)):
+                for j,quality in enumerate(['visitor','test']):
+                    p=dict(payload(),page='/',event=event,quality=quality,receipt=f'{n*2+j:08x}-aaaa-4aaa-aaaa-aaaaaaaaaaaa')
+                    row=validate('personalitytestai.com','https://personalitytestai.com',p)
+                    s.record(row);s.record(row)
+            rows=s.report()['rows']
+            self.assertEqual(len(rows),24)
+            self.assertTrue(all(r['count']==1 for r in rows))
+            self.assertTrue(all(set(r)=={'day','site','page','target','source','event','quality','count'} for r in rows))
     def test_privacy_and_input_boundary(self):
         p=payload()
         for bad in [dict(p,phone='123'),dict(p,page='/question/topic?email=private'),dict(p,event='answers'),dict(p,source='raw-search-term'),dict(p,target='https://external.test/private'),dict(p,receipt='person-id')]:

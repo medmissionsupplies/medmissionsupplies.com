@@ -20,14 +20,22 @@ HOSTS = {"thepracticalbible.com": "bible", "medmissionsupplies.com": "mms",
          "personalitytestai.com": "personality", "psychologytestai.com": "psychology"}
 SOURCES = {"direct_unknown", "google_paid", "meta_paid", "other_paid", "search_organic",
            "facebook_organic", "instagram_organic", "linkedin_organic", "social_other", "owned_referral", "referral_other"}
+EMAIL_ATTEMPT_EVENTS = {"email_requested", "email_code_sent", "email_code_presented", "email_send_failed",
+                        "email_security_failed", "email_verify_failed", "email_rate_limited",
+                        "report_link_sent", "report_link_failed"}
+ASSESSMENT_PROGRESS_EVENTS = {"test_progress_25", "test_progress_50", "test_progress_75"}
 EVENTS = {"page_view", "visit_start", "article_view", "engaged_visit", "engaged_article",
           "link_click", "article_click", "cta_click", "outbound_click", "share_click", "app_store_click",
           "test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded",
+          "report_preview", "email_verified", "report_viewed", "report_linked",
           "inquiry_accepted", "pathway_click"}
 SITE_EVENTS = {
-    "personality": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded"},
-    "psychology": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded"},
+    "personality": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded", "report_preview", "email_verified", "report_viewed", "report_linked"},
+    "psychology": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded", "report_preview", "email_verified", "report_viewed", "report_linked"},
     "mms": {"inquiry_accepted"}, "doctors": {"pathway_click"}}
+EVENTS.update(EMAIL_ATTEMPT_EVENTS | ASSESSMENT_PROGRESS_EVENTS)
+for assessment_site in ("personality", "psychology"):
+    SITE_EVENTS[assessment_site].update(EMAIL_ATTEMPT_EVENTS | ASSESSMENT_PROGRESS_EVENTS)
 SPECIAL = set().union(*SITE_EVENTS.values())
 BOT = re.compile(r"bot|crawler|spider|headless|lighthouse|facebookexternalhit|preview|curl|python|wget|uptime", re.I)
 SAFE_PATH = re.compile(r"^/[a-z0-9/_-]*(?:\.html)?$")

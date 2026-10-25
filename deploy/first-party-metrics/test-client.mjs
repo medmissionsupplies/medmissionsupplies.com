@@ -61,3 +61,33 @@ test('assessment milestones do not carry answers or repeat in the page',()=>{
   assert.equal(h.sent.filter(e=>e.event==='test_completed').length,1);
   assert.ok(!JSON.stringify(h.sent).includes('private'));
 });
+
+const emailEvents=['email_requested','email_code_sent','email_code_presented','email_send_failed','email_security_failed','email_verify_failed','email_rate_limited','report_link_sent','report_link_failed','test_progress_25','test_progress_50','test_progress_75'];
+test('email milestones are assessment-only, test-aware and once per page',()=>{
+  for(const host of ['personalitytestai.com','psychologytestai.com']){
+    const h=harness({host,path:'/',search:'?traffic_test=1'});
+    for(const event of emailEvents){
+      h.listeners['site-metric']({detail:event});h.listeners['site-metric']({detail:event});
+      assert.equal(h.sent.filter(e=>e.event===event).length,1);
+    }
+    assert.ok(h.sent.every(e=>e.quality==='test'));
+    h.listeners['site-metric']({detail:{event:'email_requested',email:'private@example.invalid',code:'00000000'}});
+    assert.ok(!JSON.stringify(h.sent).includes('private@example'));
+    assert.ok(h.elements.every(e=>e.style.cssText.includes('pointer-events:none')));
+  }
+  for(const host of ['thepracticalbible.com','medmissionsupplies.com','missionarydoctors.com','meetingstoneai.com']){
+    const h=harness({host,path:'/'});const before=h.sent.length;
+    for(const event of emailEvents)h.listeners['site-metric']({detail:event});
+    assert.equal(h.sent.length,before);
+  }
+});
+test('email milestones respect privacy and retain existing report outcomes',()=>{
+  const privateTab=harness({host:'personalitytestai.com',path:'/',dnt:'1'});
+  for(const event of emailEvents)privateTab.listeners['site-metric']({detail:event});
+  assert.equal(privateTab.sent.length,0);
+  const h=harness({host:'psychologytestai.com',path:'/'});
+  for(const event of ['report_preview','email_verified','report_viewed','report_linked']){
+    h.listeners['site-metric']({detail:event});
+    assert.equal(h.sent.filter(e=>e.event===event).length,1);
+  }
+});
