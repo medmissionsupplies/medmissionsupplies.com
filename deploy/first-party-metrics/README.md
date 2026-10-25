@@ -8,7 +8,9 @@ Send-confirmed means provider accepted, not inbox delivery or reading. Request-e
 
 After the frontend is verified live, record its actual ISO timestamp in the private output `Website-Metric-Releases.json` as `{"assessment_funnel_milestones":"ACTUAL_VERIFIED_UTC_TIMESTAMP"}`. The dashboard generator reads this file, or an explicit `--measurement-releases` path. Missing coverage or earlier ranges show **Not measured** instead of invented historical zeros. A range crossing release contains only measured events after release; separate provider delivery audits must never be backfilled as browser events.
 
-Focused checks: `python -m unittest test_server.py`; `node --test test-client.mjs test-dashboard.mjs`.
+The on-demand generator preserves existing dated advertising/budget/support metadata and curated HTML sections. It changes aggregate fields and embedded JSON only when refreshing an existing dashboard, and stops if its input/output files change concurrently. Initial creation still uses the template; a renderer upgrade requires its own reviewed update.
+
+Focused checks: `python -m unittest test_server.py test_dashboard_refresh.py`; `node --test test-client.mjs test-dashboard.mjs`.
 
 The owner requested all-source totals, article views/clicks, meaningful outcomes, QA exclusion and one dashboard on October 22, 2026. This collector adds no paid subscription or ad-platform pixel.
 
