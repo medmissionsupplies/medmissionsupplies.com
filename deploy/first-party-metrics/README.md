@@ -1,5 +1,15 @@
 # Private six-site measurement
 
+## Assessment funnel milestones (October 25 release)
+
+The collector accepts twelve additional fixed events only for Personality and Psychology. Nine email stages are: `email_requested`, `email_code_sent`, `email_code_presented`, `email_send_failed`, `email_security_failed`, `email_verify_failed`, `email_rate_limited`, `report_link_sent`, and `report_link_failed`. The other three are `test_progress_25`, `test_progress_50`, `test_progress_75`, emitted when an actual answer crosses 35/70/105 distinct answered questions of 140. Passive draft restoration and navigation do not emit them. These are browser milestones, at most once per page, not all attempts or unique people. No identity, free-form error or email-provider message data is added. Existing test quality, privacy signals, retry deduplication and other sites remain unchanged.
+
+Send-confirmed means provider accepted, not inbox delivery or reading. Request-error events can include ambiguous transport outcomes even when a provider accepted mail. Code-presented means its form mounted or restored. Security-failed means a visible challenge/load failure, not waiting or expiry. Successful email verification and full-report display stay separate existing events.
+
+After the frontend is verified live, record its actual ISO timestamp in the private output `Website-Metric-Releases.json` as `{"assessment_funnel_milestones":"ACTUAL_VERIFIED_UTC_TIMESTAMP"}`. The dashboard generator reads this file, or an explicit `--measurement-releases` path. Missing coverage or earlier ranges show **Not measured** instead of invented historical zeros. A range crossing release contains only measured events after release; separate provider delivery audits must never be backfilled as browser events.
+
+Focused checks: `python -m unittest test_server.py`; `node --test test-client.mjs test-dashboard.mjs`.
+
 The owner requested all-source totals, article views/clicks, meaningful outcomes, QA exclusion and one dashboard on October 22, 2026. This collector adds no paid subscription or ad-platform pixel.
 
 `server.py` listens only on 127.0.0.1:3196. The six named nginx application blocks expose exactly `GET /__metrics/v1/client.js` and write-only `POST /__metrics/v1/event`. They do not expose a report. Cookies, authorization and forwarding IP headers are removed; location access logs are off. Reports are retrieved through existing authorized SSH. Existing website access logs are not imported.

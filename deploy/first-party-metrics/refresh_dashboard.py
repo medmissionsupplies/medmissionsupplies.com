@@ -17,7 +17,7 @@ for name,path in files.items():
 print(json.dumps({'schema':1,'started_at':started,'generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'timezone':'UTC','rows':rows,'legacy':legacy}))
 '''
 def main():
- p=argparse.ArgumentParser();p.add_argument('--output',required=True);p.add_argument('--ledger',required=True);p.add_argument('--coverage');a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--output',required=True);p.add_argument('--ledger',required=True);p.add_argument('--coverage');p.add_argument('--measurement-releases');a=p.parse_args()
  result=subprocess.run(['ssh','meetingstone-vps','sudo','-n','python3','-'],input=REMOTE,text=True,capture_output=True,check=True)
  data=json.loads(result.stdout)
  ledger=json.loads(Path(a.ledger).read_text(encoding='utf-8-sig'))
@@ -25,6 +25,11 @@ def main():
  data['ads']=[{k:x.get(k) for k in ['campaign','platform','site','platform_campaign_id','status','allocated_cash_cap','media_lifetime_cap','media_spend','reported_impressions','reported_clicks','reported_link_clicks','last_observed_at','outcome_status']} for x in ledger['items']]
  data['budget']={'ceiling':ledger['cash_ceiling'],'continuation_hold':ledger.get('held_unallocated_continuation'),'essential_reserve':ledger['reserve']['allocated'],'combined_remaining':'Unknown until OpenAI allocation and current Meta settlement are reconciled.'}
  data['coverage']=json.loads(Path(a.coverage).read_text(encoding='utf-8-sig')) if a.coverage and Path(a.coverage).exists() else {}
+ # A verified frontend-release timestamp, never inferred from the first event or collector upload.
+ releases=Path(a.measurement_releases) if a.measurement_releases else Path(a.output)/'Website-Metric-Releases.json'
+ if releases.exists():
+  recorded=json.loads(releases.read_text(encoding='utf-8-sig'))
+  data['measurement_releases']={k:recorded[k] for k in ['assessment_funnel_milestones'] if isinstance(recorded.get(k),str)}
  output=Path(a.output);output.mkdir(parents=True,exist_ok=True)
  template=Path(__file__).with_name('dashboard.html').read_text(encoding='utf-8')
  html=template.replace('__METRICS_DATA__',json.dumps(data).replace('<','\\u003c'))
