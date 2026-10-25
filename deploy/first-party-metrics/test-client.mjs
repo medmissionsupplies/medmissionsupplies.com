@@ -2,16 +2,16 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import {readFileSync} from 'node:fs';
-const code=readFileSync(new URL('./client.js',import.meta.url),'utf8');
+const code=readFileSync(process.env.METRICS_CLIENT_PATH || new URL('./client.js',import.meta.url),'utf8');
 function harness({host='thepracticalbible.com',search='',dnt='0',stored={},path='/question/what-happens-after-death'}={}){
-  const sent=[],listeners={},domListeners={},timers=[],session=new Map(),local=new Map(Object.entries(stored));
+  const sent=[],elements=[],listeners={},domListeners={},timers=[],session=new Map(),local=new Map(Object.entries(stored));
   const location={hostname:host,pathname:path,search,href:`https://${host}${path}${search}`};
   const store=m=>({getItem:k=>m.get(k)??null,setItem:(k,v)=>m.set(k,v),removeItem:k=>m.delete(k)});
-  const document={referrer:'',visibilityState:'visible',hasFocus:()=>true,body:{appendChild(){}},createElement:()=>({style:{}}),addEventListener:(n,f)=>domListeners[n]=f};
+  const document={referrer:'',visibilityState:'visible',hasFocus:()=>true,body:{appendChild(el){elements.push(el)}},createElement:()=>({style:{}}),addEventListener:(n,f)=>domListeners[n]=f};
   class Element{closest(){return this}}
   const ctx={location,document,navigator:{doNotTrack:dnt},URL,URLSearchParams,sessionStorage:store(session),localStorage:store(local),crypto:{randomUUID:()=> 'aaaaaaaa-aaaa-4aaa-aaaa-aaaaaaaaaaaa'},AbortSignal:{timeout:()=>null},Element,Date,Set,Map,JSON,queueMicrotask:f=>f(),setTimeout:()=>{},setInterval:f=>timers.push(f),addEventListener:(n,f)=>listeners[n]=f,fetch:async(url,opt)=>{sent.push({url,...JSON.parse(opt.body)});return {ok:true}},history:{pushState(_s,_t,p){location.pathname=p},replaceState(_s,_t,p){location.pathname=p}}};
   ctx.window=ctx;vm.runInNewContext(code,ctx);
-  return {sent,ctx,listeners,domListeners,timers,local,Element};
+  return {sent,elements,ctx,listeners,domListeners,timers,local,Element};
 }
 test('untagged traffic counts article views without identity or raw query',()=>{
   const h=harness({search:'?email=secret&search=private'});
@@ -27,6 +27,26 @@ test('QA survives navigation and has a separate quality bucket',()=>{
 test('privacy signals and excluded Pairbond collect nothing',()=>{
   assert.equal(harness({dnt:'1'}).sent.length,0);
   assert.equal(harness({host:'pairbondai.com'}).sent.length,0);
+});
+test('MissionaryDoctors hides the QA badge while query and persisted QA visits remain excluded',()=>{
+  for(const options of [{search:'?traffic_test=1'},{stored:{'site-metrics-internal':'1'}}]){
+    const h=harness({host:'missionarydoctors.com',path:'/apply',...options});
+    h.ctx.history.pushState(null,'','/hospitals');
+    assert.equal(h.elements.length,0);
+    assert.ok(h.sent.length>0);
+    assert.ok(h.sent.every(e=>e.quality==='test'));
+    assert.equal(h.local.get('site-metrics-internal'),'1');
+  }
+});
+test('Other sites retain their QA label and ordinary Doctors visitors remain visitors',()=>{
+  for(const host of ['thepracticalbible.com','medmissionsupplies.com','meetingstoneai.com','personalitytestai.com','psychologytestai.com']){
+    const h=harness({host,path:'/',search:'?traffic_test=1'});
+    assert.equal(h.elements.length,1);
+    assert.ok(h.sent.every(e=>e.quality==='test'));
+  }
+  const h=harness({host:'missionarydoctors.com',path:'/apply'});
+  assert.equal(h.elements.length,0);
+  assert.ok(h.sent.every(e=>e.quality==='visitor'));
 });
 test('engaged reading requires focused time AND trusted interaction',()=>{
   const h=harness();for(let i=0;i<61;i++)h.timers[0]();

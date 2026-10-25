@@ -15,7 +15,8 @@
     if (internal) localStorage.setItem('site-metrics-internal','1');
     internal = internal || localStorage.getItem('site-metrics-internal') === '1';
   } catch { /* Explicit QA stays excluded for this page even without storage. */ }
-  if (internal) {
+  // MissionaryDoctors keeps its public banners clear; QA traffic remains in the test bucket.
+  if (internal && site !== 'doctors') {
     const badge = document.createElement('a');
     badge.href = location.pathname+'?traffic_test=0';
     badge.textContent = 'Internal test mode · excluded · Turn off';
