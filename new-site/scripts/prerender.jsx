@@ -28,7 +28,11 @@ const escape = (text) =>
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 async function renderCompleteApp(page) {
-  return renderToString(<App page={page} />);
+  const html = renderToString(<App page={page} />);
+  // Keep the explicitly public fallback usable when scripts fail or are disabled.
+  // Cloudflare documents this per-address marker; no zone setting is changed.
+  return html.replace(/<p class="contact-email-option">.*?<\/p>/g,
+    (link) => `<!--email_off-->${link}<!--/email_off-->`);
 }
 async function render(page, meta, path) {
   const appHtml = await renderCompleteApp(page);
