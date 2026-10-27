@@ -321,7 +321,7 @@ export function EquipmentDetail({ item }) {
             <Action
               href={"/contact.html?equipment=" + encodeURIComponent(item.title)}
             >
-              Get a quote
+              {item.id === "ultrasound" ? "Request ultrasound options" : "Get a quote"}
             </Action>
             <a
               className="text-link"
@@ -336,6 +336,7 @@ export function EquipmentDetail({ item }) {
             </a>
           </div>
           <p className="small-note">
+            {item.id === "ultrasound" && <>Tell us your facility and intended examinations. A model or budget can come later. </>}
             Sourced to order. Availability, condition, and service options are
             confirmed for your request.
           </p>

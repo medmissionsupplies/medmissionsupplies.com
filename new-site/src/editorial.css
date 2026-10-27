@@ -2882,6 +2882,9 @@ a.cds--header__menu-item[aria-current="page"] { background: transparent; box-sha
 .contact-form .cds--label { color: var(--ink); font-size: 16px; font-weight: 500; }
 .contact-form .cds--btn--primary { background: var(--action); color: white; min-width: 200px; }
 .contact-form .cds--btn--primary:hover { background: var(--ink); }
+.contact-email-option { margin: 0; font-size: 15px; line-height: 1.5; overflow-wrap: anywhere; }
+.contact-email-option a { color: var(--action); text-decoration: underline; text-underline-offset: 3px; }
+.contact-email-option a:focus-visible { outline: 2px solid var(--action); outline-offset: 3px; }
 .clean-footer { background: var(--ink); border-top: 2px solid var(--gold); }
 
 /* Prominent products and a consistent, high-contrast action treatment. */
