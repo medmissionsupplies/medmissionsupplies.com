@@ -442,18 +442,15 @@ function ContactForm({ search, draft }) {
           <InlineNotification
             kind="error"
             title="We couldn’t confirm delivery."
-            subtitle="Your message is still here. Check your connection and try again, or contact us through LinkedIn."
+            subtitle="Your message is still here. Try again, or email our team directly using the link below."
             hideCloseButton
             lowContrast
           />
           <a
             className="text-link form-fallback"
-            href="https://www.linkedin.com/company/med-mission-supplies"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:team@medmissionsupplies.com?subject=Equipment%20inquiry"
           >
-            Open our LinkedIn page <ArrowUpRight size={16} />
-            <span className="sr-only"> (opens in a new tab)</span>
+            Email team@medmissionsupplies.com <ArrowUpRight size={16} />
           </a>
         </div>
       )}
@@ -462,8 +459,9 @@ function ContactForm({ search, draft }) {
         renderIcon={ArrowRight}
         disabled={state === "submitting"}
       >
-        {state === "submitting" ? "Sending message…" : "Send message"}
+        {state === "submitting" ? "Sending inquiry…" : "Send inquiry"}
       </Button>
+      {state !== "error" && <p className="contact-email-option">Prefer email? <a href="mailto:team@medmissionsupplies.com?subject=Equipment%20inquiry">team@medmissionsupplies.com</a></p>}
     </form>
   );
 }

@@ -45,7 +45,7 @@ export const equipment = [
     category: "imaging",
     image: "reference/ultrasound-portable",
     summary:
-      "Portable and cart-based ultrasound, with compatible probes and accessories.",
+      "Ultrasound sourcing for clinics and hospitals. Discuss portable or cart-based systems, compatible probes, and accessories for your facility.",
     includes: [
       "Portable and cart-based systems",
       "Probes and compatible accessories",
