@@ -16,6 +16,8 @@ import {
   SideNavLink,
   SkipToContent,
   Theme,
+  Select,
+  SelectItem,
   TextInput,
   TextArea,
   InlineNotification,
@@ -258,7 +260,7 @@ function Employment() {
           <Action href="https://www.linkedin.com/company/med-mission-supplies">
             Visit MMS on LinkedIn
           </Action>
-          <a className="text-link" href="/contact.html">
+          <a className="text-link" href="/contact.html?topic=careers" data-metric="careers_contact_click">
             Ask about our team
             <ArrowRight size={18} />
           </a>
@@ -295,7 +297,8 @@ export function inquiryFromSearch(search = "") {
     materials:
       "I’d like free materials management support.\n\nFacility and location:\nEquipment list or purchasing question:\nBudget and timing:\n",
     quote:
-      "I’d like a quote under your lowest-quote guarantee.\n\nEquipment and requirements:\nFacility and location:\nBudget and timing:\n",
+      "I’d like equipment options and pricing for our facility.\n\nEquipment or exams needed:\nFacility and location:\n",
+    careers: "I’m writing about working with the Med Mission Supplies team.\n\nMy question:\n",
     charitable:
       "I’d like to discuss charitable pricing for our project.\n\nOrganization and mission:\nEquipment needed:\nDestination:\nBudget and timing:\n",
     service:
@@ -308,9 +311,18 @@ export function inquiryFromSearch(search = "") {
   return messages[topic] || "";
 }
 
+function inquiryTypeFromSearch(search = "") {
+  const params = new URLSearchParams(search);
+  const topic = params.get("topic");
+  if (topic === "service" || topic === "careers") return topic;
+  if (["procure", "quote", "charitable"].includes(topic) || equipment.some(item => item.title === params.get("equipment"))) return "equipment";
+  return "";
+}
+
 function ContactForm({ search, draft }) {
   const [state, setState] = useState("idle");
   const [fieldErrors, setFieldErrors] = useState({});
+  const [inquiryType, setInquiryType] = useState(() => draft?.inquiry_type ?? inquiryTypeFromSearch(search));
   const [inquiry, setInquiry] = useState(
     () => draft?.message ?? inquiryFromSearch(search),
   );
@@ -318,8 +330,10 @@ function ContactForm({ search, draft }) {
   const submitting = useRef(false);
   // Direct visits hydrate static HTML first; client navigation already has its query.
   React.useEffect(() => {
-    if (search === undefined && !draft)
+    if (search === undefined && !draft) {
       setInquiry(inquiryFromSearch(window.location.search));
+      setInquiryType(inquiryTypeFromSearch(window.location.search));
+    }
   }, []);
   React.useEffect(() => {
     if (state === "success" || state === "error")
@@ -350,6 +364,7 @@ function ContactForm({ search, draft }) {
       setState("success");
       form.reset();
       setInquiry("");
+      setInquiryType("");
     } catch {
       setState("error");
     } finally {
@@ -377,6 +392,9 @@ function ContactForm({ search, draft }) {
         </Button>
       </div>
     );
+  const emailSubject = inquiryType === "service" ? "Equipment service inquiry" :
+    inquiryType === "careers" ? "Careers inquiry" : "Equipment inquiry";
+  const emailHref = "mailto:team@medmissionsupplies.com?subject=" + encodeURIComponent(emailSubject);
   return (
     <form
       className="contact-form"
@@ -385,7 +403,12 @@ function ContactForm({ search, draft }) {
       onSubmit={submit}
       aria-busy={state === "submitting"}
     >
-      <p className="form-intro">A question or a full equipment list—start with what you know.</p>
+      <Select id="inquiry-type" name="inquiry_type" labelText="How can we help?" value={inquiryType} onChange={(event) => setInquiryType(event.target.value)}>
+        <SelectItem value="" text="General inquiry" />
+        <SelectItem value="equipment" text="Equipment options or quote" />
+        <SelectItem value="service" text="Equipment service or repair" />
+        <SelectItem value="careers" text="Working with MMS" />
+      </Select>
       <TextInput
         id="name"
         name="name"
@@ -414,7 +437,7 @@ function ContactForm({ search, draft }) {
         id="message"
         name="message"
         labelText="What can we help you with?"
-        helperText="Tell us the equipment and where it’s needed. A budget or model is helpful, but optional."
+        helperText={inquiryType === "equipment" ? "Tell us what your facility needs. A budget or model is helpful, but optional." : undefined}
         rows={6}
         required
         maxLength={6000}
@@ -448,7 +471,7 @@ function ContactForm({ search, draft }) {
           />
           <a
             className="text-link form-fallback"
-            href="mailto:team@medmissionsupplies.com?subject=Equipment%20inquiry"
+            href={emailHref}
           >
             Email team@medmissionsupplies.com <ArrowUpRight size={16} />
           </a>
@@ -461,7 +484,7 @@ function ContactForm({ search, draft }) {
       >
         {state === "submitting" ? "Sending inquiry…" : "Send inquiry"}
       </Button>
-      {state !== "error" && <p className="contact-email-option">Prefer email? <a href="mailto:team@medmissionsupplies.com?subject=Equipment%20inquiry">team@medmissionsupplies.com</a></p>}
+      {state !== "error" && <p className="contact-email-option">Prefer email? <a href={emailHref}>team@medmissionsupplies.com</a></p>}
     </form>
   );
 }
@@ -470,8 +493,8 @@ function Contact({ search, draft }) {
   return (
     <>
       <ExploreHero
-        title="Your next step starts here."
-        description="Lowest quote guaranteed. Free physician-to-physician equipment consultation and materials management support. Tell us how we can help."
+        title="Contact Med Mission Supplies."
+        description="Tell us what your facility needs. Ask about equipment options, request service, or contact our team with another question."
         image="ultrasound"
         compact
       />

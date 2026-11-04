@@ -5,7 +5,7 @@ const info = [
   [
     "index",
     "Hospital Equipment, Sourcing & Support",
-    "Hospital capital equipment at wholesale and charitable prices. Lowest quote guaranteed, with free physician-to-physician consultation and materials management support.",
+    "Hospital capital equipment at wholesale and charitable prices, with free physician-to-physician consultation and materials management support.",
   ],
   [
     "offerings",
@@ -35,7 +35,7 @@ const info = [
   [
     "contact",
     "Request Hospital Equipment & Support",
-    "Request a quote, free physician-to-physician equipment consultation, or free materials management support. MMS guarantees the lowest quote.",
+    "Request an equipment quote, service, free physician-to-physician consultation, or materials management support for your facility.",
   ],
 ];
 export const routes = [
