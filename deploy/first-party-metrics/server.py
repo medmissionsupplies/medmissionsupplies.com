@@ -20,15 +20,26 @@ HOSTS = {"thepracticalbible.com": "bible", "medmissionsupplies.com": "mms",
          "personalitytestai.com": "personality", "psychologytestai.com": "psychology"}
 SOURCES = {"direct_unknown", "google_paid", "meta_paid", "other_paid", "search_organic",
            "facebook_organic", "instagram_organic", "linkedin_organic", "social_other", "owned_referral", "referral_other"}
+EMAIL_ATTEMPT_EVENTS = {"email_requested", "email_code_sent", "email_code_presented", "email_send_failed",
+                        "email_security_failed", "email_verify_failed", "email_rate_limited",
+                        "report_link_sent", "report_link_failed"}
+ASSESSMENT_PROGRESS_EVENTS = {"test_progress_25", "test_progress_50", "test_progress_75"}
 EVENTS = {"page_view", "visit_start", "article_view", "engaged_visit", "engaged_article",
           "link_click", "article_click", "cta_click", "outbound_click", "share_click", "app_store_click",
           "test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded",
+          "report_preview", "email_verified", "report_viewed", "report_linked",
           "inquiry_accepted", "pathway_click"}
 SITE_EVENTS = {
-    "personality": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded"},
-    "psychology": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded"},
-    "mms": {"inquiry_accepted"}, "doctors": {"pathway_click"}}
+    "personality": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded", "report_preview", "email_verified", "report_viewed", "report_linked"},
+    "psychology": {"test_started", "first_answer", "test_completed", "profile_saved", "existing_profile_loaded", "report_preview", "email_verified", "report_viewed", "report_linked"},
+    "mms": {"inquiry_accepted", "equipment_quote_click", "equipment_service_click", "careers_contact_click"},
+    "doctors": {"pathway_click", "hospital_contact_click"},
+    "bible": {"question_answered", "question_next_click", "chapter_next_click", "chapter_audio_60s"}}
+REPORT_OUTCOMES = {"report_ai_ready", "report_ai_failed", "report_pdf_downloaded"}
+for assessment_site in ("personality", "psychology"):
+    SITE_EVENTS[assessment_site].update(EMAIL_ATTEMPT_EVENTS | ASSESSMENT_PROGRESS_EVENTS | REPORT_OUTCOMES)
 SPECIAL = set().union(*SITE_EVENTS.values())
+EVENTS.update(SPECIAL)
 BOT = re.compile(r"bot|crawler|spider|headless|lighthouse|facebookexternalhit|preview|curl|python|wget|uptime", re.I)
 SAFE_PATH = re.compile(r"^/[a-z0-9/_-]*(?:\.html)?$")
 RECEIPT = re.compile(r"^[0-9a-f-]{36}$")
@@ -73,7 +84,16 @@ def validate(host, origin, payload, ua="", dnt="", gpc=""):
     target = payload["target"]
     if target not in {"none", "external", "app_store", "phone", "email", "share", *["site:"+s for s in HOSTS.values()]}:
         target = page(site, target)
-    return (site, page(site, payload["page"]), target, payload["source"], payload["event"], payload["quality"], payload["receipt"])
+    path, event = page(site, payload["page"]), payload["event"]
+    if event in {"chapter_next_click","chapter_audio_60s"} and not path.startswith("/read/"): raise ValueError("chapter source")
+    if event == "chapter_next_click" and not target.startswith("/read/"): raise ValueError("chapter destination")
+    if event in {"question_next_click","question_answered"} and not path.startswith("/question/"): raise ValueError("question source")
+    if event == "question_next_click" and not target.startswith("/question/"): raise ValueError("question destination")
+    if event in {"equipment_quote_click","equipment_service_click","careers_contact_click"} and target != "/contact.html": raise ValueError("contact destination")
+    if event == "hospital_contact_click" and (not path.startswith("/hospitals/") or target != "external"): raise ValueError("hospital destination")
+    if event in REPORT_OUTCOMES and path != "/": raise ValueError("report source")
+    if event in REPORT_OUTCOMES | {"question_answered","chapter_audio_60s"} and target != "none": raise ValueError("outcome target")
+    return (site, path, target, payload["source"], event, payload["quality"], payload["receipt"])
 
 class Store:
     def __init__(self, path):
