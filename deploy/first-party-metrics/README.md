@@ -1,5 +1,17 @@
 # Private six-site measurement
 
+## Assessment funnel milestones (October 25 release)
+
+The collector accepts twelve additional fixed events only for Personality and Psychology. Nine email stages are: `email_requested`, `email_code_sent`, `email_code_presented`, `email_send_failed`, `email_security_failed`, `email_verify_failed`, `email_rate_limited`, `report_link_sent`, and `report_link_failed`. The other three are `test_progress_25`, `test_progress_50`, `test_progress_75`, emitted when an actual answer crosses 35/70/105 distinct answered questions of 140. Passive draft restoration and navigation do not emit them. These are browser milestones, at most once per page, not all attempts or unique people. No identity, free-form error or email-provider message data is added. Existing test quality, privacy signals, retry deduplication and other sites remain unchanged.
+
+Send-confirmed means provider accepted, not inbox delivery or reading. Request-error events can include ambiguous transport outcomes even when a provider accepted mail. Code-presented means its form mounted or restored. Security-failed means a visible challenge/load failure, not waiting or expiry. Successful email verification and full-report display stay separate existing events.
+
+After the frontend is verified live, record its actual ISO timestamp in the private output `Website-Metric-Releases.json` as `{"assessment_funnel_milestones":"ACTUAL_VERIFIED_UTC_TIMESTAMP"}`. The dashboard generator reads this file, or an explicit `--measurement-releases` path. Missing coverage or earlier ranges show **Not measured** instead of invented historical zeros. A range crossing release contains only measured events after release; separate provider delivery audits must never be backfilled as browser events.
+
+The on-demand generator preserves existing dated advertising/budget/support metadata and curated HTML sections. It changes aggregate fields and embedded JSON only when refreshing an existing dashboard, and stops if its input/output files change concurrently. Initial creation still uses the template; a renderer upgrade requires its own reviewed update.
+
+Focused checks: `python -m unittest test_server.py test_dashboard_refresh.py`; `node --test test-client.mjs test-dashboard.mjs`.
+
 The owner requested all-source totals, article views/clicks, meaningful outcomes, QA exclusion and one dashboard on October 22, 2026. This collector adds no paid subscription or ad-platform pixel.
 
 `server.py` listens only on 127.0.0.1:3196. The six named nginx application blocks expose exactly `GET /__metrics/v1/client.js` and write-only `POST /__metrics/v1/event`. They do not expose a report. Cookies, authorization and forwarding IP headers are removed; location access logs are off. Reports are retrieved through existing authorized SSH. Existing website access logs are not imported.
@@ -21,5 +33,7 @@ Deploy tested sources to a new server staging directory and run `sudo python3 in
 Run `python -m unittest test_server.py` and `node --test test-client.mjs`. The private dashboard refresh tool exports only aggregate rows and builds a local HTML dashboard. No public analytics credentials, cron jobs, extra advertising or account permissions are introduced.
 
 ## Dashboard refresh
+
+The activation date of each website feature is recorded in the private dashboard release metadata. Bible focused reading retains its original definition. `chapter_audio_60s` measures a minute of advancing media at the chosen rate, including background playback. Next-chapter navigation, the mobile next-question link, and voluntary short-answer feedback have separate counters. MMS records quote, service, and careers contact-link clicks. Doctors records marked outbound hospital-information clicks separately from the existing focused pathway event. Assessment report-ready and report-failed events reflect the status observed by the browser; PDF retrieval means validated bytes were handed to the browser for download. These are daily aggregate events. No answers, addresses, link tokens or report IDs are added.
 
 Run `python refresh_dashboard.py --output <private-output-folder> --ledger <traffic-spend-ledger.json> --coverage <coverage.json>` from the authorized workstation. It uses the existing `meetingstone-vps` SSH alias, reads only daily aggregate tables and the separately labeled legacy counters, and writes `Website-Traffic-Dashboard.html` plus `Website-Traffic-Data.json`. Open the HTML locally; never deploy the report or its data under a public website. The ad table is a separately dated ledger snapshot, not a live billing feed. Website statistics update when the refresh command runs.

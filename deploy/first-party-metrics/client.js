@@ -15,12 +15,12 @@
     if (internal) localStorage.setItem('site-metrics-internal','1');
     internal = internal || localStorage.getItem('site-metrics-internal') === '1';
   } catch { /* Explicit QA stays excluded for this page even without storage. */ }
-  // MissionaryDoctors keeps its public banners clear; QA traffic remains in the test bucket.
   if (internal && site !== 'doctors') {
-    const badge = document.createElement('a');
-    badge.href = location.pathname+'?traffic_test=0';
-    badge.textContent = 'Internal test mode · excluded · Turn off';
-    badge.style.cssText='position:fixed;bottom:8px;left:8px;z-index:2147483646;background:#112a35;color:#fff;padding:8px 12px;border-radius:8px;font:12px system-ui;box-shadow:0 2px 8px #0005';
+    // An informational label must not intercept navigation or discard in-progress answers.
+    // End testing explicitly with ?traffic_test=0 after the current task is finished.
+    const badge = document.createElement('div');
+    badge.textContent = 'Internal test mode · excluded';
+    badge.style.cssText='position:fixed;top:4px;right:4px;z-index:2147483646;pointer-events:none;background:#112a35;color:#fff;padding:3px 6px;border-radius:4px;font:10px system-ui;box-shadow:0 2px 8px #0005';
     document.body.appendChild(badge);
   }
   const permitted = () => navigator.doNotTrack !== '1' && navigator.globalPrivacyControl !== true;
@@ -55,7 +55,7 @@
   if (incoming) source=incoming;
   function touch(){storage.set('site-metrics-visit',JSON.stringify({at:Date.now(),source}));}
   let current=safePath(location.pathname), seconds=0, interacted=false, engaged=false;
-  let delivered=new Set(), routeKey=location.pathname, viewStarted=false;
+  let delivered=new Set(), routeKey=location.pathname, viewStarted=false, routeNumber=0;
   const lastClick=new Map();
   function send(event,target='none',path=current) {
     if (!permitted() || current==='/other') return;
@@ -73,6 +73,7 @@
   }
   function route(){
     if(location.pathname===routeKey)return;
+    routeNumber++;
     routeKey=location.pathname;current=safePath(routeKey);seconds=0;interacted=false;engaged=false;viewStarted=false;delivered=new Set();view();
   }
   for(const name of ['pushState','replaceState']){
@@ -80,6 +81,37 @@
   }
   addEventListener('popstate',route);
   document.addEventListener('visibilitychange',view);
+  const chapterPath = /^\/read\/[a-z0-9-]+\/\d{1,3}$/;
+  const questionPath = /^\/question\/[a-z0-9-]+$/;
+  if (site === 'bible') {
+    let pageNumber = -1, media, previous, playedSeconds = 0;
+    const observePlayback = event => {
+      const audio = event.target;
+      if (!event.isTrusted || !audio.matches?.('audio[data-aiv-audio]')) return;
+      if (pageNumber !== routeNumber || media !== audio) {
+        pageNumber = routeNumber; media = audio; playedSeconds = 0; previous = null;
+      }
+      const type = event.type;
+      if (!chapterPath.test(current) || location.pathname.replace(/\/$/,'') !== current ||
+          audio.getAttribute('data-aiv-audio') !== current.split('/')[2] ||
+          audio.seeking || !['playing','timeupdate'].includes(type) || audio.paused) {
+        previous = null;
+        return;
+      }
+      const now = performance.now(), position = audio.currentTime, rate = audio.playbackRate;
+      if (type === 'timeupdate' && previous && rate > 0 && previous.rate === rate) {
+        const elapsed = (now - previous.now) / 1000;
+        const advance = (position - previous.position) / rate;
+        // Both the clock and the actual media must advance. Skips and seeks earn no time.
+        if (advance > 0 && advance <= elapsed + .5) playedSeconds += Math.min(elapsed, advance);
+        if (playedSeconds >= 60) once('chapter_audio_60s');
+      }
+      previous = {now, position, rate};
+    };
+    for (const type of ['playing','timeupdate','seeking','seeked','waiting','pause','ended','emptied','ratechange']) {
+      document.addEventListener(type, observePlayback, true);
+    }
+  }
   for(const name of ['pointerdown','keydown','scroll'])addEventListener(name,e=>{if(e.isTrusted)interacted=true},{passive:true});
   setInterval(()=>{
     if(document.visibilityState==='visible'&&document.hasFocus())seconds++;
@@ -107,10 +139,21 @@
     const key=event+target;
     if(Date.now()-(lastClick.get(key)||0)<1500)return;
     lastClick.set(key,Date.now());send(event,target);
+    if (site === 'bible' && action === 'chapter_next_click' && chapterPath.test(current) && chapterPath.test(target)) send(action,target);
+    if (site === 'bible' && action === 'question_next_click' && questionPath.test(current) && questionPath.test(target)) send(action,target);
+    if (site === 'mms' && ['equipment_quote_click','equipment_service_click','careers_contact_click'].includes(action) &&
+        /^\/contact(?:\.html)?$/.test(target)) send(action,target);
+    if (site === 'doctors' && action === 'hospital_contact_click' && /^\/hospitals\/[a-z0-9-]+$/.test(current) && target === 'external') send(action,target);
     if(site==='doctors'&&/^\/(hospitals|apply)(\/|$)/.test(current)&&event==='outbound_click'&&seconds>=60&&interacted)once('pathway_click');
   },true);
-  const outcomes=new Set(['test_started','first_answer','test_completed','profile_saved','existing_profile_loaded','inquiry_accepted']);
-  addEventListener('site-metric',e=>{const event=e.detail;if(typeof event==='string'&&outcomes.has(event))once(event)});
+  const outcomes=new Set(['test_started','first_answer','test_completed','profile_saved','existing_profile_loaded','report_preview','email_verified','report_viewed','report_linked','inquiry_accepted']);
+  const assessmentOutcomes=['email_requested','email_code_sent','email_code_presented','email_send_failed','email_security_failed','email_verify_failed','email_rate_limited','report_link_sent','report_link_failed','test_progress_25','test_progress_50','test_progress_75','report_ai_ready','report_ai_failed','report_pdf_downloaded'];
+  if(site==='personality'||site==='psychology')for(const event of assessmentOutcomes)outcomes.add(event);
+  addEventListener('site-metric',e=>{
+    const event=e.detail;
+    if (site==='bible' && questionPath.test(current) && event==='question_answered') once(event);
+    else if(typeof event==='string'&&outcomes.has(event))once(event);
+  });
   if(isNew)send('visit_start');
   view();
 })();

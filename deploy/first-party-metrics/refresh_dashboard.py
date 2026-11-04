@@ -1,5 +1,5 @@
 """On-demand private dashboard. Uses existing SSH; retrieves only aggregate counts."""
-import argparse,json,subprocess
+import argparse,json,os,subprocess,tempfile
 from pathlib import Path
 REMOTE=r'''
 import json,sqlite3,datetime
@@ -17,21 +17,64 @@ for name,path in files.items():
 print(json.dumps({'schema':1,'started_at':started,'generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'timezone':'UTC','rows':rows,'legacy':legacy}))
 '''
 def main():
- p=argparse.ArgumentParser();p.add_argument('--output',required=True);p.add_argument('--ledger',required=True);p.add_argument('--coverage');a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--output',required=True);p.add_argument('--ledger',required=True);p.add_argument('--coverage');p.add_argument('--measurement-releases');a=p.parse_args()
+ output=Path(a.output)
+ output.mkdir(parents=True,exist_ok=True)
+ with (output/'.website-traffic-refresh.lock').open('a+b') as lock:
+  if os.name=='nt':
+   import msvcrt
+   if lock.tell()==0:lock.write(b'0');lock.flush()
+   lock.seek(0);msvcrt.locking(lock.fileno(),msvcrt.LK_NBLCK,1)
+  else:
+   import fcntl
+   fcntl.flock(lock,fcntl.LOCK_EX | fcntl.LOCK_NB)
+  refresh(a,output)
+
+def refresh(a,output):
+ prior=output/'Website-Traffic-Data.json'
+ current_html=output/'Website-Traffic-Dashboard.html'
+ releases=Path(a.measurement_releases) if a.measurement_releases else output/'Website-Metric-Releases.json'
+ guarded={path:path.read_bytes() if path.exists() else None for path in [prior,current_html,releases]}
  result=subprocess.run(['ssh','meetingstone-vps','sudo','-n','python3','-'],input=REMOTE,text=True,capture_output=True,check=True)
- data=json.loads(result.stdout)
+ raw=json.loads(result.stdout)
+ if set(raw)!={'schema','started_at','generated_at','timezone','rows','legacy'}:raise ValueError('Unexpected aggregate schema')
+ # Aggregate refreshes must retain separately reconciled advertising/support metadata.
+ # They do not make a new platform or billing observation.
+ data=json.loads(guarded[prior].decode('utf-8-sig')) if guarded[prior] is not None else {}
+ data.update(raw)
  ledger=json.loads(Path(a.ledger).read_text(encoding='utf-8-sig'))
  # Whitelist business aggregates; never include credentials or unrelated state in the dashboard.
- data['ads']=[{k:x.get(k) for k in ['campaign','platform','site','platform_campaign_id','status','allocated_cash_cap','media_lifetime_cap','media_spend','reported_impressions','reported_clicks','reported_link_clicks','last_observed_at','outcome_status']} for x in ledger['items']]
- data['budget']={'ceiling':ledger['cash_ceiling'],'continuation_hold':ledger.get('held_unallocated_continuation'),'essential_reserve':ledger['reserve']['allocated'],'combined_remaining':'Unknown until OpenAI allocation and current Meta settlement are reconciled.'}
- data['coverage']=json.loads(Path(a.coverage).read_text(encoding='utf-8-sig')) if a.coverage and Path(a.coverage).exists() else {}
- output=Path(a.output);output.mkdir(parents=True,exist_ok=True)
- template=Path(__file__).with_name('dashboard.html').read_text(encoding='utf-8')
- html=template.replace('__METRICS_DATA__',json.dumps(data).replace('<','\\u003c'))
+ if 'ads' not in data:data['ads']=[{k:x.get(k) for k in ['campaign','platform','site','platform_campaign_id','status','allocated_cash_cap','media_lifetime_cap','media_spend','reported_impressions','reported_clicks','reported_link_clicks','last_observed_at','outcome_status']} for x in ledger['items']]
+ if 'budget' not in data:data['budget']={'ceiling':ledger['cash_ceiling'],'continuation_hold':ledger.get('held_unallocated_continuation'),'essential_reserve':ledger['reserve']['allocated'],'combined_remaining':'Advertising values retain their separately dated observations. This aggregate refresh does not reconcile billing.'}
+ if a.coverage and Path(a.coverage).exists():data['coverage']=json.loads(Path(a.coverage).read_text(encoding='utf-8-sig'))
+ else:data.setdefault('coverage',{})
+ # A verified frontend-release timestamp, never inferred from the first event or collector upload.
+ if guarded[releases] is not None:
+  recorded=json.loads(guarded[releases].decode('utf-8-sig'))
+  release_keys=['assessment_funnel_milestones','bible_reading_actions','bible_audio_playback','mms_contact_actions','doctors_contact_actions','personality_report_outcomes','psychology_report_outcomes']
+  data['measurement_releases']={**data.get('measurement_releases',{}),**{k:recorded[k] for k in release_keys if isinstance(recorded.get(k),str)}}
+ output.mkdir(parents=True,exist_ok=True)
+ if guarded[current_html] is not None:
+  # Preserve curated status/financial sections and rendering. Renderer upgrades are
+  # a separately reviewed operation; a data refresh changes only embedded JSON.
+  import re
+  pattern=r'(<script id="data" type="application/json">)[\s\S]*?(</script>)'
+  html,n=re.subn(pattern,lambda m:m.group(1)+json.dumps(data).replace('<','\\u003c')+m.group(2),guarded[current_html].decode('utf-8-sig'),count=1)
+  if n!=1:raise ValueError('Existing dashboard data block is not recognized')
+ else:
+  template=Path(__file__).with_name('dashboard.html').read_text(encoding='utf-8')
+  html=template.replace('__METRICS_DATA__',json.dumps(data).replace('<','\\u003c'))
  # Prepare both files before replacing the prior snapshots.
- for name,body in [('Website-Traffic-Data.json',json.dumps(data,indent=2)+'\n'),('Website-Traffic-Dashboard.html',html)]:
-  (output/(name+'.tmp')).write_text(body,encoding='utf-8')
- for name in ['Website-Traffic-Data.json','Website-Traffic-Dashboard.html']:
-  (output/(name+'.tmp')).replace(output/name)
+ staged={}
+ try:
+  for dest,body in [(prior,json.dumps(data,indent=2)+'\n'),(current_html,html)]:
+   with tempfile.NamedTemporaryFile(dir=output,prefix='.traffic-',delete=False,mode='w',encoding='utf-8') as tmp:
+    staged[dest]=Path(tmp.name)
+    tmp.write(body)
+  for path,original in guarded.items():
+   if (path.read_bytes() if path.exists() else None)!=original:raise RuntimeError('Concurrent dashboard update; preserve current files and retry')
+  for dest,tmp in staged.items():tmp.replace(dest)
+ finally:
+  for tmp in staged.values():tmp.unlink(missing_ok=True)
  print(json.dumps({'dashboard':str(output/'Website-Traffic-Dashboard.html'),'refreshed_at':data['generated_at'],'aggregate_rows':len(data['rows']),'visitor_events':sum(r['count'] for r in data['rows'] if r['quality']=='visitor'),'test_events_separate':sum(r['count'] for r in data['rows'] if r['quality']=='test')}))
 if __name__=='__main__':main()
