@@ -68,7 +68,7 @@ def refresh(a,output):
  staged={}
  try:
   for dest,body in [(prior,json.dumps(data,indent=2)+'\n'),(current_html,html)]:
-   with tempfile.NamedTemporaryFile(dir=output,prefix='.traffic-',delete=False,mode='w',encoding='utf-8') as tmp:
+   with tempfile.NamedTemporaryFile(dir=output,prefix='.traffic-',delete=False,mode='w',encoding='utf-8',newline='') as tmp:
     staged[dest]=Path(tmp.name)
     tmp.write(body)
   for path,original in guarded.items():
