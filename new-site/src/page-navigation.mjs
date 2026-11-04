@@ -17,7 +17,7 @@ export function installPageNavigation({ render, metadata, prepare = async () => 
   const stateWith = key => ({ ...win.history.state, mms: { entry: key } });
   const snapshot = () => {
     const form = doc.querySelector('.contact-form');
-    const draft = form ? Object.fromEntries(['name', 'email', 'message'].map(name => [name, form.elements.namedItem(name)?.value ?? ''])) : undefined;
+    const draft = form ? Object.fromEntries(['name', 'email', 'message', 'inquiry_type'].filter(name => form.elements.namedItem(name)).map(name => [name, form.elements.namedItem(name).value])) : undefined;
     snapshots.set(entry, { left: win.scrollX, top: win.scrollY, draft });
   };
   const scroll = (url, saved) => {

@@ -41,9 +41,9 @@ const icons = {
   diagnostics: Microscope,
   hospital: Hospital,
 };
-export function Action({ children, href, secondary = false }) {
+export function Action({ children, href, secondary = false, metric }) {
   return (
-    <a className={`mms-action${secondary ? " secondary" : ""}`} href={href}>
+    <a className={`mms-action${secondary ? " secondary" : ""}`} href={href} data-metric={metric}>
       {children}
       <ArrowUpRight size={20} />
     </a>
@@ -166,10 +166,10 @@ export function NewHome() {
             Quality equipment for almost every hospital department, at wholesale
             and charitable prices. We procure it, support it, and service it.
           </p>
-          <div className="quote-assurance"><Checkmark size={18} />Lowest quote guaranteed.</div>
+          <div className="quote-assurance"><Checkmark size={18} />Quotes tailored to your facility.</div>
           <div className="action-row">
             <Action href="/offerings.html">Browse all equipment</Action>
-            <Action href="/contact.html" secondary>
+            <Action href="/contact.html?topic=quote" metric="equipment_quote_click" secondary>
               Get a quote
             </Action>
           </div>
@@ -237,7 +237,7 @@ export function ExploreHero({
         )}
         <h1>{title}</h1>
         {description && <p>{description}</p>}
-        {action && <Action href={action[1]}>{action[0]}</Action>}
+        {action && <Action href={action[1]} metric={action[2]}>{action[0]}</Action>}
       </div>
       {photo ? <figure className="page-banner-media credited-banner-media">
         <div><Photo name={image} alt={photo.alt || photo.caption} eager /></div>
@@ -254,7 +254,7 @@ export function EquipmentCatalog() {
         title="Hospital equipment. All in one place."
         description="Browse every equipment type below. Open a card for options, practical considerations, and a quote for your facility."
         image="anesthesia"
-        action={["Request an equipment quote", "/contact.html?topic=procure"]}
+        action={["Request an equipment quote", "/contact.html?topic=procure", "equipment_quote_click"]}
       />
       <div className="content-width catalog-section">
         {categories.map((category) => {
@@ -273,7 +273,7 @@ export function EquipmentCatalog() {
         })}
         <div className="catalog-note">
           <p>Need equipment you don’t see here?</p>
-          <Action href="/contact.html?topic=procure">Send your equipment list</Action>
+          <Action href="/contact.html?topic=procure" metric="equipment_quote_click">Send your equipment list</Action>
         </div>
       </div>
     </>
@@ -316,15 +316,17 @@ export function EquipmentDetail({ item }) {
         <div className="equipment-summary">
           <h1>{item.title}</h1>
           <p>{item.summary}</p>
-          <span className="pricing-label">Wholesale & charitable pricing · Lowest quote guaranteed.</span>
+          <span className="pricing-label">Wholesale and charitable pricing available</span>
           <div className="action-row">
             <Action
               href={"/contact.html?equipment=" + encodeURIComponent(item.title)}
+              metric="equipment_quote_click"
             >
-              {item.id === "ultrasound" ? "Request ultrasound options" : "Get a quote"}
+              {item.id === "ultrasound" ? "Request systems and probe options" : "Get a quote"}
             </Action>
             <a
               className="text-link"
+              data-metric="equipment_service_click"
               href={
                 "/contact.html?equipment=" +
                 encodeURIComponent(item.title) +
@@ -336,7 +338,7 @@ export function EquipmentDetail({ item }) {
             </a>
           </div>
           <p className="small-note">
-            {item.id === "ultrasound" && <>Tell us your facility and intended examinations. A model or budget can come later. </>}
+            {item.id === "ultrasound" && <>Tell us which exams your clinic or hospital performs. A model or budget can come later. </>}
             Sourced to order. Availability, condition, and service options are
             confirmed for your request.
           </p>
@@ -804,7 +806,7 @@ export function BuyingGuide({ item }) {
                       ))}
                     </div>
                     <div className="guide-item-actions">
-                      <a className="mms-action" href={`/contact.html?equipment=${encodeURIComponent(listing.title)}`}>
+                      <a className="mms-action" data-metric="equipment_quote_click" href={`/contact.html?equipment=${encodeURIComponent(listing.title)}`}>
                         Ask about {entry.title.toLowerCase()}<ArrowRight size={18} />
                       </a>
                       <a href={equipmentUrl(listing)}>Equipment & service options</a>
@@ -825,7 +827,7 @@ export function BuyingGuide({ item }) {
                 </li>
               ))}
             </ul>
-            <Action href="/contact.html?topic=procure">
+            <Action href="/contact.html?topic=procure" metric="equipment_quote_click">
               Discuss your equipment list
             </Action>
           </section>
@@ -883,7 +885,7 @@ export function Services() {
             <div>
               <h2>{title}</h2>
               <p>{description}</p>
-              <Action href={href}>{label}</Action>
+              <Action href={href} metric={id === "service" ? "equipment_service_click" : undefined}>{label}</Action>
             </div>
           </section>
         ))}
@@ -891,13 +893,13 @@ export function Services() {
       <AdvisoryOptions />
       <section className="pricing-panel content-width" id="pricing">
         <div>
-          <h2>Lowest quote. Guaranteed.</h2>
+          <h2>Request pricing for your facility.</h2>
           <p>
             Wholesale pricing for hospitals and clinics. Charitable pricing for
             mission-driven projects.
           </p>
         </div>
-        <Action href="/contact.html?topic=quote">
+        <Action href="/contact.html?topic=quote" metric="equipment_quote_click">
           Request a quote
         </Action>
       </section>

@@ -239,6 +239,6 @@ export function GuideInquiry({ href }) {
   return <aside className="rg-article-contact" aria-label="Discuss this purchase with MMS">
     <h2>Compare your options with MMS.</h2>
     <p>Share your equipment list, destination and budget. We can help you compare the complete package and plan your next step.</p>
-    <a className="mms-action" href={href}>Discuss this purchase with MMS <ArrowUpRight size={18} aria-hidden="true" /></a>
+    <a className="mms-action" data-metric="equipment_quote_click" href={href}>Discuss this purchase with MMS <ArrowUpRight size={18} aria-hidden="true" /></a>
   </aside>;
 }
