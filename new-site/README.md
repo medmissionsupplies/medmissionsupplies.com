@@ -18,6 +18,10 @@ The build produces a portable static site in `dist/`: 134 canonical pages, 133 d
 
 The footer displays the package version. Bump it before preparing a release.
 
+## Version 1.9.0 "Warm Mission" presentation
+
+`src/theme.css` (imported last in `main.jsx`) layers a warmer look over the Carbon styles: Fraunces headlines and Inter body text (self-hosted from `@fontsource-variable`, OFL licences in `licenses/`), a cream page background, deep navy, and one orange action colour for every button. Equipment cards lift on hover with a quiet arrow or text link instead of stacked buttons, the two free-help cards carry real photographs, and navy hero panels have a soft glow. The homepage lead names who MMS serves and states the owner's promise: "If we can't give you the best value, we'll tell you who can." Careers is now a short application form (name, email, area of interest, optional résumé/LinkedIn link, message) sent through the existing Formspree endpoint as `inquiry_type=careers`. To revert the look, remove the `theme.css` and font imports from `main.jsx`.
+
 ## Version 1.8.3 buyer library
 
 Version 1.8.3 reviews and strengthens the remaining 80 articles after the 24 targeted revisions in 1.8.2. It adds concrete package comparisons, ownership-cost decisions, current primary-source checks and more specific titles, retaining all 104 article routes and department anchors. Four newly cleared real photographs improve PACS, handover and equipment-service coverage; department and planning pages reuse larger cleared equipment photographs with individual credits. Legacy narratives support separate paragraphs, and the visible sharing menu is labelled “Share this guide.” Existing responsive WebP, social previews, source distinctions and MMS inquiry context remain in place.
@@ -42,7 +46,7 @@ Every equipment and resource page offers clean-link copying, optional native sha
 
 ## Website presentation
 
-MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Navy, clear blue actions, white reading surfaces, and amber offer buttons create a professional identity. Straight photo banners, simple corners, consistent equipment cards, and clear inquiry links carry that identity across every page.
+MMS's hospital-wide procurement, support, and service offering is central, with wholesale and charitable pricing. Navy, a warm cream background, one orange action colour and serif headlines create a professional identity (see 1.9.0). Straight photo banners, simple corners, consistent equipment cards, and clear inquiry links carry that identity across every page.
 
 The homepage and services page offer free physician-to-physician equipment consultation and free materials management support. Each has a dedicated prefilled inquiry path. The owner-provided lowest-quote guarantee appears on the homepage, equipment details, services, and contact page. No additional guarantee conditions or clinical services have been invented.
 

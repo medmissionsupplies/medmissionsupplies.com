@@ -163,10 +163,11 @@ export function NewHome() {
             <span>Within reach.</span>
           </h1>
           <p>
-            Quality equipment for almost every hospital department, at wholesale
-            and charitable prices. We procure it, support it, and service it.
+            Equipment for clinics, hospitals and mission teams, at wholesale and
+            charitable prices.
+            <strong className="mm-promise">If we can’t give you the best value, we’ll tell you who can.</strong>
           </p>
-          <div className="quote-assurance"><Checkmark size={18} />Quotes tailored to your facility.</div>
+          <div className="quote-assurance"><Checkmark size={18} />Free physician consultation · Service after delivery</div>
           <div className="action-row">
             <Action href="/offerings.html">Browse all equipment</Action>
             <Action href="/contact.html?topic=quote" metric="equipment_quote_click" secondary>

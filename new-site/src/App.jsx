@@ -242,6 +242,95 @@ function About() {
   );
 }
 
+const CAREER_AREAS = [
+  "Biomedical / service technician",
+  "Logistics & operations",
+  "Sourcing & sales",
+  "Clinical advisor",
+  "Volunteer",
+  "Something else",
+];
+
+function CareersForm() {
+  const [state, setState] = useState("idle");
+  const [error, setError] = useState("");
+  const notificationRef = useRef(null);
+  const submitting = useRef(false);
+  React.useEffect(() => {
+    if (state === "success" || state === "error") notificationRef.current?.focus();
+  }, [state]);
+  async function submit(event) {
+    event.preventDefault();
+    if (submitting.current) return;
+    const form = event.currentTarget;
+    if (!form.reportValidity()) return;
+    const data = new FormData(form);
+    if (String(data.get("_gotcha") || "")) return;
+    const campaign = currentCampaign();
+    if (campaign) data.set("campaign_reference", campaign);
+    submitting.current = true;
+    setError("");
+    setState("submitting");
+    try {
+      await sendInquiry(data);
+      window.dispatchEvent(new CustomEvent("site-metric", { detail: "inquiry_accepted" }));
+      form.reset();
+      setState("success");
+    } catch {
+      setError("We couldn’t confirm delivery. Your answers are still here. Try again, or email team@medmissionsupplies.com.");
+      setState("error");
+    } finally {
+      submitting.current = false;
+    }
+  }
+  return (
+    <section className="careers-apply content-width" aria-labelledby="apply-heading">
+      {state === "success" ? (
+        <div className="careers-form form-success" ref={notificationRef} tabIndex={-1} role="status">
+          <div className="success-mark"><Checkmark size={32} /></div>
+          <h2 id="apply-heading">Thank you for applying.</h2>
+          <p>Your application has been sent to Med Mission Supplies. We read every application and reply by email.</p>
+          <Button kind="tertiary" onClick={() => setState("idle")}>Send another application</Button>
+        </div>
+      ) : (
+        <form className="careers-form" action={CONTACT_ENDPOINT} method="POST" onSubmit={submit} aria-busy={state === "submitting"}>
+          <input type="hidden" name="inquiry_type" value="careers" />
+          <input type="hidden" name="_subject" value="Careers application" />
+          <input type="text" name="_gotcha" tabIndex={-1} autoComplete="off" className="honeypot" aria-hidden="true" />
+          <h2 id="apply-heading">Apply to join the team.</h2>
+          <p className="careers-intro">Tell us a little about yourself. We read every application and reply by email.</p>
+          <div className="careers-row">
+            <label>Your name<input type="text" name="name" autoComplete="name" required maxLength={160} /></label>
+            <label>Email address<input type="email" name="email" autoComplete="email" required maxLength={254} /></label>
+          </div>
+          <div className="careers-row">
+            <label>Area of interest
+              <select name="role_interest" required defaultValue="">
+                <option value="">Choose one</option>
+                {CAREER_AREAS.map((area) => <option key={area}>{area}</option>)}
+              </select>
+            </label>
+            <label><span>Résumé or LinkedIn link <span className="opt">(optional)</span></span><input type="url" name="resume_link" placeholder="https://" maxLength={500} /></label>
+          </div>
+          <label>Why do you want to work with us?<textarea name="message" rows={5} required maxLength={4000} /></label>
+          {state === "error" && (
+            <p className="careers-error" ref={notificationRef} tabIndex={-1} role="alert">{error}</p>
+          )}
+          <div className="careers-actions">
+            <button type="submit" className="mms-action" disabled={state === "submitting"}>
+              {state === "submitting" ? "Sending application…" : "Send application"}
+              <ArrowRight size={20} />
+            </button>
+            <a className="text-link" href="https://www.linkedin.com/company/med-mission-supplies">
+              Or follow us on LinkedIn <ArrowUpRight size={16} />
+            </a>
+          </div>
+        </form>
+      )}
+    </section>
+  );
+}
+
 function Employment() {
   return (
     <>
@@ -250,22 +339,7 @@ function Employment() {
         description="Help hospitals and clinics get the equipment and support they need."
         image="laboratory"
       />
-      <section className="careers-layout content-width">
-        <div>
-          <h2>Join Med Mission Supplies.</h2>
-          <p>
-            Visit our LinkedIn page for company updates, or contact us about
-            working with the team.
-          </p>
-          <Action href="https://www.linkedin.com/company/med-mission-supplies">
-            Visit MMS on LinkedIn
-          </Action>
-          <a className="text-link" href="/contact.html?topic=careers" data-metric="careers_contact_click">
-            Ask about our team
-            <ArrowRight size={18} />
-          </a>
-        </div>
-      </section>
+      <CareersForm />
     </>
   );
 }
