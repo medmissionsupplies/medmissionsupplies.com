@@ -9,6 +9,10 @@ import "./styles.scss";
 import "./editorial.css";
 import "./editorial-guidance.css";
 import "./research-guides.css";
+import "@fontsource-variable/fraunces/opsz.css";
+import "@fontsource-variable/fraunces/opsz-italic.css";
+import "@fontsource-variable/inter/opsz.css";
+import "./theme.css";
 
 import { metadata, routes } from "./routes.mjs";
 function ClientApp() {
