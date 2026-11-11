@@ -345,6 +345,21 @@ export function EquipmentDetail({ item }) {
           </p>
         </div>
       </section>
+      {item.id === "ultrasound" && <section className="content-width ultrasound-request" aria-labelledby="ultrasound-request-title">
+        <span className="editorial-kicker">For clinics and hospitals</span>
+        <h2 id="ultrasound-request-title">Build a complete ultrasound request.</h2>
+        <p>Start with the exams your team performs. These are configurations to discuss, not a list of equipment in stock.</p>
+        <div className="ultrasound-options">
+          <article><h3>Portable system</h3><p>Discuss room-to-room use, battery needs, a trolley and the probes required for your examinations.</p></article>
+          <article><h3>Cart-based system</h3><p>Discuss a dedicated exam space, probe selection, software options and image storage or export.</p></article>
+          <article><h3>Probe or accessory request</h3><p>Share the exact system model and, if known, software version. Compatibility must be confirmed for the proposed item.</p></article>
+        </div>
+        <div className="ultrasound-request-process">
+          <h3>From your request to a clear quote</h3>
+          <ol><li><strong>Tell us the use.</strong> Include your facility, intended exams and delivery location. A model and budget are optional.</li><li><strong>Discuss the options.</strong> Confirm the proposed system, probes, accessories and condition against your needs.</li><li><strong>Check the complete package.</strong> Before purchase, confirm availability, price, delivery, training and service terms in your quote.</li></ol>
+          <Action href="/contact.html?equipment=Ultrasound%20systems" metric="equipment_quote_click">Request systems and probe options</Action>
+        </div>
+      </section>}
       {researchGuide ? <section className="content-width equipment-research-link">
         <div><span className="editorial-kicker">Before you buy</span><h2>{researchGuide.sheet.title}</h2><p>{researchGuide.sheet.firstChoice}</p></div>
         <Action href={articleUrl(researchGuide)}>Read the buying guide</Action>

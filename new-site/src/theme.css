@@ -183,3 +183,16 @@ a.cds--header__menu-item:hover{background:var(--paper)!important}
   .advisory-card{min-height:340px}
 }
 @media (prefers-reduced-motion:reduce){.mms-site *{transition:none!important}}
+
+/* Ultrasound: a concrete package and quote path, without implying stock. */
+.ultrasound-request{padding-block:24px 40px}
+.ultrasound-request>h2{margin:8px 0 12px;max-width:24ch}
+.ultrasound-request>p{max-width:70ch;color:var(--muted);line-height:1.65}
+.ultrasound-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}
+.ultrasound-options article{border:1px solid var(--line);border-radius:14px;background:#fff;padding:24px}
+.ultrasound-options h3,.ultrasound-request-process h3{font-size:23px;line-height:1.25;margin-bottom:12px}
+.ultrasound-options p,.ultrasound-request-process li{font-size:16px;line-height:1.65;color:var(--muted)}
+.ultrasound-request-process{margin-top:24px;padding:28px;border-radius:14px;background:var(--soft)}
+.ultrasound-request-process ol{display:grid;gap:12px;max-width:78ch;padding-left:22px;margin-bottom:24px}
+.ultrasound-request-process strong{color:var(--ink)}
+@media(max-width:767px){.ultrasound-options{grid-template-columns:1fr}.ultrasound-options article,.ultrasound-request-process{padding:20px}}
